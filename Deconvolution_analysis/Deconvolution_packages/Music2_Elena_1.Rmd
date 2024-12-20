@@ -1,0 +1,456 @@
+---
+title: |
+  | 
+  | MuSiC2: cell type deconvolution for multi-condition bulk RNA-seq data
+subtitle: "First section"
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+  word_document:
+    toc: true
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, cache = TRUE setup, echo=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(#echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+
+opts_knit$set(width=75)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+El paquete usado para este análisis es MuSiC2, el cual está diseñado para estimar proporciones celulares en datos bulk RNA-seq mediante el uso de datos scRNA-seq como referencia, cuando los datos bulk y scRNA-seq se generan con muestras con diferentes condiciones clínicas.
+
+Repositorio GitHub de MuSiC2: <https://github.com/Jiaxin-Fan/MuSiC2>
+
+Página oficial de los autores para este paquete: <https://xuranw.github.io/MuSiC/articles/pages/MuSiC2.html#music2-deconvolution>
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+#If you have never used MuSiC before, please install this integrated package for both MuSiC and MuSiC2.
+
+# install devtools if necessary
+#install.packages('devtools')
+# install the MuSiC package
+#devtools::install_github('xuranw/MuSiC')
+
+#If you have installed MuSiC version 0.2.0 or lower, a separate installation of MuSiC2 uses following:
+# install devtools if necessary
+#if (!"devtools" %in% rownames(installed.packages())) {
+#  install.packages('devtools')
+#}
+#devtools::install_github("renozao/xbioc")
+# install the MuSiC2 package
+#if (!"MuSiC2" %in% rownames(installed.packages())) {
+#  devtools::install_github('Jiaxin-Fan/MuSiC2')
+#}
+```
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "MuSiC","MuSiC2", "gplots")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak","reshape2","ggfortify","cowplot","GEOquery","Seurat","data.table","limma","illuminaHumanv4.db")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+#Datos
+
+Hay dos tipos de input data: bulk RNA-seq y sc RNA-seq.
+
+## Bulk RNA-seq
+
+Los datos de expresión de seqüenciación de Bulk RNA recogidos de muestras de dos condiciones clínicas diferentes, por ejemplo, sano y enfermo. Estos serían los datos que queremos deconvolucionar.
+
+Ene ste estudio uso los datos del estudio GSE54467 descargados mediante la función ```getGEO```.
+
+```{r, cache = TRUE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+
+#gset <- getGEO("GSE65904", GSEMatrix =TRUE, getGPL=FALSE)
+#if (length(gset) > 1) idx <- grep("GPL10558", attr(gset, "names")) else idx <- 1
+#gset <- gset[[idx]]
+#table(gset$characteristics_ch1) # gender
+#table(gset$characteristics_ch1.2) # Tumor stage
+#table(gset$characteristics_ch1.3) # Tissue 
+#table(gset$characteristics_ch1.4) # distant metastasis free survival
+#table(gset$characteristics_ch1.5) # distant metastasis free survival (death/alive)
+#table(gset$characteristics_ch1.6) # disease specific survival
+#table(gset$characteristics_ch1.7) # disease specific survival (death/alive)
+
+gset <- getGEO("GSE54467", GSEMatrix =TRUE, getGPL=FALSE)
+if (length(gset) > 1) idx <- grep("GPL6884", attr(gset, "names")) else idx <- 1
+gset <- gset[[idx]]
+
+# Convert the object to a list
+x <- illuminaHumanv4SYMBOL
+# Get the probe identifiers that are mapped to a gene symbol
+mapped_probes <- mappedkeys(x)
+# Convert to a list
+xx <- as.list(x[mapped_probes])
+my_genes <- as.data.frame(unlist(xx[(rownames(gset@assayData$exprs))]))
+my_genes$gene <- rownames(my_genes)
+
+# clinical conditions
+#table(gset$characteristics_ch1) # Age at primary diagnosis
+#table(gset$characteristics_ch1.1) # gender 
+#table(gset$characteristics_ch1.2) # Age at sample banked
+#table(gset$characteristics_ch1.3) # Survival from stage iii fumor banked
+#table(gset$characteristics_ch1.4) # Survival from primary melanoma
+#table(gset$characteristics_ch1.5) # Patient last status (OS)
+#table(gset$characteristics_ch1.6) # number of primary melanomas
+#table(gset$characteristics_ch1.7) # stage at primary diagnosis
+
+#ex <- exprs(gset)
+# log2 transform
+#qx <- as.numeric(quantile(ex, c(0., 0.25, 0.5, 0.75, 0.99, 1.0), na.rm=T))
+#LogC <- (qx[5] > 100) ||
+#          (qx[6]-qx[1] > 50 && qx[2] > 0)
+#if (LogC) { ex[which(ex <= 0)] <- NaN
+#  ex <- log2(ex) }
+
+bulk_metadata <- as.data.frame(gset@phenoData@data)
+#gset@annotation # GPL6884
+#bulk_gex <- as.data.frame(gset@assayData$exprs)
+  
+dim(gset@assayData$exprs) # 26085    79
+
+#bulk.control.mtx = exprs(benchmark.eset)[, benchmark.eset$group == 'healthy']
+bulk.control.mtx <- as.data.frame(gset@assayData$exprs[, gset$`patient sex:ch1` == 'Female'])
+bulk.control.mtx$gene <- rownames(bulk.control.mtx)
+bulk.control.mtx <- inner_join(my_genes, bulk.control.mtx, by = "gene")
+bulk.control.mtx$gene <- NULL 
+bulk.control.mtx <- aggregate(bulk.control.mtx, by = list(c(bulk.control.mtx$`unlist(xx[(rownames(gset@assayData$exprs))])`)), mean)
+rownames(bulk.control.mtx) <- bulk.control.mtx$Group.1
+bulk.control.mtx <- bulk.control.mtx[,-c(1:2)]
+
+#bulk.case.mtx = exprs(benchmark.eset)[, benchmark.eset$group == 't2d']
+bulk.case.mtx <- as.data.frame(gset@assayData$exprs[, gset$`patient sex:ch1` == 'Male'])
+bulk.case.mtx$gene <- rownames(bulk.case.mtx)
+bulk.case.mtx <- inner_join(my_genes, bulk.case.mtx, by = "gene")
+bulk.case.mtx$gene <- NULL 
+bulk.case.mtx <- aggregate(bulk.case.mtx, by = list(c(bulk.case.mtx$`unlist(xx[(rownames(gset@assayData$exprs))])`)), mean)
+rownames(bulk.case.mtx) <- bulk.case.mtx$Group.1
+bulk.case.mtx <- bulk.case.mtx[,-c(1:2)]
+```
+
+# scRNA-seq data
+
+Los datos de expresión single-cell RNA de secuenciación (scRNA-seq) se recogen de muestras con una única condición, por ejemplo, sanos. Los tipos celulares del scRNA-seq son pre-determinados. Estos sirven como una referencia para estimar las proporciones del tipo celular de los datos bulk.
+
+Para este análisis he escogido los datos procedentes del estudio GSE72056, que se encuentran 
+```{r, cache = TRUE}
+GSE72056_melanoma_single_cell_revised_v2 <- read_delim("Datasets/GSE72056_melanoma_single_cell_revised_v2.txt", 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE)
+
+sc_metadata <- as.data.frame(t(GSE72056_melanoma_single_cell_revised_v2[1:3,]))
+colnames(sc_metadata) <- sc_metadata[1,]
+sc_metadata <- sc_metadata[-1,]
+dim(sc_metadata) # 4645    3
+
+#sc.eset <- Biobase::ExpressionSet(assayData=as.matrix(sc_gex3[, rownames(sc_metadata)]),
+#                                  phenoData=AnnotatedDataFrame(sc_metadata))
+
+sc_gset <- getGEO("GSE72056", GSEMatrix =TRUE, getGPL=FALSE)
+if (length(gset) > 1) idx <- grep("GPL6884", attr(gset, "names")) else idx <- 1
+seger.sce <- gset[[idx]]
+
+#library(GEOquery)
+#library(limma)
+
+#gset <- getGEO("GSE72056", GSEMatrix =TRUE, getGPL=FALSE)
+#if (length(gset) > 1) idx <- grep("GPL18573", attr(gset, "names")) else idx <- 1
+#seger.sce <- gset[[idx]]
+#table(seger.sce$characteristics_ch1.1)
+#table(seger.sce$`tumor-of-origin:ch1`)
+#table(seger.sce$characteristics_ch1)
+
+#gset$GSE72056_series_matrix.txt.gz@experimentData
+
+#gset <- getGEO("GSE120575", GSEMatrix =TRUE, getGPL=FALSE)
+#if (length(gset) > 1) idx <- grep("GPL18573", attr(gset, "names")) else idx <- 1
+#seger.sce2 <- gset[[idx]]
+#table(seger.sce$characteristics_ch1)
+#table(seger.sce$characteristics_ch1.1)
+#table(seger.sce$characteristics_ch1)
+
+
+## scRNA-seq datorganism_ch1## scRNA-seq datstatus#
+#seger.sce = readRDS("https://xuranw.github.io/MuSiC/data/EMATBsce_healthy.rds")
+#seger.sce = readRDS("~/Desktop/Elena_R_scripts/Deconvolution/EMTABsce_healthy.rds")
+#seger.sce
+```
+
+Both datasets should be in the form of ExpressionSet. 
+
+UPDATE: Per users’ requests, we have updated MuSiC2 functions (version 1.0.0) and SingleCellExperiment objects are used to handle single cell references, where sparse matrices are compatible as read counts. The details of constructing SingleCellExperiment objects can be found on this page.
+
+## MuSiC2 Deconvolution
+
+MuSiC2 is an iterative algorithm aiming to improve cell type deconvolution for bulk RNA-seq data when the bulk data and scRNA-seq reference are generated from samples with different clinical conditions. The key idea of MuSiC2 is that when the bulk and single-cell samples are from different clinical conditions, the majority of genes shall still have similar cell-type-specific gene expression patterns between conditions. By removing genes with cell-type-specific differential expression (DE) between conditions from the single-cell reference, MuSiC2 can refine the reference gene list and yield more accurate cell type proportion estimates.
+
+### Two-step iterative deconvolution
+
+To deconvolve bulk RNA-seq samples from both Healthy and Diseased conditions and use scRNA-seq data generated only from the Healthy condition as the reference, MuSiC2 iterates over 2 steps:
+
+_Step 1_: we use MuSiC Wang et al. (2019) to infer the cell type proportions of the bulk samples under both conditions by borrowing information from the scRNA-seq data;
+
+_Step 2_: for samples within each condition, we deconvolve the bulk-level expression over the cell type proportion estimates obtained in Step 1 to infer the cell-type-specific mean expression for each gene and identify cell-type-specific DE genes between conditions. By removing genes with cell-type-specific DE from the scRNA-seq data, we can update the cell type proportion estimates in Step 1 for bulk samples generated under the Diseased condition.
+
+By alternating between cell type deconvolution (Step 1) and cell-type-specific DE gene detection and removal (Step 2), MuSiC2 gradually refines the list of “stable” genes retained in the scRNA-seq reference. As a result, it improves the cell type proportion estimation for the diseased samples. An overview of MuSiC2 is in the Figure below. 
+
+# Details of MuSiC2
+
+One ad-hoc method to detect the cell-type-specific DE genes is to employ a resampling procedure to achieve a reliable estimate. Specifically, at each resampling iteration, we generate a subset of samples by random sampling without replacement under each clinical condition and compute the log fold change of cell-type-specific expression between conditions,
+
+𝑙𝑜𝑔𝐹𝐶𝑘𝑔=𝜇𝑘𝑔,𝑑𝑖𝑠𝑒𝑎𝑠𝑒𝑑𝜇𝑘𝑔,ℎ𝑒𝑎𝑙𝑡ℎ𝑦.
+
+We use a T statistic 𝑇𝑘𝑔 as a metric of cell-type-specific DE. 𝑇𝑘𝑔 is the absolute value of the ratio of the mean to the standard deviation (SD) of the 𝑙𝑜𝑔𝐹𝐶𝑘𝑔 over all resamples. Genes with 𝑇𝑘𝑔 in the top 5% for common cell types, i.e., cell types with average proportion ≥ 10%, or in the top 1% for rare cell types, i.e., cell types with average proportion < 10%, and with absolute mean log fold change over resamples ≥ log(2) are considered as cell-type-specific DE genes. Since fold change is sensitive to genes with low expression, we suggest that genes with bulk-level average sequencing depth < 20 are retained as “stable” genes and excluded from the cell-type-specific DE detection. We further filter the genes by their expression levels in the random samples. Specifically, we compute the mean of 𝜇𝑘𝑔,ℎ𝑒𝑎𝑙𝑡ℎ𝑦 and 𝜇𝑘𝑔,𝑑𝑖𝑠𝑒𝑎𝑠𝑒𝑑 over the resamples and retain genes with cell-type-specific expression in the bottom 5% for samples in both conditions as “stable” genes and exclude them from the cell-type-specific DE detection.
+
+Besides the ad hoc method described above, MuSiC2 is a general framework that can incorporate other existing methods for cell-type-specific DE gene detection as long as the method uses bulk RNA-seq data and estimated (or ‘known’) cell-type proportions as inputs. For example, TOAST (Li and Wu (2019)) defines cell-type-specific DE genes based on a P-value cutoff.
+
+For additional details, see the Methods session of the MuSiC2 manuscript.
+
+#Sample Analysis
+
+
+
+```{r, cache = TRUE}
+#bulk.control.mtx <- Biobase::ExpressionSet(assayData = as.matrix(bulk.control.mtx))
+#bulk.control.mtx@phenoData <- AnnotatedDataFrame(bulk_metadata[bulk_metadata$`patient sex:ch1` == 'Female',])
+#probes_ct_bulk <- rownames(bulk.control.mtx@assayData$exprs)
+bulk.control.mtx2 <- as.matrix(bulk.control.mtx)
+probes_ct_bulk <- rownames(bulk.control.mtx2)
+#bulk.case.mtx <- Biobase::ExpressionSet(assayData = as.matrix(bulk.case.mtx))
+#bulk.case.mtx@phenoData <- AnnotatedDataFrame(bulk_metadata[bulk_metadata$`patient sex:ch1` == 'Male',])
+#probes_case_bulk <- rownames(bulk.case.mtx@assayData$exprs)
+bulk.case.mtx2 <- as.matrix(bulk.case.mtx)
+probes_case_bulk <- rownames(bulk.case.mtx2)
+```
+
+```{r, cache = TRUE}
+bulk_genes <- unique(c(probes_ct_bulk, probes_case_bulk))
+sc_gex <-GSE72056_melanoma_single_cell_revised_v2[GSE72056_melanoma_single_cell_revised_v2$Cell %in% bulk_genes,]#
+#dim(sc_gex) # 14081  4646
+
+## Selection of Non-malignan cells:
+#table(sc_metadata$`malignant(1=no,2=yes,0=unresolved)`)
+#table(sc_metadata$`non-malignant cell type (1=T,2=B,3=Macro.4=Endo.,5=CAF;6=NK)`)
+#str(sc_metadata)
+colnames(sc_metadata)[2] <- "malignant"
+sc_metadata$malignant <- sapply(sc_metadata$malignant, as.numeric)
+sc_metadata <- sc_metadata[sc_metadata$malignant == 1,] # Here we keep only non-malignan cells
+colnames(sc_metadata)[3] <- "non_malignant"
+sc_metadata$T_cell <- (ifelse(sc_metadata$non_malignant == 1, "T_cell", "Other_cells"))
+sc_metadata$B_cell <- (ifelse(sc_metadata$non_malignant == 2, "B_cell", "Other_cells"))
+sc_metadata$M_cell <- (ifelse(sc_metadata$non_malignant == 3, "Macrophage", "Other_cells"))
+sc_metadata$E_cell <- (ifelse(sc_metadata$non_malignant == 2, "Endo_cell", "Other_cells"))
+sc_metadata$CAF_cell <- (ifelse(sc_metadata$non_malignant == 2, "CAF", "Other_cells"))
+sc_metadata$NK_cell <- (ifelse(sc_metadata$non_malignant == 2, "NK", "Other_cells"))
+sc_metadata$SampleID <- rownames(sc_metadata)
+
+Probes <- sc_gex$Cell
+sc_gex <- sc_gex[, colnames(sc_gex) %in% rownames(sc_metadata)]
+rownames(sc_gex) <- Probes
+sc_gex2 <- sc_gex[rowSums(sc_gex) != 0,]
+sc_gex2$Probes <- rownames(sc_gex)[rowSums(sc_gex) != 0] # 22846 rows, 4646 variables
+cell_labels <- sc_gex2$Probes
+#dim(sc_gex2) # 14074 4646
+sc_gex2 <- aggregate(sc_gex2[,-1], by= list(c(sc_gex2$Probes)), mean)
+#dim(sc_gex2) # 14072  4646
+rownames(sc_gex2) <- sc_gex2$Group.1 
+sc_gex3 <- sc_gex2[,colnames(sc_gex2) %in% sc_metadata$SampleID]
+
+#sc_gex3 <- t(sc_gex2)
+#colnames(sc_gex3) <- sc_gex3[1,]
+#sc_gex3 <- sc_gex3[-1,]
+#colnames(sc_gex3)[grep("MARCH", colnames(sc_gex3))] <- make.names(c("MARCH2", "MARCH3"),  unique =  T)
+
+#my_sc <- Biobase::ExpressionSet(assayData = as.matrix(sc_gex3[probes_case_bulk, rownames(sc_metadata)]))
+#my_sc <- Biobase::ExpressionSet(assayData = as.matrix(sc_gex3[, rownames(sc_metadata)]))
+#my_sc@phenoData <- AnnotatedDataFrame(sc_metadata)
+#my_sc
+sc_metadata <- sc_metadata[sc_metadata$SampleID %in% colnames(sc_gex3),]
+identical(colnames(sc_gex3), sc_metadata$SampleID)
+```
+
+```{r, cache = TRUE}
+probes_ct_bulk <- rownames(bulk.control.mtx2)
+bulk.control.mtx3 <- bulk.control.mtx2[rownames(bulk.control.mtx2) %in% rownames(sc_gex3),]
+probes_ct_bulk <- rownames(bulk.control.mtx3)
+
+probes_case_bulk <- rownames(bulk.case.mtx2)
+bulk.case.mtx3 <- bulk.case.mtx2[rownames(bulk.case.mtx2) %in% rownames(sc_gex3),]
+probes_case_bulk <- rownames(bulk.case.mtx3)
+
+bulk_genes <- unique(c(probes_ct_bulk, probes_case_bulk))
+sc_gex4 <- sc_gex3[rownames(sc_gex3) %in% bulk_genes,]
+sc.eset <- Biobase::ExpressionSet(assayData=as.matrix(sc_gex4),
+                                  phenoData=AnnotatedDataFrame(sc_metadata))
+```
+
+# Cell Type Deconvolution
+
+We propose 2 functions for MuSiC2 deconvolution. One uses the ad hoc method with T statistics introduced in the manuscript for defining cell-type-specific DE genes. The other uses TOAST (Li and Wu (2019)) with P-value cutoffs for defining cell-type-specific DE genes. MuSiC2 with TOAST runs faster and converges faster than MuSiC2 with T statistics as it does not require resamplings. Therefore, based on our simulation and real data studies, we recommend using TOAST (Li and Wu (2019)) with P-value cutoffs for deconvolving bulk samples with healthy single cell reference, and ad hoc T statistics for deconvolving bulk samples with diseased single cell reference. However, when the difference between the diseased and healthy bulk samples is small, or the sample sizes are small, TOAST (Li and Wu (2019)) may not be able to detect any cell-type-specific DE genes, and we recommend using MuSiC2 with T statistics under this case.
+
+# MuSiC2 T statistics
+
+To detect cell-type-specific DE genes using T statistics, the cell type proportions are estimated by the function music2_prop_t_statistics. The essential inputs are:
+
+- bulk.eset: ExpressionSet of bulk data;
+
+- sc.sce: SingleCellExperiment of single cell data;
+
+- condition: character, the phenoData of bulk dataset used for indicating clinical conditions;
+
+- control: character, the clinical condition of bulk samples that is the same as the clinical condition of the single cell samples;
+
+- case: character, the clinical condition of bulk samples that is different from the clinical condition of the single cell samples;
+
+- clusters: character, the phenoData from single cell dataset used as clusters;
+
+- samples: character, the phenoData from single cell dataset used as samples;
+
+- select.ct: vector of cell types. Default is NULL, which uses all cell types provided in the single-cell data;
+
+- n_resample: numeric, number of resamples used for detecting cell-type-specific DE genes. Default is 20;
+
+- sample_prop: numeric, proportion of samples to be randomly sampled without replacement under each clinical condition for each resample. Default is 0.5;
+
+- prop_r: numeric, cutoff on cell type proportions for defining rare cell types. Cell types with mean proportion across samples in bulk data < prop_r will be characterized as rare cell types. Otherwise, will be characterized as common cell types. Default is 0.1;
+
+- cutoff_c: numeric, cutoff on the upper quantile of 𝑇𝑘𝑔 statistics for detecting cell-type-specific DE genes for common cell types (i.e., cell type proportion ≥ 0.1). Default is 0.05;
+
+- cutoff_r: numeric, cutoff on the upper quantile of 𝑇𝑘𝑔 statistics for detecting cell-type-specific DE genes for rare cell types (i.e., cell type proportion < 0.1). Default is 0.01;
+
+- cutoff_fc: numeric, cutoff on log fold change over resamples. Genes with absolute value of the mean log fold change calculated over all resamples < log(cutoff_fc) are excluded from cell-type-specific DE genes. Default is 1.5;
+
+The output of music2_prop_t_statistics is a list with elements:
+
+- Est.prop: matrix, cell type proportion estimates;
+
+- convergence: logical, whether MuSiC2 converged or not;
+
+- n.iter: numeric, number of iterations;
+
+- DE.genes: vector, cell-type-specific DE genes being removed;
+
+For illustration purpose, we constrained our analysis on 6 well-studied cell types: acinar, alpha, beta, delta, ductal and gamma. Figure 2 below showed the estimated cell type proportion of MuSiC2 separated by disease status (e.g., healthy and T2D).
+
+```{r, cache = TRUE}
+
+# music2 deconvolution
+set.seed(1234)
+#rownames(bulk.control.mtx@assayData$exprs)
+#rownames(my_sc@assayData$exprs)
+dim(bulk.control.mtx3)
+#Features  Samples 
+#   14059       29 
+dim(bulk.case.mtx3)
+#Features  Samples 
+#   14059       50    
+dim(sc.eset)
+#Features  Samples 
+#   14059     3255
+
+# Bulk expression matrix
+bulk.eset <- Biobase::ExpressionSet(assayData = as.matrix(bulk.case.mtx))
+bulk.mtx = exprs(bulk.eset)
+
+# Estimate cell type proportions
+Est.prop = music_prop(bulk.mtx = bulk.mtx, sc.sce = sc.eset, clusters = 'non_malignant',
+                               samples = 'sampleID', select.ct = c('1','2','3','4','5','6'), verbose = F)
+
+est <- music2_prop_t_statistics(bulk.control.mtx = bulk.control.mtx3,
+                               bulk.case.mtx = bulk.case.mtx3, 
+                               sc.sce = sc.eset, 
+                               clusters = 'non_malignant', 
+                               samples = 'sampleID', 
+                               select.ct = c('1','2','3','4','5','6'))
+# Error in h(simpleError(msg, call)) : 
+#  error in evaluating the argument 'j' in selecting a method for function '[': no slot of name "colData" for this object of class "ExpressionSet"
+
+est = music2_prop_t_statistics(bulk.control.mtx = bulk.control.mtx3,
+                               bulk.case.mtx = bulk.case.mtx3, 
+                               sc.sce = sc.eset,#my_sc, 
+                               clusters = 'non_malignant', 
+                               samples = 'sampleID', 
+                               select.ct = c('1','2','3','4','5','6'), 
+                               n_resample=20, 
+                               sample_prop=0.5,
+                               cutoff_c=0.05,
+                               cutoff_r=0.01)
+# Error in h(simpleError(msg, call)) : 
+#  error in evaluating the argument 'j' in selecting a method for function '[': no slot of name "colData" for this object of class "ExpressionSet"
+
+est.prop = est$Est.prop
+```
+
+```{r, cache = TRUE}
+# plot estimated cell type proportions
+prop_all = cbind('proportion'=c(est.prop), 'sampleID'=rep(rownames(est.prop),times=ncol(est.prop)), 'celltype'=rep(colnames(est.prop), each=nrow(est.prop)))
+prop_all = as.data.frame(prop_all)
+prop_all$proportion = as.numeric(as.character(prop_all$proportion))
+prop_all$group = ifelse(prop_all$sampleID %in% seq(from=1, to=100, by=1), 'Healthy', 'T2D')
+cols <-c("alpha" = "cadetblue2", "beta" = "lightsalmon1", "delta" = "palegreen2", "ductal" = "goldenrod1",
+          "gamma"="steelblue3", "acinar" = "plum2")
+ggplot(prop_all, aes(x=celltype, y=proportion, color=celltype)) + xlab('')+
+  geom_jitter(width=0.25,alpha=0.8)+ylab('Cell Type Proportions')+theme_bw()+
+  stat_summary(fun = median,
+               geom = "crossbar", width = 0.5,size=0.5,color='gray36')+
+  facet_grid(.~group)+
+  theme(plot.title = element_text(hjust = 0.5, size=12),
+        axis.text.x = element_text(size=12,angle = 45,hjust=1),
+        axis.text.y = element_text(size=12),
+        axis.title.x = element_text(size=12),
+        axis.title.y = element_text(size=12),
+        axis.line = element_line(colour = "black"),
+        strip.text.x = element_text(size = 12),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank(),
+        legend.position = 'none')+
+  scale_color_manual(values=cols)
+```
+

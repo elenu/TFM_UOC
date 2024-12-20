@@ -1,0 +1,102 @@
+---
+title: "DEconvolution based on Regularized Matrix Completion algorithm"
+subtitle: "ENIGMA"
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+  word_document:
+    toc: true
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, cache = TRUE setup, echo=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(#echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+
+opts_knit$set(width=75)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+ENIGMA es un método que realiza un análisis de deconvolución preciso de datos bulk RNA-seq con una resolución tipo single cell dado el conocimiento obtenido con scRNA-seq. ENIGMA aplica una estrategia de para completar matriz mediante minimizar la distancia entre la mezcla de transcriptoma y la combinación del peso de la expresión específica del tipo celular, esto permitiría la quantificación de las proporciones de tipo celulary la reconstrucción del transcriptoma de tipo celular. <https://github.com/WWXkenmo/ENIGMA>
+
+Vignettes: <https://htmlpreview.github.io/?https://github.com/WWXkenmo/ENIGMA/blob/master/vignettes/brain_tutorial.html>
+
+```{r, cache = TRUE, echo=FALSE, warning=FALSE, message=FALSE}
+#install.packages(c("Matrix","S4Vectors","corpcor","MASS","e1071","ggplot2","cowplot","magrittr","purrr","tibble","nnls","doParallel","tidyr","plyr","vctrs","matrixStats"))
+#BiocManager::install(c("SingleCellExperiment","scater","Biobase","SummarizedExperiment","sva","preprocessCore"))
+#devtools::install_github("WWXKenmo/ENIGMA_test")
+library(ENIGMA)
+setwd("~/Desktop/ELENA_UOC/TFM/Deconvolution_analysis/Deconvolution_packages")
+load("~/Desktop/ELENA_UOC/TFM/Deconvolution_analysis/Deconvolution_packages/ENIGMA_analysis_data/brain_analysis/brain_data.Rdata")
+egm = create_ENIGMA(bulk = Bulk, ref = profile,ref_type = "aggre")
+egm
+```
+
+```{r, cache = TRUE, echo=FALSE, warning=FALSE, message=FALSE}
+egm = get_cell_proportion(egm, method = "RLR")
+#egm = ENIGMA_trace_norm(egm, alpha = 0.1,model_tracker = TRUE,model_name = "sqrt",preprocess = "sqrt")
+egm = ENIGMA_trace_norm(egm, alpha = 0.1,model_tracker = TRUE,model_name = "log", preprocess = "log")
+cse = sce2array(egm,norm_output = FALSE,model_name = "log")
+```
+
+```{r, cache = TRUE, echo=FALSE, warning=FALSE, message=FALSE}
+## ENIGMA would construct CSE into raw gene expression space so need to perform log transformation for visualization
+umap_tr = umap::umap(apply(log2(cse+1), 1, as.vector))
+ggpubr::ggscatter(data.frame(umap = umap_tr$layout, cell = rep(colnames(profile), each = ncol(Bulk))), x = "umap.1", y = "umap.2", color = "cell", size = 1) + ggtitle('Ground truth')
+celltype <- dimnames(CSE_array)[[1]]
+gene <- intersect(dimnames(cse)[[1]],dimnames(CSE_array)[[2]])
+```
+
+```{r, cache = TRUE, echo=FALSE, warning=FALSE, message=FALSE}
+cor_sample_egm <- cor_sample_bulk <- cor_sample_ref <- NULL
+celltype_list <- NULL
+for(k in celltype){
+  for(i in 1:dim(CSE_array)[3]){
+    cor_sample_egm <- c(cor_sample_egm, cor(cse[gene,i,k],CSE_array[k,gene,i],method = "sp"))
+    cor_sample_bulk <- c(cor_sample_bulk, cor(Bulk[gene,i],CSE_array[k,gene,i],method = "sp"))
+    cor_sample_ref <- c(cor_sample_ref, cor(profile[gene,k],CSE_array[k,gene,i],method = "sp"))
+    celltype_list <- c(celltype_list,k)
+  }
+}
+```
+
+```{r, cache = TRUE, echo=FALSE, warning=FALSE, message=FALSE}
+dat <- data.frame(cor = c(cor_sample_egm,cor_sample_bulk,cor_sample_ref), celltype = rep(celltype_list,3), method = c(rep("ENIGMA",length(cor_sample_egm)),rep("Bulk",length(cor_sample_egm)),rep("Reference",length(cor_sample_egm))))
+dat$method <- as.factor(dat$method)
+dat$method <- factor(dat$method,level = c("Reference","Bulk","ENIGMA"))
+ggplot2::ggplot(dat,aes(x = celltype, y = cor, fill = method)) + ggplot2::geom_boxplot()
+```

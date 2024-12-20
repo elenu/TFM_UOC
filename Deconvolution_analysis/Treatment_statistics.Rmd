@@ -1,0 +1,382 @@
+---
+title: | 
+  | Datos harmonizados
+  | Comparaciones estadísticas
+subtitle: " "
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+  word_document:
+    toc: true
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "##",
+  highlight = TRUE,
+  prompt = FALSE,
+  results = "markup"
+)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+```{r, cache = TRUE, echo = FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+#if (!requireNamespace("BiocManager", quietly = TRUE)) {
+#  install.packages("BiocManager")
+#}
+#BiocManager::install("quantiseqr")
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "Biobase","quantiseqr", "gplots", "tidyverse")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak",
+                   "reshape2","ggfortify","cowplot","GEOquery","Seurat","data.table",
+                   "limma","illuminaHumanv4.db","SummarizedExperiment","tibble",
+                   "gprofiler2")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+## Metadata original
+
+Los datos a comparar son los datos harmonizados de los resultados obtenidos de los análisis previos de deconvolución: 
+
+- GSE22155 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi>) con dos plataformas: GPL6102 y GPL6947.
+
+- GSE35640 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35640>)
+
+- GSE50509 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50509>)
+
+- GSE61992 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61992>)
+
+- GSE54467 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54467>)
+
+- TCGA-SKCM (<https://portal.gdc.cancer.gov/projects/TCGA-SKCM>)
+
+De manera excepcional, tenemos GSE120575 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120575>), que consiste en un dataset scRNA-seq en el que han analizado muestras tumorales y controles.
+
+```{r, echo=FALSE, cache = TRUE, warning=FALSE, message=FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+library(readxl)
+deconvoluted_datasets_harmonized <- read_excel("deconvoluted_datasets_harmonized.xlsx")
+GSE120575_harmonized <- read_excel("GSE120575_harmonized.xlsx")
+```
+
+# Comparación estadística
+
+Para cada tipo celular, inicialmente realizo un análisis ANOVA comparando los valores de las fracciones celulares específicas con los tratamientos utilizados. Después realizo un post-test con el test Tukey para tener las comparaciones de tipo pair-wise.
+
+## B cells
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized[,1:16])
+df_sc <- as.data.frame(GSE120575_harmonized)
+df <- df[df$cell_type == "B.cells",]
+df_sc <- df_sc[df_sc$sample_type == "B_cell",]
+df <- rbind(df,df_sc)
+
+# Para calcular ANOVA
+model=lm( sapply(deconv_value, as.numeric) ~ treatment, data = df, na.action = )
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in B cells") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+Si tengo en cuenta únicamente los estudios que han pasado por el análisis de deconvolución: 
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized)
+df <- df[df$cell_type == "B.cells",]
+df$treatment2 <- sapply(as.factor(df$treatment),as.numeric)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ treatment, data = df)
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in B cells") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# Macrófagos tipo 1
+
+En este caso, debido a que el estudio scRNA-seq GSE120575 presenta los macrófagos junto con los monocitos, presento únicamente las comparaciones con los demás tratamientos.
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized)
+df <- df[df$cell_type == "Macrophages.M1",]
+df$treatment2 <- sapply(as.factor(df$treatment),as.numeric)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ treatment, data = df)
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in Macrophages type 1") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# Macrófagos tipo 2
+
+En este caso, debido a que el estudio scRNA-seq GSE120575 presenta los macrófagos junto con los monocitos, presento únicamente las comparaciones con los demás tratamientos.
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized)
+df <- df[df$cell_type == "Macrophages.M2",]
+df$treatment2 <- sapply(as.factor(df$treatment),as.numeric)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ treatment, data = df)
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in Macrophages type 2") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# Monocitos
+
+En este caso, debido a que el estudio scRNA-seq GSE120575 presenta los macrófagos junto con los monocitos, presento únicamente las comparaciones con los demás tratamientos.
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized)
+df <- df[df$cell_type == "Monocytes",]
+df$treatment2 <- sapply(as.factor(df$treatment),as.numeric)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ treatment, data = df)
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in Monocytes") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# Neutrófilos
+
+En este caso, debido a que el estudio scRNA-seq GSE120575 no presenta resultados específicos de neutrófilos, presento únicamente las comparaciones con los demás tratamientos.
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized)
+df <- df[df$cell_type == "Neutrophils",]
+df$treatment2 <- sapply(as.factor(df$treatment),as.numeric)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ treatment, data = df)
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in Neutrophils") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# Células NK
+
+En este caso, debido a que el estudio scRNA-seq GSE120575 no presenta resultados específicos de células NK, presento únicamente las comparaciones con los demás tratamientos.
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized)
+df <- df[df$cell_type == "NK.cells",]
+df$treatment2 <- sapply(as.factor(df$treatment),as.numeric)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ treatment, data = df)
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in NK cells") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# Células T CD4
+
+En este caso, debido a que el estudio scRNA-seq GSE120575 no presenta resultados específicos de células T CD4, presento únicamente las comparaciones con los demás tratamientos.
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized)
+df <- df[df$cell_type == "T.cells.CD4",]
+df$treatment2 <- sapply(as.factor(df$treatment),as.numeric)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ treatment, data = df)
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in T cells CD4") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# T cells CD8
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized[,1:16])
+df_sc <- as.data.frame(GSE120575_harmonized)
+df <- df[df$cell_type == "T.cells.CD8",]
+df_sc <- df_sc[grep("CD8", df_sc$sample_type),]
+df <- rbind(df,df_sc)
+
+# Para calcular ANOVA
+model=lm( sapply(deconv_value, as.numeric) ~ treatment, data = df, na.action = )
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in T cells CD8") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# T regs
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized[,1:16])
+df_sc <- as.data.frame(GSE120575_harmonized)
+df <- df[df$cell_type == "Tregs",]
+df_sc <- df_sc[df_sc$sample_type == "Treg_cell",]
+df <- rbind(df,df_sc)
+
+# Para calcular ANOVA
+model=lm( sapply(deconv_value, as.numeric) ~ treatment, data = df, na.action = )
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in Tregs") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+
+# Dendritic cells
+
+```{r, cache = TRUE, echo = FALSE, fig.width=8}
+df <- as.data.frame(deconvoluted_datasets_harmonized[,1:16])
+df_sc <- as.data.frame(GSE120575_harmonized)
+df <- df[df$cell_type == "Dendritic.cells",]
+df_sc <- df_sc[df_sc$sample_type == "Dendritic_cell",]
+df <- rbind(df,df_sc)
+
+# Para calcular ANOVA
+model=lm( sapply(deconv_value, as.numeric) ~ treatment, data = df, na.action = )
+ANOVA=aov(model)
+summary(ANOVA)
+#plot(ANOVA)
+
+# Tukey test para estudiar cada comparativa de manera pair-wise
+TUKEY <- TukeyHSD(x=ANOVA, 'treatment', ordered=TRUE)
+tk <- as.data.frame(TUKEY$treatment)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+  geom_point(aes(colour = sign))+
+  theme_bw() + ggtitle("Treatment comparison in Dendritic cells") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+```
+

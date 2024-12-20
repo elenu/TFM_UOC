@@ -1,0 +1,142 @@
+---
+title: |
+  | Deconvolución de datos de melanoma con quantiseqr:
+  | Datos bulk RNA-seq: GSE61992
+subtitle: " "
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+  word_document:
+    toc: true
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "##",
+  highlight = TRUE,
+  prompt = FALSE,
+  results = "markup"
+)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+Repositorio GitHub de : <https://github.com/Danko-Lab/quantiseqr/blob/main/tutorial_deconvolution.pdf>
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+#if (!requireNamespace("BiocManager", quietly = TRUE)) {
+#  install.packages("BiocManager")
+#}
+#BiocManager::install("quantiseqr")
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "Biobase","quantiseqr", "gplots")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak",
+                   "reshape2","ggfortify","cowplot","GEOquery","Seurat","data.table",
+                   "limma","illuminaHumanv4.db","SummarizedExperiment","tibble")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+#Datos
+
+
+#Deconvolución
+
+En este análisis utilizo los datos del estudio GSE61992 descargados mediante la función ```getGEO``` des de la base de datos GEO, del NCBI: <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61992>. 
+
+Las muestras consisten en 65 muestras analizadas con la plataformas GPL570, y con varios tratamientos: dabrafenib + trametinib.
+
+Este estudio es de especial interés para el TFM debido a que los autores también proporcionan metadata la respuesta de los pacientes, cosa que permitirá estudiar posibles correlaciones con las poblaciones obtenidas de la deconvolución.
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+
+gset <- getGEO("GSE61992", GSEMatrix =TRUE, getGPL=FALSE)
+if (length(gset) > 1) idx <- grep("GPL10558", attr(gset, "names")) else idx <- 1
+gset <- gset[[idx]]
+#table(gset$characteristics_ch1) # genotype: BRAF V600E, and BRAF V600K
+#table(gset$characteristics_ch1.1) # tissue
+
+# Debido a que los autores proporcionan los genes con la nomeclatura de Illumina, lo convierto a símbolos para que se pueda asociar con los símbolos del scRNA-seq:
+x <- illuminaHumanv4SYMBOL # cargado con el paquete illuminaHumanv4.db
+mapped_probes <- mappedkeys(x) # Para sacar los símbolos
+xx <- as.list(x[mapped_probes]) # Lo paso a listado
+my_genes <- as.data.frame(unlist(xx[(rownames(gset@assayData$exprs))])) # Lo convierto en tabla para poder integrarlo con el Bulk RNA-seq
+my_genes$gene <- rownames(my_genes)
+
+bulk_metadata <- as.data.frame(gset@phenoData@data) # Paso la metadata disponible a una tabla
+bulk_metadata_descr <- data.frame(stringr::str_split_fixed(bulk_metadata$description, " ", 3)) # Separo los elementos para tener los IDs de los pacientes
+bulk_metadata_descr$X1 <- NULL # Descarto la columna que sólo menciona la anotación "Patient"
+colnames(bulk_metadata_descr) <- c("Patient_ID", "Description_2") # Nombro las nuevas columnas
+bulk_metadata_descr$geo_accession <- bulk_metadata$geo_accession # Genero la columna de los IDs de los pacientes en GEO
+bulk_metadata <- inner_join(as.data.frame(bulk_metadata), as.data.frame(bulk_metadata_descr), by = "geo_accession") # Uno estas nuevas columnas a la metadata extraída antes
+
+# Para usar los símbolos en lugar de nombres de ilumina, extraigo los datos de expresión:
+bulk.mtx <- as.data.frame(gset@assayData$exprs) # Los datos de expresión
+bulk.mtx$gene <- rownames(bulk.mtx) # La columna que usaré para integrar
+bulk.mtx <- inner_join(my_genes, bulk.mtx, by = "gene") # Integración de ambas tablas
+bulk.mtx$gene <- NULL # Elimino la columna con nombres de Illumina
+colnames(bulk.mtx)[1] <- "symbols" # Nombro la columna de símbolos de los genes
+
+# Agrego los posibles duplicados calculando la media:
+bulk.mtx <- aggregate(bulk.mtx, by = list(c(bulk.mtx$symbols)), mean) # Agregar
+rownames(bulk.mtx) <- bulk.mtx$Group.1 # Los nombres de genes únicos sin duplicados sirven para dar nombre a las líneas
+bulk.mtx <- bulk.mtx[,-c(1:2)] # Elimino las columnas usadas para conseguir los nombres
+
+# Convertir los datos de expresión del bulk RNA-seq a objeto ExpressionSet:
+bulk.eset <- Biobase::ExpressionSet(assayData = as.matrix(as.data.frame(bulk.mtx)))
+print("ExpressionSet object:")
+bulk.eset
+
+ti_racle <- quantiseqr::run_quantiseq(
+  expression_data = bulk.eset@assayData$exprs,
+  signature_matrix = "TIL10",
+  is_arraydata = FALSE,
+  is_tumordata = TRUE,
+  scale_mRNA = TRUE
+)
+quantiplot(ti_racle)
+
+```
+
+Encontramos las proporciones del bulk RNA-seq en el apartado ```ti_racle```, el qual puedo integrar en la metadata que ya tenía y almacenar en un archivo para posteriores análisis.
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+ref.based.estimates <- as.data.frame(ti_racle)
+ref.based.estimates$geo_accession <- rownames(ref.based.estimates)
+ref.based.estimates <- inner_join(ref.based.estimates, bulk_metadata, by = "geo_accession")
+knitr::kable(head(ref.based.estimates[,1:7]), digits=2, caption = "Sección de las primeras muestras y columnas como ejemplo del resultado")
+write.csv(ref.based.estimates,"./quantiseq_GSE61992.csv", row.names = FALSE)
+```
+
