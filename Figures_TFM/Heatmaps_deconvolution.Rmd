@@ -1,0 +1,807 @@
+---
+title: |
+  | Comparaciones estadísticas
+subtitle: " "
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+  word_document:
+    toc: true
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "##",
+  highlight = TRUE,
+  prompt = FALSE,
+  results = "markup"
+)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+```{r, cache = TRUE, echo = FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+#if (!requireNamespace("BiocManager", quietly = TRUE)) {
+#  install.packages("BiocManager")
+#}
+#BiocManager::install("quantiseqr")
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "Biobase","quantiseqr", "gplots", "tidyverse")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak",
+                   "reshape2","ggfortify","cowplot","GEOquery","Seurat","data.table",
+                   "limma","illuminaHumanv4.db","SummarizedExperiment","tibble",
+                   "gprofiler2")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+## Metadata original
+
+Para asegurar que examinamos todas las opciones, examinamos las variables originales.
+
+Los datos a comparar son los resultados obtenidos de los análisis previos de deconvolución: 
+
+- GSE22155 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi>) con dos plataformas: GPL6102 y GPL6947.
+
+- GSE35640 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35640>)
+
+- GSE61992 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61992>)
+
+- GSE91061 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061>)
+
+- TCGA-SKCM (<https://portal.gdc.cancer.gov/projects/TCGA-SKCM>)
+
+De manera excepcional, tenemos GSE120575 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120575>), que consiste en un dataset scRNA-seq en el que han analizado muestras tumorales y controles.
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+GSE22155_GPL6102 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseqr_GSE22155_GPL6102.csv")
+GSE22155_GPL6947 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseqr_GSE22155_GPL6947.csv")
+GSE35640 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_GSE35640.csv")
+GSE61992 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_GSE61992.csv")
+#GSE91061 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_GSE91061.csv")
+GSE91061 <- read_delim("Deconvolution_analysis/Quantiseq_analyses/quantiseqr_GSE91061.csv", 
+    delim = ",")
+tcga_skcm <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_tcga_skcm.csv")
+TCGA_SKCM_clinical_data <- readxl::read_excel("Datasets/TCGA_SKCM_clinical_data.xlsx")
+```
+
+## Metadata harmonizada
+
+Para poder estudiar si podemos comparar 
+
+- Cohorte GSE22155 y plataforma GPL6947:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE22155_GPL6947 <- GSE22155_GPL6947[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE22155_GPL6947$samples <- GSE22155_GPL6947$geo_accession # Columna para poder integrar todas las tablas
+df_GSE22155_GPL6947$treatment <- "Standard (dacarbazine monotherapy, DTIC)" # Harmonización de la definición del tratamiento
+df_GSE22155_GPL6947$sample_type[grep("metastasis", GSE22155_GPL6947$source_name_ch1)] <- "Metastatic" # Harmonización del tipo de muestra 
+df_GSE22155_GPL6947$contact_country <- GSE22155_GPL6947$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE22155_GPL6947$age_diag <- GSE22155_GPL6947$`age at primary diagnosis:ch1` # Columna de la edad en el momento del primer diagnóstico
+df_GSE22155_GPL6947$age_metas <-GSE22155_GPL6947$`age at metastases:ch1` # Columna de la edad en el momento de la detección de metástasis
+df_GSE22155_GPL6947$sex <- GSE22155_GPL6947$`sex:ch1` # Columna del género del paciente
+df_GSE22155_GPL6947$loc_melan <-GSE22155_GPL6947$`localization of primary melanoma:ch1` # Columna de localización del melanoma
+df_GSE22155_GPL6947$os_event <- GSE22155_GPL6947$`event (0=alive, 1=dead):ch1` # Eventos de supervivencia
+df_GSE22155_GPL6947$os_days <- GSE22155_GPL6947$`os (days):ch1` # Días de supervivencia
+df_GSE22155_GPL6947$stage <- GSE22155_GPL6947$`stage:ch1` # Estadio del tumor
+df_GSE22155_GPL6947$response <- NA # Respuesta al tratamiento
+```
+
+- Cohorte GSE22155 y plataforma GPL6102:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE22155_GPL6102 <- GSE22155_GPL6102[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE22155_GPL6102$samples <- GSE22155_GPL6102$geo_accession # Columna para poder integrar todas las tablas
+df_GSE22155_GPL6102$treatment <- "Standard (dacarbazine monotherapy, DTIC)" # Harmonización de la definición del tratamiento
+df_GSE22155_GPL6102$sample_type[grep("metastasis", GSE22155_GPL6102$source_name_ch1)] <- "Metastatic" # Harmonización del tipo de muestra 
+df_GSE22155_GPL6102$contact_country <- GSE22155_GPL6102$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE22155_GPL6102$age_diag <- GSE22155_GPL6102$`age at primary diagnosis:ch1` # Columna de la edad en el momento del primer diagnóstico
+df_GSE22155_GPL6102$age_metas <-GSE22155_GPL6102$`age at metastases:ch1` # Columna de la edad en el momento de la detección de metástasis
+df_GSE22155_GPL6102$sex <- GSE22155_GPL6102$`sex:ch1` # Columna del género del paciente
+df_GSE22155_GPL6102$loc_melan <-GSE22155_GPL6102$`localization of primary melanoma:ch1` # Columna de localización del melanoma
+df_GSE22155_GPL6102$os_event <- GSE22155_GPL6102$`event (0=alive, 1=dead):ch1` # Eventos de supervivencia
+df_GSE22155_GPL6102$os_days <- GSE22155_GPL6102$`os (days):ch1` # Días de supervivencia
+df_GSE22155_GPL6102$stage <- GSE22155_GPL6102$`stage:ch1` # Estadio del tumor
+df_GSE22155_GPL6102$response <- NA # Respuesta al tratamiento
+```
+
+- Cohorte GSE35640:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE35640 <- GSE35640[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE35640$samples <- GSE35640$geo_accession # Columna para poder integrar todas las tablas
+df_GSE35640$treatment <- "Untreated" # Harmonización de la definición del tratamiento
+df_GSE35640$sample_type <- "Melanoma" # Harmonización del tipo de muestra 
+df_GSE35640$contact_country <- GSE35640$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE35640$age_diag <- NA # Columna de la edad en el momento del primer diagnóstico
+df_GSE35640$age_metas <-NA # Columna de la edad en el momento de la detección de metástasis
+df_GSE35640$sex <- NA # Columna del género del paciente
+df_GSE35640$loc_melan <-NA # Columna de localización del melanoma
+df_GSE35640$os_event <- NA # Eventos de supervivencia
+df_GSE35640$os_days <- NA # Días de supervivencia
+df_GSE35640$stage <- NA # Estadio del tumor
+df_GSE35640$response <- GSE35640$`response:ch1` # Respuesta al tratamiento
+```
+
+- Cohorte GSE61992:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE61992 <- GSE61992[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE61992$samples <- GSE61992$geo_accession # Columna para poder integrar todas las tablas
+df_GSE61992$treatment <- GSE61992$Description_2 # Harmonización de la definición del tratamiento
+df_GSE61992$sample_type <- "Melanoma" # Harmonización del tipo de muestra 
+df_GSE61992$contact_country <- GSE61992$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE61992$age_diag <- NA # Columna de la edad en el momento del primer diagnóstico
+df_GSE61992$age_metas <-NA # Columna de la edad en el momento de la detección de metástasis
+df_GSE61992$sex <- NA # Columna del género del paciente
+df_GSE61992$loc_melan <-GSE61992$Description_2 # Columna de localización del melanoma
+df_GSE61992$os_event <- NA # Eventos de supervivencia
+df_GSE61992$os_days <- NA # Días de supervivencia
+df_GSE61992$stage <- NA # Estadio del tumor
+df_GSE61992$response <- NA # Respuesta al tratamiento
+```
+
+- Cohorte GSE91061:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE91061 <- GSE91061[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE91061$samples <- GSE91061$geo_accession # Columna para poder integrar todas las tablas
+df_GSE91061$treatment <- ifelse(GSE91061$`visit (pre or on treatment):ch1` == "Pre", 1,2)# Columna de momento de toma de la biopsia
+df_GSE91061$sample_type <- "Melanoma" # Harmonización del tipo de muestra 
+df_GSE91061$contact_country <- GSE91061$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE91061$age_diag <- NA # Columna de la edad en el momento del primer diagnóstico
+df_GSE91061$age_metas <-NA # Columna de la edad en el momento de la detección de metástasis
+df_GSE91061$sex <- NA # Columna del género del paciente
+df_GSE91061$loc_melan <-NA # Columna de localización del melanoma
+df_GSE91061$os_event <- NA # Eventos de supervivencia
+df_GSE91061$os_days <- NA # Días de supervivencia
+df_GSE91061$stage <- NA # Estadio del tumor
+df_GSE91061$response <- ifelse(GSE91061$`response:ch1` == "PD", 1, 
+                                ifelse(GSE91061$`response:ch1` == "SD", 2,
+                                        ifelse(GSE91061$`response:ch1` == "PRCR", 3,4)))# Columna de respuesta al tratamiento
+```
+
+- Cohorte TCGA-SKCM:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_tcga_skcm <- tcga_skcm[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_tcga_skcm$samples <- tcga_skcm$Sample # Columna para poder integrar todas las tablas
+df_tcga_skcm$treatment <- "Radiology and Chemotherapy"
+df_tcga_skcm$sample_type <- "Melanoma" # Harmonización del tipo de muestra 
+df_tcga_skcm$contact_country <- tcga_skcm$name.tissue_source_site # Columna del país para una potencial comparación de recursos
+df_tcga_skcm$age_diag <- (tcga_skcm$age_at_diagnosis.diagnoses / 365) # Columna de la edad en el momento del primer diagnóstico
+df_tcga_skcm$age_metas <-NA # Columna de la edad en el momento de la detección de metástasis
+df_tcga_skcm$sex <- tcga_skcm$gender.demographic# Columna del género del paciente
+df_tcga_skcm$loc_melan <- "Skin"
+df_tcga_skcm$os_event <- ifelse(tcga_skcm$vital_status.demographic == "Dead", 1,0) # Harmonización de eventos de supervivencia
+df_tcga_skcm$os_days <- NA # Días de supervivencia
+df_tcga_skcm$stage <- tcga_skcm$tumor_stage.diagnoses # Estadio del tumor
+df_tcga_skcm$response <- NA
+```
+
+# Heatmaps
+
+- Packages:
+```{r, cache = TRUE, echo = FALSE}
+library(gplots)
+library(RColorBrewer)
+library(pheatmap)
+library(dplyr)
+```
+
+## GSE91061
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+metadata <- df_GSE91061[,12:ncol(df_GSE91061)]
+annotation_col = as.data.frame(cbind(Treatment =as.factor(metadata$treatment),
+                                     Sample_type = as.factor(metadata$sample_type),
+                                     Response = as.factor(metadata$response), 
+                               samples =metadata$samples))
+rownames(annotation_col) = metadata$samples
+#colnames(annotation_col) = c('Treatment','Sample_type','Response')
+annotation_col$Sample <- rownames(annotation_col)
+annotation_col <- annotation_col%>% # In case you want to arrange the data
+  group_by(Treatment,Sample_type,Response)%>%
+  arrange(Treatment,Sample_type,Response)%>%
+  as.data.frame()
+rownames(annotation_col) <- annotation_col$Sample
+Samples <- rownames(annotation_col) # With this, we'll also arrange the data frame's rows
+
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+
+ann_colors = list(#Response = brewer.pal(6, "Set3") ,
+                  Treatment = c("1"= "darkolivegreen2","2"= "chartreuse4"),
+                  Response=c("1"= "turquoise","2"= "lightskyblue", '3' = "dodgerblue3", '4' = "dodgerblue4")
+                  )
+
+matriu <- apply(df_GSE91061[,1:10],2,as.numeric)
+rownames(matriu) <- df_GSE91061$samples
+is.numeric(matriu) # TRUE
+sum(is.infinite(matriu)) # 0
+sum(is.na(matriu)) # 0
+
+pdf(file = "Pheatmap GSE91061.pdf",width = 12, height = 25) 
+pheatmap(matriu, 
+         color = my_palette, annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(4:5)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE91061, clustered", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= T, cluster_cols = F) 
+```
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+matriu <- matriu[metadata$samples[order(metadata$treatment)],]
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(4:5)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE91061\nOrdered by treatment", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$response)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(4:5)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE91061\nOrdered by response", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+dev.off()
+```
+
+## GSE61992
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=15}
+metadata <- df_GSE61992[,12:ncol(df_GSE61992)]
+annotation_col = as.data.frame(cbind(Treatment =(metadata$loc_melan),
+                                     Sample_type = as.factor(metadata$sample_type),
+#                                     Response = as.factor(metadata$response), 
+                               samples =metadata$samples))
+rownames(annotation_col) = metadata$samples
+#colnames(annotation_col) = c('Treatment','Sample_type','Response')
+annotation_col$Sample <- rownames(annotation_col)
+annotation_col <- annotation_col%>% # In case you want to arrange the data
+  group_by(Treatment,Sample_type)%>%
+  arrange(Treatment,Sample_type)%>%
+  as.data.frame()
+rownames(annotation_col) <- annotation_col$Sample
+Samples <- rownames(annotation_col) # With this, we'll also arrange the data frame's rows
+
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+
+ann_colors = list(Treatment = brewer.pal(7, "Set3") #,
+                  #Treatment = c("1"= "darkolivegreen2","2"= "chartreuse4")#,
+                #  Response=c("1"= "turquoise","2"= "lightskyblue", '3' = "dodgerblue3", '4' = "dodgerblue4")
+                  )
+
+matriu <- apply(df_GSE61992[,1:10],2,as.numeric)
+rownames(matriu) <- df_GSE61992$samples
+is.numeric(matriu) # TRUE
+sum(is.infinite(matriu)) # 0
+sum(is.na(matriu)) # 0
+
+#pdf(file = "Pheatmap GSE61992",width = 12, height = 25) 
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 6, cellwidth = 10, width =15, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE61992, clustered", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= T, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=15}
+matriu <- matriu[metadata$samples[order(metadata$loc_melan)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 6, cellwidth = 10, width =15, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE61992\nOrdered by treatment", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=15}
+matriu <- matriu[metadata$samples[order(metadata$response)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 6, cellwidth = 10, width =15, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE61992\nOrdered by response", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+#dev.off()
+```
+
+## GSE35640
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+metadata <- df_GSE35640[,12:ncol(df_GSE35640)]
+annotation_col = as.data.frame(cbind(Treatment =(metadata$treatment),
+                                     Sample_type = (metadata$sample_type),
+                                     Response = (metadata$response), 
+                               samples =metadata$samples))
+rownames(annotation_col) = metadata$samples
+annotation_col$Sample <- rownames(annotation_col)
+annotation_col <- annotation_col%>% # In case you want to arrange the data
+  group_by(Treatment,Sample_type,Response)%>%
+  arrange(Treatment,Sample_type,Response)%>%
+  as.data.frame()
+rownames(annotation_col) <- annotation_col$Sample
+Samples <- rownames(annotation_col) # With this, we'll also arrange the data frame's rows
+
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+
+ann_colors = list(#Response = brewer.pal(6, "Set3") ,
+                  Treatment = c("1"= "darkolivegreen2","2"= "chartreuse4"),
+                  Response=c("1"= "turquoise","2"= "lightskyblue", '3' = "dodgerblue3", '4' = "dodgerblue4")
+                  )
+
+matriu <- apply(df_GSE35640[,1:10],2,as.numeric)
+rownames(matriu) <- df_GSE35640$samples
+is.numeric(matriu) # TRUE
+sum(is.infinite(matriu)) # 0
+sum(is.na(matriu)) # 0
+
+#pdf(file = "Pheatmap GSE91061.pdf",width = 12, height = 25) 
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(4:5)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE35640, clustered", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= T, cluster_cols = F) 
+```
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$treatment)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(4:5)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE35640\nOrdered by treatment", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$response)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(4:5)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE35640\nOrdered by response", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+#dev.off()
+```
+
+## tcga_skcm
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+metadata <- df_tcga_skcm[,12:ncol(df_tcga_skcm)]
+annotation_col = as.data.frame(cbind(Treatment =(metadata$treatment),
+                                     Sample_type = (metadata$sample_type),
+#                                     Response = (metadata$response), 
+                               samples =metadata$samples))
+rownames(annotation_col) = metadata$samples
+annotation_col$Sample <- rownames(annotation_col)
+annotation_col <- annotation_col%>% # In case you want to arrange the data
+  group_by(Treatment,Sample_type)%>%
+  arrange(Treatment,Sample_type)%>%
+  as.data.frame()
+rownames(annotation_col) <- annotation_col$Sample
+Samples <- rownames(annotation_col) # With this, we'll also arrange the data frame's rows
+
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+
+ann_colors = list(#Response = brewer.pal(6, "Set3") ,
+                  Treatment = c("1"= "darkolivegreen2","2"= "chartreuse4"),
+                  Response=c("1"= "turquoise","2"= "lightskyblue", '3' = "dodgerblue3", '4' = "dodgerblue4")
+                  )
+
+matriu <- apply(df_tcga_skcm[,1:10],2,as.numeric)
+rownames(matriu) <- df_tcga_skcm$samples
+is.numeric(matriu) # TRUE
+sum(is.infinite(matriu)) # 0
+sum(is.na(matriu)) # 0
+
+#pdf(file = "Pheatmap tcga_skcm.pdf",width = 12, height = 25) 
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 0.5, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 0.5, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis TCGA-SKCM, clustered", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= T, cluster_cols = F) 
+```
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$treatment)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 0.5, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 0.5, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis TCGA-SKCM\nOrdered by treatment", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$response)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 0.5, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 0.5, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis TCGA-SKCM\nOrdered by response", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+#dev.off()
+```
+
+## GSE22155-GPL6102
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+metadata <- df_GSE22155_GPL6102[,12:ncol(df_GSE22155_GPL6102)]
+annotation_col = as.data.frame(cbind(Treatment =(metadata$treatment),
+                                     Sample_type = (metadata$sample_type),
+                                     #Response = (metadata$response), 
+                               samples =metadata$samples))
+rownames(annotation_col) = metadata$samples
+annotation_col$Sample <- rownames(annotation_col)
+annotation_col <- annotation_col%>% # In case you want to arrange the data
+  group_by(Treatment,Sample_type)%>%
+  arrange(Treatment,Sample_type)%>%
+  as.data.frame()
+rownames(annotation_col) <- annotation_col$Sample
+Samples <- rownames(annotation_col) # With this, we'll also arrange the data frame's rows
+
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+
+ann_colors = list(#Response = brewer.pal(6, "Set3") ,
+                  Treatment = c("1"= "darkolivegreen2","2"= "chartreuse4"),
+                  Response=c("1"= "turquoise","2"= "lightskyblue", '3' = "dodgerblue3", '4' = "dodgerblue4")
+                  )
+
+matriu <- apply(df_GSE22155_GPL6102[,1:10],2,as.numeric)
+rownames(matriu) <- df_GSE22155_GPL6102$samples
+is.numeric(matriu) # TRUE
+sum(is.infinite(matriu)) # 0
+sum(is.na(matriu)) # 0
+
+#pdf(file = "Pheatmap GSE22155_GPL6102.pdf",width = 12, height = 25) 
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE22155-GPL6102, clustered", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= T, cluster_cols = F) 
+```
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$treatment)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE22155-GPL6102\nOrdered by treatment", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$response)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE22155-GPL6102\nOrdered by response", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+#dev.off()
+```
+
+## GSE22155-GPL6947
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+metadata <- df_GSE22155_GPL6947[,12:ncol(df_GSE22155_GPL6947)]
+annotation_col = as.data.frame(cbind(Treatment =(metadata$treatment),
+                                     Sample_type = (metadata$sample_type),
+                                     #Response = (metadata$response), 
+                               samples =metadata$samples))
+rownames(annotation_col) = metadata$samples
+annotation_col$Sample <- rownames(annotation_col)
+annotation_col <- annotation_col%>% # In case you want to arrange the data
+  group_by(Treatment,Sample_type)%>%
+  arrange(Treatment,Sample_type)%>%
+  as.data.frame()
+rownames(annotation_col) <- annotation_col$Sample
+Samples <- rownames(annotation_col) # With this, we'll also arrange the data frame's rows
+
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+
+ann_colors = list(#Response = brewer.pal(6, "Set3") ,
+                  Treatment = c("1"= "darkolivegreen2","2"= "chartreuse4"),
+                  Response=c("1"= "turquoise","2"= "lightskyblue", '3' = "dodgerblue3", '4' = "dodgerblue4")
+                  )
+
+matriu <- apply(df_GSE22155_GPL6947[,1:10],2,as.numeric)
+rownames(matriu) <- df_GSE22155_GPL6947$samples
+is.numeric(matriu) # TRUE
+sum(is.infinite(matriu)) # 0
+sum(is.na(matriu)) # 0
+
+#pdf(file = "Pheatmap GSE22155_GPL6947.pdf",width = 12, height = 25) 
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE22155-GPL6947, clustered", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= T, cluster_cols = F) 
+```
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$treatment)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE22155-GPL6947\nOrdered by treatment", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$response)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 4, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(3:4)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis GSE22155-GPL6947\nOrdered by response", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+#dev.off()
+```
+
+## All
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+df_GSE22155_GPL6947$study <- "GSE22155_GPL6947"
+df_GSE22155_GPL6102$study <- "GSE22155_GPL6102"
+df_GSE61992$study <- "GSE61992"
+df_GSE35640$study <- "GSE35640"
+df_GSE91061$study <- "GSE91061"
+df_tcga_skcm$study <- "tcga_skcm"
+df <- rbind(df_GSE91061,df_GSE61992)
+df <- rbind(df,df_GSE35640)
+df <- rbind(df,df_GSE22155_GPL6102)
+df <- rbind(df,df_GSE22155_GPL6947)
+df <- rbind(df,df_tcga_skcm)
+
+metadata <- df[,12:ncol(df)]
+annotation_col = as.data.frame(cbind(Study =(metadata$study),
+                                     Treatment =(metadata$treatment),
+                                     Sample_type = (metadata$sample_type),
+                                     Response = (metadata$response), 
+                               samples =metadata$samples))
+rownames(annotation_col) = metadata$samples
+annotation_col$Sample <- rownames(annotation_col)
+annotation_col <- annotation_col%>% # In case you want to arrange the data
+  group_by(Study,Treatment,Sample_type,Response)%>%
+  arrange(Study,Treatment,Sample_type,Response)%>%
+  as.data.frame()
+rownames(annotation_col) <- annotation_col$Sample
+Samples <- rownames(annotation_col) # With this, we'll also arrange the data frame's rows
+
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+
+ann_colors = list(#Response = brewer.pal(6, "Set3") ,
+                  Treatment = c("1"= "darkolivegreen2","2"= "chartreuse4"),
+                  Response=c("1"= "turquoise","2"= "lightskyblue", '3' = "dodgerblue3", '4' = "dodgerblue4")
+                  )
+
+matriu <- apply(df[,1:10],2,as.numeric)
+rownames(matriu) <- df$samples
+is.numeric(matriu) # TRUE
+sum(is.infinite(matriu)) # 0
+sum(is.na(matriu)) # 0
+
+#pdf(file = "Pheatmap GSE22155_GPL6947.pdf",width = 12, height = 25) 
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 1, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(5:6)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis all studies, clustered", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= T, cluster_cols = F) 
+```
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$study)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 1, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(5:6)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis all studies\nOrdered by study", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$treatment)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 1, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(5:6)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis all studies\nOrdered by treatment", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+```
+
+```{r, cache = TRUE, echo = FALSE, fig.height=20, fig.width=10}
+matriu <- matriu[metadata$samples[order(metadata$response)],]
+my_palette <- colorRampPalette(c("white", "orange", "darkmagenta"))(n = 1000)
+pheatmap(matriu, 
+         color = my_palette, #annotation_colors = ann_colors,
+         cellheight = 1, cellwidth = 10, width =12, height = 18, angle_col="45",
+         fontsize = 12,fontsize_row = 1, fontsize_col = 8, 
+         show_rownames = FALSE, labels_row = rownames(matriu), annotation_row = annotation_col[,-c(5:6)], # Here we remove the row's names from the Row's side bar
+         show_colnames = TRUE, labels_col = colnames(matriu),#annotation_col = annotation_col[,-c(1,4)], # Here we remove the column's names from the Column's side bar
+         main = "Deconvolution analysis all studies\nOrdered by response", 
+         legend = TRUE, border_color = NA, drop_levels = TRUE, 
+         #legend_labels= unique(c(metadata$treatment)),
+         scale = "none", treeheight_row = 10,treeheight_col =  10,
+         cluster_rows= F, cluster_cols = F) 
+#dev.off()
+```
+
