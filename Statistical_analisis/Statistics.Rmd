@@ -1,0 +1,570 @@
+---
+title: |
+  | Comparaciones estadísticas
+subtitle: " "
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+  word_document:
+    toc: true
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "##",
+  highlight = TRUE,
+  prompt = FALSE,
+  results = "markup"
+)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+```{r, cache = TRUE, echo = FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+#if (!requireNamespace("BiocManager", quietly = TRUE)) {
+#  install.packages("BiocManager")
+#}
+#BiocManager::install("quantiseqr")
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "Biobase","quantiseqr", "gplots", "tidyverse")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak",
+                   "reshape2","ggfortify","cowplot","GEOquery","Seurat","data.table",
+                   "limma","illuminaHumanv4.db","SummarizedExperiment","tibble",
+                   "gprofiler2")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+## Metadata original
+
+Para asegurar que examinamos todas las opciones, examinamos las variables originales.
+
+Los datos a comparar son los resultados obtenidos de los análisis previos de deconvolución: 
+
+- GSE22155 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi>) con dos plataformas: GPL6102 y GPL6947.
+
+- GSE35640 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35640>)
+
+- GSE61992 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61992>)
+
+- GSE91061 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061>)
+
+- TCGA-SKCM (<https://portal.gdc.cancer.gov/projects/TCGA-SKCM>)
+
+De manera excepcional, tenemos GSE120575 (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120575>), que consiste en un dataset scRNA-seq en el que han analizado muestras tumorales y controles.
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+GSE22155_GPL6102 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseqr_GSE22155_GPL6102.csv")
+GSE22155_GPL6947 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseqr_GSE22155_GPL6947.csv")
+GSE35640 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_GSE35640.csv")
+GSE61992 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_GSE61992.csv")
+#GSE91061 <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_GSE91061.csv")
+GSE91061 <- read_delim("Deconvolution_analysis/Quantiseq_analyses/quantiseqr_GSE91061.csv", 
+    delim = ",")
+tcga_skcm <- read_csv("Deconvolution_analysis/Quantiseq_analyses/quantiseq_tcga_skcm.csv")
+TCGA_SKCM_clinical_data <- readxl::read_excel("Datasets/TCGA_SKCM_clinical_data.xlsx")
+```
+
+## Metadata harmonizada
+
+Para poder estudiar si podemos comparar 
+
+- Cohorte GSE22155 y plataforma GPL6947:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE22155_GPL6947 <- GSE22155_GPL6947[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE22155_GPL6947$samples <- GSE22155_GPL6947$geo_accession # Columna para poder integrar todas las tablas
+df_GSE22155_GPL6947$treatment <- "Standard (dacarbazine monotherapy, DTIC)" # Harmonización de la definición del tratamiento
+df_GSE22155_GPL6947$sample_type[grep("metastasis", GSE22155_GPL6947$source_name_ch1)] <- "Metastatic" # Harmonización del tipo de muestra 
+df_GSE22155_GPL6947$contact_country <- GSE22155_GPL6947$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE22155_GPL6947$age_diag <- GSE22155_GPL6947$`age at primary diagnosis:ch1` # Columna de la edad en el momento del primer diagnóstico
+df_GSE22155_GPL6947$age_metas <-GSE22155_GPL6947$`age at metastases:ch1` # Columna de la edad en el momento de la detección de metástasis
+df_GSE22155_GPL6947$sex <- GSE22155_GPL6947$`sex:ch1` # Columna del género del paciente
+df_GSE22155_GPL6947$loc_melan <-GSE22155_GPL6947$`localization of primary melanoma:ch1` # Columna de localización del melanoma
+df_GSE22155_GPL6947$os_event <- GSE22155_GPL6947$`event (0=alive, 1=dead):ch1` # Eventos de supervivencia
+df_GSE22155_GPL6947$os_days <- GSE22155_GPL6947$`os (days):ch1` # Días de supervivencia
+df_GSE22155_GPL6947$stage <- GSE22155_GPL6947$`stage:ch1` # Estadio del tumor
+df_GSE22155_GPL6947$response <- NA # Respuesta al tratamiento
+```
+
+- Cohorte GSE22155 y plataforma GPL6102:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE22155_GPL6102 <- GSE22155_GPL6102[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE22155_GPL6102$samples <- GSE22155_GPL6102$geo_accession # Columna para poder integrar todas las tablas
+df_GSE22155_GPL6102$treatment <- "Standard (dacarbazine monotherapy, DTIC)" # Harmonización de la definición del tratamiento
+df_GSE22155_GPL6102$sample_type[grep("metastasis", GSE22155_GPL6102$source_name_ch1)] <- "Metastatic" # Harmonización del tipo de muestra 
+df_GSE22155_GPL6102$contact_country <- GSE22155_GPL6102$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE22155_GPL6102$age_diag <- GSE22155_GPL6102$`age at primary diagnosis:ch1` # Columna de la edad en el momento del primer diagnóstico
+df_GSE22155_GPL6102$age_metas <-GSE22155_GPL6102$`age at metastases:ch1` # Columna de la edad en el momento de la detección de metástasis
+df_GSE22155_GPL6102$sex <- GSE22155_GPL6102$`sex:ch1` # Columna del género del paciente
+df_GSE22155_GPL6102$loc_melan <-GSE22155_GPL6102$`localization of primary melanoma:ch1` # Columna de localización del melanoma
+df_GSE22155_GPL6102$os_event <- GSE22155_GPL6102$`event (0=alive, 1=dead):ch1` # Eventos de supervivencia
+df_GSE22155_GPL6102$os_days <- GSE22155_GPL6102$`os (days):ch1` # Días de supervivencia
+df_GSE22155_GPL6102$stage <- GSE22155_GPL6102$`stage:ch1` # Estadio del tumor
+df_GSE22155_GPL6102$response <- NA # Respuesta al tratamiento
+```
+
+- Cohorte GSE35640:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE35640 <- GSE35640[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE35640$samples <- GSE35640$geo_accession # Columna para poder integrar todas las tablas
+df_GSE35640$treatment <- "Untreated" # Harmonización de la definición del tratamiento
+df_GSE35640$sample_type <- "Melanoma" # Harmonización del tipo de muestra 
+df_GSE35640$contact_country <- GSE35640$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE35640$age_diag <- NA # Columna de la edad en el momento del primer diagnóstico
+df_GSE35640$age_metas <-NA # Columna de la edad en el momento de la detección de metástasis
+df_GSE35640$sex <- NA # Columna del género del paciente
+df_GSE35640$loc_melan <-NA # Columna de localización del melanoma
+df_GSE35640$os_event <- NA # Eventos de supervivencia
+df_GSE35640$os_days <- NA # Días de supervivencia
+df_GSE35640$stage <- NA # Estadio del tumor
+df_GSE35640$response <- GSE35640$`response:ch1` # Respuesta al tratamiento
+```
+
+- Cohorte GSE61992:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE61992 <- GSE61992[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE61992$samples <- GSE61992$geo_accession # Columna para poder integrar todas las tablas
+df_GSE61992$treatment <- GSE61992$description # Harmonización de la definición del tratamiento
+df_GSE61992$sample_type <- "Melanoma" # Harmonización del tipo de muestra 
+df_GSE61992$contact_country <- GSE61992$contact_country # Columna del país para una potencial comparación de recursos
+df_GSE61992$age_diag <- NA # Columna de la edad en el momento del primer diagnóstico
+df_GSE61992$age_metas <-NA # Columna de la edad en el momento de la detección de metástasis
+df_GSE61992$sex <- NA # Columna del género del paciente
+df_GSE61992$loc_melan <-GSE61992$Description_2 # Columna de localización del melanoma
+df_GSE61992$os_event <- NA # Eventos de supervivencia
+df_GSE61992$os_days <- NA # Días de supervivencia
+df_GSE61992$stage <- NA # Estadio del tumor
+df_GSE61992$response <- NA # Respuesta al tratamiento
+```
+
+- Cohorte GSE91061:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_GSE91061 <- GSE91061[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_GSE91061$samples <- GSE91061$geo_accession # Columna para poder integrar todas las tablas
+df_GSE91061$resp <- ifelse(GSE91061$`response:ch1` == "PD", 1, 
+                                ifelse(GSE91061$`response:ch1` == "SD", 2,
+                                        ifelse(GSE91061$`response:ch1` == "PRCR", 3,4)))# Columna de respuesta al tratamiento
+
+# Momento de análisit durante el tratamiento: 
+df_GSE91061$visit <- ifelse(GSE91061$`visit (pre or on treatment):ch1` == "Pre", 1,2)# Columna de momento de toma de la biopsia
+```
+
+- Cohorte TCGA-SKCM:
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+df_tcga_skcm <- tcga_skcm[,2:12] # Selección de las fracciones celulares en una nueva tabla
+df_tcga_skcm$OS_events <- ifelse(tcga_skcm$vital_status.demographic == "Dead", 1,0) # Harmonización de eventos de supervivencia
+df_tcga_skcm$gender <- tcga_skcm$gender.demographic# Columna del género del paciente
+df_tcga_skcm$loc_melan <- "Skin"
+
+df_tcga_skcm$stage <- tcga_skcm$tumor_stage.diagnoses # Estadio del tumor
+```
+
+# Comparación estadística
+
+## GSE22155_GPL6947
+
+```{r, cache = TRUE, echo = FALSE, fig.width=10, fig.height= 10}
+df2_GSE22155_GPL6947 <- reshape2::melt(df_GSE22155_GPL6947[,1:10], variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+m1 <- aov(deconv_value ~ cell_type, data = df2_GSE22155_GPL6947)
+summary(m1)
+library(multcomp)
+#tuk <- glht(m1, linfct = mcp(cell_type = "Tukey"))
+#sum_m1 <- summary(tuk)
+#sum_m1
+#plot(sum_m1)
+
+# Para calcular ANOVa
+model=lm( deconv_value ~ cell_type, data = df2_GSE22155_GPL6947)
+ANOVA=aov(model)
+ 
+# Tukey test to study each pair of treatment :
+TUKEY <- TukeyHSD(x=ANOVA, 'cell_type', conf.level=0.95)
+plot(TUKEY)
+
+tk <- as.data.frame(TUKEY$cell_type)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+    geom_point(aes(colour = sign), size = 3)+
+  theme_bw() + ggtitle("GSE22155 (GPL6947)") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+tk_GSE22155_GPL6947 <- tk
+```
+
+## GSE22155_GPL6102
+
+```{r, cache = TRUE, echo = FALSE, fig.width=10, fig.height= 10}
+df2_GSE22155_GPL6102 <- reshape2::melt(df_GSE22155_GPL6102[,1:10], variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+m1 <- aov(deconv_value ~ cell_type, data = df2_GSE22155_GPL6102)
+summary(m1)
+library(multcomp)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ cell_type, data = df2_GSE22155_GPL6102)
+ANOVA=aov(model)
+ 
+# Tukey test to study each pair of treatment :
+TUKEY <- TukeyHSD(x=ANOVA, 'cell_type', conf.level=0.95)
+plot(TUKEY)
+
+tk <- as.data.frame(TUKEY$cell_type)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+    geom_point(aes(colour = sign), size = 3)+
+  theme_bw() + ggtitle("GSE22155 (GPL6102)") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+tk_GSE22155_GPL6102 <- tk
+```
+
+## GSE35640
+
+```{r, cache = TRUE, echo = FALSE, fig.width=10, fig.height= 10}
+df2_GSE35640 <- reshape2::melt(df_GSE35640[,1:10], variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+m1 <- aov(deconv_value ~ cell_type, data = df2_GSE35640)
+summary(m1)
+library(multcomp)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ cell_type, data = df2_GSE35640)
+ANOVA=aov(model)
+ 
+# Tukey test to study each pair of treatment :
+TUKEY <- TukeyHSD(x=ANOVA, 'cell_type', conf.level=0.95)
+ plot(TUKEY)
+
+tk <- as.data.frame(TUKEY$cell_type)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+    geom_point(aes(colour = sign), size = 3)+
+  theme_bw() + ggtitle("GSE35640") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+tk_GSE35640 <- tk
+```
+
+## GSE61992
+
+```{r, cache = TRUE, echo = FALSE, fig.width=10, fig.height= 10}
+df2_GSE61992 <- reshape2::melt(df_GSE61992[,1:10], variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+m1 <- aov(deconv_value ~ cell_type, data = df2_GSE61992)
+summary(m1)
+library(multcomp)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ cell_type, data = df2_GSE61992)
+ANOVA=aov(model)
+ 
+# Tukey test to study each pair of treatment :
+TUKEY <- TukeyHSD(x=ANOVA, 'cell_type', conf.level=0.95)
+plot(TUKEY)
+
+tk <- as.data.frame(TUKEY$cell_type)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+    geom_point(aes(colour = sign), size = 3)+
+  theme_bw() + ggtitle("GSE61992") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+tk_GSE61992 <- tk
+```
+
+## GSE91061
+
+```{r, cache = TRUE, echo = FALSE, fig.width=10, fig.height= 10}
+df_GSE91061[,1:10] <- apply(df_GSE91061[,1:10], 2 , as.numeric)
+df2_GSE91061 <- reshape2::melt(as.data.frame(df_GSE91061[,1:10]), variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+df2_GSE91061 <- reshape2::melt(df_GSE91061[,1:10], variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+m1 <- aov(deconv_value ~ cell_type, data = df2_GSE91061)
+summary(m1)
+library(multcomp)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ cell_type, data = df2_GSE91061)
+ANOVA=aov(model)
+ 
+# Tukey test to study each pair of treatment :
+TUKEY <- TukeyHSD(x=ANOVA, 'cell_type', conf.level=0.95)
+ plot(TUKEY)
+
+tk <- as.data.frame(TUKEY$cell_type)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+    geom_point(aes(colour = sign), size = 3)+
+  theme_bw() + ggtitle("GSE91061") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+tk_GSE91061 <- tk
+```
+
+## TCGA-SKCM
+
+```{r, cache = TRUE, echo = FALSE, fig.width=10, fig.height= 10}
+df2_tcga_skcm <- reshape2::melt(df_tcga_skcm[,1:10], variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+m1 <- aov(deconv_value ~ cell_type, data = df2_tcga_skcm)
+summary(m1)
+library(multcomp)
+
+# Para calcular ANOVA
+model=lm( deconv_value ~ cell_type, data = df2_tcga_skcm)
+ANOVA=aov(model)
+ 
+# Tukey test to study each pair of treatment :
+TUKEY <- TukeyHSD(x=ANOVA, 'cell_type', conf.level=0.95)
+plot(TUKEY)
+
+tk <- as.data.frame(TUKEY$cell_type)
+tk$comp <- rownames(tk)
+tk$sign <- if_else(tk$`p adj` <= 0.05 , "signif", "not_signif")
+ggplot(tk, aes(tk$`p adj`, comp)) + 
+    geom_point(aes(colour = sign), size = 3)+
+  theme_bw() + ggtitle("TCGA-SKCM") +
+  labs(x = "p-values", y = "Comparisons", colour = "Significant\n(p-value<0.05)")
+tk_tcga_skcm <- tk
+```
+
+## Todas las cohortes
+
+Teniendo en cuenta el resultado del post-test de Tukey, podemos comparar las comparaciones significativas:
+
+```{r, cache = TRUE, echo = FALSE}
+tk_GSE22155_GPL6102$sign_GSE22155_GPL6102 <- tk_GSE22155_GPL6102$sign
+tk_GSE22155_GPL6947$sign_GSE22155_GPL6947 <- tk_GSE22155_GPL6947$sign
+tk_GSE35640$sign_GSE35640 <- tk_GSE35640$sign
+tk_GSE61992$sign_GSE61992 <- tk_GSE61992$sign
+tk_GSE91061$sign_GSE91061 <- tk_GSE91061$sign
+tk_tcga_skcm$sign_tcga_skcm <- tk_tcga_skcm$sign
+
+tk <- inner_join(tk_GSE22155_GPL6102[,c(5,7)], tk_GSE22155_GPL6947[,c(5,7)], by = "comp")
+tk <- inner_join(tk, tk_GSE35640[,c(5,7)], by = "comp")
+tk <- inner_join(tk, tk_GSE61992[,c(5,7)], by = "comp")
+tk <- inner_join(tk, tk_GSE91061[,c(5,7)], by = "comp")
+tk <- inner_join(tk, tk_tcga_skcm[,c(5,7)], by = "comp")
+rownames(tk) <- tk$comp
+tk <- reshape2::melt(tk, "comp")
+tk$sign <- if_else(tk$value == "signif", 1, 0)
+
+ggplot(tk, aes(variable, sign, fill=variable)) +
+  geom_col()+ theme_bw() + labs(x="Cohorts", y="Significant comparisons")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+tk_GSE22155_GPL6102$sign_GSE22155_GPL6102 <- tk_GSE22155_GPL6102$sign
+tk_GSE22155_GPL6947$sign_GSE22155_GPL6947 <- tk_GSE22155_GPL6947$sign
+tk_GSE35640$sign_GSE35640 <- tk_GSE35640$sign
+tk_GSE61992$sign_GSE61992 <- tk_GSE61992$sign
+tk_GSE91061$sign_GSE91061 <- tk_GSE91061$sign
+tk_tcga_skcm$sign_tcga_skcm <- tk_tcga_skcm$sign
+```
+
+```{r, cache = TRUE, echo = FALSE}
+tk2 <- tk[tk$sign == "1",]
+ggplot(tk2, aes(sign, comp, fill=variable)) +
+  geom_col()+ theme_bw() + labs(y="Cohorts", x="Significant comparisons")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+        axis.text.y = element_text(size = 8))+
+    labs(fill = "Cohorts", x = "Number of studies where\nthis comparison was significant",
+       y = "Cell type comparison")
+```
+
+Si retiro los estudios de los que se extrajeron biopsias antes del tratamiento:
+```{r, cache = TRUE, echo = FALSE}
+tk <- inner_join(tk_GSE61992[,c(5,7)], tk_GSE91061[,c(5,7)], by = "comp")
+tk <- inner_join(tk, tk_tcga_skcm[,c(5,7)], by = "comp")
+rownames(tk) <- tk$comp
+tk <- reshape2::melt(tk, "comp")
+tk$sign <- if_else(tk$value == "signif", 1, 0)
+
+ggplot(tk, aes(variable, sign, fill=variable)) +
+  geom_col()+ theme_bw() + labs(x="Cohorts", y="Significant comparisons")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r, cache = TRUE, echo = FALSE}
+tk2 <- tk[tk$sign == "1",]
+ggplot(tk2, aes(sign, comp, fill=variable)) +
+  geom_col()+ theme_bw() + labs(y="Cohorts", x="Significant comparisons")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+        axis.text.y = element_text(size = 8))+
+    labs(fill = "Cohorts", x = "Number of studies where\nthis comparison was significant",
+       y = "Cell type comparison")
+```
+
+# Heatmaps
+
+Dado que disponemos de los datos de los análisis de deconvolución, también podemos hacer comparaciones de éstos mediante heatmaps:
+
+```{r, cache = TRUE, echo = FALSE}
+
+```
+
+
+# scRNA-seq vs deconvoluted bulk RNA-seq
+
+Para demostrar la validez de los análisis realizados de deconvolución, también comparo el cohorte analizado GSE91061 con datos bulk RNA-seq frente al cohorte scRNA-seq en el que también se había utilizado los mismos tratamientos.
+
+## GSE120575
+
+Dado que este cohorte tiene tratamientos combinados o separados, para poder comparar con el cohorte analizado en deconvolución, filtramos los que no sean tratados de la misma manera: nos quedamos con la combinación CTLA4 + PD1.
+
+```{r, cache = TRUE, echo = FALSE}
+library(readr)
+GSE120575_patient_ID_single_cells <- read_delim("Datasets/GSE120575_patient_ID_single_cells.txt", 
+                                                delim = "\t", escape_double = FALSE, 
+                                                trim_ws = TRUE, skip = 19)
+metadata <- as.data.frame(GSE120575_patient_ID_single_cells[,1:7])
+library(stringr)
+metadata2 <- as.data.frame(str_split_fixed(metadata$title, "_", 3))
+colnames(metadata2) <- c("As", "Patient", "Ms")
+metadata2$title <- metadata$title
+#rownames(metadata) <- metadata$title
+metadata <- inner_join(metadata, metadata2, by = "title")
+library(readxl)
+GSE120575_TableS1 <- read_excel("Datasets/GSE120575_TableS1.xlsx", sheet = "Cluster annotation-Fig1B-C")
+GSE120575_TableS1$title <- GSE120575_TableS1$`Cell Name`
+
+metadata <- left_join(metadata, GSE120575_TableS1, by = "title")
+
+GSE120575_TableS1 <- read_excel("Datasets/GSE120575_TableS1.xlsx", sheet = "Patient-scRNA data", skip = 1)
+GSE120575_TableS1$Patient <- GSE120575_TableS1$`Patient ID`
+
+metadata <- left_join(metadata, GSE120575_TableS1, by = "Patient")
+
+metadata <- mutate(metadata,
+                   Cell_type = if_else(metadata$`Cluster number` == 1, "B_cell",
+                                       if_else(metadata$`Cluster number` == 2, "Plasma_cell",
+                                               if_else(metadata$`Cluster number` == 3, "Monocyte_Macrophage",
+                                                       if_else(metadata$`Cluster number` == 4, "Dendritic_cell",
+                                                               if_else(metadata$`Cluster number` == 5, "Lymphocyte",
+                                                                       if_else(metadata$`Cluster number` == 6, "Exhausted_CD8_T_cell",
+                                                                               if_else(metadata$`Cluster number` == 7, "Treg_cell",
+                                                                                       if_else(metadata$`Cluster number` == 8, "Citotox_Lymphocyte_cell",
+                                                                                               if_else(metadata$`Cluster number` == 9, "Exhausted_HS_CD8_T_cell",
+                                                                                                       if_else(metadata$`Cluster number` == 10, "Memory_T_cell",
+                                                                                                               if_else(metadata$`Cluster number` == 11, "Exhausted_Lymphocyte_cell_Cell_cyle","Other_cell_type"))))))))))))
+
+metadata2 <- as.data.frame(str_split_fixed(metadata$`characteristics: patinet ID (Pre=baseline; Post= on treatment)`, "_", 2))
+colnames(metadata2) <- c("Pre_Post", "Pats")
+metadata2$title <- metadata$title
+metadata <- inner_join(metadata, metadata2, by = "title")
+
+df <- as.data.frame(apply(table(metadata$Cell_type,c(metadata$Patient)),2,proportions))
+#apply(table(metadata$Cell_type,paste(metadata$Patient,metadata$`characteristics: patinet ID (Pre=baseline; Post= on treatment)`)),2,proportions)
+#apply(table(metadata$Cell_type,metadata$Pre_Post),2,proportions)
+
+meta2 <- apply(table(metadata$Cell_type,metadata$`characteristics: therapy`),2,proportions)
+meta3 <- apply(table(metadata$Cell_type,metadata$Therapy),2,proportions)
+
+meta2 <- reshape2::melt(meta2)
+colnames(meta2) <- c("Cell_type", "Therapy", "Fractions")
+meta2 <- meta2[meta2$Therapy == "anti-CTLA4+PD1",]
+meta3 <- reshape2::melt(meta3)
+colnames(meta3) <- c("Cell_type", "Therapy", "Fractions")
+meta3 <- meta3[meta3$Therapy == "CTLA4+PD1",]
+
+ggplot(meta2, aes(Fractions,Cell_type, fill = Therapy)) +
+         geom_col(position = position_dodge()) + 
+  ggtitle("GSE120575 (scRNA-seq)") +
+  theme(legend.position = "none")
+
+ggplot(meta3, aes(Fractions,Cell_type, fill = Therapy)) +
+         geom_col(position = position_dodge()) + 
+  ggtitle("GSE120575 (scRNA-seq)")+
+  theme(legend.position = "none")
+```
+
+## GSE91061
+
+Dado que el tratamiento de este cohorte distingue entre los niveles previos al tratamiento y durante el tratamiento, se puede utilizar también para la comparación:
+
+```{r, cache = TRUE, echo = FALSE}
+df2_GSE91061 <- reshape2::melt(GSE91061[,c(2:11,14,61)],id=c("geo_accession","visit (pre or on treatment):ch1"), variable.name = "cell_type", 
+  value.name = "deconv_value") # Distribuir los datos
+
+df2_GSE91061$deconv_value <- sapply(df2_GSE91061$deconv_value, as.numeric)
+
+df2_GSE91061_a <- df2_GSE91061[df2_GSE91061$`visit (pre or on treatment):ch1` == "Pre",]
+df2_GSE91061_a <- group_by(df2_GSE91061_a, cell_type)
+df2_GSE91061_a <- aggregate(df2_GSE91061_a, by = list(c(df2_GSE91061_a$cell_type)), mean)
+ggplot(df2_GSE91061_a, aes(deconv_value,Group.1)) +
+         geom_col(aes(deconv_value,Group.1), fill = "deepskyblue2") + ggtitle("GSE91061 (bulk RNA-seq)\nPre-treatment")+
+  labs(x = "Fractions")+theme(legend.position = "none")
+
+df2_GSE91061_a <- df2_GSE91061[df2_GSE91061$`visit (pre or on treatment):ch1` == "On",]
+df2_GSE91061_a <- group_by(df2_GSE91061_a, cell_type)
+df2_GSE91061_a <- aggregate(df2_GSE91061_a, by = list(c(df2_GSE91061_a$cell_type)), mean)
+ggplot(df2_GSE91061_a, aes(deconv_value,Group.1)) +
+         geom_col(aes(deconv_value,Group.1), fill = "deepskyblue2") + ggtitle("GSE91061 (bulk RNA-seq)\nOn treatment")+
+  labs(x = "Fractions")+theme(legend.position = "none")
+```
+
+# DEGs
+
+Resumen de los resultados de firmas génicas.
+
+```{r, cache = TRUE, echo = FALSE}
+library(readxl)
+DEGs_summary <- as.data.frame(read_excel("DEGs/DEGs_summary.xlsx"))
+```
+
+```{r, cache = TRUE, echo = FALSE}
+degs <- reshape::melt(DEGs_summary, id = 1:2)
+degs$value <- sapply(degs$value, as.numeric)
+ggplot(degs, aes(value,variable)) + 
+  geom_col(aes(value,variable, fill = Regulation, group = Cell_type),
+           position = "identity")+
+  scale_fill_manual(values = c("Up" = "firebrick", "Down" = "blue"))+
+  labs(x = "Number of DEGs", y = "Studies", fill = "Regulation")
+```
+
