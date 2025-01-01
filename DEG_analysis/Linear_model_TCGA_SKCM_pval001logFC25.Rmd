@@ -1,0 +1,324 @@
+---
+title: |
+  | Cálculo de DEGs
+  | Datos bulk RNA-seq: TCGA_SKCM
+subtitle: " "
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+  word_document:
+    toc: true
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "##",
+  highlight = TRUE,
+  prompt = FALSE,
+  results = "markup"
+)
+```
+
+# Introducción y Objetivo
+
+Este análisis es de especial interés para el TFM debido a que permitirá obtener listados de genes que cambien de manera significativa pero también de manera específica para cada tipo celular en el estudio en cuestión. Además, también permitirá obtener resultados de un análisis de pathways que aporte información sobre las vías afectadas en los tipos celulares de este tratamiento.
+
+Los listados se guardarán para posteriores comparaciones entre tratamientos.
+
+# Paquetes y datos
+
+```{r, cache = TRUE, echo = FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+#if (!requireNamespace("BiocManager", quietly = TRUE)) {
+#  install.packages("BiocManager")
+#}
+#BiocManager::install("quantiseqr")
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "Biobase","quantiseqr", "gplots", "tidyverse")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak","biomaRt",
+                   "reshape2","ggfortify","cowplot","GEOquery","Seurat", "gprofiler2",
+                   "data.table","limma","illuminaHumanv4.db","SummarizedExperiment","tibble")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+En este análisis utilizo los datos del estudio TCGA-SKCM descargados de la base de datos TCGA: <https://xenabrowser.net/datapages/?cohort=GDC%20TCGA%20Melanoma%20(SKCM)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443>. 
+
+Las muestras consisten en 470 muestras analizadas.
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+
+gex <- read_delim("Datasets/TCGA-SKCM.htseq_fpkm.tsv",  delim = "\t", 
+                  escape_double = FALSE, trim_ws = TRUE)
+bulk_metadata <- read_delim("Datasets/TCGA-SKCM.GDC_phenotype.tsv", delim = "\t", 
+                       escape_double = FALSE, trim_ws = TRUE)
+#os_data <- read_delim("Datasets/TCGA-SKCM.survival.tsv", delim = "\t", 
+#                      escape_double = FALSE, trim_ws = TRUE)
+
+# Debido a que los autores proporcionan los genes con la nomeclatura de ENSEMBL, lo convierto a símbolos para que se pueda asociar con los símbolos del scRNA-seq:
+mart <- useDataset("hsapiens_gene_ensembl", useMart("ensembl"))
+genes <- gex$Ensembl_ID
+G_list <- getBM(filters= "ensembl_gene_id_version", attributes= c("ensembl_gene_id_version","hgnc_symbol"),values=genes,mart= mart)
+
+# Para usar los símbolos en lugar de nombres de ENSEMBL:
+gex2 <- merge(gex,G_list,by.x="Ensembl_ID",by.y="ensembl_gene_id_version")
+gex2<-gex2[,-1]
+gex2 <- aggregate(gex2, by = list(c(gex2$hgnc_symbol)), mean) # Agrego los posibles duplicados calculando la media
+gex2 <- gex2[,-c(ncol(gex2))]
+rownames(gex2) <- gex2$Group.1 # Los nombres de genes únicos sin duplicados sirven para dar nombre a las líneas
+Probes <- gex2$Group.1
+gex2$Group.1 <- NULL # Elimino las columnas usadas para conseguir los nombres
+bulk.mtx <- as.data.frame(gex2) # Los datos de expresión
+
+# Convertir los datos de expresión del bulk RNA-seq a objeto ExpressionSet:
+bulk.eset <- Biobase::ExpressionSet(assayData = as.matrix(as.data.frame(bulk.mtx)))
+bulk.eset
+```
+
+Para poder ejecutar las proporciones celulares en el modelo lineal, cargo los datos guardados de la deconvolución. Con estos datos, genero una tabla con las fracciones y los confounders que estén disponibles (me serviá como atributo "y" del modelo lineal): supervivencia de los pacientes, género, tipo de tumor, o estadio del tumor.
+
+```{r, cache = TRUE, echo = FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM/Deconvolution_analysis/Quantiseq_analyses")
+TCGA_SKCM <- readr::read_csv("quantiseq_TCGA_SKCM.csv")
+rownames(TCGA_SKCM) <- TCGA_SKCM$Sample
+setwd("~/Desktop/ELENA_UOC/TFM")
+design <- apply(TCGA_SKCM[,2:12],2,as.numeric) # Primero, las fracciones celulares
+
+# Seguido de confounders como los eventos de supervivencia:
+TCGA_SKCM$OS_events <- ifelse(TCGA_SKCM$vital_status.demographic == "Dead", 1,0) # Harmonización de eventos de supervivencia
+
+design <- as.data.frame(cbind(OS=TCGA_SKCM$OS_events,design)) # Unión de la tabla con los eventos definidos
+design$Samples <- TCGA_SKCM$Sample
+
+# Género de los pacientes (1= hombre, 0= mujer)
+design$sex_male <- ifelse(TCGA_SKCM$gender.demographic == "male", 1, 0)# Columna del género del paciente
+
+# Tipo de metastasis: 
+design$loc_melan <- 0# Columna de localización del melanoma
+design$loc_melan[TCGA_SKCM$loc_melan == "Regional Lymph Node"] <- 1
+design$loc_melan[TCGA_SKCM$loc_melan == "Primary Tumor"] <- 2
+design$loc_melan[TCGA_SKCM$loc_melan == "Regional Cutaneous or Subcutaneous Tissue (includes satellite and in-transit metastasis)"] <- 3
+
+# Estadio del tumor 
+design$stage <- 0 # Estadio del tumor
+design$stage <- ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage i", 1,
+                             ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage ia", 1,
+                                    ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage ib", 1,
+                                           ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage ii", 2,
+                                                  ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage iia", 2,
+                                                         ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage iib", 2,
+                                                                ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage iic", 2,
+                                                                       ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage iii", 3,
+                                                                       ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage iiia", 3,      
+                                                                              ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage iiib", 3,
+                                                                                     ifelse(TCGA_SKCM$tumor_stage.diagnoses == "stage iiic", 3,4))))))))))) # Harmonización del estadio del tumor
+
+design <- apply(design[,-13],2, as.numeric)
+rownames(design) <- TCGA_SKCM$Sample # Etiqueto las filas con las muestras
+sum(is.na(design))
+#design$Samples <- NULL # Elimino la columna para tener sólo valores numéricos
+```
+
+# Modelo lineal 
+
+Utilizando las fracciones celulares como confounders, en principio el modelo lineal buscaría los coeficientes correspondientes a éstas. 
+
+Con eBayes se podría calcular la diferenciación de las expresiones (fold change, etc).
+
+```{r, cache = TRUE, echo = FALSE}
+library(limma) # cargo limma aquí para evitar un mensaje de error
+fit <- lmFit(bulk.eset, as.matrix(design)) # el modelo lineal
+fit <- eBayes(fit) # para calcular la expressión diferencial
+```
+
+## DEGs
+
+Con topTable se puede extraer la información para cada tipo celular. Indicando la columna de tipo celular extraigo el cálculo estadístico específico. Cone esta información se puede definir los grupos expresados diferencialmente, y generar un volcano plot.
+
+Esta función, topTable, permite también extraer un número determinado de resultados, cosa que me permite extraer los DEGs que utilizo para realizar un análisis de enriquimiento con el paquete ```gprofiler2```.
+
+- Células B: no hay resultados debido a la cantidad de ceros en esta fracción celular.
+
+```{r, cache = TRUE, echo = FALSE}
+bcell <- topTable(fit, coef="B.cells", number = length(fit$coefficients)) # Extracción de los resultados
+head(bcell)
+```
+
+- Macrófagos M1:
+
+```{r, cache = TRUE, echo = FALSE}
+mac_m1 <- topTable(fit, coef="Macrophages.M1", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+mac_m1$signif <- "No"
+mac_m1$signif[mac_m1$adj.P.Val <= 0.1 & mac_m1$logFC >= 2.5] <- "Up"
+mac_m1$signif[mac_m1$adj.P.Val <= 0.1 & mac_m1$logFC <= -2.5] <- "Down"
+head(mac_m1)
+print(paste0("Número de genes: ",length(mac_m1$signif[mac_m1$signif == "Up"])," up-regulated, ", length(mac_m1$signif[mac_m1$signif == "Down"]), " down-regulated"))
+library(openxlsx) 
+wb <- createWorkbook() # Crear un objeto para guardar las hojas
+addWorksheet(wb, "MacrophagesM1_stats") # Definir hoja
+writeData(wb, sheet = "MacrophagesM1_stats", x = mac_m1, rowNames = T) # Guardar hoja en el objeto
+ggplot(mac_m1, aes(logFC, -log10(adj.P.Val), color = signif)) +
+  geom_point(aes(logFC, -log10(adj.P.Val), color = signif)) +
+  ggrepel::geom_text_repel(data = mac_m1[(abs(mac_m1$logFC)>=2.5 & mac_m1$adj.P.Val <= 0.1) | -log10(mac_m1$adj.P.Val) >=6,], aes(label = rownames(mac_m1)[(abs(mac_m1$logFC)>=2.5 & mac_m1$adj.P.Val <= 0.1) | -log10(mac_m1$adj.P.Val) >=6]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(adj. p-value)", colour= "Regulation")+
+  ggtitle("TCGA_SKCM dataset\nMacrophages M1")
+```
+```{r, fig.width=10,cache = TRUE, echo = FALSE}
+# Enrichment analysis
+top_2000 <- topTable(fit, coef="Macrophages.M1", number = length(fit$coefficients))
+gostres <- gost(query = rownames(top_2000), organism = "hsapiens")
+#head(gostres$result)
+library(openxlsx) 
+gopbs <- createWorkbook()
+addWorksheet(gopbs, "MacrophageM1_gobp")
+writeData(gopbs, sheet = "MacrophageM1_gobp", x = as.data.frame(gostres$result[,1:13]))
+p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
+p
+publish_gosttable(gostres, highlight_terms = head(gostres$result$term_id[grep("GO:",gostres$result$term_id)]),
+                        use_colors = TRUE,filename = NULL)
+```
+
+- Macrófagos M2:
+
+```{r, cache = TRUE, echo = FALSE}
+mac_m2 <- topTable(fit, coef="Macrophages.M2", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+mac_m2$signif <- "No"
+mac_m2$signif[mac_m2$adj.P.Val <= 0.1 & mac_m2$logFC >= 2.5] <- "Up"
+mac_m2$signif[mac_m2$adj.P.Val <= 0.1 & mac_m2$logFC <= -2.5] <- "Down"
+head(mac_m2)
+print(paste0("Número de genes: ",length(mac_m2$signif[mac_m2$signif == "Up"])," up-regulated, ", length(mac_m2$signif[mac_m2$signif == "Down"]), " down-regulated"))
+addWorksheet(wb, "MacrophagesM2_stats") # Definir hoja
+writeData(wb, sheet = "MacrophagesM2_stats", x = mac_m2, rowNames = T) # Guardar hoja en el objeto
+# Volcano plot
+ggplot(mac_m2, aes(logFC, -log10(adj.P.Val), color = signif)) +
+  geom_point(aes(logFC, -log10(adj.P.Val), color = signif)) +
+  ggrepel::geom_text_repel(data = mac_m2[abs(mac_m2$logFC)>=2.5 | mac_m2$adj.P.Val <= 0.1,], aes(label = rownames(mac_m2)[abs(mac_m2$logFC)>=2.5 | mac_m2$adj.P.Val <= 0.1]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(adj. p-value)", colour= "Regulation")+
+  ggtitle("TCGA_SKCM dataset\nMacrophages M2")
+```
+```{r, fig.width=10,cache = TRUE, echo = FALSE}
+# Enrichment analysis
+top_2000 <- topTable(fit, coef="Macrophages.M2", number = length(fit$coefficients))
+gostres <- gost(query = rownames(top_2000), organism = "hsapiens")
+#head(gostres$result)
+addWorksheet(gopbs, "MacrophageM2_gobp")
+writeData(gopbs, sheet = "MacrophageM2_gobp", x = as.data.frame(gostres$result[,1:13]))
+p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
+p
+publish_gosttable(gostres, highlight_terms = head(gostres$result$term_id[grep("GO:",gostres$result$term_id)]),
+                        use_colors = TRUE,filename = NULL)
+```
+
+- Monocitos:
+
+```{r, cache = TRUE, echo = FALSE}
+monoc <- topTable(fit, coef="Monocytes", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+monoc$signif <- "No"
+monoc$signif[monoc$adj.P.Val <= 0.1 & monoc$logFC >= 2.5] <- "Up"
+monoc$signif[monoc$adj.P.Val <= 0.1 & monoc$logFC <= -2.5] <- "Down"
+head(monoc)
+print(paste0("Número de genes: ",length(monoc$signif[monoc$signif == "Up"])," up-regulated, ", length(monoc$signif[monoc$signif == "Down"]), " down-regulated"))
+addWorksheet(wb, "Monocyte_stats") # Definir hoja
+writeData(wb, sheet = "Monocyte_stats", x = monoc, rowNames = T) # Guardar hoja en el objeto
+# Volcano plot
+ggplot(monoc, aes(logFC, -log10(adj.P.Val), color = signif)) +
+  geom_point(aes(logFC, -log10(adj.P.Val), color = signif)) +
+  ggrepel::geom_text_repel(data = monoc[(abs(monoc$logFC)>=2.5 & monoc$adj.P.Val <= 0.1) | -log10(monoc$adj.P.Val) >=3,], aes(label = rownames(monoc)[(abs(monoc$logFC)>=2.5 & monoc$adj.P.Val <= 0.1) | -log10(monoc$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(adj. p-value)", colour= "Regulation")+
+  ggtitle("TCGA_SKCM dataset\nMonocytes")
+```
+```{r, fig.width=10,cache = TRUE, echo = FALSE}
+# Enrichment analysis
+top_2000 <- topTable(fit, coef="Monocytes", number = length(fit$coefficients))
+gostres <- gost(query = rownames(top_2000), organism = "hsapiens")
+#head(gostres$result)
+addWorksheet(gopbs, "Monocyte_gobp")
+writeData(gopbs, sheet = "Monocyte_gobp", x = as.data.frame(gostres$result[,1:13]))
+p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
+p
+publish_gosttable(gostres, highlight_terms = head(gostres$result$term_id[grep("GO:",gostres$result$term_id)]),
+                        use_colors = TRUE,filename = NULL)
+```
+
+- Neutrófilos: no hay resultados debido a la cantidad de ceros en esta fracción celular.
+
+```{r, cache = TRUE, echo = FALSE}
+neutr <- topTable(fit, coef="Neutrophils", number = length(fit$coefficients))
+head(neutr)
+```
+
+- Células NK: no hay resultados debido a la cantidad de ceros en esta fracción celular.
+
+```{r, cache = TRUE, echo = FALSE}
+nk <- topTable(fit, coef="NK.cells", number = length(fit$coefficients))
+head(nk)
+```
+
+- Células T CD4: no hay resultados debido a la cantidad de ceros en esta fracción celular.
+
+```{r, cache = TRUE, echo = FALSE}
+cd4 <- topTable(fit, coef="T.cells.CD4", number = length(fit$coefficients))
+head(cd4)
+```
+
+- Células T CD8: no hay resultados debido a la cantidad de ceros en esta fracción celular.
+
+```{r, cache = TRUE, echo = FALSE}
+cd8 <- topTable(fit, coef="T.cells.CD8", number = length(fit$coefficients))
+head(cd8)
+```
+
+- Células T reg: no hay resultados debido a la cantidad de ceros en esta fracción celular.
+
+```{r, cache = TRUE, echo = FALSE}
+treg <- topTable(fit, coef="Tregs", number = length(fit$coefficients))
+head(treg)
+```
+
+- Células dendríticas: no hay resultados debido a la cantidad de ceros en esta fracción celular.
+
+```{r, cache = TRUE, echo = FALSE}
+dendr <- topTable(fit, coef="Dendritic.cells", number = length(fit$coefficients))
+head(dendr)
+```
+
+```{r}
+saveWorkbook(wb, "Linear_model_results_TCGA_SKCM_stats.xlsx", overwrite = TRUE)
+saveWorkbook(gopbs, "Linear_model_results_TCGA_SKCM_GOBPs.xlsx", overwrite = TRUE)
+```
+
