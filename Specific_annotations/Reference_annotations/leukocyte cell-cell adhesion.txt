@@ -1,0 +1,86 @@
+CALCA	UniProtKB:P06881	Calcitonin gene-related peptide 1
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+FERMT3	UniProtKB:Q86UX7	Fermitin family homolog 3
+FERMT3	UniProtKB:Q86UX7	Fermitin family homolog 3
+GCNT1	UniProtKB:Q02742	Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase
+CD177	UniProtKB:Q8N6Q3	CD177 antigen
+CD177	UniProtKB:Q8N6Q3	CD177 antigen
+ITGA4	UniProtKB:P13612	Integrin alpha-4
+ITGA4	UniProtKB:P13612	Integrin alpha-4
+ITGA4	UniProtKB:P13612	Integrin alpha-4
+SELE	UniProtKB:P16581	E-selectin
+SELE	UniProtKB:P16581	E-selectin
+SELE	UniProtKB:P16581	E-selectin
+SPN	UniProtKB:P16150	Leukosialin
+SELP	UniProtKB:P16109	P-selectin
+SELP	UniProtKB:P16109	P-selectin
+SELP	UniProtKB:P16109	P-selectin
+CD44	UniProtKB:P16070	CD44 antigen
+JAM2	UniProtKB:P57087	Junctional adhesion molecule B
+JAM2	UniProtKB:P57087	Junctional adhesion molecule B
+JAM2	UniProtKB:P57087	Junctional adhesion molecule B
+F11R	UniProtKB:Q9Y624	Junctional adhesion molecule A
+ITGAL	UniProtKB:P20701	Integrin alpha-L
+ITGAL	UniProtKB:P20701	Integrin alpha-L
+CLEC4M	UniProtKB:Q9H2X3	C-type lectin domain family 4 member M
+CD209	UniProtKB:Q9NNX6	CD209 antigen
+CD209	UniProtKB:Q9NNX6	CD209 antigen
+GFUS	UniProtKB:Q13630	GDP-L-fucose synthase
+OLR1	UniProtKB:P78380	Oxidized low-density lipoprotein receptor 1
+LEP	UniProtKB:P41159	Leptin
+VCAM1	UniProtKB:P19320	Vascular cell adhesion protein 1
+VCAM1	UniProtKB:P19320	Vascular cell adhesion protein 1
+VCAM1	UniProtKB:P19320	Vascular cell adhesion protein 1
+VCAM1	UniProtKB:P19320	Vascular cell adhesion protein 1
+VCAM1	UniProtKB:P19320	Vascular cell adhesion protein 1
+GOLPH3	UniProtKB:Q9H4A6	Golgi phosphoprotein 3
+LRG1	UniProtKB:P02750	Leucine-rich alpha-2-glycoprotein
+CD40LG	UniProtKB:P29965	CD40 ligand
+ICAM1	UniProtKB:P05362	Intercellular adhesion molecule 1
+CX3CR1	UniProtKB:P49238	CX3C chemokine receptor 1
+S100A8	UniProtKB:P05109	Protein S100-A8
+S100A8	UniProtKB:P05109	Protein S100-A8
+ITGB2	UniProtKB:P05107	Integrin beta-2
+ITGB2	UniProtKB:P05107	Integrin beta-2
+EZR	UniProtKB:P15311	Ezrin
+SLC39A8	UniProtKB:Q9C0K1	Metal cation symporter ZIP8
+ITGB1	UniProtKB:P05556	Integrin beta-1
+ITGB1	UniProtKB:P05556	Integrin beta-1
+SELPLG	UniProtKB:Q14242	P-selectin glycoprotein ligand 1
+SELPLG	UniProtKB:Q14242	P-selectin glycoprotein ligand 1
+RAC2	UniProtKB:P15153	Ras-related C3 botulinum toxin substrate 2
+ADD2	UniProtKB:P35612	Beta-adducin
+MADCAM1	UniProtKB:Q13477	Mucosal addressin cell adhesion molecule 1
+MADCAM1	UniProtKB:Q13477	Mucosal addressin cell adhesion molecule 1
+ROCK1	UniProtKB:Q13464	Rho-associated protein kinase 1
+ROCK1	UniProtKB:Q13464	Rho-associated protein kinase 1
+UMOD	UniProtKB:P07911	Uromodulin
+SELL	UniProtKB:P14151	L-selectin
+SELL	UniProtKB:P14151	L-selectin
+SELL	UniProtKB:P14151	L-selectin
+IL1B	UniProtKB:P01584	Interleukin-1 beta
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+CLECL1P	UniProtKB:Q8IZS7	Putative C-type lectin-like domain family 1
+CCR2	UniProtKB:P41597	C-C chemokine receptor type 2
+BMP7	UniProtKB:P18075	Bone morphogenetic protein 7
+STK10	UniProtKB:O94804	Serine/threonine-protein kinase 10
+PECAM1	UniProtKB:P16284	Platelet endothelial cell adhesion molecule
+TNF	UniProtKB:P01375	Tumor necrosis factor
+ITGA5	UniProtKB:P08648	Integrin alpha-5
+NT5E	UniProtKB:P21589	5'-nucleotidase
+CERCAM	UniProtKB:Q5T4B2	Inactive glycosyltransferase 25 family member 3
+ITGB1	UniProtKB:P05556	Integrin beta-1
+SEMA4D	UniProtKB:Q92854	Semaphorin-4D
+MSN	UniProtKB:P26038	Moesin
+MSN	UniProtKB:P26038	Moesin
+ITGB7	UniProtKB:P26010	Integrin beta-7
+EXT1	UniProtKB:Q16394	Exostosin-1
+EXT1	UniProtKB:Q16394	Exostosin-1
+PODXL2	UniProtKB:Q9NZ53	Podocalyxin-like protein 2
+PODXL2	UniProtKB:Q9NZ53	Podocalyxin-like protein 2
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+APOA4	UniProtKB:P06727	Apolipoprotein A-IV
+S100A9	UniProtKB:P06702	Protein S100-A9
+S100A9	UniProtKB:P06702	Protein S100-A9
+TNIP1	UniProtKB:Q15025	TNFAIP3-interacting protein 1

@@ -1,0 +1,785 @@
+NPC1	UniProtKB:O15118	NPC intracellular cholesterol transporter 1
+NPC1	UniProtKB:O15118	NPC intracellular cholesterol transporter 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WIPI1	UniProtKB:Q5MNZ9	WD repeat domain phosphoinositide-interacting protein 1
+WDR45B	UniProtKB:Q5MNZ6	WD repeat domain phosphoinositide-interacting protein 3
+WDR45B	UniProtKB:Q5MNZ6	WD repeat domain phosphoinositide-interacting protein 3
+WDR45B	UniProtKB:Q5MNZ6	WD repeat domain phosphoinositide-interacting protein 3
+WDR45B	UniProtKB:Q5MNZ6	WD repeat domain phosphoinositide-interacting protein 3
+WDR45B	UniProtKB:Q5MNZ6	WD repeat domain phosphoinositide-interacting protein 3
+WDR45B	UniProtKB:Q5MNZ6	WD repeat domain phosphoinositide-interacting protein 3
+WDR45B	UniProtKB:Q5MNZ6	WD repeat domain phosphoinositide-interacting protein 3
+LIX1	UniProtKB:Q8N485	Protein limb expression 1 homolog
+SPART	UniProtKB:Q8N0X7	Spartin
+SPART	UniProtKB:Q8N0X7	Spartin
+ATG4A	UniProtKB:Q8WYN0	Cysteine protease ATG4A
+ATG4A	UniProtKB:Q8WYN0	Cysteine protease ATG4A
+ATG4A	UniProtKB:Q8WYN0	Cysteine protease ATG4A
+ATG4A	UniProtKB:Q8WYN0	Cysteine protease ATG4A
+ATG4A	UniProtKB:Q8WYN0	Cysteine protease ATG4A
+ATG4A	UniProtKB:Q8WYN0	Cysteine protease ATG4A
+ARFIP2	UniProtKB:P53365	Arfaptin-2
+ARFIP2	UniProtKB:P53365	Arfaptin-2
+PIK3C2B	UniProtKB:O00750	Phosphatidylinositol 4-phosphate 3-kinase C2 domain-containing subunit beta
+BNIP3	UniProtKB:Q12983	BCL2/adenovirus E1B 19 kDa protein-interacting protein 3
+BNIP3	UniProtKB:Q12983	BCL2/adenovirus E1B 19 kDa protein-interacting protein 3
+BNIP3	UniProtKB:Q12983	BCL2/adenovirus E1B 19 kDa protein-interacting protein 3
+CHMP4B	UniProtKB:Q9H444	Charged multivesicular body protein 4b
+CHMP4B	UniProtKB:Q9H444	Charged multivesicular body protein 4b
+CHMP4B	UniProtKB:Q9H444	Charged multivesicular body protein 4b
+CHMP4B	UniProtKB:Q9H444	Charged multivesicular body protein 4b
+CHMP4B	UniProtKB:Q9H444	Charged multivesicular body protein 4b
+VPS4A	UniProtKB:Q9UN37	Vacuolar protein sorting-associated protein 4A
+VPS4A	UniProtKB:Q9UN37	Vacuolar protein sorting-associated protein 4A
+VPS4A	UniProtKB:Q9UN37	Vacuolar protein sorting-associated protein 4A
+VPS4A	UniProtKB:Q9UN37	Vacuolar protein sorting-associated protein 4A
+TBC1D25	UniProtKB:Q3MII6	TBC1 domain family member 25
+CDKN2A	UniProtKB:Q8N726	Tumor suppressor ARF
+VPS13A	UniProtKB:Q96RL7	Intermembrane lipid transfer protein VPS13A
+VPS13A	UniProtKB:Q96RL7	Intermembrane lipid transfer protein VPS13A
+WDR24	UniProtKB:Q96S15	GATOR2 complex protein WDR24
+DRAM1	UniProtKB:Q8N682	DNA damage-regulated autophagy modulator protein 1
+CISD2	UniProtKB:Q8N5K1	CDGSH iron-sulfur domain-containing protein 2
+TMBIM6	UniProtKB:P55061	Bax inhibitor 1
+SUPT20H	UniProtKB:Q8NEM7	Transcription factor SPT20 homolog
+BCL2	UniProtKB:P10415	Apoptosis regulator Bcl-2
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+WDR45	UniProtKB:Q9Y484	WD repeat domain phosphoinositide-interacting protein 4
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+PIK3C3	UniProtKB:Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3
+RAB39B	UniProtKB:Q96DA2	Ras-related protein Rab-39B
+CHMP7	UniProtKB:Q8WUX9	Charged multivesicular body protein 7
+CHMP7	UniProtKB:Q8WUX9	Charged multivesicular body protein 7
+NIPSNAP2	UniProtKB:O75323	Protein NipSnap homolog 2
+VPS33A	UniProtKB:Q96AX1	Vacuolar protein sorting-associated protein 33A
+VPS33A	UniProtKB:Q96AX1	Vacuolar protein sorting-associated protein 33A
+FBXO7	UniProtKB:Q9Y3I1	F-box only protein 7
+RAB1B	UniProtKB:Q9H0U4	Ras-related protein Rab-1B
+ATG16L2	UniProtKB:Q8NAA4	Protein Atg16l2
+ATG16L2	UniProtKB:Q8NAA4	Protein Atg16l2
+ATG16L2	UniProtKB:Q8NAA4	Protein Atg16l2
+ATG16L2	UniProtKB:Q8NAA4	Protein Atg16l2
+CLU	UniProtKB:P10909	Clusterin
+VPS16	UniProtKB:Q9H269	Vacuolar protein sorting-associated protein 16 homolog
+RAB12	UniProtKB:Q6IQ22	Ras-related protein Rab-12
+SPATA33	UniProtKB:Q96N06	Spermatogenesis-associated protein 33
+C19orf12	UniProtKB:Q9NSK7	Protein C19orf12
+DNAJC16	UniProtKB:Q9Y2G8	DnaJ homolog subfamily C member 16
+TP53INP1	UniProtKB:Q96A56	Tumor protein p53-inducible nuclear protein 1
+RNF166	UniProtKB:Q96A37	E3 ubiquitin-protein ligase RNF166
+STBD1	UniProtKB:O95210	Starch-binding domain-containing protein 1
+STBD1	UniProtKB:O95210	Starch-binding domain-containing protein 1
+NRBF2	UniProtKB:Q96F24	Nuclear receptor-binding factor 2
+NRBF2	UniProtKB:Q96F24	Nuclear receptor-binding factor 2
+MTMR14	UniProtKB:Q8NCE2	Phosphatidylinositol-3,5-bisphosphate 3-phosphatase MTMR14
+TRAPPC4	UniProtKB:Q9Y296	Trafficking protein particle complex subunit 4
+PLAA	UniProtKB:Q9Y263	Phospholipase A-2-activating protein
+NOD1	UniProtKB:Q9Y239	Nucleotide-binding oligomerization domain-containing protein 1
+GRAMD1A	UniProtKB:Q96CP6	Protein Aster-A
+VTI1B	UniProtKB:Q9UEU0	Vesicle transport through interaction with t-SNAREs homolog 1B
+VTI1B	UniProtKB:Q9UEU0	Vesicle transport through interaction with t-SNAREs homolog 1B
+TRIM17	UniProtKB:Q9Y577	E3 ubiquitin-protein ligase TRIM17
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+WIPI2	UniProtKB:Q9Y4P8	WD repeat domain phosphoinositide-interacting protein 2
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+ATG4B	UniProtKB:Q9Y4P1	Cysteine protease ATG4B
+GAA	UniProtKB:P10253	Lysosomal alpha-glucosidase
+VPS37A	UniProtKB:Q8NEZ2	Vacuolar protein sorting-associated protein 37A
+TRAF6	UniProtKB:Q9Y4K3	TNF receptor-associated factor 6
+ATG2B	UniProtKB:Q96BY7	Autophagy-related protein 2 homolog B
+ATG2B	UniProtKB:Q96BY7	Autophagy-related protein 2 homolog B
+ATG2B	UniProtKB:Q96BY7	Autophagy-related protein 2 homolog B
+ATG2B	UniProtKB:Q96BY7	Autophagy-related protein 2 homolog B
+ATG2B	UniProtKB:Q96BY7	Autophagy-related protein 2 homolog B
+ATG2B	UniProtKB:Q96BY7	Autophagy-related protein 2 homolog B
+MOAP1	UniProtKB:Q96BY2	Modulator of apoptosis 1
+ATP2A2	UniProtKB:P16615	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+ATP2A2	UniProtKB:P16615	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+ATP2A2	UniProtKB:P16615	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+PDCD6IP	UniProtKB:Q8WUM4	Programmed cell death 6-interacting protein
+TGFBRAP1	UniProtKB:Q8WUH2	Transforming growth factor-beta receptor-associated protein 1
+RAB2B	UniProtKB:Q8WUD1	Ras-related protein Rab-2B
+USP13	UniProtKB:Q92995	Ubiquitin carboxyl-terminal hydrolase 13
+WDFY3	UniProtKB:Q8IZQ1	WD repeat and FYVE domain-containing protein 3
+WDFY3	UniProtKB:Q8IZQ1	WD repeat and FYVE domain-containing protein 3
+WDFY3	UniProtKB:Q8IZQ1	WD repeat and FYVE domain-containing protein 3
+UFL1	UniProtKB:O94874	E3 UFM1-protein ligase 1
+UFL1	UniProtKB:O94874	E3 UFM1-protein ligase 1
+STX17	UniProtKB:P56962	Syntaxin-17
+STX17	UniProtKB:P56962	Syntaxin-17
+STX17	UniProtKB:P56962	Syntaxin-17
+STX17	UniProtKB:P56962	Syntaxin-17
+STX17	UniProtKB:P56962	Syntaxin-17
+PEX2	UniProtKB:P28328	Peroxisome biogenesis factor 2
+PEX2	UniProtKB:P28328	Peroxisome biogenesis factor 2
+FUNDC1	UniProtKB:Q8IVP5	FUN14 domain-containing protein 1
+FUNDC1	UniProtKB:Q8IVP5	FUN14 domain-containing protein 1
+FUNDC1	UniProtKB:Q8IVP5	FUN14 domain-containing protein 1
+FUNDC1	UniProtKB:Q8IVP5	FUN14 domain-containing protein 1
+FUNDC1	UniProtKB:Q8IVP5	FUN14 domain-containing protein 1
+LIX1L	UniProtKB:Q8IVB5	LIX1-like protein
+UBXN6	UniProtKB:Q9BZV1	UBX domain-containing protein 6
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+RB1CC1	UniProtKB:Q8TDY2	RB1-inducible coiled-coil protein 1
+STAM	UniProtKB:Q92783	Signal transducing adapter molecule 1
+PARK7	UniProtKB:Q99497	Parkinson disease protein 7
+SIRT2	UniProtKB:Q8IXJ6	NAD-dependent protein deacetylase sirtuin-2
+PIM2	UniProtKB:Q9P1W9	Serine/threonine-protein kinase pim-2
+TSG101	UniProtKB:Q99816	Tumor susceptibility gene 101 protein
+TSG101	UniProtKB:Q99816	Tumor susceptibility gene 101 protein
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+ATG16L1	UniProtKB:Q676U5	Autophagy-related protein 16-1
+WDR47	UniProtKB:O94967	WD repeat-containing protein 47
+TP53INP2	UniProtKB:Q8IXH6	Tumor protein p53-inducible nuclear protein 2
+TP53INP2	UniProtKB:Q8IXH6	Tumor protein p53-inducible nuclear protein 2
+PJVK	UniProtKB:Q0ZLH3	Pejvakin
+RUBCN	UniProtKB:Q92622	Run domain Beclin-1-interacting and cysteine-rich domain-containing protein
+TBC1D5	UniProtKB:Q92609	TBC1 domain family member 5
+TBC1D5	UniProtKB:Q92609	TBC1 domain family member 5
+RAB1C	UniProtKB:Q92928	Putative Ras-related protein Rab-1C
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+ATG12	UniProtKB:O94817	Ubiquitin-like protein ATG12
+PHB2	UniProtKB:Q99623	Prohibitin-2
+ULK2	UniProtKB:Q8IYT8	Serine/threonine-protein kinase ULK2
+ULK2	UniProtKB:Q8IYT8	Serine/threonine-protein kinase ULK2
+ULK2	UniProtKB:Q8IYT8	Serine/threonine-protein kinase ULK2
+ULK2	UniProtKB:Q8IYT8	Serine/threonine-protein kinase ULK2
+ULK2	UniProtKB:Q8IYT8	Serine/threonine-protein kinase ULK2
+ULK2	UniProtKB:Q8IYT8	Serine/threonine-protein kinase ULK2
+CHMP3	UniProtKB:Q9Y3E7	Charged multivesicular body protein 3
+CHMP3	UniProtKB:Q9Y3E7	Charged multivesicular body protein 3
+CHMP3	UniProtKB:Q9Y3E7	Charged multivesicular body protein 3
+CHMP3	UniProtKB:Q9Y3E7	Charged multivesicular body protein 3
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ATG7	UniProtKB:O95352	Ubiquitin-like modifier-activating enzyme ATG7
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+ULK1	UniProtKB:O75385	Serine/threonine-protein kinase ULK1
+UFC1	UniProtKB:Q9Y3C8	Ubiquitin-fold modifier-conjugating enzyme 1
+UFC1	UniProtKB:Q9Y3C8	Ubiquitin-fold modifier-conjugating enzyme 1
+VTI1A	UniProtKB:Q96AJ9	Vesicle transport through interaction with t-SNAREs homolog 1A
+VTI1A	UniProtKB:Q96AJ9	Vesicle transport through interaction with t-SNAREs homolog 1A
+SH3GLB1	UniProtKB:Q9Y371	Endophilin-B1
+PTPN22	UniProtKB:Q9Y2R2	Tyrosine-protein phosphatase non-receptor type 22
+TEX264	UniProtKB:Q9Y6I9	Testis-expressed protein 264
+TEX264	UniProtKB:Q9Y6I9	Testis-expressed protein 264
+TEX264	UniProtKB:Q9Y6I9	Testis-expressed protein 264
+TEX264	UniProtKB:Q9Y6I9	Testis-expressed protein 264
+HDAC6	UniProtKB:Q9UBN7	Histone deacetylase 6
+RETREG2	UniProtKB:Q8NC44	Reticulophagy regulator 2
+MFN2	UniProtKB:O95140	Mitofusin-2
+MFN2	UniProtKB:O95140	Mitofusin-2
+LRBA	UniProtKB:P50851	Lipopolysaccharide-responsive and beige-like anchor protein
+LRBA	UniProtKB:P50851	Lipopolysaccharide-responsive and beige-like anchor protein
+ABL1	UniProtKB:P00519	Tyrosine-protein kinase ABL1
+CREG1	UniProtKB:O75629	Protein CREG1
+IRF8	UniProtKB:Q02556	Interferon regulatory factor 8
+HDAC10	UniProtKB:Q969S8	Polyamine deacetylase HDAC10
+RAB24	UniProtKB:Q969Q5	Ras-related protein Rab-24
+EI24	UniProtKB:O14681	Etoposide-induced protein 2.4 homolog
+RMC1	UniProtKB:Q96DM3	Regulator of MON1-CCZ1 complex
+MAPK3	UniProtKB:P27361	Mitogen-activated protein kinase 3
+SNX14	UniProtKB:Q9Y5W7	Sorting nexin-14
+SNX14	UniProtKB:Q9Y5W7	Sorting nexin-14
+AUP1	UniProtKB:Q9Y679	Lipid droplet-regulating VLDL assembly factor AUP1
+NIPSNAP3A	UniProtKB:Q9UFN0	Protein NipSnap homolog 3A
+OPTN	UniProtKB:Q96CV9	Optineurin
+RAB33B	UniProtKB:Q9H082	Ras-related protein Rab-33B
+PIK3R4	UniProtKB:Q99570	Phosphoinositide 3-kinase regulatory subunit 4
+PIK3R4	UniProtKB:Q99570	Phosphoinositide 3-kinase regulatory subunit 4
+MVB12A	UniProtKB:Q96EY5	Multivesicular body subunit 12A
+MFSD8	UniProtKB:Q8NHS3	Major facilitator superfamily domain-containing protein 8
+UBQLN2	UniProtKB:Q9UHD9	Ubiquilin-2
+TBK1	UniProtKB:Q9UHD2	Serine/threonine-protein kinase TBK1
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+MAP1LC3A	UniProtKB:Q9H492	Microtubule-associated proteins 1A/1B light chain 3A
+VTA1	UniProtKB:Q9NP79	Vacuolar protein sorting-associated protein VTA1 homolog
+SPG11	UniProtKB:Q96JI7	Spatacsin
+VPS39	UniProtKB:Q96JC1	Vam6/Vps39-like protein
+VPS39	UniProtKB:Q96JC1	Vam6/Vps39-like protein
+VPS39	UniProtKB:Q96JC1	Vam6/Vps39-like protein
+HAP1	UniProtKB:P54257	Huntingtin-associated protein 1
+ITGB4	UniProtKB:P16144	Integrin beta-4
+SNAP29	UniProtKB:O95721	Synaptosomal-associated protein 29
+SNAP29	UniProtKB:O95721	Synaptosomal-associated protein 29
+KLHL3	UniProtKB:Q9UH77	Kelch-like protein 3
+RAB23	UniProtKB:Q9ULC3	Ras-related protein Rab-23
+RAB23	UniProtKB:Q9ULC3	Ras-related protein Rab-23
+IFI16	UniProtKB:Q16666	Gamma-interferon-inducible protein 16
+TAFAZZIN	UniProtKB:Q16635	Tafazzin
+TAFAZZIN	UniProtKB:Q16635	Tafazzin
+CTSD	UniProtKB:P07339	Cathepsin D
+SNF8	UniProtKB:Q96H20	Vacuolar-sorting protein SNF8
+SNF8	UniProtKB:Q96H20	Vacuolar-sorting protein SNF8
+ATG10	UniProtKB:Q9H0Y0	Ubiquitin-like-conjugating enzyme ATG10
+ATG10	UniProtKB:Q9H0Y0	Ubiquitin-like-conjugating enzyme ATG10
+ATG10	UniProtKB:Q9H0Y0	Ubiquitin-like-conjugating enzyme ATG10
+ATG10	UniProtKB:Q9H0Y0	Ubiquitin-like-conjugating enzyme ATG10
+ATG10	UniProtKB:Q9H0Y0	Ubiquitin-like-conjugating enzyme ATG10
+ATG10	UniProtKB:Q9H0Y0	Ubiquitin-like-conjugating enzyme ATG10
+GABARAPL1	UniProtKB:Q9H0R8	Gamma-aminobutyric acid receptor-associated protein-like 1
+GABARAPL1	UniProtKB:Q9H0R8	Gamma-aminobutyric acid receptor-associated protein-like 1
+GABARAPL1	UniProtKB:Q9H0R8	Gamma-aminobutyric acid receptor-associated protein-like 1
+GABARAPL1	UniProtKB:Q9H0R8	Gamma-aminobutyric acid receptor-associated protein-like 1
+RNF185	UniProtKB:Q96GF1	E3 ubiquitin-protein ligase RNF185
+VMP1	UniProtKB:Q96GC9	Vacuole membrane protein 1
+VMP1	UniProtKB:Q96GC9	Vacuole membrane protein 1
+VMP1	UniProtKB:Q96GC9	Vacuole membrane protein 1
+VMP1	UniProtKB:Q96GC9	Vacuole membrane protein 1
+VMP1	UniProtKB:Q96GC9	Vacuole membrane protein 1
+VMP1	UniProtKB:Q96GC9	Vacuole membrane protein 1
+TOLLIP	UniProtKB:Q9H0E2	Toll-interacting protein
+STAM2	UniProtKB:O75886	Signal transducing adapter molecule 2
+ARHGAP26	UniProtKB:Q9UNA1	Rho GTPase-activating protein 26
+TIGAR	UniProtKB:Q9NQ88	Fructose-2,6-bisphosphatase TIGAR
+UBQLN1	UniProtKB:Q9UMX0	Ubiquilin-1
+UBQLN1	UniProtKB:Q9UMX0	Ubiquilin-1
+UBQLN1	UniProtKB:Q9UMX0	Ubiquilin-1
+UBQLN1	UniProtKB:Q9UMX0	Ubiquilin-1
+UBQLN1	UniProtKB:Q9UMX0	Ubiquilin-1
+RNF41	UniProtKB:Q9H4P4	E3 ubiquitin-protein ligase NRDP1
+ATP13A2	UniProtKB:Q9NQ11	Polyamine-transporting ATPase 13A2
+ATP13A2	UniProtKB:Q9NQ11	Polyamine-transporting ATPase 13A2
+ATP13A2	UniProtKB:Q9NQ11	Polyamine-transporting ATPase 13A2
+ATP13A2	UniProtKB:Q9NQ11	Polyamine-transporting ATPase 13A2
+ATP13A2	UniProtKB:Q9NQ11	Polyamine-transporting ATPase 13A2
+ATP13A2	UniProtKB:Q9NQ11	Polyamine-transporting ATPase 13A2
+TBC1D17	UniProtKB:Q9HA65	TBC1 domain family member 17
+MTMR3	UniProtKB:Q13615	Phosphatidylinositol-3,5-bisphosphate 3-phosphatase MTMR3
+RAB7A	UniProtKB:P51149	Ras-related protein Rab-7a
+RAB7A	UniProtKB:P51149	Ras-related protein Rab-7a
+PIP4K2B	UniProtKB:P78356	Phosphatidylinositol 5-phosphate 4-kinase type-2 beta
+GABARAPL2	UniProtKB:P60520	Gamma-aminobutyric acid receptor-associated protein-like 2
+GABARAPL2	UniProtKB:P60520	Gamma-aminobutyric acid receptor-associated protein-like 2
+GABARAPL2	UniProtKB:P60520	Gamma-aminobutyric acid receptor-associated protein-like 2
+GABARAPL2	UniProtKB:P60520	Gamma-aminobutyric acid receptor-associated protein-like 2
+GPR137	UniProtKB:Q96N19	Integral membrane protein GPR137
+BCAS3	UniProtKB:Q9H6U6	BCAS3 microtubule associated cell migration factor
+RUBCNL	UniProtKB:Q9H714	Protein associated with UVRAG as autophagy enhancer
+RUBCNL	UniProtKB:Q9H714	Protein associated with UVRAG as autophagy enhancer
+RUBCNL	UniProtKB:Q9H714	Protein associated with UVRAG as autophagy enhancer
+RUBCNL	UniProtKB:Q9H714	Protein associated with UVRAG as autophagy enhancer
+RUBCNL	UniProtKB:Q9H714	Protein associated with UVRAG as autophagy enhancer
+RUBCNL	UniProtKB:Q9H714	Protein associated with UVRAG as autophagy enhancer
+RUBCNL	UniProtKB:Q9H714	Protein associated with UVRAG as autophagy enhancer
+UBQLN4	UniProtKB:Q9NRR5	Ubiquilin-4
+RETREG1	UniProtKB:Q9H6L5	Reticulophagy regulator 1
+RETREG1	UniProtKB:Q9H6L5	Reticulophagy regulator 1
+RETREG1	UniProtKB:Q9H6L5	Reticulophagy regulator 1
+RETREG1	UniProtKB:Q9H6L5	Reticulophagy regulator 1
+ILRUN	UniProtKB:Q9H6K1	Protein ILRUN
+CALM1	UniProtKB:P0DP23	Calmodulin-1
+CTSK	UniProtKB:P43235	Cathepsin K
+SBF2	UniProtKB:Q86WG5	Myotubularin-related protein 13
+NOD2	UniProtKB:Q9HC29	Nucleotide-binding oligomerization domain-containing protein 2
+DAP	UniProtKB:P51397	Death-associated protein 1
+RETREG3	UniProtKB:Q86VR2	Reticulophagy regulator 3
+UVRAG	UniProtKB:Q9P2Y5	UV radiation resistance-associated gene protein
+UVRAG	UniProtKB:Q9P2Y5	UV radiation resistance-associated gene protein
+ZKSCAN3	UniProtKB:Q9BRR0	Zinc finger protein with KRAB and SCAN domains 3
+GPR137B	UniProtKB:O60478	Integral membrane protein GPR137B
+VPS25	UniProtKB:Q9BRG1	Vacuolar protein-sorting-associated protein 25
+UBXN2B	UniProtKB:Q14CS0	UBX domain-containing protein 2B
+ANXA7	UniProtKB:P20073	Annexin A7
+ATM	UniProtKB:Q13315	Serine-protein kinase ATM
+PLEKHM1	UniProtKB:Q9Y4G2	Pleckstrin homology domain-containing family M member 1
+ULK3	UniProtKB:Q6PHR2	Serine/threonine-protein kinase ULK3
+ULK3	UniProtKB:Q6PHR2	Serine/threonine-protein kinase ULK3
+ULK3	UniProtKB:Q6PHR2	Serine/threonine-protein kinase ULK3
+ULK3	UniProtKB:Q6PHR2	Serine/threonine-protein kinase ULK3
+ULK3	UniProtKB:Q6PHR2	Serine/threonine-protein kinase ULK3
+VAMP8	UniProtKB:Q9BV40	Vesicle-associated membrane protein 8
+VAMP8	UniProtKB:Q9BV40	Vesicle-associated membrane protein 8
+PHF23	UniProtKB:Q9BUL5	PHD finger protein 23
+TOM1	UniProtKB:O60784	Target of Myb1 membrane trafficking protein
+TOM1	UniProtKB:O60784	Target of Myb1 membrane trafficking protein
+TMEM41B	UniProtKB:Q5BJD5	Transmembrane protein 41B
+TMEM41B	UniProtKB:Q5BJD5	Transmembrane protein 41B
+TMEM41B	UniProtKB:Q5BJD5	Transmembrane protein 41B
+TMEM41B	UniProtKB:Q5BJD5	Transmembrane protein 41B
+SYT11	UniProtKB:Q9BT88	Synaptotagmin-11
+TFEB	UniProtKB:P19484	Transcription factor EB
+ATG101	UniProtKB:Q9BSB4	Autophagy-related protein 101
+ATG101	UniProtKB:Q9BSB4	Autophagy-related protein 101
+ATG101	UniProtKB:Q9BSB4	Autophagy-related protein 101
+MAP1S	UniProtKB:Q66K74	Microtubule-associated protein 1S
+VPS37C	UniProtKB:A5D8V6	Vacuolar protein sorting-associated protein 37C
+USP10	UniProtKB:Q14694	Ubiquitin carboxyl-terminal hydrolase 10
+NBR1	UniProtKB:Q14596	Next to BRCA1 gene 1 protein
+NBR1	UniProtKB:Q14596	Next to BRCA1 gene 1 protein
+CHMP1B	UniProtKB:Q7LBR1	Charged multivesicular body protein 1b
+CHMP1B	UniProtKB:Q7LBR1	Charged multivesicular body protein 1b
+SNX30	UniProtKB:Q5VWJ9	Sorting nexin-30
+SNX30	UniProtKB:Q5VWJ9	Sorting nexin-30
+SNX30	UniProtKB:Q5VWJ9	Sorting nexin-30
+YOD1	UniProtKB:Q5VVQ6	Ubiquitin thioesterase OTU1
+ARMC3	UniProtKB:Q5W041	Armadillo repeat-containing protein 3
+VPS4B	UniProtKB:O75351	Vacuolar protein sorting-associated protein 4B
+VPS4B	UniProtKB:O75351	Vacuolar protein sorting-associated protein 4B
+VPS4B	UniProtKB:O75351	Vacuolar protein sorting-associated protein 4B
+VPS4B	UniProtKB:O75351	Vacuolar protein sorting-associated protein 4B
+EIF2S1	UniProtKB:P05198	Eukaryotic translation initiation factor 2 subunit 1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+BECN1	UniProtKB:Q14457	Beclin-1
+S100A8	UniProtKB:P05109	Protein S100-A8
+MAP1LC3B2	UniProtKB:A6NCE7	Microtubule-associated proteins 1A/1B light chain 3 beta 2
+MAP1LC3B2	UniProtKB:A6NCE7	Microtubule-associated proteins 1A/1B light chain 3 beta 2
+MAP1LC3B2	UniProtKB:A6NCE7	Microtubule-associated proteins 1A/1B light chain 3 beta 2
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+AMBRA1	UniProtKB:Q9C0C7	Activating molecule in BECN1-regulated autophagy protein 1
+RGS19	UniProtKB:P49795	Regulator of G-protein signaling 19
+PSEN1	UniProtKB:P49768	Presenilin-1
+VPS41	UniProtKB:P49754	Vacuolar protein sorting-associated protein 41 homolog
+TRIM5	UniProtKB:Q9C035	Tripartite motif-containing protein 5
+COL6A1	UniProtKB:P12109	Collagen alpha-1(VI) chain
+LRPPRC	UniProtKB:P42704	Leucine-rich PPR motif-containing protein, mitochondrial
+RIPK2	UniProtKB:O43353	Receptor-interacting serine/threonine-protein kinase 2
+RAB1A	UniProtKB:P62820	Ras-related protein Rab-1A
+RAB1A	UniProtKB:P62820	Ras-related protein Rab-1A
+RAB1A	UniProtKB:P62820	Ras-related protein Rab-1A
+PIK3CB	UniProtKB:P42338	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform
+AP5Z1	UniProtKB:O43299	AP-5 complex subunit zeta-1
+RAB39A	UniProtKB:Q14964	Ras-related protein Rab-39A
+ARSB	UniProtKB:P15848	Arylsulfatase B
+ATG13	UniProtKB:O75143	Autophagy-related protein 13
+ATG13	UniProtKB:O75143	Autophagy-related protein 13
+ATG13	UniProtKB:O75143	Autophagy-related protein 13
+ATG13	UniProtKB:O75143	Autophagy-related protein 13
+ATG13	UniProtKB:O75143	Autophagy-related protein 13
+ATG13	UniProtKB:O75143	Autophagy-related protein 13
+RNF213	UniProtKB:Q63HN8	E3 ubiquitin-protein ligase RNF213
+RAB19	UniProtKB:A4D1S5	Ras-related protein Rab-19
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+ATG4D	UniProtKB:Q86TL0	Cysteine protease ATG4D
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+SQSTM1	UniProtKB:Q13501	Sequestosome-1
+DRD2	UniProtKB:P14416	D(2) dopamine receptor
+MTM1	UniProtKB:Q13496	Myotubularin
+TCIRG1	UniProtKB:Q13488	V-type proton ATPase 116 kDa subunit a 3
+TCIRG1	UniProtKB:Q13488	V-type proton ATPase 116 kDa subunit a 3
+ELAPOR1	UniProtKB:Q6UXG2	Endosome/lysosome-associated apoptosis and autophagy regulator 1
+ELAPOR1	UniProtKB:Q6UXG2	Endosome/lysosome-associated apoptosis and autophagy regulator 1
+UFM1	UniProtKB:P61960	Ubiquitin-fold modifier 1
+UFM1	UniProtKB:P61960	Ubiquitin-fold modifier 1
+DRAM2	UniProtKB:Q6UX65	DNA damage-regulated autophagy modulator protein 2
+LRSAM1	UniProtKB:Q6UWE0	E3 ubiquitin-protein ligase LRSAM1
+RAB43	UniProtKB:Q86YS6	Ras-related protein Rab-43
+FOXO1	UniProtKB:Q12778	Forkhead box protein O1
+C9orf72	UniProtKB:Q96LT7	Guanine nucleotide exchange factor C9orf72
+C9orf72	UniProtKB:Q96LT7	Guanine nucleotide exchange factor C9orf72
+NSFL1C	UniProtKB:Q9UNZ2	NSFL1 cofactor p47
+XBP1	UniProtKB:P17861	X-box-binding protein 1
+SNX7	UniProtKB:Q9UNH6	Sorting nexin-7
+SNX7	UniProtKB:Q9UNH6	Sorting nexin-7
+SNX7	UniProtKB:Q9UNH6	Sorting nexin-7
+ATG9B	UniProtKB:Q674R7	Autophagy-related protein 9B
+ATG9B	UniProtKB:Q674R7	Autophagy-related protein 9B
+ATG9B	UniProtKB:Q674R7	Autophagy-related protein 9B
+ATG9B	UniProtKB:Q674R7	Autophagy-related protein 9B
+ATG9B	UniProtKB:Q674R7	Autophagy-related protein 9B
+CHMP1A	UniProtKB:Q9HD42	Charged multivesicular body protein 1a
+CHMP1A	UniProtKB:Q9HD42	Charged multivesicular body protein 1a
+TP53	UniProtKB:P04637	Cellular tumor antigen p53
+TP53	UniProtKB:P04637	Cellular tumor antigen p53
+STING1	UniProtKB:Q86WV6	Stimulator of interferon genes protein
+STING1	UniProtKB:Q86WV6	Stimulator of interferon genes protein
+STING1	UniProtKB:Q86WV6	Stimulator of interferon genes protein
+STING1	UniProtKB:Q86WV6	Stimulator of interferon genes protein
+STING1	UniProtKB:Q86WV6	Stimulator of interferon genes protein
+STING1	UniProtKB:Q86WV6	Stimulator of interferon genes protein
+SMURF1	UniProtKB:Q9HCE7	E3 ubiquitin-protein ligase SMURF1
+SMURF1	UniProtKB:Q9HCE7	E3 ubiquitin-protein ligase SMURF1
+SMURF1	UniProtKB:Q9HCE7	E3 ubiquitin-protein ligase SMURF1
+EPG5	UniProtKB:Q9HCE0	Ectopic P granules protein 5 homolog
+STK11	UniProtKB:Q15831	Serine/threonine-protein kinase STK11
+TRIM32	UniProtKB:Q13049	E3 ubiquitin-protein ligase TRIM32
+ARL8B	UniProtKB:Q9NVJ2	ADP-ribosylation factor-like protein 8B
+TMEM39A	UniProtKB:Q9NV64	Transmembrane protein 39A
+SRPX	UniProtKB:P78539	Sushi repeat-containing protein SRPX
+PACS2	UniProtKB:Q86VP3	Phosphofurin acidic cluster sorting protein 2
+PACS2	UniProtKB:Q86VP3	Phosphofurin acidic cluster sorting protein 2
+TAX1BP1	UniProtKB:Q86VP1	Tax1-binding protein 1
+ZFYVE1	UniProtKB:Q9HBF4	Zinc finger FYVE domain-containing protein 1
+VPS36	UniProtKB:Q86VN1	Vacuolar protein-sorting-associated protein 36
+ABI2	UniProtKB:Q9NYB9	Abl interactor 2
+CLN3	UniProtKB:Q13286	Battenin
+CLN3	UniProtKB:Q13286	Battenin
+CLN3	UniProtKB:Q13286	Battenin
+RAB2A	UniProtKB:P61019	Ras-related protein Rab-2A
+RAB8A	UniProtKB:P61006	Ras-related protein Rab-8A
+UMOD	UniProtKB:P07911	Uromodulin
+EVA1A	UniProtKB:Q9H8M9	Protein eva-1 homolog A
+HSP90AA1	UniProtKB:P07900	Heat shock protein HSP 90-alpha
+DEPP1	UniProtKB:Q9NTK1	Protein DEPP1
+CHMP2B	UniProtKB:Q9UQN3	Charged multivesicular body protein 2b
+CHMP2B	UniProtKB:Q9UQN3	Charged multivesicular body protein 2b
+CHMP2B	UniProtKB:Q9UQN3	Charged multivesicular body protein 2b
+CHMP2B	UniProtKB:Q9UQN3	Charged multivesicular body protein 2b
+CHMP2B	UniProtKB:Q9UQN3	Charged multivesicular body protein 2b
+CHMP2B	UniProtKB:Q9UQN3	Charged multivesicular body protein 2b
+DIAPH3	UniProtKB:Q9NSV4	Protein diaphanous homolog 3
+ATG3	UniProtKB:Q9NT62	Ubiquitin-like-conjugating enzyme ATG3
+ATG3	UniProtKB:Q9NT62	Ubiquitin-like-conjugating enzyme ATG3
+ATG3	UniProtKB:Q9NT62	Ubiquitin-like-conjugating enzyme ATG3
+ATG3	UniProtKB:Q9NT62	Ubiquitin-like-conjugating enzyme ATG3
+ATG3	UniProtKB:Q9NT62	Ubiquitin-like-conjugating enzyme ATG3
+ATG3	UniProtKB:Q9NT62	Ubiquitin-like-conjugating enzyme ATG3
+ATG3	UniProtKB:Q9NT62	Ubiquitin-like-conjugating enzyme ATG3
+PRKAA2	UniProtKB:P54646	5'-AMP-activated protein kinase catalytic subunit alpha-2
+CHMP5	UniProtKB:Q9NZZ3	Charged multivesicular body protein 5
+CHMP5	UniProtKB:Q9NZZ3	Charged multivesicular body protein 5
+TM9SF1	UniProtKB:O15321	Transmembrane 9 superfamily member 1
+GBA1	UniProtKB:P04062	Lysosomal acid glucosylceramidase
+GBA1	UniProtKB:P04062	Lysosomal acid glucosylceramidase
+GBA1	UniProtKB:P04062	Lysosomal acid glucosylceramidase
+UBA5	UniProtKB:Q9GZZ9	Ubiquitin-like modifier-activating enzyme 5
+MCOLN1	UniProtKB:Q9GZU1	Mucolipin-1
+CALCOCO2	UniProtKB:Q13137	Calcium-binding and coiled-coil domain-containing protein 2
+CALCOCO2	UniProtKB:Q13137	Calcium-binding and coiled-coil domain-containing protein 2
+CALCOCO2	UniProtKB:Q13137	Calcium-binding and coiled-coil domain-containing protein 2
+PRKAA1	UniProtKB:Q13131	5'-AMP-activated protein kinase catalytic subunit alpha-1
+TECPR2	UniProtKB:O15040	Tectonin beta-propeller repeat-containing protein 2
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+MAP1LC3B	UniProtKB:Q9GZQ8	Microtubule-associated proteins 1A/1B light chain 3B
+TECPR1	UniProtKB:Q7Z6L1	Tectonin beta-propeller repeat-containing protein 1
+TECPR1	UniProtKB:Q7Z6L1	Tectonin beta-propeller repeat-containing protein 1
+TECPR1	UniProtKB:Q7Z6L1	Tectonin beta-propeller repeat-containing protein 1
+TECPR1	UniProtKB:Q7Z6L1	Tectonin beta-propeller repeat-containing protein 1
+EMC6	UniProtKB:Q9BV81	ER membrane protein complex subunit 6
+EMC6	UniProtKB:Q9BV81	ER membrane protein complex subunit 6
+MARK2	UniProtKB:Q7KZI7	Serine/threonine-protein kinase MARK2
+CLTC	UniProtKB:Q00610	Clathrin heavy chain 1
+AFG2B	UniProtKB:Q9BVQ7	ATPase family gene 2 protein homolog B
+TBC1D14	UniProtKB:Q9P2M4	TBC1 domain family member 14
+VPS18	UniProtKB:Q9P253	Vacuolar protein sorting-associated protein 18 homolog
+PIP4K2A	UniProtKB:P48426	Phosphatidylinositol 5-phosphate 4-kinase type-2 alpha
+VAMP7	UniProtKB:P51809	Vesicle-associated membrane protein 7
+LRRK2	UniProtKB:Q5S007	Leucine-rich repeat serine/threonine-protein kinase 2
+BECN2	UniProtKB:A8MW95	Beclin-2
+BECN2	UniProtKB:A8MW95	Beclin-2
+BECN2	UniProtKB:A8MW95	Beclin-2
+BECN2	UniProtKB:A8MW95	Beclin-2
+TMEM74	UniProtKB:Q96NL1	Transmembrane protein 74
+HSPA8	UniProtKB:P11142	Heat shock cognate 71 kDa protein
+HSPA8	UniProtKB:P11142	Heat shock cognate 71 kDa protein
+HSPA8	UniProtKB:P11142	Heat shock cognate 71 kDa protein
+HSPA8	UniProtKB:P11142	Heat shock cognate 71 kDa protein
+HSPA8	UniProtKB:P11142	Heat shock cognate 71 kDa protein
+HSPA8	UniProtKB:P11142	Heat shock cognate 71 kDa protein
+HSPA8	UniProtKB:P11142	Heat shock cognate 71 kDa protein
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+ATG9A	UniProtKB:Q7Z3C6	Autophagy-related protein 9A
+TMEM59	UniProtKB:Q9BXS4	Transmembrane protein 59
+MAP1LC3C	UniProtKB:Q9BXW4	Microtubule-associated proteins 1A/1B light chain 3C
+MAP1LC3C	UniProtKB:Q9BXW4	Microtubule-associated proteins 1A/1B light chain 3C
+MAP1LC3C	UniProtKB:Q9BXW4	Microtubule-associated proteins 1A/1B light chain 3C
+MAP1LC3C	UniProtKB:Q9BXW4	Microtubule-associated proteins 1A/1B light chain 3C
+MAP1LC3C	UniProtKB:Q9BXW4	Microtubule-associated proteins 1A/1B light chain 3C
+MAP1LC3C	UniProtKB:Q9BXW4	Microtubule-associated proteins 1A/1B light chain 3C
+NIPSNAP3B	UniProtKB:Q9BS92	Protein NipSnap homolog 3B
+CLEC16A	UniProtKB:Q2KHT3	Protein CLEC16A
+AP4M1	UniProtKB:O00189	AP-4 complex subunit mu-1
+SPATA18	UniProtKB:Q8TC71	Mitochondria-eating protein
+SPATA18	UniProtKB:Q8TC71	Mitochondria-eating protein
+ZFYVE26	UniProtKB:Q68DK2	Zinc finger FYVE domain-containing protein 26
+VCP	UniProtKB:P55072	Transitional endoplasmic reticulum ATPase
+VCP	UniProtKB:P55072	Transitional endoplasmic reticulum ATPase
+VCP	UniProtKB:P55072	Transitional endoplasmic reticulum ATPase
+VCP	UniProtKB:P55072	Transitional endoplasmic reticulum ATPase
+VCP	UniProtKB:P55072	Transitional endoplasmic reticulum ATPase
+INHBA	UniProtKB:P08476	Inhibin beta A chain
+EPM2A	UniProtKB:O95278	Laforin
+RAB33A	UniProtKB:Q14088	Ras-related protein Rab-33A
+CHMP4BP1	UniProtKB:P59074	Putative charged multivesicular body protein 4B-like protein CHMP4BP1
+CHMP4C	UniProtKB:Q96CF2	Charged multivesicular body protein 4c
+CHMP4C	UniProtKB:Q96CF2	Charged multivesicular body protein 4c
+CHMP4C	UniProtKB:Q96CF2	Charged multivesicular body protein 4c
+MTOR	UniProtKB:P42345	Serine/threonine-protein kinase mTOR
+USP30	UniProtKB:Q70CQ3	Ubiquitin carboxyl-terminal hydrolase 30
+USP30	UniProtKB:Q70CQ3	Ubiquitin carboxyl-terminal hydrolase 30
+USP30	UniProtKB:Q70CQ3	Ubiquitin carboxyl-terminal hydrolase 30
+NHLRC1	UniProtKB:Q6VVB1	E3 ubiquitin-protein ligase NHLRC1
+UBXN2A	UniProtKB:P68543	UBX domain-containing protein 2A
+STX12	UniProtKB:Q86Y82	Syntaxin-12
+STX12	UniProtKB:Q86Y82	Syntaxin-12
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+VPS37D	UniProtKB:Q86XT2	Vacuolar protein sorting-associated protein 37D
+RIMOC1	UniProtKB:A6NDU8	RAB7A-interacting MON1-CCZ1 complex subunit 1
+CHMP2A	UniProtKB:O43633	Charged multivesicular body protein 2a
+CHMP2A	UniProtKB:O43633	Charged multivesicular body protein 2a
+CHMP2A	UniProtKB:O43633	Charged multivesicular body protein 2a
+TMEM150B	UniProtKB:A6NC51	Modulator of macroautophagy TMEM150B
+FBXL4	UniProtKB:Q9UKA2	F-box/LRR-repeat protein 4
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+GABARAP	UniProtKB:O95166	Gamma-aminobutyric acid receptor-associated protein
+GABARAP	UniProtKB:O95166	Gamma-aminobutyric acid receptor-associated protein
+GABARAP	UniProtKB:O95166	Gamma-aminobutyric acid receptor-associated protein
+VPS11	UniProtKB:Q9H270	Vacuolar protein sorting-associated protein 11 homolog
+VPS33B	UniProtKB:Q9H267	Vacuolar protein sorting-associated protein 33B
+VPS28	UniProtKB:Q9UK41	Vacuolar protein sorting-associated protein 28 homolog
+ACBD5	UniProtKB:Q5T8D3	Acyl-CoA-binding domain-containing protein 5
+GABARAPL3	UniProtKB:Q9BY60	Gamma-aminobutyric acid receptor-associated protein-like 3
+GABARAPL3	UniProtKB:Q9BY60	Gamma-aminobutyric acid receptor-associated protein-like 3
+GABARAPL3	UniProtKB:Q9BY60	Gamma-aminobutyric acid receptor-associated protein-like 3
+CHMP4A	UniProtKB:Q9BY43	Charged multivesicular body protein 4a
+CHMP4A	UniProtKB:Q9BY43	Charged multivesicular body protein 4a
+CHMP4A	UniProtKB:Q9BY43	Charged multivesicular body protein 4a
+PINK1	UniProtKB:Q9BXM7	Serine/threonine-protein kinase PINK1, mitochondrial
+PINK1	UniProtKB:Q9BXM7	Serine/threonine-protein kinase PINK1, mitochondrial
+PINK1	UniProtKB:Q9BXM7	Serine/threonine-protein kinase PINK1, mitochondrial
+PINK1	UniProtKB:Q9BXM7	Serine/threonine-protein kinase PINK1, mitochondrial
+PINK1	UniProtKB:Q9BXM7	Serine/threonine-protein kinase PINK1, mitochondrial
+PINK1	UniProtKB:Q9BXM7	Serine/threonine-protein kinase PINK1, mitochondrial
+PINK1	UniProtKB:Q9BXM7	Serine/threonine-protein kinase PINK1, mitochondrial
+BCL2L13	UniProtKB:Q9BXK5	Bcl-2-like protein 13
+IRGM	UniProtKB:A1A4Y4	Immunity-related GTPase family M protein
+IRGM	UniProtKB:A1A4Y4	Immunity-related GTPase family M protein
+IRGM	UniProtKB:A1A4Y4	Immunity-related GTPase family M protein
+IRGM	UniProtKB:A1A4Y4	Immunity-related GTPase family M protein
+IRGM	UniProtKB:A1A4Y4	Immunity-related GTPase family M protein
+FNBP1L	UniProtKB:Q5T0N5	Formin-binding protein 1-like
+NIPSNAP1	UniProtKB:Q9BPW8	Protein NipSnap homolog 1
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+PRKN	UniProtKB:O60260	E3 ubiquitin-protein ligase parkin
+RUFY4	UniProtKB:Q6ZNE9	RUN and FYVE domain-containing protein 4
+RUFY4	UniProtKB:Q6ZNE9	RUN and FYVE domain-containing protein 4
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+ATG14	UniProtKB:Q6ZNE5	Beclin 1-associated autophagy-related key regulator
+RAB3GAP2	UniProtKB:Q9H2M9	Rab3 GTPase-activating protein non-catalytic subunit
+HGS	UniProtKB:O14964	Hepatocyte growth factor-regulated tyrosine kinase substrate
+TIMM23	UniProtKB:O14925	Mitochondrial import inner membrane translocase subunit Tim23
+DNM2	UniProtKB:P50570	Dynamin-2
+DNM2	UniProtKB:P50570	Dynamin-2
+PEX5	UniProtKB:P50542	Peroxisomal targeting signal 1 receptor
+WDR81	UniProtKB:Q562E7	WD repeat-containing protein 81
+WDR81	UniProtKB:Q562E7	WD repeat-containing protein 81
+SRC	UniProtKB:P12931	Proto-oncogene tyrosine-protein kinase Src
+WDFY4	UniProtKB:Q6ZS81	WD repeat- and FYVE domain-containing protein 4
+TMEM208	UniProtKB:Q9BTX3	Transmembrane protein 208
+LGALS8	UniProtKB:O00214	Galectin-8
+LGALS8	UniProtKB:O00214	Galectin-8
+SMCR8	UniProtKB:Q8TEV9	Guanine nucleotide exchange protein SMCR8
+ZNF418	UniProtKB:Q8TF45	Zinc finger protein 418
+ZNF418	UniProtKB:Q8TF45	Zinc finger protein 418
+HERC1	UniProtKB:Q15751	Probable E3 ubiquitin-protein ligase HERC1
+VPS37B	UniProtKB:Q9H9H4	Vacuolar protein sorting-associated protein 37B
+NAGLU	UniProtKB:P54802	Alpha-N-acetylglucosaminidase
+VIPAS39	UniProtKB:Q9H9C1	Spermatogenesis-defective protein 39 homolog
+LYN	UniProtKB:P07948	Tyrosine-protein kinase Lyn
+CHMP6	UniProtKB:Q96FZ7	Charged multivesicular body protein 6
+CHMP6	UniProtKB:Q96FZ7	Charged multivesicular body protein 6
+CHMP6	UniProtKB:Q96FZ7	Charged multivesicular body protein 6
+VPS51	UniProtKB:Q9UID3	Vacuolar protein sorting-associated protein 51 homolog
+CD84	UniProtKB:Q9UIB8	SLAM family member 5
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+ATG2A	UniProtKB:Q2TAZ0	Autophagy-related protein 2 homolog A
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+LAMP2	UniProtKB:P13473	Lysosome-associated membrane glycoprotein 2
+DDRGK1	UniProtKB:Q96HY6	DDRGK domain-containing protein 1
+PGAM5	UniProtKB:Q96HS1	Serine/threonine-protein phosphatase PGAM5, mitochondrial
+HMOX1	UniProtKB:P09601	Heme oxygenase 1
+FUNDC2	UniProtKB:Q9BWH2	FUN14 domain-containing protein 2
+OGT	UniProtKB:O15294	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit
+ATG4C	UniProtKB:Q96DT6	Cysteine protease ATG4C
+ATG4C	UniProtKB:Q96DT6	Cysteine protease ATG4C
+ATG4C	UniProtKB:Q96DT6	Cysteine protease ATG4C
+ATG4C	UniProtKB:Q96DT6	Cysteine protease ATG4C
+ATG4C	UniProtKB:Q96DT6	Cysteine protease ATG4C
+ATG4C	UniProtKB:Q96DT6	Cysteine protease ATG4C
+SLC25A46	UniProtKB:Q96AG3	Mitochondrial outer membrane protein SLC25A46
+S100A9	UniProtKB:P06702	Protein S100-A9
+WDR41	UniProtKB:Q9HAD4	WD repeat-containing protein 41
+SNAPIN	UniProtKB:O95295	SNARE-associated protein Snapin

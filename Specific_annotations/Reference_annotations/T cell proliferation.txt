@@ -1,0 +1,81 @@
+TNFRSF4	UniProtKB:P43489	Tumor necrosis factor receptor superfamily member 4
+IDO1	UniProtKB:P14902	Indoleamine 2,3-dioxygenase 1
+DLG1	UniProtKB:Q12959	Disks large homolog 1
+ARMC5	UniProtKB:Q96C12	Armadillo repeat-containing protein 5
+IL15	UniProtKB:P40933	Interleukin-15
+CCND3	UniProtKB:P30281	G1/S-specific cyclin-D3
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+GJA1	UniProtKB:P17302	Gap junction alpha-1 protein
+LILRB1	UniProtKB:Q8NHL6	Leukocyte immunoglobulin-like receptor subfamily B member 1
+MALT1	UniProtKB:Q9UDY8	Mucosa-associated lymphoid tissue lymphoma translocation protein 1
+DOCK8	UniProtKB:Q8NF50	Dedicator of cytokinesis protein 8
+STAT5B	UniProtKB:P51692	Signal transducer and activator of transcription 5B
+SHH	UniProtKB:Q15465	Sonic hedgehog protein
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+SPN	UniProtKB:P16150	Leukosialin
+FYN	UniProtKB:P06241	Tyrosine-protein kinase Fyn
+BTN3A1	UniProtKB:O00481	Butyrophilin subfamily 3 member A1
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+ELF4	UniProtKB:Q99607	ETS-related transcription factor Elf-4
+ABL1	UniProtKB:P00519	Tyrosine-protein kinase ABL1
+IL2	UniProtKB:P60568	Interleukin-2
+PELI1	UniProtKB:Q96FA3	E3 ubiquitin-protein ligase pellino homolog 1
+SH2D2A	UniProtKB:Q9NP31	SH2 domain-containing protein 2A
+CRTAM	UniProtKB:O95727	Cytotoxic and regulatory T-cell molecule
+ITCH	UniProtKB:Q96J02	E3 ubiquitin-protein ligase Itchy homolog
+TNFSF13B	UniProtKB:Q9Y275	Tumor necrosis factor ligand superfamily member 13B
+IL23A	UniProtKB:Q9NPF7	Interleukin-23 subunit alpha
+FKBP1B	UniProtKB:P68106	Peptidyl-prolyl cis-trans isomerase FKBP1B
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+NDFIP1	UniProtKB:Q9BT67	NEDD4 family-interacting protein 1
+ALKBH5	UniProtKB:Q6P6C2	RNA demethylase ALKBH5
+TNFSF14	UniProtKB:O43557	Tumor necrosis factor ligand superfamily member 14
+SLC11A1	UniProtKB:P49279	Natural resistance-associated macrophage protein 1
+HES1	UniProtKB:Q14469	Transcription factor HES-1
+PTPN6	UniProtKB:P29350	Tyrosine-protein phosphatase non-receptor type 6
+RIPK2	UniProtKB:O43353	Receptor-interacting serine/threonine-protein kinase 2
+RIPK2	UniProtKB:O43353	Receptor-interacting serine/threonine-protein kinase 2
+PRDX2	UniProtKB:P32119	Peroxiredoxin-2
+EBI3	UniProtKB:Q14213	Interleukin-27 subunit beta
+CLEC4G	UniProtKB:Q6UXB4	C-type lectin domain family 4 member G
+CLEC4G	UniProtKB:Q6UXB4	C-type lectin domain family 4 member G
+LMBR1L	UniProtKB:Q6UX01	Protein LMBR1L
+CORO1A	UniProtKB:P31146	Coronin-1A
+SASH3	UniProtKB:O75995	SAM and SH3 domain-containing protein 3
+TNFSF18	UniProtKB:Q9UNG2	Tumor necrosis factor ligand superfamily member 18
+TNFSF18	UniProtKB:Q9UNG2	Tumor necrosis factor ligand superfamily member 18
+CTPS1	UniProtKB:P17812	CTP synthase 1
+TP53	UniProtKB:P04637	Cellular tumor antigen p53
+ERBB2	UniProtKB:P04626	Receptor tyrosine-protein kinase erbB-2
+GPAM	UniProtKB:Q9HCL2	Glycerol-3-phosphate acyltransferase 1, mitochondrial
+TSPAN32	UniProtKB:Q96QS1	Tetraspanin-32
+EFNB1	UniProtKB:P98172	Ephrin-B1
+RC3H2	UniProtKB:Q9HBD1	Roquin-2
+CBLB	UniProtKB:Q13191	E3 ubiquitin-protein ligase CBL-B
+IL2RA	UniProtKB:P01589	Interleukin-2 receptor subunit alpha
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+P2RX7	UniProtKB:Q99572	P2X purinoceptor 7
+TGFB1	UniProtKB:P01137	Transforming growth factor beta-1 proprotein
+LIPA	UniProtKB:P38571	Lysosomal acid lipase/cholesteryl ester hydrolase
+PPP3CB	UniProtKB:P16298	Serine/threonine-protein phosphatase 2B catalytic subunit beta isoform
+CD151	UniProtKB:P48509	CD151 antigen
+SCGB1A1	UniProtKB:P11684	Uteroglobin
+WNT4	UniProtKB:P56705	Protein Wnt-4
+BAX	UniProtKB:Q07812	Apoptosis regulator BAX
+PDE5A	UniProtKB:O76074	cGMP-specific 3',5'-cyclic phosphodiesterase
+KITLG	UniProtKB:P21583	Kit ligand
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+NCSTN	UniProtKB:Q92542	Nicastrin
+RPS6	UniProtKB:P62753	Small ribosomal subunit protein eS6
+PRKCQ	UniProtKB:Q04759	Protein kinase C theta type
+CD28	UniProtKB:P10747	T-cell-specific surface glycoprotein CD28
+IL20RB	UniProtKB:Q6UXL0	Interleukin-20 receptor subunit beta
+CADM1	UniProtKB:Q9BY67	Cell adhesion molecule 1
+CARD11	UniProtKB:Q9BXL7	Caspase recruitment domain-containing protein 11
+IL12B	UniProtKB:P29460	Interleukin-12 subunit beta
+CD70	UniProtKB:P32970	CD70 antigen
+PSMB10	UniProtKB:P40306	Proteasome subunit beta type-10
+MSN	UniProtKB:P26038	Moesin
+RC3H1	UniProtKB:Q5TC82	Roquin-1
+SELENOK	UniProtKB:Q9Y6D0	Selenoprotein K

@@ -1,0 +1,26 @@
+CMA1	UniProtKB:P23946	Chymase
+IL1F10	UniProtKB:Q8WWZ1	Interleukin-1 family member 10
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+CD2AP	UniProtKB:Q9Y5K6	CD2-associated protein
+TREM1	UniProtKB:Q9NP99	Triggering receptor expressed on myeloid cells 1
+IL36A	UniProtKB:Q9UHA7	Interleukin-36 alpha
+ITGAV	UniProtKB:P06756	Integrin alpha-V
+COL3A1	UniProtKB:P02461	Collagen alpha-1(III) chain
+CASP1	UniProtKB:P29466	Caspase-1
+IL36RN	UniProtKB:Q9UBH0	Interleukin-36 receptor antagonist protein
+TLR3	UniProtKB:O15455	Toll-like receptor 3
+IL36G	UniProtKB:Q9NZH8	Interleukin-36 gamma
+IL36B	UniProtKB:Q9NZH7	Interleukin-36 beta
+IL37	UniProtKB:Q9NZH6	Interleukin-37
+ADAMTS3	UniProtKB:O15072	A disintegrin and metalloproteinase with thrombospondin motifs 3
+ITGB6	UniProtKB:P18564	Integrin beta-6
+IL1B	UniProtKB:P01584	Interleukin-1 beta
+IL1B	UniProtKB:P01584	Interleukin-1 beta
+IL1A	UniProtKB:P01583	Interleukin-1 alpha
+TNF	UniProtKB:P01375	Tumor necrosis factor
+IL6R	UniProtKB:P08887	Interleukin-6 receptor subunit alpha
+IL18	UniProtKB:Q14116	Interleukin-18
+IL6	UniProtKB:P05231	Interleukin-6
+HIF1A	UniProtKB:Q16665	Hypoxia-inducible factor 1-alpha
+PCSK5	UniProtKB:Q92824	Proprotein convertase subtilisin/kexin type 5
+FURIN	UniProtKB:P09958	Furin

@@ -1,0 +1,725 @@
+S100A12	UniProtKB:P80511	Protein S100-A12
+S100A12	UniProtKB:P80511	Protein S100-A12
+CXCL6	UniProtKB:P80162	C-X-C motif chemokine 6
+CXCL6	UniProtKB:P80162	C-X-C motif chemokine 6
+CXCL6	UniProtKB:P80162	C-X-C motif chemokine 6
+CXCL6	UniProtKB:P80162	C-X-C motif chemokine 6
+CXCL6	UniProtKB:P80162	C-X-C motif chemokine 6
+ADAM8	UniProtKB:P78325	Disintegrin and metalloproteinase domain-containing protein 8
+LSP1	UniProtKB:P33241	Lymphocyte-specific protein 1
+CCL7	UniProtKB:P80098	C-C motif chemokine 7
+CCL7	UniProtKB:P80098	C-C motif chemokine 7
+CCL7	UniProtKB:P80098	C-C motif chemokine 7
+CCL7	UniProtKB:P80098	C-C motif chemokine 7
+CCL7	UniProtKB:P80098	C-C motif chemokine 7
+CCL7	UniProtKB:P80098	C-C motif chemokine 7
+CCL8	UniProtKB:P80075	C-C motif chemokine 8
+CCL8	UniProtKB:P80075	C-C motif chemokine 8
+CCL8	UniProtKB:P80075	C-C motif chemokine 8
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+ALKBH1	UniProtKB:Q13686	Nucleic acid dioxygenase ALKBH1
+ALKBH1	UniProtKB:Q13686	Nucleic acid dioxygenase ALKBH1
+DOCK4	UniProtKB:Q8N1I0	Dedicator of cytokinesis protein 4
+DOCK4	UniProtKB:Q8N1I0	Dedicator of cytokinesis protein 4
+ITGA9	UniProtKB:Q13797	Integrin alpha-9
+PRKCD	UniProtKB:Q05655	Protein kinase C delta type
+LGR6	UniProtKB:Q9HBX8	Leucine-rich repeat-containing G-protein coupled receptor 6
+PTPRJ	UniProtKB:Q12913	Receptor-type tyrosine-protein phosphatase eta
+TNFSF11	UniProtKB:O14788	Tumor necrosis factor ligand superfamily member 11
+ANOS1	UniProtKB:P23352	Anosmin-1
+ABCC1	UniProtKB:P33527	Multidrug resistance-associated protein 1
+PPIB	UniProtKB:P23284	Peptidyl-prolyl cis-trans isomerase B
+MACO1	UniProtKB:Q8N5G2	Macoilin
+RIPOR2	UniProtKB:Q9Y4F9	Rho family-interacting cell polarization regulator 2
+RNASE2	UniProtKB:P10153	Non-secretory ribonuclease
+RNASE2	UniProtKB:P10153	Non-secretory ribonuclease
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+SEMA7A	UniProtKB:O75326	Semaphorin-7A
+SEMA7A	UniProtKB:O75326	Semaphorin-7A
+IL17RC	UniProtKB:Q8NAC3	Interleukin-17 receptor C
+FCER1G	UniProtKB:P30273	High affinity immunoglobulin epsilon receptor subunit gamma
+RPL13A	UniProtKB:P40429	Large ribosomal subunit protein uL13
+CXCL11	UniProtKB:O14625	C-X-C motif chemokine 11
+CXCL11	UniProtKB:O14625	C-X-C motif chemokine 11
+CXCL11	UniProtKB:O14625	C-X-C motif chemokine 11
+EGR3	UniProtKB:Q06889	Early growth response protein 3
+SCG2	UniProtKB:P13521	Secretogranin-2
+SCG2	UniProtKB:P13521	Secretogranin-2
+SCG2	UniProtKB:P13521	Secretogranin-2
+SCG2	UniProtKB:P13521	Secretogranin-2
+SCG2	UniProtKB:P13521	Secretogranin-2
+BIN2	UniProtKB:Q9UBW5	Bridging integrator 2
+CYSLTR1	UniProtKB:Q9Y271	Cysteinyl leukotriene receptor 1
+CCL26	UniProtKB:Q9Y258	C-C motif chemokine 26
+CCL26	UniProtKB:Q9Y258	C-C motif chemokine 26
+CCL26	UniProtKB:Q9Y258	C-C motif chemokine 26
+CCL26	UniProtKB:Q9Y258	C-C motif chemokine 26
+CCL26	UniProtKB:Q9Y258	C-C motif chemokine 26
+CCL26	UniProtKB:Q9Y258	C-C motif chemokine 26
+CKLF	UniProtKB:Q9UBR5	Chemokine-like factor
+CKLF	UniProtKB:Q9UBR5	Chemokine-like factor
+CKLF	UniProtKB:Q9UBR5	Chemokine-like factor
+CKLF	UniProtKB:Q9UBR5	Chemokine-like factor
+NTN1	UniProtKB:O95631	Netrin-1
+CCL27	UniProtKB:Q9Y4X3	C-C motif chemokine 27
+CCL27	UniProtKB:Q9Y4X3	C-C motif chemokine 27
+CCL27	UniProtKB:Q9Y4X3	C-C motif chemokine 27
+CCL27	UniProtKB:Q9Y4X3	C-C motif chemokine 27
+CCR5	UniProtKB:P51681	C-C chemokine receptor type 5
+CCR5	UniProtKB:P51681	C-C chemokine receptor type 5
+CCR5	UniProtKB:P51681	C-C chemokine receptor type 5
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+CCL22	UniProtKB:O00626	C-C motif chemokine 22
+CCL22	UniProtKB:O00626	C-C motif chemokine 22
+CCL22	UniProtKB:O00626	C-C motif chemokine 22
+CCN1	UniProtKB:O00622	CCN family member 1
+CCL3L1	UniProtKB:P16619	C-C motif chemokine 3-like 1
+CCL3L1	UniProtKB:P16619	C-C motif chemokine 3-like 1
+SEMA3C	UniProtKB:Q99985	Semaphorin-3C
+SEMA3C	UniProtKB:Q99985	Semaphorin-3C
+RARRES2	UniProtKB:Q99969	Retinoic acid receptor responder protein 2
+CD300H	UniProtKB:A0A0K2S4Q6	Protein CD300H
+ACKR2	UniProtKB:O00590	Atypical chemokine receptor 2
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CXCR6	UniProtKB:O00574	C-X-C chemokine receptor type 6
+PIP5K1A	UniProtKB:Q99755	Phosphatidylinositol 4-phosphate 5-kinase type-1 alpha
+CMTM8	UniProtKB:Q8IZV2	CKLF-like MARVEL transmembrane domain-containing protein 8
+NINJ1	UniProtKB:Q92982	Ninjurin-1
+LYST	UniProtKB:Q99698	Lysosomal-trafficking regulator
+NRG3	UniProtKB:P56975	Pro-neuregulin-3, membrane-bound isoform
+NRG3	UniProtKB:P56975	Pro-neuregulin-3, membrane-bound isoform
+BCAR1	UniProtKB:P56945	Breast cancer anti-estrogen resistance protein 1
+CCL17	UniProtKB:Q92583	C-C motif chemokine 17
+GBF1	UniProtKB:Q92538	Golgi-specific brefeldin A-resistance guanine nucleotide exchange factor 1
+MT-RNR2	UniProtKB:Q8IVG9	Humanin
+CMTM2	UniProtKB:Q8TAZ6	CKLF-like MARVEL transmembrane domain-containing protein 2
+RAC1	UniProtKB:P63000	Ras-related C3 botulinum toxin substrate 1
+S100A4	UniProtKB:P26447	Protein S100-A4
+S100A4	UniProtKB:P26447	Protein S100-A4
+LGALS9	UniProtKB:O00182	Galectin-9
+CCL24	UniProtKB:O00175	C-C motif chemokine 24
+CCL24	UniProtKB:O00175	C-C motif chemokine 24
+CCL24	UniProtKB:O00175	C-C motif chemokine 24
+CCL24	UniProtKB:O00175	C-C motif chemokine 24
+CCL24	UniProtKB:O00175	C-C motif chemokine 24
+SPN	UniProtKB:P16150	Leukosialin
+DPEP1	UniProtKB:P16444	Dipeptidase 1
+CMKLR1	UniProtKB:Q99788	Chemerin-like receptor 1
+CMKLR1	UniProtKB:Q99788	Chemerin-like receptor 1
+PLEC	UniProtKB:Q15149	Plectin
+PREX1	UniProtKB:Q8TCU6	Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 1 protein
+LPAR1	UniProtKB:Q92633	Lysophosphatidic acid receptor 1
+TRPM4	UniProtKB:Q8TD43	Transient receptor potential cation channel subfamily M member 4
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+PLEKHG5	UniProtKB:O94827	Pleckstrin homology domain-containing family G member 5
+HMGB2	UniProtKB:P26583	High mobility group protein B2
+HMGB2	UniProtKB:P26583	High mobility group protein B2
+HMGB2	UniProtKB:P26583	High mobility group protein B2
+EPHA7	UniProtKB:Q15375	Ephrin type-A receptor 7
+EPHA7	UniProtKB:Q15375	Ephrin type-A receptor 7
+RALBP1	UniProtKB:Q15311	RalA-binding protein 1
+CMTM1	UniProtKB:Q8IZ96	CKLF-like MARVEL transmembrane domain-containing protein 1
+SBDS	UniProtKB:Q9Y3A5	Ribosome maturation protein SBDS
+AGTR1	UniProtKB:P30556	Type-1 angiotensin II receptor
+XCL2	UniProtKB:Q9UBD3	Cytokine SCM-1 beta
+XCL2	UniProtKB:Q9UBD3	Cytokine SCM-1 beta
+AZU1	UniProtKB:P20160	Azurocidin
+AZU1	UniProtKB:P20160	Azurocidin
+PF4V1	UniProtKB:P10720	Platelet factor 4 variant
+PF4V1	UniProtKB:P10720	Platelet factor 4 variant
+KIT	UniProtKB:P10721	Mast/stem cell growth factor receptor Kit
+KIT	UniProtKB:P10721	Mast/stem cell growth factor receptor Kit
+HOXB9	UniProtKB:P17482	Homeobox protein Hox-B9
+NRP1	UniProtKB:O14786	Neuropilin-1
+NRP1	UniProtKB:O14786	Neuropilin-1
+ARHGEF5	UniProtKB:Q12774	Rho guanine nucleotide exchange factor 5
+PTGDR2	UniProtKB:Q9Y5Y4	Prostaglandin D2 receptor 2
+SEMA6D	UniProtKB:Q8NFY4	Semaphorin-6D
+SLIT3	UniProtKB:O75094	Slit homolog 3 protein
+SLIT3	UniProtKB:O75094	Slit homolog 3 protein
+SLIT3	UniProtKB:O75094	Slit homolog 3 protein
+SLIT1	UniProtKB:O75093	Slit homolog 1 protein
+SLIT1	UniProtKB:O75093	Slit homolog 1 protein
+SLIT1	UniProtKB:O75093	Slit homolog 1 protein
+EDN2	UniProtKB:P20800	Endothelin-2
+EDN2	UniProtKB:P20800	Endothelin-2
+ADGRE2	UniProtKB:Q9UHX3	Adhesion G protein-coupled receptor E2
+CCL4L1	UniProtKB:Q8NHW4	C-C motif chemokine 4-like
+CCL4L1	UniProtKB:Q8NHW4	C-C motif chemokine 4-like
+MOSPD2	UniProtKB:Q8NHP6	Motile sperm domain-containing protein 2
+IL17RA	UniProtKB:Q96F46	Interleukin-17 receptor A
+NTF3	UniProtKB:P20783	Neurotrophin-3
+NTF3	UniProtKB:P20783	Neurotrophin-3
+PIK3C2G	UniProtKB:O75747	Phosphatidylinositol 3-kinase C2 domain-containing subunit gamma
+TREM1	UniProtKB:Q9NP99	Triggering receptor expressed on myeloid cells 1
+PLAU	UniProtKB:P00749	Urokinase-type plasminogen activator
+SEMA6B	UniProtKB:Q9H3T3	Semaphorin-6B
+SEMA6C	UniProtKB:Q9H3T2	Semaphorin-6C
+SEMA4A	UniProtKB:Q9H3S1	Semaphorin-4A
+SEMA4A	UniProtKB:Q9H3S1	Semaphorin-4A
+PLXNB3	UniProtKB:Q9ULL4	Plexin-B3
+PLXNB3	UniProtKB:Q9ULL4	Plexin-B3
+XCL1	UniProtKB:P47992	Lymphotactin
+XCL1	UniProtKB:P47992	Lymphotactin
+XCL1	UniProtKB:P47992	Lymphotactin
+XCL1	UniProtKB:P47992	Lymphotactin
+XCL1	UniProtKB:P47992	Lymphotactin
+DPP4	UniProtKB:P27487	Dipeptidyl peptidase 4
+DPP4	UniProtKB:P27487	Dipeptidyl peptidase 4
+DPP4	UniProtKB:P27487	Dipeptidyl peptidase 4
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+COLEC10	UniProtKB:Q9Y6Z7	Collectin-10
+COLEC10	UniProtKB:Q9Y6Z7	Collectin-10
+OR10J5	UniProtKB:Q8NHC4	Olfactory receptor 10J5
+TNFRSF11A	UniProtKB:Q9Y6Q6	Tumor necrosis factor receptor superfamily member 11A
+ROBO1	UniProtKB:Q9Y6N7	Roundabout homolog 1
+CMTM5	UniProtKB:Q96DZ9	CKLF-like MARVEL transmembrane domain-containing protein 5
+CCL15	UniProtKB:Q16663	C-C motif chemokine 15
+CCL15	UniProtKB:Q16663	C-C motif chemokine 15
+CCL15	UniProtKB:Q16663	C-C motif chemokine 15
+CCL15	UniProtKB:Q16663	C-C motif chemokine 15
+CCL15	UniProtKB:Q16663	C-C motif chemokine 15
+CCL14	UniProtKB:Q16627	C-C motif chemokine 14
+CCL14	UniProtKB:Q16627	C-C motif chemokine 14
+VAV3	UniProtKB:Q9UKW4	Guanine nucleotide exchange factor VAV3
+FES	UniProtKB:P07332	Tyrosine-protein kinase Fes/Fps
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+CHGA	UniProtKB:P10645	Chromogranin-A
+RAC3	UniProtKB:P60763	Ras-related C3 botulinum toxin substrate 3
+PTPRO	UniProtKB:Q16827	Receptor-type tyrosine-protein phosphatase O
+SEMA4B	UniProtKB:Q9NPR2	Semaphorin-4B
+SEMA4B	UniProtKB:Q9NPR2	Semaphorin-4B
+TPBG	UniProtKB:Q13641	Trophoblast glycoprotein
+FFAR2	UniProtKB:O15552	Free fatty acid receptor 2
+FGF10	UniProtKB:O15520	Fibroblast growth factor 10
+FGF10	UniProtKB:O15520	Fibroblast growth factor 10
+FGF10	UniProtKB:O15520	Fibroblast growth factor 10
+FGF10	UniProtKB:O15520	Fibroblast growth factor 10
+FGF10	UniProtKB:O15520	Fibroblast growth factor 10
+FGF10	UniProtKB:O15520	Fibroblast growth factor 10
+RAB13	UniProtKB:P51153	Ras-related protein Rab-13
+CXADR	UniProtKB:P78310	Coxsackievirus and adenovirus receptor
+ROBO3	UniProtKB:Q96MS0	Roundabout homolog 3
+SEMA3G	UniProtKB:Q9NS98	Semaphorin-3G
+SEMA3G	UniProtKB:Q9NS98	Semaphorin-3G
+DEFB130A	UniProtKB:P0DP74	Beta-defensin 130A
+DEFB130A	UniProtKB:P0DP74	Beta-defensin 130A
+DEFB130A	UniProtKB:P0DP74	Beta-defensin 130A
+DEFB130B	UniProtKB:P0DP73	Beta-defensin 130B
+DEFB130B	UniProtKB:P0DP73	Beta-defensin 130B
+DEFB130B	UniProtKB:P0DP73	Beta-defensin 130B
+CCL28	UniProtKB:Q9NRJ3	C-C motif chemokine 28
+CCL28	UniProtKB:Q9NRJ3	C-C motif chemokine 28
+CCL28	UniProtKB:Q9NRJ3	C-C motif chemokine 28
+CCL28	UniProtKB:Q9NRJ3	C-C motif chemokine 28
+CCL28	UniProtKB:Q9NRJ3	C-C motif chemokine 28
+CCL28	UniProtKB:Q9NRJ3	C-C motif chemokine 28
+ENPP2	UniProtKB:Q13822	Autotaxin
+PROK2	UniProtKB:Q9HC23	Prokineticin-2
+PLGRKT	UniProtKB:Q9HBL7	Plasminogen receptor (KT)
+ITGAV	UniProtKB:P06756	Integrin alpha-V
+BMP4	UniProtKB:P12644	Bone morphogenetic protein 4
+BMP4	UniProtKB:P12644	Bone morphogenetic protein 4
+VCAM1	UniProtKB:P19320	Vascular cell adhesion protein 1
+SEMA3D	UniProtKB:O95025	Semaphorin-3D
+SEMA3D	UniProtKB:O95025	Semaphorin-3D
+CORO1B	UniProtKB:Q9BR76	Coronin-1B
+CORO1B	UniProtKB:Q9BR76	Coronin-1B
+LTB4R2	UniProtKB:Q9NPC1	Leukotriene B4 receptor 2
+ACKR4	UniProtKB:Q9NPB9	Atypical chemokine receptor 4
+ACKR4	UniProtKB:Q9NPB9	Atypical chemokine receptor 4
+PLA2G1B	UniProtKB:P04054	Phospholipase A2
+EDNRB	UniProtKB:P24530	Endothelin receptor type B
+CXCL14	UniProtKB:O95715	C-X-C motif chemokine 14
+CXCL14	UniProtKB:O95715	C-X-C motif chemokine 14
+CXCL14	UniProtKB:O95715	C-X-C motif chemokine 14
+NUP85	UniProtKB:Q9BW27	Nuclear pore complex protein Nup85
+CRKL	UniProtKB:P46109	Crk-like protein
+CRK	UniProtKB:P46108	Adapter molecule crk
+CCR10	UniProtKB:P46092	C-C chemokine receptor type 10
+PF4	UniProtKB:P02776	Platelet factor 4
+PF4	UniProtKB:P02776	Platelet factor 4
+PF4	UniProtKB:P02776	Platelet factor 4
+PF4	UniProtKB:P02776	Platelet factor 4
+PF4	UniProtKB:P02776	Platelet factor 4
+PF4	UniProtKB:P02776	Platelet factor 4
+ITGA1	UniProtKB:P56199	Integrin alpha-1
+DEFA4	UniProtKB:P12838	Defensin alpha 4
+SEMA5B	UniProtKB:Q9P283	Semaphorin-5B
+SEMA5B	UniProtKB:Q9P283	Semaphorin-5B
+GDNF	UniProtKB:P39905	Glial cell line-derived neurotrophic factor
+GDNF	UniProtKB:P39905	Glial cell line-derived neurotrophic factor
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+VEGFA	UniProtKB:P15692	Vascular endothelial growth factor A, long form
+SEMA4F	UniProtKB:O95754	Semaphorin-4F
+SEMA4F	UniProtKB:O95754	Semaphorin-4F
+DEFB109B	UniProtKB:Q30KR1	Putative beta-defensin 109B
+DEFB109B	UniProtKB:Q30KR1	Putative beta-defensin 109B
+DEFB109B	UniProtKB:Q30KR1	Putative beta-defensin 109B
+DEFB114	UniProtKB:Q30KQ6	Beta-defensin 114
+DEFB114	UniProtKB:Q30KQ6	Beta-defensin 114
+DEFB114	UniProtKB:Q30KQ6	Beta-defensin 114
+DEFB133	UniProtKB:Q30KQ1	Beta-defensin 133
+DEFB133	UniProtKB:Q30KQ1	Beta-defensin 133
+DEFB133	UniProtKB:Q30KQ1	Beta-defensin 133
+EDN1	UniProtKB:P05305	Endothelin-1
+CX3CR1	UniProtKB:P49238	CX3C chemokine receptor 1
+CX3CR1	UniProtKB:P49238	CX3C chemokine receptor 1
+CX3CR1	UniProtKB:P49238	CX3C chemokine receptor 1
+IL16	UniProtKB:Q14005	Pro-interleukin-16
+PIP5K1C	UniProtKB:O60331	Phosphatidylinositol 4-phosphate 5-kinase type-1 gamma
+ACKR3	UniProtKB:P25106	Atypical chemokine receptor 3
+PTAFR	UniProtKB:P25105	Platelet-activating factor receptor
+FPR2	UniProtKB:P25090	N-formyl peptide receptor 2
+FPR2	UniProtKB:P25090	N-formyl peptide receptor 2
+FPR3	UniProtKB:P25089	N-formyl peptide receptor 3
+CXCR2	UniProtKB:P25025	C-X-C chemokine receptor type 2
+CXCR2	UniProtKB:P25025	C-X-C chemokine receptor type 2
+CXCR2	UniProtKB:P25025	C-X-C chemokine receptor type 2
+CXCR2	UniProtKB:P25025	C-X-C chemokine receptor type 2
+CXCR1	UniProtKB:P25024	C-X-C chemokine receptor type 1
+CXCR1	UniProtKB:P25024	C-X-C chemokine receptor type 1
+CCL18	UniProtKB:P55774	C-C motif chemokine 18
+CCL18	UniProtKB:P55774	C-C motif chemokine 18
+CCL18	UniProtKB:P55774	C-C motif chemokine 18
+CCL23	UniProtKB:P55773	C-C motif chemokine 23
+CCL23	UniProtKB:P55773	C-C motif chemokine 23
+CCL23	UniProtKB:P55773	C-C motif chemokine 23
+CCL23	UniProtKB:P55773	C-C motif chemokine 23
+CCL23	UniProtKB:P55773	C-C motif chemokine 23
+SFTPD	UniProtKB:P35247	Pulmonary surfactant-associated protein D
+TNFSF14	UniProtKB:O43557	Tumor necrosis factor ligand superfamily member 14
+CXCR5	UniProtKB:P32302	C-X-C chemokine receptor type 5
+CXCR5	UniProtKB:P32302	C-X-C chemokine receptor type 5
+DEFB110	UniProtKB:Q30KQ9	Beta-defensin 110
+DEFB110	UniProtKB:Q30KQ9	Beta-defensin 110
+DEFB110	UniProtKB:Q30KQ9	Beta-defensin 110
+RPS19	UniProtKB:P39019	Small ribosomal subunit protein eS19
+PDGFA	UniProtKB:P04085	Platelet-derived growth factor subunit A
+ARHGEF16	UniProtKB:Q5VV41	Rho guanine nucleotide exchange factor 16
+GPR183	UniProtKB:P32249	G-protein coupled receptor 183
+GPR183	UniProtKB:P32249	G-protein coupled receptor 183
+GPR183	UniProtKB:P32249	G-protein coupled receptor 183
+CCR7	UniProtKB:P32248	C-C chemokine receptor type 7
+CCR7	UniProtKB:P32248	C-C chemokine receptor type 7
+CCR7	UniProtKB:P32248	C-C chemokine receptor type 7
+VAV1	UniProtKB:P15498	Proto-oncogene vav
+FOSL1	UniProtKB:P15407	Fos-related antigen 1
+S100A8	UniProtKB:P05109	Protein S100-A8
+S100A8	UniProtKB:P05109	Protein S100-A8
+ITGB2	UniProtKB:P05107	Integrin beta-2
+ITGB2	UniProtKB:P05107	Integrin beta-2
+ITGB3	UniProtKB:P05106	Integrin beta-3
+GAS6	UniProtKB:Q14393	Growth arrest-specific protein 6
+TSC2	UniProtKB:P49815	Tuberin
+EPHA2	UniProtKB:P29317	Ephrin type-A receptor 2
+EPHA2	UniProtKB:P29317	Ephrin type-A receptor 2
+SEMA4C	UniProtKB:Q9C0C4	Semaphorin-4C
+SEMA4C	UniProtKB:Q9C0C4	Semaphorin-4C
+VEGFC	UniProtKB:P49767	Vascular endothelial growth factor C
+VEGFC	UniProtKB:P49767	Vascular endothelial growth factor C
+VEGFC	UniProtKB:P49767	Vascular endothelial growth factor C
+VEGFB	UniProtKB:P49765	Vascular endothelial growth factor B
+VEGFB	UniProtKB:P49765	Vascular endothelial growth factor B
+VEGFB	UniProtKB:P49765	Vascular endothelial growth factor B
+VEGFB	UniProtKB:P49765	Vascular endothelial growth factor B
+PGF	UniProtKB:P49763	Placenta growth factor
+PGF	UniProtKB:P49763	Placenta growth factor
+CREB3	UniProtKB:O43889	Cyclic AMP-responsive element-binding protein 3
+CCL1	UniProtKB:P22362	C-C motif chemokine 1
+CCL1	UniProtKB:P22362	C-C motif chemokine 1
+CCL1	UniProtKB:P22362	C-C motif chemokine 1
+CCL1	UniProtKB:P22362	C-C motif chemokine 1
+CXCL5	UniProtKB:P42830	C-X-C motif chemokine 5
+CXCL5	UniProtKB:P42830	C-X-C motif chemokine 5
+CXCL5	UniProtKB:P42830	C-X-C motif chemokine 5
+IL10	UniProtKB:P22301	Interleukin-10
+PPIA	UniProtKB:P62937	Peptidyl-prolyl cis-trans isomerase A
+PPIA	UniProtKB:P62937	Peptidyl-prolyl cis-trans isomerase A
+ARRB2	UniProtKB:P32121	Beta-arrestin-2
+PIK3CB	UniProtKB:P42338	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform
+GPNMB	UniProtKB:Q14956	Transmembrane glycoprotein NMB
+GPNMB	UniProtKB:Q14956	Transmembrane glycoprotein NMB
+APP	UniProtKB:P05067	Amyloid-beta precursor protein
+APP	UniProtKB:P05067	Amyloid-beta precursor protein
+CTSG	UniProtKB:P08311	Cathepsin G
+TYMP	UniProtKB:P19971	Thymidine phosphorylase
+CCL20	UniProtKB:P78556	C-C motif chemokine 20
+CCL20	UniProtKB:P78556	C-C motif chemokine 20
+FLRT2	UniProtKB:O43155	Leucine-rich repeat transmembrane protein FLRT2
+FLRT2	UniProtKB:O43155	Leucine-rich repeat transmembrane protein FLRT2
+ECSCR	UniProtKB:Q19T08	Endothelial cell-specific chemotaxis regulator
+SERPIND1	UniProtKB:P05546	Heparin cofactor 2
+VEGFD	UniProtKB:O43915	Vascular endothelial growth factor D
+VEGFD	UniProtKB:O43915	Vascular endothelial growth factor D
+VEGFD	UniProtKB:O43915	Vascular endothelial growth factor D
+MSMP	UniProtKB:Q1L6U9	Prostate-associated microseminoprotein
+MSMP	UniProtKB:Q1L6U9	Prostate-associated microseminoprotein
+RAC2	UniProtKB:P15153	Ras-related C3 botulinum toxin substrate 2
+BSG	UniProtKB:P35613	Basigin
+SCRIB	UniProtKB:Q14160	Protein scribble homolog
+SEMA5A	UniProtKB:Q13591	Semaphorin-5A
+SEMA5A	UniProtKB:Q13591	Semaphorin-5A
+SEMA5A	UniProtKB:Q13591	Semaphorin-5A
+SEMA5A	UniProtKB:Q13591	Semaphorin-5A
+CCL16	UniProtKB:O15467	C-C motif chemokine 16
+CCL16	UniProtKB:O15467	C-C motif chemokine 16
+CCL16	UniProtKB:O15467	C-C motif chemokine 16
+CCL16	UniProtKB:O15467	C-C motif chemokine 16
+CCL16	UniProtKB:O15467	C-C motif chemokine 16
+CCL25	UniProtKB:O15444	C-C motif chemokine 25
+CCL25	UniProtKB:O15444	C-C motif chemokine 25
+CCL25	UniProtKB:O15444	C-C motif chemokine 25
+CCL25	UniProtKB:O15444	C-C motif chemokine 25
+CCL25	UniProtKB:O15444	C-C motif chemokine 25
+OR1D2	UniProtKB:P34982	Olfactory receptor 1D2
+CNR2	UniProtKB:P34972	Cannabinoid receptor 2
+GAB1	UniProtKB:Q13480	GRB2-associated-binding protein 1
+HRG	UniProtKB:P04196	Histidine-rich glycoprotein
+CXCL17	UniProtKB:Q6UXB2	C-X-C motif chemokine 17
+GPR15LG	UniProtKB:Q6UWK7	Protein GPR15LG
+GPR15LG	UniProtKB:Q6UWK7	Protein GPR15LG
+CCR9	UniProtKB:P51686	C-C chemokine receptor type 9
+CCR9	UniProtKB:P51686	C-C chemokine receptor type 9
+CCR8	UniProtKB:P51685	C-C chemokine receptor type 8
+CCR8	UniProtKB:P51685	C-C chemokine receptor type 8
+CCR4	UniProtKB:P51679	C-C chemokine receptor type 4
+CCR4	UniProtKB:P51679	C-C chemokine receptor type 4
+CCR3	UniProtKB:P51677	C-C chemokine receptor type 3
+CCR3	UniProtKB:P51677	C-C chemokine receptor type 3
+CCL11	UniProtKB:P51671	Eotaxin
+CCL11	UniProtKB:P51671	Eotaxin
+CCL11	UniProtKB:P51671	Eotaxin
+CCL11	UniProtKB:P51671	Eotaxin
+CCL11	UniProtKB:P51671	Eotaxin
+CCL11	UniProtKB:P51671	Eotaxin
+JAML	UniProtKB:Q86YT9	Junctional adhesion molecule-like
+JAML	UniProtKB:Q86YT9	Junctional adhesion molecule-like
+CORO1A	UniProtKB:P31146	Coronin-1A
+CORO1A	UniProtKB:P31146	Coronin-1A
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+LGALS3	UniProtKB:P17931	Galectin-3
+ENG	UniProtKB:P17813	Endoglin
+WNT5A	UniProtKB:P41221	Protein Wnt-5a
+WNT5A	UniProtKB:P41221	Protein Wnt-5a
+WNT5A	UniProtKB:P41221	Protein Wnt-5a
+PLXNA4	UniProtKB:Q9HCM2	Plexin-A4
+ROBO2	UniProtKB:Q9HCK4	Roundabout homolog 2
+PARVA	UniProtKB:Q9NVD7	Alpha-parvin
+RHOA	UniProtKB:P61586	Transforming protein RhoA
+HGF	UniProtKB:P14210	Hepatocyte growth factor
+HGF	UniProtKB:P14210	Hepatocyte growth factor
+HGF	UniProtKB:P14210	Hepatocyte growth factor
+FOLR2	UniProtKB:P14207	Folate receptor beta
+CXCR4	UniProtKB:P61073	C-X-C chemokine receptor type 4
+CXCR4	UniProtKB:P61073	C-X-C chemokine receptor type 4
+DEFB103A	UniProtKB:P81534	Beta-defensin 103
+DEFB103A	UniProtKB:P81534	Beta-defensin 103
+DEFB103A	UniProtKB:P81534	Beta-defensin 103
+SLAMF1	UniProtKB:Q13291	Signaling lymphocytic activation molecule
+SEMA3F	UniProtKB:Q13275	Semaphorin-3F
+SEMA3F	UniProtKB:Q13275	Semaphorin-3F
+SEMA3F	UniProtKB:Q13275	Semaphorin-3F
+SRP54	UniProtKB:P61011	Signal recognition particle subunit SRP54
+SEMA3B	UniProtKB:Q13214	Semaphorin-3B
+SEMA3B	UniProtKB:Q13214	Semaphorin-3B
+SEMA3B	UniProtKB:Q13214	Semaphorin-3B
+SEMA3B	UniProtKB:Q13214	Semaphorin-3B
+SEMA4G	UniProtKB:Q9NTN9	Semaphorin-4G
+SEMA4G	UniProtKB:Q9NTN9	Semaphorin-4G
+EPHB1	UniProtKB:P54762	Ephrin type-B receptor 1
+FLRT3	UniProtKB:Q9NZU0	Leucine-rich repeat transmembrane protein FLRT3
+FLRT3	UniProtKB:Q9NZU0	Leucine-rich repeat transmembrane protein FLRT3
+PLD1	UniProtKB:Q13393	Phospholipase D1
+ANXA1	UniProtKB:P04083	Annexin A1
+ANXA1	UniProtKB:P04083	Annexin A1
+DEFB4A	UniProtKB:O15263	Defensin beta 4A
+DEFB4A	UniProtKB:O15263	Defensin beta 4A
+DEFB4A	UniProtKB:O15263	Defensin beta 4A
+DEFB4A	UniProtKB:O15263	Defensin beta 4A
+MIF	UniProtKB:P14174	Macrophage migration inhibitory factor
+MIF	UniProtKB:P14174	Macrophage migration inhibitory factor
+EDN3	UniProtKB:P14138	Endothelin-3
+DEFB1	UniProtKB:P60022	Beta-defensin 1
+CCL4	UniProtKB:P13236	C-C motif chemokine 4
+CCL4	UniProtKB:P13236	C-C motif chemokine 4
+SEMA3E	UniProtKB:O15041	Semaphorin-3E
+SEMA3E	UniProtKB:O15041	Semaphorin-3E
+PDGFRB	UniProtKB:P09619	Platelet-derived growth factor receptor beta
+PDGFRB	UniProtKB:P09619	Platelet-derived growth factor receptor beta
+PDGFRB	UniProtKB:P09619	Platelet-derived growth factor receptor beta
+PDGFRB	UniProtKB:P09619	Platelet-derived growth factor receptor beta
+NCKAP1L	UniProtKB:P55160	Nck-associated protein 1-like
+PDE4B	UniProtKB:Q07343	3',5'-cyclic-AMP phosphodiesterase 4B
+CXCL9	UniProtKB:Q07325	C-X-C motif chemokine 9
+CXCL9	UniProtKB:Q07325	C-X-C motif chemokine 9
+CXCL9	UniProtKB:Q07325	C-X-C motif chemokine 9
+CXCL9	UniProtKB:Q07325	C-X-C motif chemokine 9
+IL1B	UniProtKB:P01584	Interleukin-1 beta
+MET	UniProtKB:P08581	Hepatocyte growth factor receptor
+C5AR2	UniProtKB:Q9P296	C5a anaphylatoxin chemotactic receptor 2
+PPBP	UniProtKB:P02775	Platelet basic protein
+PPBP	UniProtKB:P02775	Platelet basic protein
+CXCL10	UniProtKB:P02778	C-X-C motif chemokine 10
+CXCL10	UniProtKB:P02778	C-X-C motif chemokine 10
+CXCL10	UniProtKB:P02778	C-X-C motif chemokine 10
+CXCL10	UniProtKB:P02778	C-X-C motif chemokine 10
+CXCL10	UniProtKB:P02778	C-X-C motif chemokine 10
+CXCL10	UniProtKB:P02778	C-X-C motif chemokine 10
+CXCL10	UniProtKB:P02778	C-X-C motif chemokine 10
+ELMO2	UniProtKB:Q96JJ3	Engulfment and cell motility protein 2
+XCR1	UniProtKB:P46094	Chemokine XC receptor 1
+XCR1	UniProtKB:P46094	Chemokine XC receptor 1
+PTN	UniProtKB:P21246	Pleiotrophin
+ANGPT1	UniProtKB:Q15389	Angiopoietin-1
+CCL13	UniProtKB:Q99616	C-C motif chemokine 13
+CCL13	UniProtKB:Q99616	C-C motif chemokine 13
+CCL13	UniProtKB:Q99616	C-C motif chemokine 13
+CCL13	UniProtKB:Q99616	C-C motif chemokine 13
+CCL13	UniProtKB:Q99616	C-C motif chemokine 13
+DEFB104A	UniProtKB:Q8WTQ1	Beta-defensin 104
+DEFB104A	UniProtKB:Q8WTQ1	Beta-defensin 104
+DEFB104A	UniProtKB:Q8WTQ1	Beta-defensin 104
+PLXNA3	UniProtKB:P51805	Plexin-A3
+CCR2	UniProtKB:P41597	C-C chemokine receptor type 2
+CCR2	UniProtKB:P41597	C-C chemokine receptor type 2
+CCR2	UniProtKB:P41597	C-C chemokine receptor type 2
+CCR2	UniProtKB:P41597	C-C chemokine receptor type 2
+CCR2	UniProtKB:P41597	C-C chemokine receptor type 2
+PDGFB	UniProtKB:P01127	Platelet-derived growth factor subunit B
+PDGFB	UniProtKB:P01127	Platelet-derived growth factor subunit B
+PDGFB	UniProtKB:P01127	Platelet-derived growth factor subunit B
+PDGFB	UniProtKB:P01127	Platelet-derived growth factor subunit B
+PDGFB	UniProtKB:P01127	Platelet-derived growth factor subunit B
+PDGFB	UniProtKB:P01127	Platelet-derived growth factor subunit B
+HRAS	UniProtKB:P01112	GTPase HRas
+LOX	UniProtKB:P28300	Protein-lysine 6-oxidase
+LOX	UniProtKB:P28300	Protein-lysine 6-oxidase
+RALA	UniProtKB:P11233	Ras-related protein Ral-A
+TRPM2	UniProtKB:O94759	Transient receptor potential cation channel subfamily M member 2
+FPR1	UniProtKB:P21462	fMet-Leu-Phe receptor
+S1PR1	UniProtKB:P21453	Sphingosine 1-phosphate receptor 1
+S1PR1	UniProtKB:P21453	Sphingosine 1-phosphate receptor 1
+SLIT2	UniProtKB:O94813	Slit homolog 2 protein
+SLIT2	UniProtKB:O94813	Slit homolog 2 protein
+SLIT2	UniProtKB:O94813	Slit homolog 2 protein
+SLIT2	UniProtKB:O94813	Slit homolog 2 protein
+SLIT2	UniProtKB:O94813	Slit homolog 2 protein
+ALOX5	UniProtKB:P09917	Polyunsaturated fatty acid 5-lipoxygenase
+TAFA4	UniProtKB:Q96LR4	Chemokine-like protein TAFA-4
+TAFA4	UniProtKB:Q96LR4	Chemokine-like protein TAFA-4
+IL6R	UniProtKB:P08887	Interleukin-6 receptor subunit alpha
+RNASE3	UniProtKB:P12724	Eosinophil cationic protein
+AMOT	UniProtKB:Q4VCS5	Angiomotin
+CMTM3	UniProtKB:Q96MX0	CKLF-like MARVEL transmembrane domain-containing protein 3
+NRP2	UniProtKB:O60462	Neuropilin-2
+CCN3	UniProtKB:P48745	CCN family member 3
+CCN3	UniProtKB:P48745	CCN family member 3
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+C5	UniProtKB:P01031	Complement C5
+C5	UniProtKB:P01031	Complement C5
+C5	UniProtKB:P01031	Complement C5
+FGF8	UniProtKB:P55075	Fibroblast growth factor 8
+FGF8	UniProtKB:P55075	Fibroblast growth factor 8
+FLT1	UniProtKB:P17948	Vascular endothelial growth factor receptor 1
+FLT1	UniProtKB:P17948	Vascular endothelial growth factor receptor 1
+LBP	UniProtKB:P18428	Lipopolysaccharide-binding protein
+LBP	UniProtKB:P18428	Lipopolysaccharide-binding protein
+CXCL13	UniProtKB:O43927	C-X-C motif chemokine 13
+CXCL13	UniProtKB:O43927	C-X-C motif chemokine 13
+CXCL13	UniProtKB:O43927	C-X-C motif chemokine 13
+CXCL13	UniProtKB:O43927	C-X-C motif chemokine 13
+CXCL13	UniProtKB:O43927	C-X-C motif chemokine 13
+CXCL13	UniProtKB:O43927	C-X-C motif chemokine 13
+CXCR3	UniProtKB:P49682	C-X-C chemokine receptor type 3
+CXCR3	UniProtKB:P49682	C-X-C chemokine receptor type 3
+CCR7	UniProtKB:P32248	C-C chemokine receptor type 7
+CCR1	UniProtKB:P32246	C-C chemokine receptor type 1
+CCR1	UniProtKB:P32246	C-C chemokine receptor type 1
+CCR1	UniProtKB:P32246	C-C chemokine receptor type 1
+CCR1	UniProtKB:P32246	C-C chemokine receptor type 1
+PLP2	UniProtKB:Q04941	Proteolipid protein 2
+FGF7	UniProtKB:P21781	Fibroblast growth factor 7
+FGF7	UniProtKB:P21781	Fibroblast growth factor 7
+MAPK1	UniProtKB:P28482	Mitogen-activated protein kinase 1
+MDK	UniProtKB:P21741	Midkine
+MDK	UniProtKB:P21741	Midkine
+CALCA	UniProtKB:P01258	Calcitonin
+C5AR1	UniProtKB:P21730	C5a anaphylatoxin chemotactic receptor 1
+C5AR1	UniProtKB:P21730	C5a anaphylatoxin chemotactic receptor 1
+PRKCQ	UniProtKB:Q04759	Protein kinase C theta type
+L1CAM	UniProtKB:P32004	Neural cell adhesion molecule L1
+TGFB2	UniProtKB:P61812	Transforming growth factor beta-2 proprotein
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+CXCL12	UniProtKB:P48061	Stromal cell-derived factor 1
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+SEMA3A	UniProtKB:Q14563	Semaphorin-3A
+SEMA3A	UniProtKB:Q14563	Semaphorin-3A
+SEMA3A	UniProtKB:Q14563	Semaphorin-3A
+EFNA5	UniProtKB:P52803	Ephrin-A5
+EFNA5	UniProtKB:P52803	Ephrin-A5
+IL6	UniProtKB:P05231	Interleukin-6
+CCRL2	UniProtKB:O00421	C-C chemokine receptor-like 2
+CCRL2	UniProtKB:O00421	C-C chemokine receptor-like 2
+DEFA1	UniProtKB:P59665	Neutrophil defensin 1
+DEFA1	UniProtKB:P59665	Neutrophil defensin 1
+C3AR1	UniProtKB:Q16581	C3a anaphylatoxin chemotactic receptor
+UNC5C	UniProtKB:O95185	Netrin receptor UNC5C
+UNC5C	UniProtKB:O95185	Netrin receptor UNC5C
+MAPK14	UniProtKB:Q16539	Mitogen-activated protein kinase 14
+LEF1	UniProtKB:Q9UJU2	Lymphoid enhancer-binding factor 1
+ZNF580	UniProtKB:Q9UK33	Zinc finger protein 580
+SAA1	UniProtKB:P0DJI8	Serum amyloid A-1 protein
+SAA1	UniProtKB:P0DJI8	Serum amyloid A-1 protein
+SAA1	UniProtKB:P0DJI8	Serum amyloid A-1 protein
+CH25H	UniProtKB:O95992	Cholesterol 25-hydroxylase
+FER	UniProtKB:P16591	Tyrosine-protein kinase Fer
+CCL19	UniProtKB:Q99731	C-C motif chemokine 19
+CCL19	UniProtKB:Q99731	C-C motif chemokine 19
+CCL19	UniProtKB:Q99731	C-C motif chemokine 19
+CCL19	UniProtKB:Q99731	C-C motif chemokine 19
+CCL19	UniProtKB:Q99731	C-C motif chemokine 19
+SLC12A2	UniProtKB:P55011	Solute carrier family 12 member 2
+MMP2	UniProtKB:P08253	72 kDa type IV collagenase
+FGF2	UniProtKB:P09038	Fibroblast growth factor 2
+FGF2	UniProtKB:P09038	Fibroblast growth factor 2
+FGF2	UniProtKB:P09038	Fibroblast growth factor 2
+NR4A1	UniProtKB:P22736	Nuclear receptor subfamily 4immunitygroup A member 1
+CYP7B1	UniProtKB:O75881	Cytochrome P450 7B1
+LECT2	UniProtKB:O14960	Leukocyte cell-derived chemotaxin-2
+MAP2K1	UniProtKB:Q02750	Dual specificity mitogen-activated protein kinase kinase 1
+PLA2G6	UniProtKB:O60733	85/88 kDa calcium-independent phospholipase A2
+SLAMF8	UniProtKB:Q9P0V8	SLAM family member 8
+APOA1	UniProtKB:P02647	Apolipoprotein A-I
+APOA1	UniProtKB:P02647	Apolipoprotein A-I
+CXCL1	UniProtKB:P09341	Growth-regulated alpha protein
+PDGFRA	UniProtKB:P16234	Platelet-derived growth factor receptor alpha
+SEMA4D	UniProtKB:Q92854	Semaphorin-4D
+SEMA4D	UniProtKB:Q92854	Semaphorin-4D
+WNT7B	UniProtKB:P56706	Protein Wnt-7b
+HBEGF	UniProtKB:Q99075	Proheparin-binding EGF-like growth factor
+CSF3R	UniProtKB:Q99062	Granulocyte colony-stimulating factor receptor
+PLAUR	UniProtKB:Q03405	Urokinase plasminogen activator surface receptor
+CMTM7	UniProtKB:Q96FZ5	CKLF-like MARVEL transmembrane domain-containing protein 7
+RYK	UniProtKB:P34925	Tyrosine-protein kinase RYK
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+CCL2	UniProtKB:P13500	C-C motif chemokine 2
+CCL2	UniProtKB:P13500	C-C motif chemokine 2
+CCL2	UniProtKB:P13500	C-C motif chemokine 2
+CCL2	UniProtKB:P13500	C-C motif chemokine 2
+CCL2	UniProtKB:P13500	C-C motif chemokine 2
+NRG1	UniProtKB:Q02297	Pro-neuregulin-1, membrane-bound isoform
+NRG1	UniProtKB:Q02297	Pro-neuregulin-1, membrane-bound isoform
+HSD3B7	UniProtKB:Q9H2F3	3 beta-hydroxysteroid dehydrogenase type 7
+SEMA6A	UniProtKB:Q9H2E6	Semaphorin-6A
+CXCL16	UniProtKB:Q9H2A7	C-X-C motif chemokine 16
+CXCL16	UniProtKB:Q9H2A7	C-X-C motif chemokine 16
+CXCL16	UniProtKB:Q9H2A7	C-X-C motif chemokine 16
+CXCL16	UniProtKB:Q9H2A7	C-X-C motif chemokine 16
+CXCL16	UniProtKB:Q9H2A7	C-X-C motif chemokine 16
+CXCL3	UniProtKB:P19876	C-X-C motif chemokine 3
+CXCL3	UniProtKB:P19876	C-X-C motif chemokine 3
+CXCL2	UniProtKB:P19875	C-X-C motif chemokine 2
+S100A9	UniProtKB:P06702	Protein S100-A9
+S100A9	UniProtKB:P06702	Protein S100-A9
+PIKFYVE	UniProtKB:Q9Y2I7	1-phosphatidylinositol 3-phosphate 5-kinase
+PIKFYVE	UniProtKB:Q9Y2I7	1-phosphatidylinositol 3-phosphate 5-kinase
+RHOG	UniProtKB:P84095	Rho-related GTP-binding protein RhoG
+RHOG	UniProtKB:P84095	Rho-related GTP-binding protein RhoG

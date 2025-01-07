@@ -1,0 +1,1096 @@
+PRKCE	UniProtKB:Q02156	Protein kinase C epsilon type
+NHEJ1	UniProtKB:Q9H9Q4	Non-homologous end-joining factor 1
+NHEJ1	UniProtKB:Q9H9Q4	Non-homologous end-joining factor 1
+TNFSF4	UniProtKB:P23510	Tumor necrosis factor ligand superfamily member 4
+TNFSF4	UniProtKB:P23510	Tumor necrosis factor ligand superfamily member 4
+TESPA1	UniProtKB:A2RU30	Protein TESPA1
+AKAP17A	UniProtKB:Q02040	A-kinase anchor protein 17A
+IL7	UniProtKB:P13232	Interleukin-7
+IL7	UniProtKB:P13232	Interleukin-7
+IL4R	UniProtKB:P24394	Interleukin-4 receptor subunit alpha
+IL4R	UniProtKB:P24394	Interleukin-4 receptor subunit alpha
+S100A12	UniProtKB:P80511	Protein S100-A12
+JAK1	UniProtKB:P23458	Tyrosine-protein kinase JAK1
+SLC39A6	UniProtKB:Q13433	Zinc transporter ZIP6
+CXCL6	UniProtKB:P80162	C-X-C motif chemokine 6
+KLRF1	UniProtKB:Q9NZS2	Killer cell lectin-like receptor subfamily F member 1
+DNASE1	UniProtKB:P24855	Deoxyribonuclease-1
+SLC18A2	UniProtKB:Q05940	Synaptic vesicular amine transporter
+SLC18A2	UniProtKB:Q05940	Synaptic vesicular amine transporter
+TNFRSF4	UniProtKB:P43489	Tumor necrosis factor receptor superfamily member 4
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+CX3CL1	UniProtKB:P78423	Fractalkine
+CX3CL1	UniProtKB:P78423	Fractalkine
+GAPT	UniProtKB:Q8N292	Protein GAPT
+BATF2	UniProtKB:Q8N1L9	Basic leucine zipper transcriptional factor ATF-like 2
+THEMIS	UniProtKB:Q8N1K5	Protein THEMIS
+THEMIS	UniProtKB:Q8N1K5	Protein THEMIS
+LILRA2	UniProtKB:Q8N149	Leukocyte immunoglobulin-like receptor subfamily A member 2
+MSH2	UniProtKB:P43246	DNA mismatch repair protein Msh2
+MSH2	UniProtKB:P43246	DNA mismatch repair protein Msh2
+EZH2	UniProtKB:Q15910	Histone-lysine N-methyltransferase EZH2
+RORC	UniProtKB:P51449	Nuclear receptor ROR-gamma
+RORC	UniProtKB:P51449	Nuclear receptor ROR-gamma
+WNT1	UniProtKB:P04628	Proto-oncogene Wnt-1
+NTRK1	UniProtKB:P04629	High affinity nerve growth factor receptor
+PLCG2	UniProtKB:P16885	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2
+PLCG2	UniProtKB:P16885	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2
+PLCG2	UniProtKB:P16885	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2
+PLCG2	UniProtKB:P16885	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2
+IL7R	UniProtKB:P16871	Interleukin-7 receptor subunit alpha
+IL7R	UniProtKB:P16871	Interleukin-7 receptor subunit alpha
+PRKCD	UniProtKB:Q05655	Protein kinase C delta type
+PRKCD	UniProtKB:Q05655	Protein kinase C delta type
+IDO1	UniProtKB:P14902	Indoleamine 2,3-dioxygenase 1
+KCNJ8	UniProtKB:Q15842	ATP-sensitive inward rectifier potassium channel 8
+STXBP2	UniProtKB:Q15833	Syntaxin-binding protein 2
+WNT10B	UniProtKB:O00744	Protein Wnt-10b
+EP300	UniProtKB:Q09472	Histone acetyltransferase p300
+CD79B	UniProtKB:P40259	B-cell antigen receptor complex-associated protein beta chain
+CLEC4E	UniProtKB:Q9ULY5	C-type lectin domain family 4 member E
+NFATC3	UniProtKB:Q12968	Nuclear factor of activated T-cells, cytoplasmic 3
+NFATC3	UniProtKB:Q12968	Nuclear factor of activated T-cells, cytoplasmic 3
+TXLNA	UniProtKB:P40222	Alpha-taxilin
+DLG1	UniProtKB:Q12959	Disks large homolog 1
+DLG1	UniProtKB:Q12959	Disks large homolog 1
+TRAF2	UniProtKB:Q12933	TNF receptor-associated factor 2
+PTPRJ	UniProtKB:Q12913	Receptor-type tyrosine-protein phosphatase eta
+IL6ST	UniProtKB:P40189	Interleukin-6 receptor subunit beta
+HYAL2	UniProtKB:Q12891	Hyaluronidase-2
+SH2D1B	UniProtKB:O14796	SH2 domain-containing protein 1B
+MERTK	UniProtKB:Q12866	Tyrosine-protein kinase Mer
+CDH17	UniProtKB:Q12864	Cadherin-17
+CDH17	UniProtKB:Q12864	Cadherin-17
+CHRFAM7A	UniProtKB:Q494W8	CHRNA7-FAM7A fusion protein
+CHRFAM7A	UniProtKB:Q494W8	CHRNA7-FAM7A fusion protein
+UNG	UniProtKB:P13051	Uracil-DNA glycosylase
+IL15RA	UniProtKB:Q13261	Interleukin-15 receptor subunit alpha
+NKAP	UniProtKB:Q8N5F7	NF-kappa-B-activating protein
+TRPV1	UniProtKB:Q8NER1	Transient receptor potential cation channel subfamily V member 1
+DCAF1	UniProtKB:Q9Y4B6	DDB1- and CUL4-associated factor 1
+ARMC5	UniProtKB:Q96C12	Armadillo repeat-containing protein 5
+ARMC5	UniProtKB:Q96C12	Armadillo repeat-containing protein 5
+BCL2	UniProtKB:P10415	Apoptosis regulator Bcl-2
+BCL2	UniProtKB:P10415	Apoptosis regulator Bcl-2
+BCL2	UniProtKB:P10415	Apoptosis regulator Bcl-2
+BCL2	UniProtKB:P10415	Apoptosis regulator Bcl-2
+IL15	UniProtKB:P40933	Interleukin-15
+IL15	UniProtKB:P40933	Interleukin-15
+IL15	UniProtKB:P40933	Interleukin-15
+IL15	UniProtKB:P40933	Interleukin-15
+IL15	UniProtKB:P40933	Interleukin-15
+IL15	UniProtKB:P40933	Interleukin-15
+CCL3	UniProtKB:P10147	C-C motif chemokine 3
+BCL3	UniProtKB:P20749	B-cell lymphoma 3 protein
+BCL3	UniProtKB:P20749	B-cell lymphoma 3 protein
+MAFB	UniProtKB:Q9Y5Q3	Transcription factor MafB
+FBXO7	UniProtKB:Q9Y3I1	F-box only protein 7
+CR2	UniProtKB:P20023	Complement receptor type 2
+CR2	UniProtKB:P20023	Complement receptor type 2
+CR2	UniProtKB:P20023	Complement receptor type 2
+CCND3	UniProtKB:P30281	G1/S-specific cyclin-D3
+FCER1G	UniProtKB:P30273	High affinity immunoglobulin epsilon receptor subunit gamma
+FCER1G	UniProtKB:P30273	High affinity immunoglobulin epsilon receptor subunit gamma
+PSMB11	UniProtKB:A5LHX3	Proteasome subunit beta type-11
+PSMB11	UniProtKB:A5LHX3	Proteasome subunit beta type-11
+CD6	UniProtKB:P30203	T-cell differentiation antigen CD6
+CLU	UniProtKB:P10909	Clusterin
+PBX1	UniProtKB:P40424	Pre-B-cell leukemia transcription factor 1
+TOP2B	UniProtKB:Q02880	DNA topoisomerase 2-beta
+TOP2B	UniProtKB:Q02880	DNA topoisomerase 2-beta
+POU2AF1	UniProtKB:Q16633	POU domain class 2-associating factor 1
+ITPKB	UniProtKB:P27987	Inositol-trisphosphate 3-kinase B
+TLR9	UniProtKB:Q9NR96	Toll-like receptor 9
+TLR9	UniProtKB:Q9NR96	Toll-like receptor 9
+ENPP3	UniProtKB:O14638	Ectonucleotide pyrophosphatase/phosphodiesterase family member 3
+SP3	UniProtKB:Q02447	Transcription factor Sp3
+SP3	UniProtKB:Q02447	Transcription factor Sp3
+SP3	UniProtKB:Q02447	Transcription factor Sp3
+MT1G	UniProtKB:P13640	Metallothionein-1G
+ITGA4	UniProtKB:P13612	Integrin alpha-4
+SOCS3	UniProtKB:O14543	Suppressor of cytokine signaling 3
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+RASGRP1	UniProtKB:O95267	RAS guanyl-releasing protein 1
+GJA1	UniProtKB:P17302	Gap junction alpha-1 protein
+IL18RAP	UniProtKB:O95256	Interleukin-18 receptor accessory protein
+EOMES	UniProtKB:O95936	Eomesodermin homolog
+EOMES	UniProtKB:O95936	Eomesodermin homolog
+SWAP70	UniProtKB:Q9UH65	Switch-associated protein 70
+STAT3	UniProtKB:P40763	Signal transducer and activator of transcription 3
+CD22	UniProtKB:P20273	B-cell receptor CD22
+CD22	UniProtKB:P20273	B-cell receptor CD22
+SLAMF9	UniProtKB:Q96A28	SLAM family member 9
+TMEM106A	UniProtKB:Q96A25	Transmembrane protein 106A
+LILRB1	UniProtKB:Q8NHL6	Leukocyte immunoglobulin-like receptor subfamily B member 1
+DNAJB9	UniProtKB:Q9UBS3	DnaJ homolog subfamily B member 9
+MALT1	UniProtKB:Q9UDY8	Mucosa-associated lymphoid tissue lymphoma translocation protein 1
+MALT1	UniProtKB:Q9UDY8	Mucosa-associated lymphoid tissue lymphoma translocation protein 1
+MALT1	UniProtKB:Q9UDY8	Mucosa-associated lymphoid tissue lymphoma translocation protein 1
+MFNG	UniProtKB:O00587	Beta-1,3-N-acetylglucosaminyltransferase manic fringe
+STK39	UniProtKB:Q9UEW8	STE20/SPS1-related proline-alanine-rich protein kinase
+RIPK3	UniProtKB:Q9Y572	Receptor-interacting serine/threonine-protein kinase 3
+LFNG	UniProtKB:Q8NES3	Beta-1,3-N-acetylglucosaminyltransferase lunatic fringe
+LFNG	UniProtKB:Q8NES3	Beta-1,3-N-acetylglucosaminyltransferase lunatic fringe
+DOCK8	UniProtKB:Q8NF50	Dedicator of cytokinesis protein 8
+DOCK8	UniProtKB:Q8NF50	Dedicator of cytokinesis protein 8
+TRAF6	UniProtKB:Q9Y4K3	TNF receptor-associated factor 6
+DOCK10	UniProtKB:Q96BY6	Dedicator of cytokinesis protein 10
+NFAM1	UniProtKB:Q8NET5	NFAT activation molecule 1
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+STAT5B	UniProtKB:P51692	Signal transducer and activator of transcription 5B
+STAT5B	UniProtKB:P51692	Signal transducer and activator of transcription 5B
+STAT5B	UniProtKB:P51692	Signal transducer and activator of transcription 5B
+STAT5B	UniProtKB:P51692	Signal transducer and activator of transcription 5B
+STAT5B	UniProtKB:P51692	Signal transducer and activator of transcription 5B
+STAT5B	UniProtKB:P51692	Signal transducer and activator of transcription 5B
+RASSF5	UniProtKB:Q8WWW0	Ras association domain-containing protein 5
+ASCL2	UniProtKB:Q99929	Achaete-scute homolog 2
+RHOH	UniProtKB:Q15669	Rho-related GTP-binding protein RhoH
+RHOH	UniProtKB:Q15669	Rho-related GTP-binding protein RhoH
+CD27	UniProtKB:P26842	CD27 antigen
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+CCL21	UniProtKB:O00585	C-C motif chemokine 21
+DLL1	UniProtKB:O00548	Delta-like protein 1
+SHH	UniProtKB:Q15465	Sonic hedgehog protein
+SHH	UniProtKB:Q15465	Sonic hedgehog protein
+SHH	UniProtKB:Q15465	Sonic hedgehog protein
+SHH	UniProtKB:Q15465	Sonic hedgehog protein
+SHH	UniProtKB:Q15465	Sonic hedgehog protein
+SHH	UniProtKB:Q15465	Sonic hedgehog protein
+SHB	UniProtKB:Q15464	SH2 domain-containing adapter protein B
+FLT3	UniProtKB:P36888	Receptor-type tyrosine-protein kinase FLT3
+FLT3	UniProtKB:P36888	Receptor-type tyrosine-protein kinase FLT3
+FLT3	UniProtKB:P36888	Receptor-type tyrosine-protein kinase FLT3
+NCK1	UniProtKB:P16333	SH2/SH3 adapter protein NCK1
+PHF14	UniProtKB:O94880	PHD finger protein 14
+TRGC1	UniProtKB:P0CF51	T cell receptor gamma constant 1
+NDRG1	UniProtKB:Q92597	Protein NDRG1
+TSC1	UniProtKB:Q92574	Hamartin
+NR4A3	UniProtKB:Q92570	Nuclear receptor subfamily 4 group A member 3
+TCF7	UniProtKB:P36402	Transcription factor 7
+PIK3R3	UniProtKB:Q92569	Phosphatidylinositol 3-kinase regulatory subunit gamma
+PIK3R3	UniProtKB:Q92569	Phosphatidylinositol 3-kinase regulatory subunit gamma
+SLC39A7	UniProtKB:Q92504	Zinc transporter SLC39A7
+CLEC2B	UniProtKB:Q92478	C-type lectin domain family 2 member B
+TRBC2	UniProtKB:A0A5B9	T cell receptor beta constant 2
+PRR7	UniProtKB:Q8TB68	Proline-rich protein 7
+PRR7	UniProtKB:Q8TB68	Proline-rich protein 7
+NKX2-3	UniProtKB:Q8TAU0	Homeobox protein Nkx-2.3
+NKX2-3	UniProtKB:Q8TAU0	Homeobox protein Nkx-2.3
+CD244	UniProtKB:Q9BZW8	Natural killer cell receptor 2B4
+CD244	UniProtKB:Q9BZW8	Natural killer cell receptor 2B4
+CD244	UniProtKB:Q9BZW8	Natural killer cell receptor 2B4
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+STXBP3	UniProtKB:O00186	Syntaxin-binding protein 3
+SNAP23	UniProtKB:O00161	Synaptosomal-associated protein 23
+SPN	UniProtKB:P16150	Leukosialin
+SPN	UniProtKB:P16150	Leukosialin
+SPN	UniProtKB:P16150	Leukosialin
+HAVCR2	UniProtKB:Q8TDQ0	Hepatitis A virus cellular receptor 2
+MYD88	UniProtKB:Q99836	Myeloid differentiation primary response protein MyD88
+MYD88	UniProtKB:Q99836	Myeloid differentiation primary response protein MyD88
+C17orf99	UniProtKB:Q6UX52	Protein IL-40
+FYN	UniProtKB:P06241	Tyrosine-protein kinase Fyn
+FYN	UniProtKB:P06241	Tyrosine-protein kinase Fyn
+LCK	UniProtKB:P06239	Tyrosine-protein kinase Lck
+LCK	UniProtKB:P06239	Tyrosine-protein kinase Lck
+LCK	UniProtKB:P06239	Tyrosine-protein kinase Lck
+KLRK1	UniProtKB:P26718	NKG2-D type II integral membrane protein
+KLRC1	UniProtKB:P26715	NKG2-A/NKG2-B type II integral membrane protein
+BTN3A1	UniProtKB:O00481	Butyrophilin subfamily 3 member A1
+PIK3R2	UniProtKB:O00459	Phosphatidylinositol 3-kinase regulatory subunit beta
+PIK3R2	UniProtKB:O00459	Phosphatidylinositol 3-kinase regulatory subunit beta
+CDH26	UniProtKB:Q8IXH8	Cadherin-like protein 26
+AGER	UniProtKB:Q15109	Advanced glycosylation end product-specific receptor
+AGER	UniProtKB:Q15109	Advanced glycosylation end product-specific receptor
+SPACA3	UniProtKB:Q8IXA5	Sperm acrosome membrane-associated protein 3
+CD44	UniProtKB:P16070	CD44 antigen
+LAX1	UniProtKB:Q8IWV1	Lymphocyte transmembrane adapter 1
+LAX1	UniProtKB:Q8IWV1	Lymphocyte transmembrane adapter 1
+LRRC8A	UniProtKB:Q8IWT6	Volume-regulated anion channel subunit LRRC8A
+PREX1	UniProtKB:Q8TCU6	Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 1 protein
+PREX1	UniProtKB:Q8TCU6	Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 1 protein
+ZFPM1	UniProtKB:Q8IX07	Zinc finger protein ZFPM1
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+DOCK2	UniProtKB:Q92608	Dedicator of cytokinesis protein 2
+TLR1	UniProtKB:Q15399	Toll-like receptor 1
+TLR1	UniProtKB:Q15399	Toll-like receptor 1
+PHB2	UniProtKB:Q99623	Prohibitin-2
+KLF6	UniProtKB:Q99612	Krueppel-like factor 6
+ELF4	UniProtKB:Q99607	ETS-related transcription factor Elf-4
+ELF4	UniProtKB:Q99607	ETS-related transcription factor Elf-4
+ADGRF5	UniProtKB:Q8IZF2	Adhesion G protein-coupled receptor F5
+KMT2E	UniProtKB:Q8IZD2	Inactive histone-lysine N-methyltransferase 2E
+IRF4	UniProtKB:Q15306	Interferon regulatory factor 4
+IRF4	UniProtKB:Q15306	Interferon regulatory factor 4
+IRF4	UniProtKB:Q15306	Interferon regulatory factor 4
+RNF168	UniProtKB:Q8IYW5	E3 ubiquitin-protein ligase RNF168
+MEN1	UniProtKB:O00255	Menin
+ZBTB7A	UniProtKB:O95365	Zinc finger and BTB domain-containing protein 7A
+TMEM98	UniProtKB:Q9Y2Y6	Transmembrane protein 98
+BANK1	UniProtKB:Q8NDB2	B-cell scaffold protein with ankyrin repeats
+BANK1	UniProtKB:Q8NDB2	B-cell scaffold protein with ankyrin repeats
+PTPN22	UniProtKB:Q9Y2R2	Tyrosine-protein phosphatase non-receptor type 22
+GLI3	UniProtKB:P10071	Transcriptional activator GLI3
+GLI3	UniProtKB:P10071	Transcriptional activator GLI3
+GLI3	UniProtKB:P10071	Transcriptional activator GLI3
+AXL	UniProtKB:P30530	Tyrosine-protein kinase receptor UFO
+TGFBR2	UniProtKB:P37173	TGF-beta receptor type-2
+TGFBR2	UniProtKB:P37173	TGF-beta receptor type-2
+SKAP2	UniProtKB:O75563	Src kinase-associated phosphoprotein 2
+CLCF1	UniProtKB:Q9UBD9	Cardiotrophin-like cytokine factor 1
+ONECUT1	UniProtKB:Q9UBC0	Hepatocyte nuclear factor 6
+AZU1	UniProtKB:P20160	Azurocidin
+AZU1	UniProtKB:P20160	Azurocidin
+KIT	UniProtKB:P10721	Mast/stem cell growth factor receptor Kit
+KIT	UniProtKB:P10721	Mast/stem cell growth factor receptor Kit
+KIT	UniProtKB:P10721	Mast/stem cell growth factor receptor Kit
+KIT	UniProtKB:P10721	Mast/stem cell growth factor receptor Kit
+TMEM229B	UniProtKB:Q8NBD8	Transmembrane protein 229B
+ABL1	UniProtKB:P00519	Tyrosine-protein kinase ABL1
+ABL1	UniProtKB:P00519	Tyrosine-protein kinase ABL1
+ABL1	UniProtKB:P00519	Tyrosine-protein kinase ABL1
+ABL1	UniProtKB:P00519	Tyrosine-protein kinase ABL1
+ABL1	UniProtKB:P00519	Tyrosine-protein kinase ABL1
+CTSL	UniProtKB:P07711	Procathepsin L
+LCP1	UniProtKB:P13796	Plastin-2
+IRF8	UniProtKB:Q02556	Interferon regulatory factor 8
+IRF8	UniProtKB:Q02556	Interferon regulatory factor 8
+IRF8	UniProtKB:Q02556	Interferon regulatory factor 8
+PAX5	UniProtKB:Q02548	Paired box protein Pax-5
+IL2	UniProtKB:P60568	Interleukin-2
+IL2	UniProtKB:P60568	Interleukin-2
+IL2	UniProtKB:P60568	Interleukin-2
+IL2	UniProtKB:P60568	Interleukin-2
+ITFG2	UniProtKB:Q969R8	KICSTOR complex protein ITFG2
+BATF3	UniProtKB:Q9NR55	Basic leucine zipper transcriptional factor ATF-like 3
+ADAM10	UniProtKB:O14672	Disintegrin and metalloproteinase domain-containing protein 10
+PRG3	UniProtKB:Q9Y2Y8	Proteoglycan 3
+PRG3	UniProtKB:Q9Y2Y8	Proteoglycan 3
+MYB	UniProtKB:P10242	Transcriptional activator Myb
+SEMA6D	UniProtKB:Q8NFY4	Semaphorin-6D
+CD2AP	UniProtKB:Q9Y5K6	CD2-associated protein
+ZNF3	UniProtKB:P17036	Zinc finger protein 3
+FZD7	UniProtKB:O75084	Frizzled-7
+IL11	UniProtKB:P20809	Interleukin-11
+EDN2	UniProtKB:P20800	Endothelin-2
+SCN11A	UniProtKB:Q9UI33	Sodium channel protein type 11 subunit alpha
+PELI1	UniProtKB:Q96FA3	E3 ubiquitin-protein ligase pellino homolog 1
+JAG2	UniProtKB:Q9Y219	Protein jagged-2
+JAG2	UniProtKB:Q9Y219	Protein jagged-2
+JAG2	UniProtKB:Q9Y219	Protein jagged-2
+DNAJA3	UniProtKB:Q96EY1	DnaJ homolog subfamily A member 3, mitochondrial
+TBK1	UniProtKB:Q9UHD2	Serine/threonine-protein kinase TBK1
+IL33	UniProtKB:O95760	Interleukin-33
+PIK3R1	UniProtKB:P27986	Phosphatidylinositol 3-kinase regulatory subunit alpha
+PIK3R1	UniProtKB:P27986	Phosphatidylinositol 3-kinase regulatory subunit alpha
+PIK3R1	UniProtKB:P27986	Phosphatidylinositol 3-kinase regulatory subunit alpha
+PIK3R1	UniProtKB:P27986	Phosphatidylinositol 3-kinase regulatory subunit alpha
+PIK3R1	UniProtKB:P27986	Phosphatidylinositol 3-kinase regulatory subunit alpha
+GRP	UniProtKB:P07492	Gastrin-releasing peptide
+FZD8	UniProtKB:Q9H461	Frizzled-8
+PYCARD	UniProtKB:Q9ULZ3	Apoptosis-associated speck-like protein containing a CARD
+PYCARD	UniProtKB:Q9ULZ3	Apoptosis-associated speck-like protein containing a CARD
+SEMA4A	UniProtKB:Q9H3S1	Semaphorin-4A
+SH2D2A	UniProtKB:Q9NP31	SH2 domain-containing protein 2A
+CD8B	UniProtKB:P10966	T-cell surface glycoprotein CD8 beta chain
+CD8B	UniProtKB:P10966	T-cell surface glycoprotein CD8 beta chain
+CEBPB	UniProtKB:P17676	CCAAT/enhancer-binding protein beta
+IRF1	UniProtKB:P10914	Interferon regulatory factor 1
+CRTAM	UniProtKB:O95727	Cytotoxic and regulatory T-cell molecule
+CRTAM	UniProtKB:O95727	Cytotoxic and regulatory T-cell molecule
+ZFP36L2	UniProtKB:P47974	mRNA decay activator protein ZFP36L2
+DPP4	UniProtKB:P27487	Dipeptidyl peptidase 4
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+CXCL8	UniProtKB:P10145	Interleukin-8
+ITGAL	UniProtKB:P20701	Integrin alpha-L
+TLR6	UniProtKB:Q9Y2C9	Toll-like receptor 6
+ICOS	UniProtKB:Q9Y6W8	Inducible T-cell costimulator
+WNK4	UniProtKB:Q96J92	Serine/threonine-protein kinase WNK4
+TYRO3	UniProtKB:Q06418	Tyrosine-protein kinase receptor TYRO3
+MEF2C	UniProtKB:Q06413	Myocyte-specific enhancer factor 2C
+ITCH	UniProtKB:Q96J02	E3 ubiquitin-protein ligase Itchy homolog
+NFIL3	UniProtKB:Q16649	Nuclear factor interleukin-3-regulated protein
+NKG7	UniProtKB:Q16617	Protein NKG7
+NKG7	UniProtKB:Q16617	Protein NKG7
+BAK1	UniProtKB:Q16611	Bcl-2 homologous antagonist/killer
+HDAC9	UniProtKB:Q9UKV0	Histone deacetylase 9
+HDAC9	UniProtKB:Q9UKV0	Histone deacetylase 9
+IKZF3	UniProtKB:Q9UKT9	Zinc finger protein Aiolos
+IKZF3	UniProtKB:Q9UKT9	Zinc finger protein Aiolos
+TBX21	UniProtKB:Q9UL17	T-box transcription factor TBX21
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+KAT7	UniProtKB:O95251	Histone acetyltransferase KAT7
+HPRT1	UniProtKB:P00492	Hypoxanthine-guanine phosphoribosyltransferase
+MLH1	UniProtKB:P40692	DNA mismatch repair protein Mlh1
+CD247	UniProtKB:P20963	T-cell surface glycoprotein CD3 zeta chain
+CD247	UniProtKB:P20963	T-cell surface glycoprotein CD3 zeta chain
+PLXNA1	UniProtKB:Q9UIW2	Plexin-A1
+RABGEF1	UniProtKB:Q9UJ41	Rab5 GDP/GTP exchange factor
+BTK	UniProtKB:Q06187	Tyrosine-protein kinase BTK
+BTK	UniProtKB:Q06187	Tyrosine-protein kinase BTK
+BTK	UniProtKB:Q06187	Tyrosine-protein kinase BTK
+DOCK11	UniProtKB:Q5JSL3	Dedicator of cytokinesis protein 11
+CHGA	UniProtKB:P10645	Chromogranin-A
+CHGA	UniProtKB:P10645	Chromogranin-A
+USP44	UniProtKB:Q9H0E7	Ubiquitin carboxyl-terminal hydrolase 44
+TOLLIP	UniProtKB:Q9H0E2	Toll-interacting protein
+MAPT	UniProtKB:P10636	Microtubule-associated protein tau
+SNCA	UniProtKB:P37840	Alpha-synuclein
+TUSC2	UniProtKB:O75896	Tumor suppressor candidate 2
+GPR89B	UniProtKB:P0CG08	Golgi pH regulator B
+CD93	UniProtKB:Q9NPY3	Complement component C1q receptor
+SOX13	UniProtKB:Q9UN79	Transcription factor SOX-13
+SLAMF7	UniProtKB:Q9NQ25	SLAM family member 7
+SLAMF7	UniProtKB:Q9NQ25	SLAM family member 7
+CLEC4A	UniProtKB:Q9UMR7	C-type lectin domain family 4 member A
+TNFSF13B	UniProtKB:Q9Y275	Tumor necrosis factor ligand superfamily member 13B
+TNFSF13B	UniProtKB:Q9Y275	Tumor necrosis factor ligand superfamily member 13B
+TNFSF13B	UniProtKB:Q9Y275	Tumor necrosis factor ligand superfamily member 13B
+HSH2D	UniProtKB:Q96JZ2	Hematopoietic SH2 domain-containing protein
+IL23A	UniProtKB:Q9NPF7	Interleukin-23 subunit alpha
+FKBP1B	UniProtKB:P68106	Peptidyl-prolyl cis-trans isomerase FKBP1B
+CUL4A	UniProtKB:Q13619	Cullin-4A
+DNASE1L3	UniProtKB:Q13609	Deoxyribonuclease gamma
+SCNN1B	UniProtKB:P51168	Amiloride-sensitive sodium channel subunit beta
+SCNN1B	UniProtKB:P51168	Amiloride-sensitive sodium channel subunit beta
+RAB27A	UniProtKB:P51159	Ras-related protein Rab-27A
+RAB27A	UniProtKB:P51159	Ras-related protein Rab-27A
+IGBP1	UniProtKB:P78318	Immunoglobulin-binding protein 1
+CXADR	UniProtKB:P78310	Coxsackievirus and adenovirus receptor
+SYVN1	UniProtKB:Q86TM6	E3 ubiquitin-protein ligase synoviolin
+HELLS	UniProtKB:Q9NRZ9	Lymphoid-specific helicase
+HELLS	UniProtKB:Q9NRZ9	Lymphoid-specific helicase
+HLA-E	UniProtKB:P13747	HLA class I histocompatibility antigen, alpha chain E
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+SLA2	UniProtKB:Q9H6Q3	Src-like-adapter 2
+TRDC	UniProtKB:B7Z8K6	T cell receptor delta constant
+BCL6	UniProtKB:P41182	B-cell lymphoma 6 protein
+BCL6	UniProtKB:P41182	B-cell lymphoma 6 protein
+BCL6	UniProtKB:P41182	B-cell lymphoma 6 protein
+BCL6	UniProtKB:P41182	B-cell lymphoma 6 protein
+LEP	UniProtKB:P41159	Leptin
+TREML2	UniProtKB:Q5T2D2	Trem-like transcript 2 protein
+TREML2	UniProtKB:Q5T2D2	Trem-like transcript 2 protein
+VCAM1	UniProtKB:P19320	Vascular cell adhesion protein 1
+ATM	UniProtKB:Q13315	Serine-protein kinase ATM
+DCAF12	UniProtKB:Q5T6F0	DDB1- and CUL4-associated factor 12
+CD7	UniProtKB:P09564	T-cell antigen CD7
+SH2D1A	UniProtKB:O60880	SH2 domain-containing protein 1A
+NCR3LG1	UniProtKB:Q68D85	Natural cytotoxicity triggering receptor 3 ligand 1
+VAMP8	UniProtKB:Q9BV40	Vesicle-associated membrane protein 8
+VAMP8	UniProtKB:Q9BV40	Vesicle-associated membrane protein 8
+CD40LG	UniProtKB:P29965	CD40 ligand
+CD40LG	UniProtKB:P29965	CD40 ligand
+CD40LG	UniProtKB:P29965	CD40 ligand
+NDFIP1	UniProtKB:Q9BT67	NEDD4 family-interacting protein 1
+PPP3CA	UniProtKB:Q08209	Protein phosphatase 3 catalytic subunit alpha
+FCRL5	UniProtKB:Q96RD9	Fc receptor-like protein 5
+GRB2	UniProtKB:P62993	Growth factor receptor-bound protein 2
+ICAM1	UniProtKB:P05362	Intercellular adhesion molecule 1
+EDN1	UniProtKB:P05305	Endothelin-1
+ALKBH5	UniProtKB:Q6P6C2	RNA demethylase ALKBH5
+CX3CR1	UniProtKB:P49238	CX3C chemokine receptor 1
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RAG2	UniProtKB:P55895	V(D)J recombination-activating protein 2
+RORA	UniProtKB:P35398	Nuclear receptor ROR-alpha
+CXCR2	UniProtKB:P25025	C-X-C chemokine receptor type 2
+RPL22	UniProtKB:P35268	Large ribosomal subunit protein eL22
+PHB1	UniProtKB:P35232	Prohibitin 1
+IL13	UniProtKB:P35225	Interleukin-13
+IL13	UniProtKB:P35225	Interleukin-13
+CTNNB1	UniProtKB:P35222	Catenin beta-1
+STAT4	UniProtKB:Q14765	Signal transducer and activator of transcription 4
+LAT	UniProtKB:O43561	Linker for activation of T-cells family member 1
+LAT	UniProtKB:O43561	Linker for activation of T-cells family member 1
+TNFSF14	UniProtKB:O43557	Tumor necrosis factor ligand superfamily member 14
+TNFSF14	UniProtKB:O43557	Tumor necrosis factor ligand superfamily member 14
+CXCR5	UniProtKB:P32302	C-X-C chemokine receptor type 5
+SBNO2	UniProtKB:Q9Y2G9	Protein strawberry notch homolog 2
+SBNO2	UniProtKB:Q9Y2G9	Protein strawberry notch homolog 2
+SLC11A1	UniProtKB:P49279	Natural resistance-associated macrophage protein 1
+SLC11A1	UniProtKB:P49279	Natural resistance-associated macrophage protein 1
+GPR183	UniProtKB:P32249	G-protein coupled receptor 183
+GPR183	UniProtKB:P32249	G-protein coupled receptor 183
+GPR183	UniProtKB:P32249	G-protein coupled receptor 183
+CCR7	UniProtKB:P32248	C-C chemokine receptor type 7
+CCR7	UniProtKB:P32248	C-C chemokine receptor type 7
+VAV1	UniProtKB:P15498	Proto-oncogene vav
+VAV1	UniProtKB:P15498	Proto-oncogene vav
+TNFAIP8L2	UniProtKB:Q6P589	Tumor necrosis factor alpha-induced protein 8-like protein 2
+FOSL2	UniProtKB:P15408	Fos-related antigen 2
+FOSL2	UniProtKB:P15408	Fos-related antigen 2
+FOSL2	UniProtKB:P15408	Fos-related antigen 2
+HES1	UniProtKB:Q14469	Transcription factor HES-1
+SLC25A5	UniProtKB:P05141	ADP/ATP translocase 2
+IL4	UniProtKB:P05112	Interleukin-4
+IL4	UniProtKB:P05112	Interleukin-4
+IL4	UniProtKB:P05112	Interleukin-4
+IL4	UniProtKB:P05112	Interleukin-4
+ITGB2	UniProtKB:P05107	Integrin beta-2
+CD19	UniProtKB:P15391	B-lymphocyte antigen CD19
+CD19	UniProtKB:P15391	B-lymphocyte antigen CD19
+CD19	UniProtKB:P15391	B-lymphocyte antigen CD19
+ATF2	UniProtKB:P15336	Cyclic AMP-dependent transcription factor ATF-2
+GPR18	UniProtKB:Q14330	N-arachidonyl glycine receptor
+GPR18	UniProtKB:Q14330	N-arachidonyl glycine receptor
+CBL	UniProtKB:P22681	E3 ubiquitin-protein ligase CBL
+PTGER4	UniProtKB:P35408	Prostaglandin E2 receptor EP4 subtype
+PTPN6	UniProtKB:P29350	Tyrosine-protein phosphatase non-receptor type 6
+PTPN6	UniProtKB:P29350	Tyrosine-protein phosphatase non-receptor type 6
+EPHB2	UniProtKB:P29323	Ephrin type-B receptor 2
+BCL11B	UniProtKB:Q9C0K0	B-cell lymphoma/leukemia 11B
+BCL11B	UniProtKB:Q9C0K0	B-cell lymphoma/leukemia 11B
+BCL11B	UniProtKB:Q9C0K0	B-cell lymphoma/leukemia 11B
+BCL11B	UniProtKB:Q9C0K0	B-cell lymphoma/leukemia 11B
+IFNA8	UniProtKB:P32881	Interferon alpha-8
+IFNA8	UniProtKB:P32881	Interferon alpha-8
+IFNA8	UniProtKB:P32881	Interferon alpha-8
+CD83	UniProtKB:Q01151	CD83 antigen
+FCER1A	UniProtKB:P12319	High affinity immunoglobulin epsilon receptor subunit alpha
+FCER1A	UniProtKB:P12319	High affinity immunoglobulin epsilon receptor subunit alpha
+FLT3LG	UniProtKB:P49771	Fms-related tyrosine kinase 3 ligand
+PSEN1	UniProtKB:P49768	Presenilin-1
+PSEN1	UniProtKB:P49768	Presenilin-1
+KLRF2	UniProtKB:D3W0D1	Killer cell lectin-like receptor subfamily F member 2
+NCAPH2	UniProtKB:Q6IBW4	Condensin-2 complex subunit H2
+MR1	UniProtKB:Q95460	Major histocompatibility complex class I-related gene protein
+PCYT1A	UniProtKB:P49585	Choline-phosphate cytidylyltransferase A
+PCYT1A	UniProtKB:P49585	Choline-phosphate cytidylyltransferase A
+FUT7	UniProtKB:Q11130	Alpha-(1,3)-fucosyltransferase 7
+IL10	UniProtKB:P22301	Interleukin-10
+IL10	UniProtKB:P22301	Interleukin-10
+CD1C	UniProtKB:P29017	T-cell surface glycoprotein CD1c
+ITM2A	UniProtKB:O43736	Integral membrane protein 2A
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+WAS	UniProtKB:P42768	Actin nucleation-promoting factor WAS
+RIPK2	UniProtKB:O43353	Receptor-interacting serine/threonine-protein kinase 2
+RIPK2	UniProtKB:O43353	Receptor-interacting serine/threonine-protein kinase 2
+PRDX2	UniProtKB:P32119	Peroxiredoxin-2
+PRDX2	UniProtKB:P32119	Peroxiredoxin-2
+RBX1	UniProtKB:P62877	E3 ubiquitin-protein ligase RBX1
+PRKCB	UniProtKB:P05771	Protein kinase C beta type
+JAK3	UniProtKB:P52333	Tyrosine-protein kinase JAK3
+STAT6	UniProtKB:P42226	Signal transducer and activator of transcription 6
+STAT6	UniProtKB:P42226	Signal transducer and activator of transcription 6
+KIR3DS1	UniProtKB:Q14943	Killer cell immunoglobulin-like receptor 3DS1
+APP	UniProtKB:P05067	Amyloid-beta precursor protein
+APP	UniProtKB:P05067	Amyloid-beta precursor protein
+APP	UniProtKB:P05067	Amyloid-beta precursor protein
+CTSG	UniProtKB:P08311	Cathepsin G
+ATP7A	UniProtKB:Q04656	Copper-transporting ATPase 1
+ICOSLG	UniProtKB:O75144	ICOS ligand
+ICOSLG	UniProtKB:O75144	ICOS ligand
+ICOSLG	UniProtKB:O75144	ICOS ligand
+CD1D	UniProtKB:P15813	Antigen-presenting glycoprotein CD1d
+YY1	UniProtKB:P25490	Transcriptional repressor protein YY1
+PTK2B	UniProtKB:Q14289	Protein-tyrosine kinase 2-beta
+SELPLG	UniProtKB:Q14242	P-selectin glycoprotein ligand 1
+EBI3	UniProtKB:Q14213	Interleukin-27 subunit beta
+LY6D	UniProtKB:Q14210	Lymphocyte antigen 6D
+FKBP1A	UniProtKB:P62942	Peptidyl-prolyl cis-trans isomerase FKBP1A
+SCRIB	UniProtKB:Q14160	Protein scribble homolog
+IMPDH2	UniProtKB:P12268	Inosine-5'-monophosphate dehydrogenase 2
+PLA2G10	UniProtKB:O15496	Group 10 secretory phospholipase A2
+TLR3	UniProtKB:O15455	Toll-like receptor 3
+GPR89A	UniProtKB:B7ZAQ6	Golgi pH regulator A
+TCIRG1	UniProtKB:Q13488	V-type proton ATPase 116 kDa subunit a 3
+TCIRG1	UniProtKB:Q13488	V-type proton ATPase 116 kDa subunit a 3
+TCIRG1	UniProtKB:Q13488	V-type proton ATPase 116 kDa subunit a 3
+TCIRG1	UniProtKB:Q13488	V-type proton ATPase 116 kDa subunit a 3
+IL18R1	UniProtKB:Q13478	Interleukin-18 receptor 1
+IL18R1	UniProtKB:Q13478	Interleukin-18 receptor 1
+FZD5	UniProtKB:Q13467	Frizzled-5
+CLEC4G	UniProtKB:Q6UXB4	C-type lectin domain family 4 member G
+CLEC4G	UniProtKB:Q6UXB4	C-type lectin domain family 4 member G
+LMBR1L	UniProtKB:Q6UX01	Protein LMBR1L
+LMBR1L	UniProtKB:Q6UX01	Protein LMBR1L
+GPR15LG	UniProtKB:Q6UWK7	Protein GPR15LG
+CCR9	UniProtKB:P51686	C-C chemokine receptor type 9
+JAML	UniProtKB:Q86YT9	Junctional adhesion molecule-like
+CORO1A	UniProtKB:P31146	Coronin-1A
+CORO1A	UniProtKB:P31146	Coronin-1A
+CORO1A	UniProtKB:P31146	Coronin-1A
+SPI1	UniProtKB:P17947	Transcription factor PU.1
+SASH3	UniProtKB:O75995	SAM and SH3 domain-containing protein 3
+SASH3	UniProtKB:O75995	SAM and SH3 domain-containing protein 3
+SASH3	UniProtKB:O75995	SAM and SH3 domain-containing protein 3
+ENTPD7	UniProtKB:Q9NQZ7	Ectonucleoside triphosphate diphosphohydrolase 7
+DYSF	UniProtKB:O75923	Dysferlin
+DYSF	UniProtKB:O75923	Dysferlin
+CYP26B1	UniProtKB:Q9NR63	Cytochrome P450 26B1
+DLL4	UniProtKB:Q9NR61	Delta-like protein 4
+KIF13B	UniProtKB:Q9NQT8	Kinesin-like protein KIF13B
+EXOSC3	UniProtKB:Q9NQT5	Exosome complex component RRP40
+MRGPRX2	UniProtKB:Q96LB1	Mas-related G-protein coupled receptor member X2
+MRGPRX2	UniProtKB:Q96LB1	Mas-related G-protein coupled receptor member X2
+FCRL1	UniProtKB:Q96LA6	Fc receptor-like protein 1
+PLA2G2D	UniProtKB:Q9UNK4	Group IID secretory phospholipase A2
+SNX27	UniProtKB:Q96L92	Sorting nexin-27
+TNFSF18	UniProtKB:Q9UNG2	Tumor necrosis factor ligand superfamily member 18
+TNFSF18	UniProtKB:Q9UNG2	Tumor necrosis factor ligand superfamily member 18
+CYLD	UniProtKB:Q9NQC7	Ubiquitin carboxyl-terminal hydrolase CYLD
+CTPS1	UniProtKB:P17812	CTP synthase 1
+CTPS1	UniProtKB:P17812	CTP synthase 1
+DTX1	UniProtKB:Q86Y01	E3 ubiquitin-protein ligase DTX1
+B2M	UniProtKB:P61769	Beta-2-microglobulin
+CRTC3	UniProtKB:Q6UUV7	CREB-regulated transcription coactivator 3
+PTGDS	UniProtKB:P41222	Prostaglandin-H2 D-isomerase
+CBFB	UniProtKB:Q13951	Core-binding factor subunit beta
+RUNX2	UniProtKB:Q13950	Runt-related transcription factor 2
+TP53	UniProtKB:P04637	Cellular tumor antigen p53
+TP53	UniProtKB:P04637	Cellular tumor antigen p53
+TP53	UniProtKB:P04637	Cellular tumor antigen p53
+TP53	UniProtKB:P04637	Cellular tumor antigen p53
+ERBB2	UniProtKB:P04626	Receptor tyrosine-protein kinase erbB-2
+GPAM	UniProtKB:Q9HCL2	Glycerol-3-phosphate acyltransferase 1, mitochondrial
+IFNE	UniProtKB:Q86WN2	Interferon epsilon
+IFNE	UniProtKB:Q86WN2	Interferon epsilon
+IFNE	UniProtKB:Q86WN2	Interferon epsilon
+STK11	UniProtKB:Q15831	Serine/threonine-protein kinase STK11
+TSPAN32	UniProtKB:Q96QS1	Tetraspanin-32
+WNT3A	UniProtKB:P56704	Protein Wnt-3a
+LCP2	UniProtKB:Q13094	Lymphocyte cytosolic protein 2
+ATAD5	UniProtKB:Q96QE3	ATPase family AAA domain-containing protein 5
+CAMP	UniProtKB:P49913	Cathelicidin antimicrobial peptide
+EFNB1	UniProtKB:P98172	Ephrin-B1
+LY9	UniProtKB:Q9HBG7	T-lymphocyte surface antigen Ly-9
+LY9	UniProtKB:Q9HBG7	T-lymphocyte surface antigen Ly-9
+PRKDC	UniProtKB:P78527	DNA-dependent protein kinase catalytic subunit
+PRKDC	UniProtKB:P78527	DNA-dependent protein kinase catalytic subunit
+PRKDC	UniProtKB:P78527	DNA-dependent protein kinase catalytic subunit
+PRKDC	UniProtKB:P78527	DNA-dependent protein kinase catalytic subunit
+PRKDC	UniProtKB:P78527	DNA-dependent protein kinase catalytic subunit
+IL21R	UniProtKB:Q9HBE5	Interleukin-21 receptor
+IL21	UniProtKB:Q9HBE4	Interleukin-21
+IL21	UniProtKB:Q9HBE4	Interleukin-21
+PATZ1	UniProtKB:Q9HBE1	POZ-, AT hook-, and zinc finger-containing protein 1
+RC3H2	UniProtKB:Q9HBD1	Roquin-2
+RC3H2	UniProtKB:Q9HBD1	Roquin-2
+RHOA	UniProtKB:P61586	Transforming protein RhoA
+RHOA	UniProtKB:P61586	Transforming protein RhoA
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+ZBTB46	UniProtKB:Q86UZ6	Zinc finger and BTB domain-containing protein 46
+UBD	UniProtKB:O15205	Ubiquitin D
+PLA2G3	UniProtKB:Q9NZ20	Group 3 secretory phospholipase A2
+PLA2G3	UniProtKB:Q9NZ20	Group 3 secretory phospholipase A2
+PRF1	UniProtKB:P14222	Perforin-1
+PRF1	UniProtKB:P14222	Perforin-1
+HHEX	UniProtKB:Q03014	Hematopoietically-expressed homeobox protein HHEX
+SLAMF1	UniProtKB:Q13291	Signaling lymphocytic activation molecule
+SLAMF1	UniProtKB:Q13291	Signaling lymphocytic activation molecule
+SLAMF1	UniProtKB:Q13291	Signaling lymphocytic activation molecule
+NMI	UniProtKB:Q13287	N-myc-interactor
+DHRS2	UniProtKB:Q13268	Dehydrogenase/reductase SDR family member 2, mitochondrial
+PTGDR	UniProtKB:Q13258	Prostaglandin D2 receptor
+ZBTB7B	UniProtKB:O15156	Zinc finger and BTB domain-containing protein 7B
+GPS2	UniProtKB:Q13227	G protein pathway suppressor 2
+EPHB1	UniProtKB:P54762	Ephrin type-B receptor 1
+HDAC5	UniProtKB:Q9UQL6	Histone deacetylase 5
+HDAC5	UniProtKB:Q9UQL6	Histone deacetylase 5
+SOX4	UniProtKB:Q06945	Transcription factor SOX-4
+EXO1	UniProtKB:Q9UQ84	Exonuclease 1
+PLCL2	UniProtKB:Q9UPR0	Inactive phospholipase C-like protein 2
+PLCL2	UniProtKB:Q9UPR0	Inactive phospholipase C-like protein 2
+PRDX1	UniProtKB:Q06830	Peroxiredoxin-1
+PRDX1	UniProtKB:Q06830	Peroxiredoxin-1
+ADAM9	UniProtKB:Q13443	Disintegrin and metalloproteinase domain-containing protein 9
+FOXN1	UniProtKB:O15353	Forkhead box protein N1
+IKZF1	UniProtKB:Q13422	DNA-binding protein Ikaros
+CSF2	UniProtKB:P04141	Granulocyte-macrophage colony-stimulating factor
+SANBR	UniProtKB:Q6NSI8	SANT and BTB domain regulator of class switch recombination
+SANBR	UniProtKB:Q6NSI8	SANT and BTB domain regulator of class switch recombination
+KMT2A	UniProtKB:Q03164	Histone-lysine N-methyltransferase 2A
+TREM2	UniProtKB:Q9NZC2	Triggering receptor expressed on myeloid cells 2
+TREM2	UniProtKB:Q9NZC2	Triggering receptor expressed on myeloid cells 2
+TREM2	UniProtKB:Q9NZC2	Triggering receptor expressed on myeloid cells 2
+TREM2	UniProtKB:Q9NZC2	Triggering receptor expressed on myeloid cells 2
+TREM2	UniProtKB:Q9NZC2	Triggering receptor expressed on myeloid cells 2
+TREM2	UniProtKB:Q9NZC2	Triggering receptor expressed on myeloid cells 2
+ANXA1	UniProtKB:P04083	Annexin A1
+ANXA1	UniProtKB:P04083	Annexin A1
+GBA1	UniProtKB:P04062	Lysosomal acid glucosylceramidase
+DCLRE1C	UniProtKB:Q96SD1	Protein artemis
+CD81	UniProtKB:P60033	CD81 antigen
+CBLB	UniProtKB:Q13191	E3 ubiquitin-protein ligase CBL-B
+KDELR1	UniProtKB:P24390	ER lumen protein-retaining receptor 1
+LAT2	UniProtKB:Q9GZY6	Linker for activation of T-cells family member 2
+LAT2	UniProtKB:Q9GZY6	Linker for activation of T-cells family member 2
+LAT2	UniProtKB:Q9GZY6	Linker for activation of T-cells family member 2
+LAT2	UniProtKB:Q9GZY6	Linker for activation of T-cells family member 2
+AICDA	UniProtKB:Q9GZX7	Single-stranded DNA cytosine deaminase
+AICDA	UniProtKB:Q9GZX7	Single-stranded DNA cytosine deaminase
+FADD	UniProtKB:Q13158	FAS-associated death domain protein
+RAB44	UniProtKB:Q7Z6P3	Ras-related protein Rab-44
+MILR1	UniProtKB:Q7Z6M3	Allergin-1
+CD79A	UniProtKB:P11912	B-cell antigen receptor complex-associated protein alpha chain
+CD79A	UniProtKB:P11912	B-cell antigen receptor complex-associated protein alpha chain
+CD79A	UniProtKB:P11912	B-cell antigen receptor complex-associated protein alpha chain
+CD79A	UniProtKB:P11912	B-cell antigen receptor complex-associated protein alpha chain
+NRARP	UniProtKB:Q7Z6K4	Notch-regulated ankyrin repeat-containing protein
+LAG3	UniProtKB:P18627	Lymphocyte activation gene 3 protein
+LAG3	UniProtKB:P18627	Lymphocyte activation gene 3 protein
+APBB1IP	UniProtKB:Q7Z5R6	Amyloid beta A4 precursor protein-binding family B member 1-interacting protein
+SRF	UniProtKB:P11831	Serum response factor
+ITGB6	UniProtKB:P18564	Integrin beta-6
+ZFP36L1	UniProtKB:Q07352	mRNA decay activator protein ZFP36L1
+IRF2BP2	UniProtKB:Q7Z5L9	Interferon regulatory factor 2-binding protein 2
+CEACAM21	UniProtKB:Q3KPI0	Cell adhesion molecule CEACAM21
+IL2RA	UniProtKB:P01589	Interleukin-2 receptor subunit alpha
+GRN	UniProtKB:P28799	Progranulin
+IFNG	UniProtKB:P01579	Interferon gamma
+IFNG	UniProtKB:P01579	Interferon gamma
+IFNG	UniProtKB:P01579	Interferon gamma
+IFNG	UniProtKB:P01579	Interferon gamma
+IFNG	UniProtKB:P01579	Interferon gamma
+IFNG	UniProtKB:P01579	Interferon gamma
+IFNB1	UniProtKB:P01574	Interferon beta
+IFNB1	UniProtKB:P01574	Interferon beta
+IFNB1	UniProtKB:P01574	Interferon beta
+IFNB1	UniProtKB:P01574	Interferon beta
+IFNB1	UniProtKB:P01574	Interferon beta
+IFNB1	UniProtKB:P01574	Interferon beta
+IFNA17	UniProtKB:P01571	Interferon alpha-17
+IFNA17	UniProtKB:P01571	Interferon alpha-17
+IFNA17	UniProtKB:P01571	Interferon alpha-17
+IFNA14	UniProtKB:P01570	Interferon alpha-14
+IFNA14	UniProtKB:P01570	Interferon alpha-14
+IFNA14	UniProtKB:P01570	Interferon alpha-14
+IFNA5	UniProtKB:P01569	Interferon alpha-5
+IFNA5	UniProtKB:P01569	Interferon alpha-5
+IFNA5	UniProtKB:P01569	Interferon alpha-5
+IFNA21	UniProtKB:P01568	Interferon alpha-21
+IFNA21	UniProtKB:P01568	Interferon alpha-21
+IFNA21	UniProtKB:P01568	Interferon alpha-21
+IFNA7	UniProtKB:P01567	Interferon alpha-7
+IFNA7	UniProtKB:P01567	Interferon alpha-7
+IFNA7	UniProtKB:P01567	Interferon alpha-7
+IFNA10	UniProtKB:P01566	Interferon alpha-10
+IFNA10	UniProtKB:P01566	Interferon alpha-10
+IFNA10	UniProtKB:P01566	Interferon alpha-10
+IFNA2	UniProtKB:P01563	Interferon alpha-2
+IFNA2	UniProtKB:P01563	Interferon alpha-2
+IFNA2	UniProtKB:P01563	Interferon alpha-2
+IFNA1	UniProtKB:P01562	Interferon alpha-1/13
+IFNA1	UniProtKB:P01562	Interferon alpha-1/13
+IFNA1	UniProtKB:P01562	Interferon alpha-1/13
+EIF2AK4	UniProtKB:Q9P2K8	eIF-2-alpha kinase GCN2
+PDP2	UniProtKB:Q9P2J9	[Pyruvate dehydrogenase [acetyl-transferring]]-phosphatase 2, mitochondrial
+UNC13D	UniProtKB:Q70J99	Protein unc-13 homolog D
+CHD7	UniProtKB:Q9P2D1	Chromodomain-helicase-DNA-binding protein 7
+IGHM	UniProtKB:P01871	Immunoglobulin heavy constant mu
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+TRBC1	UniProtKB:P01850	T cell receptor beta constant 1
+TRAC	UniProtKB:P01848	T cell receptor alpha chain constant
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+PTPRC	UniProtKB:P08575	Receptor-type tyrosine-protein phosphatase C
+CRACR2A	UniProtKB:Q9BSW2	EF-hand calcium-binding domain-containing protein 4B
+C1QA	UniProtKB:P02745	Complement C1q subcomponent subunit A
+PKNOX1	UniProtKB:P55347	Homeobox protein PKNOX1
+TPD52	UniProtKB:P55327	Tumor protein D52
+TPD52	UniProtKB:P55327	Tumor protein D52
+CLNK	UniProtKB:Q7Z7G1	Cytokine-dependent hematopoietic cell linker
+P2RX7	UniProtKB:Q99572	P2X purinoceptor 7
+LEPR	UniProtKB:P48357	Leptin receptor
+LTBR	UniProtKB:P36941	Tumor necrosis factor receptor superfamily member 3
+VAMP7	UniProtKB:P51809	Vesicle-associated membrane protein 7
+VAMP7	UniProtKB:P51809	Vesicle-associated membrane protein 7
+VAMP7	UniProtKB:P51809	Vesicle-associated membrane protein 7
+VAMP7	UniProtKB:P51809	Vesicle-associated membrane protein 7
+VAMP7	UniProtKB:P51809	Vesicle-associated membrane protein 7
+FCGR2B	UniProtKB:P31994	Low affinity immunoglobulin gamma Fc region receptor II-b
+FCGR2B	UniProtKB:P31994	Low affinity immunoglobulin gamma Fc region receptor II-b
+FCGR2B	UniProtKB:P31994	Low affinity immunoglobulin gamma Fc region receptor II-b
+EGR1	UniProtKB:P18146	Early growth response protein 1
+AZI2	UniProtKB:Q9H6S1	5-azacytidine-induced protein 2
+TGFB1	UniProtKB:P01137	Transforming growth factor beta-1 proprotein
+TGFB1	UniProtKB:P01137	Transforming growth factor beta-1 proprotein
+TGFB1	UniProtKB:P01137	Transforming growth factor beta-1 proprotein
+TBC1D10C	UniProtKB:Q8IV04	Carabin
+LIPA	UniProtKB:P38571	Lysosomal acid lipase/cholesteryl ester hydrolase
+LIPA	UniProtKB:P38571	Lysosomal acid lipase/cholesteryl ester hydrolase
+ITGAM	UniProtKB:P11215	Integrin alpha-M
+AQP8	UniProtKB:O94778	Aquaporin-8
+EXOSC6	UniProtKB:Q5RKV6	Exosome complex component MTR3
+PPP3CB	UniProtKB:P16298	Serine/threonine-protein phosphatase 2B catalytic subunit beta isoform
+PPP3CB	UniProtKB:P16298	Serine/threonine-protein phosphatase 2B catalytic subunit beta isoform
+PPP3CB	UniProtKB:P16298	Serine/threonine-protein phosphatase 2B catalytic subunit beta isoform
+CD151	UniProtKB:P48509	CD151 antigen
+SCGB1A1	UniProtKB:P11684	Uteroglobin
+TNF	UniProtKB:P01375	Tumor necrosis factor
+TNF	UniProtKB:P01375	Tumor necrosis factor
+TNF	UniProtKB:P01375	Tumor necrosis factor
+WNT4	UniProtKB:P56705	Protein Wnt-4
+INS	UniProtKB:P01308	Insulin
+NLRC3	UniProtKB:Q7RTR2	NLR family CARD domain-containing protein 3
+IL6R	UniProtKB:P08887	Interleukin-6 receptor subunit alpha
+IL6R	UniProtKB:P08887	Interleukin-6 receptor subunit alpha
+SOS1	UniProtKB:Q07889	Son of sevenless homolog 1
+BAX	UniProtKB:Q07812	Apoptosis regulator BAX
+BAX	UniProtKB:Q07812	Apoptosis regulator BAX
+BAX	UniProtKB:Q07812	Apoptosis regulator BAX
+TLR2	UniProtKB:O60603	Toll-like receptor 2
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+CD48	UniProtKB:P09326	CD48 antigen
+FZD9	UniProtKB:O00144	Frizzled-9
+PDE5A	UniProtKB:O76074	cGMP-specific 3',5'-cyclic phosphodiesterase
+RNF8	UniProtKB:O76064	E3 ubiquitin-protein ligase RNF8
+KITLG	UniProtKB:P21583	Kit ligand
+NCR1	UniProtKB:O76036	Natural cytotoxicity triggering receptor 1
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+C3	UniProtKB:P01024	Complement C3
+NCSTN	UniProtKB:Q92542	Nicastrin
+IL2RG	UniProtKB:P31785	Cytokine receptor common subunit gamma
+IL2RG	UniProtKB:P31785	Cytokine receptor common subunit gamma
+IL2RG	UniProtKB:P31785	Cytokine receptor common subunit gamma
+IL2RG	UniProtKB:P31785	Cytokine receptor common subunit gamma
+BCR	UniProtKB:P11274	Breakpoint cluster region protein
+IFNGR2	UniProtKB:P38484	Interferon gamma receptor 2
+HDAC4	UniProtKB:P56524	Histone deacetylase 4
+HDAC4	UniProtKB:P56524	Histone deacetylase 4
+F2RL1	UniProtKB:P55085	Proteinase-activated receptor 2
+F2RL1	UniProtKB:P55085	Proteinase-activated receptor 2
+PURA	UniProtKB:Q00577	Transcriptional activator protein Pur-alpha
+CDK6	UniProtKB:Q00534	Cyclin-dependent kinase 6
+AIF1	UniProtKB:P55008	Allograft inflammatory factor 1
+LBP	UniProtKB:P18428	Lipopolysaccharide-binding protein
+LBP	UniProtKB:P18428	Lipopolysaccharide-binding protein
+LBP	UniProtKB:P18428	Lipopolysaccharide-binding protein
+IFNK	UniProtKB:Q9P0W0	Interferon kappa
+IFNK	UniProtKB:Q9P0W0	Interferon kappa
+IFNK	UniProtKB:Q9P0W0	Interferon kappa
+IFNK	UniProtKB:Q9P0W0	Interferon kappa
+CD8A	UniProtKB:P01732	T-cell surface glycoprotein CD8 alpha chain
+CD8A	UniProtKB:P01732	T-cell surface glycoprotein CD8 alpha chain
+CD8A	UniProtKB:P01732	T-cell surface glycoprotein CD8 alpha chain
+CD8A	UniProtKB:P01732	T-cell surface glycoprotein CD8 alpha chain
+CD4	UniProtKB:P01730	T-cell surface glycoprotein CD4
+CD4	UniProtKB:P01730	T-cell surface glycoprotein CD4
+NBN	UniProtKB:O60934	Nibrin
+CD38	UniProtKB:P28907	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1
+AIRE	UniProtKB:O43918	Autoimmune regulator
+TYROBP	UniProtKB:O43914	TYRO protein tyrosine kinase-binding protein
+TYROBP	UniProtKB:O43914	TYRO protein tyrosine kinase-binding protein
+TYROBP	UniProtKB:O43914	TYRO protein tyrosine kinase-binding protein
+TYROBP	UniProtKB:O43914	TYRO protein tyrosine kinase-binding protein
+TYROBP	UniProtKB:O43914	TYRO protein tyrosine kinase-binding protein
+TYROBP	UniProtKB:O43914	TYRO protein tyrosine kinase-binding protein
+ST3GAL1	UniProtKB:Q11201	CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase 1
+CCR7	UniProtKB:P32248	C-C chemokine receptor type 7
+MSH6	UniProtKB:P52701	DNA mismatch repair protein Msh6
+IL18	UniProtKB:Q14116	Interleukin-18
+IL18	UniProtKB:Q14116	Interleukin-18
+MYH9	UniProtKB:P35579	Myosin-9
+BRAF	UniProtKB:P15056	Serine/threonine-protein kinase B-raf
+BRAF	UniProtKB:P15056	Serine/threonine-protein kinase B-raf
+BRAF	UniProtKB:P15056	Serine/threonine-protein kinase B-raf
+ADORA2B	UniProtKB:P29275	Adenosine receptor A2b
+RPS6	UniProtKB:P62753	Small ribosomal subunit protein eS6
+RPS6	UniProtKB:P62753	Small ribosomal subunit protein eS6
+MTOR	UniProtKB:P42345	Serine/threonine-protein kinase mTOR
+CD86	UniProtKB:P42081	T-lymphocyte activation antigen CD86
+CD86	UniProtKB:P42081	T-lymphocyte activation antigen CD86
+CASP8	UniProtKB:Q14790	Caspase-8
+CASP8	UniProtKB:Q14790	Caspase-8
+CASP8	UniProtKB:Q14790	Caspase-8
+HLX	UniProtKB:Q14774	H2.0-like homeobox protein
+HLX	UniProtKB:Q14774	H2.0-like homeobox protein
+CD40	UniProtKB:P25942	Tumor necrosis factor receptor superfamily member 5
+CD40	UniProtKB:P25942	Tumor necrosis factor receptor superfamily member 5
+BST2	UniProtKB:Q10589	Bone marrow stromal antigen 2
+MDK	UniProtKB:P21741	Midkine
+C5AR1	UniProtKB:P21730	C5a anaphylatoxin chemotactic receptor 1
+ITGB1	UniProtKB:P05556	Integrin beta-1
+PRKCQ	UniProtKB:Q04759	Protein kinase C theta type
+RABL3	UniProtKB:Q5HYI8	Rab-like protein 3
+RABL3	UniProtKB:Q5HYI8	Rab-like protein 3
+RABL3	UniProtKB:Q5HYI8	Rab-like protein 3
+NOTCH2	UniProtKB:Q04721	Neurogenic locus notch homolog protein 2
+NOTCH2	UniProtKB:Q04721	Neurogenic locus notch homolog protein 2
+TCF3	UniProtKB:P15923	Transcription factor E2-alpha
+TCF3	UniProtKB:P15923	Transcription factor E2-alpha
+TCF3	UniProtKB:P15923	Transcription factor E2-alpha
+RAG1	UniProtKB:P15918	V(D)J recombination-activating protein 1
+RAG1	UniProtKB:P15918	V(D)J recombination-activating protein 1
+RAG1	UniProtKB:P15918	V(D)J recombination-activating protein 1
+RAG1	UniProtKB:P15918	V(D)J recombination-activating protein 1
+CPLX2	UniProtKB:Q6PUV4	Complexin-2
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+JMJD6	UniProtKB:Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
+JMJD6	UniProtKB:Q6NYC1	Bifunctional arginine demethylase and lysyl-hydroxylase JMJD6
+ADGRG3	UniProtKB:Q86Y34	Adhesion G protein-coupled receptor G3
+IL6	UniProtKB:P05231	Interleukin-6
+IL6	UniProtKB:P05231	Interleukin-6
+IL6	UniProtKB:P05231	Interleukin-6
+IL6	UniProtKB:P05231	Interleukin-6
+CD180	UniProtKB:Q99467	CD180 antigen
+TOX	UniProtKB:O94900	Thymocyte selection-associated high mobility group box protein TOX
+TOX	UniProtKB:O94900	Thymocyte selection-associated high mobility group box protein TOX
+TOX	UniProtKB:O94900	Thymocyte selection-associated high mobility group box protein TOX
+TOX	UniProtKB:O94900	Thymocyte selection-associated high mobility group box protein TOX
+TOX	UniProtKB:O94900	Thymocyte selection-associated high mobility group box protein TOX
+NCK2	UniProtKB:O43639	Cytoplasmic protein NCK2
+NCK2	UniProtKB:O43639	Cytoplasmic protein NCK2
+FGL2	UniProtKB:Q14314	Fibroleukin
+IFNA16	UniProtKB:P05015	Interferon alpha-16
+IFNA16	UniProtKB:P05015	Interferon alpha-16
+IFNA16	UniProtKB:P05015	Interferon alpha-16
+IFNA4	UniProtKB:P05014	Interferon alpha-4
+IFNA4	UniProtKB:P05014	Interferon alpha-4
+IFNA4	UniProtKB:P05014	Interferon alpha-4
+IFNA6	UniProtKB:P05013	Interferon alpha-6
+IFNA6	UniProtKB:P05013	Interferon alpha-6
+IFNA6	UniProtKB:P05013	Interferon alpha-6
+IFNW1	UniProtKB:P05000	Interferon omega-1
+IFNW1	UniProtKB:P05000	Interferon omega-1
+IFNW1	UniProtKB:P05000	Interferon omega-1
+IFNGR1	UniProtKB:P15260	Interferon gamma receptor 1
+IL9	UniProtKB:P15248	Interleukin-9
+IL9	UniProtKB:P15248	Interleukin-9
+ATG5	UniProtKB:Q9H1Y0	Autophagy protein 5
+DCSTAMP	UniProtKB:Q9H295	Dendritic cell-specific transmembrane protein
+CAMK4	UniProtKB:Q16566	Calcium/calmodulin-dependent protein kinase type IV
+STOML2	UniProtKB:Q9UJZ1	Stomatin-like protein 2, mitochondrial
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+LEF1	UniProtKB:Q9UJU2	Lymphoid enhancer-binding factor 1
+LEF1	UniProtKB:Q9UJU2	Lymphoid enhancer-binding factor 1
+LEF1	UniProtKB:Q9UJU2	Lymphoid enhancer-binding factor 1
+CD28	UniProtKB:P10747	T-cell-specific surface glycoprotein CD28
+CD28	UniProtKB:P10747	T-cell-specific surface glycoprotein CD28
+CD28	UniProtKB:P10747	T-cell-specific surface glycoprotein CD28
+CD28	UniProtKB:P10747	T-cell-specific surface glycoprotein CD28
+CD28	UniProtKB:P10747	T-cell-specific surface glycoprotein CD28
+CD28	UniProtKB:P10747	T-cell-specific surface glycoprotein CD28
+BLNK	UniProtKB:Q8WV28	B-cell linker protein
+CCL19	UniProtKB:Q99731	C-C motif chemokine 19
+CCL19	UniProtKB:Q99731	C-C motif chemokine 19
+IL20RB	UniProtKB:Q6UXL0	Interleukin-20 receptor subunit beta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+ITK	UniProtKB:Q08881	Tyrosine-protein kinase ITK/TSK
+ITK	UniProtKB:Q08881	Tyrosine-protein kinase ITK/TSK
+ITK	UniProtKB:Q08881	Tyrosine-protein kinase ITK/TSK
+BAG6	UniProtKB:P46379	Large proline-rich protein BAG6
+BAG6	UniProtKB:P46379	Large proline-rich protein BAG6
+CADM1	UniProtKB:Q9BY67	Cell adhesion molecule 1
+CLEC7A	UniProtKB:Q9BXN2	C-type lectin domain family 7 member A
+CARD11	UniProtKB:Q9BXL7	Caspase recruitment domain-containing protein 11
+CARD11	UniProtKB:Q9BXL7	Caspase recruitment domain-containing protein 11
+CARD11	UniProtKB:Q9BXL7	Caspase recruitment domain-containing protein 11
+CARD11	UniProtKB:Q9BXL7	Caspase recruitment domain-containing protein 11
+SUCNR1	UniProtKB:Q9BXA5	Succinate receptor 1
+MS4A1	UniProtKB:P11836	B-lymphocyte antigen CD20
+MS4A1	UniProtKB:P11836	B-lymphocyte antigen CD20
+MS4A1	UniProtKB:P11836	B-lymphocyte antigen CD20
+IL12B	UniProtKB:P29460	Interleukin-12 subunit beta
+IL12B	UniProtKB:P29460	Interleukin-12 subunit beta
+IL12B	UniProtKB:P29460	Interleukin-12 subunit beta
+IL12B	UniProtKB:P29460	Interleukin-12 subunit beta
+IL12B	UniProtKB:P29460	Interleukin-12 subunit beta
+LIG4	UniProtKB:P49917	DNA ligase 4
+LIG4	UniProtKB:P49917	DNA ligase 4
+LIG4	UniProtKB:P49917	DNA ligase 4
+LIG4	UniProtKB:P49917	DNA ligase 4
+TNFSF8	UniProtKB:P32971	Tumor necrosis factor ligand superfamily member 8
+CD70	UniProtKB:P32970	CD70 antigen
+CD70	UniProtKB:P32970	CD70 antigen
+CD70	UniProtKB:P32970	CD70 antigen
+CD70	UniProtKB:P32970	CD70 antigen
+DDOST	UniProtKB:P39656	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit
+ANXA3	UniProtKB:P12429	Annexin A3
+RELB	UniProtKB:Q01201	Transcription factor RelB
+RELB	UniProtKB:Q01201	Transcription factor RelB
+RELB	UniProtKB:Q01201	Transcription factor RelB
+PTPN2	UniProtKB:P17706	Tyrosine-protein phosphatase non-receptor type 2
+PTPN2	UniProtKB:P17706	Tyrosine-protein phosphatase non-receptor type 2
+FOXP1	UniProtKB:Q9H334	Forkhead box protein P1
+FOXP1	UniProtKB:Q9H334	Forkhead box protein P1
+FOXP1	UniProtKB:Q9H334	Forkhead box protein P1
+RAB29	UniProtKB:O14966	Ras-related protein Rab-7L1
+PSMB10	UniProtKB:P40306	Proteasome subunit beta type-10
+CHRNB2	UniProtKB:P17787	Neuronal acetylcholine receptor subunit beta-2
+NCR3	UniProtKB:O14931	Natural cytotoxicity triggering receptor 3
+NCR3	UniProtKB:O14931	Natural cytotoxicity triggering receptor 3
+NCR3	UniProtKB:O14931	Natural cytotoxicity triggering receptor 3
+NCR3	UniProtKB:O14931	Natural cytotoxicity triggering receptor 3
+NCR3	UniProtKB:O14931	Natural cytotoxicity triggering receptor 3
+ADA	UniProtKB:P00813	Adenosine deaminase
+ADA	UniProtKB:P00813	Adenosine deaminase
+ADA	UniProtKB:P00813	Adenosine deaminase
+ADA	UniProtKB:P00813	Adenosine deaminase
+ADA	UniProtKB:P00813	Adenosine deaminase
+ADA	UniProtKB:P00813	Adenosine deaminase
+MICA	UniProtKB:Q29983	MHC class I polypeptide-related sequence A
+MICB	UniProtKB:Q29980	MHC class I polypeptide-related sequence B
+LYL1	UniProtKB:P12980	Protein lyl-1
+CD276	UniProtKB:Q5ZPR3	CD276 antigen
+WDFY4	UniProtKB:Q6ZS81	WD repeat- and FYVE domain-containing protein 4
+SLAMF8	UniProtKB:Q9P0V8	SLAM family member 8
+LGALS1	UniProtKB:P09382	Galectin-1
+JAK2	UniProtKB:O60674	Tyrosine-protein kinase JAK2
+TLR4	UniProtKB:O00206	Toll-like receptor 4
+TLR4	UniProtKB:O00206	Toll-like receptor 4
+S100A13	UniProtKB:Q99584	Protein S100-A13
+FNIP1	UniProtKB:Q8TF40	Folliculin-interacting protein 1
+FNIP1	UniProtKB:Q8TF40	Folliculin-interacting protein 1
+VAMP2	UniProtKB:P63027	Vesicle-associated membrane protein 2
+VAMP2	UniProtKB:P63027	Vesicle-associated membrane protein 2
+VAMP2	UniProtKB:P63027	Vesicle-associated membrane protein 2
+MSN	UniProtKB:P26038	Moesin
+MSN	UniProtKB:P26038	Moesin
+ITGB8	UniProtKB:P26012	Integrin beta-8
+TICAM1	UniProtKB:Q8IUC6	TIR domain-containing adapter molecule 1
+TICAM1	UniProtKB:Q8IUC6	TIR domain-containing adapter molecule 1
+ULBP1	UniProtKB:Q9BZM6	UL16-binding protein 1
+ULBP2	UniProtKB:Q9BZM5	UL16-binding protein 2
+ULBP3	UniProtKB:Q9BZM4	UL16-binding protein 3
+CLEC4D	UniProtKB:Q8WXI8	C-type lectin domain family 4 member D
+RSAD2	UniProtKB:Q8WXG1	S-adenosylmethionine-dependent nucleotide dehydratase RSAD2
+RSAD2	UniProtKB:Q8WXG1	S-adenosylmethionine-dependent nucleotide dehydratase RSAD2
+RC3H1	UniProtKB:Q5TC82	Roquin-1
+RC3H1	UniProtKB:Q5TC82	Roquin-1
+EMP2	UniProtKB:P54851	Epithelial membrane protein 2
+NAGLU	UniProtKB:P54802	Alpha-N-acetylglucosaminidase
+HAMP	UniProtKB:P81172	Hepcidin
+ERCC1	UniProtKB:P07992	DNA excision repair protein ERCC-1
+LYN	UniProtKB:P07948	Tyrosine-protein kinase Lyn
+CMTM7	UniProtKB:Q96FZ5	CKLF-like MARVEL transmembrane domain-containing protein 7
+CD84	UniProtKB:Q9UIB8	SLAM family member 5
+SMAD3	UniProtKB:P84022	Mothers against decapentaplegic homolog 3
+CHRNA4	UniProtKB:P43681	Neuronal acetylcholine receptor subunit alpha-4
+IFI35	UniProtKB:P80217	Interferon-induced 35 kDa protein
+CD74	UniProtKB:P04233	HLA class II histocompatibility antigen gamma chain
+CD74	UniProtKB:P04233	HLA class II histocompatibility antigen gamma chain
+CD74	UniProtKB:P04233	HLA class II histocompatibility antigen gamma chain
+CD74	UniProtKB:P04233	HLA class II histocompatibility antigen gamma chain
+CD3D	UniProtKB:P04234	T-cell surface glycoprotein CD3 delta chain
+CD3D	UniProtKB:P04234	T-cell surface glycoprotein CD3 delta chain
+CD3D	UniProtKB:P04234	T-cell surface glycoprotein CD3 delta chain
+FCAR	UniProtKB:P24071	Immunoglobulin alpha Fc receptor
+CCL5	UniProtKB:P13501	C-C motif chemokine 5
+TREX1	UniProtKB:Q9NSU2	Three-prime repair exonuclease 1
+GATA3	UniProtKB:P23771	Trans-acting T-cell-specific transcription factor GATA-3
+GATA3	UniProtKB:P23771	Trans-acting T-cell-specific transcription factor GATA-3
+GATA3	UniProtKB:P23771	Trans-acting T-cell-specific transcription factor GATA-3
+GATA3	UniProtKB:P23771	Trans-acting T-cell-specific transcription factor GATA-3
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+RBPJ	UniProtKB:Q06330	Recombining binding protein suppressor of hairless
+RBPJ	UniProtKB:Q06330	Recombining binding protein suppressor of hairless
+CD3G	UniProtKB:P09693	T-cell surface glycoprotein CD3 gamma chain
+CD3G	UniProtKB:P09693	T-cell surface glycoprotein CD3 gamma chain
+CD3G	UniProtKB:P09693	T-cell surface glycoprotein CD3 gamma chain
+CD3G	UniProtKB:P09693	T-cell surface glycoprotein CD3 gamma chain
+CSF1	UniProtKB:P09603	Macrophage colony-stimulating factor 1
+CD80	UniProtKB:P33681	T-lymphocyte activation antigen CD80
+SLAMF6	UniProtKB:Q96DU3	SLAM family member 6
+SLAMF6	UniProtKB:Q96DU3	SLAM family member 6
+SELENOK	UniProtKB:Q9Y6D0	Selenoprotein K
+FCER2	UniProtKB:P06734	Low affinity immunoglobulin epsilon Fc receptor
+CD2	UniProtKB:P06729	T-cell surface antigen CD2
+CD2	UniProtKB:P06729	T-cell surface antigen CD2
+CD2	UniProtKB:P06729	T-cell surface antigen CD2
+CD2	UniProtKB:P06729	T-cell surface antigen CD2
+ADAM17	UniProtKB:P78536	Disintegrin and metalloproteinase domain-containing protein 17
+ADAM17	UniProtKB:P78536	Disintegrin and metalloproteinase domain-containing protein 17
+CEBPG	UniProtKB:P53567	CCAAT/enhancer-binding protein gamma
+KARS1	UniProtKB:Q15046	Lysine--tRNA ligase
+KARS1	UniProtKB:Q15046	Lysine--tRNA ligase
+ZBTB1	UniProtKB:Q9Y2K1	Zinc finger and BTB domain-containing protein 1
+ZBTB1	UniProtKB:Q9Y2K1	Zinc finger and BTB domain-containing protein 1

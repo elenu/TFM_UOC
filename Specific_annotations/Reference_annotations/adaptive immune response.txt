@@ -1,0 +1,774 @@
+IGLV3-21	UniProtKB:P80748	Immunoglobulin lambda variable 3-21
+TARM1	UniProtKB:B6A8C7	T-cell-interacting, activating receptor on myeloid cells protein 1
+IL4R	UniProtKB:P24394	Interleukin-4 receptor subunit alpha
+IL4R	UniProtKB:P24394	Interleukin-4 receptor subunit alpha
+SCART1	UniProtKB:Q4G0T1	Scavenger receptor cysteine-rich domain-containing protein SCART1
+JAK1	UniProtKB:P23458	Tyrosine-protein kinase JAK1
+LILRB2	UniProtKB:Q8N423	Leukocyte immunoglobulin-like receptor subfamily B member 2
+IGHV1-2	UniProtKB:P23083	Immunoglobulin heavy variable 1-2
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+SYK	UniProtKB:P43405	Tyrosine-protein kinase SYK
+ZAP70	UniProtKB:P43403	Tyrosine-protein kinase ZAP-70
+IGKV1D-39	UniProtKB:P04432	Immunoglobulin kappa variable 1D-39
+CTSC	UniProtKB:P53634	Dipeptidyl peptidase 1
+THEMIS	UniProtKB:Q8N1K5	Protein THEMIS
+SHLD2	UniProtKB:Q86V20	Shieldin complex subunit 2
+MSH2	UniProtKB:P43246	DNA mismatch repair protein Msh2
+MSH2	UniProtKB:P43246	DNA mismatch repair protein Msh2
+MSH2	UniProtKB:P43246	DNA mismatch repair protein Msh2
+C2	UniProtKB:P06681	Complement C2
+RORC	UniProtKB:P51449	Nuclear receptor ROR-gamma
+RAPGEF4	UniProtKB:Q8WZA2	Rap guanine nucleotide exchange factor 4
+IL7R	UniProtKB:P16871	Interleukin-7 receptor subunit alpha
+NLRP10	UniProtKB:Q86W26	NACHT, LRR and PYD domains-containing protein 10
+PRKCD	UniProtKB:Q05655	Protein kinase C delta type
+KLHL6	UniProtKB:Q8WZ60	Kelch-like protein 6
+KCNJ8	UniProtKB:Q15842	ATP-sensitive inward rectifier potassium channel 8
+CTNNBL1	UniProtKB:Q8WYA6	Beta-catenin-like protein 1
+CD79B	UniProtKB:P40259	B-cell antigen receptor complex-associated protein beta chain
+TNFRSF13B	UniProtKB:O14836	Tumor necrosis factor receptor superfamily member 13B
+TRBV17	UniProtKB:A0A087X0K7	Probable non-functional T cell receptor beta variable 17
+IL6ST	UniProtKB:P40189	Interleukin-6 receptor subunit beta
+CR1	UniProtKB:P17927	Complement receptor type 1
+CR1	UniProtKB:P17927	Complement receptor type 1
+SH2D1B	UniProtKB:O14796	SH2 domain-containing protein 1B
+TNFRSF13C	UniProtKB:Q96RJ3	Tumor necrosis factor receptor superfamily member 13C
+LILRA3	UniProtKB:Q8N6C8	Leukocyte immunoglobulin-like receptor subfamily A member 3
+UNG	UniProtKB:P13051	Uracil-DNA glycosylase
+IGKV6D-41	UniProtKB:A0A0C4DH26	Probable non-functional immunoglobulin kappa variable 6D-41
+IGHV3-16	UniProtKB:A0A0C4DH30	Probable non-functional immunoglobulin heavy variable 3-16
+IGHV1-24	UniProtKB:A0A0C4DH33	Immunoglobulin heavy variable 1-24
+IGHV3-38	UniProtKB:A0A0C4DH36	Probable non-functional immunoglobulin heavy variable 3-38
+IGHV4-61	UniProtKB:A0A0C4DH41	Immunoglobulin heavy variable 4-61
+IGKV1-8	UniProtKB:A0A0C4DH67	Immunoglobulin kappa variable 1-8
+IGKV1-6	UniProtKB:A0A0C4DH72	Immunoglobulin kappa variable 1-6
+IGKV2-40	UniProtKB:A0A087WW87	Immunoglobulin kappa variable 2-40
+LOC102724971	UniProtKB:A0A087WW49	Ig-like domain-containing protein
+SIT1	UniProtKB:Q9Y3P8	Signaling threshold-regulating transmembrane adapter 1
+BCL3	UniProtKB:P20749	B-cell lymphoma 3 protein
+BCL3	UniProtKB:P20749	B-cell lymphoma 3 protein
+BCL3	UniProtKB:P20749	B-cell lymphoma 3 protein
+RAPGEF3	UniProtKB:O95398	Rap guanine nucleotide exchange factor 3
+TRGV3	UniProtKB:P03979	T cell receptor gamma variable 3
+HLA-DPA1	UniProtKB:P20036	HLA class II histocompatibility antigen, DP alpha 1 chain
+CR2	UniProtKB:P20023	Complement receptor type 2
+CR2	UniProtKB:P20023	Complement receptor type 2
+FCER1G	UniProtKB:P30273	High affinity immunoglobulin epsilon receptor subunit gamma
+C8B	UniProtKB:P07358	Complement component C8 beta chain
+C8G	UniProtKB:P07360	Complement component C8 gamma chain
+CD6	UniProtKB:P30203	T-cell differentiation antigen CD6
+CLU	UniProtKB:P10909	Clusterin
+TRBV7-2	UniProtKB:A0A1B0GXF2	T cell receptor beta variable 7-2
+PDIA3	UniProtKB:P30101	Protein disulfide-isomerase A3
+TRBV7-4	UniProtKB:A0A1B0GX95	T cell receptor beta variable 7-4
+TRBV12-5	UniProtKB:A0A1B0GX78	T cell receptor beta variable 12-5
+C6	UniProtKB:P13671	Complement component C6
+TRAV19	UniProtKB:A0A0A6YYK7	T cell receptor alpha variable 19
+TRAV16	UniProtKB:A0A0A6YYK6	T cell receptor alpha variable 16
+TRBV7-1	UniProtKB:A0A0A6YYK4	Probable non-functional T cell receptor beta variable 7-1
+TRAV8-1	UniProtKB:A0A0A6YYK1	T cell receptor alpha variable 8-1
+TRAV8-3	UniProtKB:A0A0A6YYJ7	T cell receptor alpha variable 8-3
+TRBV6-8	UniProtKB:A0A0A6YYG3	T cell receptor beta variable 6-8
+TRBV6-6	UniProtKB:A0A0A6YYG2	T cell receptor beta variable 6-6
+TRAV14DV4	UniProtKB:A0A0A6YYC5	T cell receptor alpha variable 14/delta variable 4
+SOCS3	UniProtKB:O14543	Suppressor of cytokine signaling 3
+IL18RAP	UniProtKB:O95256	Interleukin-18 receptor accessory protein
+EOMES	UniProtKB:O95936	Eomesodermin homolog
+SWAP70	UniProtKB:Q9UH65	Switch-associated protein 70
+STAT3	UniProtKB:P40763	Signal transducer and activator of transcription 3
+STAT3	UniProtKB:P40763	Signal transducer and activator of transcription 3
+LILRB1	UniProtKB:Q8NHL6	Leukocyte immunoglobulin-like receptor subfamily B member 1
+RNF125	UniProtKB:Q96EQ8	E3 ubiquitin-protein ligase RNF125
+ORAI1	UniProtKB:Q96D31	Calcium release-activated calcium channel protein 1
+LILRB5	UniProtKB:O75023	Leukocyte immunoglobulin-like receptor subfamily B member 5
+LILRA1	UniProtKB:O75019	Leukocyte immunoglobulin-like receptor subfamily A member 1
+FCGR3B	UniProtKB:O75015	Low affinity immunoglobulin gamma Fc region receptor III-B
+RAP1GAP	UniProtKB:P47736	Rap1 GTPase-activating protein 1
+TRAF6	UniProtKB:Q9Y4K3	TNF receptor-associated factor 6
+CCR6	UniProtKB:P51684	C-C chemokine receptor type 6
+FCAMR	UniProtKB:Q8WWV6	High affinity immunoglobulin alpha and immunoglobulin mu Fc receptor
+CD27	UniProtKB:P26842	CD27 antigen
+CD27	UniProtKB:P26842	CD27 antigen
+HLA-DOA	UniProtKB:P06340	HLA class II histocompatibility antigen, DO alpha chain
+IGHV4-34	UniProtKB:P06331	Immunoglobulin heavy variable 4-34
+IGKV5-2	UniProtKB:P06315	Immunoglobulin kappa variable 5-2
+IGKV4-1	UniProtKB:P06312	Immunoglobulin kappa variable 4-1
+IGKV2-30	UniProtKB:P06310	Immunoglobulin kappa variable 2-30
+HLA-DRB1	UniProtKB:P01911	HLA class II histocompatibility antigen, DRB1 beta chain
+EBAG9	UniProtKB:O00559	Receptor-binding cancer antigen expressed on SiSo cells
+EBAG9	UniProtKB:O00559	Receptor-binding cancer antigen expressed on SiSo cells
+CD1A	UniProtKB:P06126	T-cell surface glycoprotein CD1a
+IRF7	UniProtKB:Q92985	Interferon regulatory factor 7
+TNFRSF14	UniProtKB:Q92956	Tumor necrosis factor receptor superfamily member 14
+IGLC6	UniProtKB:P0CF74	Immunoglobulin lambda constant 6
+IGLC6	UniProtKB:P0CF74	Immunoglobulin lambda constant 6
+TRGC1	UniProtKB:P0CF51	T cell receptor gamma constant 1
+TSC1	UniProtKB:Q92574	Hamartin
+TRBC2	UniProtKB:A0A5B9	T cell receptor beta constant 2
+TRBV29-1	UniProtKB:A0A5B7	T cell receptor beta variable 29-1
+TRBV28	UniProtKB:A0A5B6	T cell receptor beta variable 28
+TRBV14	UniProtKB:A0A5B0	T cell receptor beta variable 14
+TRBV11-3	UniProtKB:A0A5A6	T cell receptor beta variable 11-3
+PRR7	UniProtKB:Q8TB68	Proline-rich protein 7
+CLEC10A	UniProtKB:Q8IUN9	C-type lectin domain family 10 member A
+CD244	UniProtKB:Q9BZW8	Natural killer cell receptor 2B4
+TRBV5-6	UniProtKB:A0A599	T cell receptor beta variable 5-6
+TRBV4-3	UniProtKB:A0A589	T cell receptor beta variable 4-3
+TRBV11-2	UniProtKB:A0A584	T cell receptor beta variable 11-2
+TRBV5-1	UniProtKB:A0A578	T cell receptor beta variable 5-1
+TRBV4-1	UniProtKB:A0A577	T cell receptor beta variable 4-1
+TRBV3-1	UniProtKB:A0A576	T cell receptor beta variable 3-1
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+FOXP3	UniProtKB:Q9BZS1	Forkhead box protein P3
+SHLD1	UniProtKB:Q8IYI0	Shieldin complex subunit 1
+MASP2	UniProtKB:O00187	Mannan-binding lectin serine protease 2
+SPN	UniProtKB:P16150	Leukosialin
+IGLL5	UniProtKB:B9A064	Immunoglobulin lambda-like polypeptide 5
+HAVCR2	UniProtKB:Q8TDQ0	Hepatitis A virus cellular receptor 2
+MYD88	UniProtKB:Q99836	Myeloid differentiation primary response protein MyD88
+C17orf99	UniProtKB:Q6UX52	Protein IL-40
+FYN	UniProtKB:P06241	Tyrosine-protein kinase Fyn
+KLRK1	UniProtKB:P26718	NKG2-D type II integral membrane protein
+KLRC2	UniProtKB:P26717	NKG2-C type II integral membrane protein
+KLRC1	UniProtKB:P26715	NKG2-A/NKG2-B type II integral membrane protein
+BTN3A1	UniProtKB:O00481	Butyrophilin subfamily 3 member A1
+BTN3A3	UniProtKB:O00478	Butyrophilin subfamily 3 member A3
+GNL1	UniProtKB:P36915	Guanine nucleotide-binding protein-like 1
+CTLA4	UniProtKB:P16410	Cytotoxic T-lymphocyte protein 4
+PDCD1	UniProtKB:Q15116	Programmed cell death protein 1
+IGLC1	UniProtKB:P0CG04	Immunoglobulin lambda constant 1
+IGLC1	UniProtKB:P0CG04	Immunoglobulin lambda constant 1
+LAX1	UniProtKB:Q8IWV1	Lymphocyte transmembrane adapter 1
+FCGR1BP	UniProtKB:Q92637	Putative high affinity immunoglobulin gamma Fc receptor IB
+TRPM4	UniProtKB:Q8TD43	Transient receptor potential cation channel subfamily M member 4
+MCOLN2	UniProtKB:Q8IZK6	Mucolipin-2
+TRGV9	UniProtKB:Q99603	T cell receptor gamma variable 9
+IRF4	UniProtKB:Q15306	Interferon regulatory factor 4
+RNF168	UniProtKB:Q8IYW5	E3 ubiquitin-protein ligase RNF168
+HLA-DMB	UniProtKB:P28068	HLA class II histocompatibility antigen, DM beta chain
+TMEM98	UniProtKB:Q9Y2Y6	Transmembrane protein 98
+TRBV16	UniProtKB:A0A087WV62	T cell receptor beta variable 16
+TRAV30	UniProtKB:A0A087WSZ9	T cell receptor alpha variable 30
+IGKV1D-8	UniProtKB:A0A087WSZ0	Immunoglobulin kappa variable 1D-8
+IGHV4-30-2	UniProtKB:A0A087WSY4	Immunoglobulin heavy variable 4-30-2
+IGLV5-45	UniProtKB:A0A087WSX0	Immunoglobulin lambda variable 5-45
+TRAV26-1	UniProtKB:A0A087WT03	T cell receptor alpha variable 26-1
+TRAV9-2	UniProtKB:A0A087WT02	T cell receptor alpha variable 9-2
+TRAV27	UniProtKB:A0A087WT01	T cell receptor alpha variable 27
+IGHV4-31	UniProtKB:P0DP07	Immunoglobulin heavy variable 4-31
+IGHV4-38-2	UniProtKB:P0DP08	Immunoglobulin heavy variable 4-38-2
+IGKV1-13	UniProtKB:P0DP09	Immunoglobulin kappa variable 1-13
+CTSL	UniProtKB:P07711	Procathepsin L
+HLA-DOB	UniProtKB:P13765	HLA class II histocompatibility antigen, DO beta chain
+HLA-DRB4	UniProtKB:P13762	HLA class II histocompatibility antigen, DR beta 4 chain
+TRAV35	UniProtKB:P0DPF4	T cell receptor alpha variable 35
+IL2	UniProtKB:P60568	Interleukin-2
+HLA-C	UniProtKB:P10321	HLA class I histocompatibility antigen, C alpha chain
+MAD2L2	UniProtKB:Q9UI95	Mitotic spindle assembly checkpoint protein MAD2B
+IL17RA	UniProtKB:Q96F46	Interleukin-17 receptor A
+TREM1	UniProtKB:Q9NP99	Triggering receptor expressed on myeloid cells 1
+C1R	UniProtKB:P00736	Complement C1r subcomponent
+SEMA4A	UniProtKB:Q9H3S1	Semaphorin-4A
+LIME1	UniProtKB:Q9H400	Lck-interacting transmembrane adapter 1
+CD8B	UniProtKB:P10966	T-cell surface glycoprotein CD8 beta chain
+HLA-G	UniProtKB:P17693	HLA class I histocompatibility antigen, alpha chain G
+CRTAM	UniProtKB:O95727	Cytotoxic and regulatory T-cell molecule
+LILRB4	UniProtKB:Q8NHJ6	Leukocyte immunoglobulin-like receptor subfamily B member 4
+TNFRSF11A	UniProtKB:Q9Y6Q6	Tumor necrosis factor receptor superfamily member 11A
+LILRB3	UniProtKB:O75022	Leukocyte immunoglobulin-like receptor subfamily B member 3
+MEF2C	UniProtKB:Q06413	Myocyte-specific enhancer factor 2C
+CLEC4M	UniProtKB:Q9H2X3	C-type lectin domain family 4 member M
+PRDM1	UniProtKB:O75626	PR domain zinc finger protein 1
+CD209	UniProtKB:Q9NNX6	CD209 antigen
+C8A	UniProtKB:P07357	Complement component C8 alpha chain
+TBX21	UniProtKB:Q9UL17	T-box transcription factor TBX21
+CD160	UniProtKB:O95971	CD160 antigen
+PIK3CD	UniProtKB:O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform
+HPRT1	UniProtKB:P00492	Hypoxanthine-guanine phosphoribosyltransferase
+MLH1	UniProtKB:P40692	DNA mismatch repair protein Mlh1
+CD247	UniProtKB:P20963	T-cell surface glycoprotein CD3 zeta chain
+CD247	UniProtKB:P20963	T-cell surface glycoprotein CD3 zeta chain
+BTK	UniProtKB:Q06187	Tyrosine-protein kinase BTK
+BTK	UniProtKB:Q06187	Tyrosine-protein kinase BTK
+BTK	UniProtKB:Q06187	Tyrosine-protein kinase BTK
+C7	UniProtKB:P10643	Complement component C7
+SLAMF7	UniProtKB:Q9NQ25	SLAM family member 7
+CLEC4A	UniProtKB:Q9UMR7	C-type lectin domain family 4 member A
+TNFSF13B	UniProtKB:Q9Y275	Tumor necrosis factor ligand superfamily member 13B
+RAB27A	UniProtKB:P51159	Ras-related protein Rab-27A
+GZMM	UniProtKB:P51124	Granzyme M
+HLA-E	UniProtKB:P13747	HLA class I histocompatibility antigen, alpha chain E
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+CD3E	UniProtKB:P07766	T-cell surface glycoprotein CD3 epsilon chain
+SLA2	UniProtKB:Q9H6Q3	Src-like-adapter 2
+IGHD1-1	UniProtKB:P0DOY5	Immunoglobulin heavy diversity 1-1
+IGLC3	UniProtKB:P0DOY3	Immunoglobulin lambda constant 3
+IGLC3	UniProtKB:P0DOY3	Immunoglobulin lambda constant 3
+IGLC2	UniProtKB:P0DOY2	Immunoglobulin lambda constant 2
+IGHV4-30-4	UniProtKB:P0DP06	Immunoglobulin heavy variable 4-30-4
+IGHV3-43D	UniProtKB:P0DP04	Immunoglobulin heavy variable 3-43D
+IGHV3-30-5	UniProtKB:P0DP03	Immunoglobulin heavy variable 3-30-5
+IGHV3-30-3	UniProtKB:P0DP02	Immunoglobulin heavy variable 3-30-3
+IGHV1-8	UniProtKB:P0DP01	Immunoglobulin heavy variable 1-8
+TRDC	UniProtKB:B7Z8K6	T cell receptor delta constant
+BCL6	UniProtKB:P41182	B-cell lymphoma 6 protein
+BCL6	UniProtKB:P41182	B-cell lymphoma 6 protein
+NOD2	UniProtKB:Q9HC29	Nucleotide-binding oligomerization domain-containing protein 2
+IGLC7	UniProtKB:A0M8Q6	Immunoglobulin lambda constant 7
+IGLC7	UniProtKB:A0M8Q6	Immunoglobulin lambda constant 7
+IGKV2-29	UniProtKB:A2NJV5	Immunoglobulin kappa variable 2-29
+IGLV1-36	UniProtKB:A0A0B4J1U3	Immunoglobulin lambda variable 1-36
+TRAV41	UniProtKB:A0A0B4J266	T cell receptor alpha variable 41
+IGHV3-15	UniProtKB:A0A0B4J1V0	Immunoglobulin heavy variable 3-15
+IGHV3-21	UniProtKB:A0A0B4J1V1	Immunoglobulin heavy variable 3-21
+IGHV2-26	UniProtKB:A0A0B4J1V2	Immunoglobulin heavy variable 2-26
+TRAV25	UniProtKB:A0A0B4J276	T cell receptor alpha variable 25
+TRAV22	UniProtKB:A0A0B4J277	T cell receptor alpha variable 22
+TRGC2	UniProtKB:P03986	T cell receptor gamma constant 2
+TRBJ1-3	UniProtKB:A0A0J9YWP8	T cell receptor beta joining 1-3
+CD7	UniProtKB:P09564	T-cell antigen CD7
+SH2D1A	UniProtKB:O60880	SH2 domain-containing protein 1A
+LILRA6	UniProtKB:Q6PI73	Leukocyte immunoglobulin-like receptor subfamily A member 6
+CD40LG	UniProtKB:P29965	CD40 ligand
+C1QC	UniProtKB:P02747	Complement C1q subcomponent subunit C
+C1QC	UniProtKB:P02747	Complement C1q subcomponent subunit C
+FCMR	UniProtKB:O60667	Immunoglobulin mu Fc receptor
+TFE3	UniProtKB:P19532	Transcription factor E3
+TFEB	UniProtKB:P19484	Transcription factor EB
+HMHB1	UniProtKB:O97980	Minor histocompatibility protein HB-1
+IGHV1-38-4	UniProtKB:P0DTW3	Probable non-functional immunoglobulin heavy variable 1-38-4
+PAG1	UniProtKB:Q9NWQ8	Phosphoprotein associated with glycosphingolipid-enriched microdomains 1
+TRB	UniProtKB:P0DTU4	T cell receptor beta chain MC.7.G5
+TRA	UniProtKB:P0DTU3	T cell receptor alpha chain MC.7.G5
+HLA-DRB3	UniProtKB:P79483	HLA class II histocompatibility antigen, DR beta 3 chain
+RFTN1	UniProtKB:Q14699	Raftlin
+ICAM1	UniProtKB:P05362	Intercellular adhesion molecule 1
+IL13RA2	UniProtKB:Q14627	Interleukin-13 receptor subunit alpha-2
+TRBV5-5	UniProtKB:A0A597	T cell receptor beta variable 5-5
+CX3CR1	UniProtKB:P49238	CX3C chemokine receptor 1
+RORA	UniProtKB:P35398	Nuclear receptor ROR-alpha
+PHB1	UniProtKB:P35232	Prohibitin 1
+CR1L	UniProtKB:Q2VPA4	Complement component receptor 1-like protein
+TXK	UniProtKB:P42681	Tyrosine-protein kinase TXK
+TXK	UniProtKB:P42681	Tyrosine-protein kinase TXK
+TEC	UniProtKB:P42680	Tyrosine-protein kinase Tec
+STAT4	UniProtKB:Q14765	Signal transducer and activator of transcription 4
+LAT	UniProtKB:O43561	Linker for activation of T-cells family member 1
+CD46	UniProtKB:P15529	Membrane cofactor protein
+CD46	UniProtKB:P15529	Membrane cofactor protein
+CD46	UniProtKB:P15529	Membrane cofactor protein
+CD46	UniProtKB:P15529	Membrane cofactor protein
+GPR183	UniProtKB:P32249	G-protein coupled receptor 183
+TRBV10-2	UniProtKB:A0A0K0K1G8	T cell receptor beta variable 10-2
+TRBV10-3	UniProtKB:A0A0K0K1G6	T cell receptor beta variable 10-3
+TRBV7-7	UniProtKB:A0A0K0K1E9	T cell receptor beta variable 7-7
+TRBV6-1	UniProtKB:A0A0K0K1D8	T cell receptor beta variable 6-1
+TRBV27	UniProtKB:A0A0K0K1C4	T cell receptor beta variable 27
+TRBV11-1	UniProtKB:A0A0K0K1C0	T cell receptor beta variable 11-1
+TRBV30	UniProtKB:A0A0K0K1B3	T cell receptor beta variable 30
+TRBV6-5	UniProtKB:A0A0K0K1A5	T cell receptor beta variable 6-5
+TRBV10-1	UniProtKB:A0A0K0K1A3	T cell receptor beta variable 10-1
+CFI	UniProtKB:P05156	Complement factor I
+SERPING1	UniProtKB:P05155	Plasma protease C1 inhibitor
+CD19	UniProtKB:P15391	B-lymphocyte antigen CD19
+ARG1	UniProtKB:P05089	Arginase-1
+IFNA8	UniProtKB:P32881	Interferon alpha-8
+TRBV5-8	UniProtKB:A0A5A2	T cell receptor beta variable 5-8
+FCER1A	UniProtKB:P12319	High affinity immunoglobulin epsilon receptor subunit alpha
+FCER1A	UniProtKB:P12319	High affinity immunoglobulin epsilon receptor subunit alpha
+FCGR2A	UniProtKB:P12318	Low affinity immunoglobulin gamma Fc region receptor II-a
+IL9R	UniProtKB:Q01113	Interleukin-9 receptor
+FCGR1A	UniProtKB:P12314	High affinity immunoglobulin gamma Fc receptor I
+FCGR1A	UniProtKB:P12314	High affinity immunoglobulin gamma Fc receptor I
+TRBV13	UniProtKB:A0A0A6YYD4	T cell receptor beta variable 13
+A0AAG2TVE0	UniProtKB:A0AAG2TVE0	Ig-like domain-containing protein
+TRAV38-1	UniProtKB:A0A0B4J264	T cell receptor alpha variable 38-1
+PCYT1A	UniProtKB:P49585	Choline-phosphate cytidylyltransferase A
+hCG_2003024	UniProtKB:A0AAG2TV02	Ig-like domain-containing protein
+CD1C	UniProtKB:P29017	T-cell surface glycoprotein CD1c
+CD1B	UniProtKB:P29016	T-cell surface glycoprotein CD1b
+IGKV1-12	UniProtKB:A0A0C4DH73	Immunoglobulin kappa variable 1-12
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+TRAF3IP2	UniProtKB:O43734	E3 ubiquitin ligase TRAF3IP2
+CD8B2	UniProtKB:A6NJW9	T-cell surface glycoprotein CD8 beta-2 chain
+IGHV1-69D	UniProtKB:A0A0B4J2H0	Immunoglobulin heavy variable 1-69D
+FCRLB	UniProtKB:Q6BAA4	Fc receptor-like B
+TRBV12-4	UniProtKB:A0A0B4J2E0	T cell receptor beta variable 12-4
+IGKV1D-13	UniProtKB:A0A0B4J2D9	Immunoglobulin kappa variable 1D-13
+IGHV1OR15-9	UniProtKB:A0A0B4J2B8	Ig-like domain-containing protein
+IGHV2OR16-5	UniProtKB:A0A0B4J2B6	Ig-like domain-containing protein
+IGHV3OR16-9	UniProtKB:A0A0B4J2B5	Ig-like domain-containing protein
+IGHV3OR16-9	UniProtKB:A0A0B4J2B5	Ig-like domain-containing protein
+RIPK2	UniProtKB:O43353	Receptor-interacting serine/threonine-protein kinase 2
+IGKV1D-43	UniProtKB:A0A0B4J1Z2	Immunoglobulin kappa variable 1D-43
+IGHV3-72	UniProtKB:A0A0B4J1Y9	Immunoglobulin heavy variable 3-72
+IGLV9-49	UniProtKB:A0A0B4J1Y8	Immunoglobulin lambda variable 9-49
+IGHV3-43	UniProtKB:A0A0B4J1X8	Immunoglobulin heavy variable 3-43
+IGHV3-74	UniProtKB:A0A0B4J1X5	Immunoglobulin heavy variable 3-74
+TRAV40	UniProtKB:A0A0B4J280	T cell receptor alpha variable 40
+TRAV21	UniProtKB:A0A0B4J279	T cell receptor alpha variable 21
+IGHV7-81	UniProtKB:A0A0B4J1V7	Probable non-functional immunoglobulin heavy variable 7-81
+IGHV3-73	UniProtKB:A0A0B4J1V6	Immunoglobulin heavy variable 3-73
+TRAV17	UniProtKB:A0A0B4J275	T cell receptor alpha variable 17
+TRAV20	UniProtKB:A0A0B4J274	T cell receptor alpha variable 20
+TRAV34	UniProtKB:A0A0B4J273	T cell receptor alpha variable 34
+TRAV24	UniProtKB:A0A0B4J272	T cell receptor alpha variable 24
+TRAV12-3	UniProtKB:A0A0B4J271	T cell receptor alpha variable 12-3
+TRAV4	UniProtKB:A0A0B4J268	T cell receptor alpha variable 4
+IGHV6-1	UniProtKB:A0A0B4J1U7	Immunoglobulin heavy variable 6-1
+TRBV9	UniProtKB:A0A0B4J1U6	T cell receptor beta variable 9
+TRAV26-2	UniProtKB:A0A0B4J265	T cell receptor alpha variable 26-2
+TRGV5	UniProtKB:A0A0B4J1U4	T cell receptor gamma variable 5
+TRAV39	UniProtKB:A0A0B4J263	T cell receptor alpha variable 39
+TRAV8-6	UniProtKB:A0A0B4J262	T cell receptor alpha variable 8-6
+TRAV5	UniProtKB:A0A0B4J249	T cell receptor alpha variable 5
+TRAV1-1	UniProtKB:A0A0B4J248	T cell receptor alpha variable 1-1
+TRAV12-1	UniProtKB:A0A0B4J245	T cell receptor alpha variable 12-1
+TRAV3	UniProtKB:A0A0B4J244	T cell receptor alpha variable 3
+TRAV13-1	UniProtKB:A0A0B4J241	T cell receptor alpha variable 13-1
+TRAV10	UniProtKB:A0A0B4J240	T cell receptor alpha variable 10
+TRAV1-2	UniProtKB:A0A0B4J238	T cell receptor alpha variable 1-2
+TRAV8-2	UniProtKB:A0A0B4J237	T cell receptor alpha variable 8-2
+TRAV13-2	UniProtKB:A0A0B4J235	T cell receptor alpha variable 13-2
+TRAV2	UniProtKB:A0A0B4J234	T cell receptor alpha variable 2
+TRBJ2-3	UniProtKB:A0A0B4J200	T cell receptor beta joining 2-3
+PRKCB	UniProtKB:P05771	Protein kinase C beta type
+TRBJ2-1	UniProtKB:A0A0A0MTA7	T cell receptor beta joining 2-1
+TRBJ2-5	UniProtKB:A0A0A0MTA4	T cell receptor beta joining 2-5
+JAK3	UniProtKB:P52333	Tyrosine-protein kinase JAK3
+TRBJ2-2	UniProtKB:A0A0A0MT94	T cell receptor beta joining 2-2
+IGKJ1	UniProtKB:A0A0A0MT89	Immunoglobulin kappa joining 1
+TRBJ2-4	UniProtKB:A0A0A0MT87	T cell receptor beta joining 2-4
+STAT6	UniProtKB:P42226	Signal transducer and activator of transcription 6
+STAT6	UniProtKB:P42226	Signal transducer and activator of transcription 6
+IGLV5-52	UniProtKB:A0A0A0MRZ9	Immunoglobulin lambda variable 5-52
+IGKV3D-11	UniProtKB:A0A0A0MRZ8	Immunoglobulin kappa variable 3D-11
+IGKV2D-26	UniProtKB:A0A0A0MRZ7	Immunoglobulin kappa variable 2D-26
+ICOSLG	UniProtKB:O75144	ICOS ligand
+IGHV3-49	UniProtKB:A0A0A0MS15	Immunoglobulin heavy variable 3-49
+IGHV1-45	UniProtKB:A0A0A0MS14	Immunoglobulin heavy variable 1-45
+TRBV18	UniProtKB:A0A087X0M5	T cell receptor beta variable 18
+TRBV23-1	UniProtKB:A0A0A0MS06	Probable non-functional T cell receptor beta variable 23-1
+TRBV5-7	UniProtKB:A0A0A0MS05	Probable non-functional T cell receptor beta variable 5-7
+TRBV6-7	UniProtKB:A0A0A0MS04	Probable non-functional T cell receptor beta variable 6-7
+TRBV5-3	UniProtKB:A0A0A0MS03	Probable non-functional T cell receptor beta variable 5-3
+TRGV1	UniProtKB:A0A0A0MS02	Probable non-functional T cell receptor gamma variable
+TRGV10	UniProtKB:A0A0A0MS01	Probable non-functional T cell receptor gamma variable 10
+IGLV3-32	UniProtKB:A0A0A0MS00	Probable non-functional immunoglobulin lambda variable 3-32
+IGLL1	UniProtKB:P15814	Immunoglobulin lambda-like polypeptide 1
+CD1E	UniProtKB:P15812	T-cell surface glycoprotein CD1e, membrane-associated
+C4A	UniProtKB:P0C0L4	Complement C4-A
+HLA-DQB2	UniProtKB:P05538	HLA class II histocompatibility antigen, DQ beta 2 chain
+PTK2B	UniProtKB:Q14289	Protein-tyrosine kinase 2-beta
+ADGRE1	UniProtKB:Q14246	Adhesion G protein-coupled receptor E1
+EBI3	UniProtKB:Q14213	Interleukin-27 subunit beta
+TRDV3	UniProtKB:A0JD37	T cell receptor delta variable 3
+TRDV2	UniProtKB:A0JD36	T cell receptor delta variable 2
+TRAV38-2DV8	UniProtKB:A0JD32	T cell receptor alpha variable 38-2/delta variable 8
+IGLV7-43	UniProtKB:P04211	Immunoglobulin lambda variable 7-43
+TCIRG1	UniProtKB:Q13488	V-type proton ATPase 116 kDa subunit a 3
+IL18R1	UniProtKB:Q13478	Interleukin-18 receptor 1
+IL18R1	UniProtKB:Q13478	Interleukin-18 receptor 1
+CLEC4G	UniProtKB:Q6UXB4	C-type lectin domain family 4 member G
+BTNL8	UniProtKB:Q6UX41	Butyrophilin-like protein 8
+HLA-DRB5	UniProtKB:Q30154	HLA class II histocompatibility antigen, DR beta 5 chain
+ENTPD7	UniProtKB:Q9NQZ7	Ectonucleoside triphosphate diphosphohydrolase 7
+TLR8	UniProtKB:Q9NR97	Toll-like receptor 8
+EXOSC3	UniProtKB:Q9NQT5	Exosome complex component RRP40
+SIGLEC10	UniProtKB:Q96LC7	Sialic acid-binding Ig-like lectin 10
+TNFSF18	UniProtKB:Q9UNG2	Tumor necrosis factor ligand superfamily member 18
+B2M	UniProtKB:P61769	Beta-2-microglobulin
+CSK	UniProtKB:P41240	Tyrosine-protein kinase CSK
+IGKV1-37	UniProtKB:A0A075B6S9	Probable non-functional immunoglobulinn kappa variable 1-37
+SKAP1	UniProtKB:Q86WV1	Src kinase-associated phosphoprotein 1
+IFNE	UniProtKB:Q86WN2	Interferon epsilon
+IGKV3D-15	UniProtKB:A0A087WSY6	Immunoglobulin kappa variable 3D-15
+IGHV8-51-1	UniProtKB:P0DTE2	Probable non-functional immunoglobulin heavy variable 8-51-1
+IGHV3-38-3	UniProtKB:P0DTE1	Probable non-functional immunoglobulin heavy variable 3-38-3
+ATAD5	UniProtKB:Q96QE3	ATPase family AAA domain-containing protein 5
+IGKV1D-37	UniProtKB:P0DSN7	Probable non-functional immunoglobulinn kappa variable 1D-37
+OTUD7B	UniProtKB:Q6GQQ9	OTU domain-containing protein 7B
+FCRL4	UniProtKB:Q96PJ5	Fc receptor-like protein 4
+ARG2	UniProtKB:P78540	Arginase-2, mitochondrial
+IL2RB	UniProtKB:P14784	Interleukin-2 receptor subunit beta
+LY9	UniProtKB:Q9HBG7	T-lymphocyte surface antigen Ly-9
+JAG1	UniProtKB:P78504	Protein jagged-1
+TAP2	UniProtKB:Q03519	Antigen peptide transporter 2
+TAP1	UniProtKB:Q03518	Antigen peptide transporter 1
+ALCAM	UniProtKB:Q13740	CD166 antigen
+HLA-DPB1	UniProtKB:P04440	HLA class II histocompatibility antigen, DP beta 1 chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+HLA-A	UniProtKB:P04439	HLA class I histocompatibility antigen, A alpha chain
+TRAV29DV5	UniProtKB:P04437	T cell receptor alpha variable 29/delta variable 5
+TRBV7-9	UniProtKB:P04435	T cell receptor beta variable 7-9
+IGKV3-11	UniProtKB:P04433	Immunoglobulin kappa variable 3-11
+IGKV1-16	UniProtKB:P04430	Immunoglobulin kappa variable 1-16
+BTN3A2	UniProtKB:P78410	Butyrophilin subfamily 3 member A2
+C4BPA	UniProtKB:P04003	C4b-binding protein alpha chain
+C4BPA	UniProtKB:P04003	C4b-binding protein alpha chain
+ERAP1	UniProtKB:Q9NZ08	Endoplasmic reticulum aminopeptidase 1
+LAIR1	UniProtKB:Q6GTX8	Leukocyte-associated immunoglobulin-like receptor 1
+PRF1	UniProtKB:P14222	Perforin-1
+PRF1	UniProtKB:P14222	Perforin-1
+SLAMF1	UniProtKB:Q13291	Signaling lymphocytic activation molecule
+KLRD1	UniProtKB:Q13241	Natural killer cells antigen CD94
+EXO1	UniProtKB:Q9UQ84	Exonuclease 1
+EXO1	UniProtKB:Q9UQ84	Exonuclease 1
+TRDD1	UniProtKB:P0DPR3	T cell receptor delta diversity 1
+TRBD1	UniProtKB:P0DPI4	T cell receptor beta diversity 1
+SANBR	UniProtKB:Q6NSI8	SANT and BTB domain regulator of class switch recombination
+SANBR	UniProtKB:Q6NSI8	SANT and BTB domain regulator of class switch recombination
+CD274	UniProtKB:Q9NZQ7	Programmed cell death 1 ligand 1
+C1RL	UniProtKB:Q9NZP8	Complement C1r subcomponent-like protein
+ANXA1	UniProtKB:P04083	Annexin A1
+DCLRE1C	UniProtKB:Q96SD1	Protein artemis
+CD81	UniProtKB:P60033	CD81 antigen
+IL4I1	UniProtKB:Q96RQ9	L-amino-acid oxidase
+LAT2	UniProtKB:Q9GZY6	Linker for activation of T-cells family member 2
+AICDA	UniProtKB:Q9GZX7	Single-stranded DNA cytosine deaminase
+MCOLN1	UniProtKB:Q9GZU1	Mucolipin-1
+CD79A	UniProtKB:P11912	B-cell antigen receptor complex-associated protein alpha chain
+LAG3	UniProtKB:P18627	Lymphocyte activation gene 3 protein
+IGLV1-44	UniProtKB:P01699	Immunoglobulin lambda variable 1-44
+BTLA	UniProtKB:Q7Z6A9	B- and T-lymphocyte attenuator
+IGKV3-15	UniProtKB:P01624	Immunoglobulin kappa variable 3-15
+IGKV3-20	UniProtKB:P01619	Immunoglobulin kappa variable 3-20
+IGKV2D-28	UniProtKB:P01615	Immunoglobulin kappa variable 2D-28
+IGKV2D-40	UniProtKB:P01614	Immunoglobulin kappa variable 2D-40
+IGKV1D-12	UniProtKB:P01611	Immunoglobulin kappa variable 1D-12
+IGKV1-5	UniProtKB:P01602	Immunoglobulin kappa variable 1-5
+IGKV1D-16	UniProtKB:P01601	Immunoglobulin kappa variable 1D-16
+NFKB2	UniProtKB:Q00653	Nuclear factor NF-kappa-B p100 subunit
+FBXO38	UniProtKB:Q6PIJ6	F-box only protein 38
+IGKV1-17	UniProtKB:P01599	Immunoglobulin kappa variable 1-17
+IGKV1-39	UniProtKB:P01597	Immunoglobulin kappa variable 1-39
+IGKV1-33	UniProtKB:P01594	Immunoglobulin kappa variable 1-33
+IGKV1D-33	UniProtKB:P01593	Immunoglobulin kappa variable 1D-33
+JCHAIN	UniProtKB:P01591	Immunoglobulin J chain
+IFNG	UniProtKB:P01579	Interferon gamma
+IFNB1	UniProtKB:P01574	Interferon beta
+IFNA17	UniProtKB:P01571	Interferon alpha-17
+IFNA14	UniProtKB:P01570	Interferon alpha-14
+IFNA5	UniProtKB:P01569	Interferon alpha-5
+IFNA21	UniProtKB:P01568	Interferon alpha-21
+IFNA7	UniProtKB:P01567	Interferon alpha-7
+IFNA10	UniProtKB:P01566	Interferon alpha-10
+IFNA2	UniProtKB:P01563	Interferon alpha-2
+IFNA1	UniProtKB:P01562	Interferon alpha-1/13
+TRAJ42	UniProtKB:A0A075B6Y9	T cell receptor alpha joining 42
+TRAJ3	UniProtKB:A0A075B6Y3	T cell receptor alpha joining 3
+TRAV18	UniProtKB:A0A075B6X5	T cell receptor alpha variable 18
+TRAV23DV6	UniProtKB:A0A075B6W5	T cell receptor alpha variable 23/delta variable 6
+EIF2AK4	UniProtKB:Q9P2K8	eIF-2-alpha kinase GCN2
+TRAV36DV7	UniProtKB:A0A075B6V5	T cell receptor alpha variable 36/delta variable 7
+TRAV8-7	UniProtKB:A0A075B6U6	Ig-like domain-containing protein
+TRAV7	UniProtKB:A0A075B6U4	T cell receptor alpha variable 7
+FGA	UniProtKB:P02671	Fibrinogen alpha chain
+TRAV9-1	UniProtKB:A0A075B6T8	T cell receptor alpha variable 9-1
+TRAV6	UniProtKB:A0A075B6T7	T cell receptor alpha variable 6
+TRAV12-2	UniProtKB:A0A075B6T6	T cell receptor alpha variable 12-2
+IGKV2D-30	UniProtKB:A0A075B6S6	Immunoglobulin kappa variable 2D-30
+IGKV1-27	UniProtKB:A0A075B6S5	Immunoglobulin kappa variable 1-27
+IGKV1D-17	UniProtKB:A0A075B6S4	Immunoglobulin kappa variable 1D-17
+IGKV2D-29	UniProtKB:A0A075B6S2	Immunoglobulin kappa variable 2D-29
+TRGJ1	UniProtKB:A0A075B6S0	T cell receptor gamma joining 1
+IGKV2D-24	UniProtKB:A0A075B6R9	Probable non-functional immunoglobulin kappa variable 2D-24
+IGHV4-4	UniProtKB:A0A075B6R2	Immunoglobulin heavy variable 4-4
+TRGV2	UniProtKB:A0A075B6R0	T cell receptor gamma variable 2
+IGHV3-64	UniProtKB:A0A075B6Q5	Immunoglobulin heavy variable 3-64
+UNC13D	UniProtKB:Q70J99	Protein unc-13 homolog D
+IGKV2-28	UniProtKB:A0A075B6P5	Immunoglobulin kappa variable 2-28
+TRDJ1	UniProtKB:A0A075B706	T cell receptor delta joining 1
+TRAJ31	UniProtKB:A0A075B700	T cell receptor alpha joining 31
+TRBV25-1	UniProtKB:A0A075B6N4	T cell receptor beta variable 25-1
+TRBV24-1	UniProtKB:A0A075B6N3	T cell receptor beta variable 24-1
+TRBV20-1	UniProtKB:A0A075B6N2	T cell receptor beta variable 20-1
+TRBV19	UniProtKB:A0A075B6N1	T cell receptor beta variable 19
+TRBV7-3	UniProtKB:A0A075B6L6	Probable non-functional T cell receptor beta variable 7-3
+TRGV11	UniProtKB:A0A075B6L2	Probable non-functional T cell receptor gamma variable 11
+IGLV4-3	UniProtKB:A0A075B6K6	Immunoglobulin lambda variable 4-3
+IGLV3-9	UniProtKB:A0A075B6K5	Immunoglobulin lambda variable 3-9
+IGLV3-10	UniProtKB:A0A075B6K4	Immunoglobulin lambda variable 3-10
+IGLV3-12	UniProtKB:A0A075B6K2	Immunoglobulin lambda variable 3-12
+IGLV3-16	UniProtKB:A0A075B6K0	Immunoglobulin lambda variable 3-16
+IGLV2-18	UniProtKB:A0A075B6J9	Immunoglobulin lambda variable 2-18
+IGLV3-22	UniProtKB:A0A075B6J6	Immunoglobulin lambda variable 3-22
+IGLV2-33	UniProtKB:A0A075B6J2	Probable non-functional immunoglobulin lambda variable 2-33
+IGLV5-37	UniProtKB:A0A075B6J1	Immunoglobulin lambda variable 5-37
+IGLV7-46	UniProtKB:A0A075B6I9	Immunoglobulin lambda variable 7-46
+IGLV5-48	UniProtKB:A0A075B6I7	Probable non-functional immunoglobulin lambda variable 5-48
+IGLV1-50	UniProtKB:A0A075B6I6	Probable non-functional immunoglobulin lambda variable 1-50
+IGLV10-54	UniProtKB:A0A075B6I4	Immunoglobulin lambda variable 10-54
+IGLV11-55	UniProtKB:A0A075B6I3	Probable non-functional immunoglobulin lambda variable 11-55
+IGLV4-60	UniProtKB:A0A075B6I1	Immunoglobulin lambda variable 4-60
+IGLV8-61	UniProtKB:A0A075B6I0	Immunoglobulin lambda variable 8-61
+IGLV4-69	UniProtKB:A0A075B6H9	Immunoglobulin lambda variable 4-69
+IGKV1D-42	UniProtKB:A0A075B6H8	Probable non-functional immunoglobulin kappa variable 1D-42
+IGKV3-7	UniProtKB:A0A075B6H7	Probable non-functional immunoglobulin kappa variable 3-7
+HLA-B	UniProtKB:P01889	HLA class I histocompatibility antigen, B alpha chain
+IGHD	UniProtKB:P01880	Immunoglobulin heavy constant delta
+IGHD	UniProtKB:P01880	Immunoglobulin heavy constant delta
+IGHA2	UniProtKB:P01877	Immunoglobulin heavy constant alpha 2
+IGHA2	UniProtKB:P01877	Immunoglobulin heavy constant alpha 2
+IGHA1	UniProtKB:P01876	Immunoglobulin heavy constant alpha 1
+IGHA1	UniProtKB:P01876	Immunoglobulin heavy constant alpha 1
+IGHM	UniProtKB:P01871	Immunoglobulin heavy constant mu
+IGHM	UniProtKB:P01871	Immunoglobulin heavy constant mu
+IGHG4	UniProtKB:P01861	Immunoglobulin heavy constant gamma 4
+IGHG4	UniProtKB:P01861	Immunoglobulin heavy constant gamma 4
+IGHG3	UniProtKB:P01860	Immunoglobulin heavy constant gamma 3
+IGHG3	UniProtKB:P01860	Immunoglobulin heavy constant gamma 3
+IGHG2	UniProtKB:P01859	Immunoglobulin heavy constant gamma 2
+IGHG2	UniProtKB:P01859	Immunoglobulin heavy constant gamma 2
+IGHG1	UniProtKB:P01857	Immunoglobulin heavy constant gamma 1
+IGHG1	UniProtKB:P01857	Immunoglobulin heavy constant gamma 1
+IGHG1	UniProtKB:P01857	Immunoglobulin heavy constant gamma 1
+IGHG1	UniProtKB:P01857	Immunoglobulin heavy constant gamma 1
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+IGHE	UniProtKB:P01854	Immunoglobulin heavy constant epsilon
+TRBC1	UniProtKB:P01850	T cell receptor beta constant 1
+TRAC	UniProtKB:P01848	T cell receptor alpha chain constant
+IGKC	UniProtKB:P01834	Immunoglobulin kappa constant
+IGKC	UniProtKB:P01834	Immunoglobulin kappa constant
+IGKC	UniProtKB:P01834	Immunoglobulin kappa constant
+IGHV4-59	UniProtKB:P01825	Immunoglobulin heavy variable 4-59
+IGHV4-39	UniProtKB:P01824	Immunoglobulin heavy variable 4-39
+CRACR2A	UniProtKB:Q9BSW2	EF-hand calcium-binding domain-containing protein 4B
+CRACR2A	UniProtKB:Q9BSW2	EF-hand calcium-binding domain-containing protein 4B
+IGHV2-5	UniProtKB:P01817	Immunoglobulin heavy variable 2-5
+IGHV2-70	UniProtKB:P01814	Immunoglobulin heavy variable 2-70
+PSG9	UniProtKB:Q00887	Pregnancy-specific beta-1-glycoprotein 9
+C1QA	UniProtKB:P02745	Complement C1q subcomponent subunit A
+C1QA	UniProtKB:P02745	Complement C1q subcomponent subunit A
+C1QB	UniProtKB:P02746	Complement C1q subcomponent subunit B
+C1QB	UniProtKB:P02746	Complement C1q subcomponent subunit B
+C9	UniProtKB:P02748	Complement component C9
+VTCN1	UniProtKB:Q7Z7D3	V-set domain-containing T-cell activation inhibitor 1
+IGHV3-9	UniProtKB:P01782	Immunoglobulin heavy variable 3-9
+IGHV3-7	UniProtKB:P01780	Immunoglobulin heavy variable 3-7
+P2RX7	UniProtKB:Q99572	P2X purinoceptor 7
+CLEC4C	UniProtKB:Q8WTT0	C-type lectin domain family 4 member C
+BMX	UniProtKB:P51813	Cytoplasmic tyrosine-protein kinase BMX
+IGHV1-69-2	UniProtKB:A0A0G2JMI3	Immunoglobulin heavy variable 1-69-2
+FCGR2C	UniProtKB:P31995	Low affinity immunoglobulin gamma Fc region receptor II-c
+FCGR2B	UniProtKB:P31994	Low affinity immunoglobulin gamma Fc region receptor II-b
+FCGR2B	UniProtKB:P31994	Low affinity immunoglobulin gamma Fc region receptor II-b
+A0AAG2SXZ4	UniProtKB:A0AAG2SXZ4	Ig-like domain-containing protein
+TGFB1	UniProtKB:P01137	Transforming growth factor beta-1 proprotein
+HRAS	UniProtKB:P01112	GTPase HRas
+A0A0G2JRQ6	UniProtKB:A0A0G2JRQ6	Ig-like domain-containing protein
+IGLV5-39	UniProtKB:A0A0G2JS06	Immunoglobulin lambda variable 5-39
+MBL2	UniProtKB:P11226	Mannose-binding protein C
+A0AAG2SVT6	UniProtKB:A0AAG2SVT6	Ig-like domain-containing protein
+EXOSC6	UniProtKB:Q5RKV6	Exosome complex component MTR3
+HLA-DMA	UniProtKB:P28067	HLA class II histocompatibility antigen, DM alpha chain
+PPP3CB	UniProtKB:P16298	Serine/threonine-protein phosphatase 2B catalytic subunit beta isoform
+IGKV1-9	UniProtKB:A0A0C4DH69	Immunoglobulin kappa variable 1-9
+IGKV2-24	UniProtKB:A0A0C4DH68	Immunoglobulin kappa variable 2-24
+IGHJ1	UniProtKB:A0A0C4DH62	Immunoglobulin heavy joining 1
+TRBV5-4	UniProtKB:A0A0C4DH59	T cell receptor beta variable 5-4
+IGKV3D-7	UniProtKB:A0A0C4DH55	Immunoglobulin kappa variable 3D-7
+A0A8V8TLY5	UniProtKB:A0A8V8TLY5	Ig-like domain-containing protein
+CD55	UniProtKB:P08174	Complement decay-accelerating factor
+TRBV6-3	UniProtKB:P0DPF7	T cell receptor beta variable 6-3
+TRBV6-2	UniProtKB:A0A0J9YXY3	T cell receptor beta variable 6-2
+IL6R	UniProtKB:P08887	Interleukin-6 receptor subunit alpha
+IL6R	UniProtKB:P08887	Interleukin-6 receptor subunit alpha
+A0A0J9YY99	UniProtKB:A0A0J9YY99	Ig-like domain-containing protein
+IGHV5-10-1	UniProtKB:A0A0J9YXX1	Immunoglobulin heavy variable 5-10-1
+TRBJ1-5	UniProtKB:A0A0J9YXM7	T cell receptor beta joining 1-5
+TRBJ1-4	UniProtKB:A0A0J9YXG5	T cell receptor beta joining 1-4
+TRBJ1-1	UniProtKB:A0A0J9YXA8	T cell receptor beta joining 1-1
+TRBJ1-6	UniProtKB:A0A0J9YWX3	T cell receptor beta joining 1-6
+TRBV6-9	UniProtKB:A0A0J9YX75	T cell receptor beta variable 6-9
+A0A0J9YWU9	UniProtKB:A0A0J9YWU9	Ig-like domain-containing protein
+IGHV3-64D	UniProtKB:A0A0J9YX35	Immunoglobulin heavy variable 3-64D
+TRBJ1-2	UniProtKB:A0A0J9YX06	T cell receptor beta joining 1-2
+IGHV3OR16-8	UniProtKB:A0A075B7F1	Ig-like domain-containing protein
+IGHV3OR16-10	UniProtKB:A0A075B7F0	Ig-like domain-containing protein
+IGHV3OR16-13	UniProtKB:A0A075B7E8	Ig-like domain-containing protein
+IGHV7-4-1	UniProtKB:A0A0J9YVY3	Immunoglobulin heavy variable 7-4-1
+IGHV3OR15-7	UniProtKB:A0A075B7D8	Ig-like domain-containing protein
+IGHV1OR15-1	UniProtKB:A0A075B7D0	Ig-like domain-containing protein
+IGHV3OR16-12	UniProtKB:A0A075B7B8	Immunoglobulin V-set domain-containing protein
+IGHV4OR15-8	UniProtKB:A0A075B7B6	Ig-like domain-containing protein
+HLA-DQB1	UniProtKB:P01920	HLA class II histocompatibility antigen, DQ beta 1 chain
+A0A0J9YW62	UniProtKB:A0A0J9YW62	Immunoglobulin V-set domain-containing protein
+HLA-DQA1	UniProtKB:P01909	HLA class II histocompatibility antigen, DQ alpha 1 chain
+HLA-DQA2	UniProtKB:P01906	HLA class II histocompatibility antigen, DQ alpha 2 chain
+HLA-DRA	UniProtKB:P01903	HLA class II histocompatibility antigen, DR alpha chain
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+FCGR3A	UniProtKB:P08637	Low affinity immunoglobulin gamma Fc region receptor III-A
+RNF8	UniProtKB:O76064	E3 ubiquitin-protein ligase RNF8
+PIK3CG	UniProtKB:P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+C5	UniProtKB:P01031	Complement C5
+C3	UniProtKB:P01024	Complement C3
+IGHV3-33	UniProtKB:P01772	Immunoglobulin heavy variable 3-33
+IGHV3-30	UniProtKB:P01768	Immunoglobulin heavy variable 3-30
+IGHV3-53	UniProtKB:P01767	Immunoglobulin heavy variable 3-53
+IGHV3-13	UniProtKB:P01766	Immunoglobulin heavy variable 3-13
+IGHV3-23	UniProtKB:P01764	Immunoglobulin heavy variable 3-23
+IGHV3-48	UniProtKB:P01763	Immunoglobulin heavy variable 3-48
+IGHV3-11	UniProtKB:P01762	Immunoglobulin heavy variable 3-11
+IGHV1-46	UniProtKB:P01743	Immunoglobulin heavy variable 1-46
+IGHV1-69	UniProtKB:P01742	Immunoglobulin heavy variable 1-69
+IFNK	UniProtKB:Q9P0W0	Interferon kappa
+TRAV8-4	UniProtKB:P01737	T cell receptor alpha variable 8-4
+TRBV12-3	UniProtKB:P01733	T cell receptor beta variable 12-3
+CD8A	UniProtKB:P01732	T-cell surface glycoprotein CD8 alpha chain
+CD8A	UniProtKB:P01732	T-cell surface glycoprotein CD8 alpha chain
+CD8A	UniProtKB:P01732	T-cell surface glycoprotein CD8 alpha chain
+CD4	UniProtKB:P01730	T-cell surface glycoprotein CD4
+IGLV6-57	UniProtKB:P01721	Immunoglobulin lambda variable 6-57
+IGLV3-27	UniProtKB:P01718	Immunoglobulin lambda variable 3-27
+IGLV3-25	UniProtKB:P01717	Immunoglobulin lambda variable 3-25
+IGLV3-1	UniProtKB:P01715	Immunoglobulin lambda variable 3-1
+IGLV3-19	UniProtKB:P01714	Immunoglobulin lambda variable 3-19
+NBN	UniProtKB:O60934	Nibrin
+IGLV2-8	UniProtKB:P01709	Immunoglobulin lambda variable 2-8
+IGLV2-11	UniProtKB:P01706	Immunoglobulin lambda variable 2-11
+IGLV2-23	UniProtKB:P01705	Immunoglobulin lambda variable 2-23
+IGLV2-14	UniProtKB:P01704	Immunoglobulin lambda variable 2-14
+IGLV1-40	UniProtKB:P01703	Immunoglobulin lambda variable 1-40
+IGLV1-51	UniProtKB:P01701	Immunoglobulin lambda variable 1-51
+IGLV1-47	UniProtKB:P01700	Immunoglobulin lambda variable 1-47
+CXCL13	UniProtKB:O43927	C-X-C motif chemokine 13
+AIRE	UniProtKB:O43918	Autoimmune regulator
+AIRE	UniProtKB:O43918	Autoimmune regulator
+MSH6	UniProtKB:P52701	DNA mismatch repair protein Msh6
+IL18	UniProtKB:Q14116	Interleukin-18
+ERAP2	UniProtKB:Q6P179	Endoplasmic reticulum aminopeptidase 2
+MTOR	UniProtKB:P42345	Serine/threonine-protein kinase mTOR
+CD86	UniProtKB:P42081	T-lymphocyte activation antigen CD86
+HLX	UniProtKB:Q14774	H2.0-like homeobox protein
+CD40	UniProtKB:P25942	Tumor necrosis factor receptor superfamily member 5
+NOTCH1	UniProtKB:P46531	Neurogenic locus notch homolog protein 1
+C1QBP	UniProtKB:Q07021	Complement component 1 Q subcomponent-binding protein, mitochondrial
+ZP3	UniProtKB:P21754	Zona pellucida sperm-binding protein 3
+TRBJ2-7	UniProtKB:A0A0A0MT78	T cell receptor beta joining 2-7
+IGLJ1	UniProtKB:A0A0A0MT76	Immunoglobulin lambda joining 1
+TRBJ2-6	UniProtKB:A0A0A0MT70	T cell receptor beta joining 2-6
+RAP1GAP2	UniProtKB:Q684P5	Rap1 GTPase-activating protein 2
+C4B	UniProtKB:P0C0L5	Complement C4-B
+IGKV6D-21	UniProtKB:A0A0A0MT36	Immunoglobulin kappa variable 6D-21
+RAG1	UniProtKB:P15918	V(D)J recombination-activating protein 1
+HMGB1	UniProtKB:P09429	High mobility group protein B1
+CTSS	UniProtKB:P25774	Cathepsin S
+CLEC6A	UniProtKB:Q6EIG7	C-type lectin domain family 6 member A
+IL6	UniProtKB:P05231	Interleukin-6
+IL6	UniProtKB:P05231	Interleukin-6
+IGHV2-70D	UniProtKB:A0A0C4DH43	Immunoglobulin heavy variable 2-70D
+IGHV3-66	UniProtKB:A0A0C4DH42	Immunoglobulin heavy variable 3-66
+IGHV1-58	UniProtKB:A0A0C4DH39	Immunoglobulin heavy variable 1-58
+IGHV5-51	UniProtKB:A0A0C4DH38	Immunoglobulin heavy variable 5-51
+IGHV3-35	UniProtKB:A0A0C4DH35	Probable non-functional immunoglobulin heavy variable 3-35
+IGHV4-28	UniProtKB:A0A0C4DH34	Immunoglobulin heavy variable 4-28
+IGHV3-20	UniProtKB:A0A0C4DH32	Immunoglobulin heavy variable 3-20
+IGHV1-18	UniProtKB:A0A0C4DH31	Immunoglobulin heavy variable 1-18
+IGHV1-3	UniProtKB:A0A0C4DH29	Immunoglobulin heavy variable 1-3
+TRGV4	UniProtKB:A0A0C4DH28	T cell receptor gamma variable 4
+TRGV8	UniProtKB:A0A0C4DH27	T cell receptor gamma variable 8
+IGKV3D-20	UniProtKB:A0A0C4DH25	Immunoglobulin kappa variable 3D-20
+IGKV6-21	UniProtKB:A0A0C4DH24	Immunoglobulin kappa variable 6-21
+MYO1G	UniProtKB:B0I1T2	Unconventional myosin-Ig
+AKIRIN2	UniProtKB:Q53H80	Akirin-2
+A0AAG2TU05	UniProtKB:A0AAG2TU05	Ig-like domain-containing protein
+SUSD4	UniProtKB:Q5VX71	Sushi domain-containing protein 4
+IFNA16	UniProtKB:P05015	Interferon alpha-16
+IFNA4	UniProtKB:P05014	Interferon alpha-4
+IFNA6	UniProtKB:P05013	Interferon alpha-6
+IFNW1	UniProtKB:P05000	Interferon omega-1
+IL9	UniProtKB:P15248	Interleukin-9
+CAMK4	UniProtKB:Q16566	Calcium/calmodulin-dependent protein kinase type IV
+TNFRSF21	UniProtKB:O75509	Tumor necrosis factor receptor superfamily member 21
+TNFRSF21	UniProtKB:O75509	Tumor necrosis factor receptor superfamily member 21
+IL17A	UniProtKB:Q16552	Interleukin-17A
+CARD9	UniProtKB:Q9H257	Caspase recruitment domain-containing protein 9
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+BATF	UniProtKB:Q16520	Basic leucine zipper transcriptional factor ATF-like
+DBNL	UniProtKB:Q9UJU6	Drebrin-like protein
+LEF1	UniProtKB:Q9UJU2	Lymphoid enhancer-binding factor 1
+UNC93B1	UniProtKB:Q9H1C4	Protein unc-93 homolog B1
+BCL10	UniProtKB:O95999	B-cell lymphoma/leukemia 10
+BCL10	UniProtKB:O95999	B-cell lymphoma/leukemia 10
+BCL10	UniProtKB:O95999	B-cell lymphoma/leukemia 10
+BCL10	UniProtKB:O95999	B-cell lymphoma/leukemia 10
+IL18BP	UniProtKB:O95998	Interleukin-18-binding protein
+IL18BP	UniProtKB:O95998	Interleukin-18-binding protein
+C1S	UniProtKB:P09871	Complement C1s subcomponent
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+NFKBIZ	UniProtKB:Q9BYH8	NF-kappa-B inhibitor zeta
+ITK	UniProtKB:Q08881	Tyrosine-protein kinase ITK/TSK
+ITK	UniProtKB:Q08881	Tyrosine-protein kinase ITK/TSK
+FGL1	UniProtKB:Q08830	Fibrinogen-like protein 1
+CADM1	UniProtKB:Q9BY67	Cell adhesion molecule 1
+KDM5D	UniProtKB:Q9BY66	Lysine-specific demethylase 5D
+MPEG1	UniProtKB:Q2M385	Macrophage-expressed gene 1 protein
+JAM3	UniProtKB:Q9BX67	Junctional adhesion molecule C
+MARCHF8	UniProtKB:Q5T0T0	E3 ubiquitin-protein ligase MARCHF8
+SHLD3	UniProtKB:Q6ZNX1	Shieldin complex subunit 3
+PDCD1LG2	UniProtKB:Q9BQ51	Programmed cell death 1 ligand 2
+IL12B	UniProtKB:P29460	Interleukin-12 subunit beta
+LIG4	UniProtKB:P49917	DNA ligase 4
+CD70	UniProtKB:P32970	CD70 antigen
+CD70	UniProtKB:P32970	CD70 antigen
+CD70	UniProtKB:P32970	CD70 antigen
+CSF2RB	UniProtKB:P32927	Cytokine receptor common subunit beta
+RELB	UniProtKB:Q01201	Transcription factor RelB
+RNF19B	UniProtKB:Q6ZMZ0	E3 ubiquitin-protein ligase RNF19B
+TRBV2	UniProtKB:A0A1B0GX68	T cell receptor beta variable 2
+TRDV1	UniProtKB:A0A1B0GX56	T cell receptor delta variable 1
+TRBV7-8	UniProtKB:A0A1B0GX51	T cell receptor beta variable 7-8
+TRBV6-4	UniProtKB:A0A1B0GX49	T cell receptor beta variable 6-4
+TRBV7-6	UniProtKB:A0A1B0GX31	T cell receptor beta variable 7-6
+ADA	UniProtKB:P00813	Adenosine deaminase
+MICA	UniProtKB:Q29983	MHC class I polypeptide-related sequence A
+MICB	UniProtKB:Q29980	MHC class I polypeptide-related sequence B
+IGHV3OR16-17	UniProtKB:S4R3C0	Ig-like domain-containing protein
+FGB	UniProtKB:P02675	Fibrinogen beta chain
+JAK2	UniProtKB:O60674	Tyrosine-protein kinase JAK2
+TLR4	UniProtKB:O00206	Toll-like receptor 4
+ZNF683	UniProtKB:Q8IZ20	Tissue-resident T-cell transcription regulator protein ZNF683
+INPP5D	UniProtKB:Q92835	Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 1
+TRBV4-2	UniProtKB:A0A539	T cell receptor beta variable 4-2
+PRKD2	UniProtKB:Q9BZL6	Serine/threonine-protein kinase D2
+BACH2	UniProtKB:Q9BYV9	Transcription regulator protein BACH2
+CLEC4D	UniProtKB:Q8WXI8	C-type lectin domain family 4 member D
+IL17F	UniProtKB:Q96PD4	Interleukin-17F
+EMP2	UniProtKB:P54851	Epithelial membrane protein 2
+ERCC1	UniProtKB:P07992	DNA excision repair protein ERCC-1
+LYN	UniProtKB:P07948	Tyrosine-protein kinase Lyn
+LAMP3	UniProtKB:Q9UQV4	Lysosome-associated membrane glycoprotein 3
+OTUB1	UniProtKB:Q96FW1	Ubiquitin thioesterase OTUB1
+SIPA1	UniProtKB:Q96FS4	Signal-induced proliferation-associated protein 1
+CD84	UniProtKB:Q9UIB8	SLAM family member 5
+CD74	UniProtKB:P04233	HLA class II histocompatibility antigen gamma chain
+CD3D	UniProtKB:P04234	T-cell surface glycoprotein CD3 delta chain
+TREX1	UniProtKB:Q9NSU2	Three-prime repair exonuclease 1
+TREX1	UniProtKB:Q9NSU2	Three-prime repair exonuclease 1
+GATA3	UniProtKB:P23771	Trans-acting T-cell-specific transcription factor GATA-3
+GATA3	UniProtKB:P23771	Trans-acting T-cell-specific transcription factor GATA-3
+TNFRSF17	UniProtKB:Q02223	Tumor necrosis factor receptor superfamily member 17
+HSPD1	UniProtKB:P10809	60 kDa heat shock protein, mitochondrial
+CD3G	UniProtKB:P09693	T-cell surface glycoprotein CD3 gamma chain
+CD3G	UniProtKB:P09693	T-cell surface glycoprotein CD3 gamma chain
+CTSH	UniProtKB:P09668	Pro-cathepsin H
+CTSH	UniProtKB:P09668	Pro-cathepsin H
+TRAT1	UniProtKB:Q6PIZ9	T-cell receptor-associated transmembrane adapter 1
+SLAMF6	UniProtKB:Q96DU3	SLAM family member 6
+IGHV1OR21-1	UniProtKB:A0A087WYE8	Ig-like domain-containing protein
+FCER2	UniProtKB:P06734	Low affinity immunoglobulin epsilon Fc receptor
+ADAM17	UniProtKB:P78536	Disintegrin and metalloproteinase domain-containing protein 17
+C4BPB	UniProtKB:P20851	C4b-binding protein beta chain
