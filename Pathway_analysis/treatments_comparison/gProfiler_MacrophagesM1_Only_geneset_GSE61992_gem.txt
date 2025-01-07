@@ -1,0 +1,2 @@
+GO.ID	Description	p.Val	FDR	Phenotype	Genes
+MIRNA:hsa-miR-876-3p	hsa-miR-876-3p	0.047735160544924	0.047735160544924	+1	3

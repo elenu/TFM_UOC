@@ -1,0 +1,2 @@
+GO.ID	Description	p.Val	FDR	Phenotype	Genes
+CORUM:5107	p34(SEI-1)-CDK4-CyclinD2 complex	0.0499879862206434	0.0499879862206434	+1	1

@@ -1,0 +1,966 @@
+GO.ID	Description	p.Val	FDR	Phenotype	Genes
+CORUM:306	Ribosome, cytoplasmic	5.48989426546601e-12	5.48989426546601e-12	+1	34
+CORUM:308	60S ribosomal subunit, cytoplasmic	1.0249848641572e-06	1.0249848641572e-06	+1	20
+CORUM:3055	Nop56p-associated pre-rRNA complex	0.000319612570064765	0.000319612570064765	+1	27
+CORUM:305	40S ribosomal subunit, cytoplasmic	0.000335609012883352	0.000335609012883352	+1	14
+CORUM:338	40S ribosomal subunit, cytoplasmic	0.000878229771816952	0.000878229771816952	+1	13
+CORUM:5380	TRBP containing complex (DICER, RPL7A, EIF6, MOV10 and subunits of the 60S ribosomal particle)	0.00595821441252088	0.00595821441252088	+1	10
+GO:0002376	immune system process	2.31124408665451e-58	2.31124408665451e-58	+1	425
+GO:0006955	immune response	4.49368620415043e-55	4.49368620415043e-55	+1	338
+GO:0050776	regulation of immune response	1.14011041617544e-49	1.14011041617544e-49	+1	200
+GO:0002682	regulation of immune system process	1.00328401310754e-48	1.00328401310754e-48	+1	274
+GO:0045321	leukocyte activation	2.53198671805725e-43	2.53198671805725e-43	+1	198
+GO:0002684	positive regulation of immune system process	1.20722353441711e-42	1.20722353441711e-42	+1	210
+GO:0046649	lymphocyte activation	2.89622409970997e-41	2.89622409970997e-41	+1	174
+GO:0050778	positive regulation of immune response	1.12762213081932e-39	1.12762213081932e-39	+1	163
+GO:0001775	cell activation	1.4343216417136e-39	1.4343216417136e-39	+1	209
+GO:0044419	biological process involved in interspecies interaction between organisms	6.88677321518062e-38	6.88677321518062e-38	+1	275
+GO:0009607	response to biotic stimulus	1.22248419589963e-37	1.22248419589963e-37	+1	260
+GO:0051707	response to other organism	3.52637328651112e-37	3.52637328651112e-37	+1	255
+GO:0043207	response to external biotic stimulus	4.99227269095022e-37	4.99227269095022e-37	+1	255
+GO:0140546	defense response to symbiont	1.19863890499825e-36	1.19863890499825e-36	+1	206
+GO:0006952	defense response	1.45368110271075e-36	1.45368110271075e-36	+1	279
+GO:0098542	defense response to other organism	1.47971588763446e-35	1.47971588763446e-35	+1	216
+GO:0048583	regulation of response to stimulus	2.59210945645753e-35	2.59210945645753e-35	+1	475
+GO:0045087	innate immune response	1.28078771605612e-34	1.28078771605612e-34	+1	185
+GO:0042110	T cell activation	2.09731832136478e-34	2.09731832136478e-34	+1	133
+GO:0051249	regulation of lymphocyte activation	1.96866679930934e-30	1.96866679930934e-30	+1	119
+GO:0006950	response to stress	2.64261473715277e-30	2.64261473715277e-30	+1	453
+GO:0002694	regulation of leukocyte activation	4.77832851879611e-30	4.77832851879611e-30	+1	127
+GO:0050865	regulation of cell activation	3.67388587892537e-28	3.67388587892537e-28	+1	131
+GO:0009605	response to external stimulus	2.26132989564473e-27	2.26132989564473e-27	+1	345
+GO:0048584	positive regulation of response to stimulus	4.026444755837e-27	4.026444755837e-27	+1	303
+GO:0050863	regulation of T cell activation	3.25051379891834e-25	3.25051379891834e-25	+1	94
+GO:0002253	activation of immune response	4.06702906276352e-25	4.06702906276352e-25	+1	115
+GO:0002764	immune response-regulating signaling pathway	1.50263728244727e-24	1.50263728244727e-24	+1	109
+GO:0002831	regulation of response to biotic stimulus	3.54940611027793e-23	3.54940611027793e-23	+1	108
+GO:0030098	lymphocyte differentiation	4.14922740778567e-23	4.14922740778567e-23	+1	99
+GO:0002250	adaptive immune response	9.78277471468405e-23	9.78277471468405e-23	+1	136
+GO:0048518	positive regulation of biological process	1.28095752462679e-22	1.28095752462679e-22	+1	619
+GO:0002757	immune response-activating signaling pathway	1.8942224951081e-22	1.8942224951081e-22	+1	102
+GO:0002768	immune response-regulating cell surface receptor signaling pathway	2.66290461013385e-22	2.66290461013385e-22	+1	83
+GO:0030217	T cell differentiation	4.0034580192034e-22	4.0034580192034e-22	+1	80
+GO:1903037	regulation of leukocyte cell-cell adhesion	4.53306902255908e-22	4.53306902255908e-22	+1	88
+GO:0031347	regulation of defense response	4.6172693932127e-22	4.6172693932127e-22	+1	138
+GO:0002683	negative regulation of immune system process	6.07986955486007e-22	6.07986955486007e-22	+1	105
+GO:0002696	positive regulation of leukocyte activation	9.24060869560284e-22	9.24060869560284e-22	+1	86
+GO:0032101	regulation of response to external stimulus	1.18789832219375e-21	1.18789832219375e-21	+1	171
+GO:0002252	immune effector process	1.34949332310561e-21	1.34949332310561e-21	+1	129
+GO:1903131	mononuclear cell differentiation	1.35718104165786e-21	1.35718104165786e-21	+1	103
+GO:0080134	regulation of response to stress	1.37297151474761e-21	1.37297151474761e-21	+1	198
+GO:0007159	leukocyte cell-cell adhesion	2.48868920968949e-21	2.48868920968949e-21	+1	92
+GO:0001817	regulation of cytokine production	2.74254458104449e-21	2.74254458104449e-21	+1	137
+GO:0001816	cytokine production	5.8730160054565e-21	5.8730160054565e-21	+1	137
+GO:0002429	immune response-activating cell surface receptor signaling pathway	5.90428108426706e-21	5.90428108426706e-21	+1	77
+GO:0002521	leukocyte differentiation	9.72027162334702e-21	9.72027162334702e-21	+1	119
+GO:0045088	regulation of innate immune response	2.3316641111843e-20	2.3316641111843e-20	+1	92
+GO:0050867	positive regulation of cell activation	2.88011642261733e-20	2.88011642261733e-20	+1	86
+GO:0050896	response to stimulus	3.12831747374579e-20	3.12831747374579e-20	+1	810
+GO:0051251	positive regulation of lymphocyte activation	5.26183531194344e-20	5.26183531194344e-20	+1	79
+GO:0001909	leukocyte mediated cytotoxicity	5.79707487403126e-20	5.79707487403126e-20	+1	49
+GO:1903039	positive regulation of leukocyte cell-cell adhesion	4.93002896482762e-19	4.93002896482762e-19	+1	70
+GO:0046651	lymphocyte proliferation	9.3248770755695e-19	9.3248770755695e-19	+1	75
+GO:0050870	positive regulation of T cell activation	1.33447002012458e-18	1.33447002012458e-18	+1	66
+GO:1901564	organonitrogen compound metabolic process	3.19719797487182e-18	3.19719797487182e-18	+1	581
+GO:0032943	mononuclear cell proliferation	3.95980016201012e-18	3.95980016201012e-18	+1	75
+GO:0042098	T cell proliferation	7.24022681082956e-18	7.24022681082956e-18	+1	60
+GO:0048522	positive regulation of cellular process	1.13777430087389e-17	1.13777430087389e-17	+1	558
+GO:0001906	cell killing	1.56456499549452e-17	1.56456499549452e-17	+1	60
+GO:0019538	protein metabolic process	3.88773001182034e-17	3.88773001182034e-17	+1	493
+GO:0030097	hemopoiesis	7.2517431622854e-17	7.2517431622854e-17	+1	148
+GO:0046631	alpha-beta T cell activation	7.64895858010442e-17	7.64895858010442e-17	+1	53
+GO:0002449	lymphocyte mediated immunity	8.45285007335678e-17	8.45285007335678e-17	+1	79
+GO:0022407	regulation of cell-cell adhesion	1.69525374979565e-16	1.69525374979565e-16	+1	93
+GO:0070661	leukocyte proliferation	2.19155036056852e-16	2.19155036056852e-16	+1	77
+GO:0032103	positive regulation of response to external stimulus	2.98535559465966e-16	2.98535559465966e-16	+1	108
+GO:0001819	positive regulation of cytokine production	3.37298978031726e-16	3.37298978031726e-16	+1	94
+GO:0050670	regulation of lymphocyte proliferation	3.81457118648147e-16	3.81457118648147e-16	+1	61
+GO:0050851	antigen receptor-mediated signaling pathway	4.67926147655702e-16	4.67926147655702e-16	+1	54
+GO:0002443	leukocyte mediated immunity	5.37804236483924e-16	5.37804236483924e-16	+1	90
+GO:0022409	positive regulation of cell-cell adhesion	5.39441098894682e-16	5.39441098894682e-16	+1	72
+GO:0032944	regulation of mononuclear cell proliferation	9.39659350573137e-16	9.39659350573137e-16	+1	61
+GO:0002460	adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	9.51904899131841e-16	9.51904899131841e-16	+1	79
+GO:0002697	regulation of immune effector process	1.56991040063233e-15	1.56991040063233e-15	+1	79
+GO:0045619	regulation of lymphocyte differentiation	4.09552013358213e-15	4.09552013358213e-15	+1	56
+GO:0050777	negative regulation of immune response	6.26470218094061e-15	6.26470218094061e-15	+1	52
+GO:0050852	T cell receptor signaling pathway	6.59586835235642e-15	6.59586835235642e-15	+1	44
+GO:0010604	positive regulation of macromolecule metabolic process	8.75677540212034e-15	8.75677540212034e-15	+1	363
+GO:0070663	regulation of leukocyte proliferation	9.11272297765748e-15	9.11272297765748e-15	+1	63
+GO:0051607	defense response to virus	1.16685023587839e-14	1.16685023587839e-14	+1	69
+GO:0045824	negative regulation of innate immune response	3.73504681789364e-14	3.73504681789364e-14	+1	33
+GO:0009893	positive regulation of metabolic process	4.47148457456458e-14	4.47148457456458e-14	+1	384
+GO:0009966	regulation of signal transduction	4.59152302890003e-14	4.59152302890003e-14	+1	326
+GO:0035556	intracellular signal transduction	4.64604786489355e-14	4.64604786489355e-14	+1	297
+GO:0034097	response to cytokine	8.22646794050553e-14	8.22646794050553e-14	+1	137
+GO:0050789	regulation of biological process	8.22683141586608e-14	8.22683141586608e-14	+1	1008
+GO:0031349	positive regulation of defense response	9.23987705423287e-14	9.23987705423287e-14	+1	87
+GO:0051171	regulation of nitrogen compound metabolic process	1.05964701420696e-13	1.05964701420696e-13	+1	519
+GO:1902531	regulation of intracellular signal transduction	1.37548896123259e-13	1.37548896123259e-13	+1	216
+GO:0042129	regulation of T cell proliferation	1.55485437153007e-13	1.55485437153007e-13	+1	49
+GO:0065007	biological regulation	2.12132630732641e-13	2.12132630732641e-13	+1	1032
+GO:0002833	positive regulation of response to biotic stimulus	2.25625408041043e-13	2.25625408041043e-13	+1	74
+GO:0045089	positive regulation of innate immune response	2.29058088178596e-13	2.29058088178596e-13	+1	71
+GO:0050794	regulation of cellular process	3.96434436239152e-13	3.96434436239152e-13	+1	968
+GO:0044271	cellular nitrogen compound biosynthetic process	5.09056726821522e-13	5.09056726821522e-13	+1	469
+GO:0007166	cell surface receptor signaling pathway	5.56255285643103e-13	5.56255285643103e-13	+1	304
+GO:0051716	cellular response to stimulus	5.96715873972333e-13	5.96715873972333e-13	+1	662
+GO:0002181	cytoplasmic translation	1.13944378763364e-12	1.13944378763364e-12	+1	44
+GO:0002228	natural killer cell mediated immunity	1.33777806065798e-12	1.33777806065798e-12	+1	30
+GO:0009615	response to virus	1.38929871496588e-12	1.38929871496588e-12	+1	77
+GO:0050671	positive regulation of lymphocyte proliferation	1.41657814258629e-12	1.41657814258629e-12	+1	42
+GO:0032946	positive regulation of mononuclear cell proliferation	3.18971820314796e-12	3.18971820314796e-12	+1	42
+GO:0031341	regulation of cell killing	3.99978058901206e-12	3.99978058901206e-12	+1	35
+GO:0002819	regulation of adaptive immune response	4.0044802866941e-12	4.0044802866941e-12	+1	50
+GO:0060255	regulation of macromolecule metabolic process	4.74187246835205e-12	4.74187246835205e-12	+1	601
+GO:0002832	negative regulation of response to biotic stimulus	5.82147549305691e-12	5.82147549305691e-12	+1	36
+GO:0080090	regulation of primary metabolic process	6.31196478683491e-12	6.31196478683491e-12	+1	522
+GO:0046634	regulation of alpha-beta T cell activation	7.97685362263953e-12	7.97685362263953e-12	+1	36
+GO:0070665	positive regulation of leukocyte proliferation	8.54257938598309e-12	8.54257938598309e-12	+1	44
+GO:0001910	regulation of leukocyte mediated cytotoxicity	1.13477517145701e-11	1.13477517145701e-11	+1	32
+GO:0071345	cellular response to cytokine stimulus	1.13642147803561e-11	1.13642147803561e-11	+1	122
+GO:0042102	positive regulation of T cell proliferation	1.40925741788052e-11	1.40925741788052e-11	+1	34
+GO:1902105	regulation of leukocyte differentiation	1.43814983510946e-11	1.43814983510946e-11	+1	65
+GO:0032729	positive regulation of type II interferon production	1.79915229752121e-11	1.79915229752121e-11	+1	29
+GO:0045580	regulation of T cell differentiation	1.86581297344164e-11	1.86581297344164e-11	+1	46
+GO:0031325	positive regulation of cellular metabolic process	1.9238089325198e-11	1.9238089325198e-11	+1	343
+GO:0050854	regulation of antigen receptor-mediated signaling pathway	1.97275211566866e-11	1.97275211566866e-11	+1	27
+GO:0002706	regulation of lymphocyte mediated immunity	2.33115573970402e-11	2.33115573970402e-11	+1	46
+GO:0023051	regulation of signaling	2.38833643517709e-11	2.38833643517709e-11	+1	350
+GO:0032649	regulation of type II interferon production	2.70166972240332e-11	2.70166972240332e-11	+1	36
+GO:0019222	regulation of metabolic process	2.73899447939337e-11	2.73899447939337e-11	+1	636
+GO:0042267	natural killer cell mediated cytotoxicity	2.95834074908096e-11	2.95834074908096e-11	+1	28
+GO:0010646	regulation of cell communication	3.07606369455950e-11	3.07606369455950e-11	+1	350
+GO:0002456	T cell mediated immunity	3.4391163805289e-11	3.4391163805289e-11	+1	37
+GO:0002699	positive regulation of immune effector process	3.6238332145089e-11	3.6238332145089e-11	+1	55
+GO:0032609	type II interferon production	3.63007017534390e-11	3.63007017534390e-11	+1	36
+GO:0002703	regulation of leukocyte mediated immunity	4.03821093632239e-11	4.03821093632239e-11	+1	54
+GO:0141124	intracellular signaling cassette	4.16955410489647e-11	4.16955410489647e-11	+1	216
+GO:0030155	regulation of cell adhesion	5.54292092111453e-11	5.54292092111453e-11	+1	114
+GO:0019221	cytokine-mediated signaling pathway	8.3721316331981e-11	8.3721316331981e-11	+1	84
+GO:0010557	positive regulation of macromolecule biosynthetic process	1.26835294767653e-10	1.26835294767653e-10	+1	278
+GO:0007165	signal transduction	1.38206787527463e-10	1.38206787527463e-10	+1	543
+GO:0051239	regulation of multicellular organismal process	1.51057596188855e-10	1.51057596188855e-10	+1	307
+GO:0031328	positive regulation of cellular biosynthetic process	2.05309924689688e-10	2.05309924689688e-10	+1	284
+GO:0016032	viral process	2.817014940781e-10	2.817014940781e-10	+1	75
+GO:0009891	positive regulation of biosynthetic process	3.09358945892577e-10	3.09358945892577e-10	+1	285
+GO:0031343	positive regulation of cell killing	3.72344468441474e-10	3.72344468441474e-10	+1	27
+GO:0045785	positive regulation of cell adhesion	4.2369885563049e-10	4.2369885563049e-10	+1	80
+GO:1903706	regulation of hemopoiesis	6.35415054910003e-10	6.35415054910003e-10	+1	73
+GO:0002366	leukocyte activation involved in immune response	7.34207540284071e-10	7.34207540284071e-10	+1	59
+GO:0006954	inflammatory response	8.12354580593662e-10	8.12354580593662e-10	+1	116
+GO:0002263	cell activation involved in immune response	1.32866658824756e-09	1.32866658824756e-09	+1	59
+GO:0002822	regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	1.3328359154719e-09	1.3328359154719e-09	+1	44
+GO:0001912	positive regulation of leukocyte mediated cytotoxicity	1.5705233226085e-09	1.5705233226085e-09	+1	25
+GO:0034341	response to type II interferon	1.81105869236728e-09	1.81105869236728e-09	+1	38
+GO:0002705	positive regulation of leukocyte mediated immunity	1.81105869236728e-09	1.81105869236728e-09	+1	38
+GO:0051250	negative regulation of lymphocyte activation	1.87329497219624e-09	1.87329497219624e-09	+1	40
+GO:0043043	peptide biosynthetic process	2.44107636956867e-09	2.44107636956867e-09	+1	107
+GO:0006412	translation	2.6114827546961e-09	2.6114827546961e-09	+1	104
+GO:0050866	negative regulation of cell activation	4.23770220365852e-09	4.23770220365852e-09	+1	46
+GO:0002695	negative regulation of leukocyte activation	4.61945567021631e-09	4.61945567021631e-09	+1	43
+GO:0009617	response to bacterium	4.74386392060224e-09	4.74386392060224e-09	+1	103
+GO:0048519	negative regulation of biological process	5.15813033919482e-09	5.15813033919482e-09	+1	528
+GO:0042113	B cell activation	5.72066485852985e-09	5.72066485852985e-09	+1	55
+GO:0002708	positive regulation of lymphocyte mediated immunity	5.85501272865342e-09	5.85501272865342e-09	+1	34
+GO:0002715	regulation of natural killer cell mediated immunity	6.39449272123526e-09	6.39449272123526e-09	+1	21
+GO:0048585	negative regulation of response to stimulus	7.07868318406241e-09	7.07868318406241e-09	+1	189
+GO:0050868	negative regulation of T cell activation	7.51016866217201e-09	7.51016866217201e-09	+1	34
+GO:0009057	macromolecule catabolic process	8.34019720818327e-09	8.34019720818327e-09	+1	161
+GO:0006518	peptide metabolic process	9.1083603928609e-09	9.1083603928609e-09	+1	121
+GO:0001913	T cell mediated cytotoxicity	1.04150500426228e-08	1.04150500426228e-08	+1	22
+GO:0010628	positive regulation of gene expression	1.05865473907118e-08	1.05865473907118e-08	+1	147
+GO:0043604	amide biosynthetic process	1.54345413649171e-08	1.54345413649171e-08	+1	118
+GO:0023052	signaling	1.56717632973072e-08	1.56717632973072e-08	+1	568
+GO:0010033	response to organic substance	2.36795697623218e-08	2.36795697623218e-08	+1	271
+GO:0050856	regulation of T cell receptor signaling pathway	2.49095262172259e-08	2.49095262172259e-08	+1	20
+GO:0098609	cell-cell adhesion	2.54125763733923e-08	2.54125763733923e-08	+1	123
+GO:0002285	lymphocyte activation involved in immune response	2.76189012361552e-08	2.76189012361552e-08	+1	45
+GO:0007154	cell communication	4.39491375086201e-08	4.39491375086201e-08	+1	572
+GO:0031323	regulation of cellular metabolic process	6.53746782394641e-08	6.53746782394641e-08	+1	581
+GO:0048525	negative regulation of viral process	7.56201374897517e-08	7.56201374897517e-08	+1	28
+GO:0009056	catabolic process	7.58484786907569e-08	7.58484786907569e-08	+1	262
+GO:0045071	negative regulation of viral genome replication	9.17903899658246e-08	9.17903899658246e-08	+1	21
+GO:1903038	negative regulation of leukocyte cell-cell adhesion	9.66406973715673e-08	9.66406973715673e-08	+1	34
+GO:0042269	regulation of natural killer cell mediated cytotoxicity	9.69009715301233e-08	9.69009715301233e-08	+1	19
+GO:0030101	natural killer cell activation	9.97160243615181e-08	9.97160243615181e-08	+1	28
+GO:0043603	amide metabolic process	1.10396160494852e-07	1.10396160494852e-07	+1	144
+GO:0019058	viral life cycle	1.19565093261829e-07	1.19565093261829e-07	+1	57
+GO:1902533	positive regulation of intracellular signal transduction	1.23777893824183e-07	1.23777893824183e-07	+1	129
+GO:0051246	regulation of protein metabolic process	1.34173519416763e-07	1.34173519416763e-07	+1	223
+GO:0050864	regulation of B cell activation	1.86448108172858e-07	1.86448108172858e-07	+1	33
+GO:0035710	CD4-positive, alpha-beta T cell activation	2.25480930776799e-07	2.25480930776799e-07	+1	31
+GO:0046633	alpha-beta T cell proliferation	2.42127342285096e-07	2.42127342285096e-07	+1	19
+GO:0002709	regulation of T cell mediated immunity	4.25704445294971e-07	4.25704445294971e-07	+1	27
+GO:0051240	positive regulation of multicellular organismal process	4.59915783570503e-07	4.59915783570503e-07	+1	181
+GO:0002218	activation of innate immune response	4.78523412722329e-07	4.78523412722329e-07	+1	51
+GO:0002274	myeloid leukocyte activation	5.50377042520086e-07	5.50377042520086e-07	+1	46
+GO:0009967	positive regulation of signal transduction	5.7665343246672e-07	5.7665343246672e-07	+1	174
+GO:0031348	negative regulation of defense response	6.09156687147374e-07	6.09156687147374e-07	+1	47
+GO:0010556	regulation of macromolecule biosynthetic process	6.69909698442175e-07	6.69909698442175e-07	+1	499
+GO:0010468	regulation of gene expression	7.74890541483989e-07	7.74890541483989e-07	+1	489
+GO:0045621	positive regulation of lymphocyte differentiation	8.43234663075266e-07	8.43234663075266e-07	+1	32
+GO:0043412	macromolecule modification	8.61147397344584e-07	8.61147397344584e-07	+1	314
+GO:0046632	alpha-beta T cell differentiation	8.62043725179063e-07	8.62043725179063e-07	+1	31
+GO:0051173	positive regulation of nitrogen compound metabolic process	9.07991166079012e-07	9.07991166079012e-07	+1	293
+GO:0031326	regulation of cellular biosynthetic process	1.16674507466037e-06	1.16674507466037e-06	+1	507
+GO:0140888	interferon-mediated signaling pathway	1.27616802084482e-06	1.27616802084482e-06	+1	28
+GO:0002698	negative regulation of immune effector process	1.33940313848088e-06	1.33940313848088e-06	+1	30
+GO:0043368	positive T cell selection	1.45941887593428e-06	1.45941887593428e-06	+1	17
+GO:1901575	organic substance catabolic process	1.50110079929846e-06	1.50110079929846e-06	+1	216
+GO:0048523	negative regulation of cellular process	1.69824312649048e-06	1.69824312649048e-06	+1	488
+GO:0022408	negative regulation of cell-cell adhesion	1.78233873903481e-06	1.78233873903481e-06	+1	39
+GO:0071310	cellular response to organic substance	1.79787025840723e-06	1.79787025840723e-06	+1	207
+GO:2000514	regulation of CD4-positive, alpha-beta T cell activation	1.79804097188314e-06	1.79804097188314e-06	+1	23
+GO:0032479	regulation of type I interferon production	2.06029173695063e-06	2.06029173695063e-06	+1	30
+GO:0032606	type I interferon production	2.06029173695063e-06	2.06029173695063e-06	+1	30
+GO:0051172	negative regulation of nitrogen compound metabolic process	2.10020514494976e-06	2.10020514494976e-06	+1	226
+GO:0001914	regulation of T cell mediated cytotoxicity	2.15945553968892e-06	2.15945553968892e-06	+1	18
+GO:0002237	response to molecule of bacterial origin	2.32485331319416e-06	2.32485331319416e-06	+1	58
+GO:0009889	regulation of biosynthetic process	2.7626314009329e-06	2.7626314009329e-06	+1	507
+GO:0050858	negative regulation of antigen receptor-mediated signaling pathway	3.15376591693805e-06	3.15376591693805e-06	+1	15
+GO:0002717	positive regulation of natural killer cell mediated immunity	3.15376591693805e-06	3.15376591693805e-06	+1	15
+GO:0046635	positive regulation of alpha-beta T cell activation	3.36570096283773e-06	3.36570096283773e-06	+1	22
+GO:1901566	organonitrogen compound biosynthetic process	3.41749886160716e-06	3.41749886160716e-06	+1	188
+GO:0030163	protein catabolic process	3.73971951307416e-06	3.73971951307416e-06	+1	118
+GO:0045058	T cell selection	3.97738829756715e-06	3.97738829756715e-06	+1	19
+GO:0046640	regulation of alpha-beta T cell proliferation	5.40309515925452e-06	5.40309515925452e-06	+1	17
+GO:0051252	regulation of RNA metabolic process	5.54709730977279e-06	5.54709730977279e-06	+1	349
+GO:0032814	regulation of natural killer cell activation	5.64789394036038e-06	5.64789394036038e-06	+1	16
+GO:0002824	positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	6.04806282556975e-06	6.04806282556975e-06	+1	29
+GO:0065009	regulation of molecular function	6.48840457395883e-06	6.48840457395883e-06	+1	190
+GO:0048002	antigen processing and presentation of peptide antigen	8.49241025292842e-06	8.49241025292842e-06	+1	21
+GO:0002820	negative regulation of adaptive immune response	8.52520102944331e-06	8.52520102944331e-06	+1	20
+GO:0071219	cellular response to molecule of bacterial origin	8.56468839839993e-06	8.56468839839993e-06	+1	42
+GO:0032102	negative regulation of response to external stimulus	9.62675423220878e-06	9.62675423220878e-06	+1	62
+GO:0050792	regulation of viral process	1.18398782092442e-05	1.18398782092442e-05	+1	35
+GO:0071346	cellular response to type II interferon	1.35681638094512e-05	1.35681638094512e-05	+1	29
+GO:0032496	response to lipopolysaccharide	1.75357699584835e-05	1.75357699584835e-05	+1	54
+GO:0019219	regulation of nucleobase-containing compound metabolic process	1.95672530497045e-05	1.95672530497045e-05	+1	369
+GO:0002821	positive regulation of adaptive immune response	2.00239901117984e-05	2.00239901117984e-05	+1	29
+GO:0007155	cell adhesion	2.48945201191298e-05	2.48945201191298e-05	+1	163
+GO:0002758	innate immune response-activating signaling pathway	2.49602968769308e-05	2.49602968769308e-05	+1	45
+GO:0071216	cellular response to biotic stimulus	2.74096017842579e-05	2.74096017842579e-05	+1	44
+GO:0042116	macrophage activation	2.85984808315599e-05	2.85984808315599e-05	+1	26
+GO:0002704	negative regulation of leukocyte mediated immunity	2.87466257733063e-05	2.87466257733063e-05	+1	20
+GO:0002711	positive regulation of T cell mediated immunity	2.87466257733063e-05	2.87466257733063e-05	+1	20
+GO:0045954	positive regulation of natural killer cell mediated cytotoxicity	2.93105182631881e-05	2.93105182631881e-05	+1	13
+GO:0023056	positive regulation of signaling	3.34901720178756e-05	3.34901720178756e-05	+1	185
+GO:0070887	cellular response to chemical stimulus	3.66196277020747e-05	3.66196277020747e-05	+1	259
+GO:0012501	programmed cell death	3.68218807670041e-05	3.68218807670041e-05	+1	202
+GO:0002707	negative regulation of lymphocyte mediated immunity	3.97756647762364e-05	3.97756647762364e-05	+1	18
+GO:0060759	regulation of response to cytokine stimulus	4.21557133992492e-05	4.21557133992492e-05	+1	34
+GO:0033077	T cell differentiation in thymus	4.30482039757681e-05	4.30482039757681e-05	+1	23
+GO:0008219	cell death	4.31128530354347e-05	4.31128530354347e-05	+1	202
+GO:0034654	nucleobase-containing compound biosynthetic process	4.47610859971822e-05	4.47610859971822e-05	+1	364
+GO:0045582	positive regulation of T cell differentiation	6.10651682131665e-05	6.10651682131665e-05	+1	27
+GO:0006915	apoptotic process	6.24098047837203e-05	6.24098047837203e-05	+1	195
+GO:0046641	positive regulation of alpha-beta T cell proliferation	6.74160885527129e-05	6.74160885527129e-05	+1	12
+GO:0071222	cellular response to lipopolysaccharide	6.91857543472841e-05	6.91857543472841e-05	+1	39
+GO:0036211	protein modification process	7.4501084129073e-05	7.4501084129073e-05	+1	285
+GO:0002221	pattern recognition receptor signaling pathway	7.85042825127155e-05	7.85042825127155e-05	+1	42
+GO:0045577	regulation of B cell differentiation	8.39903829530301e-05	8.39903829530301e-05	+1	14
+GO:0043123	positive regulation of canonical NF-kappaB signal transduction	8.48153715050118e-05	8.48153715050118e-05	+1	38
+GO:0010647	positive regulation of cell communication	8.6030564989239e-05	8.6030564989239e-05	+1	183
+GO:0018130	heterocycle biosynthetic process	9.23034727951343e-05	9.23034727951343e-05	+1	368
+GO:0001959	regulation of cytokine-mediated signaling pathway	9.30909319050457e-05	9.30909319050457e-05	+1	32
+GO:0002260	lymphocyte homeostasis	9.84551498656801e-05	9.84551498656801e-05	+1	21
+GO:0030183	B cell differentiation	0.000108858523139	0.000108858523139	+1	32
+GO:0019079	viral genome replication	0.000116401532597767	0.000116401532597767	+1	28
+GO:0050860	negative regulation of T cell receptor signaling pathway	0.000117235666492567	0.000117235666492567	+1	12
+GO:0019438	aromatic compound biosynthetic process	0.000124645405554079	0.000124645405554079	+1	368
+GO:0001818	negative regulation of cytokine production	0.000125488833102182	0.000125488833102182	+1	47
+GO:0019884	antigen processing and presentation of exogenous antigen	0.000131897876146903	0.000131897876146903	+1	16
+GO:0045069	regulation of viral genome replication	0.000132637662007895	0.000132637662007895	+1	22
+GO:0045059	positive thymic T cell selection	0.00013280322360619	0.00013280322360619	+1	9
+GO:0007249	canonical NF-kappaB signal transduction	0.000132803276681006	0.000132803276681006	+1	49
+GO:0070231	T cell apoptotic process	0.000136660563585966	0.000136660563585966	+1	18
+GO:0051241	negative regulation of multicellular organismal process	0.000136688169028335	0.000136688169028335	+1	125
+GO:0002286	T cell activation involved in immune response	0.000155500683529505	0.000155500683529505	+1	27
+GO:0050790	regulation of catalytic activity	0.000156950288480776	0.000156950288480776	+1	135
+GO:2001141	regulation of RNA biosynthetic process	0.000158716144972068	0.000158716144972068	+1	317
+GO:0043122	regulation of canonical NF-kappaB signal transduction	0.000160819024601869	0.000160819024601869	+1	45
+GO:0019882	antigen processing and presentation	0.000171654367547231	0.000171654367547231	+1	26
+GO:1903708	positive regulation of hemopoiesis	0.000176534628172966	0.000176534628172966	+1	35
+GO:1902107	positive regulation of leukocyte differentiation	0.000176534628172966	0.000176534628172966	+1	35
+GO:0031295	T cell costimulation	0.000185070670520263	0.000185070670520263	+1	16
+GO:0032481	positive regulation of type I interferon production	0.000189568743231531	0.000189568743231531	+1	20
+GO:0007162	negative regulation of cell adhesion	0.000196736934731043	0.000196736934731043	+1	46
+GO:0043367	CD4-positive, alpha-beta T cell differentiation	0.000206273367508288	0.000206273367508288	+1	23
+GO:0051603	proteolysis involved in protein catabolic process	0.000208694022327562	0.000208694022327562	+1	90
+GO:0060338	regulation of type I interferon-mediated signaling pathway	0.000236677036770505	0.000236677036770505	+1	15
+GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	0.000238147933171924	0.000238147933171924	+1	31
+GO:1901565	organonitrogen compound catabolic process	0.000243426820013381	0.000243426820013381	+1	149
+GO:0071887	leukocyte apoptotic process	0.000248333421709678	0.000248333421709678	+1	26
+GO:0060337	type I interferon-mediated signaling pathway	0.000256447099855502	0.000256447099855502	+1	21
+GO:0070227	lymphocyte apoptotic process	0.000256447099855502	0.000256447099855502	+1	21
+GO:0034340	response to type I interferon	0.000259705325088148	0.000259705325088148	+1	22
+GO:0001911	negative regulation of leukocyte mediated cytotoxicity	0.00027155003057836	0.00027155003057836	+1	11
+GO:0002478	antigen processing and presentation of exogenous peptide antigen	0.000286922376705785	0.000286922376705785	+1	14
+GO:0071357	cellular response to type I interferon	0.000322245156026742	0.000322245156026742	+1	21
+GO:0031294	lymphocyte costimulation	0.000353631803935516	0.000353631803935516	+1	16
+GO:0050900	leukocyte migration	0.000355943292164935	0.000355943292164935	+1	57
+GO:0002520	immune system development	0.000366103804067826	0.000366103804067826	+1	36
+GO:0032774	RNA biosynthetic process	0.000413445548449703	0.000413445548449703	+1	325
+GO:1903557	positive regulation of tumor necrosis factor superfamily cytokine production	0.000434736387493571	0.000434736387493571	+1	24
+GO:0002440	production of molecular mediator of immune response	0.000442911923043196	0.000442911923043196	+1	38
+GO:0002823	negative regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	0.000460205280776594	0.000460205280776594	+1	17
+GO:0036037	CD8-positive, alpha-beta T cell activation	0.000517303756249859	0.000517303756249859	+1	12
+GO:1903900	regulation of viral life cycle	0.000528045326823449	0.000528045326823449	+1	29
+GO:0034612	response to tumor necrosis factor	0.00056637637182531	0.00056637637182531	+1	41
+GO:0002291	T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell	0.000602374772762306	0.000602374772762306	+1	7
+GO:2001185	regulation of CD8-positive, alpha-beta T cell activation	0.000612977164332035	0.000612977164332035	+1	10
+GO:0050727	regulation of inflammatory response	0.000742149635121499	0.000742149635121499	+1	54
+GO:0046637	regulation of alpha-beta T cell differentiation	0.000759725896522173	0.000759725896522173	+1	19
+GO:0032608	interferon-beta production	0.000800061300702634	0.000800061300702634	+1	17
+GO:0032648	regulation of interferon-beta production	0.000800061300702634	0.000800061300702634	+1	17
+GO:0006909	phagocytosis	0.000802324982011886	0.000802324982011886	+1	39
+GO:0008283	cell population proliferation	0.000814940789695474	0.000814940789695474	+1	197
+GO:0032760	positive regulation of tumor necrosis factor production	0.000836434375048459	0.000836434375048459	+1	23
+GO:0042127	regulation of cell population proliferation	0.000995508226527342	0.000995508226527342	+1	170
+GO:0002474	antigen processing and presentation of peptide antigen via MHC class I	0.00106675243439252	0.00106675243439252	+1	13
+GO:0060339	negative regulation of type I interferon-mediated signaling pathway	0.00109684175138826	0.00109684175138826	+1	10
+GO:0043370	regulation of CD4-positive, alpha-beta T cell differentiation	0.00116041995886453	0.00116041995886453	+1	16
+GO:0006355	regulation of DNA-templated transcription	0.00120032634287252	0.00120032634287252	+1	310
+GO:2000516	positive regulation of CD4-positive, alpha-beta T cell activation	0.00120347071168635	0.00120347071168635	+1	14
+GO:0002720	positive regulation of cytokine production involved in immune response	0.00120842864459823	0.00120842864459823	+1	20
+GO:0043029	T cell homeostasis	0.00122469311627495	0.00122469311627495	+1	15
+GO:0002507	tolerance induction	0.00123371771435704	0.00123371771435704	+1	12
+GO:0031342	negative regulation of cell killing	0.001275871958316	0.001275871958316	+1	11
+GO:0050857	positive regulation of antigen receptor-mediated signaling pathway	0.001275871958316	0.001275871958316	+1	11
+GO:1903555	regulation of tumor necrosis factor superfamily cytokine production	0.00133503180559452	0.00133503180559452	+1	31
+GO:0071706	tumor necrosis factor superfamily cytokine production	0.00133503180559452	0.00133503180559452	+1	31
+GO:0006793	phosphorus metabolic process	0.00144097972254687	0.00144097972254687	+1	243
+GO:0006796	phosphate-containing compound metabolic process	0.00145053491197826	0.00145053491197826	+1	241
+GO:0051254	positive regulation of RNA metabolic process	0.00150844088811467	0.00150844088811467	+1	183
+GO:0032607	interferon-alpha production	0.00184867921879416	0.00184867921879416	+1	12
+GO:0032647	regulation of interferon-alpha production	0.00184867921879416	0.00184867921879416	+1	12
+GO:0000165	MAPK cascade	0.00188232122305813	0.00188232122305813	+1	88
+GO:0006351	DNA-templated transcription	0.00200049953498052	0.00200049953498052	+1	318
+GO:1901362	organic cyclic compound biosynthetic process	0.00202104459180644	0.00202104459180644	+1	371
+GO:0042981	regulation of apoptotic process	0.00217051793306443	0.00217051793306443	+1	150
+GO:0016192	vesicle-mediated transport	0.00218385460438763	0.00218385460438763	+1	157
+GO:0001916	positive regulation of T cell mediated cytotoxicity	0.00219113234850536	0.00219113234850536	+1	13
+GO:0042088	T-helper 1 type immune response	0.00220785733155483	0.00220785733155483	+1	15
+GO:0002716	negative regulation of natural killer cell mediated immunity	0.00249460361892328	0.00249460361892328	+1	9
+GO:0043067	regulation of programmed cell death	0.00286493009342595	0.00286493009342595	+1	153
+GO:0042254	ribosome biogenesis	0.00289460802219708	0.00289460802219708	+1	47
+GO:0009892	negative regulation of metabolic process	0.0030279186624586	0.0030279186624586	+1	308
+GO:0002347	response to tumor cell	0.00307724806395862	0.00307724806395862	+1	13
+GO:0002710	negative regulation of T cell mediated immunity	0.00311288321839464	0.00311288321839464	+1	11
+GO:0045893	positive regulation of DNA-templated transcription	0.00328280476757327	0.00328280476757327	+1	169
+GO:0140895	cell surface toll-like receptor signaling pathway	0.00336991443626463	0.00336991443626463	+1	16
+GO:1902680	positive regulation of RNA biosynthetic process	0.00365761937023974	0.00365761937023974	+1	169
+GO:0042130	negative regulation of T cell proliferation	0.00365945197239127	0.00365945197239127	+1	18
+GO:0045935	positive regulation of nucleobase-containing compound metabolic process	0.00389315517216519	0.00389315517216519	+1	197
+GO:0051056	regulation of small GTPase mediated signal transduction	0.00394295113782592	0.00394295113782592	+1	45
+GO:0033554	cellular response to stress	0.0040675812938174	0.0040675812938174	+1	174
+GO:0050672	negative regulation of lymphocyte proliferation	0.00408535926698483	0.00408535926698483	+1	20
+GO:0045934	negative regulation of nucleobase-containing compound metabolic process	0.00413583024672539	0.00413583024672539	+1	159
+GO:0070228	regulation of lymphocyte apoptotic process	0.00432613885879935	0.00432613885879935	+1	16
+GO:0002702	positive regulation of production of molecular mediator of immune response	0.00464897346439232	0.00464897346439232	+1	26
+GO:0032945	negative regulation of mononuclear cell proliferation	0.00494347666765385	0.00494347666765385	+1	20
+GO:0002418	immune response to tumor cell	0.00502311958930737	0.00502311958930737	+1	10
+GO:0006213	pyrimidine nucleoside metabolic process	0.00502311958930737	0.00502311958930737	+1	10
+GO:0072678	T cell migration	0.00561463636529352	0.00561463636529352	+1	18
+GO:0070232	regulation of T cell apoptotic process	0.00585227539503315	0.00585227539503315	+1	13
+GO:0032680	regulation of tumor necrosis factor production	0.00658638179319814	0.00658638179319814	+1	29
+GO:0032640	tumor necrosis factor production	0.00658638179319814	0.00658638179319814	+1	29
+GO:0060284	regulation of cell development	0.00741644884743037	0.00741644884743037	+1	95
+GO:0032728	positive regulation of interferon-beta production	0.00793622232205065	0.00793622232205065	+1	13
+GO:0043068	positive regulation of programmed cell death	0.00892050049954011	0.00892050049954011	+1	66
+GO:0050730	regulation of peptidyl-tyrosine phosphorylation	0.0094027697607795	0.0094027697607795	+1	35
+GO:0002220	innate immune response activating cell surface receptor signaling pathway	0.00953037441598676	0.00953037441598676	+1	19
+GO:0034470	ncRNA processing	0.00953450754508705	0.00953450754508705	+1	57
+GO:0080135	regulation of cellular response to stress	0.00972259271927817	0.00972259271927817	+1	64
+GO:0018108	peptidyl-tyrosine phosphorylation	0.00974354463873808	0.00974354463873808	+1	39
+GO:0002685	regulation of leukocyte migration	0.010094363039089	0.010094363039089	+1	36
+GO:0019883	antigen processing and presentation of endogenous antigen	0.0100972671949195	0.0100972671949195	+1	11
+GO:0000028	ribosomal small subunit assembly	0.0102045693782874	0.0102045693782874	+1	8
+GO:0001960	negative regulation of cytokine-mediated signaling pathway	0.0103380655377335	0.0103380655377335	+1	18
+GO:0009968	negative regulation of signal transduction	0.0113328760789144	0.0113328760789144	+1	132
+GO:0050871	positive regulation of B cell activation	0.0114789030629979	0.0114789030629979	+1	19
+GO:0018212	peptidyl-tyrosine modification	0.0117719254344459	0.0117719254344459	+1	39
+GO:0032088	negative regulation of NF-kappaB transcription factor activity	0.0125708994153062	0.0125708994153062	+1	18
+GO:0034142	toll-like receptor 4 signaling pathway	0.0125842088054631	0.0125842088054631	+1	14
+GO:0042274	ribosomal small subunit biogenesis	0.0126082858723698	0.0126082858723698	+1	21
+GO:0051336	regulation of hydrolase activity	0.0137288886373258	0.0137288886373258	+1	72
+GO:2000403	positive regulation of lymphocyte migration	0.0141567474861965	0.0141567474861965	+1	13
+GO:0048872	homeostasis of number of cells	0.0143784005313621	0.0143784005313621	+1	45
+GO:1901798	positive regulation of signal transduction by p53 class mediator	0.0144179561347948	0.0144179561347948	+1	11
+GO:0002367	cytokine production involved in immune response	0.0144636131999292	0.0144636131999292	+1	23
+GO:0002718	regulation of cytokine production involved in immune response	0.0144636131999292	0.0144636131999292	+1	23
+GO:0002700	regulation of production of molecular mediator of immune response	0.0156153690767003	0.0156153690767003	+1	31
+GO:0044773	mitotic DNA damage checkpoint signaling	0.0164886793771383	0.0164886793771383	+1	19
+GO:0002752	cell surface pattern recognition receptor signaling pathway	0.0171482489823699	0.0171482489823699	+1	16
+GO:0031399	regulation of protein modification process	0.0171538689504904	0.0171538689504904	+1	126
+GO:0001776	leukocyte homeostasis	0.0172589704117902	0.0172589704117902	+1	22
+GO:0002501	peptide antigen assembly with MHC protein complex	0.0180931295266583	0.0180931295266583	+1	8
+GO:0002396	MHC protein complex assembly	0.0180931295266583	0.0180931295266583	+1	8
+GO:0045953	negative regulation of natural killer cell mediated cytotoxicity	0.0180931295266583	0.0180931295266583	+1	8
+GO:0010605	negative regulation of macromolecule metabolic process	0.0182623774476968	0.0182623774476968	+1	286
+GO:0030099	myeloid cell differentiation	0.0183870354313161	0.0183870354313161	+1	56
+GO:0035740	CD8-positive, alpha-beta T cell proliferation	0.0190604802180863	0.0190604802180863	+1	6
+GO:0071352	cellular response to interleukin-2	0.0190604802180863	0.0190604802180863	+1	6
+GO:0001915	negative regulation of T cell mediated cytotoxicity	0.0190604802180863	0.0190604802180863	+1	6
+GO:0002370	natural killer cell cytokine production	0.0190604802180863	0.0190604802180863	+1	6
+GO:0038110	interleukin-2-mediated signaling pathway	0.0190604802180863	0.0190604802180863	+1	6
+GO:0002727	regulation of natural killer cell cytokine production	0.0190604802180863	0.0190604802180863	+1	6
+GO:2000564	regulation of CD8-positive, alpha-beta T cell proliferation	0.0190604802180863	0.0190604802180863	+1	6
+GO:0051248	negative regulation of protein metabolic process	0.0191405122846683	0.0191405122846683	+1	86
+GO:0046629	gamma-delta T cell activation	0.0197546573491063	0.0197546573491063	+1	9
+GO:0019885	antigen processing and presentation of endogenous peptide antigen via MHC class I	0.0197546573491063	0.0197546573491063	+1	9
+GO:0032816	positive regulation of natural killer cell activation	0.0197546573491063	0.0197546573491063	+1	9
+GO:0045066	regulatory T cell differentiation	0.0202518936322227	0.0202518936322227	+1	12
+GO:0070664	negative regulation of leukocyte proliferation	0.0203228188521826	0.0203228188521826	+1	20
+GO:0043687	post-translational protein modification	0.0206878174057553	0.0206878174057553	+1	108
+GO:0051253	negative regulation of RNA metabolic process	0.0210299989323552	0.0210299989323552	+1	145
+GO:0030888	regulation of B cell proliferation	0.0211813369200285	0.0211813369200285	+1	16
+GO:0060761	negative regulation of response to cytokine stimulus	0.02210561733906	0.02210561733906	+1	18
+GO:0032823	regulation of natural killer cell differentiation	0.0223613603705922	0.0223613603705922	+1	7
+GO:2000106	regulation of leukocyte apoptotic process	0.0233878774027063	0.0233878774027063	+1	19
+GO:0009894	regulation of catabolic process	0.0256170572719606	0.0256170572719606	+1	108
+GO:0032660	regulation of interleukin-17 production	0.02710192920676	0.02710192920676	+1	12
+GO:0032620	interleukin-17 production	0.02710192920676	0.02710192920676	+1	12
+GO:0023057	negative regulation of signaling	0.0277980718128831	0.0277980718128831	+1	139
+GO:0070647	protein modification by small protein conjugation or removal	0.0285134296809021	0.0285134296809021	+1	103
+GO:2000026	regulation of multicellular organismal development	0.028690002356142	0.028690002356142	+1	140
+GO:0002294	CD4-positive, alpha-beta T cell differentiation involved in immune response	0.0294253518223609	0.0294253518223609	+1	17
+GO:0015031	protein transport	0.029590004596219	0.029590004596219	+1	141
+GO:0097190	apoptotic signaling pathway	0.0304116824563129	0.0304116824563129	+1	71
+GO:0045061	thymic T cell selection	0.0304446126649541	0.0304446126649541	+1	9
+GO:0050862	positive regulation of T cell receptor signaling pathway	0.0305719502528463	0.0305719502528463	+1	8
+GO:2001233	regulation of apoptotic signaling pathway	0.0312704210372367	0.0312704210372367	+1	50
+GO:0044774	mitotic DNA integrity checkpoint signaling	0.0327786919335748	0.0327786919335748	+1	19
+GO:0008284	positive regulation of cell population proliferation	0.0334380467501341	0.0334380467501341	+1	102
+GO:0006810	transport	0.0348103971847929	0.0348103971847929	+1	368
+GO:0043408	regulation of MAPK cascade	0.0352406338806748	0.0352406338806748	+1	74
+GO:0002293	alpha-beta T cell differentiation involved in immune response	0.0354636669074971	0.0354636669074971	+1	17
+GO:0002287	alpha-beta T cell activation involved in immune response	0.0354636669074971	0.0354636669074971	+1	17
+GO:0006364	rRNA processing	0.0360698209225812	0.0360698209225812	+1	34
+GO:0016072	rRNA metabolic process	0.0372162706696325	0.0372162706696325	+1	38
+GO:0043065	positive regulation of apoptotic process	0.0372207996650516	0.0372207996650516	+1	62
+GO:0002292	T cell differentiation involved in immune response	0.0376792223945677	0.0376792223945677	+1	18
+GO:0062207	regulation of pattern recognition receptor signaling pathway	0.0387212522559288	0.0387212522559288	+1	26
+GO:1902679	negative regulation of RNA biosynthetic process	0.0392339892273193	0.0392339892273193	+1	134
+GO:0042770	signal transduction in response to DNA damage	0.0409768146827878	0.0409768146827878	+1	31
+GO:0045348	positive regulation of MHC class II biosynthetic process	0.0420198937321257	0.0420198937321257	+1	7
+GO:0001779	natural killer cell differentiation	0.0456975085103423	0.0456975085103423	+1	9
+GO:0002483	antigen processing and presentation of endogenous peptide antigen	0.0456975085103423	0.0456975085103423	+1	9
+GO:0005737	cytoplasm	2.63646837051958e-37	2.63646837051958e-37	+1	1097
+GO:0005829	cytosol	1.19329493537272e-23	1.19329493537272e-23	+1	559
+GO:0005654	nucleoplasm	6.10477249860482e-19	6.10477249860482e-19	+1	440
+GO:0044391	ribosomal subunit	7.20635518453969e-17	7.20635518453969e-17	+1	54
+GO:0009897	external side of plasma membrane	4.54213423803099e-16	4.54213423803099e-16	+1	79
+GO:0022626	cytosolic ribosome	1.76601186657121e-15	1.76601186657121e-15	+1	40
+GO:0098552	side of membrane	8.15250776890467e-15	8.15250776890467e-15	+1	115
+GO:0016020	membrane	5.97802276459933e-13	5.97802276459933e-13	+1	832
+GO:0031410	cytoplasmic vesicle	3.92769256569578e-12	3.92769256569578e-12	+1	272
+GO:0097708	intracellular vesicle	5.00911707147677e-12	5.00911707147677e-12	+1	272
+GO:0031982	vesicle	1.50519709232877e-11	1.50519709232877e-11	+1	391
+GO:0022625	cytosolic large ribosomal subunit	3.83375544191888e-10	3.83375544191888e-10	+1	23
+GO:0005768	endosome	2.15635294235362e-09	2.15635294235362e-09	+1	134
+GO:0043231	intracellular membrane-bounded organelle	2.890342602256e-09	2.890342602256e-09	+1	1130
+GO:0015934	large ribosomal subunit	1.91984115149302e-08	1.91984115149302e-08	+1	31
+GO:0043227	membrane-bounded organelle	3.86394136981684e-08	3.86394136981684e-08	+1	1192
+GO:0110165	cellular anatomical entity	9.45403089702337e-08	9.45403089702337e-08	+1	1523
+GO:0031090	organelle membrane	1.03664558744247e-07	1.03664558744247e-07	+1	353
+GO:0031974	membrane-enclosed lumen	1.42228420732225e-07	1.42228420732225e-07	+1	570
+GO:0070013	intracellular organelle lumen	1.42228420732225e-07	1.42228420732225e-07	+1	570
+GO:0043233	organelle lumen	1.42228420732225e-07	1.42228420732225e-07	+1	570
+GO:0012505	endomembrane system	1.89304848520484e-07	1.89304848520484e-07	+1	429
+GO:0042611	MHC protein complex	3.82002254729339e-07	3.82002254729339e-07	+1	13
+GO:0009986	cell surface	4.05023433896998e-07	4.05023433896998e-07	+1	112
+GO:0022627	cytosolic small ribosomal subunit	7.92757919644087e-07	7.92757919644087e-07	+1	17
+GO:0015935	small ribosomal subunit	7.98239719086173e-07	7.98239719086173e-07	+1	23
+GO:0098588	bounding membrane of organelle	8.50426586563461e-07	8.50426586563461e-07	+1	223
+GO:0010008	endosome membrane	1.75890141001221e-06	1.75890141001221e-06	+1	78
+GO:1902494	catalytic complex	1.80660460574875e-06	1.80660460574875e-06	+1	186
+GO:0012506	vesicle membrane	3.29102094191695e-06	3.29102094191695e-06	+1	139
+GO:0140535	intracellular protein-containing complex	3.93824968712632e-06	3.93824968712632e-06	+1	113
+GO:0031981	nuclear lumen	9.04054747432107e-06	9.04054747432107e-06	+1	474
+GO:0030659	cytoplasmic vesicle membrane	9.16824167236032e-06	9.16824167236032e-06	+1	136
+GO:0042612	MHC class I protein complex	2.22937538858559e-05	2.22937538858559e-05	+1	7
+GO:0005622	intracellular anatomical structure	2.98868512265142e-05	2.98868512265142e-05	+1	1311
+GO:0043229	intracellular organelle	0.000417556998681229	0.000417556998681229	+1	1188
+GO:0000323	lytic vacuole	0.000588106625704676	0.000588106625704676	+1	88
+GO:0005764	lysosome	0.000588106625704676	0.000588106625704676	+1	88
+GO:0045335	phagocytic vesicle	0.000632935570234172	0.000632935570234172	+1	27
+GO:0005773	vacuole	0.000682245129823608	0.000682245129823608	+1	96
+GO:0030670	phagocytic vesicle membrane	0.000786212871090711	0.000786212871090711	+1	19
+GO:0000932	P-body	0.00156233979441054	0.00156233979441054	+1	21
+GO:0043226	organelle	0.00193223923352392	0.00193223923352392	+1	1234
+GO:0005769	early endosome	0.0028910125998674	0.0028910125998674	+1	55
+GO:0030134	COPII-coated ER to Golgi transport vesicle	0.00345686067881509	0.00345686067881509	+1	19
+GO:0005925	focal adhesion	0.00368639352137686	0.00368639352137686	+1	54
+GO:0001772	immunological synapse	0.00369345606012903	0.00369345606012903	+1	13
+GO:0044194	cytolytic granule	0.00659303212297574	0.00659303212297574	+1	7
+GO:0030055	cell-substrate junction	0.0072045087659242	0.0072045087659242	+1	54
+GO:0005774	vacuolar membrane	0.00874299962006367	0.00874299962006367	+1	59
+GO:0005765	lysosomal membrane	0.0089013008919649	0.0089013008919649	+1	55
+GO:0098852	lytic vacuole membrane	0.0089013008919649	0.0089013008919649	+1	55
+GO:0098553	lumenal side of endoplasmic reticulum membrane	0.0103949266697479	0.0103949266697479	+1	9
+GO:0035770	ribonucleoprotein granule	0.0111458188300828	0.0111458188300828	+1	38
+GO:0042105	alpha-beta T cell receptor complex	0.0116176062649372	0.0116176062649372	+1	5
+GO:0019774	proteasome core complex, beta-subunit complex	0.0146549095063498	0.0146549095063498	+1	6
+GO:0012507	ER to Golgi transport vesicle membrane	0.0149483967335795	0.0149483967335795	+1	14
+GO:0031902	late endosome membrane	0.0285871640379099	0.0285871640379099	+1	27
+GO:0001891	phagocytic cup	0.0290725962082623	0.0290725962082623	+1	9
+GO:0042613	MHC class II protein complex	0.031047418027391	0.031047418027391	+1	7
+GO:0036464	cytoplasmic ribonucleoprotein granule	0.0325964937638503	0.0325964937638503	+1	35
+GO:0005839	proteasome core complex	0.0390646180424825	0.0390646180424825	+1	8
+GO:0005886	plasma membrane	0.0438234618906383	0.0438234618906383	+1	460
+GO:0098576	lumenal side of membrane	0.0465322764759768	0.0465322764759768	+1	10
+GO:0030666	endocytic vesicle membrane	0.0490203773370165	0.0490203773370165	+1	29
+GO:0005515	protein binding	4.04552899046983e-47	4.04552899046983e-47	+1	1358
+GO:0023023	MHC protein complex binding	1.25493286274667e-09	1.25493286274667e-09	+1	18
+GO:0005488	binding	7.96745798750501e-09	7.96745798750501e-09	+1	1465
+GO:0019902	phosphatase binding	1.72743438759524e-05	1.72743438759524e-05	+1	38
+GO:0044877	protein-containing complex binding	3.15983271481189e-05	3.15983271481189e-05	+1	193
+GO:0019903	protein phosphatase binding	4.69644593583659e-05	4.69644593583659e-05	+1	31
+GO:0042605	peptide antigen binding	0.000117569913373522	0.000117569913373522	+1	15
+GO:0042287	MHC protein binding	0.000397552333276463	0.000397552333276463	+1	14
+GO:0019899	enzyme binding	0.000671785014122077	0.000671785014122077	+1	217
+GO:0023024	MHC class I protein complex binding	0.000691843481314189	0.000691843481314189	+1	6
+GO:0030881	beta-2-microglobulin binding	0.000691843481314189	0.000691843481314189	+1	6
+GO:0060090	molecular adaptor activity	0.000796269996783221	0.000796269996783221	+1	130
+GO:0030674	protein-macromolecule adaptor activity	0.00094078807478229	0.00094078807478229	+1	112
+GO:0042608	T cell receptor binding	0.00201100625303231	0.00201100625303231	+1	7
+GO:0023026	MHC class II protein complex binding	0.00252796138109697	0.00252796138109697	+1	10
+GO:0030234	enzyme regulator activity	0.00438988036790018	0.00438988036790018	+1	141
+GO:0003713	transcription coactivator activity	0.00467827028165129	0.00467827028165129	+1	44
+GO:0005102	signaling receptor binding	0.0076908986831992	0.0076908986831992	+1	158
+GO:0003712	transcription coregulator activity	0.0105601914532926	0.0105601914532926	+1	67
+GO:0060589	nucleoside-triphosphatase regulator activity	0.0177362001779387	0.0177362001779387	+1	63
+GO:0030695	GTPase regulator activity	0.0177362001779387	0.0177362001779387	+1	63
+GO:0140375	immune receptor activity	0.0188478921705132	0.0188478921705132	+1	26
+GO:0017124	SH3 domain binding	0.0203475865049743	0.0203475865049743	+1	23
+GO:0046977	TAP binding	0.0256803766745247	0.0256803766745247	+1	5
+GO:0032813	tumor necrosis factor receptor superfamily binding	0.0293652070572911	0.0293652070572911	+1	13
+GO:0008047	enzyme activator activity	0.0334019999523849	0.0334019999523849	+1	71
+GO:0019901	protein kinase binding	0.0433742363753286	0.0433742363753286	+1	82
+HP:0011893	Abnormal leukocyte count	6.59077471089688e-19	6.59077471089688e-19	+1	103
+HP:0032251	Abnormal immune system morphology	2.7182135793017e-17	2.7182135793017e-17	+1	120
+HP:0040088	Abnormal lymphocyte count	5.71683756130108e-17	5.71683756130108e-17	+1	63
+HP:0004332	Abnormal lymphocyte morphology	5.86043179563743e-16	5.86043179563743e-16	+1	65
+HP:0001881	Abnormal leukocyte morphology	8.37833393241265e-16	8.37833393241265e-16	+1	114
+HP:0010987	Abnormal cellular immune system morphology	8.37833393241265e-16	8.37833393241265e-16	+1	114
+HP:0005368	Abnormality of humoral immunity	3.37288345275426e-14	3.37288345275426e-14	+1	73
+HP:0001888	Lymphopenia	5.88501169232765e-14	5.88501169232765e-14	+1	52
+HP:0011873	Abnormal platelet count	1.73642666547842e-12	1.73642666547842e-12	+1	86
+HP:0011875	Abnormal platelet morphology	3.09968566233341e-12	3.09968566233341e-12	+1	86
+HP:0010701	Abnormal immunoglobulin level	3.71984081907141e-12	3.71984081907141e-12	+1	62
+HP:0005372	Abnormality of B cell physiology	4.52285585418229e-12	4.52285585418229e-12	+1	62
+HP:0031409	Abnormal lymphocyte physiology	8.30996241544346e-12	8.30996241544346e-12	+1	66
+HP:0033796	Abnormal leukocyte physiology	8.30996241544346e-12	8.30996241544346e-12	+1	66
+HP:0002960	Autoimmunity	1.04967134386739e-11	1.04967134386739e-11	+1	65
+HP:0001872	Abnormality of thrombocytes	1.37207601135769e-11	1.37207601135769e-11	+1	88
+HP:0004313	Decreased circulating antibody level	1.56341210839904e-11	1.56341210839904e-11	+1	51
+HP:0010974	Abnormal myeloid leukocyte morphology	1.73070170706145e-11	1.73070170706145e-11	+1	70
+HP:0001873	Thrombocytopenia	2.0869795157178e-11	2.0869795157178e-11	+1	80
+HP:0011839	Abnormal T cell count	2.57606604875206e-11	2.57606604875206e-11	+1	37
+HP:0001945	Fever	4.88813916511633e-11	4.88813916511633e-11	+1	81
+HP:0002843	Abnormal T cell morphology	9.3420403890331e-11	9.3420403890331e-11	+1	37
+HP:0001871	Abnormality of blood and blood-forming tissues	3.50240384394831e-10	3.50240384394831e-10	+1	185
+HP:0002846	Abnormal B cell morphology	1.17689562040257e-09	1.17689562040257e-09	+1	32
+HP:0001911	Abnormal granulocyte morphology	4.66785837588321e-09	4.66785837588321e-09	+1	62
+HP:0002733	Abnormal lymph node morphology	4.87279649012468e-09	4.87279649012468e-09	+1	56
+HP:0032309	Abnormal granulocyte count	1.98689439600342e-08	1.98689439600342e-08	+1	55
+HP:0011112	Abnormality of serum cytokine level	2.15573815739388e-08	2.15573815739388e-08	+1	20
+HP:0011111	Abnormality of immune serum protein physiology	3.72951251915212e-08	3.72951251915212e-08	+1	20
+HP:0010975	Abnormal B cell count	3.75172332123841e-08	3.75172332123841e-08	+1	29
+HP:0002716	Lymphadenopathy	5.67156275992702e-08	5.67156275992702e-08	+1	52
+HP:0030356	Increased circulating interferon-gamma concentration	6.43729567274674e-08	6.43729567274674e-08	+1	14
+HP:0005403	T lymphocytopenia	6.55002043015177e-08	6.55002043015177e-08	+1	24
+HP:0011123	Inflammatory abnormality of the skin	7.11608920687181e-08	7.11608920687181e-08	+1	82
+HP:0030355	Abnormal circulating interferon-gamma concentration	1.13974215030396e-07	1.13974215030396e-07	+1	15
+HP:0030354	Abnormal circulating interferon concentration	1.13974215030396e-07	1.13974215030396e-07	+1	15
+HP:0001903	Anemia	1.82189794955779e-07	1.82189794955779e-07	+1	95
+HP:0032101	Unusual infection	3.01565990846367e-07	3.01565990846367e-07	+1	138
+HP:0012145	Abnormality of multiple cell lineages in the bone marrow	5.15693210607369e-07	5.15693210607369e-07	+1	41
+HP:0012133	Erythroid hypoplasia	5.63899172046591e-07	5.63899172046591e-07	+1	16
+HP:0020100	Unusual fungal infection	6.76066489756523e-07	6.76066489756523e-07	+1	31
+HP:0011122	Abnormality of skin physiology	9.51627115420296e-07	9.51627115420296e-07	+1	87
+HP:0410242	Abnormal circulating IgG level	1.11094510310815e-06	1.11094510310815e-06	+1	31
+HP:0032169	Severe infection	1.19118168223428e-06	1.19118168223428e-06	+1	24
+HP:0012156	Hemophagocytosis	1.31159822977901e-06	1.31159822977901e-06	+1	13
+HP:0002715	Abnormality of the immune system	1.38351689051818e-06	1.38351689051818e-06	+1	228
+HP:0004311	Abnormal macrophage morphology	1.50686018141627e-06	1.50686018141627e-06	+1	19
+HP:0011017	Abnormal cellular physiology	1.84501531691423e-06	1.84501531691423e-06	+1	91
+HP:0010978	Abnormality of immune system physiology	2.22920862587424e-06	2.22920862587424e-06	+1	200
+HP:0004370	Abnormality of temperature regulation	2.51576698473242e-06	2.51576698473242e-06	+1	85
+HP:0025540	Abnormal T cell subset distribution	3.1213507434166e-06	3.1213507434166e-06	+1	24
+HP:0011370	Recurrent cutaneous fungal infections	3.43251493337738e-06	3.43251493337738e-06	+1	21
+HP:0001894	Thrombocytosis	4.37678709383037e-06	4.37678709383037e-06	+1	22
+HP:0002728	Chronic mucocutaneous candidiasis	5.41968529964311e-06	5.41968529964311e-06	+1	19
+HP:0033331	Acute phase response	5.50826506948018e-06	5.50826506948018e-06	+1	40
+HP:0001877	Abnormal erythrocyte morphology	5.84528953781366e-06	5.84528953781366e-06	+1	97
+HP:0005561	Abnormal bone marrow cell morphology	5.88970497609234e-06	5.88970497609234e-06	+1	44
+HP:0030782	Abnormal circulating interleukin concentration	6.59764046098319e-06	6.59764046098319e-06	+1	15
+HP:0002841	Recurrent fungal infections	6.9678309885992e-06	6.9678309885992e-06	+1	29
+HP:4000209	Abnormal erythrocyte adenosine deaminase activity	6.99822305209002e-06	6.99822305209002e-06	+1	14
+HP:0025354	Abnormal cellular phenotype	1.40943171677823e-05	1.40943171677823e-05	+1	92
+HP:0001896	Reticulocytopenia	1.5199860389627e-05	1.5199860389627e-05	+1	16
+HP:0032158	Unusual infection by anatomical site	3.37497998807818e-05	3.37497998807818e-05	+1	29
+HP:0004315	Decreased circulating IgG level	3.68560944445817e-05	3.68560944445817e-05	+1	26
+HP:0012410	Pure red cell aplasia	4.02876389162005e-05	4.02876389162005e-05	+1	14
+HP:0005353	Recurrent herpes	4.4906440956531e-05	4.4906440956531e-05	+1	12
+HP:0030270	Elevated red cell adenosine deaminase activity	4.56904170639578e-05	4.56904170639578e-05	+1	13
+HP:0031640	Abnormal radial artery morphology	4.56904170639578e-05	4.56904170639578e-05	+1	13
+HP:0020118	Radial artery aplasia	4.56904170639578e-05	4.56904170639578e-05	+1	13
+HP:0001890	Autoimmune hemolytic anemia	5.88621576915254e-05	5.88621576915254e-05	+1	16
+HP:0001581	Recurrent skin infections	6.82598944988615e-05	6.82598944988615e-05	+1	32
+HP:0004429	Recurrent viral infections	7.0986478402177e-05	7.0986478402177e-05	+1	19
+HP:0001876	Pancytopenia	8.07454177732054e-05	8.07454177732054e-05	+1	30
+HP:0034317	Unusual viral infection	8.6994895771037e-05	8.6994895771037e-05	+1	12
+HP:0034318	Unusual virus reactivation	8.6994895771037e-05	8.6994895771037e-05	+1	12
+HP:0001973	Autoimmune thrombocytopenia	8.78358344258063e-05	8.78358344258063e-05	+1	17
+HP:0012647	Abnormal inflammatory response	9.0572021409777e-05	9.0572021409777e-05	+1	148
+HP:0012649	Increased inflammatory response	9.0572021409777e-05	9.0572021409777e-05	+1	148
+HP:0004808	Acute myeloid leukemia	9.14886092280443e-05	9.14886092280443e-05	+1	22
+HP:0002719	Recurrent infections	9.89955220766437e-05	9.89955220766437e-05	+1	123
+HP:0001874	Abnormality of neutrophils	0.000105110536676059	0.000105110536676059	+1	47
+HP:0002669	Osteosarcoma	0.000129490006576016	0.000129490006576016	+1	15
+HP:0005532	Macrocytic dyserythropoietic anemia	0.000141122717724036	0.000141122717724036	+1	13
+HP:0001433	Hepatosplenomegaly	0.000145396854235482	0.000145396854235482	+1	35
+HP:0011450	Unusual CNS infection	0.000157898535970553	0.000157898535970553	+1	27
+HP:0001954	Recurrent fever	0.000204021150655209	0.000204021150655209	+1	25
+HP:0002633	Vasculitis	0.000205076639892276	0.000205076639892276	+1	21
+HP:0001878	Hemolytic anemia	0.000214013466633226	0.000214013466633226	+1	34
+HP:0031381	Decreased lymphocyte proliferation in response to mitogen	0.000236932340559377	0.000236932340559377	+1	13
+HP:0030057	Autoimmune antibody positivity	0.000251495758039791	0.000251495758039791	+1	34
+HP:0004377	Hematological neoplasm	0.000267756367608866	0.000267756367608866	+1	51
+HP:0031691	Severe viral infection	0.000283624146808569	0.000283624146808569	+1	14
+HP:0030272	Abnormal erythrocyte enzyme level	0.000298051517886773	0.000298051517886773	+1	15
+HP:0002597	Abnormality of the vasculature	0.000311174015101362	0.000311174015101362	+1	208
+HP:0001875	Neutropenia	0.000334359735476653	0.000334359735476653	+1	39
+HP:0011895	Anemia due to reduced life span of red cells	0.000345565717826657	0.000345565717826657	+1	34
+HP:0011991	Abnormal neutrophil count	0.000393938275357024	0.000393938275357024	+1	41
+HP:0010976	B lymphocytopenia	0.000418271517923109	0.000418271517923109	+1	18
+HP:0003271	Visceromegaly	0.000424544240722603	0.000424544240722603	+1	98
+HP:0002240	Hepatomegaly	0.000444622999821156	0.000444622999821156	+1	88
+HP:0002205	Recurrent respiratory infections	0.000532326259872978	0.000532326259872978	+1	86
+HP:0031378	Abnormal lymphocyte proliferation	0.000644756746149637	0.000644756746149637	+1	15
+HP:0031377	Abnormal cell proliferation	0.000644756746149637	0.000644756746149637	+1	15
+HP:0004325	Decreased body weight	0.000664503307681897	0.000664503307681897	+1	173
+HP:0001744	Splenomegaly	0.000811192605751042	0.000811192605751042	+1	70
+HP:0001974	Leukocytosis	0.00102309762309464	0.00102309762309464	+1	32
+HP:0002014	Diarrhea	0.0010236146599775	0.0010236146599775	+1	61
+HP:0009098	Chronic oral candidiasis	0.00133692383311196	0.00133692383311196	+1	12
+HP:0012490	Panniculitis	0.00133692383311196	0.00133692383311196	+1	12
+HP:0003565	Elevated erythrocyte sedimentation rate	0.00133759309126479	0.00133759309126479	+1	18
+HP:0002383	Infectious encephalitis	0.00156663515101014	0.00156663515101014	+1	16
+HP:0000988	Skin rash	0.00196764106770897	0.00196764106770897	+1	33
+HP:0001882	Leukopenia	0.00204394587330598	0.00204394587330598	+1	31
+HP:0001438	Abnormal abdomen morphology	0.00207396579629632	0.00207396579629632	+1	102
+HP:0001895	Normochromic anemia	0.00209434535422331	0.00209434535422331	+1	14
+HP:0040275	Adenocarcinoma of the large intestine	0.00209434535422331	0.00209434535422331	+1	14
+HP:0004798	Recurrent infection of the gastrointestinal tract	0.00209434535422331	0.00209434535422331	+1	14
+HP:0025021	Abnormal erythrocyte sedimentation rate	0.00229091479559454	0.00229091479559454	+1	18
+HP:0410243	Abnormal circulating IgM level	0.00229184411030727	0.00229184411030727	+1	24
+HP:0012475	Decreased circulating level of specific antibody	0.00257735660771969	0.00257735660771969	+1	15
+HP:0012131	Abnormal number of erythroid precursors	0.00287781072307127	0.00287781072307127	+1	16
+HP:0040276	Adenocarcinoma of the colon	0.00325750325171934	0.00325750325171934	+1	13
+HP:0001227	Abnormality of the thenar eminence	0.00325750325171934	0.00325750325171934	+1	13
+HP:0010702	Increased circulating antibody level	0.0033457898856291	0.0033457898856291	+1	24
+HP:0005354	Lack of T cell function	0.00356801148788801	0.00356801148788801	+1	6
+HP:0011947	Respiratory tract infection	0.00377372402130773	0.00377372402130773	+1	98
+HP:0031404	Impaired antigen-specific response	0.00384878416623994	0.00384878416623994	+1	16
+HP:0005518	Increased mean corpuscular volume	0.00384878416623994	0.00384878416623994	+1	16
+HP:0002488	Acute leukemia	0.00385618004732196	0.00385618004732196	+1	26
+HP:0011904	Persistence of hemoglobin F	0.00472370769825864	0.00472370769825864	+1	13
+HP:0009944	Partial duplication of thumb phalanx	0.00583174956641177	0.00583174956641177	+1	14
+HP:0025065	Abnormal mean corpuscular volume	0.00659747971588251	0.00659747971588251	+1	17
+HP:0001879	Abnormal eosinophil morphology	0.00714110355449993	0.00714110355449993	+1	19
+HP:0020064	Abnormal eosinophil count	0.00788586108597599	0.00788586108597599	+1	18
+HP:0040273	Adenocarcinoma of the intestines	0.00800951098800129	0.00800951098800129	+1	14
+HP:0006758	Malignant genitourinary tract tumor	0.0095016317427192	0.0095016317427192	+1	13
+HP:0002850	Decreased circulating total IgM	0.00992799358555673	0.00992799358555673	+1	18
+HP:0031446	Erosion of oral mucosa	0.010013486627684	0.010013486627684	+1	23
+HP:0009999	Partial duplication of the phalanx of hand	0.0108813794002251	0.0108813794002251	+1	14
+HP:0011134	Low-grade fever	0.0109217109297067	0.0109217109297067	+1	7
+HP:0001087	Developmental glaucoma	0.0110247733691142	0.0110247733691142	+1	19
+HP:0410240	Abnormal circulating IgA level	0.0121458010825092	0.0121458010825092	+1	22
+HP:0020085	Infection following live vaccination	0.0126156714536536	0.0126156714536536	+1	9
+HP:0005186	Synovial lining hyperplasia	0.0132828012617327	0.0132828012617327	+1	6
+HP:0002583	Colitis	0.0154952182519048	0.0154952182519048	+1	18
+HP:0010622	Neoplasm of the skeletal system	0.0167971228261228	0.0167971228261228	+1	23
+HP:0034684	Abnormal enzyme concentration or activity	0.0169335339375081	0.0169335339375081	+1	86
+HP:0100763	Abnormality of the lymphatic system	0.0180847332429764	0.0180847332429764	+1	95
+HP:0000951	Abnormality of the skin	0.0193835452112787	0.0193835452112787	+1	211
+HP:0002721	Immunodeficiency	0.0201845476783571	0.0201845476783571	+1	37
+HP:0001880	Eosinophilia	0.0237797760229674	0.0237797760229674	+1	16
+HP:0001785	Ankle swelling	0.0243669198022738	0.0243669198022738	+1	7
+HP:0025408	Abnormal spleen morphology	0.0249439743127236	0.0249439743127236	+1	77
+HP:0002783	Recurrent lower respiratory tract infections	0.0304655927096523	0.0304655927096523	+1	39
+HP:0001939	Abnormality of metabolism/homeostasis	0.0314099927129762	0.0314099927129762	+1	253
+HP:0001370	Rheumatoid arthritis	0.0345774666930126	0.0345774666930126	+1	9
+HP:0032140	Decreased specific antibody response to vaccination	0.034582277014386	0.034582277014386	+1	11
+HP:0001909	Leukemia	0.0348899632617141	0.0348899632617141	+1	31
+HP:0011227	Elevated circulating C-reactive protein concentration	0.0376936579973147	0.0376936579973147	+1	16
+HP:0003493	Antinuclear antibody positivity	0.0413523983056017	0.0413523983056017	+1	17
+HP:0005401	Recurrent candida infections	0.0447171966956348	0.0447171966956348	+1	8
+HPA:0600000	tonsil	5.92694517308596e-50	5.92694517308596e-50	+1	920
+HPA:0310000	lymph node	7.68974969492842e-48	7.68974969492842e-48	+1	823
+HPA:0310441	lymph node; non-germinal center cells[≥Low]	3.22937626094469e-45	3.22937626094469e-45	+1	779
+HPA:0600441	tonsil; non-germinal center cells[≥Low]	3.87648372485141e-43	3.87648372485141e-43	+1	779
+HPA:0600442	tonsil; non-germinal center cells[≥Medium]	1.29875742555006e-34	1.29875742555006e-34	+1	583
+HPA:0530000	spleen	3.47208532048867e-34	3.47208532048867e-34	+1	738
+HPA:0310442	lymph node; non-germinal center cells[≥Medium]	2.20941747000086e-32	2.20941747000086e-32	+1	556
+HPA:0030000	appendix	8.36207527377504e-32	8.36207527377504e-32	+1	888
+HPA:0530711	spleen; cells in red pulp[≥Low]	2.10167570165675e-29	2.10167570165675e-29	+1	675
+HPA:0600431	tonsil; germinal center cells[≥Low]	1.18160277185448e-28	1.18160277185448e-28	+1	731
+HPA:0040000	bone marrow	1.08240764370979e-26	1.08240764370979e-26	+1	769
+HPA:0040081	bone marrow; hematopoietic cells[≥Low]	1.08240764370979e-26	1.08240764370979e-26	+1	769
+HPA:0310431	lymph node; germinal center cells[≥Low]	2.25949263592387e-22	2.25949263592387e-22	+1	628
+HPA:0530721	spleen; cells in white pulp[≥Low]	3.19094723016496e-22	3.19094723016496e-22	+1	559
+HPA:0300411	lung; macrophages[≥Low]	2.78998926997321e-20	2.78998926997321e-20	+1	774
+HPA:0300000	lung	1.20435666266293e-19	1.20435666266293e-19	+1	821
+HPA:0600443	tonsil; non-germinal center cells[High]	1.32578212935436e-19	1.32578212935436e-19	+1	227
+HPA:0530712	spleen; cells in red pulp[≥Medium]	2.85497624952768e-19	2.85497624952768e-19	+1	429
+HPA:0030071	appendix; lymphoid tissue[≥Low]	7.1695126844866e-19	7.1695126844866e-19	+1	585
+HPA:0310443	lymph node; non-germinal center cells[High]	8.56787222177315e-19	8.56787222177315e-19	+1	211
+HPA:0310432	lymph node; germinal center cells[≥Medium]	1.70045495371622e-17	1.70045495371622e-17	+1	439
+HPA:0600432	tonsil; germinal center cells[≥Medium]	9.64057406539678e-16	9.64057406539678e-16	+1	512
+HPA:0530722	spleen; cells in white pulp[≥Medium]	3.43605441349488e-15	3.43605441349488e-15	+1	370
+HPA:0030072	appendix; lymphoid tissue[≥Medium]	1.90492923261409e-13	1.90492923261409e-13	+1	391
+HPA:0040082	bone marrow; hematopoietic cells[≥Medium]	1.3474894625237e-12	1.3474894625237e-12	+1	514
+HPA:0130000	colon	9.44202711329678e-12	9.44202711329678e-12	+1	872
+HPA:0300412	lung; macrophages[≥Medium]	1.96403268723009e-11	1.96403268723009e-11	+1	570
+HPA:0460000	skin 1	2.34276800997276e-10	2.34276800997276e-10	+1	776
+HPA:0400000	rectum	2.12655417029969e-09	2.12655417029969e-09	+1	833
+HPA:0030051	appendix; glandular cells[≥Low]	4.93809746001494e-09	4.93809746001494e-09	+1	727
+HPA:0600221	tonsil; squamous epithelial cells[≥Low]	5.6475847264077e-09	5.6475847264077e-09	+1	718
+HPA:0150051	duodenum; glandular cells[≥Low]	8.53308636253274e-09	8.53308636253274e-09	+1	757
+HPA:0460641	skin 1; Langerhans[≥Low]	9.9862787980953e-09	9.9862787980953e-09	+1	467
+HPA:0530713	spleen; cells in red pulp[High]	1.29462434083383e-08	1.29462434083383e-08	+1	133
+HPA:0470000	skin 2	1.96145227820802e-08	1.96145227820802e-08	+1	749
+HPA:0530723	spleen; cells in white pulp[High]	4.08328360981413e-08	4.08328360981413e-08	+1	135
+HPA:0480051	small intestine; glandular cells[≥Low]	7.28115158927773e-08	7.28115158927773e-08	+1	750
+HPA:0130051	colon; glandular cells[≥Low]	1.10957321411316e-07	1.10957321411316e-07	+1	742
+HPA:0610000	urinary bladder	1.40218382977134e-07	1.40218382977134e-07	+1	768
+HPA:0610831	urinary bladder; urothelial cells[≥Low]	1.40218382977134e-07	1.40218382977134e-07	+1	768
+HPA:0480052	small intestine; glandular cells[≥Medium]	3.94492719834377e-07	3.94492719834377e-07	+1	656
+HPA:0130201	colon; endothelial cells[≥Low]	4.33019088570041e-07	4.33019088570041e-07	+1	620
+HPA:0460671	skin 1; melanocytes[≥Low]	5.35847483436476e-07	5.35847483436476e-07	+1	585
+HPA:0030052	appendix; glandular cells[≥Medium]	5.55606417622155e-07	5.55606417622155e-07	+1	604
+HPA:0150052	duodenum; glandular cells[≥Medium]	7.38379228065231e-07	7.38379228065231e-07	+1	658
+HPA:0130052	colon; glandular cells[≥Medium]	1.83789691765551e-06	1.83789691765551e-06	+1	645
+HPA:0430051	seminal vesicle; glandular cells[≥Low]	4.88946450459514e-06	4.88946450459514e-06	+1	718
+HPA:0430000	seminal vesicle	4.88946450459514e-06	4.88946450459514e-06	+1	718
+HPA:0150000	duodenum	5.09050716135294e-06	5.09050716135294e-06	+1	811
+HPA:0020051	adrenal gland; glandular cells[≥Low]	6.02833075283628e-06	6.02833075283628e-06	+1	769
+HPA:0180000	epididymis	6.59221968041887e-06	6.59221968041887e-06	+1	762
+HPA:0180051	epididymis; glandular cells[≥Low]	6.59221968041887e-06	6.59221968041887e-06	+1	762
+HPA:0020000	adrenal gland	7.75218873342191e-06	7.75218873342191e-06	+1	769
+HPA:0400052	rectum; glandular cells[≥Medium]	8.02226307412439e-06	8.02226307412439e-06	+1	652
+HPA:0610832	urinary bladder; urothelial cells[≥Medium]	9.44280195065903e-06	9.44280195065903e-06	+1	638
+HPA:0170000	endometrium 2	1.02982832635373e-05	1.02982832635373e-05	+1	724
+HPA:0400051	rectum; glandular cells[≥Low]	1.13428008963414e-05	1.13428008963414e-05	+1	737
+HPA:0460651	skin 1; fibroblasts[≥Low]	1.91312757255594e-05	1.91312757255594e-05	+1	460
+HPA:0540052	stomach 1; glandular cells[≥Medium]	2.54520001138314e-05	2.54520001138314e-05	+1	671
+HPA:0470681	skin 2; epidermal cells[≥Low]	2.54919516376635e-05	2.54919516376635e-05	+1	611
+HPA:0500651	soft tissue 1; fibroblasts[≥Low]	2.76139146803284e-05	2.76139146803284e-05	+1	474
+HPA:0160000	endometrium 1	3.54314501563466e-05	3.54314501563466e-05	+1	733
+HPA:0030442	appendix; non-germinal center cells[≥Medium]	4.09390981143888e-05	4.09390981143888e-05	+1	52
+HPA:0170051	endometrium 2; glandular cells[≥Low]	4.2772322992111e-05	4.2772322992111e-05	+1	703
+HPA:0590000	thyroid gland	4.63291965747094e-05	4.63291965747094e-05	+1	739
+HPA:0590051	thyroid gland; glandular cells[≥Low]	4.63291965747094e-05	4.63291965747094e-05	+1	739
+HPA:0600222	tonsil; squamous epithelial cells[≥Medium]	4.76806696827999e-05	4.76806696827999e-05	+1	540
+HPA:0540000	stomach 1	5.78191660997895e-05	5.78191660997895e-05	+1	785
+HPA:0540051	stomach 1; glandular cells[≥Low]	5.78191660997895e-05	5.78191660997895e-05	+1	785
+HPA:0131333	colon; mucosal lymphoid cells[High]	6.45599659358177e-05	6.45599659358177e-05	+1	36
+HPA:0220052	gallbladder; glandular cells[≥Medium]	6.94734241366251e-05	6.94734241366251e-05	+1	692
+HPA:0220000	gallbladder	8.55160272485644e-05	8.55160272485644e-05	+1	784
+HPA:0220051	gallbladder; glandular cells[≥Low]	8.55160272485644e-05	8.55160272485644e-05	+1	784
+HPA:0430052	seminal vesicle; glandular cells[≥Medium]	9.72897415771497e-05	9.72897415771497e-05	+1	565
+HPA:0460661	skin 1; keratinocytes[≥Low]	0.000103533352544638	0.000103533352544638	+1	558
+HPA:0350471	pancreas; exocrine glandular cells[≥Low]	0.000107147780890931	0.000107147780890931	+1	720
+HPA:0330222	oral mucosa; squamous epithelial cells[≥Medium]	0.000132599259088934	0.000132599259088934	+1	481
+HPA:0500000	soft tissue 1	0.000169398981412662	0.000169398981412662	+1	575
+HPA:0401332	rectum; mucosal lymphoid cells[≥Medium]	0.00017891574402092	0.00017891574402092	+1	68
+HPA:0030441	appendix; non-germinal center cells[≥Low]	0.000186281242693437	0.000186281242693437	+1	60
+HPA:0160051	endometrium 1; glandular cells[≥Low]	0.000214192917161109	0.000214192917161109	+1	707
+HPA:0480000	small intestine	0.000217285142315505	0.000217285142315505	+1	800
+HPA:0350000	pancreas	0.000241479739284224	0.000241479739284224	+1	759
+HPA:0050051	breast; glandular cells[≥Low]	0.000259643960681114	0.000259643960681114	+1	706
+HPA:0030443	appendix; non-germinal center cells[High]	0.000262754969832057	0.000262754969832057	+1	27
+HPA:0510651	soft tissue 2; fibroblasts[≥Low]	0.00027298707796986	0.00027298707796986	+1	457
+HPA:0470682	skin 2; epidermal cells[≥Medium]	0.000275434447446202	0.000275434447446202	+1	446
+HPA:0570741	testis; cells in seminiferous ducts[≥Low]	0.00028300812283185	0.00028300812283185	+1	357
+HPA:0030073	appendix; lymphoid tissue[High]	0.000302968485558504	0.000302968485558504	+1	111
+HPA:0600433	tonsil; germinal center cells[High]	0.000302987611209169	0.000302987611209169	+1	163
+HPA:0330000	oral mucosa	0.000349938142527743	0.000349938142527743	+1	655
+HPA:0330221	oral mucosa; squamous epithelial cells[≥Low]	0.000349938142527743	0.000349938142527743	+1	655
+HPA:0100000	cerebral cortex	0.000415159802634069	0.000415159802634069	+1	818
+HPA:0390051	prostate; glandular cells[≥Low]	0.000481055423153227	0.000481055423153227	+1	692
+HPA:0390000	prostate	0.000481055423153227	0.000481055423153227	+1	692
+HPA:0380000	placenta	0.000586313233716133	0.000586313233716133	+1	766
+HPA:0131331	colon; mucosal lymphoid cells[≥Low]	0.000590366344971838	0.000590366344971838	+1	80
+HPA:0380511	placenta; decidual cells[≥Low]	0.000616323756323736	0.000616323756323736	+1	523
+HPA:0420052	salivary gland; glandular cells[≥Medium]	0.00086424305971981	0.00086424305971981	+1	524
+HPA:0210000	fallopian tube	0.00099795804816696	0.00099795804816696	+1	760
+HPA:0550051	stomach 2; glandular cells[≥Low]	0.00132146289546613	0.00132146289546613	+1	772
+HPA:0550000	stomach 2	0.00132146289546613	0.00132146289546613	+1	772
+HPA:0380521	placenta; trophoblastic cells[≥Low]	0.00143267172624596	0.00143267172624596	+1	660
+HPA:0460642	skin 1; Langerhans[≥Medium]	0.00146304596038706	0.00146304596038706	+1	305
+HPA:0401333	rectum; mucosal lymphoid cells[High]	0.00161039179787694	0.00161039179787694	+1	36
+HPA:0630000	cervix	0.00161642374201779	0.00161642374201779	+1	711
+HPA:0590052	thyroid gland; glandular cells[≥Medium]	0.00167634967034199	0.00167634967034199	+1	590
+HPA:0420051	salivary gland; glandular cells[≥Low]	0.00189436462702821	0.00189436462702821	+1	708
+HPA:0420000	salivary gland	0.00189436462702821	0.00189436462702821	+1	708
+HPA:0050000	breast	0.00205296175884588	0.00205296175884588	+1	733
+HPA:0170251	endometrium 2; cells in endometrial stroma[≥Low]	0.00234142007044024	0.00234142007044024	+1	391
+HPA:0060000	bronchus	0.00243786815052749	0.00243786815052749	+1	754
+HPA:0180052	epididymis; glandular cells[≥Medium]	0.00257027320827681	0.00257027320827681	+1	597
+HPA:0131332	colon; mucosal lymphoid cells[≥Medium]	0.00297996266763947	0.00297996266763947	+1	60
+HPA:0160251	endometrium 1; cells in endometrial stroma[≥Low]	0.00332385222175879	0.00332385222175879	+1	444
+HPA:0360051	parathyroid gland; glandular cells[≥Low]	0.00335348449285003	0.00335348449285003	+1	615
+HPA:0360000	parathyroid gland	0.00335348449285003	0.00335348449285003	+1	615
+HPA:0190000	esophagus	0.00349334636788649	0.00349334636788649	+1	686
+HPA:0190221	esophagus; squamous epithelial cells[≥Low]	0.00349334636788649	0.00349334636788649	+1	686
+HPA:0270361	kidney; cells in tubules[≥Low]	0.00377917544842392	0.00377917544842392	+1	717
+HPA:0320000	nasopharynx	0.00386999866992577	0.00386999866992577	+1	732
+HPA:0340000	ovary	0.00405014231284937	0.00405014231284937	+1	571
+HPA:0270000	kidney	0.00415006317036431	0.00415006317036431	+1	823
+HPA:0460652	skin 1; fibroblasts[≥Medium]	0.00416342450358581	0.00416342450358581	+1	323
+HPA:0510000	soft tissue 2	0.00443370974905227	0.00443370974905227	+1	550
+HPA:0570731	testis; Leydig cells[≥Low]	0.00622196739752212	0.00622196739752212	+1	727
+HPA:0301171	lung; alveolar cells[≥Low]	0.00655616880307543	0.00655616880307543	+1	385
+HPA:0401331	rectum; mucosal lymphoid cells[≥Low]	0.00704827820169817	0.00704827820169817	+1	80
+HPA:0210052	fallopian tube; glandular cells[≥Medium]	0.0072955437944798	0.0072955437944798	+1	501
+HPA:0310433	lymph node; germinal center cells[High]	0.00771261237102771	0.00771261237102771	+1	125
+HPA:0320102	nasopharynx; respiratory epithelial cells[≥Medium]	0.00843827582848181	0.00843827582848181	+1	507
+HPA:0320101	nasopharynx; respiratory epithelial cells[≥Low]	0.0090399708396135	0.0090399708396135	+1	602
+HPA:0351181	pancreas; pancreatic endocrine cells[≥Low]	0.0108722777031941	0.0108722777031941	+1	586
+HPA:0270362	kidney; cells in tubules[≥Medium]	0.0118012676693112	0.0118012676693112	+1	604
+HPA:0060101	bronchus; respiratory epithelial cells[≥Low]	0.012878890223072	0.012878890223072	+1	614
+HPA:0100201	cerebral cortex; endothelial cells[≥Low]	0.0141839363178696	0.0141839363178696	+1	492
+HPA:0130202	colon; endothelial cells[≥Medium]	0.0148342816563217	0.0148342816563217	+1	404
+HPA:0020052	adrenal gland; glandular cells[≥Medium]	0.0186942916849367	0.0186942916849367	+1	620
+HPA:0090161	cerebellum; Purkinje cells[≥Low]	0.0212909462928535	0.0212909462928535	+1	579
+HPA:0290000	liver	0.0222985875085366	0.0222985875085366	+1	645
+HPA:0210051	fallopian tube; glandular cells[≥Low]	0.0226477488647878	0.0226477488647878	+1	597
+HPA:0570742	testis; cells in seminiferous ducts[≥Medium]	0.0237000407850175	0.0237000407850175	+1	270
+HPA:0060102	bronchus; respiratory epithelial cells[≥Medium]	0.0289720798254938	0.0289720798254938	+1	518
+HPA:0010012	adipose tissue; adipocytes[≥Medium]	0.0298969115211375	0.0298969115211375	+1	256
+HPA:0580061	thymus; medullary cells[≥Low]	0.0316284039806278	0.0316284039806278	+1	10
+HPA:0010011	adipose tissue; adipocytes[≥Low]	0.0333317137822097	0.0333317137822097	+1	423
+HPA:0010000	adipose tissue	0.0333317137822097	0.0333317137822097	+1	423
+HPA:0380512	placenta; decidual cells[≥Medium]	0.0341596566566946	0.0341596566566946	+1	389
+HPA:0050091	breast; myoepithelial cells[≥Low]	0.0366870066497786	0.0366870066497786	+1	585
+HPA:0190222	esophagus; squamous epithelial cells[≥Medium]	0.0402174712472053	0.0402174712472053	+1	528
+HPA:0580063	thymus; medullary cells[High]	0.0432821097981536	0.0432821097981536	+1	5
+HPA:0340461	ovary; ovarian stroma cells[≥Low]	0.0448431476204421	0.0448431476204421	+1	426
+HPA:0641471	endometrium; lymphocytes[≥Low]	0.0451218077131336	0.0451218077131336	+1	10
+HPA:0550052	stomach 2; glandular cells[≥Medium]	0.046050939235472	0.046050939235472	+1	641
+REAC:R-HSA-168256	Immune System	1.19482100877412e-23	1.19482100877412e-23	+1	320
+REAC:R-HSA-1280215	Cytokine Signaling in Immune system	3.21787553633437e-21	3.21787553633437e-21	+1	151
+REAC:R-HSA-156842	Eukaryotic Translation Elongation	3.31760119480386e-15	3.31760119480386e-15	+1	40
+REAC:R-HSA-156902	Peptide chain elongation	4.00872493711467e-15	4.00872493711467e-15	+1	39
+REAC:R-HSA-1280218	Adaptive Immune System	2.21584791575464e-14	2.21584791575464e-14	+1	147
+REAC:R-HSA-2408557	Selenocysteine synthesis	2.50217011786429e-14	2.50217011786429e-14	+1	39
+REAC:R-HSA-192823	Viral mRNA Translation	3.11563044229438e-14	3.11563044229438e-14	+1	38
+REAC:R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency	1.04864457967852e-13	1.04864457967852e-13	+1	40
+REAC:R-HSA-72689	Formation of a pool of free 40S subunits	1.04864457967852e-13	1.04864457967852e-13	+1	40
+REAC:R-HSA-72764	Eukaryotic Translation Termination	1.80573314964005e-13	1.80573314964005e-13	+1	38
+REAC:R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane	1.80636469124006e-13	1.80636469124006e-13	+1	42
+REAC:R-HSA-9010553	Regulation of expression of SLITs and ROBOs	2.08211421992686e-13	2.08211421992686e-13	+1	53
+REAC:R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	4.16185913957916e-13	4.16185913957916e-13	+1	38
+REAC:R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression	7.62660538285638e-13	7.62660538285638e-13	+1	41
+REAC:R-HSA-2408522	Selenoamino acid metabolism	7.69184901789711e-13	7.69184901789711e-13	+1	42
+REAC:R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit	1.09409091100266e-12	1.09409091100266e-12	+1	41
+REAC:R-HSA-909733	Interferon alpha/beta signaling	7.77477627268928e-12	7.77477627268928e-12	+1	31
+REAC:R-HSA-72613	Eukaryotic Translation Initiation	1.19697383025129e-11	1.19697383025129e-11	+1	41
+REAC:R-HSA-72737	Cap-dependent Translation Initiation	1.19697383025129e-11	1.19697383025129e-11	+1	41
+REAC:R-HSA-376176	Signaling by ROBO receptors	1.35690024847109e-11	1.35690024847109e-11	+1	58
+REAC:R-HSA-913531	Interferon Signaling	5.56033752170634e-11	5.56033752170634e-11	+1	53
+REAC:R-HSA-927802	Nonsense-Mediated Decay (NMD)	9.4549267426192e-11	9.4549267426192e-11	+1	39
+REAC:R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	9.4549267426192e-11	9.4549267426192e-11	+1	39
+REAC:R-HSA-9711097	Cellular response to starvation	1.92097898841076e-10	1.92097898841076e-10	+1	46
+REAC:R-HSA-449147	Signaling by Interleukins	3.03662857399707e-09	3.03662857399707e-09	+1	90
+REAC:R-HSA-72766	Translation	3.58067228909825e-09	3.58067228909825e-09	+1	65
+REAC:R-HSA-877300	Interferon gamma signaling	5.25745572176321e-09	5.25745572176321e-09	+1	31
+REAC:R-HSA-168273	Influenza Viral RNA Transcription and Replication	1.20068131718959e-08	1.20068131718959e-08	+1	39
+REAC:R-HSA-168255	Influenza Infection	6.71004154727854e-08	6.71004154727854e-08	+1	41
+REAC:R-HSA-198933	Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	1.58834453003457e-07	1.58834453003457e-07	+1	45
+REAC:R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol	6.53792087801895e-07	6.53792087801895e-07	+1	44
+REAC:R-HSA-451927	Interleukin-2 family signaling	1.331758913646e-06	1.331758913646e-06	+1	19
+REAC:R-HSA-8953854	Metabolism of RNA	3.27987632185489e-06	3.27987632185489e-06	+1	110
+REAC:R-HSA-8868773	rRNA processing in the nucleus and cytosol	3.86273444961597e-06	3.86273444961597e-06	+1	44
+REAC:R-HSA-72312	rRNA processing	6.60635819086772e-06	6.60635819086772e-06	+1	45
+REAC:R-HSA-71291	Metabolism of amino acids and derivatives	1.70490337505819e-05	1.70490337505819e-05	+1	67
+REAC:R-HSA-9735869	SARS-CoV-1 modulates host translation machinery	2.42519729710972e-05	2.42519729710972e-05	+1	16
+REAC:R-HSA-388841	Costimulation by the CD28 family	3.07395659034126e-05	3.07395659034126e-05	+1	22
+REAC:R-HSA-202403	TCR signaling	3.72646298602512e-05	3.72646298602512e-05	+1	31
+REAC:R-HSA-1236974	ER-Phagosome pathway	3.76754342782516e-05	3.76754342782516e-05	+1	26
+REAC:R-HSA-5663205	Infectious disease	7.49588323643183e-05	7.49588323643183e-05	+1	139
+REAC:R-HSA-1236975	Antigen processing-Cross presentation	7.79653300203955e-05	7.79653300203955e-05	+1	28
+REAC:R-HSA-446652	Interleukin-1 family signaling	0.000100766132444059	0.000100766132444059	+1	35
+REAC:R-HSA-9692914	SARS-CoV-1-host interactions	0.000124301348099089	0.000124301348099089	+1	26
+REAC:R-HSA-72695	Formation of the ternary complex, and subsequently, the 43S complex	0.000203829609884303	0.000203829609884303	+1	18
+REAC:R-HSA-2262752	Cellular responses to stress	0.00030235488517501	0.00030235488517501	+1	112
+REAC:R-HSA-168898	Toll-like Receptor Cascades	0.000329924841448473	0.000329924841448473	+1	36
+REAC:R-HSA-9824446	Viral Infection Pathways	0.000353831926327162	0.000353831926327162	+1	115
+REAC:R-HSA-168249	Innate Immune System	0.000399026512768215	0.000399026512768215	+1	147
+REAC:R-HSA-9020702	Interleukin-1 signaling	0.000405584093588974	0.000405584093588974	+1	28
+REAC:R-HSA-8953897	Cellular responses to stimuli	0.000741166958454075	0.000741166958454075	+1	112
+REAC:R-HSA-5218859	Regulated Necrosis	0.00126632984068816	0.00126632984068816	+1	18
+REAC:R-HSA-174084	Autodegradation of Cdh1 by Cdh1:APC/C	0.00140432500953987	0.00140432500953987	+1	19
+REAC:R-HSA-389948	PD-1 signaling	0.00163660518895948	0.00163660518895948	+1	11
+REAC:R-HSA-72702	Ribosomal scanning and start codon recognition	0.00166863048451846	0.00166863048451846	+1	18
+REAC:R-HSA-72649	Translation initiation complex formation	0.00166863048451846	0.00166863048451846	+1	18
+REAC:R-HSA-72662	Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	0.00218282462030653	0.00218282462030653	+1	18
+REAC:R-HSA-166016	Toll Like Receptor 4 (TLR4) Cascade	0.00229141098751248	0.00229141098751248	+1	31
+REAC:R-HSA-9020958	Interleukin-21 signaling	0.00279448912461678	0.00279448912461678	+1	7
+REAC:R-HSA-9754678	SARS-CoV-2 modulates host translation machinery	0.0039550921943782	0.0039550921943782	+1	16
+REAC:R-HSA-5668541	TNFR2 non-canonical NF-kB pathway	0.00452558548926661	0.00452558548926661	+1	24
+REAC:R-HSA-1643685	Disease	0.00712507222932029	0.00712507222932029	+1	210
+REAC:R-HSA-202427	Phosphorylation of CD3 and TCR zeta chains	0.00836971970687387	0.00836971970687387	+1	10
+REAC:R-HSA-983169	Class I MHC mediated antigen processing & presentation	0.00927468554743165	0.00927468554743165	+1	60
+REAC:R-HSA-73887	Death Receptor Signaling	0.00975919007673893	0.00975919007673893	+1	31
+REAC:R-HSA-202424	Downstream TCR signaling	0.0102971889772092	0.0102971889772092	+1	23
+REAC:R-HSA-69017	CDK-mediated phosphorylation and removal of Cdc6	0.0115955396464918	0.0115955396464918	+1	19
+REAC:R-HSA-9678108	SARS-CoV-1 Infection	0.0117039149401325	0.0117039149401325	+1	29
+REAC:R-HSA-174178	APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	0.014286655754212	0.014286655754212	+1	19
+REAC:R-HSA-174154	APC/C:Cdc20 mediated degradation of Securin	0.0148727735898554	0.0148727735898554	+1	18
+REAC:R-HSA-9705683	SARS-CoV-2-host interactions	0.0226842318023899	0.0226842318023899	+1	36
+REAC:R-HSA-349425	Autodegradation of the E3 ubiquitin ligase COP1	0.0233317519759962	0.0233317519759962	+1	15
+REAC:R-HSA-169911	Regulation of Apoptosis	0.029830019698968	0.029830019698968	+1	15
+REAC:R-HSA-5357801	Programmed Cell Death	0.0324631452263361	0.0324631452263361	+1	37
+REAC:R-HSA-450408	AUF1 (hnRNP D0) binds and destabilizes mRNA	0.0378629449004717	0.0378629449004717	+1	15
+REAC:R-HSA-450531	Regulation of mRNA stability by proteins that bind AU-rich elements	0.0410212855099667	0.0410212855099667	+1	20
+REAC:R-HSA-174184	Cdc20:Phospho-APC/C mediated degradation of Cyclin A	0.0414110019551728	0.0414110019551728	+1	18
+REAC:R-HSA-5658442	Regulation of RAS by GAPs	0.0444190903721261	0.0444190903721261	+1	17
+REAC:R-HSA-1236978	Cross-presentation of soluble exogenous antigens (endosomes)	0.0470953179877128	0.0470953179877128	+1	14
+REAC:R-HSA-9006925	Intracellular signaling by second messengers	0.0472524004086591	0.0472524004086591	+1	47
+REAC:R-HSA-174113	SCF-beta-TrCP mediated degradation of Emi1	0.0477272921616114	0.0477272921616114	+1	15
+WP:WP477	Cytoplasmic ribosomal proteins	2.01856946804818e-15	2.01856946804818e-15	+1	38
+WP:WP2328	Allograft rejection	1.49636807893834e-09	1.49636807893834e-09	+1	31
+WP:WP5218	Extrafollicular and follicular B cell activation by SARS CoV 2	1.35033935669659e-08	1.35033935669659e-08	+1	27
+WP:WP183	Proteasome degradation	2.42710280353551e-07	2.42710280353551e-07	+1	23
+WP:WP4585	Cancer immunotherapy by PD 1 blockade	2.18887720567395e-06	2.18887720567395e-06	+1	13
+WP:WP619	Type II interferon signaling	6.48207687516638e-06	6.48207687516638e-06	+1	16
+WP:WP4630	Measles virus infection	5.17635258387463e-05	5.17635258387463e-05	+1	32
+WP:WP3945	TYROBP causal network in microglia	0.000122093571891294	0.000122093571891294	+1	19
+WP:WP4197	Immune response to tuberculosis	0.000160344979276523	0.000160344979276523	+1	11
+WP:WP5072	Modulators of TCR signaling and T cell activation	0.000162668054770111	0.000162668054770111	+1	19
+WP:WP4868	Type I interferon induction and signaling during SARS CoV 2 infection	0.000199867402116824	0.000199867402116824	+1	13
+WP:WP5362	TAR syndrome	0.000215160600074454	0.000215160600074454	+1	19
+WP:WP5078	T cell modulation in pancreatic cancer	0.000230559692577171	0.000230559692577171	+1	16
+WP:WP5115	Network map of SARS CoV 2 signaling pathway	0.000598465240282921	0.000598465240282921	+1	41
+WP:WP4217	Ebola virus infection in host	0.00133162060761286	0.00133162060761286	+1	28
+WP:WP75	Toll like receptor signaling pathway	0.00195197893982365	0.00195197893982365	+1	24
+WP:WP5039	SARS CoV 2 innate immunity evasion and cell specific immune response	0.00257501990376127	0.00257501990376127	+1	18
+WP:WP5098	T cell activation SARS CoV 2	0.00474950626898707	0.00474950626898707	+1	21
+WP:WP3937	Microglia pathogen phagocytosis pathway	0.0054409694359877	0.0054409694359877	+1	13
+WP:WP4559	Interactions between immune cells and microRNAs in tumor microenvironment	0.00809797796098019	0.00809797796098019	+1	14
+WP:WP3929	Chemokine signaling pathway	0.0107933338535506	0.0107933338535506	+1	31
+WP:WP49	IL 2 signaling pathway	0.0113689417878389	0.0113689417878389	+1	12
+WP:WP5092	Interactions of natural killer cells in pancreatic cancer	0.0132443774112008	0.0132443774112008	+1	10
+WP:WP5187	mRNA vaccine activation of dendritic cell and induction of IFN 1	0.0159356668812114	0.0159356668812114	+1	6
+WP:WP3851	TLR4 signaling and tolerance	0.0189632299253354	0.0189632299253354	+1	10
+WP:WP5284	Cell interactions of the pancreatic cancer microenvironment	0.0398455729406638	0.0398455729406638	+1	9
+WP:WP254	Apoptosis	0.0409147172629485	0.0409147172629485	+1	19
+WP:WP585	Interferon type I signaling pathways	0.0425377931022046	0.0425377931022046	+1	14
+WP:WP5198	Inflammatory bowel disease signaling	0.0446217982774642	0.0446217982774642	+1	12
+WP:WP3858	Toll like receptor signaling related to MyD88	0.049998766911394	0.049998766911394	+1	10

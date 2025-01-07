@@ -1,0 +1,4 @@
+GO.ID	Description	p.Val	FDR	Phenotype	Genes
+CORUM:6692	PI4K2A-PLDN complex	0.0499316934433554	0.0499316934433554	+1	1
+HP:0031422	Abnormal cerebellar cortex morphology	0.0236776891459028	0.0236776891459028	+1	2
+HP:0003548	Subsarcolemmal accumulations of abnormally shaped mitochondria	0.0354878639107829	0.0354878639107829	+1	2
