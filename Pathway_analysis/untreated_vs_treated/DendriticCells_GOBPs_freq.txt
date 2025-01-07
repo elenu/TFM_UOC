@@ -1,0 +1,2386 @@
+Var1	Var2	Freq
+40S ribosomal subunit, cytoplasmic	GSE22155_02	0
+Abnormal nervous system morphology	GSE22155_02	0
+adipose tissue	GSE22155_02	1
+adipose tissue; adipocytes[≥Low]	GSE22155_02	1
+adipose tissue; adipocytes[≥Medium]	GSE22155_02	1
+adrenal gland	GSE22155_02	1
+adrenal gland; glandular cells[≥Low]	GSE22155_02	1
+adrenal gland; glandular cells[≥Medium]	GSE22155_02	1
+adrenal gland; glandular cells[High]	GSE22155_02	1
+amide biosynthetic process	GSE22155_02	1
+amide metabolic process	GSE22155_02	1
+anion binding	GSE22155_02	1
+apoptotic process	GSE22155_02	0
+appendix	GSE22155_02	1
+appendix; glandular cells[≥Low]	GSE22155_02	1
+appendix; glandular cells[≥Medium]	GSE22155_02	1
+appendix; lymphoid tissue[≥Low]	GSE22155_02	1
+appendix; lymphoid tissue[≥Medium]	GSE22155_02	1
+aromatic compound biosynthetic process	GSE22155_02	1
+aromatic compound catabolic process	GSE22155_02	1
+autophagy	GSE22155_02	1
+binding	GSE22155_02	1
+biological regulation	GSE22155_02	1
+bone marrow	GSE22155_02	1
+bone marrow; hematopoietic cells[≥Low]	GSE22155_02	1
+bone marrow; hematopoietic cells[≥Medium]	GSE22155_02	1
+bounding membrane of organelle	GSE22155_02	1
+breast	GSE22155_02	1
+breast; adipocytes[≥Low]	GSE22155_02	1
+breast; adipocytes[≥Medium]	GSE22155_02	1
+breast; glandular cells[≥Low]	GSE22155_02	1
+breast; glandular cells[≥Medium]	GSE22155_02	1
+breast; myoepithelial cells[≥Low]	GSE22155_02	1
+breast; myoepithelial cells[≥Medium]	GSE22155_02	1
+bronchus	GSE22155_02	1
+bronchus; basal cells[≥Low]	GSE22155_02	1
+bronchus; basal cells[≥Medium]	GSE22155_02	1
+bronchus; respiratory epithelial cells[≥Low]	GSE22155_02	1
+bronchus; respiratory epithelial cells[≥Medium]	GSE22155_02	1
+Cap-dependent Translation Initiation	GSE22155_02	1
+carbohydrate derivative binding	GSE22155_02	1
+carbohydrate derivative metabolic process	GSE22155_02	1
+carboxylic acid metabolic process	GSE22155_02	1
+catabolic process	GSE22155_02	1
+catalytic activity	GSE22155_02	1
+catalytic activity, acting on a protein	GSE22155_02	1
+catalytic complex	GSE22155_02	1
+caudate	GSE22155_02	1
+caudate; glial cells[≥Low]	GSE22155_02	1
+caudate; neuronal cells[≥Low]	GSE22155_02	1
+caudate; neuronal cells[≥Medium]	GSE22155_02	1
+cell cycle	GSE22155_02	1
+cell cycle phase transition	GSE22155_02	1
+cell cycle process	GSE22155_02	1
+cell-substrate junction	GSE22155_02	1
+cellular catabolic process	GSE22155_02	1
+cellular lipid metabolic process	GSE22155_02	1
+cellular localization	GSE22155_02	1
+cellular nitrogen compound biosynthetic process	GSE22155_02	1
+Cellular response to starvation	GSE22155_02	1
+cellular response to stress	GSE22155_02	1
+Cellular responses to stimuli	GSE22155_02	0
+Cellular responses to stress	GSE22155_02	1
+cerebellum	GSE22155_02	1
+cerebellum; cells in granular layer[≥Low]	GSE22155_02	1
+cerebellum; cells in granular layer[≥Medium]	GSE22155_02	1
+cerebellum; cells in molecular layer[≥Low]	GSE22155_02	1
+cerebellum; cells in molecular layer[≥Medium]	GSE22155_02	1
+cerebellum; Purkinje cells[≥Low]	GSE22155_02	1
+cerebellum; Purkinje cells[≥Medium]	GSE22155_02	1
+cerebellum; Purkinje cells[High]	GSE22155_02	1
+cerebral cortex	GSE22155_02	1
+cerebral cortex; endothelial cells[≥Low]	GSE22155_02	1
+cerebral cortex; endothelial cells[≥Medium]	GSE22155_02	1
+cerebral cortex; glial cells[≥Low]	GSE22155_02	1
+cerebral cortex; glial cells[≥Medium]	GSE22155_02	1
+cerebral cortex; neuronal cells[≥Low]	GSE22155_02	1
+cerebral cortex; neuronal cells[≥Medium]	GSE22155_02	1
+cerebral cortex; neuronal cells[High]	GSE22155_02	1
+cerebral cortex; neuropil[≥Low]	GSE22155_02	1
+cerebral cortex; neuropil[≥Medium]	GSE22155_02	1
+cervix	GSE22155_02	1
+cervix; glandular cells[≥Low]	GSE22155_02	1
+cervix; glandular cells[≥Medium]	GSE22155_02	1
+cervix; squamous epithelial cells[≥Low]	GSE22155_02	1
+cervix; squamous epithelial cells[≥Medium]	GSE22155_02	1
+colon	GSE22155_02	1
+colon; endothelial cells[≥Low]	GSE22155_02	1
+colon; endothelial cells[≥Medium]	GSE22155_02	1
+colon; glandular cells[≥Low]	GSE22155_02	1
+colon; glandular cells[≥Medium]	GSE22155_02	1
+colon; glandular cells[High]	GSE22155_02	1
+colon; peripheral nerve/ganglion[≥Low]	GSE22155_02	1
+colon; peripheral nerve/ganglion[≥Medium]	GSE22155_02	1
+cytoplasm	GSE22155_02	1
+Cytoplasmic ribosomal proteins	GSE22155_02	1
+cytoplasmic translation	GSE22155_02	1
+cytoplasmic vesicle	GSE22155_02	1
+cytoplasmic vesicle membrane	GSE22155_02	0
+cytosol	GSE22155_02	1
+cytosolic large ribosomal subunit	GSE22155_02	1
+cytosolic ribosome	GSE22155_02	1
+cytosolic small ribosomal subunit	GSE22155_02	1
+DNA damage response	GSE22155_02	1
+DNA metabolic process	GSE22155_02	1
+DNA repair	GSE22155_02	1
+duodenum	GSE22155_02	1
+duodenum; glandular cells[≥Low]	GSE22155_02	1
+duodenum; glandular cells[≥Medium]	GSE22155_02	1
+duodenum; glandular cells[High]	GSE22155_02	1
+endomembrane system	GSE22155_02	1
+endometrium 1	GSE22155_02	1
+endometrium 1; cells in endometrial stroma[≥Low]	GSE22155_02	1
+endometrium 1; cells in endometrial stroma[≥Medium]	GSE22155_02	1
+endometrium 1; glandular cells[≥Low]	GSE22155_02	1
+endometrium 1; glandular cells[≥Medium]	GSE22155_02	1
+endometrium 2	GSE22155_02	1
+endometrium 2; cells in endometrial stroma[≥Low]	GSE22155_02	1
+endometrium 2; cells in endometrial stroma[≥Medium]	GSE22155_02	1
+endometrium 2; glandular cells[≥Low]	GSE22155_02	1
+endometrium 2; glandular cells[≥Medium]	GSE22155_02	1
+endoplasmic reticulum	GSE22155_02	1
+endoplasmic reticulum membrane	GSE22155_02	1
+endoplasmic reticulum subcompartment	GSE22155_02	1
+endosome	GSE22155_02	0
+endosome membrane	GSE22155_02	0
+envelope	GSE22155_02	1
+enzyme binding	GSE22155_02	1
+epididymis	GSE22155_02	1
+epididymis; glandular cells[≥Low]	GSE22155_02	1
+epididymis; glandular cells[≥Medium]	GSE22155_02	1
+esophagus	GSE22155_02	1
+esophagus; squamous epithelial cells[≥Low]	GSE22155_02	1
+esophagus; squamous epithelial cells[≥Medium]	GSE22155_02	1
+esophagus; squamous epithelial cells[High]	GSE22155_02	1
+establishment of localization	GSE22155_02	0
+establishment of localization in cell	GSE22155_02	1
+Eukaryotic Translation Elongation	GSE22155_02	1
+Eukaryotic Translation Initiation	GSE22155_02	1
+Eukaryotic Translation Termination	GSE22155_02	1
+extracellular exosome	GSE22155_02	1
+extracellular membrane-bounded organelle	GSE22155_02	1
+extracellular organelle	GSE22155_02	1
+extracellular vesicle	GSE22155_02	1
+fallopian tube	GSE22155_02	1
+fallopian tube; glandular cells[≥Low]	GSE22155_02	1
+fallopian tube; glandular cells[≥Medium]	GSE22155_02	1
+focal adhesion	GSE22155_02	1
+Formation of a pool of free 40S subunits	GSE22155_02	1
+gallbladder	GSE22155_02	1
+gallbladder; glandular cells[≥Low]	GSE22155_02	1
+gallbladder; glandular cells[≥Medium]	GSE22155_02	1
+gallbladder; glandular cells[High]	GSE22155_02	1
+generation of precursor metabolites and energy	GSE22155_02	1
+glucose 6-phosphate metabolic process	GSE22155_02	1
+glycerolipid biosynthetic process	GSE22155_02	1
+glycerolipid metabolic process	GSE22155_02	1
+glycerophospholipid biosynthetic process	GSE22155_02	1
+glycerophospholipid metabolic process	GSE22155_02	1
+Golgi apparatus	GSE22155_02	1
+Golgi membrane	GSE22155_02	0
+GTP hydrolysis and joining of the 60S ribosomal subunit	GSE22155_02	1
+heart muscle	GSE22155_02	1
+heart muscle; cardiomyocytes[≥Low]	GSE22155_02	1
+heart muscle; cardiomyocytes[≥Medium]	GSE22155_02	1
+heterocycle biosynthetic process	GSE22155_02	1
+heterocyclic compound binding	GSE22155_02	1
+hippocampus	GSE22155_02	1
+hippocampus; glial cells[≥Low]	GSE22155_02	1
+hippocampus; neuronal cells[≥Low]	GSE22155_02	1
+hippocampus; neuronal cells[≥Medium]	GSE22155_02	1
+hsa-miR-16-5p	GSE22155_02	0
+hsa-miR-193b-3p	GSE22155_02	1
+hsa-miR-423-5p	GSE22155_02	1
+hsa-miR-615-3p	GSE22155_02	1
+hydrolase activity	GSE22155_02	1
+hydrolase activity, acting on ester bonds	GSE22155_02	1
+Influenza Infection	GSE22155_02	1
+Influenza Viral RNA Transcription and Replication	GSE22155_02	1
+intracellular anatomical structure	GSE22155_02	1
+intracellular membrane-bounded organelle	GSE22155_02	1
+intracellular organelle	GSE22155_02	1
+intracellular organelle lumen	GSE22155_02	1
+intracellular pH reduction	GSE22155_02	1
+intracellular protein-containing complex	GSE22155_02	1
+intracellular transport	GSE22155_02	1
+intracellular vesicle	GSE22155_02	1
+ion binding	GSE22155_02	1
+kidney	GSE22155_02	1
+kidney; cells in glomeruli[≥Low]	GSE22155_02	1
+kidney; cells in tubules[≥Low]	GSE22155_02	1
+kidney; cells in tubules[≥Medium]	GSE22155_02	1
+kidney; cells in tubules[High]	GSE22155_02	1
+L13a-mediated translational silencing of Ceruloplasmin expression	GSE22155_02	1
+large ribosomal subunit	GSE22155_02	1
+liver	GSE22155_02	1
+liver; cholangiocytes[≥Low]	GSE22155_02	1
+liver; cholangiocytes[≥Medium]	GSE22155_02	1
+liver; hepatocytes[≥Low]	GSE22155_02	1
+liver; hepatocytes[≥Medium]	GSE22155_02	1
+localization	GSE22155_02	1
+lung	GSE22155_02	1
+lung; alveolar cells[≥Low]	GSE22155_02	1
+lung; alveolar cells[≥Medium]	GSE22155_02	1
+lung; macrophages[≥Low]	GSE22155_02	1
+lung; macrophages[≥Medium]	GSE22155_02	1
+lymph node	GSE22155_02	1
+lymph node; germinal center cells[≥Low]	GSE22155_02	1
+lymph node; germinal center cells[≥Medium]	GSE22155_02	1
+lymph node; non-germinal center cells[≥Low]	GSE22155_02	1
+lymph node; non-germinal center cells[≥Medium]	GSE22155_02	1
+lymph node; non-germinal center cells[High]	GSE22155_02	1
+lysosomal lumen acidification	GSE22155_02	1
+lysosomal membrane	GSE22155_02	1
+lysosome	GSE22155_02	0
+lysosome organization	GSE22155_02	0
+lytic vacuole	GSE22155_02	0
+lytic vacuole membrane	GSE22155_02	1
+lytic vacuole organization	GSE22155_02	0
+macroautophagy	GSE22155_02	1
+macromolecule catabolic process	GSE22155_02	1
+macromolecule modification	GSE22155_02	1
+Major pathway of rRNA processing in the nucleolus and cytosol	GSE22155_02	1
+membrane	GSE22155_02	1
+membrane-bounded organelle	GSE22155_02	1
+membrane-enclosed lumen	GSE22155_02	1
+Metabolism	GSE22155_02	1
+Metabolism of amino acids and derivatives	GSE22155_02	1
+Metabolism of proteins	GSE22155_02	1
+mitochondrial envelope	GSE22155_02	1
+mitochondrial inner membrane	GSE22155_02	1
+mitochondrial matrix	GSE22155_02	1
+mitochondrial membrane	GSE22155_02	1
+mitochondrial outer membrane	GSE22155_02	1
+mitochondrial translation	GSE22155_02	0
+mitochondrion	GSE22155_02	1
+mitochondrion organization	GSE22155_02	1
+mitotic cell cycle	GSE22155_02	1
+mitotic cell cycle phase transition	GSE22155_02	1
+mitotic cell cycle process	GSE22155_02	0
+modification-dependent macromolecule catabolic process	GSE22155_02	1
+modification-dependent protein catabolic process	GSE22155_02	1
+NADPH regeneration	GSE22155_02	0
+nasopharynx	GSE22155_02	1
+nasopharynx; basal cells[≥Low]	GSE22155_02	1
+nasopharynx; basal cells[≥Medium]	GSE22155_02	1
+nasopharynx; ciliated cells (cell body)[≥Medium]	GSE22155_02	1
+nasopharynx; respiratory epithelial cells[≥Low]	GSE22155_02	1
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE22155_02	1
+ncRNA metabolic process	GSE22155_02	1
+ncRNA processing	GSE22155_02	1
+negative regulation of cellular process	GSE22155_02	0
+nicotinamide nucleotide metabolic process	GSE22155_02	1
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE22155_02	1
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE22155_02	1
+Nonsense-Mediated Decay (NMD)	GSE22155_02	1
+Nop56p-associated pre-rRNA complex	GSE22155_02	0
+nuclear lumen	GSE22155_02	1
+nuclear outer membrane-endoplasmic reticulum membrane network	GSE22155_02	1
+nucleobase-containing compound biosynthetic process	GSE22155_02	1
+nucleobase-containing compound catabolic process	GSE22155_02	1
+nucleobase-containing small molecule metabolic process	GSE22155_02	1
+nucleoplasm	GSE22155_02	1
+nucleoside phosphate binding	GSE22155_02	1
+nucleoside phosphate metabolic process	GSE22155_02	1
+nucleotide binding	GSE22155_02	1
+nucleotide metabolic process	GSE22155_02	1
+oral mucosa	GSE22155_02	1
+oral mucosa; squamous epithelial cells[≥Low]	GSE22155_02	1
+oral mucosa; squamous epithelial cells[≥Medium]	GSE22155_02	1
+organelle	GSE22155_02	1
+organelle envelope	GSE22155_02	1
+organelle inner membrane	GSE22155_02	1
+organelle localization	GSE22155_02	1
+organelle lumen	GSE22155_02	1
+organelle membrane	GSE22155_02	1
+organelle organization	GSE22155_02	1
+organelle outer membrane	GSE22155_02	1
+organelle subcompartment	GSE22155_02	1
+organic acid metabolic process	GSE22155_02	0
+organic cyclic compound biosynthetic process	GSE22155_02	1
+organic substance catabolic process	GSE22155_02	1
+organic substance transport	GSE22155_02	0
+organonitrogen compound biosynthetic process	GSE22155_02	1
+organonitrogen compound catabolic process	GSE22155_02	1
+organonitrogen compound metabolic process	GSE22155_02	1
+organophosphate biosynthetic process	GSE22155_02	1
+organophosphate metabolic process	GSE22155_02	1
+outer membrane	GSE22155_02	1
+ovary	GSE22155_02	1
+ovary; follicle cells[≥Low]	GSE22155_02	1
+ovary; follicle cells[≥Medium]	GSE22155_02	1
+ovary; ovarian stroma cells[≥Low]	GSE22155_02	1
+oxoacid metabolic process	GSE22155_02	1
+pancreas	GSE22155_02	1
+pancreas; exocrine glandular cells[≥Low]	GSE22155_02	1
+pancreas; exocrine glandular cells[≥Medium]	GSE22155_02	1
+pancreas; exocrine glandular cells[High]	GSE22155_02	1
+pancreas; pancreatic endocrine cells[≥Low]	GSE22155_02	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE22155_02	1
+parathyroid gland	GSE22155_02	1
+parathyroid gland; glandular cells[≥Low]	GSE22155_02	1
+parathyroid gland; glandular cells[≥Medium]	GSE22155_02	1
+pentose-phosphate shunt	GSE22155_02	1
+peptide biosynthetic process	GSE22155_02	1
+Peptide chain elongation	GSE22155_02	1
+peptide metabolic process	GSE22155_02	1
+perinuclear region of cytoplasm	GSE22155_02	1
+phosphate-containing compound metabolic process	GSE22155_02	1
+phospholipid biosynthetic process	GSE22155_02	1
+phosphorus metabolic process	GSE22155_02	1
+pigment biosynthetic process	GSE22155_02	1
+placenta	GSE22155_02	1
+placenta; decidual cells[≥Low]	GSE22155_02	1
+placenta; decidual cells[≥Medium]	GSE22155_02	1
+placenta; trophoblastic cells[≥Low]	GSE22155_02	1
+placenta; trophoblastic cells[≥Medium]	GSE22155_02	1
+placenta; trophoblastic cells[High]	GSE22155_02	1
+porphyrin-containing compound biosynthetic process	GSE22155_02	0
+positive regulation of biological process	GSE22155_02	1
+positive regulation of biosynthetic process	GSE22155_02	0
+positive regulation of cellular biosynthetic process	GSE22155_02	0
+positive regulation of cellular metabolic process	GSE22155_02	0
+positive regulation of cellular process	GSE22155_02	1
+positive regulation of macromolecule metabolic process	GSE22155_02	0
+positive regulation of metabolic process	GSE22155_02	1
+positive regulation of nitrogen compound metabolic process	GSE22155_02	0
+process utilizing autophagic mechanism	GSE22155_02	1
+prostate	GSE22155_02	1
+prostate; glandular cells[≥Low]	GSE22155_02	1
+prostate; glandular cells[≥Medium]	GSE22155_02	1
+protein binding	GSE22155_02	1
+protein catabolic process	GSE22155_02	1
+protein metabolic process	GSE22155_02	1
+protein modification process	GSE22155_02	1
+proteolysis involved in protein catabolic process	GSE22155_02	1
+purine nucleotide binding	GSE22155_02	1
+purine nucleotide metabolic process	GSE22155_02	1
+purine ribonucleoside triphosphate binding	GSE22155_02	1
+purine ribonucleotide binding	GSE22155_02	1
+purine-containing compound metabolic process	GSE22155_02	1
+pyridine nucleotide metabolic process	GSE22155_02	1
+pyridine-containing compound metabolic process	GSE22155_02	1
+RAB GEFs exchange GTP for GDP on RABs	GSE22155_02	0
+rectum	GSE22155_02	1
+rectum; glandular cells[≥Low]	GSE22155_02	1
+rectum; glandular cells[≥Medium]	GSE22155_02	1
+rectum; glandular cells[High]	GSE22155_02	1
+regulation of amide metabolic process	GSE22155_02	1
+regulation of catabolic process	GSE22155_02	1
+regulation of cell cycle	GSE22155_02	1
+regulation of cellular catabolic process	GSE22155_02	0
+regulation of cellular component organization	GSE22155_02	1
+regulation of DNA metabolic process	GSE22155_02	1
+Regulation of expression of SLITs and ROBOs	GSE22155_02	1
+regulation of lysosomal lumen pH	GSE22155_02	1
+regulation of metabolic process	GSE22155_02	0
+regulation of mitotic cell cycle	GSE22155_02	0
+regulation of nitrogen compound metabolic process	GSE22155_02	1
+regulation of nucleobase-containing compound metabolic process	GSE22155_02	1
+regulation of primary metabolic process	GSE22155_02	1
+regulation of protein metabolic process	GSE22155_02	1
+regulation of translation	GSE22155_02	1
+Response of EIF2AK4 (GCN2) to amino acid deficiency	GSE22155_02	1
+ribonucleoprotein complex binding	GSE22155_02	0
+ribonucleotide binding	GSE22155_02	1
+ribosomal small subunit biogenesis	GSE22155_02	0
+ribosomal subunit	GSE22155_02	1
+ribosome assembly	GSE22155_02	0
+ribosome biogenesis	GSE22155_02	1
+Ribosome, cytoplasmic	GSE22155_02	1
+rRNA metabolic process	GSE22155_02	1
+rRNA processing	GSE22155_02	2
+rRNA processing in the nucleus and cytosol	GSE22155_02	1
+salivary gland	GSE22155_02	1
+salivary gland; glandular cells[≥Low]	GSE22155_02	1
+salivary gland; glandular cells[≥Medium]	GSE22155_02	1
+SARS-CoV-1 modulates host translation machinery	GSE22155_02	1
+SARS-CoV-2 modulates host translation machinery	GSE22155_02	1
+Selenoamino acid metabolism	GSE22155_02	1
+Selenocysteine synthesis	GSE22155_02	1
+seminal vesicle	GSE22155_02	1
+seminal vesicle; glandular cells[≥Low]	GSE22155_02	1
+seminal vesicle; glandular cells[≥Medium]	GSE22155_02	1
+Signaling by ROBO receptors	GSE22155_02	1
+skeletal muscle	GSE22155_02	1
+skeletal muscle; myocytes[≥Low]	GSE22155_02	1
+skeletal muscle; myocytes[≥Medium]	GSE22155_02	1
+skin 1	GSE22155_02	1
+skin 1; fibroblasts[≥Low]	GSE22155_02	1
+skin 1; fibroblasts[≥Medium]	GSE22155_02	1
+skin 1; keratinocytes[≥Low]	GSE22155_02	1
+skin 1; keratinocytes[≥Medium]	GSE22155_02	1
+skin 1; keratinocytes[High]	GSE22155_02	1
+skin 1; Langerhans[≥Low]	GSE22155_02	1
+skin 1; Langerhans[≥Medium]	GSE22155_02	1
+skin 1; melanocytes[≥Low]	GSE22155_02	1
+skin 1; melanocytes[≥Medium]	GSE22155_02	1
+skin 2	GSE22155_02	1
+skin 2; epidermal cells[≥Low]	GSE22155_02	1
+skin 2; epidermal cells[≥Medium]	GSE22155_02	1
+skin 2; epidermal cells[High]	GSE22155_02	1
+small intestine	GSE22155_02	1
+small intestine; glandular cells[≥Low]	GSE22155_02	1
+small intestine; glandular cells[≥Medium]	GSE22155_02	1
+small intestine; glandular cells[High]	GSE22155_02	1
+small molecule binding	GSE22155_02	1
+small molecule metabolic process	GSE22155_02	1
+small ribosomal subunit	GSE22155_02	1
+smooth muscle	GSE22155_02	1
+smooth muscle; smooth muscle cells[≥Low]	GSE22155_02	1
+smooth muscle; smooth muscle cells[≥Medium]	GSE22155_02	1
+soft tissue 1	GSE22155_02	1
+soft tissue 1; chondrocytes[≥Low]	GSE22155_02	1
+soft tissue 1; chondrocytes[≥Medium]	GSE22155_02	1
+soft tissue 1; fibroblasts[≥Low]	GSE22155_02	1
+soft tissue 1; fibroblasts[≥Medium]	GSE22155_02	1
+soft tissue 1; peripheral nerve[≥Low]	GSE22155_02	1
+soft tissue 2	GSE22155_02	1
+soft tissue 2; fibroblasts[≥Low]	GSE22155_02	1
+soft tissue 2; fibroblasts[≥Medium]	GSE22155_02	1
+spleen	GSE22155_02	1
+spleen; cells in red pulp[≥Low]	GSE22155_02	1
+spleen; cells in red pulp[≥Medium]	GSE22155_02	1
+spleen; cells in white pulp[≥Low]	GSE22155_02	1
+spleen; cells in white pulp[≥Medium]	GSE22155_02	1
+SRP-dependent cotranslational protein targeting to membrane	GSE22155_02	1
+stomach 1	GSE22155_02	1
+stomach 1; glandular cells[≥Low]	GSE22155_02	1
+stomach 1; glandular cells[≥Medium]	GSE22155_02	1
+stomach 1; glandular cells[High]	GSE22155_02	1
+stomach 2	GSE22155_02	1
+stomach 2; glandular cells[≥Low]	GSE22155_02	1
+stomach 2; glandular cells[≥Medium]	GSE22155_02	1
+stomach 2; glandular cells[High]	GSE22155_02	1
+testis	GSE22155_02	1
+testis; cells in seminiferous ducts[≥Low]	GSE22155_02	1
+testis; cells in seminiferous ducts[≥Medium]	GSE22155_02	1
+testis; Leydig cells[≥Low]	GSE22155_02	1
+testis; Leydig cells[≥Medium]	GSE22155_02	1
+testis; Leydig cells[High]	GSE22155_02	1
+tetrapyrrole biosynthetic process	GSE22155_02	0
+thyroid gland	GSE22155_02	1
+thyroid gland; glandular cells[≥Low]	GSE22155_02	1
+thyroid gland; glandular cells[≥Medium]	GSE22155_02	1
+thyroid gland; glandular cells[High]	GSE22155_02	1
+tonsil	GSE22155_02	1
+tonsil; germinal center cells[≥Low]	GSE22155_02	1
+tonsil; germinal center cells[≥Medium]	GSE22155_02	1
+tonsil; non-germinal center cells[≥Low]	GSE22155_02	1
+tonsil; non-germinal center cells[≥Medium]	GSE22155_02	1
+tonsil; squamous epithelial cells[≥Low]	GSE22155_02	1
+tonsil; squamous epithelial cells[≥Medium]	GSE22155_02	1
+transferase complex	GSE22155_02	1
+translation	GSE22155_02	1
+Translation	GSE22155_02	1
+translation regulator activity	GSE22155_02	0
+transport	GSE22155_02	1
+TRAPP complex	GSE22155_02	1
+TRAPPII protein complex	GSE22155_02	1
+TRAPPIII protein complex	GSE22155_02	1
+ubiquitin-dependent protein catabolic process	GSE22155_02	1
+urinary bladder	GSE22155_02	1
+urinary bladder; urothelial cells[≥Low]	GSE22155_02	1
+urinary bladder; urothelial cells[≥Medium]	GSE22155_02	1
+vacuolar acidification	GSE22155_02	0
+vacuolar membrane	GSE22155_02	1
+vacuole	GSE22155_02	1
+vacuole organization	GSE22155_02	1
+vagina	GSE22155_02	1
+vagina; squamous epithelial cells[≥Low]	GSE22155_02	1
+vagina; squamous epithelial cells[≥Medium]	GSE22155_02	1
+vesicle	GSE22155_02	1
+vesicle membrane	GSE22155_02	0
+vesicle tethering complex	GSE22155_02	1
+vesicle-mediated transport	GSE22155_02	0
+Viral mRNA Translation	GSE22155_02	1
+40S ribosomal subunit, cytoplasmic	GSE22155_47	0
+Abnormal nervous system morphology	GSE22155_47	0
+adipose tissue	GSE22155_47	1
+adipose tissue; adipocytes[≥Low]	GSE22155_47	1
+adipose tissue; adipocytes[≥Medium]	GSE22155_47	1
+adrenal gland	GSE22155_47	1
+adrenal gland; glandular cells[≥Low]	GSE22155_47	1
+adrenal gland; glandular cells[≥Medium]	GSE22155_47	1
+adrenal gland; glandular cells[High]	GSE22155_47	1
+amide biosynthetic process	GSE22155_47	1
+amide metabolic process	GSE22155_47	1
+anion binding	GSE22155_47	1
+apoptotic process	GSE22155_47	0
+appendix	GSE22155_47	1
+appendix; glandular cells[≥Low]	GSE22155_47	1
+appendix; glandular cells[≥Medium]	GSE22155_47	1
+appendix; lymphoid tissue[≥Low]	GSE22155_47	1
+appendix; lymphoid tissue[≥Medium]	GSE22155_47	1
+aromatic compound biosynthetic process	GSE22155_47	1
+aromatic compound catabolic process	GSE22155_47	0
+autophagy	GSE22155_47	1
+binding	GSE22155_47	1
+biological regulation	GSE22155_47	1
+bone marrow	GSE22155_47	1
+bone marrow; hematopoietic cells[≥Low]	GSE22155_47	1
+bone marrow; hematopoietic cells[≥Medium]	GSE22155_47	1
+bounding membrane of organelle	GSE22155_47	1
+breast	GSE22155_47	1
+breast; adipocytes[≥Low]	GSE22155_47	1
+breast; adipocytes[≥Medium]	GSE22155_47	1
+breast; glandular cells[≥Low]	GSE22155_47	1
+breast; glandular cells[≥Medium]	GSE22155_47	1
+breast; myoepithelial cells[≥Low]	GSE22155_47	1
+breast; myoepithelial cells[≥Medium]	GSE22155_47	1
+bronchus	GSE22155_47	1
+bronchus; basal cells[≥Low]	GSE22155_47	0
+bronchus; basal cells[≥Medium]	GSE22155_47	1
+bronchus; respiratory epithelial cells[≥Low]	GSE22155_47	1
+bronchus; respiratory epithelial cells[≥Medium]	GSE22155_47	1
+Cap-dependent Translation Initiation	GSE22155_47	1
+carbohydrate derivative binding	GSE22155_47	1
+carbohydrate derivative metabolic process	GSE22155_47	1
+carboxylic acid metabolic process	GSE22155_47	1
+catabolic process	GSE22155_47	1
+catalytic activity	GSE22155_47	1
+catalytic activity, acting on a protein	GSE22155_47	1
+catalytic complex	GSE22155_47	1
+caudate	GSE22155_47	1
+caudate; glial cells[≥Low]	GSE22155_47	1
+caudate; neuronal cells[≥Low]	GSE22155_47	1
+caudate; neuronal cells[≥Medium]	GSE22155_47	1
+cell cycle	GSE22155_47	1
+cell cycle phase transition	GSE22155_47	1
+cell cycle process	GSE22155_47	1
+cell-substrate junction	GSE22155_47	1
+cellular catabolic process	GSE22155_47	1
+cellular lipid metabolic process	GSE22155_47	1
+cellular localization	GSE22155_47	1
+cellular nitrogen compound biosynthetic process	GSE22155_47	1
+Cellular response to starvation	GSE22155_47	1
+cellular response to stress	GSE22155_47	1
+Cellular responses to stimuli	GSE22155_47	1
+Cellular responses to stress	GSE22155_47	1
+cerebellum	GSE22155_47	1
+cerebellum; cells in granular layer[≥Low]	GSE22155_47	1
+cerebellum; cells in granular layer[≥Medium]	GSE22155_47	1
+cerebellum; cells in molecular layer[≥Low]	GSE22155_47	1
+cerebellum; cells in molecular layer[≥Medium]	GSE22155_47	1
+cerebellum; Purkinje cells[≥Low]	GSE22155_47	1
+cerebellum; Purkinje cells[≥Medium]	GSE22155_47	1
+cerebellum; Purkinje cells[High]	GSE22155_47	1
+cerebral cortex	GSE22155_47	1
+cerebral cortex; endothelial cells[≥Low]	GSE22155_47	1
+cerebral cortex; endothelial cells[≥Medium]	GSE22155_47	1
+cerebral cortex; glial cells[≥Low]	GSE22155_47	1
+cerebral cortex; glial cells[≥Medium]	GSE22155_47	1
+cerebral cortex; neuronal cells[≥Low]	GSE22155_47	1
+cerebral cortex; neuronal cells[≥Medium]	GSE22155_47	1
+cerebral cortex; neuronal cells[High]	GSE22155_47	1
+cerebral cortex; neuropil[≥Low]	GSE22155_47	1
+cerebral cortex; neuropil[≥Medium]	GSE22155_47	1
+cervix	GSE22155_47	1
+cervix; glandular cells[≥Low]	GSE22155_47	1
+cervix; glandular cells[≥Medium]	GSE22155_47	1
+cervix; squamous epithelial cells[≥Low]	GSE22155_47	1
+cervix; squamous epithelial cells[≥Medium]	GSE22155_47	1
+colon	GSE22155_47	1
+colon; endothelial cells[≥Low]	GSE22155_47	1
+colon; endothelial cells[≥Medium]	GSE22155_47	1
+colon; glandular cells[≥Low]	GSE22155_47	1
+colon; glandular cells[≥Medium]	GSE22155_47	1
+colon; glandular cells[High]	GSE22155_47	1
+colon; peripheral nerve/ganglion[≥Low]	GSE22155_47	1
+colon; peripheral nerve/ganglion[≥Medium]	GSE22155_47	1
+cytoplasm	GSE22155_47	1
+Cytoplasmic ribosomal proteins	GSE22155_47	1
+cytoplasmic translation	GSE22155_47	1
+cytoplasmic vesicle	GSE22155_47	1
+cytoplasmic vesicle membrane	GSE22155_47	0
+cytosol	GSE22155_47	1
+cytosolic large ribosomal subunit	GSE22155_47	1
+cytosolic ribosome	GSE22155_47	1
+cytosolic small ribosomal subunit	GSE22155_47	1
+DNA damage response	GSE22155_47	1
+DNA metabolic process	GSE22155_47	1
+DNA repair	GSE22155_47	1
+duodenum	GSE22155_47	1
+duodenum; glandular cells[≥Low]	GSE22155_47	1
+duodenum; glandular cells[≥Medium]	GSE22155_47	1
+duodenum; glandular cells[High]	GSE22155_47	1
+endomembrane system	GSE22155_47	1
+endometrium 1	GSE22155_47	1
+endometrium 1; cells in endometrial stroma[≥Low]	GSE22155_47	1
+endometrium 1; cells in endometrial stroma[≥Medium]	GSE22155_47	1
+endometrium 1; glandular cells[≥Low]	GSE22155_47	1
+endometrium 1; glandular cells[≥Medium]	GSE22155_47	1
+endometrium 2	GSE22155_47	1
+endometrium 2; cells in endometrial stroma[≥Low]	GSE22155_47	1
+endometrium 2; cells in endometrial stroma[≥Medium]	GSE22155_47	1
+endometrium 2; glandular cells[≥Low]	GSE22155_47	1
+endometrium 2; glandular cells[≥Medium]	GSE22155_47	1
+endoplasmic reticulum	GSE22155_47	1
+endoplasmic reticulum membrane	GSE22155_47	1
+endoplasmic reticulum subcompartment	GSE22155_47	1
+endosome	GSE22155_47	0
+endosome membrane	GSE22155_47	0
+envelope	GSE22155_47	1
+enzyme binding	GSE22155_47	1
+epididymis	GSE22155_47	1
+epididymis; glandular cells[≥Low]	GSE22155_47	1
+epididymis; glandular cells[≥Medium]	GSE22155_47	1
+esophagus	GSE22155_47	1
+esophagus; squamous epithelial cells[≥Low]	GSE22155_47	1
+esophagus; squamous epithelial cells[≥Medium]	GSE22155_47	1
+esophagus; squamous epithelial cells[High]	GSE22155_47	1
+establishment of localization	GSE22155_47	0
+establishment of localization in cell	GSE22155_47	1
+Eukaryotic Translation Elongation	GSE22155_47	1
+Eukaryotic Translation Initiation	GSE22155_47	1
+Eukaryotic Translation Termination	GSE22155_47	1
+extracellular exosome	GSE22155_47	1
+extracellular membrane-bounded organelle	GSE22155_47	1
+extracellular organelle	GSE22155_47	1
+extracellular vesicle	GSE22155_47	1
+fallopian tube	GSE22155_47	1
+fallopian tube; glandular cells[≥Low]	GSE22155_47	1
+fallopian tube; glandular cells[≥Medium]	GSE22155_47	1
+focal adhesion	GSE22155_47	1
+Formation of a pool of free 40S subunits	GSE22155_47	1
+gallbladder	GSE22155_47	1
+gallbladder; glandular cells[≥Low]	GSE22155_47	1
+gallbladder; glandular cells[≥Medium]	GSE22155_47	1
+gallbladder; glandular cells[High]	GSE22155_47	1
+generation of precursor metabolites and energy	GSE22155_47	1
+glucose 6-phosphate metabolic process	GSE22155_47	1
+glycerolipid biosynthetic process	GSE22155_47	1
+glycerolipid metabolic process	GSE22155_47	1
+glycerophospholipid biosynthetic process	GSE22155_47	1
+glycerophospholipid metabolic process	GSE22155_47	1
+Golgi apparatus	GSE22155_47	0
+Golgi membrane	GSE22155_47	0
+GTP hydrolysis and joining of the 60S ribosomal subunit	GSE22155_47	1
+heart muscle	GSE22155_47	1
+heart muscle; cardiomyocytes[≥Low]	GSE22155_47	1
+heart muscle; cardiomyocytes[≥Medium]	GSE22155_47	1
+heterocycle biosynthetic process	GSE22155_47	1
+heterocyclic compound binding	GSE22155_47	1
+hippocampus	GSE22155_47	1
+hippocampus; glial cells[≥Low]	GSE22155_47	1
+hippocampus; neuronal cells[≥Low]	GSE22155_47	1
+hippocampus; neuronal cells[≥Medium]	GSE22155_47	1
+hsa-miR-16-5p	GSE22155_47	0
+hsa-miR-193b-3p	GSE22155_47	1
+hsa-miR-423-5p	GSE22155_47	0
+hsa-miR-615-3p	GSE22155_47	1
+hydrolase activity	GSE22155_47	1
+hydrolase activity, acting on ester bonds	GSE22155_47	1
+Influenza Infection	GSE22155_47	1
+Influenza Viral RNA Transcription and Replication	GSE22155_47	1
+intracellular anatomical structure	GSE22155_47	1
+intracellular membrane-bounded organelle	GSE22155_47	1
+intracellular organelle	GSE22155_47	1
+intracellular organelle lumen	GSE22155_47	1
+intracellular pH reduction	GSE22155_47	1
+intracellular protein-containing complex	GSE22155_47	1
+intracellular transport	GSE22155_47	1
+intracellular vesicle	GSE22155_47	1
+ion binding	GSE22155_47	1
+kidney	GSE22155_47	1
+kidney; cells in glomeruli[≥Low]	GSE22155_47	1
+kidney; cells in tubules[≥Low]	GSE22155_47	1
+kidney; cells in tubules[≥Medium]	GSE22155_47	1
+kidney; cells in tubules[High]	GSE22155_47	1
+L13a-mediated translational silencing of Ceruloplasmin expression	GSE22155_47	1
+large ribosomal subunit	GSE22155_47	1
+liver	GSE22155_47	1
+liver; cholangiocytes[≥Low]	GSE22155_47	1
+liver; cholangiocytes[≥Medium]	GSE22155_47	1
+liver; hepatocytes[≥Low]	GSE22155_47	1
+liver; hepatocytes[≥Medium]	GSE22155_47	1
+localization	GSE22155_47	1
+lung	GSE22155_47	1
+lung; alveolar cells[≥Low]	GSE22155_47	1
+lung; alveolar cells[≥Medium]	GSE22155_47	1
+lung; macrophages[≥Low]	GSE22155_47	1
+lung; macrophages[≥Medium]	GSE22155_47	1
+lymph node	GSE22155_47	1
+lymph node; germinal center cells[≥Low]	GSE22155_47	1
+lymph node; germinal center cells[≥Medium]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Low]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Medium]	GSE22155_47	1
+lymph node; non-germinal center cells[High]	GSE22155_47	1
+lysosomal lumen acidification	GSE22155_47	1
+lysosomal membrane	GSE22155_47	1
+lysosome	GSE22155_47	0
+lysosome organization	GSE22155_47	0
+lytic vacuole	GSE22155_47	0
+lytic vacuole membrane	GSE22155_47	1
+lytic vacuole organization	GSE22155_47	0
+macroautophagy	GSE22155_47	1
+macromolecule catabolic process	GSE22155_47	1
+macromolecule modification	GSE22155_47	1
+Major pathway of rRNA processing in the nucleolus and cytosol	GSE22155_47	1
+membrane	GSE22155_47	1
+membrane-bounded organelle	GSE22155_47	1
+membrane-enclosed lumen	GSE22155_47	1
+Metabolism	GSE22155_47	1
+Metabolism of amino acids and derivatives	GSE22155_47	1
+Metabolism of proteins	GSE22155_47	1
+mitochondrial envelope	GSE22155_47	1
+mitochondrial inner membrane	GSE22155_47	1
+mitochondrial matrix	GSE22155_47	1
+mitochondrial membrane	GSE22155_47	1
+mitochondrial outer membrane	GSE22155_47	1
+mitochondrial translation	GSE22155_47	0
+mitochondrion	GSE22155_47	1
+mitochondrion organization	GSE22155_47	1
+mitotic cell cycle	GSE22155_47	1
+mitotic cell cycle phase transition	GSE22155_47	1
+mitotic cell cycle process	GSE22155_47	0
+modification-dependent macromolecule catabolic process	GSE22155_47	1
+modification-dependent protein catabolic process	GSE22155_47	1
+NADPH regeneration	GSE22155_47	0
+nasopharynx	GSE22155_47	1
+nasopharynx; basal cells[≥Low]	GSE22155_47	1
+nasopharynx; basal cells[≥Medium]	GSE22155_47	1
+nasopharynx; ciliated cells (cell body)[≥Medium]	GSE22155_47	1
+nasopharynx; respiratory epithelial cells[≥Low]	GSE22155_47	1
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE22155_47	1
+ncRNA metabolic process	GSE22155_47	1
+ncRNA processing	GSE22155_47	1
+negative regulation of cellular process	GSE22155_47	0
+nicotinamide nucleotide metabolic process	GSE22155_47	1
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE22155_47	1
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE22155_47	1
+Nonsense-Mediated Decay (NMD)	GSE22155_47	1
+Nop56p-associated pre-rRNA complex	GSE22155_47	0
+nuclear lumen	GSE22155_47	1
+nuclear outer membrane-endoplasmic reticulum membrane network	GSE22155_47	1
+nucleobase-containing compound biosynthetic process	GSE22155_47	1
+nucleobase-containing compound catabolic process	GSE22155_47	1
+nucleobase-containing small molecule metabolic process	GSE22155_47	1
+nucleoplasm	GSE22155_47	1
+nucleoside phosphate binding	GSE22155_47	1
+nucleoside phosphate metabolic process	GSE22155_47	1
+nucleotide binding	GSE22155_47	1
+nucleotide metabolic process	GSE22155_47	1
+oral mucosa	GSE22155_47	1
+oral mucosa; squamous epithelial cells[≥Low]	GSE22155_47	1
+oral mucosa; squamous epithelial cells[≥Medium]	GSE22155_47	1
+organelle	GSE22155_47	1
+organelle envelope	GSE22155_47	1
+organelle inner membrane	GSE22155_47	1
+organelle localization	GSE22155_47	0
+organelle lumen	GSE22155_47	1
+organelle membrane	GSE22155_47	1
+organelle organization	GSE22155_47	1
+organelle outer membrane	GSE22155_47	1
+organelle subcompartment	GSE22155_47	1
+organic acid metabolic process	GSE22155_47	1
+organic cyclic compound biosynthetic process	GSE22155_47	1
+organic substance catabolic process	GSE22155_47	1
+organic substance transport	GSE22155_47	0
+organonitrogen compound biosynthetic process	GSE22155_47	1
+organonitrogen compound catabolic process	GSE22155_47	1
+organonitrogen compound metabolic process	GSE22155_47	1
+organophosphate biosynthetic process	GSE22155_47	1
+organophosphate metabolic process	GSE22155_47	1
+outer membrane	GSE22155_47	1
+ovary	GSE22155_47	1
+ovary; follicle cells[≥Low]	GSE22155_47	1
+ovary; follicle cells[≥Medium]	GSE22155_47	1
+ovary; ovarian stroma cells[≥Low]	GSE22155_47	1
+oxoacid metabolic process	GSE22155_47	1
+pancreas	GSE22155_47	1
+pancreas; exocrine glandular cells[≥Low]	GSE22155_47	1
+pancreas; exocrine glandular cells[≥Medium]	GSE22155_47	1
+pancreas; exocrine glandular cells[High]	GSE22155_47	1
+pancreas; pancreatic endocrine cells[≥Low]	GSE22155_47	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE22155_47	1
+parathyroid gland	GSE22155_47	1
+parathyroid gland; glandular cells[≥Low]	GSE22155_47	1
+parathyroid gland; glandular cells[≥Medium]	GSE22155_47	1
+pentose-phosphate shunt	GSE22155_47	1
+peptide biosynthetic process	GSE22155_47	1
+Peptide chain elongation	GSE22155_47	1
+peptide metabolic process	GSE22155_47	1
+perinuclear region of cytoplasm	GSE22155_47	1
+phosphate-containing compound metabolic process	GSE22155_47	1
+phospholipid biosynthetic process	GSE22155_47	1
+phosphorus metabolic process	GSE22155_47	1
+pigment biosynthetic process	GSE22155_47	1
+placenta	GSE22155_47	1
+placenta; decidual cells[≥Low]	GSE22155_47	1
+placenta; decidual cells[≥Medium]	GSE22155_47	1
+placenta; trophoblastic cells[≥Low]	GSE22155_47	1
+placenta; trophoblastic cells[≥Medium]	GSE22155_47	1
+placenta; trophoblastic cells[High]	GSE22155_47	1
+porphyrin-containing compound biosynthetic process	GSE22155_47	0
+positive regulation of biological process	GSE22155_47	1
+positive regulation of biosynthetic process	GSE22155_47	0
+positive regulation of cellular biosynthetic process	GSE22155_47	0
+positive regulation of cellular metabolic process	GSE22155_47	1
+positive regulation of cellular process	GSE22155_47	1
+positive regulation of macromolecule metabolic process	GSE22155_47	0
+positive regulation of metabolic process	GSE22155_47	1
+positive regulation of nitrogen compound metabolic process	GSE22155_47	1
+process utilizing autophagic mechanism	GSE22155_47	1
+prostate	GSE22155_47	1
+prostate; glandular cells[≥Low]	GSE22155_47	1
+prostate; glandular cells[≥Medium]	GSE22155_47	1
+protein binding	GSE22155_47	1
+protein catabolic process	GSE22155_47	1
+protein metabolic process	GSE22155_47	1
+protein modification process	GSE22155_47	1
+proteolysis involved in protein catabolic process	GSE22155_47	1
+purine nucleotide binding	GSE22155_47	1
+purine nucleotide metabolic process	GSE22155_47	1
+purine ribonucleoside triphosphate binding	GSE22155_47	1
+purine ribonucleotide binding	GSE22155_47	1
+purine-containing compound metabolic process	GSE22155_47	1
+pyridine nucleotide metabolic process	GSE22155_47	1
+pyridine-containing compound metabolic process	GSE22155_47	1
+RAB GEFs exchange GTP for GDP on RABs	GSE22155_47	0
+rectum	GSE22155_47	1
+rectum; glandular cells[≥Low]	GSE22155_47	1
+rectum; glandular cells[≥Medium]	GSE22155_47	1
+rectum; glandular cells[High]	GSE22155_47	1
+regulation of amide metabolic process	GSE22155_47	1
+regulation of catabolic process	GSE22155_47	1
+regulation of cell cycle	GSE22155_47	1
+regulation of cellular catabolic process	GSE22155_47	1
+regulation of cellular component organization	GSE22155_47	1
+regulation of DNA metabolic process	GSE22155_47	1
+Regulation of expression of SLITs and ROBOs	GSE22155_47	1
+regulation of lysosomal lumen pH	GSE22155_47	1
+regulation of metabolic process	GSE22155_47	1
+regulation of mitotic cell cycle	GSE22155_47	0
+regulation of nitrogen compound metabolic process	GSE22155_47	1
+regulation of nucleobase-containing compound metabolic process	GSE22155_47	1
+regulation of primary metabolic process	GSE22155_47	1
+regulation of protein metabolic process	GSE22155_47	1
+regulation of translation	GSE22155_47	1
+Response of EIF2AK4 (GCN2) to amino acid deficiency	GSE22155_47	1
+ribonucleoprotein complex binding	GSE22155_47	0
+ribonucleotide binding	GSE22155_47	1
+ribosomal small subunit biogenesis	GSE22155_47	1
+ribosomal subunit	GSE22155_47	1
+ribosome assembly	GSE22155_47	0
+ribosome biogenesis	GSE22155_47	1
+Ribosome, cytoplasmic	GSE22155_47	1
+rRNA metabolic process	GSE22155_47	1
+rRNA processing	GSE22155_47	2
+rRNA processing in the nucleus and cytosol	GSE22155_47	1
+salivary gland	GSE22155_47	1
+salivary gland; glandular cells[≥Low]	GSE22155_47	1
+salivary gland; glandular cells[≥Medium]	GSE22155_47	1
+SARS-CoV-1 modulates host translation machinery	GSE22155_47	1
+SARS-CoV-2 modulates host translation machinery	GSE22155_47	1
+Selenoamino acid metabolism	GSE22155_47	1
+Selenocysteine synthesis	GSE22155_47	1
+seminal vesicle	GSE22155_47	1
+seminal vesicle; glandular cells[≥Low]	GSE22155_47	1
+seminal vesicle; glandular cells[≥Medium]	GSE22155_47	1
+Signaling by ROBO receptors	GSE22155_47	1
+skeletal muscle	GSE22155_47	1
+skeletal muscle; myocytes[≥Low]	GSE22155_47	1
+skeletal muscle; myocytes[≥Medium]	GSE22155_47	1
+skin 1	GSE22155_47	1
+skin 1; fibroblasts[≥Low]	GSE22155_47	1
+skin 1; fibroblasts[≥Medium]	GSE22155_47	1
+skin 1; keratinocytes[≥Low]	GSE22155_47	1
+skin 1; keratinocytes[≥Medium]	GSE22155_47	1
+skin 1; keratinocytes[High]	GSE22155_47	1
+skin 1; Langerhans[≥Low]	GSE22155_47	1
+skin 1; Langerhans[≥Medium]	GSE22155_47	1
+skin 1; melanocytes[≥Low]	GSE22155_47	1
+skin 1; melanocytes[≥Medium]	GSE22155_47	1
+skin 2	GSE22155_47	1
+skin 2; epidermal cells[≥Low]	GSE22155_47	1
+skin 2; epidermal cells[≥Medium]	GSE22155_47	1
+skin 2; epidermal cells[High]	GSE22155_47	1
+small intestine	GSE22155_47	1
+small intestine; glandular cells[≥Low]	GSE22155_47	1
+small intestine; glandular cells[≥Medium]	GSE22155_47	1
+small intestine; glandular cells[High]	GSE22155_47	1
+small molecule binding	GSE22155_47	1
+small molecule metabolic process	GSE22155_47	1
+small ribosomal subunit	GSE22155_47	1
+smooth muscle	GSE22155_47	1
+smooth muscle; smooth muscle cells[≥Low]	GSE22155_47	1
+smooth muscle; smooth muscle cells[≥Medium]	GSE22155_47	1
+soft tissue 1	GSE22155_47	1
+soft tissue 1; chondrocytes[≥Low]	GSE22155_47	1
+soft tissue 1; chondrocytes[≥Medium]	GSE22155_47	0
+soft tissue 1; fibroblasts[≥Low]	GSE22155_47	1
+soft tissue 1; fibroblasts[≥Medium]	GSE22155_47	1
+soft tissue 1; peripheral nerve[≥Low]	GSE22155_47	1
+soft tissue 2	GSE22155_47	1
+soft tissue 2; fibroblasts[≥Low]	GSE22155_47	1
+soft tissue 2; fibroblasts[≥Medium]	GSE22155_47	1
+spleen	GSE22155_47	1
+spleen; cells in red pulp[≥Low]	GSE22155_47	1
+spleen; cells in red pulp[≥Medium]	GSE22155_47	0
+spleen; cells in white pulp[≥Low]	GSE22155_47	1
+spleen; cells in white pulp[≥Medium]	GSE22155_47	1
+SRP-dependent cotranslational protein targeting to membrane	GSE22155_47	1
+stomach 1	GSE22155_47	1
+stomach 1; glandular cells[≥Low]	GSE22155_47	1
+stomach 1; glandular cells[≥Medium]	GSE22155_47	1
+stomach 1; glandular cells[High]	GSE22155_47	1
+stomach 2	GSE22155_47	1
+stomach 2; glandular cells[≥Low]	GSE22155_47	1
+stomach 2; glandular cells[≥Medium]	GSE22155_47	1
+stomach 2; glandular cells[High]	GSE22155_47	1
+testis	GSE22155_47	1
+testis; cells in seminiferous ducts[≥Low]	GSE22155_47	1
+testis; cells in seminiferous ducts[≥Medium]	GSE22155_47	1
+testis; Leydig cells[≥Low]	GSE22155_47	1
+testis; Leydig cells[≥Medium]	GSE22155_47	1
+testis; Leydig cells[High]	GSE22155_47	1
+tetrapyrrole biosynthetic process	GSE22155_47	0
+thyroid gland	GSE22155_47	1
+thyroid gland; glandular cells[≥Low]	GSE22155_47	1
+thyroid gland; glandular cells[≥Medium]	GSE22155_47	1
+thyroid gland; glandular cells[High]	GSE22155_47	1
+tonsil	GSE22155_47	1
+tonsil; germinal center cells[≥Low]	GSE22155_47	1
+tonsil; germinal center cells[≥Medium]	GSE22155_47	1
+tonsil; non-germinal center cells[≥Low]	GSE22155_47	1
+tonsil; non-germinal center cells[≥Medium]	GSE22155_47	1
+tonsil; squamous epithelial cells[≥Low]	GSE22155_47	1
+tonsil; squamous epithelial cells[≥Medium]	GSE22155_47	1
+transferase complex	GSE22155_47	1
+translation	GSE22155_47	1
+Translation	GSE22155_47	1
+translation regulator activity	GSE22155_47	0
+transport	GSE22155_47	1
+TRAPP complex	GSE22155_47	1
+TRAPPII protein complex	GSE22155_47	1
+TRAPPIII protein complex	GSE22155_47	1
+ubiquitin-dependent protein catabolic process	GSE22155_47	1
+urinary bladder	GSE22155_47	1
+urinary bladder; urothelial cells[≥Low]	GSE22155_47	1
+urinary bladder; urothelial cells[≥Medium]	GSE22155_47	1
+vacuolar acidification	GSE22155_47	0
+vacuolar membrane	GSE22155_47	1
+vacuole	GSE22155_47	1
+vacuole organization	GSE22155_47	1
+vagina	GSE22155_47	1
+vagina; squamous epithelial cells[≥Low]	GSE22155_47	1
+vagina; squamous epithelial cells[≥Medium]	GSE22155_47	1
+vesicle	GSE22155_47	1
+vesicle membrane	GSE22155_47	0
+vesicle tethering complex	GSE22155_47	0
+vesicle-mediated transport	GSE22155_47	0
+Viral mRNA Translation	GSE22155_47	1
+40S ribosomal subunit, cytoplasmic	GSE35640	0
+Abnormal nervous system morphology	GSE35640	1
+adipose tissue	GSE35640	1
+adipose tissue; adipocytes[≥Low]	GSE35640	1
+adipose tissue; adipocytes[≥Medium]	GSE35640	1
+adrenal gland	GSE35640	1
+adrenal gland; glandular cells[≥Low]	GSE35640	1
+adrenal gland; glandular cells[≥Medium]	GSE35640	1
+adrenal gland; glandular cells[High]	GSE35640	1
+amide biosynthetic process	GSE35640	1
+amide metabolic process	GSE35640	1
+anion binding	GSE35640	1
+apoptotic process	GSE35640	0
+appendix	GSE35640	1
+appendix; glandular cells[≥Low]	GSE35640	1
+appendix; glandular cells[≥Medium]	GSE35640	1
+appendix; lymphoid tissue[≥Low]	GSE35640	1
+appendix; lymphoid tissue[≥Medium]	GSE35640	1
+aromatic compound biosynthetic process	GSE35640	1
+aromatic compound catabolic process	GSE35640	0
+autophagy	GSE35640	1
+binding	GSE35640	1
+biological regulation	GSE35640	1
+bone marrow	GSE35640	1
+bone marrow; hematopoietic cells[≥Low]	GSE35640	1
+bone marrow; hematopoietic cells[≥Medium]	GSE35640	1
+bounding membrane of organelle	GSE35640	1
+breast	GSE35640	1
+breast; adipocytes[≥Low]	GSE35640	1
+breast; adipocytes[≥Medium]	GSE35640	1
+breast; glandular cells[≥Low]	GSE35640	1
+breast; glandular cells[≥Medium]	GSE35640	1
+breast; myoepithelial cells[≥Low]	GSE35640	1
+breast; myoepithelial cells[≥Medium]	GSE35640	1
+bronchus	GSE35640	1
+bronchus; basal cells[≥Low]	GSE35640	1
+bronchus; basal cells[≥Medium]	GSE35640	1
+bronchus; respiratory epithelial cells[≥Low]	GSE35640	1
+bronchus; respiratory epithelial cells[≥Medium]	GSE35640	1
+Cap-dependent Translation Initiation	GSE35640	1
+carbohydrate derivative binding	GSE35640	1
+carbohydrate derivative metabolic process	GSE35640	1
+carboxylic acid metabolic process	GSE35640	0
+catabolic process	GSE35640	1
+catalytic activity	GSE35640	1
+catalytic activity, acting on a protein	GSE35640	1
+catalytic complex	GSE35640	1
+caudate	GSE35640	1
+caudate; glial cells[≥Low]	GSE35640	1
+caudate; neuronal cells[≥Low]	GSE35640	1
+caudate; neuronal cells[≥Medium]	GSE35640	1
+cell cycle	GSE35640	1
+cell cycle phase transition	GSE35640	1
+cell cycle process	GSE35640	1
+cell-substrate junction	GSE35640	1
+cellular catabolic process	GSE35640	1
+cellular lipid metabolic process	GSE35640	1
+cellular localization	GSE35640	0
+cellular nitrogen compound biosynthetic process	GSE35640	1
+Cellular response to starvation	GSE35640	1
+cellular response to stress	GSE35640	1
+Cellular responses to stimuli	GSE35640	0
+Cellular responses to stress	GSE35640	1
+cerebellum	GSE35640	1
+cerebellum; cells in granular layer[≥Low]	GSE35640	1
+cerebellum; cells in granular layer[≥Medium]	GSE35640	1
+cerebellum; cells in molecular layer[≥Low]	GSE35640	1
+cerebellum; cells in molecular layer[≥Medium]	GSE35640	1
+cerebellum; Purkinje cells[≥Low]	GSE35640	1
+cerebellum; Purkinje cells[≥Medium]	GSE35640	1
+cerebellum; Purkinje cells[High]	GSE35640	1
+cerebral cortex	GSE35640	1
+cerebral cortex; endothelial cells[≥Low]	GSE35640	1
+cerebral cortex; endothelial cells[≥Medium]	GSE35640	1
+cerebral cortex; glial cells[≥Low]	GSE35640	1
+cerebral cortex; glial cells[≥Medium]	GSE35640	0
+cerebral cortex; neuronal cells[≥Low]	GSE35640	1
+cerebral cortex; neuronal cells[≥Medium]	GSE35640	1
+cerebral cortex; neuronal cells[High]	GSE35640	1
+cerebral cortex; neuropil[≥Low]	GSE35640	1
+cerebral cortex; neuropil[≥Medium]	GSE35640	1
+cervix	GSE35640	1
+cervix; glandular cells[≥Low]	GSE35640	1
+cervix; glandular cells[≥Medium]	GSE35640	1
+cervix; squamous epithelial cells[≥Low]	GSE35640	1
+cervix; squamous epithelial cells[≥Medium]	GSE35640	1
+colon	GSE35640	1
+colon; endothelial cells[≥Low]	GSE35640	1
+colon; endothelial cells[≥Medium]	GSE35640	1
+colon; glandular cells[≥Low]	GSE35640	1
+colon; glandular cells[≥Medium]	GSE35640	1
+colon; glandular cells[High]	GSE35640	1
+colon; peripheral nerve/ganglion[≥Low]	GSE35640	1
+colon; peripheral nerve/ganglion[≥Medium]	GSE35640	1
+cytoplasm	GSE35640	1
+Cytoplasmic ribosomal proteins	GSE35640	1
+cytoplasmic translation	GSE35640	1
+cytoplasmic vesicle	GSE35640	1
+cytoplasmic vesicle membrane	GSE35640	0
+cytosol	GSE35640	1
+cytosolic large ribosomal subunit	GSE35640	1
+cytosolic ribosome	GSE35640	1
+cytosolic small ribosomal subunit	GSE35640	0
+DNA damage response	GSE35640	1
+DNA metabolic process	GSE35640	1
+DNA repair	GSE35640	1
+duodenum	GSE35640	1
+duodenum; glandular cells[≥Low]	GSE35640	1
+duodenum; glandular cells[≥Medium]	GSE35640	1
+duodenum; glandular cells[High]	GSE35640	1
+endomembrane system	GSE35640	1
+endometrium 1	GSE35640	1
+endometrium 1; cells in endometrial stroma[≥Low]	GSE35640	1
+endometrium 1; cells in endometrial stroma[≥Medium]	GSE35640	1
+endometrium 1; glandular cells[≥Low]	GSE35640	1
+endometrium 1; glandular cells[≥Medium]	GSE35640	1
+endometrium 2	GSE35640	1
+endometrium 2; cells in endometrial stroma[≥Low]	GSE35640	1
+endometrium 2; cells in endometrial stroma[≥Medium]	GSE35640	1
+endometrium 2; glandular cells[≥Low]	GSE35640	1
+endometrium 2; glandular cells[≥Medium]	GSE35640	1
+endoplasmic reticulum	GSE35640	1
+endoplasmic reticulum membrane	GSE35640	1
+endoplasmic reticulum subcompartment	GSE35640	1
+endosome	GSE35640	0
+endosome membrane	GSE35640	0
+envelope	GSE35640	1
+enzyme binding	GSE35640	0
+epididymis	GSE35640	1
+epididymis; glandular cells[≥Low]	GSE35640	1
+epididymis; glandular cells[≥Medium]	GSE35640	1
+esophagus	GSE35640	1
+esophagus; squamous epithelial cells[≥Low]	GSE35640	1
+esophagus; squamous epithelial cells[≥Medium]	GSE35640	1
+esophagus; squamous epithelial cells[High]	GSE35640	0
+establishment of localization	GSE35640	0
+establishment of localization in cell	GSE35640	1
+Eukaryotic Translation Elongation	GSE35640	1
+Eukaryotic Translation Initiation	GSE35640	1
+Eukaryotic Translation Termination	GSE35640	1
+extracellular exosome	GSE35640	1
+extracellular membrane-bounded organelle	GSE35640	1
+extracellular organelle	GSE35640	1
+extracellular vesicle	GSE35640	1
+fallopian tube	GSE35640	1
+fallopian tube; glandular cells[≥Low]	GSE35640	1
+fallopian tube; glandular cells[≥Medium]	GSE35640	1
+focal adhesion	GSE35640	1
+Formation of a pool of free 40S subunits	GSE35640	1
+gallbladder	GSE35640	1
+gallbladder; glandular cells[≥Low]	GSE35640	1
+gallbladder; glandular cells[≥Medium]	GSE35640	1
+gallbladder; glandular cells[High]	GSE35640	1
+generation of precursor metabolites and energy	GSE35640	0
+glucose 6-phosphate metabolic process	GSE35640	0
+glycerolipid biosynthetic process	GSE35640	1
+glycerolipid metabolic process	GSE35640	1
+glycerophospholipid biosynthetic process	GSE35640	0
+glycerophospholipid metabolic process	GSE35640	0
+Golgi apparatus	GSE35640	0
+Golgi membrane	GSE35640	0
+GTP hydrolysis and joining of the 60S ribosomal subunit	GSE35640	1
+heart muscle	GSE35640	1
+heart muscle; cardiomyocytes[≥Low]	GSE35640	1
+heart muscle; cardiomyocytes[≥Medium]	GSE35640	1
+heterocycle biosynthetic process	GSE35640	1
+heterocyclic compound binding	GSE35640	1
+hippocampus	GSE35640	1
+hippocampus; glial cells[≥Low]	GSE35640	1
+hippocampus; neuronal cells[≥Low]	GSE35640	1
+hippocampus; neuronal cells[≥Medium]	GSE35640	1
+hsa-miR-16-5p	GSE35640	1
+hsa-miR-193b-3p	GSE35640	1
+hsa-miR-423-5p	GSE35640	0
+hsa-miR-615-3p	GSE35640	1
+hydrolase activity	GSE35640	1
+hydrolase activity, acting on ester bonds	GSE35640	1
+Influenza Infection	GSE35640	1
+Influenza Viral RNA Transcription and Replication	GSE35640	1
+intracellular anatomical structure	GSE35640	1
+intracellular membrane-bounded organelle	GSE35640	1
+intracellular organelle	GSE35640	1
+intracellular organelle lumen	GSE35640	1
+intracellular pH reduction	GSE35640	0
+intracellular protein-containing complex	GSE35640	1
+intracellular transport	GSE35640	1
+intracellular vesicle	GSE35640	1
+ion binding	GSE35640	1
+kidney	GSE35640	1
+kidney; cells in glomeruli[≥Low]	GSE35640	1
+kidney; cells in tubules[≥Low]	GSE35640	1
+kidney; cells in tubules[≥Medium]	GSE35640	1
+kidney; cells in tubules[High]	GSE35640	1
+L13a-mediated translational silencing of Ceruloplasmin expression	GSE35640	1
+large ribosomal subunit	GSE35640	1
+liver	GSE35640	1
+liver; cholangiocytes[≥Low]	GSE35640	1
+liver; cholangiocytes[≥Medium]	GSE35640	1
+liver; hepatocytes[≥Low]	GSE35640	1
+liver; hepatocytes[≥Medium]	GSE35640	1
+localization	GSE35640	1
+lung	GSE35640	1
+lung; alveolar cells[≥Low]	GSE35640	1
+lung; alveolar cells[≥Medium]	GSE35640	0
+lung; macrophages[≥Low]	GSE35640	1
+lung; macrophages[≥Medium]	GSE35640	1
+lymph node	GSE35640	1
+lymph node; germinal center cells[≥Low]	GSE35640	1
+lymph node; germinal center cells[≥Medium]	GSE35640	1
+lymph node; non-germinal center cells[≥Low]	GSE35640	1
+lymph node; non-germinal center cells[≥Medium]	GSE35640	1
+lymph node; non-germinal center cells[High]	GSE35640	1
+lysosomal lumen acidification	GSE35640	1
+lysosomal membrane	GSE35640	1
+lysosome	GSE35640	0
+lysosome organization	GSE35640	0
+lytic vacuole	GSE35640	0
+lytic vacuole membrane	GSE35640	1
+lytic vacuole organization	GSE35640	0
+macroautophagy	GSE35640	1
+macromolecule catabolic process	GSE35640	1
+macromolecule modification	GSE35640	1
+Major pathway of rRNA processing in the nucleolus and cytosol	GSE35640	1
+membrane	GSE35640	1
+membrane-bounded organelle	GSE35640	1
+membrane-enclosed lumen	GSE35640	1
+Metabolism	GSE35640	1
+Metabolism of amino acids and derivatives	GSE35640	0
+Metabolism of proteins	GSE35640	1
+mitochondrial envelope	GSE35640	1
+mitochondrial inner membrane	GSE35640	1
+mitochondrial matrix	GSE35640	1
+mitochondrial membrane	GSE35640	1
+mitochondrial outer membrane	GSE35640	1
+mitochondrial translation	GSE35640	1
+mitochondrion	GSE35640	1
+mitochondrion organization	GSE35640	1
+mitotic cell cycle	GSE35640	1
+mitotic cell cycle phase transition	GSE35640	1
+mitotic cell cycle process	GSE35640	1
+modification-dependent macromolecule catabolic process	GSE35640	1
+modification-dependent protein catabolic process	GSE35640	1
+NADPH regeneration	GSE35640	0
+nasopharynx	GSE35640	1
+nasopharynx; basal cells[≥Low]	GSE35640	1
+nasopharynx; basal cells[≥Medium]	GSE35640	1
+nasopharynx; ciliated cells (cell body)[≥Medium]	GSE35640	1
+nasopharynx; respiratory epithelial cells[≥Low]	GSE35640	1
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE35640	1
+ncRNA metabolic process	GSE35640	1
+ncRNA processing	GSE35640	1
+negative regulation of cellular process	GSE35640	1
+nicotinamide nucleotide metabolic process	GSE35640	0
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE35640	1
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE35640	1
+Nonsense-Mediated Decay (NMD)	GSE35640	1
+Nop56p-associated pre-rRNA complex	GSE35640	0
+nuclear lumen	GSE35640	1
+nuclear outer membrane-endoplasmic reticulum membrane network	GSE35640	1
+nucleobase-containing compound biosynthetic process	GSE35640	1
+nucleobase-containing compound catabolic process	GSE35640	0
+nucleobase-containing small molecule metabolic process	GSE35640	0
+nucleoplasm	GSE35640	1
+nucleoside phosphate binding	GSE35640	1
+nucleoside phosphate metabolic process	GSE35640	0
+nucleotide binding	GSE35640	1
+nucleotide metabolic process	GSE35640	0
+oral mucosa	GSE35640	1
+oral mucosa; squamous epithelial cells[≥Low]	GSE35640	1
+oral mucosa; squamous epithelial cells[≥Medium]	GSE35640	1
+organelle	GSE35640	1
+organelle envelope	GSE35640	1
+organelle inner membrane	GSE35640	1
+organelle localization	GSE35640	0
+organelle lumen	GSE35640	1
+organelle membrane	GSE35640	1
+organelle organization	GSE35640	1
+organelle outer membrane	GSE35640	1
+organelle subcompartment	GSE35640	1
+organic acid metabolic process	GSE35640	0
+organic cyclic compound biosynthetic process	GSE35640	1
+organic substance catabolic process	GSE35640	1
+organic substance transport	GSE35640	0
+organonitrogen compound biosynthetic process	GSE35640	1
+organonitrogen compound catabolic process	GSE35640	1
+organonitrogen compound metabolic process	GSE35640	1
+organophosphate biosynthetic process	GSE35640	0
+organophosphate metabolic process	GSE35640	1
+outer membrane	GSE35640	1
+ovary	GSE35640	1
+ovary; follicle cells[≥Low]	GSE35640	1
+ovary; follicle cells[≥Medium]	GSE35640	1
+ovary; ovarian stroma cells[≥Low]	GSE35640	1
+oxoacid metabolic process	GSE35640	0
+pancreas	GSE35640	1
+pancreas; exocrine glandular cells[≥Low]	GSE35640	1
+pancreas; exocrine glandular cells[≥Medium]	GSE35640	1
+pancreas; exocrine glandular cells[High]	GSE35640	1
+pancreas; pancreatic endocrine cells[≥Low]	GSE35640	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE35640	1
+parathyroid gland	GSE35640	1
+parathyroid gland; glandular cells[≥Low]	GSE35640	1
+parathyroid gland; glandular cells[≥Medium]	GSE35640	1
+pentose-phosphate shunt	GSE35640	0
+peptide biosynthetic process	GSE35640	1
+Peptide chain elongation	GSE35640	1
+peptide metabolic process	GSE35640	1
+perinuclear region of cytoplasm	GSE35640	0
+phosphate-containing compound metabolic process	GSE35640	1
+phospholipid biosynthetic process	GSE35640	0
+phosphorus metabolic process	GSE35640	1
+pigment biosynthetic process	GSE35640	1
+placenta	GSE35640	1
+placenta; decidual cells[≥Low]	GSE35640	1
+placenta; decidual cells[≥Medium]	GSE35640	1
+placenta; trophoblastic cells[≥Low]	GSE35640	1
+placenta; trophoblastic cells[≥Medium]	GSE35640	1
+placenta; trophoblastic cells[High]	GSE35640	1
+porphyrin-containing compound biosynthetic process	GSE35640	0
+positive regulation of biological process	GSE35640	1
+positive regulation of biosynthetic process	GSE35640	1
+positive regulation of cellular biosynthetic process	GSE35640	1
+positive regulation of cellular metabolic process	GSE35640	1
+positive regulation of cellular process	GSE35640	1
+positive regulation of macromolecule metabolic process	GSE35640	1
+positive regulation of metabolic process	GSE35640	1
+positive regulation of nitrogen compound metabolic process	GSE35640	1
+process utilizing autophagic mechanism	GSE35640	1
+prostate	GSE35640	1
+prostate; glandular cells[≥Low]	GSE35640	1
+prostate; glandular cells[≥Medium]	GSE35640	1
+protein binding	GSE35640	1
+protein catabolic process	GSE35640	1
+protein metabolic process	GSE35640	1
+protein modification process	GSE35640	1
+proteolysis involved in protein catabolic process	GSE35640	1
+purine nucleotide binding	GSE35640	1
+purine nucleotide metabolic process	GSE35640	0
+purine ribonucleoside triphosphate binding	GSE35640	1
+purine ribonucleotide binding	GSE35640	1
+purine-containing compound metabolic process	GSE35640	0
+pyridine nucleotide metabolic process	GSE35640	0
+pyridine-containing compound metabolic process	GSE35640	0
+RAB GEFs exchange GTP for GDP on RABs	GSE35640	0
+rectum	GSE35640	1
+rectum; glandular cells[≥Low]	GSE35640	1
+rectum; glandular cells[≥Medium]	GSE35640	1
+rectum; glandular cells[High]	GSE35640	1
+regulation of amide metabolic process	GSE35640	1
+regulation of catabolic process	GSE35640	1
+regulation of cell cycle	GSE35640	1
+regulation of cellular catabolic process	GSE35640	0
+regulation of cellular component organization	GSE35640	1
+regulation of DNA metabolic process	GSE35640	1
+Regulation of expression of SLITs and ROBOs	GSE35640	0
+regulation of lysosomal lumen pH	GSE35640	0
+regulation of metabolic process	GSE35640	1
+regulation of mitotic cell cycle	GSE35640	1
+regulation of nitrogen compound metabolic process	GSE35640	1
+regulation of nucleobase-containing compound metabolic process	GSE35640	1
+regulation of primary metabolic process	GSE35640	1
+regulation of protein metabolic process	GSE35640	1
+regulation of translation	GSE35640	1
+Response of EIF2AK4 (GCN2) to amino acid deficiency	GSE35640	1
+ribonucleoprotein complex binding	GSE35640	0
+ribonucleotide binding	GSE35640	1
+ribosomal small subunit biogenesis	GSE35640	0
+ribosomal subunit	GSE35640	1
+ribosome assembly	GSE35640	0
+ribosome biogenesis	GSE35640	1
+Ribosome, cytoplasmic	GSE35640	1
+rRNA metabolic process	GSE35640	1
+rRNA processing	GSE35640	2
+rRNA processing in the nucleus and cytosol	GSE35640	1
+salivary gland	GSE35640	1
+salivary gland; glandular cells[≥Low]	GSE35640	1
+salivary gland; glandular cells[≥Medium]	GSE35640	1
+SARS-CoV-1 modulates host translation machinery	GSE35640	0
+SARS-CoV-2 modulates host translation machinery	GSE35640	0
+Selenoamino acid metabolism	GSE35640	1
+Selenocysteine synthesis	GSE35640	1
+seminal vesicle	GSE35640	1
+seminal vesicle; glandular cells[≥Low]	GSE35640	1
+seminal vesicle; glandular cells[≥Medium]	GSE35640	1
+Signaling by ROBO receptors	GSE35640	1
+skeletal muscle	GSE35640	1
+skeletal muscle; myocytes[≥Low]	GSE35640	1
+skeletal muscle; myocytes[≥Medium]	GSE35640	1
+skin 1	GSE35640	1
+skin 1; fibroblasts[≥Low]	GSE35640	1
+skin 1; fibroblasts[≥Medium]	GSE35640	1
+skin 1; keratinocytes[≥Low]	GSE35640	1
+skin 1; keratinocytes[≥Medium]	GSE35640	1
+skin 1; keratinocytes[High]	GSE35640	1
+skin 1; Langerhans[≥Low]	GSE35640	1
+skin 1; Langerhans[≥Medium]	GSE35640	1
+skin 1; melanocytes[≥Low]	GSE35640	1
+skin 1; melanocytes[≥Medium]	GSE35640	1
+skin 2	GSE35640	1
+skin 2; epidermal cells[≥Low]	GSE35640	1
+skin 2; epidermal cells[≥Medium]	GSE35640	1
+skin 2; epidermal cells[High]	GSE35640	1
+small intestine	GSE35640	1
+small intestine; glandular cells[≥Low]	GSE35640	1
+small intestine; glandular cells[≥Medium]	GSE35640	1
+small intestine; glandular cells[High]	GSE35640	1
+small molecule binding	GSE35640	1
+small molecule metabolic process	GSE35640	1
+small ribosomal subunit	GSE35640	0
+smooth muscle	GSE35640	1
+smooth muscle; smooth muscle cells[≥Low]	GSE35640	1
+smooth muscle; smooth muscle cells[≥Medium]	GSE35640	1
+soft tissue 1	GSE35640	1
+soft tissue 1; chondrocytes[≥Low]	GSE35640	1
+soft tissue 1; chondrocytes[≥Medium]	GSE35640	0
+soft tissue 1; fibroblasts[≥Low]	GSE35640	1
+soft tissue 1; fibroblasts[≥Medium]	GSE35640	1
+soft tissue 1; peripheral nerve[≥Low]	GSE35640	1
+soft tissue 2	GSE35640	1
+soft tissue 2; fibroblasts[≥Low]	GSE35640	1
+soft tissue 2; fibroblasts[≥Medium]	GSE35640	1
+spleen	GSE35640	1
+spleen; cells in red pulp[≥Low]	GSE35640	1
+spleen; cells in red pulp[≥Medium]	GSE35640	0
+spleen; cells in white pulp[≥Low]	GSE35640	1
+spleen; cells in white pulp[≥Medium]	GSE35640	1
+SRP-dependent cotranslational protein targeting to membrane	GSE35640	1
+stomach 1	GSE35640	1
+stomach 1; glandular cells[≥Low]	GSE35640	1
+stomach 1; glandular cells[≥Medium]	GSE35640	1
+stomach 1; glandular cells[High]	GSE35640	1
+stomach 2	GSE35640	1
+stomach 2; glandular cells[≥Low]	GSE35640	1
+stomach 2; glandular cells[≥Medium]	GSE35640	1
+stomach 2; glandular cells[High]	GSE35640	1
+testis	GSE35640	1
+testis; cells in seminiferous ducts[≥Low]	GSE35640	1
+testis; cells in seminiferous ducts[≥Medium]	GSE35640	1
+testis; Leydig cells[≥Low]	GSE35640	1
+testis; Leydig cells[≥Medium]	GSE35640	1
+testis; Leydig cells[High]	GSE35640	1
+tetrapyrrole biosynthetic process	GSE35640	0
+thyroid gland	GSE35640	1
+thyroid gland; glandular cells[≥Low]	GSE35640	1
+thyroid gland; glandular cells[≥Medium]	GSE35640	1
+thyroid gland; glandular cells[High]	GSE35640	1
+tonsil	GSE35640	1
+tonsil; germinal center cells[≥Low]	GSE35640	1
+tonsil; germinal center cells[≥Medium]	GSE35640	1
+tonsil; non-germinal center cells[≥Low]	GSE35640	1
+tonsil; non-germinal center cells[≥Medium]	GSE35640	1
+tonsil; squamous epithelial cells[≥Low]	GSE35640	1
+tonsil; squamous epithelial cells[≥Medium]	GSE35640	1
+transferase complex	GSE35640	1
+translation	GSE35640	1
+Translation	GSE35640	1
+translation regulator activity	GSE35640	1
+transport	GSE35640	1
+TRAPP complex	GSE35640	0
+TRAPPII protein complex	GSE35640	0
+TRAPPIII protein complex	GSE35640	0
+ubiquitin-dependent protein catabolic process	GSE35640	1
+urinary bladder	GSE35640	1
+urinary bladder; urothelial cells[≥Low]	GSE35640	1
+urinary bladder; urothelial cells[≥Medium]	GSE35640	1
+vacuolar acidification	GSE35640	0
+vacuolar membrane	GSE35640	1
+vacuole	GSE35640	0
+vacuole organization	GSE35640	1
+vagina	GSE35640	1
+vagina; squamous epithelial cells[≥Low]	GSE35640	1
+vagina; squamous epithelial cells[≥Medium]	GSE35640	1
+vesicle	GSE35640	1
+vesicle membrane	GSE35640	0
+vesicle tethering complex	GSE35640	0
+vesicle-mediated transport	GSE35640	0
+Viral mRNA Translation	GSE35640	1
+40S ribosomal subunit, cytoplasmic	GSE61992	0
+Abnormal nervous system morphology	GSE61992	1
+adipose tissue	GSE61992	1
+adipose tissue; adipocytes[≥Low]	GSE61992	1
+adipose tissue; adipocytes[≥Medium]	GSE61992	1
+adrenal gland	GSE61992	1
+adrenal gland; glandular cells[≥Low]	GSE61992	1
+adrenal gland; glandular cells[≥Medium]	GSE61992	1
+adrenal gland; glandular cells[High]	GSE61992	1
+amide biosynthetic process	GSE61992	1
+amide metabolic process	GSE61992	1
+anion binding	GSE61992	1
+apoptotic process	GSE61992	0
+appendix	GSE61992	1
+appendix; glandular cells[≥Low]	GSE61992	1
+appendix; glandular cells[≥Medium]	GSE61992	1
+appendix; lymphoid tissue[≥Low]	GSE61992	1
+appendix; lymphoid tissue[≥Medium]	GSE61992	1
+aromatic compound biosynthetic process	GSE61992	1
+aromatic compound catabolic process	GSE61992	0
+autophagy	GSE61992	1
+binding	GSE61992	1
+biological regulation	GSE61992	1
+bone marrow	GSE61992	1
+bone marrow; hematopoietic cells[≥Low]	GSE61992	1
+bone marrow; hematopoietic cells[≥Medium]	GSE61992	1
+bounding membrane of organelle	GSE61992	1
+breast	GSE61992	1
+breast; adipocytes[≥Low]	GSE61992	1
+breast; adipocytes[≥Medium]	GSE61992	1
+breast; glandular cells[≥Low]	GSE61992	1
+breast; glandular cells[≥Medium]	GSE61992	1
+breast; myoepithelial cells[≥Low]	GSE61992	1
+breast; myoepithelial cells[≥Medium]	GSE61992	1
+bronchus	GSE61992	1
+bronchus; basal cells[≥Low]	GSE61992	1
+bronchus; basal cells[≥Medium]	GSE61992	1
+bronchus; respiratory epithelial cells[≥Low]	GSE61992	1
+bronchus; respiratory epithelial cells[≥Medium]	GSE61992	1
+Cap-dependent Translation Initiation	GSE61992	1
+carbohydrate derivative binding	GSE61992	1
+carbohydrate derivative metabolic process	GSE61992	1
+carboxylic acid metabolic process	GSE61992	0
+catabolic process	GSE61992	1
+catalytic activity	GSE61992	1
+catalytic activity, acting on a protein	GSE61992	1
+catalytic complex	GSE61992	1
+caudate	GSE61992	1
+caudate; glial cells[≥Low]	GSE61992	1
+caudate; neuronal cells[≥Low]	GSE61992	1
+caudate; neuronal cells[≥Medium]	GSE61992	1
+cell cycle	GSE61992	1
+cell cycle phase transition	GSE61992	1
+cell cycle process	GSE61992	1
+cell-substrate junction	GSE61992	1
+cellular catabolic process	GSE61992	1
+cellular lipid metabolic process	GSE61992	1
+cellular localization	GSE61992	0
+cellular nitrogen compound biosynthetic process	GSE61992	1
+Cellular response to starvation	GSE61992	1
+cellular response to stress	GSE61992	1
+Cellular responses to stimuli	GSE61992	0
+Cellular responses to stress	GSE61992	1
+cerebellum	GSE61992	1
+cerebellum; cells in granular layer[≥Low]	GSE61992	1
+cerebellum; cells in granular layer[≥Medium]	GSE61992	1
+cerebellum; cells in molecular layer[≥Low]	GSE61992	1
+cerebellum; cells in molecular layer[≥Medium]	GSE61992	1
+cerebellum; Purkinje cells[≥Low]	GSE61992	1
+cerebellum; Purkinje cells[≥Medium]	GSE61992	1
+cerebellum; Purkinje cells[High]	GSE61992	1
+cerebral cortex	GSE61992	1
+cerebral cortex; endothelial cells[≥Low]	GSE61992	1
+cerebral cortex; endothelial cells[≥Medium]	GSE61992	1
+cerebral cortex; glial cells[≥Low]	GSE61992	1
+cerebral cortex; glial cells[≥Medium]	GSE61992	1
+cerebral cortex; neuronal cells[≥Low]	GSE61992	1
+cerebral cortex; neuronal cells[≥Medium]	GSE61992	1
+cerebral cortex; neuronal cells[High]	GSE61992	1
+cerebral cortex; neuropil[≥Low]	GSE61992	1
+cerebral cortex; neuropil[≥Medium]	GSE61992	1
+cervix	GSE61992	1
+cervix; glandular cells[≥Low]	GSE61992	1
+cervix; glandular cells[≥Medium]	GSE61992	1
+cervix; squamous epithelial cells[≥Low]	GSE61992	1
+cervix; squamous epithelial cells[≥Medium]	GSE61992	1
+colon	GSE61992	1
+colon; endothelial cells[≥Low]	GSE61992	1
+colon; endothelial cells[≥Medium]	GSE61992	1
+colon; glandular cells[≥Low]	GSE61992	1
+colon; glandular cells[≥Medium]	GSE61992	1
+colon; glandular cells[High]	GSE61992	1
+colon; peripheral nerve/ganglion[≥Low]	GSE61992	1
+colon; peripheral nerve/ganglion[≥Medium]	GSE61992	1
+cytoplasm	GSE61992	1
+Cytoplasmic ribosomal proteins	GSE61992	1
+cytoplasmic translation	GSE61992	1
+cytoplasmic vesicle	GSE61992	1
+cytoplasmic vesicle membrane	GSE61992	0
+cytosol	GSE61992	1
+cytosolic large ribosomal subunit	GSE61992	1
+cytosolic ribosome	GSE61992	1
+cytosolic small ribosomal subunit	GSE61992	1
+DNA damage response	GSE61992	1
+DNA metabolic process	GSE61992	1
+DNA repair	GSE61992	1
+duodenum	GSE61992	1
+duodenum; glandular cells[≥Low]	GSE61992	1
+duodenum; glandular cells[≥Medium]	GSE61992	1
+duodenum; glandular cells[High]	GSE61992	1
+endomembrane system	GSE61992	1
+endometrium 1	GSE61992	1
+endometrium 1; cells in endometrial stroma[≥Low]	GSE61992	1
+endometrium 1; cells in endometrial stroma[≥Medium]	GSE61992	1
+endometrium 1; glandular cells[≥Low]	GSE61992	1
+endometrium 1; glandular cells[≥Medium]	GSE61992	1
+endometrium 2	GSE61992	1
+endometrium 2; cells in endometrial stroma[≥Low]	GSE61992	1
+endometrium 2; cells in endometrial stroma[≥Medium]	GSE61992	1
+endometrium 2; glandular cells[≥Low]	GSE61992	1
+endometrium 2; glandular cells[≥Medium]	GSE61992	1
+endoplasmic reticulum	GSE61992	1
+endoplasmic reticulum membrane	GSE61992	1
+endoplasmic reticulum subcompartment	GSE61992	1
+endosome	GSE61992	0
+endosome membrane	GSE61992	0
+envelope	GSE61992	1
+enzyme binding	GSE61992	0
+epididymis	GSE61992	1
+epididymis; glandular cells[≥Low]	GSE61992	1
+epididymis; glandular cells[≥Medium]	GSE61992	1
+esophagus	GSE61992	1
+esophagus; squamous epithelial cells[≥Low]	GSE61992	1
+esophagus; squamous epithelial cells[≥Medium]	GSE61992	1
+esophagus; squamous epithelial cells[High]	GSE61992	0
+establishment of localization	GSE61992	0
+establishment of localization in cell	GSE61992	1
+Eukaryotic Translation Elongation	GSE61992	1
+Eukaryotic Translation Initiation	GSE61992	1
+Eukaryotic Translation Termination	GSE61992	1
+extracellular exosome	GSE61992	1
+extracellular membrane-bounded organelle	GSE61992	1
+extracellular organelle	GSE61992	1
+extracellular vesicle	GSE61992	1
+fallopian tube	GSE61992	1
+fallopian tube; glandular cells[≥Low]	GSE61992	1
+fallopian tube; glandular cells[≥Medium]	GSE61992	1
+focal adhesion	GSE61992	1
+Formation of a pool of free 40S subunits	GSE61992	1
+gallbladder	GSE61992	1
+gallbladder; glandular cells[≥Low]	GSE61992	1
+gallbladder; glandular cells[≥Medium]	GSE61992	1
+gallbladder; glandular cells[High]	GSE61992	1
+generation of precursor metabolites and energy	GSE61992	0
+glucose 6-phosphate metabolic process	GSE61992	0
+glycerolipid biosynthetic process	GSE61992	1
+glycerolipid metabolic process	GSE61992	1
+glycerophospholipid biosynthetic process	GSE61992	1
+glycerophospholipid metabolic process	GSE61992	1
+Golgi apparatus	GSE61992	1
+Golgi membrane	GSE61992	1
+GTP hydrolysis and joining of the 60S ribosomal subunit	GSE61992	1
+heart muscle	GSE61992	1
+heart muscle; cardiomyocytes[≥Low]	GSE61992	1
+heart muscle; cardiomyocytes[≥Medium]	GSE61992	1
+heterocycle biosynthetic process	GSE61992	1
+heterocyclic compound binding	GSE61992	1
+hippocampus	GSE61992	1
+hippocampus; glial cells[≥Low]	GSE61992	1
+hippocampus; neuronal cells[≥Low]	GSE61992	1
+hippocampus; neuronal cells[≥Medium]	GSE61992	1
+hsa-miR-16-5p	GSE61992	0
+hsa-miR-193b-3p	GSE61992	1
+hsa-miR-423-5p	GSE61992	0
+hsa-miR-615-3p	GSE61992	1
+hydrolase activity	GSE61992	1
+hydrolase activity, acting on ester bonds	GSE61992	1
+Influenza Infection	GSE61992	1
+Influenza Viral RNA Transcription and Replication	GSE61992	1
+intracellular anatomical structure	GSE61992	1
+intracellular membrane-bounded organelle	GSE61992	1
+intracellular organelle	GSE61992	1
+intracellular organelle lumen	GSE61992	1
+intracellular pH reduction	GSE61992	0
+intracellular protein-containing complex	GSE61992	1
+intracellular transport	GSE61992	1
+intracellular vesicle	GSE61992	1
+ion binding	GSE61992	1
+kidney	GSE61992	1
+kidney; cells in glomeruli[≥Low]	GSE61992	1
+kidney; cells in tubules[≥Low]	GSE61992	1
+kidney; cells in tubules[≥Medium]	GSE61992	1
+kidney; cells in tubules[High]	GSE61992	1
+L13a-mediated translational silencing of Ceruloplasmin expression	GSE61992	1
+large ribosomal subunit	GSE61992	1
+liver	GSE61992	1
+liver; cholangiocytes[≥Low]	GSE61992	1
+liver; cholangiocytes[≥Medium]	GSE61992	1
+liver; hepatocytes[≥Low]	GSE61992	1
+liver; hepatocytes[≥Medium]	GSE61992	1
+localization	GSE61992	1
+lung	GSE61992	1
+lung; alveolar cells[≥Low]	GSE61992	1
+lung; alveolar cells[≥Medium]	GSE61992	1
+lung; macrophages[≥Low]	GSE61992	1
+lung; macrophages[≥Medium]	GSE61992	1
+lymph node	GSE61992	1
+lymph node; germinal center cells[≥Low]	GSE61992	1
+lymph node; germinal center cells[≥Medium]	GSE61992	1
+lymph node; non-germinal center cells[≥Low]	GSE61992	1
+lymph node; non-germinal center cells[≥Medium]	GSE61992	1
+lymph node; non-germinal center cells[High]	GSE61992	1
+lysosomal lumen acidification	GSE61992	1
+lysosomal membrane	GSE61992	1
+lysosome	GSE61992	0
+lysosome organization	GSE61992	0
+lytic vacuole	GSE61992	0
+lytic vacuole membrane	GSE61992	1
+lytic vacuole organization	GSE61992	0
+macroautophagy	GSE61992	1
+macromolecule catabolic process	GSE61992	1
+macromolecule modification	GSE61992	1
+Major pathway of rRNA processing in the nucleolus and cytosol	GSE61992	1
+membrane	GSE61992	1
+membrane-bounded organelle	GSE61992	1
+membrane-enclosed lumen	GSE61992	1
+Metabolism	GSE61992	1
+Metabolism of amino acids and derivatives	GSE61992	1
+Metabolism of proteins	GSE61992	1
+mitochondrial envelope	GSE61992	1
+mitochondrial inner membrane	GSE61992	1
+mitochondrial matrix	GSE61992	1
+mitochondrial membrane	GSE61992	1
+mitochondrial outer membrane	GSE61992	1
+mitochondrial translation	GSE61992	0
+mitochondrion	GSE61992	1
+mitochondrion organization	GSE61992	1
+mitotic cell cycle	GSE61992	1
+mitotic cell cycle phase transition	GSE61992	0
+mitotic cell cycle process	GSE61992	0
+modification-dependent macromolecule catabolic process	GSE61992	1
+modification-dependent protein catabolic process	GSE61992	1
+NADPH regeneration	GSE61992	0
+nasopharynx	GSE61992	1
+nasopharynx; basal cells[≥Low]	GSE61992	1
+nasopharynx; basal cells[≥Medium]	GSE61992	1
+nasopharynx; ciliated cells (cell body)[≥Medium]	GSE61992	1
+nasopharynx; respiratory epithelial cells[≥Low]	GSE61992	1
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE61992	1
+ncRNA metabolic process	GSE61992	1
+ncRNA processing	GSE61992	1
+negative regulation of cellular process	GSE61992	0
+nicotinamide nucleotide metabolic process	GSE61992	0
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE61992	1
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE61992	1
+Nonsense-Mediated Decay (NMD)	GSE61992	1
+Nop56p-associated pre-rRNA complex	GSE61992	0
+nuclear lumen	GSE61992	1
+nuclear outer membrane-endoplasmic reticulum membrane network	GSE61992	1
+nucleobase-containing compound biosynthetic process	GSE61992	1
+nucleobase-containing compound catabolic process	GSE61992	0
+nucleobase-containing small molecule metabolic process	GSE61992	1
+nucleoplasm	GSE61992	1
+nucleoside phosphate binding	GSE61992	1
+nucleoside phosphate metabolic process	GSE61992	0
+nucleotide binding	GSE61992	1
+nucleotide metabolic process	GSE61992	1
+oral mucosa	GSE61992	1
+oral mucosa; squamous epithelial cells[≥Low]	GSE61992	1
+oral mucosa; squamous epithelial cells[≥Medium]	GSE61992	1
+organelle	GSE61992	1
+organelle envelope	GSE61992	1
+organelle inner membrane	GSE61992	1
+organelle localization	GSE61992	0
+organelle lumen	GSE61992	1
+organelle membrane	GSE61992	1
+organelle organization	GSE61992	1
+organelle outer membrane	GSE61992	1
+organelle subcompartment	GSE61992	1
+organic acid metabolic process	GSE61992	0
+organic cyclic compound biosynthetic process	GSE61992	1
+organic substance catabolic process	GSE61992	1
+organic substance transport	GSE61992	0
+organonitrogen compound biosynthetic process	GSE61992	1
+organonitrogen compound catabolic process	GSE61992	1
+organonitrogen compound metabolic process	GSE61992	1
+organophosphate biosynthetic process	GSE61992	1
+organophosphate metabolic process	GSE61992	1
+outer membrane	GSE61992	1
+ovary	GSE61992	1
+ovary; follicle cells[≥Low]	GSE61992	1
+ovary; follicle cells[≥Medium]	GSE61992	1
+ovary; ovarian stroma cells[≥Low]	GSE61992	1
+oxoacid metabolic process	GSE61992	0
+pancreas	GSE61992	1
+pancreas; exocrine glandular cells[≥Low]	GSE61992	1
+pancreas; exocrine glandular cells[≥Medium]	GSE61992	1
+pancreas; exocrine glandular cells[High]	GSE61992	1
+pancreas; pancreatic endocrine cells[≥Low]	GSE61992	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE61992	1
+parathyroid gland	GSE61992	1
+parathyroid gland; glandular cells[≥Low]	GSE61992	1
+parathyroid gland; glandular cells[≥Medium]	GSE61992	1
+pentose-phosphate shunt	GSE61992	0
+peptide biosynthetic process	GSE61992	1
+Peptide chain elongation	GSE61992	1
+peptide metabolic process	GSE61992	1
+perinuclear region of cytoplasm	GSE61992	1
+phosphate-containing compound metabolic process	GSE61992	1
+phospholipid biosynthetic process	GSE61992	1
+phosphorus metabolic process	GSE61992	1
+pigment biosynthetic process	GSE61992	1
+placenta	GSE61992	1
+placenta; decidual cells[≥Low]	GSE61992	1
+placenta; decidual cells[≥Medium]	GSE61992	1
+placenta; trophoblastic cells[≥Low]	GSE61992	1
+placenta; trophoblastic cells[≥Medium]	GSE61992	1
+placenta; trophoblastic cells[High]	GSE61992	1
+porphyrin-containing compound biosynthetic process	GSE61992	0
+positive regulation of biological process	GSE61992	1
+positive regulation of biosynthetic process	GSE61992	0
+positive regulation of cellular biosynthetic process	GSE61992	0
+positive regulation of cellular metabolic process	GSE61992	1
+positive regulation of cellular process	GSE61992	1
+positive regulation of macromolecule metabolic process	GSE61992	0
+positive regulation of metabolic process	GSE61992	1
+positive regulation of nitrogen compound metabolic process	GSE61992	1
+process utilizing autophagic mechanism	GSE61992	1
+prostate	GSE61992	1
+prostate; glandular cells[≥Low]	GSE61992	1
+prostate; glandular cells[≥Medium]	GSE61992	1
+protein binding	GSE61992	1
+protein catabolic process	GSE61992	1
+protein metabolic process	GSE61992	1
+protein modification process	GSE61992	1
+proteolysis involved in protein catabolic process	GSE61992	1
+purine nucleotide binding	GSE61992	1
+purine nucleotide metabolic process	GSE61992	0
+purine ribonucleoside triphosphate binding	GSE61992	1
+purine ribonucleotide binding	GSE61992	1
+purine-containing compound metabolic process	GSE61992	0
+pyridine nucleotide metabolic process	GSE61992	0
+pyridine-containing compound metabolic process	GSE61992	0
+RAB GEFs exchange GTP for GDP on RABs	GSE61992	0
+rectum	GSE61992	1
+rectum; glandular cells[≥Low]	GSE61992	1
+rectum; glandular cells[≥Medium]	GSE61992	1
+rectum; glandular cells[High]	GSE61992	1
+regulation of amide metabolic process	GSE61992	1
+regulation of catabolic process	GSE61992	1
+regulation of cell cycle	GSE61992	1
+regulation of cellular catabolic process	GSE61992	0
+regulation of cellular component organization	GSE61992	1
+regulation of DNA metabolic process	GSE61992	0
+Regulation of expression of SLITs and ROBOs	GSE61992	1
+regulation of lysosomal lumen pH	GSE61992	1
+regulation of metabolic process	GSE61992	0
+regulation of mitotic cell cycle	GSE61992	0
+regulation of nitrogen compound metabolic process	GSE61992	1
+regulation of nucleobase-containing compound metabolic process	GSE61992	0
+regulation of primary metabolic process	GSE61992	1
+regulation of protein metabolic process	GSE61992	1
+regulation of translation	GSE61992	1
+Response of EIF2AK4 (GCN2) to amino acid deficiency	GSE61992	1
+ribonucleoprotein complex binding	GSE61992	0
+ribonucleotide binding	GSE61992	1
+ribosomal small subunit biogenesis	GSE61992	1
+ribosomal subunit	GSE61992	1
+ribosome assembly	GSE61992	0
+ribosome biogenesis	GSE61992	1
+Ribosome, cytoplasmic	GSE61992	1
+rRNA metabolic process	GSE61992	1
+rRNA processing	GSE61992	2
+rRNA processing in the nucleus and cytosol	GSE61992	1
+salivary gland	GSE61992	1
+salivary gland; glandular cells[≥Low]	GSE61992	1
+salivary gland; glandular cells[≥Medium]	GSE61992	1
+SARS-CoV-1 modulates host translation machinery	GSE61992	1
+SARS-CoV-2 modulates host translation machinery	GSE61992	1
+Selenoamino acid metabolism	GSE61992	1
+Selenocysteine synthesis	GSE61992	1
+seminal vesicle	GSE61992	1
+seminal vesicle; glandular cells[≥Low]	GSE61992	1
+seminal vesicle; glandular cells[≥Medium]	GSE61992	1
+Signaling by ROBO receptors	GSE61992	1
+skeletal muscle	GSE61992	1
+skeletal muscle; myocytes[≥Low]	GSE61992	1
+skeletal muscle; myocytes[≥Medium]	GSE61992	1
+skin 1	GSE61992	1
+skin 1; fibroblasts[≥Low]	GSE61992	1
+skin 1; fibroblasts[≥Medium]	GSE61992	1
+skin 1; keratinocytes[≥Low]	GSE61992	1
+skin 1; keratinocytes[≥Medium]	GSE61992	1
+skin 1; keratinocytes[High]	GSE61992	1
+skin 1; Langerhans[≥Low]	GSE61992	1
+skin 1; Langerhans[≥Medium]	GSE61992	1
+skin 1; melanocytes[≥Low]	GSE61992	1
+skin 1; melanocytes[≥Medium]	GSE61992	1
+skin 2	GSE61992	1
+skin 2; epidermal cells[≥Low]	GSE61992	1
+skin 2; epidermal cells[≥Medium]	GSE61992	1
+skin 2; epidermal cells[High]	GSE61992	0
+small intestine	GSE61992	1
+small intestine; glandular cells[≥Low]	GSE61992	1
+small intestine; glandular cells[≥Medium]	GSE61992	1
+small intestine; glandular cells[High]	GSE61992	1
+small molecule binding	GSE61992	1
+small molecule metabolic process	GSE61992	1
+small ribosomal subunit	GSE61992	1
+smooth muscle	GSE61992	1
+smooth muscle; smooth muscle cells[≥Low]	GSE61992	1
+smooth muscle; smooth muscle cells[≥Medium]	GSE61992	1
+soft tissue 1	GSE61992	1
+soft tissue 1; chondrocytes[≥Low]	GSE61992	1
+soft tissue 1; chondrocytes[≥Medium]	GSE61992	1
+soft tissue 1; fibroblasts[≥Low]	GSE61992	1
+soft tissue 1; fibroblasts[≥Medium]	GSE61992	1
+soft tissue 1; peripheral nerve[≥Low]	GSE61992	1
+soft tissue 2	GSE61992	1
+soft tissue 2; fibroblasts[≥Low]	GSE61992	1
+soft tissue 2; fibroblasts[≥Medium]	GSE61992	1
+spleen	GSE61992	1
+spleen; cells in red pulp[≥Low]	GSE61992	1
+spleen; cells in red pulp[≥Medium]	GSE61992	0
+spleen; cells in white pulp[≥Low]	GSE61992	1
+spleen; cells in white pulp[≥Medium]	GSE61992	1
+SRP-dependent cotranslational protein targeting to membrane	GSE61992	1
+stomach 1	GSE61992	1
+stomach 1; glandular cells[≥Low]	GSE61992	1
+stomach 1; glandular cells[≥Medium]	GSE61992	1
+stomach 1; glandular cells[High]	GSE61992	1
+stomach 2	GSE61992	1
+stomach 2; glandular cells[≥Low]	GSE61992	1
+stomach 2; glandular cells[≥Medium]	GSE61992	1
+stomach 2; glandular cells[High]	GSE61992	1
+testis	GSE61992	1
+testis; cells in seminiferous ducts[≥Low]	GSE61992	1
+testis; cells in seminiferous ducts[≥Medium]	GSE61992	1
+testis; Leydig cells[≥Low]	GSE61992	1
+testis; Leydig cells[≥Medium]	GSE61992	1
+testis; Leydig cells[High]	GSE61992	1
+tetrapyrrole biosynthetic process	GSE61992	0
+thyroid gland	GSE61992	1
+thyroid gland; glandular cells[≥Low]	GSE61992	1
+thyroid gland; glandular cells[≥Medium]	GSE61992	1
+thyroid gland; glandular cells[High]	GSE61992	1
+tonsil	GSE61992	1
+tonsil; germinal center cells[≥Low]	GSE61992	1
+tonsil; germinal center cells[≥Medium]	GSE61992	1
+tonsil; non-germinal center cells[≥Low]	GSE61992	1
+tonsil; non-germinal center cells[≥Medium]	GSE61992	1
+tonsil; squamous epithelial cells[≥Low]	GSE61992	1
+tonsil; squamous epithelial cells[≥Medium]	GSE61992	1
+transferase complex	GSE61992	1
+translation	GSE61992	1
+Translation	GSE61992	1
+translation regulator activity	GSE61992	0
+transport	GSE61992	1
+TRAPP complex	GSE61992	1
+TRAPPII protein complex	GSE61992	1
+TRAPPIII protein complex	GSE61992	1
+ubiquitin-dependent protein catabolic process	GSE61992	1
+urinary bladder	GSE61992	1
+urinary bladder; urothelial cells[≥Low]	GSE61992	1
+urinary bladder; urothelial cells[≥Medium]	GSE61992	1
+vacuolar acidification	GSE61992	0
+vacuolar membrane	GSE61992	1
+vacuole	GSE61992	0
+vacuole organization	GSE61992	1
+vagina	GSE61992	1
+vagina; squamous epithelial cells[≥Low]	GSE61992	1
+vagina; squamous epithelial cells[≥Medium]	GSE61992	1
+vesicle	GSE61992	1
+vesicle membrane	GSE61992	0
+vesicle tethering complex	GSE61992	1
+vesicle-mediated transport	GSE61992	0
+Viral mRNA Translation	GSE61992	1
+40S ribosomal subunit, cytoplasmic	GSE91061	2
+Abnormal nervous system morphology	GSE91061	0
+adipose tissue	GSE91061	1
+adipose tissue; adipocytes[≥Low]	GSE91061	1
+adipose tissue; adipocytes[≥Medium]	GSE91061	1
+adrenal gland	GSE91061	1
+adrenal gland; glandular cells[≥Low]	GSE91061	1
+adrenal gland; glandular cells[≥Medium]	GSE91061	1
+adrenal gland; glandular cells[High]	GSE91061	1
+amide biosynthetic process	GSE91061	1
+amide metabolic process	GSE91061	1
+anion binding	GSE91061	1
+apoptotic process	GSE91061	1
+appendix	GSE91061	1
+appendix; glandular cells[≥Low]	GSE91061	1
+appendix; glandular cells[≥Medium]	GSE91061	1
+appendix; lymphoid tissue[≥Low]	GSE91061	1
+appendix; lymphoid tissue[≥Medium]	GSE91061	1
+aromatic compound biosynthetic process	GSE91061	0
+aromatic compound catabolic process	GSE91061	0
+autophagy	GSE91061	1
+binding	GSE91061	1
+biological regulation	GSE91061	0
+bone marrow	GSE91061	1
+bone marrow; hematopoietic cells[≥Low]	GSE91061	1
+bone marrow; hematopoietic cells[≥Medium]	GSE91061	1
+bounding membrane of organelle	GSE91061	1
+breast	GSE91061	1
+breast; adipocytes[≥Low]	GSE91061	1
+breast; adipocytes[≥Medium]	GSE91061	1
+breast; glandular cells[≥Low]	GSE91061	1
+breast; glandular cells[≥Medium]	GSE91061	1
+breast; myoepithelial cells[≥Low]	GSE91061	1
+breast; myoepithelial cells[≥Medium]	GSE91061	1
+bronchus	GSE91061	1
+bronchus; basal cells[≥Low]	GSE91061	0
+bronchus; basal cells[≥Medium]	GSE91061	0
+bronchus; respiratory epithelial cells[≥Low]	GSE91061	1
+bronchus; respiratory epithelial cells[≥Medium]	GSE91061	1
+Cap-dependent Translation Initiation	GSE91061	1
+carbohydrate derivative binding	GSE91061	1
+carbohydrate derivative metabolic process	GSE91061	1
+carboxylic acid metabolic process	GSE91061	1
+catabolic process	GSE91061	1
+catalytic activity	GSE91061	1
+catalytic activity, acting on a protein	GSE91061	0
+catalytic complex	GSE91061	1
+caudate	GSE91061	1
+caudate; glial cells[≥Low]	GSE91061	1
+caudate; neuronal cells[≥Low]	GSE91061	1
+caudate; neuronal cells[≥Medium]	GSE91061	1
+cell cycle	GSE91061	1
+cell cycle phase transition	GSE91061	0
+cell cycle process	GSE91061	0
+cell-substrate junction	GSE91061	1
+cellular catabolic process	GSE91061	1
+cellular lipid metabolic process	GSE91061	1
+cellular localization	GSE91061	1
+cellular nitrogen compound biosynthetic process	GSE91061	1
+Cellular response to starvation	GSE91061	1
+cellular response to stress	GSE91061	0
+Cellular responses to stimuli	GSE91061	0
+Cellular responses to stress	GSE91061	0
+cerebellum	GSE91061	1
+cerebellum; cells in granular layer[≥Low]	GSE91061	1
+cerebellum; cells in granular layer[≥Medium]	GSE91061	1
+cerebellum; cells in molecular layer[≥Low]	GSE91061	1
+cerebellum; cells in molecular layer[≥Medium]	GSE91061	1
+cerebellum; Purkinje cells[≥Low]	GSE91061	1
+cerebellum; Purkinje cells[≥Medium]	GSE91061	1
+cerebellum; Purkinje cells[High]	GSE91061	0
+cerebral cortex	GSE91061	1
+cerebral cortex; endothelial cells[≥Low]	GSE91061	1
+cerebral cortex; endothelial cells[≥Medium]	GSE91061	1
+cerebral cortex; glial cells[≥Low]	GSE91061	1
+cerebral cortex; glial cells[≥Medium]	GSE91061	0
+cerebral cortex; neuronal cells[≥Low]	GSE91061	1
+cerebral cortex; neuronal cells[≥Medium]	GSE91061	1
+cerebral cortex; neuronal cells[High]	GSE91061	0
+cerebral cortex; neuropil[≥Low]	GSE91061	1
+cerebral cortex; neuropil[≥Medium]	GSE91061	1
+cervix	GSE91061	1
+cervix; glandular cells[≥Low]	GSE91061	1
+cervix; glandular cells[≥Medium]	GSE91061	1
+cervix; squamous epithelial cells[≥Low]	GSE91061	1
+cervix; squamous epithelial cells[≥Medium]	GSE91061	1
+colon	GSE91061	1
+colon; endothelial cells[≥Low]	GSE91061	1
+colon; endothelial cells[≥Medium]	GSE91061	1
+colon; glandular cells[≥Low]	GSE91061	1
+colon; glandular cells[≥Medium]	GSE91061	1
+colon; glandular cells[High]	GSE91061	1
+colon; peripheral nerve/ganglion[≥Low]	GSE91061	1
+colon; peripheral nerve/ganglion[≥Medium]	GSE91061	1
+cytoplasm	GSE91061	1
+Cytoplasmic ribosomal proteins	GSE91061	1
+cytoplasmic translation	GSE91061	1
+cytoplasmic vesicle	GSE91061	1
+cytoplasmic vesicle membrane	GSE91061	1
+cytosol	GSE91061	1
+cytosolic large ribosomal subunit	GSE91061	1
+cytosolic ribosome	GSE91061	1
+cytosolic small ribosomal subunit	GSE91061	1
+DNA damage response	GSE91061	0
+DNA metabolic process	GSE91061	0
+DNA repair	GSE91061	0
+duodenum	GSE91061	1
+duodenum; glandular cells[≥Low]	GSE91061	1
+duodenum; glandular cells[≥Medium]	GSE91061	1
+duodenum; glandular cells[High]	GSE91061	1
+endomembrane system	GSE91061	1
+endometrium 1	GSE91061	1
+endometrium 1; cells in endometrial stroma[≥Low]	GSE91061	1
+endometrium 1; cells in endometrial stroma[≥Medium]	GSE91061	0
+endometrium 1; glandular cells[≥Low]	GSE91061	1
+endometrium 1; glandular cells[≥Medium]	GSE91061	1
+endometrium 2	GSE91061	1
+endometrium 2; cells in endometrial stroma[≥Low]	GSE91061	1
+endometrium 2; cells in endometrial stroma[≥Medium]	GSE91061	0
+endometrium 2; glandular cells[≥Low]	GSE91061	1
+endometrium 2; glandular cells[≥Medium]	GSE91061	1
+endoplasmic reticulum	GSE91061	1
+endoplasmic reticulum membrane	GSE91061	1
+endoplasmic reticulum subcompartment	GSE91061	1
+endosome	GSE91061	1
+endosome membrane	GSE91061	1
+envelope	GSE91061	1
+enzyme binding	GSE91061	0
+epididymis	GSE91061	1
+epididymis; glandular cells[≥Low]	GSE91061	1
+epididymis; glandular cells[≥Medium]	GSE91061	1
+esophagus	GSE91061	1
+esophagus; squamous epithelial cells[≥Low]	GSE91061	1
+esophagus; squamous epithelial cells[≥Medium]	GSE91061	1
+esophagus; squamous epithelial cells[High]	GSE91061	0
+establishment of localization	GSE91061	1
+establishment of localization in cell	GSE91061	1
+Eukaryotic Translation Elongation	GSE91061	1
+Eukaryotic Translation Initiation	GSE91061	1
+Eukaryotic Translation Termination	GSE91061	1
+extracellular exosome	GSE91061	1
+extracellular membrane-bounded organelle	GSE91061	1
+extracellular organelle	GSE91061	1
+extracellular vesicle	GSE91061	1
+fallopian tube	GSE91061	1
+fallopian tube; glandular cells[≥Low]	GSE91061	1
+fallopian tube; glandular cells[≥Medium]	GSE91061	1
+focal adhesion	GSE91061	1
+Formation of a pool of free 40S subunits	GSE91061	1
+gallbladder	GSE91061	1
+gallbladder; glandular cells[≥Low]	GSE91061	1
+gallbladder; glandular cells[≥Medium]	GSE91061	1
+gallbladder; glandular cells[High]	GSE91061	1
+generation of precursor metabolites and energy	GSE91061	1
+glucose 6-phosphate metabolic process	GSE91061	1
+glycerolipid biosynthetic process	GSE91061	1
+glycerolipid metabolic process	GSE91061	1
+glycerophospholipid biosynthetic process	GSE91061	1
+glycerophospholipid metabolic process	GSE91061	1
+Golgi apparatus	GSE91061	1
+Golgi membrane	GSE91061	1
+GTP hydrolysis and joining of the 60S ribosomal subunit	GSE91061	1
+heart muscle	GSE91061	1
+heart muscle; cardiomyocytes[≥Low]	GSE91061	1
+heart muscle; cardiomyocytes[≥Medium]	GSE91061	1
+heterocycle biosynthetic process	GSE91061	0
+heterocyclic compound binding	GSE91061	1
+hippocampus	GSE91061	1
+hippocampus; glial cells[≥Low]	GSE91061	1
+hippocampus; neuronal cells[≥Low]	GSE91061	1
+hippocampus; neuronal cells[≥Medium]	GSE91061	1
+hsa-miR-16-5p	GSE91061	0
+hsa-miR-193b-3p	GSE91061	1
+hsa-miR-423-5p	GSE91061	0
+hsa-miR-615-3p	GSE91061	1
+hydrolase activity	GSE91061	1
+hydrolase activity, acting on ester bonds	GSE91061	1
+Influenza Infection	GSE91061	1
+Influenza Viral RNA Transcription and Replication	GSE91061	1
+intracellular anatomical structure	GSE91061	1
+intracellular membrane-bounded organelle	GSE91061	1
+intracellular organelle	GSE91061	1
+intracellular organelle lumen	GSE91061	1
+intracellular pH reduction	GSE91061	1
+intracellular protein-containing complex	GSE91061	1
+intracellular transport	GSE91061	1
+intracellular vesicle	GSE91061	1
+ion binding	GSE91061	1
+kidney	GSE91061	1
+kidney; cells in glomeruli[≥Low]	GSE91061	1
+kidney; cells in tubules[≥Low]	GSE91061	1
+kidney; cells in tubules[≥Medium]	GSE91061	1
+kidney; cells in tubules[High]	GSE91061	1
+L13a-mediated translational silencing of Ceruloplasmin expression	GSE91061	1
+large ribosomal subunit	GSE91061	1
+liver	GSE91061	1
+liver; cholangiocytes[≥Low]	GSE91061	1
+liver; cholangiocytes[≥Medium]	GSE91061	1
+liver; hepatocytes[≥Low]	GSE91061	1
+liver; hepatocytes[≥Medium]	GSE91061	1
+localization	GSE91061	1
+lung	GSE91061	1
+lung; alveolar cells[≥Low]	GSE91061	1
+lung; alveolar cells[≥Medium]	GSE91061	0
+lung; macrophages[≥Low]	GSE91061	1
+lung; macrophages[≥Medium]	GSE91061	1
+lymph node	GSE91061	1
+lymph node; germinal center cells[≥Low]	GSE91061	1
+lymph node; germinal center cells[≥Medium]	GSE91061	1
+lymph node; non-germinal center cells[≥Low]	GSE91061	1
+lymph node; non-germinal center cells[≥Medium]	GSE91061	1
+lymph node; non-germinal center cells[High]	GSE91061	1
+lysosomal lumen acidification	GSE91061	1
+lysosomal membrane	GSE91061	1
+lysosome	GSE91061	1
+lysosome organization	GSE91061	1
+lytic vacuole	GSE91061	1
+lytic vacuole membrane	GSE91061	1
+lytic vacuole organization	GSE91061	1
+macroautophagy	GSE91061	1
+macromolecule catabolic process	GSE91061	0
+macromolecule modification	GSE91061	1
+Major pathway of rRNA processing in the nucleolus and cytosol	GSE91061	1
+membrane	GSE91061	1
+membrane-bounded organelle	GSE91061	1
+membrane-enclosed lumen	GSE91061	1
+Metabolism	GSE91061	1
+Metabolism of amino acids and derivatives	GSE91061	1
+Metabolism of proteins	GSE91061	1
+mitochondrial envelope	GSE91061	1
+mitochondrial inner membrane	GSE91061	1
+mitochondrial matrix	GSE91061	1
+mitochondrial membrane	GSE91061	1
+mitochondrial outer membrane	GSE91061	1
+mitochondrial translation	GSE91061	0
+mitochondrion	GSE91061	1
+mitochondrion organization	GSE91061	1
+mitotic cell cycle	GSE91061	0
+mitotic cell cycle phase transition	GSE91061	0
+mitotic cell cycle process	GSE91061	0
+modification-dependent macromolecule catabolic process	GSE91061	0
+modification-dependent protein catabolic process	GSE91061	0
+NADPH regeneration	GSE91061	1
+nasopharynx	GSE91061	1
+nasopharynx; basal cells[≥Low]	GSE91061	0
+nasopharynx; basal cells[≥Medium]	GSE91061	0
+nasopharynx; ciliated cells (cell body)[≥Medium]	GSE91061	0
+nasopharynx; respiratory epithelial cells[≥Low]	GSE91061	1
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE91061	1
+ncRNA metabolic process	GSE91061	1
+ncRNA processing	GSE91061	1
+negative regulation of cellular process	GSE91061	0
+nicotinamide nucleotide metabolic process	GSE91061	1
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE91061	1
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE91061	1
+Nonsense-Mediated Decay (NMD)	GSE91061	1
+Nop56p-associated pre-rRNA complex	GSE91061	1
+nuclear lumen	GSE91061	0
+nuclear outer membrane-endoplasmic reticulum membrane network	GSE91061	1
+nucleobase-containing compound biosynthetic process	GSE91061	0
+nucleobase-containing compound catabolic process	GSE91061	0
+nucleobase-containing small molecule metabolic process	GSE91061	1
+nucleoplasm	GSE91061	1
+nucleoside phosphate binding	GSE91061	1
+nucleoside phosphate metabolic process	GSE91061	1
+nucleotide binding	GSE91061	1
+nucleotide metabolic process	GSE91061	1
+oral mucosa	GSE91061	1
+oral mucosa; squamous epithelial cells[≥Low]	GSE91061	1
+oral mucosa; squamous epithelial cells[≥Medium]	GSE91061	1
+organelle	GSE91061	1
+organelle envelope	GSE91061	1
+organelle inner membrane	GSE91061	1
+organelle localization	GSE91061	1
+organelle lumen	GSE91061	1
+organelle membrane	GSE91061	1
+organelle organization	GSE91061	1
+organelle outer membrane	GSE91061	1
+organelle subcompartment	GSE91061	1
+organic acid metabolic process	GSE91061	0
+organic cyclic compound biosynthetic process	GSE91061	0
+organic substance catabolic process	GSE91061	1
+organic substance transport	GSE91061	1
+organonitrogen compound biosynthetic process	GSE91061	1
+organonitrogen compound catabolic process	GSE91061	1
+organonitrogen compound metabolic process	GSE91061	1
+organophosphate biosynthetic process	GSE91061	1
+organophosphate metabolic process	GSE91061	1
+outer membrane	GSE91061	1
+ovary	GSE91061	1
+ovary; follicle cells[≥Low]	GSE91061	0
+ovary; follicle cells[≥Medium]	GSE91061	0
+ovary; ovarian stroma cells[≥Low]	GSE91061	1
+oxoacid metabolic process	GSE91061	1
+pancreas	GSE91061	1
+pancreas; exocrine glandular cells[≥Low]	GSE91061	1
+pancreas; exocrine glandular cells[≥Medium]	GSE91061	1
+pancreas; exocrine glandular cells[High]	GSE91061	1
+pancreas; pancreatic endocrine cells[≥Low]	GSE91061	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE91061	1
+parathyroid gland	GSE91061	1
+parathyroid gland; glandular cells[≥Low]	GSE91061	1
+parathyroid gland; glandular cells[≥Medium]	GSE91061	1
+pentose-phosphate shunt	GSE91061	1
+peptide biosynthetic process	GSE91061	1
+Peptide chain elongation	GSE91061	1
+peptide metabolic process	GSE91061	1
+perinuclear region of cytoplasm	GSE91061	1
+phosphate-containing compound metabolic process	GSE91061	1
+phospholipid biosynthetic process	GSE91061	1
+phosphorus metabolic process	GSE91061	1
+pigment biosynthetic process	GSE91061	1
+placenta	GSE91061	1
+placenta; decidual cells[≥Low]	GSE91061	1
+placenta; decidual cells[≥Medium]	GSE91061	1
+placenta; trophoblastic cells[≥Low]	GSE91061	1
+placenta; trophoblastic cells[≥Medium]	GSE91061	1
+placenta; trophoblastic cells[High]	GSE91061	1
+porphyrin-containing compound biosynthetic process	GSE91061	1
+positive regulation of biological process	GSE91061	1
+positive regulation of biosynthetic process	GSE91061	0
+positive regulation of cellular biosynthetic process	GSE91061	0
+positive regulation of cellular metabolic process	GSE91061	0
+positive regulation of cellular process	GSE91061	1
+positive regulation of macromolecule metabolic process	GSE91061	0
+positive regulation of metabolic process	GSE91061	0
+positive regulation of nitrogen compound metabolic process	GSE91061	0
+process utilizing autophagic mechanism	GSE91061	1
+prostate	GSE91061	1
+prostate; glandular cells[≥Low]	GSE91061	1
+prostate; glandular cells[≥Medium]	GSE91061	1
+protein binding	GSE91061	1
+protein catabolic process	GSE91061	0
+protein metabolic process	GSE91061	1
+protein modification process	GSE91061	1
+proteolysis involved in protein catabolic process	GSE91061	0
+purine nucleotide binding	GSE91061	1
+purine nucleotide metabolic process	GSE91061	1
+purine ribonucleoside triphosphate binding	GSE91061	1
+purine ribonucleotide binding	GSE91061	1
+purine-containing compound metabolic process	GSE91061	1
+pyridine nucleotide metabolic process	GSE91061	1
+pyridine-containing compound metabolic process	GSE91061	1
+RAB GEFs exchange GTP for GDP on RABs	GSE91061	1
+rectum	GSE91061	1
+rectum; glandular cells[≥Low]	GSE91061	1
+rectum; glandular cells[≥Medium]	GSE91061	1
+rectum; glandular cells[High]	GSE91061	1
+regulation of amide metabolic process	GSE91061	1
+regulation of catabolic process	GSE91061	0
+regulation of cell cycle	GSE91061	0
+regulation of cellular catabolic process	GSE91061	0
+regulation of cellular component organization	GSE91061	1
+regulation of DNA metabolic process	GSE91061	0
+Regulation of expression of SLITs and ROBOs	GSE91061	1
+regulation of lysosomal lumen pH	GSE91061	1
+regulation of metabolic process	GSE91061	0
+regulation of mitotic cell cycle	GSE91061	0
+regulation of nitrogen compound metabolic process	GSE91061	0
+regulation of nucleobase-containing compound metabolic process	GSE91061	0
+regulation of primary metabolic process	GSE91061	0
+regulation of protein metabolic process	GSE91061	1
+regulation of translation	GSE91061	1
+Response of EIF2AK4 (GCN2) to amino acid deficiency	GSE91061	1
+ribonucleoprotein complex binding	GSE91061	1
+ribonucleotide binding	GSE91061	1
+ribosomal small subunit biogenesis	GSE91061	1
+ribosomal subunit	GSE91061	1
+ribosome assembly	GSE91061	1
+ribosome biogenesis	GSE91061	1
+Ribosome, cytoplasmic	GSE91061	1
+rRNA metabolic process	GSE91061	1
+rRNA processing	GSE91061	2
+rRNA processing in the nucleus and cytosol	GSE91061	1
+salivary gland	GSE91061	1
+salivary gland; glandular cells[≥Low]	GSE91061	1
+salivary gland; glandular cells[≥Medium]	GSE91061	1
+SARS-CoV-1 modulates host translation machinery	GSE91061	1
+SARS-CoV-2 modulates host translation machinery	GSE91061	1
+Selenoamino acid metabolism	GSE91061	1
+Selenocysteine synthesis	GSE91061	1
+seminal vesicle	GSE91061	1
+seminal vesicle; glandular cells[≥Low]	GSE91061	1
+seminal vesicle; glandular cells[≥Medium]	GSE91061	1
+Signaling by ROBO receptors	GSE91061	1
+skeletal muscle	GSE91061	1
+skeletal muscle; myocytes[≥Low]	GSE91061	1
+skeletal muscle; myocytes[≥Medium]	GSE91061	1
+skin 1	GSE91061	1
+skin 1; fibroblasts[≥Low]	GSE91061	1
+skin 1; fibroblasts[≥Medium]	GSE91061	1
+skin 1; keratinocytes[≥Low]	GSE91061	1
+skin 1; keratinocytes[≥Medium]	GSE91061	1
+skin 1; keratinocytes[High]	GSE91061	1
+skin 1; Langerhans[≥Low]	GSE91061	1
+skin 1; Langerhans[≥Medium]	GSE91061	1
+skin 1; melanocytes[≥Low]	GSE91061	1
+skin 1; melanocytes[≥Medium]	GSE91061	1
+skin 2	GSE91061	1
+skin 2; epidermal cells[≥Low]	GSE91061	1
+skin 2; epidermal cells[≥Medium]	GSE91061	1
+skin 2; epidermal cells[High]	GSE91061	0
+small intestine	GSE91061	1
+small intestine; glandular cells[≥Low]	GSE91061	1
+small intestine; glandular cells[≥Medium]	GSE91061	1
+small intestine; glandular cells[High]	GSE91061	1
+small molecule binding	GSE91061	1
+small molecule metabolic process	GSE91061	1
+small ribosomal subunit	GSE91061	1
+smooth muscle	GSE91061	1
+smooth muscle; smooth muscle cells[≥Low]	GSE91061	1
+smooth muscle; smooth muscle cells[≥Medium]	GSE91061	1
+soft tissue 1	GSE91061	1
+soft tissue 1; chondrocytes[≥Low]	GSE91061	1
+soft tissue 1; chondrocytes[≥Medium]	GSE91061	1
+soft tissue 1; fibroblasts[≥Low]	GSE91061	1
+soft tissue 1; fibroblasts[≥Medium]	GSE91061	1
+soft tissue 1; peripheral nerve[≥Low]	GSE91061	1
+soft tissue 2	GSE91061	1
+soft tissue 2; fibroblasts[≥Low]	GSE91061	1
+soft tissue 2; fibroblasts[≥Medium]	GSE91061	1
+spleen	GSE91061	1
+spleen; cells in red pulp[≥Low]	GSE91061	1
+spleen; cells in red pulp[≥Medium]	GSE91061	1
+spleen; cells in white pulp[≥Low]	GSE91061	1
+spleen; cells in white pulp[≥Medium]	GSE91061	1
+SRP-dependent cotranslational protein targeting to membrane	GSE91061	1
+stomach 1	GSE91061	1
+stomach 1; glandular cells[≥Low]	GSE91061	1
+stomach 1; glandular cells[≥Medium]	GSE91061	1
+stomach 1; glandular cells[High]	GSE91061	1
+stomach 2	GSE91061	1
+stomach 2; glandular cells[≥Low]	GSE91061	1
+stomach 2; glandular cells[≥Medium]	GSE91061	1
+stomach 2; glandular cells[High]	GSE91061	1
+testis	GSE91061	1
+testis; cells in seminiferous ducts[≥Low]	GSE91061	1
+testis; cells in seminiferous ducts[≥Medium]	GSE91061	1
+testis; Leydig cells[≥Low]	GSE91061	1
+testis; Leydig cells[≥Medium]	GSE91061	1
+testis; Leydig cells[High]	GSE91061	1
+tetrapyrrole biosynthetic process	GSE91061	1
+thyroid gland	GSE91061	1
+thyroid gland; glandular cells[≥Low]	GSE91061	1
+thyroid gland; glandular cells[≥Medium]	GSE91061	1
+thyroid gland; glandular cells[High]	GSE91061	1
+tonsil	GSE91061	1
+tonsil; germinal center cells[≥Low]	GSE91061	1
+tonsil; germinal center cells[≥Medium]	GSE91061	1
+tonsil; non-germinal center cells[≥Low]	GSE91061	1
+tonsil; non-germinal center cells[≥Medium]	GSE91061	1
+tonsil; squamous epithelial cells[≥Low]	GSE91061	1
+tonsil; squamous epithelial cells[≥Medium]	GSE91061	1
+transferase complex	GSE91061	0
+translation	GSE91061	1
+Translation	GSE91061	1
+translation regulator activity	GSE91061	0
+transport	GSE91061	1
+TRAPP complex	GSE91061	1
+TRAPPII protein complex	GSE91061	1
+TRAPPIII protein complex	GSE91061	1
+ubiquitin-dependent protein catabolic process	GSE91061	0
+urinary bladder	GSE91061	1
+urinary bladder; urothelial cells[≥Low]	GSE91061	1
+urinary bladder; urothelial cells[≥Medium]	GSE91061	1
+vacuolar acidification	GSE91061	1
+vacuolar membrane	GSE91061	1
+vacuole	GSE91061	1
+vacuole organization	GSE91061	1
+vagina	GSE91061	1
+vagina; squamous epithelial cells[≥Low]	GSE91061	1
+vagina; squamous epithelial cells[≥Medium]	GSE91061	1
+vesicle	GSE91061	1
+vesicle membrane	GSE91061	1
+vesicle tethering complex	GSE91061	0
+vesicle-mediated transport	GSE91061	1
+Viral mRNA Translation	GSE91061	1

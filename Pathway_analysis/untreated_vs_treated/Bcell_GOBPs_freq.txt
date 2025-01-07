@@ -1,0 +1,1171 @@
+Var1	Var2	Freq
+adipose tissue	GSE22155_02	1
+adipose tissue; adipocytes[≥Low]	GSE22155_02	1
+adrenal gland	GSE22155_02	1
+adrenal gland; glandular cells[≥Low]	GSE22155_02	1
+adrenal gland; glandular cells[≥Medium]	GSE22155_02	1
+anatomical structure morphogenesis	GSE22155_02	0
+apoptotic process	GSE22155_02	0
+appendix	GSE22155_02	1
+appendix; glandular cells[≥Low]	GSE22155_02	1
+appendix; glandular cells[≥Medium]	GSE22155_02	0
+appendix; lymphoid tissue[≥Low]	GSE22155_02	0
+autophagy	GSE22155_02	0
+binding	GSE22155_02	1
+biological regulation	GSE22155_02	1
+bone marrow	GSE22155_02	0
+bone marrow; hematopoietic cells[≥Low]	GSE22155_02	0
+bounding membrane of organelle	GSE22155_02	0
+breast	GSE22155_02	1
+breast; adipocytes[≥Medium]	GSE22155_02	0
+breast; glandular cells[≥Low]	GSE22155_02	1
+breast; glandular cells[≥Medium]	GSE22155_02	1
+breast; myoepithelial cells[≥Low]	GSE22155_02	1
+bronchus	GSE22155_02	1
+bronchus; respiratory epithelial cells[≥Low]	GSE22155_02	0
+bronchus; respiratory epithelial cells[≥Medium]	GSE22155_02	0
+catabolic process	GSE22155_02	0
+catalytic complex	GSE22155_02	0
+caudate	GSE22155_02	1
+caudate; glial cells[≥Low]	GSE22155_02	0
+cell adhesion	GSE22155_02	0
+cell communication	GSE22155_02	1
+cell death	GSE22155_02	0
+cell morphogenesis	GSE22155_02	0
+cell morphogenesis involved in neuron differentiation	GSE22155_02	0
+cell periphery	GSE22155_02	0
+cell projection	GSE22155_02	1
+cell projection organization	GSE22155_02	0
+cell surface receptor signaling pathway	GSE22155_02	1
+cellular response to stimulus	GSE22155_02	1
+cerebellum	GSE22155_02	1
+cerebellum; cells in molecular layer[≥Medium]	GSE22155_02	0
+cerebellum; Purkinje cells[≥Low]	GSE22155_02	0
+cerebral cortex	GSE22155_02	1
+cerebral cortex; endothelial cells[≥Low]	GSE22155_02	0
+cerebral cortex; endothelial cells[≥Medium]	GSE22155_02	0
+cerebral cortex; neuronal cells[≥Low]	GSE22155_02	0
+cerebral cortex; neuropil[≥Low]	GSE22155_02	0
+cervix	GSE22155_02	0
+cervix; glandular cells[≥Low]	GSE22155_02	0
+colon	GSE22155_02	1
+colon; endothelial cells[≥Low]	GSE22155_02	0
+colon; glandular cells[≥Low]	GSE22155_02	1
+colon; glandular cells[≥Medium]	GSE22155_02	1
+colon; peripheral nerve/ganglion[≥Low]	GSE22155_02	0
+cytoplasm	GSE22155_02	1
+cytosol	GSE22155_02	0
+developmental process	GSE22155_02	1
+duodenum	GSE22155_02	1
+duodenum; glandular cells[≥Low]	GSE22155_02	1
+duodenum; glandular cells[≥Medium]	GSE22155_02	1
+embryonic morphogenesis	GSE22155_02	0
+embryonic organ development	GSE22155_02	0
+endomembrane system	GSE22155_02	1
+endometrium 1	GSE22155_02	1
+endometrium 1; glandular cells[≥Low]	GSE22155_02	1
+endometrium 1; glandular cells[≥Medium]	GSE22155_02	0
+endometrium 2	GSE22155_02	1
+endometrium 2; glandular cells[≥Low]	GSE22155_02	1
+endometrium 2; glandular cells[≥Medium]	GSE22155_02	1
+endoplasmic reticulum	GSE22155_02	1
+endoplasmic reticulum subcompartment	GSE22155_02	0
+epididymis	GSE22155_02	0
+epididymis; glandular cells[≥Low]	GSE22155_02	0
+epididymis; glandular cells[≥Medium]	GSE22155_02	0
+extrinsic component of plasma membrane	GSE22155_02	0
+fallopian tube	GSE22155_02	1
+fallopian tube; glandular cells[≥Low]	GSE22155_02	0
+fallopian tube; glandular cells[≥Medium]	GSE22155_02	0
+G-protein beta/gamma-subunit complex binding	GSE22155_02	1
+gallbladder	GSE22155_02	1
+gallbladder; glandular cells[≥Low]	GSE22155_02	1
+gallbladder; glandular cells[≥Medium]	GSE22155_02	1
+Golgi apparatus	GSE22155_02	0
+growth cone	GSE22155_02	0
+GTPase complex	GSE22155_02	1
+heart muscle	GSE22155_02	0
+heart muscle; cardiomyocytes[≥Low]	GSE22155_02	0
+heart muscle; cardiomyocytes[≥Medium]	GSE22155_02	0
+heterotrimeric G-protein complex	GSE22155_02	1
+hippocampus	GSE22155_02	0
+hippocampus; glial cells[≥Low]	GSE22155_02	0
+hippocampus; neuronal cells[≥Low]	GSE22155_02	0
+identical protein binding	GSE22155_02	0
+intracellular signal transduction	GSE22155_02	0
+intracellular signaling cassette	GSE22155_02	0
+kidney	GSE22155_02	1
+kidney; cells in glomeruli[≥Low]	GSE22155_02	0
+kidney; cells in glomeruli[≥Medium]	GSE22155_02	0
+kidney; cells in tubules[≥Low]	GSE22155_02	1
+kidney; cells in tubules[≥Medium]	GSE22155_02	0
+kidney; cells in tubules[High]	GSE22155_02	0
+liver	GSE22155_02	1
+liver; hepatocytes[≥Low]	GSE22155_02	1
+lung	GSE22155_02	1
+lung; macrophages[≥Low]	GSE22155_02	0
+lymph node	GSE22155_02	1
+lymph node; germinal center cells[≥Low]	GSE22155_02	1
+lymph node; non-germinal center cells[≥Low]	GSE22155_02	1
+lymph node; non-germinal center cells[≥Medium]	GSE22155_02	0
+membrane	GSE22155_02	1
+multicellular organism development	GSE22155_02	1
+multicellular organismal process	GSE22155_02	0
+nasopharynx	GSE22155_02	1
+nasopharynx; respiratory epithelial cells[≥Low]	GSE22155_02	0
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE22155_02	0
+negative regulation of biological process	GSE22155_02	1
+negative regulation of cellular process	GSE22155_02	1
+nervous system development	GSE22155_02	1
+neurogenesis	GSE22155_02	1
+neuron development	GSE22155_02	1
+neuron differentiation	GSE22155_02	1
+neuron projection	GSE22155_02	0
+neuron projection development	GSE22155_02	0
+nucleoside phosphate binding	GSE22155_02	1
+nucleotide binding	GSE22155_02	1
+organelle membrane	GSE22155_02	1
+organonitrogen compound metabolic process	GSE22155_02	1
+ovary	GSE22155_02	0
+ovary; ovarian stroma cells[≥Low]	GSE22155_02	1
+pancreas	GSE22155_02	1
+pancreas; exocrine glandular cells[≥Low]	GSE22155_02	1
+pancreas; exocrine glandular cells[≥Medium]	GSE22155_02	0
+pancreas; pancreatic endocrine cells[≥Low]	GSE22155_02	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE22155_02	0
+parathyroid gland	GSE22155_02	1
+parathyroid gland; glandular cells[≥Low]	GSE22155_02	1
+parathyroid gland; glandular cells[≥Medium]	GSE22155_02	0
+phosphorus metabolic process	GSE22155_02	1
+placenta	GSE22155_02	0
+placenta; decidual cells[≥Low]	GSE22155_02	1
+placenta; decidual cells[≥Medium]	GSE22155_02	1
+placenta; trophoblastic cells[≥Low]	GSE22155_02	0
+plasma membrane	GSE22155_02	0
+plasma membrane bounded cell projection	GSE22155_02	1
+plasma membrane bounded cell projection organization	GSE22155_02	0
+positive regulation of biological process	GSE22155_02	1
+positive regulation of cell communication	GSE22155_02	1
+positive regulation of cellular process	GSE22155_02	0
+positive regulation of fat cell differentiation	GSE22155_02	0
+positive regulation of metabolic process	GSE22155_02	0
+positive regulation of response to stimulus	GSE22155_02	0
+positive regulation of signal transduction	GSE22155_02	1
+positive regulation of signaling	GSE22155_02	1
+positive regulation of smooth muscle cell chemotaxis	GSE22155_02	0
+process utilizing autophagic mechanism	GSE22155_02	0
+programmed cell death	GSE22155_02	0
+prostate	GSE22155_02	1
+prostate; glandular cells[≥Low]	GSE22155_02	1
+prostate; glandular cells[≥Medium]	GSE22155_02	1
+protein binding	GSE22155_02	1
+protein metabolic process	GSE22155_02	0
+purine nucleotide binding	GSE22155_02	1
+rectum	GSE22155_02	1
+rectum; glandular cells[≥Low]	GSE22155_02	1
+rectum; glandular cells[≥Medium]	GSE22155_02	1
+regulation of autophagy	GSE22155_02	0
+regulation of biological process	GSE22155_02	1
+regulation of biological quality	GSE22155_02	1
+regulation of catabolic process	GSE22155_02	0
+regulation of cell communication	GSE22155_02	1
+regulation of cellular catabolic process	GSE22155_02	0
+regulation of cellular process	GSE22155_02	1
+regulation of developmental process	GSE22155_02	0
+regulation of metabolic process	GSE22155_02	0
+regulation of multicellular organismal process	GSE22155_02	0
+regulation of primary metabolic process	GSE22155_02	0
+regulation of response to stimulus	GSE22155_02	1
+regulation of signal transduction	GSE22155_02	1
+regulation of signaling	GSE22155_02	1
+response to stimulus	GSE22155_02	1
+salivary gland	GSE22155_02	1
+salivary gland; glandular cells[≥Low]	GSE22155_02	1
+salivary gland; glandular cells[≥Medium]	GSE22155_02	0
+seminal vesicle	GSE22155_02	1
+seminal vesicle; glandular cells[≥Low]	GSE22155_02	1
+seminal vesicle; glandular cells[≥Medium]	GSE22155_02	1
+signal transduction	GSE22155_02	1
+signaling	GSE22155_02	1
+site of polarized growth	GSE22155_02	0
+skeletal muscle	GSE22155_02	1
+skeletal muscle; myocytes[≥Low]	GSE22155_02	1
+skeletal muscle; myocytes[≥Medium]	GSE22155_02	0
+skin 1	GSE22155_02	0
+skin 1; fibroblasts[≥Low]	GSE22155_02	0
+skin 1; fibroblasts[≥Medium]	GSE22155_02	0
+skin 1; keratinocytes[≥Low]	GSE22155_02	0
+skin 2; epidermal cells[≥Low]	GSE22155_02	0
+small intestine	GSE22155_02	1
+small intestine; glandular cells[≥Low]	GSE22155_02	1
+small intestine; glandular cells[≥Medium]	GSE22155_02	1
+smooth muscle	GSE22155_02	0
+smooth muscle cell chemotaxis	GSE22155_02	0
+smooth muscle; smooth muscle cells[≥Low]	GSE22155_02	0
+soft tissue 1	GSE22155_02	1
+soft tissue 2	GSE22155_02	1
+soft tissue 2; fibroblasts[≥Low]	GSE22155_02	1
+spleen	GSE22155_02	0
+spleen; cells in red pulp[≥Low]	GSE22155_02	0
+spleen; cells in white pulp[High]	GSE22155_02	0
+stomach 1	GSE22155_02	1
+stomach 1; glandular cells[≥Low]	GSE22155_02	1
+stomach 1; glandular cells[≥Medium]	GSE22155_02	1
+stomach 2	GSE22155_02	1
+stomach 2; glandular cells[≥Low]	GSE22155_02	1
+stomach 2; glandular cells[≥Medium]	GSE22155_02	0
+system development	GSE22155_02	1
+testis; cells in seminiferous ducts[≥Low]	GSE22155_02	0
+testis; cells in seminiferous ducts[≥Medium]	GSE22155_02	1
+testis; Leydig cells[≥Low]	GSE22155_02	1
+testis; Leydig cells[≥Medium]	GSE22155_02	1
+Thrombin signalling through proteinase activated receptors (PARs)	GSE22155_02	1
+thyroid gland	GSE22155_02	1
+thyroid gland; glandular cells[≥Low]	GSE22155_02	1
+thyroid gland; glandular cells[≥Medium]	GSE22155_02	0
+tonsil	GSE22155_02	1
+tonsil; germinal center cells[≥Low]	GSE22155_02	0
+tonsil; non-germinal center cells[≥Low]	GSE22155_02	0
+tonsil; non-germinal center cells[≥Medium]	GSE22155_02	0
+tonsil; squamous epithelial cells[≥Low]	GSE22155_02	1
+urinary bladder	GSE22155_02	1
+urinary bladder; urothelial cells[≥Low]	GSE22155_02	1
+urinary bladder; urothelial cells[≥Medium]	GSE22155_02	1
+vagina	GSE22155_02	0
+vagina; squamous epithelial cells[≥Low]	GSE22155_02	0
+adipose tissue	GSE22155_47	1
+adipose tissue; adipocytes[≥Low]	GSE22155_47	1
+adrenal gland	GSE22155_47	1
+adrenal gland; glandular cells[≥Low]	GSE22155_47	1
+adrenal gland; glandular cells[≥Medium]	GSE22155_47	1
+anatomical structure morphogenesis	GSE22155_47	0
+apoptotic process	GSE22155_47	1
+appendix	GSE22155_47	1
+appendix; glandular cells[≥Low]	GSE22155_47	1
+appendix; glandular cells[≥Medium]	GSE22155_47	1
+appendix; lymphoid tissue[≥Low]	GSE22155_47	1
+autophagy	GSE22155_47	1
+binding	GSE22155_47	1
+biological regulation	GSE22155_47	1
+bone marrow	GSE22155_47	1
+bone marrow; hematopoietic cells[≥Low]	GSE22155_47	1
+bounding membrane of organelle	GSE22155_47	1
+breast	GSE22155_47	1
+breast; adipocytes[≥Medium]	GSE22155_47	1
+breast; glandular cells[≥Low]	GSE22155_47	1
+breast; glandular cells[≥Medium]	GSE22155_47	1
+breast; myoepithelial cells[≥Low]	GSE22155_47	1
+bronchus	GSE22155_47	1
+bronchus; respiratory epithelial cells[≥Low]	GSE22155_47	1
+bronchus; respiratory epithelial cells[≥Medium]	GSE22155_47	1
+catabolic process	GSE22155_47	1
+catalytic complex	GSE22155_47	1
+caudate	GSE22155_47	1
+caudate; glial cells[≥Low]	GSE22155_47	1
+cell adhesion	GSE22155_47	0
+cell communication	GSE22155_47	1
+cell death	GSE22155_47	1
+cell morphogenesis	GSE22155_47	0
+cell morphogenesis involved in neuron differentiation	GSE22155_47	0
+cell periphery	GSE22155_47	0
+cell projection	GSE22155_47	0
+cell projection organization	GSE22155_47	0
+cell surface receptor signaling pathway	GSE22155_47	1
+cellular response to stimulus	GSE22155_47	1
+cerebellum	GSE22155_47	1
+cerebellum; cells in molecular layer[≥Medium]	GSE22155_47	1
+cerebellum; Purkinje cells[≥Low]	GSE22155_47	1
+cerebral cortex	GSE22155_47	1
+cerebral cortex; endothelial cells[≥Low]	GSE22155_47	1
+cerebral cortex; endothelial cells[≥Medium]	GSE22155_47	1
+cerebral cortex; neuronal cells[≥Low]	GSE22155_47	1
+cerebral cortex; neuropil[≥Low]	GSE22155_47	1
+cervix	GSE22155_47	1
+cervix; glandular cells[≥Low]	GSE22155_47	1
+colon	GSE22155_47	1
+colon; endothelial cells[≥Low]	GSE22155_47	1
+colon; glandular cells[≥Low]	GSE22155_47	1
+colon; glandular cells[≥Medium]	GSE22155_47	1
+colon; peripheral nerve/ganglion[≥Low]	GSE22155_47	1
+cytoplasm	GSE22155_47	1
+cytosol	GSE22155_47	1
+developmental process	GSE22155_47	0
+duodenum	GSE22155_47	1
+duodenum; glandular cells[≥Low]	GSE22155_47	1
+duodenum; glandular cells[≥Medium]	GSE22155_47	1
+embryonic morphogenesis	GSE22155_47	0
+embryonic organ development	GSE22155_47	0
+endomembrane system	GSE22155_47	1
+endometrium 1	GSE22155_47	1
+endometrium 1; glandular cells[≥Low]	GSE22155_47	1
+endometrium 1; glandular cells[≥Medium]	GSE22155_47	1
+endometrium 2	GSE22155_47	1
+endometrium 2; glandular cells[≥Low]	GSE22155_47	1
+endometrium 2; glandular cells[≥Medium]	GSE22155_47	1
+endoplasmic reticulum	GSE22155_47	1
+endoplasmic reticulum subcompartment	GSE22155_47	0
+epididymis	GSE22155_47	1
+epididymis; glandular cells[≥Low]	GSE22155_47	1
+epididymis; glandular cells[≥Medium]	GSE22155_47	1
+extrinsic component of plasma membrane	GSE22155_47	1
+fallopian tube	GSE22155_47	1
+fallopian tube; glandular cells[≥Low]	GSE22155_47	1
+fallopian tube; glandular cells[≥Medium]	GSE22155_47	1
+G-protein beta/gamma-subunit complex binding	GSE22155_47	0
+gallbladder	GSE22155_47	1
+gallbladder; glandular cells[≥Low]	GSE22155_47	1
+gallbladder; glandular cells[≥Medium]	GSE22155_47	1
+Golgi apparatus	GSE22155_47	1
+growth cone	GSE22155_47	0
+GTPase complex	GSE22155_47	1
+heart muscle	GSE22155_47	1
+heart muscle; cardiomyocytes[≥Low]	GSE22155_47	1
+heart muscle; cardiomyocytes[≥Medium]	GSE22155_47	1
+heterotrimeric G-protein complex	GSE22155_47	1
+hippocampus	GSE22155_47	1
+hippocampus; glial cells[≥Low]	GSE22155_47	1
+hippocampus; neuronal cells[≥Low]	GSE22155_47	1
+identical protein binding	GSE22155_47	0
+intracellular signal transduction	GSE22155_47	0
+intracellular signaling cassette	GSE22155_47	0
+kidney	GSE22155_47	1
+kidney; cells in glomeruli[≥Low]	GSE22155_47	1
+kidney; cells in glomeruli[≥Medium]	GSE22155_47	1
+kidney; cells in tubules[≥Low]	GSE22155_47	1
+kidney; cells in tubules[≥Medium]	GSE22155_47	1
+kidney; cells in tubules[High]	GSE22155_47	1
+liver	GSE22155_47	1
+liver; hepatocytes[≥Low]	GSE22155_47	1
+lung	GSE22155_47	1
+lung; macrophages[≥Low]	GSE22155_47	1
+lymph node	GSE22155_47	1
+lymph node; germinal center cells[≥Low]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Low]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Medium]	GSE22155_47	1
+membrane	GSE22155_47	1
+multicellular organism development	GSE22155_47	0
+multicellular organismal process	GSE22155_47	0
+nasopharynx	GSE22155_47	1
+nasopharynx; respiratory epithelial cells[≥Low]	GSE22155_47	1
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE22155_47	1
+negative regulation of biological process	GSE22155_47	1
+negative regulation of cellular process	GSE22155_47	1
+nervous system development	GSE22155_47	0
+neurogenesis	GSE22155_47	0
+neuron development	GSE22155_47	1
+neuron differentiation	GSE22155_47	0
+neuron projection	GSE22155_47	0
+neuron projection development	GSE22155_47	0
+nucleoside phosphate binding	GSE22155_47	0
+nucleotide binding	GSE22155_47	0
+organelle membrane	GSE22155_47	1
+organonitrogen compound metabolic process	GSE22155_47	1
+ovary	GSE22155_47	1
+ovary; ovarian stroma cells[≥Low]	GSE22155_47	1
+pancreas	GSE22155_47	1
+pancreas; exocrine glandular cells[≥Low]	GSE22155_47	1
+pancreas; exocrine glandular cells[≥Medium]	GSE22155_47	1
+pancreas; pancreatic endocrine cells[≥Low]	GSE22155_47	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE22155_47	1
+parathyroid gland	GSE22155_47	1
+parathyroid gland; glandular cells[≥Low]	GSE22155_47	1
+parathyroid gland; glandular cells[≥Medium]	GSE22155_47	1
+phosphorus metabolic process	GSE22155_47	0
+placenta	GSE22155_47	1
+placenta; decidual cells[≥Low]	GSE22155_47	1
+placenta; decidual cells[≥Medium]	GSE22155_47	1
+placenta; trophoblastic cells[≥Low]	GSE22155_47	1
+plasma membrane	GSE22155_47	0
+plasma membrane bounded cell projection	GSE22155_47	1
+plasma membrane bounded cell projection organization	GSE22155_47	0
+positive regulation of biological process	GSE22155_47	1
+positive regulation of cell communication	GSE22155_47	0
+positive regulation of cellular process	GSE22155_47	1
+positive regulation of fat cell differentiation	GSE22155_47	0
+positive regulation of metabolic process	GSE22155_47	0
+positive regulation of response to stimulus	GSE22155_47	0
+positive regulation of signal transduction	GSE22155_47	0
+positive regulation of signaling	GSE22155_47	1
+positive regulation of smooth muscle cell chemotaxis	GSE22155_47	0
+process utilizing autophagic mechanism	GSE22155_47	1
+programmed cell death	GSE22155_47	1
+prostate	GSE22155_47	1
+prostate; glandular cells[≥Low]	GSE22155_47	1
+prostate; glandular cells[≥Medium]	GSE22155_47	1
+protein binding	GSE22155_47	1
+protein metabolic process	GSE22155_47	1
+purine nucleotide binding	GSE22155_47	0
+rectum	GSE22155_47	1
+rectum; glandular cells[≥Low]	GSE22155_47	1
+rectum; glandular cells[≥Medium]	GSE22155_47	1
+regulation of autophagy	GSE22155_47	1
+regulation of biological process	GSE22155_47	1
+regulation of biological quality	GSE22155_47	0
+regulation of catabolic process	GSE22155_47	1
+regulation of cell communication	GSE22155_47	1
+regulation of cellular catabolic process	GSE22155_47	1
+regulation of cellular process	GSE22155_47	1
+regulation of developmental process	GSE22155_47	0
+regulation of metabolic process	GSE22155_47	1
+regulation of multicellular organismal process	GSE22155_47	0
+regulation of primary metabolic process	GSE22155_47	1
+regulation of response to stimulus	GSE22155_47	1
+regulation of signal transduction	GSE22155_47	1
+regulation of signaling	GSE22155_47	1
+response to stimulus	GSE22155_47	1
+salivary gland	GSE22155_47	1
+salivary gland; glandular cells[≥Low]	GSE22155_47	1
+salivary gland; glandular cells[≥Medium]	GSE22155_47	1
+seminal vesicle	GSE22155_47	1
+seminal vesicle; glandular cells[≥Low]	GSE22155_47	1
+seminal vesicle; glandular cells[≥Medium]	GSE22155_47	1
+signal transduction	GSE22155_47	1
+signaling	GSE22155_47	1
+site of polarized growth	GSE22155_47	0
+skeletal muscle	GSE22155_47	1
+skeletal muscle; myocytes[≥Low]	GSE22155_47	1
+skeletal muscle; myocytes[≥Medium]	GSE22155_47	1
+skin 1	GSE22155_47	1
+skin 1; fibroblasts[≥Low]	GSE22155_47	1
+skin 1; fibroblasts[≥Medium]	GSE22155_47	1
+skin 1; keratinocytes[≥Low]	GSE22155_47	1
+skin 2; epidermal cells[≥Low]	GSE22155_47	1
+small intestine	GSE22155_47	1
+small intestine; glandular cells[≥Low]	GSE22155_47	1
+small intestine; glandular cells[≥Medium]	GSE22155_47	1
+smooth muscle	GSE22155_47	1
+smooth muscle cell chemotaxis	GSE22155_47	0
+smooth muscle; smooth muscle cells[≥Low]	GSE22155_47	1
+soft tissue 1	GSE22155_47	1
+soft tissue 2	GSE22155_47	1
+soft tissue 2; fibroblasts[≥Low]	GSE22155_47	1
+spleen	GSE22155_47	1
+spleen; cells in red pulp[≥Low]	GSE22155_47	1
+spleen; cells in white pulp[High]	GSE22155_47	0
+stomach 1	GSE22155_47	1
+stomach 1; glandular cells[≥Low]	GSE22155_47	1
+stomach 1; glandular cells[≥Medium]	GSE22155_47	1
+stomach 2	GSE22155_47	1
+stomach 2; glandular cells[≥Low]	GSE22155_47	1
+stomach 2; glandular cells[≥Medium]	GSE22155_47	1
+system development	GSE22155_47	0
+testis; cells in seminiferous ducts[≥Low]	GSE22155_47	1
+testis; cells in seminiferous ducts[≥Medium]	GSE22155_47	1
+testis; Leydig cells[≥Low]	GSE22155_47	1
+testis; Leydig cells[≥Medium]	GSE22155_47	1
+Thrombin signalling through proteinase activated receptors (PARs)	GSE22155_47	0
+thyroid gland	GSE22155_47	1
+thyroid gland; glandular cells[≥Low]	GSE22155_47	1
+thyroid gland; glandular cells[≥Medium]	GSE22155_47	1
+tonsil	GSE22155_47	1
+tonsil; germinal center cells[≥Low]	GSE22155_47	1
+tonsil; non-germinal center cells[≥Low]	GSE22155_47	1
+tonsil; non-germinal center cells[≥Medium]	GSE22155_47	1
+tonsil; squamous epithelial cells[≥Low]	GSE22155_47	1
+urinary bladder	GSE22155_47	1
+urinary bladder; urothelial cells[≥Low]	GSE22155_47	1
+urinary bladder; urothelial cells[≥Medium]	GSE22155_47	1
+vagina	GSE22155_47	1
+vagina; squamous epithelial cells[≥Low]	GSE22155_47	1
+adipose tissue	GSE35640	0
+adipose tissue; adipocytes[≥Low]	GSE35640	0
+adrenal gland	GSE35640	0
+adrenal gland; glandular cells[≥Low]	GSE35640	0
+adrenal gland; glandular cells[≥Medium]	GSE35640	0
+anatomical structure morphogenesis	GSE35640	1
+apoptotic process	GSE35640	0
+appendix	GSE35640	0
+appendix; glandular cells[≥Low]	GSE35640	0
+appendix; glandular cells[≥Medium]	GSE35640	0
+appendix; lymphoid tissue[≥Low]	GSE35640	0
+autophagy	GSE35640	0
+binding	GSE35640	0
+biological regulation	GSE35640	1
+bone marrow	GSE35640	0
+bone marrow; hematopoietic cells[≥Low]	GSE35640	0
+bounding membrane of organelle	GSE35640	0
+breast	GSE35640	0
+breast; adipocytes[≥Medium]	GSE35640	0
+breast; glandular cells[≥Low]	GSE35640	0
+breast; glandular cells[≥Medium]	GSE35640	0
+breast; myoepithelial cells[≥Low]	GSE35640	0
+bronchus	GSE35640	0
+bronchus; respiratory epithelial cells[≥Low]	GSE35640	0
+bronchus; respiratory epithelial cells[≥Medium]	GSE35640	0
+catabolic process	GSE35640	0
+catalytic complex	GSE35640	0
+caudate	GSE35640	0
+caudate; glial cells[≥Low]	GSE35640	0
+cell adhesion	GSE35640	1
+cell communication	GSE35640	1
+cell death	GSE35640	0
+cell morphogenesis	GSE35640	1
+cell morphogenesis involved in neuron differentiation	GSE35640	1
+cell periphery	GSE35640	0
+cell projection	GSE35640	1
+cell projection organization	GSE35640	1
+cell surface receptor signaling pathway	GSE35640	0
+cellular response to stimulus	GSE35640	0
+cerebellum	GSE35640	0
+cerebellum; cells in molecular layer[≥Medium]	GSE35640	0
+cerebellum; Purkinje cells[≥Low]	GSE35640	0
+cerebral cortex	GSE35640	0
+cerebral cortex; endothelial cells[≥Low]	GSE35640	0
+cerebral cortex; endothelial cells[≥Medium]	GSE35640	0
+cerebral cortex; neuronal cells[≥Low]	GSE35640	0
+cerebral cortex; neuropil[≥Low]	GSE35640	0
+cervix	GSE35640	0
+cervix; glandular cells[≥Low]	GSE35640	0
+colon	GSE35640	0
+colon; endothelial cells[≥Low]	GSE35640	0
+colon; glandular cells[≥Low]	GSE35640	0
+colon; glandular cells[≥Medium]	GSE35640	0
+colon; peripheral nerve/ganglion[≥Low]	GSE35640	0
+cytoplasm	GSE35640	1
+cytosol	GSE35640	0
+developmental process	GSE35640	1
+duodenum	GSE35640	0
+duodenum; glandular cells[≥Low]	GSE35640	0
+duodenum; glandular cells[≥Medium]	GSE35640	0
+embryonic morphogenesis	GSE35640	1
+embryonic organ development	GSE35640	1
+endomembrane system	GSE35640	0
+endometrium 1	GSE35640	0
+endometrium 1; glandular cells[≥Low]	GSE35640	0
+endometrium 1; glandular cells[≥Medium]	GSE35640	0
+endometrium 2	GSE35640	0
+endometrium 2; glandular cells[≥Low]	GSE35640	0
+endometrium 2; glandular cells[≥Medium]	GSE35640	0
+endoplasmic reticulum	GSE35640	0
+endoplasmic reticulum subcompartment	GSE35640	0
+epididymis	GSE35640	0
+epididymis; glandular cells[≥Low]	GSE35640	0
+epididymis; glandular cells[≥Medium]	GSE35640	0
+extrinsic component of plasma membrane	GSE35640	0
+fallopian tube	GSE35640	0
+fallopian tube; glandular cells[≥Low]	GSE35640	0
+fallopian tube; glandular cells[≥Medium]	GSE35640	0
+G-protein beta/gamma-subunit complex binding	GSE35640	0
+gallbladder	GSE35640	0
+gallbladder; glandular cells[≥Low]	GSE35640	0
+gallbladder; glandular cells[≥Medium]	GSE35640	0
+Golgi apparatus	GSE35640	0
+growth cone	GSE35640	0
+GTPase complex	GSE35640	0
+heart muscle	GSE35640	0
+heart muscle; cardiomyocytes[≥Low]	GSE35640	0
+heart muscle; cardiomyocytes[≥Medium]	GSE35640	0
+heterotrimeric G-protein complex	GSE35640	0
+hippocampus	GSE35640	0
+hippocampus; glial cells[≥Low]	GSE35640	0
+hippocampus; neuronal cells[≥Low]	GSE35640	0
+identical protein binding	GSE35640	0
+intracellular signal transduction	GSE35640	0
+intracellular signaling cassette	GSE35640	0
+kidney	GSE35640	0
+kidney; cells in glomeruli[≥Low]	GSE35640	0
+kidney; cells in glomeruli[≥Medium]	GSE35640	0
+kidney; cells in tubules[≥Low]	GSE35640	0
+kidney; cells in tubules[≥Medium]	GSE35640	0
+kidney; cells in tubules[High]	GSE35640	0
+liver	GSE35640	0
+liver; hepatocytes[≥Low]	GSE35640	0
+lung	GSE35640	0
+lung; macrophages[≥Low]	GSE35640	0
+lymph node	GSE35640	0
+lymph node; germinal center cells[≥Low]	GSE35640	0
+lymph node; non-germinal center cells[≥Low]	GSE35640	0
+lymph node; non-germinal center cells[≥Medium]	GSE35640	0
+membrane	GSE35640	0
+multicellular organism development	GSE35640	1
+multicellular organismal process	GSE35640	1
+nasopharynx	GSE35640	0
+nasopharynx; respiratory epithelial cells[≥Low]	GSE35640	0
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE35640	0
+negative regulation of biological process	GSE35640	0
+negative regulation of cellular process	GSE35640	0
+nervous system development	GSE35640	1
+neurogenesis	GSE35640	0
+neuron development	GSE35640	1
+neuron differentiation	GSE35640	0
+neuron projection	GSE35640	1
+neuron projection development	GSE35640	0
+nucleoside phosphate binding	GSE35640	0
+nucleotide binding	GSE35640	0
+organelle membrane	GSE35640	0
+organonitrogen compound metabolic process	GSE35640	0
+ovary	GSE35640	0
+ovary; ovarian stroma cells[≥Low]	GSE35640	0
+pancreas	GSE35640	0
+pancreas; exocrine glandular cells[≥Low]	GSE35640	0
+pancreas; exocrine glandular cells[≥Medium]	GSE35640	0
+pancreas; pancreatic endocrine cells[≥Low]	GSE35640	0
+pancreas; pancreatic endocrine cells[≥Medium]	GSE35640	0
+parathyroid gland	GSE35640	0
+parathyroid gland; glandular cells[≥Low]	GSE35640	0
+parathyroid gland; glandular cells[≥Medium]	GSE35640	0
+phosphorus metabolic process	GSE35640	0
+placenta	GSE35640	0
+placenta; decidual cells[≥Low]	GSE35640	0
+placenta; decidual cells[≥Medium]	GSE35640	0
+placenta; trophoblastic cells[≥Low]	GSE35640	0
+plasma membrane	GSE35640	0
+plasma membrane bounded cell projection	GSE35640	1
+plasma membrane bounded cell projection organization	GSE35640	1
+positive regulation of biological process	GSE35640	0
+positive regulation of cell communication	GSE35640	0
+positive regulation of cellular process	GSE35640	0
+positive regulation of fat cell differentiation	GSE35640	1
+positive regulation of metabolic process	GSE35640	0
+positive regulation of response to stimulus	GSE35640	0
+positive regulation of signal transduction	GSE35640	0
+positive regulation of signaling	GSE35640	0
+positive regulation of smooth muscle cell chemotaxis	GSE35640	1
+process utilizing autophagic mechanism	GSE35640	0
+programmed cell death	GSE35640	0
+prostate	GSE35640	0
+prostate; glandular cells[≥Low]	GSE35640	0
+prostate; glandular cells[≥Medium]	GSE35640	0
+protein binding	GSE35640	1
+protein metabolic process	GSE35640	0
+purine nucleotide binding	GSE35640	0
+rectum	GSE35640	0
+rectum; glandular cells[≥Low]	GSE35640	0
+rectum; glandular cells[≥Medium]	GSE35640	0
+regulation of autophagy	GSE35640	0
+regulation of biological process	GSE35640	0
+regulation of biological quality	GSE35640	0
+regulation of catabolic process	GSE35640	0
+regulation of cell communication	GSE35640	0
+regulation of cellular catabolic process	GSE35640	0
+regulation of cellular process	GSE35640	1
+regulation of developmental process	GSE35640	0
+regulation of metabolic process	GSE35640	0
+regulation of multicellular organismal process	GSE35640	0
+regulation of primary metabolic process	GSE35640	0
+regulation of response to stimulus	GSE35640	0
+regulation of signal transduction	GSE35640	0
+regulation of signaling	GSE35640	0
+response to stimulus	GSE35640	0
+salivary gland	GSE35640	0
+salivary gland; glandular cells[≥Low]	GSE35640	0
+salivary gland; glandular cells[≥Medium]	GSE35640	0
+seminal vesicle	GSE35640	0
+seminal vesicle; glandular cells[≥Low]	GSE35640	0
+seminal vesicle; glandular cells[≥Medium]	GSE35640	0
+signal transduction	GSE35640	1
+signaling	GSE35640	1
+site of polarized growth	GSE35640	0
+skeletal muscle	GSE35640	0
+skeletal muscle; myocytes[≥Low]	GSE35640	0
+skeletal muscle; myocytes[≥Medium]	GSE35640	0
+skin 1	GSE35640	0
+skin 1; fibroblasts[≥Low]	GSE35640	0
+skin 1; fibroblasts[≥Medium]	GSE35640	0
+skin 1; keratinocytes[≥Low]	GSE35640	0
+skin 2; epidermal cells[≥Low]	GSE35640	0
+small intestine	GSE35640	0
+small intestine; glandular cells[≥Low]	GSE35640	0
+small intestine; glandular cells[≥Medium]	GSE35640	0
+smooth muscle	GSE35640	0
+smooth muscle cell chemotaxis	GSE35640	1
+smooth muscle; smooth muscle cells[≥Low]	GSE35640	0
+soft tissue 1	GSE35640	0
+soft tissue 2	GSE35640	0
+soft tissue 2; fibroblasts[≥Low]	GSE35640	0
+spleen	GSE35640	0
+spleen; cells in red pulp[≥Low]	GSE35640	0
+spleen; cells in white pulp[High]	GSE35640	0
+stomach 1	GSE35640	0
+stomach 1; glandular cells[≥Low]	GSE35640	0
+stomach 1; glandular cells[≥Medium]	GSE35640	0
+stomach 2	GSE35640	0
+stomach 2; glandular cells[≥Low]	GSE35640	0
+stomach 2; glandular cells[≥Medium]	GSE35640	0
+system development	GSE35640	1
+testis; cells in seminiferous ducts[≥Low]	GSE35640	0
+testis; cells in seminiferous ducts[≥Medium]	GSE35640	0
+testis; Leydig cells[≥Low]	GSE35640	0
+testis; Leydig cells[≥Medium]	GSE35640	0
+Thrombin signalling through proteinase activated receptors (PARs)	GSE35640	0
+thyroid gland	GSE35640	0
+thyroid gland; glandular cells[≥Low]	GSE35640	0
+thyroid gland; glandular cells[≥Medium]	GSE35640	0
+tonsil	GSE35640	0
+tonsil; germinal center cells[≥Low]	GSE35640	0
+tonsil; non-germinal center cells[≥Low]	GSE35640	0
+tonsil; non-germinal center cells[≥Medium]	GSE35640	0
+tonsil; squamous epithelial cells[≥Low]	GSE35640	0
+urinary bladder	GSE35640	0
+urinary bladder; urothelial cells[≥Low]	GSE35640	0
+urinary bladder; urothelial cells[≥Medium]	GSE35640	0
+vagina	GSE35640	0
+vagina; squamous epithelial cells[≥Low]	GSE35640	0
+adipose tissue	GSE61992	0
+adipose tissue; adipocytes[≥Low]	GSE61992	0
+adrenal gland	GSE61992	1
+adrenal gland; glandular cells[≥Low]	GSE61992	1
+adrenal gland; glandular cells[≥Medium]	GSE61992	1
+anatomical structure morphogenesis	GSE61992	0
+apoptotic process	GSE61992	1
+appendix	GSE61992	1
+appendix; glandular cells[≥Low]	GSE61992	0
+appendix; glandular cells[≥Medium]	GSE61992	0
+appendix; lymphoid tissue[≥Low]	GSE61992	1
+autophagy	GSE61992	1
+binding	GSE61992	1
+biological regulation	GSE61992	1
+bone marrow	GSE61992	1
+bone marrow; hematopoietic cells[≥Low]	GSE61992	1
+bounding membrane of organelle	GSE61992	1
+breast	GSE61992	1
+breast; adipocytes[≥Medium]	GSE61992	0
+breast; glandular cells[≥Low]	GSE61992	1
+breast; glandular cells[≥Medium]	GSE61992	1
+breast; myoepithelial cells[≥Low]	GSE61992	0
+bronchus	GSE61992	1
+bronchus; respiratory epithelial cells[≥Low]	GSE61992	0
+bronchus; respiratory epithelial cells[≥Medium]	GSE61992	0
+catabolic process	GSE61992	0
+catalytic complex	GSE61992	1
+caudate	GSE61992	0
+caudate; glial cells[≥Low]	GSE61992	0
+cell adhesion	GSE61992	0
+cell communication	GSE61992	1
+cell death	GSE61992	1
+cell morphogenesis	GSE61992	0
+cell morphogenesis involved in neuron differentiation	GSE61992	0
+cell periphery	GSE61992	1
+cell projection	GSE61992	0
+cell projection organization	GSE61992	0
+cell surface receptor signaling pathway	GSE61992	1
+cellular response to stimulus	GSE61992	1
+cerebellum	GSE61992	1
+cerebellum; cells in molecular layer[≥Medium]	GSE61992	0
+cerebellum; Purkinje cells[≥Low]	GSE61992	0
+cerebral cortex	GSE61992	1
+cerebral cortex; endothelial cells[≥Low]	GSE61992	0
+cerebral cortex; endothelial cells[≥Medium]	GSE61992	0
+cerebral cortex; neuronal cells[≥Low]	GSE61992	0
+cerebral cortex; neuropil[≥Low]	GSE61992	0
+cervix	GSE61992	0
+cervix; glandular cells[≥Low]	GSE61992	0
+colon	GSE61992	1
+colon; endothelial cells[≥Low]	GSE61992	0
+colon; glandular cells[≥Low]	GSE61992	1
+colon; glandular cells[≥Medium]	GSE61992	1
+colon; peripheral nerve/ganglion[≥Low]	GSE61992	0
+cytoplasm	GSE61992	1
+cytosol	GSE61992	1
+developmental process	GSE61992	0
+duodenum	GSE61992	0
+duodenum; glandular cells[≥Low]	GSE61992	0
+duodenum; glandular cells[≥Medium]	GSE61992	1
+embryonic morphogenesis	GSE61992	0
+embryonic organ development	GSE61992	0
+endomembrane system	GSE61992	1
+endometrium 1	GSE61992	0
+endometrium 1; glandular cells[≥Low]	GSE61992	0
+endometrium 1; glandular cells[≥Medium]	GSE61992	0
+endometrium 2	GSE61992	0
+endometrium 2; glandular cells[≥Low]	GSE61992	0
+endometrium 2; glandular cells[≥Medium]	GSE61992	0
+endoplasmic reticulum	GSE61992	1
+endoplasmic reticulum subcompartment	GSE61992	0
+epididymis	GSE61992	0
+epididymis; glandular cells[≥Low]	GSE61992	0
+epididymis; glandular cells[≥Medium]	GSE61992	0
+extrinsic component of plasma membrane	GSE61992	0
+fallopian tube	GSE61992	0
+fallopian tube; glandular cells[≥Low]	GSE61992	0
+fallopian tube; glandular cells[≥Medium]	GSE61992	1
+G-protein beta/gamma-subunit complex binding	GSE61992	0
+gallbladder	GSE61992	1
+gallbladder; glandular cells[≥Low]	GSE61992	1
+gallbladder; glandular cells[≥Medium]	GSE61992	1
+Golgi apparatus	GSE61992	1
+growth cone	GSE61992	0
+GTPase complex	GSE61992	1
+heart muscle	GSE61992	0
+heart muscle; cardiomyocytes[≥Low]	GSE61992	0
+heart muscle; cardiomyocytes[≥Medium]	GSE61992	0
+heterotrimeric G-protein complex	GSE61992	1
+hippocampus	GSE61992	0
+hippocampus; glial cells[≥Low]	GSE61992	0
+hippocampus; neuronal cells[≥Low]	GSE61992	0
+identical protein binding	GSE61992	1
+intracellular signal transduction	GSE61992	1
+intracellular signaling cassette	GSE61992	1
+kidney	GSE61992	0
+kidney; cells in glomeruli[≥Low]	GSE61992	0
+kidney; cells in glomeruli[≥Medium]	GSE61992	0
+kidney; cells in tubules[≥Low]	GSE61992	1
+kidney; cells in tubules[≥Medium]	GSE61992	0
+kidney; cells in tubules[High]	GSE61992	0
+liver	GSE61992	1
+liver; hepatocytes[≥Low]	GSE61992	0
+lung	GSE61992	1
+lung; macrophages[≥Low]	GSE61992	1
+lymph node	GSE61992	1
+lymph node; germinal center cells[≥Low]	GSE61992	1
+lymph node; non-germinal center cells[≥Low]	GSE61992	1
+lymph node; non-germinal center cells[≥Medium]	GSE61992	1
+membrane	GSE61992	1
+multicellular organism development	GSE61992	0
+multicellular organismal process	GSE61992	0
+nasopharynx	GSE61992	0
+nasopharynx; respiratory epithelial cells[≥Low]	GSE61992	0
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE61992	0
+negative regulation of biological process	GSE61992	1
+negative regulation of cellular process	GSE61992	1
+nervous system development	GSE61992	0
+neurogenesis	GSE61992	0
+neuron development	GSE61992	0
+neuron differentiation	GSE61992	0
+neuron projection	GSE61992	0
+neuron projection development	GSE61992	0
+nucleoside phosphate binding	GSE61992	0
+nucleotide binding	GSE61992	0
+organelle membrane	GSE61992	1
+organonitrogen compound metabolic process	GSE61992	1
+ovary	GSE61992	0
+ovary; ovarian stroma cells[≥Low]	GSE61992	0
+pancreas	GSE61992	1
+pancreas; exocrine glandular cells[≥Low]	GSE61992	1
+pancreas; exocrine glandular cells[≥Medium]	GSE61992	0
+pancreas; pancreatic endocrine cells[≥Low]	GSE61992	1
+pancreas; pancreatic endocrine cells[≥Medium]	GSE61992	0
+parathyroid gland	GSE61992	1
+parathyroid gland; glandular cells[≥Low]	GSE61992	1
+parathyroid gland; glandular cells[≥Medium]	GSE61992	0
+phosphorus metabolic process	GSE61992	0
+placenta	GSE61992	0
+placenta; decidual cells[≥Low]	GSE61992	1
+placenta; decidual cells[≥Medium]	GSE61992	1
+placenta; trophoblastic cells[≥Low]	GSE61992	0
+plasma membrane	GSE61992	1
+plasma membrane bounded cell projection	GSE61992	0
+plasma membrane bounded cell projection organization	GSE61992	0
+positive regulation of biological process	GSE61992	1
+positive regulation of cell communication	GSE61992	1
+positive regulation of cellular process	GSE61992	1
+positive regulation of fat cell differentiation	GSE61992	0
+positive regulation of metabolic process	GSE61992	1
+positive regulation of response to stimulus	GSE61992	1
+positive regulation of signal transduction	GSE61992	1
+positive regulation of signaling	GSE61992	1
+positive regulation of smooth muscle cell chemotaxis	GSE61992	0
+process utilizing autophagic mechanism	GSE61992	1
+programmed cell death	GSE61992	1
+prostate	GSE61992	1
+prostate; glandular cells[≥Low]	GSE61992	1
+prostate; glandular cells[≥Medium]	GSE61992	1
+protein binding	GSE61992	1
+protein metabolic process	GSE61992	1
+purine nucleotide binding	GSE61992	0
+rectum	GSE61992	1
+rectum; glandular cells[≥Low]	GSE61992	1
+rectum; glandular cells[≥Medium]	GSE61992	0
+regulation of autophagy	GSE61992	0
+regulation of biological process	GSE61992	1
+regulation of biological quality	GSE61992	0
+regulation of catabolic process	GSE61992	1
+regulation of cell communication	GSE61992	1
+regulation of cellular catabolic process	GSE61992	0
+regulation of cellular process	GSE61992	1
+regulation of developmental process	GSE61992	0
+regulation of metabolic process	GSE61992	1
+regulation of multicellular organismal process	GSE61992	0
+regulation of primary metabolic process	GSE61992	0
+regulation of response to stimulus	GSE61992	1
+regulation of signal transduction	GSE61992	1
+regulation of signaling	GSE61992	1
+response to stimulus	GSE61992	1
+salivary gland	GSE61992	1
+salivary gland; glandular cells[≥Low]	GSE61992	1
+salivary gland; glandular cells[≥Medium]	GSE61992	0
+seminal vesicle	GSE61992	1
+seminal vesicle; glandular cells[≥Low]	GSE61992	1
+seminal vesicle; glandular cells[≥Medium]	GSE61992	1
+signal transduction	GSE61992	1
+signaling	GSE61992	1
+site of polarized growth	GSE61992	0
+skeletal muscle	GSE61992	1
+skeletal muscle; myocytes[≥Low]	GSE61992	1
+skeletal muscle; myocytes[≥Medium]	GSE61992	0
+skin 1	GSE61992	0
+skin 1; fibroblasts[≥Low]	GSE61992	0
+skin 1; fibroblasts[≥Medium]	GSE61992	0
+skin 1; keratinocytes[≥Low]	GSE61992	0
+skin 2; epidermal cells[≥Low]	GSE61992	0
+small intestine	GSE61992	0
+small intestine; glandular cells[≥Low]	GSE61992	0
+small intestine; glandular cells[≥Medium]	GSE61992	0
+smooth muscle	GSE61992	0
+smooth muscle cell chemotaxis	GSE61992	0
+smooth muscle; smooth muscle cells[≥Low]	GSE61992	0
+soft tissue 1	GSE61992	1
+soft tissue 2	GSE61992	0
+soft tissue 2; fibroblasts[≥Low]	GSE61992	1
+spleen	GSE61992	1
+spleen; cells in red pulp[≥Low]	GSE61992	1
+spleen; cells in white pulp[High]	GSE61992	1
+stomach 1	GSE61992	1
+stomach 1; glandular cells[≥Low]	GSE61992	1
+stomach 1; glandular cells[≥Medium]	GSE61992	1
+stomach 2	GSE61992	1
+stomach 2; glandular cells[≥Low]	GSE61992	1
+stomach 2; glandular cells[≥Medium]	GSE61992	0
+system development	GSE61992	0
+testis; cells in seminiferous ducts[≥Low]	GSE61992	0
+testis; cells in seminiferous ducts[≥Medium]	GSE61992	0
+testis; Leydig cells[≥Low]	GSE61992	1
+testis; Leydig cells[≥Medium]	GSE61992	0
+Thrombin signalling through proteinase activated receptors (PARs)	GSE61992	0
+thyroid gland	GSE61992	1
+thyroid gland; glandular cells[≥Low]	GSE61992	1
+thyroid gland; glandular cells[≥Medium]	GSE61992	0
+tonsil	GSE61992	1
+tonsil; germinal center cells[≥Low]	GSE61992	1
+tonsil; non-germinal center cells[≥Low]	GSE61992	1
+tonsil; non-germinal center cells[≥Medium]	GSE61992	1
+tonsil; squamous epithelial cells[≥Low]	GSE61992	1
+urinary bladder	GSE61992	1
+urinary bladder; urothelial cells[≥Low]	GSE61992	1
+urinary bladder; urothelial cells[≥Medium]	GSE61992	1
+vagina	GSE61992	0
+vagina; squamous epithelial cells[≥Low]	GSE61992	0
+adipose tissue	GSE91061	0
+adipose tissue; adipocytes[≥Low]	GSE91061	0
+adrenal gland	GSE91061	1
+adrenal gland; glandular cells[≥Low]	GSE91061	1
+adrenal gland; glandular cells[≥Medium]	GSE91061	1
+anatomical structure morphogenesis	GSE91061	0
+apoptotic process	GSE91061	0
+appendix	GSE91061	0
+appendix; glandular cells[≥Low]	GSE91061	1
+appendix; glandular cells[≥Medium]	GSE91061	0
+appendix; lymphoid tissue[≥Low]	GSE91061	0
+autophagy	GSE91061	1
+binding	GSE91061	1
+biological regulation	GSE91061	1
+bone marrow	GSE91061	0
+bone marrow; hematopoietic cells[≥Low]	GSE91061	0
+bounding membrane of organelle	GSE91061	0
+breast	GSE91061	1
+breast; adipocytes[≥Medium]	GSE91061	0
+breast; glandular cells[≥Low]	GSE91061	1
+breast; glandular cells[≥Medium]	GSE91061	0
+breast; myoepithelial cells[≥Low]	GSE91061	0
+bronchus	GSE91061	0
+bronchus; respiratory epithelial cells[≥Low]	GSE91061	0
+bronchus; respiratory epithelial cells[≥Medium]	GSE91061	0
+catabolic process	GSE91061	0
+catalytic complex	GSE91061	0
+caudate	GSE91061	1
+caudate; glial cells[≥Low]	GSE91061	0
+cell adhesion	GSE91061	0
+cell communication	GSE91061	1
+cell death	GSE91061	0
+cell morphogenesis	GSE91061	1
+cell morphogenesis involved in neuron differentiation	GSE91061	1
+cell periphery	GSE91061	1
+cell projection	GSE91061	1
+cell projection organization	GSE91061	0
+cell surface receptor signaling pathway	GSE91061	1
+cellular response to stimulus	GSE91061	1
+cerebellum	GSE91061	1
+cerebellum; cells in molecular layer[≥Medium]	GSE91061	0
+cerebellum; Purkinje cells[≥Low]	GSE91061	0
+cerebral cortex	GSE91061	1
+cerebral cortex; endothelial cells[≥Low]	GSE91061	0
+cerebral cortex; endothelial cells[≥Medium]	GSE91061	0
+cerebral cortex; neuronal cells[≥Low]	GSE91061	0
+cerebral cortex; neuropil[≥Low]	GSE91061	0
+cervix	GSE91061	0
+cervix; glandular cells[≥Low]	GSE91061	0
+colon	GSE91061	1
+colon; endothelial cells[≥Low]	GSE91061	0
+colon; glandular cells[≥Low]	GSE91061	1
+colon; glandular cells[≥Medium]	GSE91061	1
+colon; peripheral nerve/ganglion[≥Low]	GSE91061	0
+cytoplasm	GSE91061	1
+cytosol	GSE91061	0
+developmental process	GSE91061	0
+duodenum	GSE91061	0
+duodenum; glandular cells[≥Low]	GSE91061	1
+duodenum; glandular cells[≥Medium]	GSE91061	1
+embryonic morphogenesis	GSE91061	1
+embryonic organ development	GSE91061	0
+endomembrane system	GSE91061	1
+endometrium 1	GSE91061	0
+endometrium 1; glandular cells[≥Low]	GSE91061	0
+endometrium 1; glandular cells[≥Medium]	GSE91061	0
+endometrium 2	GSE91061	0
+endometrium 2; glandular cells[≥Low]	GSE91061	0
+endometrium 2; glandular cells[≥Medium]	GSE91061	0
+endoplasmic reticulum	GSE91061	1
+endoplasmic reticulum subcompartment	GSE91061	1
+epididymis	GSE91061	0
+epididymis; glandular cells[≥Low]	GSE91061	0
+epididymis; glandular cells[≥Medium]	GSE91061	0
+extrinsic component of plasma membrane	GSE91061	0
+fallopian tube	GSE91061	0
+fallopian tube; glandular cells[≥Low]	GSE91061	0
+fallopian tube; glandular cells[≥Medium]	GSE91061	0
+G-protein beta/gamma-subunit complex binding	GSE91061	0
+gallbladder	GSE91061	0
+gallbladder; glandular cells[≥Low]	GSE91061	0
+gallbladder; glandular cells[≥Medium]	GSE91061	1
+Golgi apparatus	GSE91061	0
+growth cone	GSE91061	1
+GTPase complex	GSE91061	1
+heart muscle	GSE91061	0
+heart muscle; cardiomyocytes[≥Low]	GSE91061	0
+heart muscle; cardiomyocytes[≥Medium]	GSE91061	0
+heterotrimeric G-protein complex	GSE91061	0
+hippocampus	GSE91061	0
+hippocampus; glial cells[≥Low]	GSE91061	0
+hippocampus; neuronal cells[≥Low]	GSE91061	0
+identical protein binding	GSE91061	1
+intracellular signal transduction	GSE91061	0
+intracellular signaling cassette	GSE91061	0
+kidney	GSE91061	1
+kidney; cells in glomeruli[≥Low]	GSE91061	0
+kidney; cells in glomeruli[≥Medium]	GSE91061	0
+kidney; cells in tubules[≥Low]	GSE91061	1
+kidney; cells in tubules[≥Medium]	GSE91061	0
+kidney; cells in tubules[High]	GSE91061	0
+liver	GSE91061	1
+liver; hepatocytes[≥Low]	GSE91061	1
+lung	GSE91061	0
+lung; macrophages[≥Low]	GSE91061	0
+lymph node	GSE91061	0
+lymph node; germinal center cells[≥Low]	GSE91061	0
+lymph node; non-germinal center cells[≥Low]	GSE91061	0
+lymph node; non-germinal center cells[≥Medium]	GSE91061	0
+membrane	GSE91061	1
+multicellular organism development	GSE91061	1
+multicellular organismal process	GSE91061	0
+nasopharynx	GSE91061	0
+nasopharynx; respiratory epithelial cells[≥Low]	GSE91061	0
+nasopharynx; respiratory epithelial cells[≥Medium]	GSE91061	0
+negative regulation of biological process	GSE91061	1
+negative regulation of cellular process	GSE91061	0
+nervous system development	GSE91061	1
+neurogenesis	GSE91061	1
+neuron development	GSE91061	1
+neuron differentiation	GSE91061	1
+neuron projection	GSE91061	1
+neuron projection development	GSE91061	1
+nucleoside phosphate binding	GSE91061	0
+nucleotide binding	GSE91061	0
+organelle membrane	GSE91061	1
+organonitrogen compound metabolic process	GSE91061	1
+ovary	GSE91061	0
+ovary; ovarian stroma cells[≥Low]	GSE91061	0
+pancreas	GSE91061	1
+pancreas; exocrine glandular cells[≥Low]	GSE91061	0
+pancreas; exocrine glandular cells[≥Medium]	GSE91061	0
+pancreas; pancreatic endocrine cells[≥Low]	GSE91061	0
+pancreas; pancreatic endocrine cells[≥Medium]	GSE91061	0
+parathyroid gland	GSE91061	0
+parathyroid gland; glandular cells[≥Low]	GSE91061	0
+parathyroid gland; glandular cells[≥Medium]	GSE91061	0
+phosphorus metabolic process	GSE91061	0
+placenta	GSE91061	0
+placenta; decidual cells[≥Low]	GSE91061	1
+placenta; decidual cells[≥Medium]	GSE91061	0
+placenta; trophoblastic cells[≥Low]	GSE91061	0
+plasma membrane	GSE91061	0
+plasma membrane bounded cell projection	GSE91061	1
+plasma membrane bounded cell projection organization	GSE91061	0
+positive regulation of biological process	GSE91061	1
+positive regulation of cell communication	GSE91061	0
+positive regulation of cellular process	GSE91061	0
+positive regulation of fat cell differentiation	GSE91061	0
+positive regulation of metabolic process	GSE91061	0
+positive regulation of response to stimulus	GSE91061	0
+positive regulation of signal transduction	GSE91061	0
+positive regulation of signaling	GSE91061	0
+positive regulation of smooth muscle cell chemotaxis	GSE91061	0
+process utilizing autophagic mechanism	GSE91061	1
+programmed cell death	GSE91061	0
+prostate	GSE91061	1
+prostate; glandular cells[≥Low]	GSE91061	1
+prostate; glandular cells[≥Medium]	GSE91061	0
+protein binding	GSE91061	1
+protein metabolic process	GSE91061	0
+purine nucleotide binding	GSE91061	0
+rectum	GSE91061	0
+rectum; glandular cells[≥Low]	GSE91061	0
+rectum; glandular cells[≥Medium]	GSE91061	0
+regulation of autophagy	GSE91061	0
+regulation of biological process	GSE91061	1
+regulation of biological quality	GSE91061	0
+regulation of catabolic process	GSE91061	1
+regulation of cell communication	GSE91061	1
+regulation of cellular catabolic process	GSE91061	0
+regulation of cellular process	GSE91061	1
+regulation of developmental process	GSE91061	1
+regulation of metabolic process	GSE91061	0
+regulation of multicellular organismal process	GSE91061	1
+regulation of primary metabolic process	GSE91061	0
+regulation of response to stimulus	GSE91061	1
+regulation of signal transduction	GSE91061	1
+regulation of signaling	GSE91061	1
+response to stimulus	GSE91061	1
+salivary gland	GSE91061	0
+salivary gland; glandular cells[≥Low]	GSE91061	0
+salivary gland; glandular cells[≥Medium]	GSE91061	0
+seminal vesicle	GSE91061	1
+seminal vesicle; glandular cells[≥Low]	GSE91061	1
+seminal vesicle; glandular cells[≥Medium]	GSE91061	1
+signal transduction	GSE91061	1
+signaling	GSE91061	1
+site of polarized growth	GSE91061	1
+skeletal muscle	GSE91061	1
+skeletal muscle; myocytes[≥Low]	GSE91061	1
+skeletal muscle; myocytes[≥Medium]	GSE91061	0
+skin 1	GSE91061	0
+skin 1; fibroblasts[≥Low]	GSE91061	0
+skin 1; fibroblasts[≥Medium]	GSE91061	0
+skin 1; keratinocytes[≥Low]	GSE91061	0
+skin 2; epidermal cells[≥Low]	GSE91061	0
+small intestine	GSE91061	0
+small intestine; glandular cells[≥Low]	GSE91061	0
+small intestine; glandular cells[≥Medium]	GSE91061	1
+smooth muscle	GSE91061	0
+smooth muscle cell chemotaxis	GSE91061	0
+smooth muscle; smooth muscle cells[≥Low]	GSE91061	0
+soft tissue 1	GSE91061	0
+soft tissue 2	GSE91061	0
+soft tissue 2; fibroblasts[≥Low]	GSE91061	1
+spleen	GSE91061	0
+spleen; cells in red pulp[≥Low]	GSE91061	0
+spleen; cells in white pulp[High]	GSE91061	0
+stomach 1	GSE91061	1
+stomach 1; glandular cells[≥Low]	GSE91061	1
+stomach 1; glandular cells[≥Medium]	GSE91061	1
+stomach 2	GSE91061	1
+stomach 2; glandular cells[≥Low]	GSE91061	1
+stomach 2; glandular cells[≥Medium]	GSE91061	0
+system development	GSE91061	1
+testis; cells in seminiferous ducts[≥Low]	GSE91061	0
+testis; cells in seminiferous ducts[≥Medium]	GSE91061	0
+testis; Leydig cells[≥Low]	GSE91061	1
+testis; Leydig cells[≥Medium]	GSE91061	0
+Thrombin signalling through proteinase activated receptors (PARs)	GSE91061	0
+thyroid gland	GSE91061	1
+thyroid gland; glandular cells[≥Low]	GSE91061	1
+thyroid gland; glandular cells[≥Medium]	GSE91061	1
+tonsil	GSE91061	0
+tonsil; germinal center cells[≥Low]	GSE91061	0
+tonsil; non-germinal center cells[≥Low]	GSE91061	0
+tonsil; non-germinal center cells[≥Medium]	GSE91061	0
+tonsil; squamous epithelial cells[≥Low]	GSE91061	0
+urinary bladder	GSE91061	1
+urinary bladder; urothelial cells[≥Low]	GSE91061	1
+urinary bladder; urothelial cells[≥Medium]	GSE91061	1
+vagina	GSE91061	0
+vagina; squamous epithelial cells[≥Low]	GSE91061	0

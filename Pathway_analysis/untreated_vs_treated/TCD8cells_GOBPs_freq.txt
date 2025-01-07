@@ -1,0 +1,4246 @@
+Var1	Var2	Freq
+Abnormal B cell count	GSE22155_02	0
+Abnormal B cell morphology	GSE22155_02	0
+Abnormal bone marrow cell morphology	GSE22155_02	0
+Abnormal cellular immune system morphology	GSE22155_02	0
+Abnormal circulating C-reactive protein concentration	GSE22155_02	0
+Abnormal erythrocyte morphology	GSE22155_02	0
+Abnormal granulocyte count	GSE22155_02	0
+Abnormal granulocyte morphology	GSE22155_02	0
+Abnormal immune system morphology	GSE22155_02	0
+Abnormal immunoglobulin level	GSE22155_02	0
+Abnormal inflammatory response	GSE22155_02	0
+Abnormal large intestine morphology	GSE22155_02	0
+Abnormal leukocyte count	GSE22155_02	0
+Abnormal leukocyte morphology	GSE22155_02	0
+Abnormal leukocyte physiology	GSE22155_02	0
+Abnormal lymph node morphology	GSE22155_02	0
+Abnormal lymphocyte count	GSE22155_02	0
+Abnormal lymphocyte morphology	GSE22155_02	0
+Abnormal lymphocyte physiology	GSE22155_02	0
+Abnormal myeloid leukocyte morphology	GSE22155_02	0
+Abnormal natural killer cell physiology	GSE22155_02	0
+Abnormal neutrophil count	GSE22155_02	0
+Abnormal paranasal sinus morphology	GSE22155_02	0
+Abnormal platelet count	GSE22155_02	0
+Abnormal platelet morphology	GSE22155_02	0
+Abnormal rectum morphology	GSE22155_02	0
+Abnormal respiratory system morphology	GSE22155_02	0
+Abnormal T cell count	GSE22155_02	0
+Abnormal T cell morphology	GSE22155_02	0
+Abnormal T cell subset distribution	GSE22155_02	0
+Abnormality of B cell physiology	GSE22155_02	0
+Abnormality of blood and blood-forming tissues	GSE22155_02	1
+Abnormality of humoral immunity	GSE22155_02	0
+Abnormality of immune system physiology	GSE22155_02	0
+Abnormality of multiple cell lineages in the bone marrow	GSE22155_02	0
+Abnormality of neutrophils	GSE22155_02	0
+Abnormality of the immune system	GSE22155_02	0
+Abnormality of the knee	GSE22155_02	0
+Abnormality of thrombocytes	GSE22155_02	0
+actin binding	GSE22155_02	0
+actin cytoskeleton organization	GSE22155_02	1
+actin filament	GSE22155_02	0
+actin filament bundle	GSE22155_02	0
+actin filament organization	GSE22155_02	0
+actin filament polymerization	GSE22155_02	1
+actin filament-based process	GSE22155_02	1
+actin polymerization or depolymerization	GSE22155_02	0
+activation of immune response	GSE22155_02	1
+activation of innate immune response	GSE22155_02	0
+actomyosin	GSE22155_02	0
+Acute phase response	GSE22155_02	0
+Acute viral myocarditis	GSE22155_02	0
+adaptive immune response	GSE22155_02	0
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE22155_02	0
+Adaptive Immune System	GSE22155_02	0
+adherens junction	GSE22155_02	0
+Affected pathways in Duchenne muscular dystrophy	GSE22155_02	1
+Allograft rejection	GSE22155_02	1
+alpha-beta T cell activation	GSE22155_02	0
+alpha-beta T cell differentiation	GSE22155_02	0
+alpha-beta T cell proliferation	GSE22155_02	0
+ameboidal-type cell migration	GSE22155_02	1
+amide binding	GSE22155_02	1
+amide metabolic process	GSE22155_02	1
+amyloid-beta binding	GSE22155_02	0
+anatomical structure development	GSE22155_02	1
+anatomical structure formation involved in morphogenesis	GSE22155_02	1
+anatomical structure morphogenesis	GSE22155_02	1
+anchoring junction	GSE22155_02	1
+Anemia	GSE22155_02	0
+angiogenesis	GSE22155_02	1
+animal organ development	GSE22155_02	1
+animal organ morphogenesis	GSE22155_02	0
+Anorectal anomaly	GSE22155_02	0
+antigen processing and presentation	GSE22155_02	0
+antigen processing and presentation of exogenous antigen	GSE22155_02	0
+antigen processing and presentation of exogenous peptide antigen	GSE22155_02	0
+antigen processing and presentation of exogenous peptide antigen via MHC class II	GSE22155_02	0
+antigen processing and presentation of peptide antigen	GSE22155_02	0
+antigen processing and presentation of peptide antigen via MHC class II	GSE22155_02	0
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	GSE22155_02	0
+antigen receptor-mediated signaling pathway	GSE22155_02	0
+apoptotic process	GSE22155_02	1
+appendix; germinal center cells[≥Medium]	GSE22155_02	0
+appendix; non-germinal center cells[≥Low]	GSE22155_02	0
+appendix; non-germinal center cells[≥Medium]	GSE22155_02	0
+aromatic compound catabolic process	GSE22155_02	0
+Arthralgia	GSE22155_02	0
+Assembly of collagen fibrils and other multimeric structures	GSE22155_02	1
+Autoimmunity	GSE22155_02	0
+axon development	GSE22155_02	0
+axon guidance	GSE22155_02	0
+Axon guidance	GSE22155_02	0
+B cell activation	GSE22155_02	0
+B cell differentiation	GSE22155_02	0
+B cell receptor signaling pathway	GSE22155_02	0
+B lymphocytopenia	GSE22155_02	0
+basement membrane	GSE22155_02	0
+binding	GSE22155_02	1
+biological process involved in interspecies interaction between organisms	GSE22155_02	1
+biological regulation	GSE22155_02	1
+blood circulation	GSE22155_02	0
+blood coagulation	GSE22155_02	1
+blood vessel development	GSE22155_02	1
+blood vessel morphogenesis	GSE22155_02	1
+bone marrow	GSE22155_02	0
+bone marrow; hematopoietic cells[≥Low]	GSE22155_02	0
+bone marrow; hematopoietic cells[≥Medium]	GSE22155_02	0
+bounding membrane of organelle	GSE22155_02	0
+calcium ion binding	GSE22155_02	0
+calcium ion homeostasis	GSE22155_02	1
+calcium ion transmembrane import into cytosol	GSE22155_02	0
+calcium ion transport	GSE22155_02	1
+canonical NF-kappaB signal transduction	GSE22155_02	1
+carbohydrate derivative binding	GSE22155_02	1
+catabolic process	GSE22155_02	1
+cell activation	GSE22155_02	1
+cell activation involved in immune response	GSE22155_02	0
+cell adhesion	GSE22155_02	1
+cell adhesion molecule binding	GSE22155_02	1
+cell chemotaxis	GSE22155_02	1
+cell communication	GSE22155_02	1
+cell death	GSE22155_02	1
+cell development	GSE22155_02	1
+cell differentiation	GSE22155_02	1
+cell junction	GSE22155_02	1
+cell junction assembly	GSE22155_02	1
+cell junction organization	GSE22155_02	1
+cell killing	GSE22155_02	0
+cell migration	GSE22155_02	1
+cell morphogenesis	GSE22155_02	1
+cell motility	GSE22155_02	1
+cell periphery	GSE22155_02	1
+cell population proliferation	GSE22155_02	1
+cell surface	GSE22155_02	1
+cell surface receptor signaling pathway	GSE22155_02	1
+cell-cell adhesion	GSE22155_02	1
+cell-cell junction	GSE22155_02	1
+cell-cell signaling	GSE22155_02	1
+cell-matrix adhesion	GSE22155_02	1
+cell-substrate adhesion	GSE22155_02	1
+cell-substrate junction	GSE22155_02	1
+cell-substrate junction assembly	GSE22155_02	1
+cell-substrate junction organization	GSE22155_02	1
+cellular anatomical entity	GSE22155_02	1
+cellular anatomical entity morphogenesis	GSE22155_02	0
+cellular developmental process	GSE22155_02	1
+cellular localization	GSE22155_02	1
+cellular nitrogen compound biosynthetic process	GSE22155_02	1
+cellular nitrogen compound catabolic process	GSE22155_02	1
+cellular response to biotic stimulus	GSE22155_02	1
+cellular response to chemical stimulus	GSE22155_02	1
+cellular response to chemical stress	GSE22155_02	0
+cellular response to chemokine	GSE22155_02	0
+cellular response to cytokine stimulus	GSE22155_02	1
+cellular response to endogenous stimulus	GSE22155_02	1
+cellular response to growth factor stimulus	GSE22155_02	1
+cellular response to lipid	GSE22155_02	1
+cellular response to lipopolysaccharide	GSE22155_02	1
+cellular response to molecule of bacterial origin	GSE22155_02	1
+cellular response to organic substance	GSE22155_02	1
+cellular response to oxygen-containing compound	GSE22155_02	1
+cellular response to reactive oxygen species	GSE22155_02	1
+cellular response to stimulus	GSE22155_02	1
+cellular response to type II interferon	GSE22155_02	1
+chemokine activity	GSE22155_02	0
+Chemokine signaling pathway	GSE22155_02	1
+chemokine-mediated signaling pathway	GSE22155_02	0
+chemotaxis	GSE22155_02	1
+Cigarette-paper scars	GSE22155_02	0
+circulatory system development	GSE22155_02	1
+circulatory system process	GSE22155_02	1
+Class A/1 (Rhodopsin-like receptors)	GSE22155_02	0
+clathrin-coated endocytic vesicle membrane	GSE22155_02	0
+coagulation	GSE22155_02	0
+Colitis	GSE22155_02	0
+Collagen biosynthesis and modifying enzymes	GSE22155_02	0
+Collagen chain trimerization	GSE22155_02	0
+Collagen formation	GSE22155_02	1
+collagen trimer	GSE22155_02	1
+collagen-containing extracellular matrix	GSE22155_02	1
+colon; mucosal lymphoid cells[≥Low]	GSE22155_02	0
+colon; mucosal lymphoid cells[≥Medium]	GSE22155_02	1
+complex of collagen trimers	GSE22155_02	0
+contractile actin filament bundle	GSE22155_02	0
+convergent extension involved in axis elongation	GSE22155_02	0
+CXCR chemokine receptor binding	GSE22155_02	0
+cytokine activity	GSE22155_02	0
+cytokine production	GSE22155_02	1
+cytokine receptor binding	GSE22155_02	1
+Cytokine Signaling in Immune system	GSE22155_02	1
+cytokine-mediated signaling pathway	GSE22155_02	1
+Cytokines and inflammatory response	GSE22155_02	0
+cytoplasm	GSE22155_02	1
+cytoplasmic translation	GSE22155_02	1
+cytoplasmic vesicle	GSE22155_02	1
+cytoplasmic vesicle membrane	GSE22155_02	1
+cytosol	GSE22155_02	1
+cytosolic large ribosomal subunit	GSE22155_02	1
+cytosolic ribosome	GSE22155_02	1
+Decreased circulating antibody level	GSE22155_02	0
+defense response	GSE22155_02	1
+defense response to other organism	GSE22155_02	1
+defense response to symbiont	GSE22155_02	1
+Degradation of the extracellular matrix	GSE22155_02	0
+dendritic cell antigen processing and presentation	GSE22155_02	0
+developmental process	GSE22155_02	1
+Disease	GSE22155_02	0
+disruption of anatomical structure in another organism	GSE22155_02	0
+disruption of cell in another organism	GSE22155_02	0
+Ebola virus infection in host	GSE22155_02	0
+Elevated circulating C-reactive protein concentration	GSE22155_02	0
+endocytic vesicle	GSE22155_02	1
+endocytic vesicle membrane	GSE22155_02	1
+endocytosis	GSE22155_02	1
+endoderm development	GSE22155_02	0
+endoderm formation	GSE22155_02	0
+endodermal cell differentiation	GSE22155_02	0
+endomembrane system	GSE22155_02	1
+endoplasmic reticulum	GSE22155_02	0
+endoplasmic reticulum lumen	GSE22155_02	1
+endosome	GSE22155_02	0
+endothelial cell migration	GSE22155_02	1
+enzyme-linked receptor protein signaling pathway	GSE22155_02	1
+ephrin receptor binding	GSE22155_02	1
+epithelial cell migration	GSE22155_02	1
+epithelium development	GSE22155_02	1
+epithelium migration	GSE22155_02	1
+ERK1 and ERK2 cascade	GSE22155_02	1
+establishment of localization	GSE22155_02	1
+Eukaryotic Translation Elongation	GSE22155_02	1
+Eukaryotic Translation Termination	GSE22155_02	1
+export from cell	GSE22155_02	0
+external encapsulating structure	GSE22155_02	1
+external encapsulating structure organization	GSE22155_02	1
+external side of plasma membrane	GSE22155_02	1
+extracellular exosome	GSE22155_02	1
+extracellular matrix	GSE22155_02	1
+extracellular matrix binding	GSE22155_02	1
+extracellular matrix disassembly	GSE22155_02	0
+extracellular matrix organization	GSE22155_02	1
+Extracellular matrix organization	GSE22155_02	1
+extracellular matrix structural constituent	GSE22155_02	1
+extracellular matrix structural constituent conferring tensile strength	GSE22155_02	1
+extracellular membrane-bounded organelle	GSE22155_02	1
+extracellular organelle	GSE22155_02	1
+extracellular region	GSE22155_02	1
+extracellular space	GSE22155_02	1
+extracellular structure organization	GSE22155_02	1
+extracellular vesicle	GSE22155_02	1
+Extrafollicular and follicular B cell activation by SARS CoV 2	GSE22155_02	0
+extrinsic apoptotic signaling pathway	GSE22155_02	1
+fat cell differentiation	GSE22155_02	0
+fatty acid transport	GSE22155_02	1
+Fc receptor mediated stimulatory signaling pathway	GSE22155_02	1
+Fc receptor signaling pathway	GSE22155_02	0
+Fc-gamma receptor signaling pathway	GSE22155_02	1
+Fc-gamma receptor signaling pathway involved in phagocytosis	GSE22155_02	1
+Fever	GSE22155_02	0
+ficolin-1-rich granule membrane	GSE22155_02	0
+focal adhesion	GSE22155_02	1
+Focal adhesion	GSE22155_02	1
+focal adhesion assembly	GSE22155_02	1
+Focal adhesion PI3K Akt mTOR signaling pathway	GSE22155_02	0
+G protein-coupled receptor binding	GSE22155_02	0
+Generation of second messenger molecules	GSE22155_02	0
+glycosaminoglycan binding	GSE22155_02	1
+GPCR downstream signalling	GSE22155_02	0
+GPCR ligand binding	GSE22155_02	0
+granulocyte activation	GSE22155_02	0
+granulocyte chemotaxis	GSE22155_02	1
+granulocyte migration	GSE22155_02	1
+growth factor binding	GSE22155_02	1
+growth factor receptor binding	GSE22155_02	1
+heart development	GSE22155_02	1
+heart morphogenesis	GSE22155_02	1
+Hematological neoplasm	GSE22155_02	1
+hemopoiesis	GSE22155_02	1
+hemostasis	GSE22155_02	1
+heparin binding	GSE22155_02	1
+heterocycle catabolic process	GSE22155_02	1
+Hippo signaling regulation pathways	GSE22155_02	0
+homeostasis of number of cells	GSE22155_02	0
+homeostatic process	GSE22155_02	1
+hsa-miR-124-3p	GSE22155_02	1
+humoral immune response	GSE22155_02	0
+icosanoid secretion	GSE22155_02	0
+icosanoid transport	GSE22155_02	0
+identical protein binding	GSE22155_02	0
+IL 3 signaling pathway	GSE22155_02	0
+immune effector process	GSE22155_02	0
+immune receptor activity	GSE22155_02	0
+immune response	GSE22155_02	1
+immune response-activating cell surface receptor signaling pathway	GSE22155_02	1
+immune response-activating signaling pathway	GSE22155_02	1
+immune response-regulating cell surface receptor signaling pathway	GSE22155_02	1
+immune response-regulating cell surface receptor signaling pathway involved in phagocytosis	GSE22155_02	1
+immune response-regulating signaling pathway	GSE22155_02	1
+Immune System	GSE22155_02	1
+immune system process	GSE22155_02	1
+Immunodeficiency	GSE22155_02	0
+immunological synapse	GSE22155_02	0
+import into cell	GSE22155_02	1
+Increased inflammatory response	GSE22155_02	0
+inflammatory response	GSE22155_02	1
+innate immune response	GSE22155_02	1
+Innate Immune System	GSE22155_02	0
+inorganic ion homeostasis	GSE22155_02	0
+integrin binding	GSE22155_02	1
+integrin-mediated signaling pathway	GSE22155_02	1
+Interferon alpha/beta signaling	GSE22155_02	0
+Interferon gamma signaling	GSE22155_02	0
+Interferon Signaling	GSE22155_02	0
+Interleukin-10 signaling	GSE22155_02	0
+interleukin-2 production	GSE22155_02	0
+interleukin-6 production	GSE22155_02	1
+interleukin-8 production	GSE22155_02	0
+intracellular calcium ion homeostasis	GSE22155_02	1
+intracellular chemical homeostasis	GSE22155_02	0
+intracellular monoatomic cation homeostasis	GSE22155_02	0
+intracellular monoatomic ion homeostasis	GSE22155_02	0
+intracellular organelle lumen	GSE22155_02	0
+intracellular signal transduction	GSE22155_02	1
+intracellular signaling cassette	GSE22155_02	1
+intracellular vesicle	GSE22155_02	1
+killing of cells of another organism	GSE22155_02	0
+leukocyte activation	GSE22155_02	1
+leukocyte activation involved in immune response	GSE22155_02	0
+leukocyte cell-cell adhesion	GSE22155_02	1
+leukocyte chemotaxis	GSE22155_02	1
+leukocyte differentiation	GSE22155_02	1
+leukocyte homeostasis	GSE22155_02	0
+leukocyte mediated immunity	GSE22155_02	0
+leukocyte migration	GSE22155_02	1
+leukocyte proliferation	GSE22155_02	1
+lipid export from cell	GSE22155_02	0
+lipid localization	GSE22155_02	0
+lipid transport	GSE22155_02	0
+localization	GSE22155_02	1
+locomotion	GSE22155_02	1
+lumenal side of endoplasmic reticulum membrane	GSE22155_02	0
+lumenal side of membrane	GSE22155_02	0
+lymph node	GSE22155_02	0
+lymph node; germinal center cells[≥Low]	GSE22155_02	1
+lymph node; non-germinal center cells[≥Low]	GSE22155_02	0
+lymph node; non-germinal center cells[≥Medium]	GSE22155_02	0
+lymph node; non-germinal center cells[High]	GSE22155_02	0
+Lymphadenopathy	GSE22155_02	0
+lymphocyte activation	GSE22155_02	1
+lymphocyte activation involved in immune response	GSE22155_02	0
+lymphocyte costimulation	GSE22155_02	0
+lymphocyte differentiation	GSE22155_02	0
+lymphocyte mediated immunity	GSE22155_02	0
+lymphocyte proliferation	GSE22155_02	1
+Lymphoma	GSE22155_02	0
+Lymphopenia	GSE22155_02	0
+lysosome	GSE22155_02	0
+lytic vacuole	GSE22155_02	0
+macromolecule catabolic process	GSE22155_02	1
+macromolecule localization	GSE22155_02	0
+macromolecule modification	GSE22155_02	0
+macrophage activation	GSE22155_02	0
+maintenance of location	GSE22155_02	1
+maintenance of location in cell	GSE22155_02	0
+MAPK cascade	GSE22155_02	1
+membrane	GSE22155_02	1
+membrane microdomain	GSE22155_02	0
+membrane raft	GSE22155_02	0
+membrane-enclosed lumen	GSE22155_02	0
+Meningitis	GSE22155_02	0
+MHC class II protein complex	GSE22155_02	0
+MHC class II protein complex assembly	GSE22155_02	0
+MHC class II protein complex binding	GSE22155_02	1
+MHC class II receptor activity	GSE22155_02	0
+MHC protein binding	GSE22155_02	0
+MHC protein complex	GSE22155_02	0
+MHC protein complex assembly	GSE22155_02	0
+MHC protein complex binding	GSE22155_02	1
+Microglia pathogen phagocytosis pathway	GSE22155_02	1
+molecular function regulator activity	GSE22155_02	0
+molecular transducer activity	GSE22155_02	0
+monoatomic cation homeostasis	GSE22155_02	0
+monoatomic ion homeostasis	GSE22155_02	0
+monocarboxylic acid transport	GSE22155_02	0
+monocyte chemotaxis	GSE22155_02	1
+mononuclear cell differentiation	GSE22155_02	1
+mononuclear cell migration	GSE22155_02	1
+mononuclear cell proliferation	GSE22155_02	1
+multicellular organism development	GSE22155_02	1
+multicellular organismal process	GSE22155_02	1
+multicellular organismal-level homeostasis	GSE22155_02	1
+muscle cell migration	GSE22155_02	1
+muscle cell proliferation	GSE22155_02	1
+myeloid cell differentiation	GSE22155_02	1
+myeloid leukocyte activation	GSE22155_02	1
+myeloid leukocyte differentiation	GSE22155_02	0
+myeloid leukocyte migration	GSE22155_02	1
+negative regulation of antigen processing and presentation	GSE22155_02	0
+negative regulation of apoptotic process	GSE22155_02	0
+negative regulation of biological process	GSE22155_02	1
+negative regulation of blood coagulation	GSE22155_02	1
+negative regulation of catabolic process	GSE22155_02	1
+negative regulation of cell activation	GSE22155_02	0
+negative regulation of cell adhesion	GSE22155_02	1
+negative regulation of cell communication	GSE22155_02	1
+negative regulation of cell population proliferation	GSE22155_02	1
+negative regulation of cellular process	GSE22155_02	1
+negative regulation of coagulation	GSE22155_02	1
+negative regulation of defense response	GSE22155_02	1
+negative regulation of developmental process	GSE22155_02	1
+negative regulation of hemostasis	GSE22155_02	1
+negative regulation of hormone secretion	GSE22155_02	0
+negative regulation of immune effector process	GSE22155_02	0
+negative regulation of immune response	GSE22155_02	1
+negative regulation of immune system process	GSE22155_02	1
+negative regulation of inflammatory response	GSE22155_02	0
+negative regulation of innate immune response	GSE22155_02	0
+negative regulation of leukocyte mediated immunity	GSE22155_02	0
+negative regulation of lymphocyte mediated immunity	GSE22155_02	0
+negative regulation of molecular function	GSE22155_02	1
+negative regulation of multicellular organismal process	GSE22155_02	1
+negative regulation of nitrogen compound metabolic process	GSE22155_02	1
+negative regulation of programmed cell death	GSE22155_02	0
+negative regulation of protein maturation	GSE22155_02	0
+negative regulation of protein metabolic process	GSE22155_02	1
+negative regulation of protein processing	GSE22155_02	0
+negative regulation of response to biotic stimulus	GSE22155_02	0
+negative regulation of response to external stimulus	GSE22155_02	1
+negative regulation of response to stimulus	GSE22155_02	1
+negative regulation of response to wounding	GSE22155_02	1
+negative regulation of sequestering of calcium ion	GSE22155_02	0
+negative regulation of signal transduction	GSE22155_02	1
+negative regulation of signaling	GSE22155_02	1
+negative regulation of wound healing	GSE22155_02	1
+negative T cell selection	GSE22155_02	0
+nervous system development	GSE22155_02	0
+Nervous system development	GSE22155_02	0
+Network map of SARS CoV 2 signaling pathway	GSE22155_02	0
+neuron projection guidance	GSE22155_02	0
+neuropeptide receptor binding	GSE22155_02	0
+Neutropenia	GSE22155_02	0
+neutrophil activation	GSE22155_02	0
+neutrophil activation involved in immune response	GSE22155_02	0
+neutrophil chemotaxis	GSE22155_02	1
+Neutrophil degranulation	GSE22155_02	0
+neutrophil migration	GSE22155_02	1
+nitric oxide biosynthetic process	GSE22155_02	0
+nitric oxide metabolic process	GSE22155_02	0
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE22155_02	1
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE22155_02	1
+Nonsense-Mediated Decay (NMD)	GSE22155_02	1
+nucleobase-containing compound catabolic process	GSE22155_02	1
+nucleoplasm	GSE22155_02	1
+organelle lumen	GSE22155_02	0
+organelle membrane	GSE22155_02	0
+organic substance catabolic process	GSE22155_02	1
+organonitrogen compound metabolic process	GSE22155_02	1
+ossification	GSE22155_02	0
+Overview of proinflammatory and profibrotic mediators	GSE22155_02	0
+Pancytopenia	GSE22155_02	0
+Pathogenesis of SARS CoV 2 mediated by nsp9 nsp10 complex	GSE22155_02	0
+PD-1 signaling	GSE22155_02	0
+peptide antigen assembly with MHC class II protein complex	GSE22155_02	0
+peptide antigen assembly with MHC protein complex	GSE22155_02	0
+peptide antigen binding	GSE22155_02	0
+peptide binding	GSE22155_02	1
+Peptide chain elongation	GSE22155_02	1
+Peptide ligand-binding receptors	GSE22155_02	0
+peptide metabolic process	GSE22155_02	1
+peptidyl-amino acid modification	GSE22155_02	1
+peptidyl-tyrosine modification	GSE22155_02	1
+peptidyl-tyrosine phosphorylation	GSE22155_02	1
+phagocytic vesicle	GSE22155_02	0
+phagocytic vesicle membrane	GSE22155_02	0
+phagocytosis	GSE22155_02	0
+phosphate-containing compound metabolic process	GSE22155_02	0
+phosphorus metabolic process	GSE22155_02	0
+phosphorylation	GSE22155_02	1
+Phosphorylation of CD3 and TCR zeta chains	GSE22155_02	0
+Photodynamic therapy induced NF kB survival signaling	GSE22155_02	0
+plasma membrane	GSE22155_02	1
+plasma membrane protein complex	GSE22155_02	0
+plasma membrane region	GSE22155_02	0
+Pleural mesothelioma	GSE22155_02	1
+positive regulation of actin filament bundle assembly	GSE22155_02	0
+positive regulation of adaptive immune response	GSE22155_02	0
+positive regulation of alpha-beta T cell activation	GSE22155_02	0
+positive regulation of angiogenesis	GSE22155_02	1
+positive regulation of biological process	GSE22155_02	1
+positive regulation of biosynthetic process	GSE22155_02	1
+positive regulation of canonical NF-kappaB signal transduction	GSE22155_02	0
+positive regulation of catabolic process	GSE22155_02	1
+positive regulation of cell activation	GSE22155_02	1
+positive regulation of cell adhesion	GSE22155_02	1
+positive regulation of cell adhesion mediated by integrin	GSE22155_02	0
+positive regulation of cell communication	GSE22155_02	1
+positive regulation of cell development	GSE22155_02	1
+positive regulation of cell differentiation	GSE22155_02	1
+positive regulation of cell migration	GSE22155_02	1
+positive regulation of cell motility	GSE22155_02	1
+positive regulation of cell population proliferation	GSE22155_02	1
+positive regulation of cell-cell adhesion	GSE22155_02	1
+positive regulation of cell-matrix adhesion	GSE22155_02	0
+positive regulation of cellular biosynthetic process	GSE22155_02	1
+positive regulation of cellular component organization	GSE22155_02	1
+positive regulation of cellular metabolic process	GSE22155_02	1
+positive regulation of cellular process	GSE22155_02	1
+positive regulation of chemotaxis	GSE22155_02	1
+positive regulation of cytokine production	GSE22155_02	1
+positive regulation of defense response	GSE22155_02	1
+positive regulation of developmental process	GSE22155_02	1
+positive regulation of DNA-templated transcription	GSE22155_02	0
+positive regulation of ERK1 and ERK2 cascade	GSE22155_02	0
+positive regulation of gene expression	GSE22155_02	1
+positive regulation of hemopoiesis	GSE22155_02	0
+positive regulation of immune effector process	GSE22155_02	0
+positive regulation of immune response	GSE22155_02	1
+positive regulation of immune system process	GSE22155_02	1
+positive regulation of inflammatory response	GSE22155_02	1
+positive regulation of innate immune response	GSE22155_02	0
+positive regulation of interleukin-2 production	GSE22155_02	0
+positive regulation of interleukin-6 production	GSE22155_02	1
+positive regulation of interleukin-8 production	GSE22155_02	1
+positive regulation of intracellular signal transduction	GSE22155_02	1
+positive regulation of leukocyte activation	GSE22155_02	1
+positive regulation of leukocyte cell-cell adhesion	GSE22155_02	1
+positive regulation of leukocyte chemotaxis	GSE22155_02	1
+positive regulation of leukocyte differentiation	GSE22155_02	0
+positive regulation of leukocyte migration	GSE22155_02	1
+positive regulation of leukocyte proliferation	GSE22155_02	0
+positive regulation of locomotion	GSE22155_02	1
+positive regulation of lymphocyte activation	GSE22155_02	1
+positive regulation of lymphocyte differentiation	GSE22155_02	0
+positive regulation of lymphocyte proliferation	GSE22155_02	0
+positive regulation of macromolecule biosynthetic process	GSE22155_02	1
+positive regulation of macromolecule metabolic process	GSE22155_02	1
+positive regulation of MAPK cascade	GSE22155_02	1
+positive regulation of metabolic process	GSE22155_02	1
+positive regulation of molecular function	GSE22155_02	0
+positive regulation of mononuclear cell migration	GSE22155_02	1
+positive regulation of mononuclear cell proliferation	GSE22155_02	0
+positive regulation of multicellular organismal process	GSE22155_02	1
+positive regulation of nitric oxide biosynthetic process	GSE22155_02	1
+positive regulation of nitric oxide metabolic process	GSE22155_02	1
+positive regulation of nitrogen compound metabolic process	GSE22155_02	1
+positive regulation of non-canonical NF-kappaB signal transduction	GSE22155_02	0
+positive regulation of nucleobase-containing compound metabolic process	GSE22155_02	1
+positive regulation of peptidyl-tyrosine phosphorylation	GSE22155_02	1
+positive regulation of phagocytosis	GSE22155_02	0
+positive regulation of phosphate metabolic process	GSE22155_02	1
+positive regulation of phospholipase C activity	GSE22155_02	0
+positive regulation of phosphorus metabolic process	GSE22155_02	1
+positive regulation of phosphorylation	GSE22155_02	0
+positive regulation of programmed cell death	GSE22155_02	0
+positive regulation of protein localization	GSE22155_02	0
+positive regulation of protein metabolic process	GSE22155_02	1
+positive regulation of protein modification process	GSE22155_02	1
+positive regulation of protein phosphorylation	GSE22155_02	0
+positive regulation of response to biotic stimulus	GSE22155_02	0
+positive regulation of response to external stimulus	GSE22155_02	1
+positive regulation of response to stimulus	GSE22155_02	1
+positive regulation of RNA biosynthetic process	GSE22155_02	0
+positive regulation of RNA metabolic process	GSE22155_02	1
+positive regulation of signal transduction	GSE22155_02	1
+positive regulation of signaling	GSE22155_02	1
+positive regulation of smooth muscle cell migration	GSE22155_02	1
+positive regulation of smooth muscle cell proliferation	GSE22155_02	1
+positive regulation of stress fiber assembly	GSE22155_02	1
+positive regulation of supramolecular fiber organization	GSE22155_02	0
+positive regulation of T cell activation	GSE22155_02	1
+positive regulation of T cell proliferation	GSE22155_02	1
+positive regulation of transcription by RNA polymerase II	GSE22155_02	0
+positive regulation of type II interferon production	GSE22155_02	0
+positive regulation of vasculature development	GSE22155_02	1
+positive T cell selection	GSE22155_02	0
+positive thymic T cell selection	GSE22155_02	0
+programmed cell death	GSE22155_02	1
+prostaglandin secretion	GSE22155_02	0
+prostaglandin transport	GSE22155_02	0
+protein binding	GSE22155_02	1
+protein complex involved in cell adhesion	GSE22155_02	0
+protein homodimerization activity	GSE22155_02	0
+protein localization to nucleus	GSE22155_02	1
+protein metabolic process	GSE22155_02	1
+protein modification process	GSE22155_02	0
+protein phosphorylation	GSE22155_02	0
+protein-containing complex binding	GSE22155_02	1
+PRRX2-UCHL1 complex	GSE22155_02	0
+reactive nitrogen species metabolic process	GSE22155_02	0
+reactive oxygen species metabolic process	GSE22155_02	0
+receptor complex	GSE22155_02	0
+receptor ligand activity	GSE22155_02	0
+rectum; mucosal lymphoid cells[≥Low]	GSE22155_02	1
+rectum; mucosal lymphoid cells[≥Medium]	GSE22155_02	1
+rectum; mucosal lymphoid cells[High]	GSE22155_02	0
+Recurrent fever	GSE22155_02	0
+Recurrent infections	GSE22155_02	0
+Reduced natural killer cell activity	GSE22155_02	0
+regulation of actin cytoskeleton organization	GSE22155_02	0
+regulation of adaptive immune response	GSE22155_02	0
+regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE22155_02	0
+regulation of alpha-beta T cell activation	GSE22155_02	0
+regulation of anatomical structure morphogenesis	GSE22155_02	1
+regulation of angiogenesis	GSE22155_02	1
+regulation of animal organ morphogenesis	GSE22155_02	0
+regulation of antigen processing and presentation	GSE22155_02	0
+regulation of apoptotic process	GSE22155_02	1
+regulation of B cell differentiation	GSE22155_02	0
+regulation of biological process	GSE22155_02	1
+regulation of biological quality	GSE22155_02	1
+regulation of biosynthetic process	GSE22155_02	1
+regulation of blood coagulation	GSE22155_02	1
+regulation of blood pressure	GSE22155_02	1
+regulation of body fluid levels	GSE22155_02	0
+regulation of calcium ion transport	GSE22155_02	1
+regulation of calcium-mediated signaling	GSE22155_02	0
+regulation of canonical NF-kappaB signal transduction	GSE22155_02	1
+regulation of catabolic process	GSE22155_02	1
+regulation of catalytic activity	GSE22155_02	0
+regulation of cell activation	GSE22155_02	1
+regulation of cell adhesion	GSE22155_02	1
+regulation of cell adhesion mediated by integrin	GSE22155_02	0
+regulation of cell communication	GSE22155_02	1
+regulation of cell development	GSE22155_02	1
+regulation of cell differentiation	GSE22155_02	1
+regulation of cell junction assembly	GSE22155_02	1
+regulation of cell migration	GSE22155_02	1
+regulation of cell motility	GSE22155_02	1
+regulation of cell population proliferation	GSE22155_02	1
+regulation of cell-cell adhesion	GSE22155_02	1
+regulation of cell-matrix adhesion	GSE22155_02	1
+regulation of cell-substrate adhesion	GSE22155_02	1
+regulation of cell-substrate junction assembly	GSE22155_02	1
+regulation of cell-substrate junction organization	GSE22155_02	1
+regulation of cellular biosynthetic process	GSE22155_02	1
+regulation of cellular component organization	GSE22155_02	1
+regulation of cellular localization	GSE22155_02	0
+regulation of cellular metabolic process	GSE22155_02	1
+regulation of cellular process	GSE22155_02	1
+regulation of chemotaxis	GSE22155_02	1
+regulation of coagulation	GSE22155_02	1
+regulation of cytokine production	GSE22155_02	1
+regulation of cytokine-mediated signaling pathway	GSE22155_02	0
+regulation of defense response	GSE22155_02	1
+regulation of dendritic cell antigen processing and presentation	GSE22155_02	0
+regulation of developmental process	GSE22155_02	1
+regulation of DNA-binding transcription factor activity	GSE22155_02	0
+regulation of endodermal cell differentiation	GSE22155_02	0
+regulation of ERK1 and ERK2 cascade	GSE22155_02	1
+regulation of focal adhesion assembly	GSE22155_02	1
+regulation of gene expression	GSE22155_02	0
+regulation of granulocyte chemotaxis	GSE22155_02	0
+regulation of hemopoiesis	GSE22155_02	1
+regulation of hemostasis	GSE22155_02	1
+regulation of hormone secretion	GSE22155_02	0
+regulation of hydrolase activity	GSE22155_02	0
+regulation of immune effector process	GSE22155_02	0
+regulation of immune response	GSE22155_02	1
+regulation of immune system process	GSE22155_02	1
+regulation of inflammatory response	GSE22155_02	1
+regulation of innate immune response	GSE22155_02	1
+regulation of interleukin-2 production	GSE22155_02	0
+regulation of interleukin-6 production	GSE22155_02	1
+regulation of interleukin-8 production	GSE22155_02	0
+regulation of intracellular signal transduction	GSE22155_02	1
+regulation of leukocyte activation	GSE22155_02	1
+regulation of leukocyte cell-cell adhesion	GSE22155_02	1
+regulation of leukocyte chemotaxis	GSE22155_02	1
+regulation of leukocyte differentiation	GSE22155_02	1
+regulation of leukocyte mediated immunity	GSE22155_02	0
+regulation of leukocyte migration	GSE22155_02	1
+regulation of leukocyte proliferation	GSE22155_02	1
+regulation of localization	GSE22155_02	1
+regulation of locomotion	GSE22155_02	1
+regulation of lymphocyte activation	GSE22155_02	1
+regulation of lymphocyte differentiation	GSE22155_02	0
+regulation of lymphocyte proliferation	GSE22155_02	1
+regulation of macromolecule biosynthetic process	GSE22155_02	0
+regulation of macromolecule metabolic process	GSE22155_02	1
+regulation of macrophage activation	GSE22155_02	0
+regulation of MAPK cascade	GSE22155_02	1
+regulation of metabolic process	GSE22155_02	1
+regulation of molecular function	GSE22155_02	1
+regulation of monocyte chemotaxis	GSE22155_02	0
+regulation of mononuclear cell migration	GSE22155_02	1
+regulation of mononuclear cell proliferation	GSE22155_02	1
+regulation of multicellular organismal development	GSE22155_02	1
+regulation of multicellular organismal process	GSE22155_02	1
+regulation of myeloid cell differentiation	GSE22155_02	0
+regulation of neutrophil degranulation	GSE22155_02	0
+regulation of nitric oxide biosynthetic process	GSE22155_02	0
+regulation of nitric oxide metabolic process	GSE22155_02	1
+regulation of nitrogen compound metabolic process	GSE22155_02	1
+regulation of non-canonical NF-kappaB signal transduction	GSE22155_02	0
+regulation of nucleobase-containing compound metabolic process	GSE22155_02	1
+regulation of peptidyl-tyrosine phosphorylation	GSE22155_02	1
+regulation of phagocytosis	GSE22155_02	0
+regulation of phosphate metabolic process	GSE22155_02	1
+regulation of phospholipase C activity	GSE22155_02	0
+regulation of phosphorus metabolic process	GSE22155_02	1
+regulation of phosphorylation	GSE22155_02	1
+regulation of primary metabolic process	GSE22155_02	1
+regulation of programmed cell death	GSE22155_02	1
+regulation of protein catabolic process	GSE22155_02	1
+regulation of protein localization	GSE22155_02	0
+regulation of protein localization to nucleus	GSE22155_02	0
+regulation of protein metabolic process	GSE22155_02	1
+regulation of protein modification by small protein conjugation or removal	GSE22155_02	1
+regulation of protein modification process	GSE22155_02	1
+regulation of protein phosphorylation	GSE22155_02	1
+regulation of response to biotic stimulus	GSE22155_02	1
+regulation of response to cytokine stimulus	GSE22155_02	0
+regulation of response to external stimulus	GSE22155_02	1
+regulation of response to stimulus	GSE22155_02	1
+regulation of response to stress	GSE22155_02	1
+regulation of response to wounding	GSE22155_02	1
+regulation of RNA metabolic process	GSE22155_02	1
+regulation of sequestering of calcium ion	GSE22155_02	0
+regulation of signal transduction	GSE22155_02	1
+regulation of signaling	GSE22155_02	1
+regulation of smooth muscle cell migration	GSE22155_02	1
+regulation of smooth muscle cell proliferation	GSE22155_02	1
+regulation of systemic arterial blood pressure	GSE22155_02	0
+regulation of T cell activation	GSE22155_02	1
+regulation of T cell proliferation	GSE22155_02	1
+regulation of tissue remodeling	GSE22155_02	0
+regulation of transport	GSE22155_02	1
+regulation of tumor necrosis factor production	GSE22155_02	1
+regulation of tumor necrosis factor superfamily cytokine production	GSE22155_02	1
+regulation of vasculature development	GSE22155_02	1
+regulation of wound healing	GSE22155_02	1
+release of sequestered calcium ion into cytosol	GSE22155_02	0
+response to bacterium	GSE22155_02	1
+response to biotic stimulus	GSE22155_02	1
+response to chemical	GSE22155_02	1
+response to chemokine	GSE22155_02	0
+response to cytokine	GSE22155_02	1
+response to decreased oxygen levels	GSE22155_02	1
+response to endogenous stimulus	GSE22155_02	1
+response to external biotic stimulus	GSE22155_02	1
+response to external stimulus	GSE22155_02	1
+response to growth factor	GSE22155_02	1
+response to hypoxia	GSE22155_02	1
+response to lipid	GSE22155_02	1
+response to lipopolysaccharide	GSE22155_02	1
+response to molecule of bacterial origin	GSE22155_02	1
+response to organic substance	GSE22155_02	1
+response to organonitrogen compound	GSE22155_02	1
+response to other organism	GSE22155_02	1
+response to oxygen levels	GSE22155_02	1
+response to oxygen-containing compound	GSE22155_02	1
+response to peptide	GSE22155_02	1
+response to reactive oxygen species	GSE22155_02	1
+response to stimulus	GSE22155_02	1
+response to stress	GSE22155_02	1
+response to tumor necrosis factor	GSE22155_02	1
+response to type II interferon	GSE22155_02	1
+response to wounding	GSE22155_02	1
+ribosomal subunit	GSE22155_02	1
+SARS CoV 2 innate immunity evasion and cell specific immune response	GSE22155_02	0
+secretion	GSE22155_02	0
+secretion by cell	GSE22155_02	0
+secretory granule	GSE22155_02	1
+secretory granule membrane	GSE22155_02	0
+secretory vesicle	GSE22155_02	1
+Selenoamino acid metabolism	GSE22155_02	1
+Selenocysteine synthesis	GSE22155_02	1
+sequestering of calcium ion	GSE22155_02	0
+serine-type endopeptidase activity	GSE22155_02	0
+Severe infection	GSE22155_02	0
+Severe viral infection	GSE22155_02	0
+side of membrane	GSE22155_02	1
+signal release	GSE22155_02	0
+signal transduction	GSE22155_02	1
+Signal Transduction	GSE22155_02	0
+signaling	GSE22155_02	1
+Signaling by GPCR	GSE22155_02	0
+Signaling by Interleukins	GSE22155_02	1
+Signaling by PDGF	GSE22155_02	0
+signaling receptor activator activity	GSE22155_02	0
+signaling receptor activity	GSE22155_02	0
+signaling receptor binding	GSE22155_02	1
+signaling receptor regulator activity	GSE22155_02	0
+Sinusitis	GSE22155_02	0
+skin 1; extracellular matrix[≥Low]	GSE22155_02	1
+skin 1; extracellular matrix[High]	GSE22155_02	1
+Skin rash	GSE22155_02	0
+smooth muscle cell migration	GSE22155_02	1
+smooth muscle cell proliferation	GSE22155_02	1
+specific granule membrane	GSE22155_02	0
+Spinal cord injury	GSE22155_02	1
+spleen	GSE22155_02	1
+spleen; cells in red pulp[≥Low]	GSE22155_02	0
+spleen; cells in red pulp[≥Medium]	GSE22155_02	0
+spleen; cells in red pulp[High]	GSE22155_02	0
+stem cell fate commitment	GSE22155_02	0
+stress fiber	GSE22155_02	0
+sulfur compound binding	GSE22155_02	1
+supramolecular fiber organization	GSE22155_02	1
+synapse	GSE22155_02	1
+system development	GSE22155_02	1
+T cell activation	GSE22155_02	1
+T cell activation involved in immune response	GSE22155_02	0
+T cell activation SARS CoV 2	GSE22155_02	0
+T cell costimulation	GSE22155_02	0
+T cell differentiation	GSE22155_02	0
+T cell mediated immunity	GSE22155_02	0
+T cell migration	GSE22155_02	1
+T cell proliferation	GSE22155_02	1
+T cell receptor binding	GSE22155_02	0
+T cell receptor signaling pathway	GSE22155_02	0
+T cell selection	GSE22155_02	0
+T lymphocytopenia	GSE22155_02	0
+TAP binding	GSE22155_02	0
+taxis	GSE22155_02	1
+tertiary granule	GSE22155_02	0
+tertiary granule membrane	GSE22155_02	0
+Thrombocytopenia	GSE22155_02	0
+tissue development	GSE22155_02	1
+tissue migration	GSE22155_02	1
+tissue remodeling	GSE22155_02	0
+tonsil	GSE22155_02	0
+tonsil; germinal center cells[≥Low]	GSE22155_02	0
+tonsil; germinal center cells[≥Medium]	GSE22155_02	0
+tonsil; non-germinal center cells[≥Low]	GSE22155_02	1
+tonsil; non-germinal center cells[≥Medium]	GSE22155_02	1
+tonsil; non-germinal center cells[High]	GSE22155_02	0
+Translocation of ZAP-70 to Immunological synapse	GSE22155_02	0
+transmembrane receptor protein tyrosine kinase signaling pathway	GSE22155_02	0
+transport	GSE22155_02	1
+tube development	GSE22155_02	1
+tube morphogenesis	GSE22155_02	1
+tumor necrosis factor production	GSE22155_02	1
+tumor necrosis factor superfamily cytokine production	GSE22155_02	1
+Type II interferon signaling	GSE22155_02	1
+type II interferon-mediated signaling pathway	GSE22155_02	0
+Unusual CNS infection	GSE22155_02	0
+Unusual infection	GSE22155_02	0
+Unusual infection by anatomical site	GSE22155_02	0
+vacuole	GSE22155_02	0
+vascular process in circulatory system	GSE22155_02	0
+vasculature development	GSE22155_02	1
+Vasculitis	GSE22155_02	0
+Vasculitis by anatomical site	GSE22155_02	0
+vesicle	GSE22155_02	1
+vesicle membrane	GSE22155_02	1
+vesicle-mediated transport	GSE22155_02	1
+Viral mRNA Translation	GSE22155_02	1
+wound healing	GSE22155_02	1
+Abnormal B cell count	GSE22155_47	1
+Abnormal B cell morphology	GSE22155_47	1
+Abnormal bone marrow cell morphology	GSE22155_47	0
+Abnormal cellular immune system morphology	GSE22155_47	1
+Abnormal circulating C-reactive protein concentration	GSE22155_47	1
+Abnormal erythrocyte morphology	GSE22155_47	0
+Abnormal granulocyte count	GSE22155_47	0
+Abnormal granulocyte morphology	GSE22155_47	1
+Abnormal immune system morphology	GSE22155_47	1
+Abnormal immunoglobulin level	GSE22155_47	1
+Abnormal inflammatory response	GSE22155_47	1
+Abnormal large intestine morphology	GSE22155_47	1
+Abnormal leukocyte count	GSE22155_47	1
+Abnormal leukocyte morphology	GSE22155_47	1
+Abnormal leukocyte physiology	GSE22155_47	1
+Abnormal lymph node morphology	GSE22155_47	1
+Abnormal lymphocyte count	GSE22155_47	1
+Abnormal lymphocyte morphology	GSE22155_47	1
+Abnormal lymphocyte physiology	GSE22155_47	1
+Abnormal myeloid leukocyte morphology	GSE22155_47	1
+Abnormal natural killer cell physiology	GSE22155_47	1
+Abnormal neutrophil count	GSE22155_47	0
+Abnormal paranasal sinus morphology	GSE22155_47	1
+Abnormal platelet count	GSE22155_47	1
+Abnormal platelet morphology	GSE22155_47	1
+Abnormal rectum morphology	GSE22155_47	0
+Abnormal respiratory system morphology	GSE22155_47	1
+Abnormal T cell count	GSE22155_47	1
+Abnormal T cell morphology	GSE22155_47	1
+Abnormal T cell subset distribution	GSE22155_47	1
+Abnormality of B cell physiology	GSE22155_47	1
+Abnormality of blood and blood-forming tissues	GSE22155_47	1
+Abnormality of humoral immunity	GSE22155_47	1
+Abnormality of immune system physiology	GSE22155_47	1
+Abnormality of multiple cell lineages in the bone marrow	GSE22155_47	0
+Abnormality of neutrophils	GSE22155_47	0
+Abnormality of the immune system	GSE22155_47	0
+Abnormality of the knee	GSE22155_47	0
+Abnormality of thrombocytes	GSE22155_47	1
+actin binding	GSE22155_47	1
+actin cytoskeleton organization	GSE22155_47	1
+actin filament	GSE22155_47	1
+actin filament bundle	GSE22155_47	0
+actin filament organization	GSE22155_47	1
+actin filament polymerization	GSE22155_47	1
+actin filament-based process	GSE22155_47	1
+actin polymerization or depolymerization	GSE22155_47	1
+activation of immune response	GSE22155_47	1
+activation of innate immune response	GSE22155_47	0
+actomyosin	GSE22155_47	0
+Acute phase response	GSE22155_47	1
+Acute viral myocarditis	GSE22155_47	1
+adaptive immune response	GSE22155_47	1
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE22155_47	1
+Adaptive Immune System	GSE22155_47	1
+adherens junction	GSE22155_47	0
+Affected pathways in Duchenne muscular dystrophy	GSE22155_47	0
+Allograft rejection	GSE22155_47	1
+alpha-beta T cell activation	GSE22155_47	1
+alpha-beta T cell differentiation	GSE22155_47	1
+alpha-beta T cell proliferation	GSE22155_47	0
+ameboidal-type cell migration	GSE22155_47	1
+amide binding	GSE22155_47	1
+amide metabolic process	GSE22155_47	0
+amyloid-beta binding	GSE22155_47	1
+anatomical structure development	GSE22155_47	1
+anatomical structure formation involved in morphogenesis	GSE22155_47	1
+anatomical structure morphogenesis	GSE22155_47	1
+anchoring junction	GSE22155_47	1
+Anemia	GSE22155_47	1
+angiogenesis	GSE22155_47	1
+animal organ development	GSE22155_47	1
+animal organ morphogenesis	GSE22155_47	0
+Anorectal anomaly	GSE22155_47	0
+antigen processing and presentation	GSE22155_47	1
+antigen processing and presentation of exogenous antigen	GSE22155_47	1
+antigen processing and presentation of exogenous peptide antigen	GSE22155_47	1
+antigen processing and presentation of exogenous peptide antigen via MHC class II	GSE22155_47	1
+antigen processing and presentation of peptide antigen	GSE22155_47	1
+antigen processing and presentation of peptide antigen via MHC class II	GSE22155_47	1
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	GSE22155_47	1
+antigen receptor-mediated signaling pathway	GSE22155_47	1
+apoptotic process	GSE22155_47	1
+appendix; germinal center cells[≥Medium]	GSE22155_47	1
+appendix; non-germinal center cells[≥Low]	GSE22155_47	1
+appendix; non-germinal center cells[≥Medium]	GSE22155_47	1
+aromatic compound catabolic process	GSE22155_47	0
+Arthralgia	GSE22155_47	1
+Assembly of collagen fibrils and other multimeric structures	GSE22155_47	1
+Autoimmunity	GSE22155_47	1
+axon development	GSE22155_47	0
+axon guidance	GSE22155_47	0
+Axon guidance	GSE22155_47	1
+B cell activation	GSE22155_47	1
+B cell differentiation	GSE22155_47	1
+B cell receptor signaling pathway	GSE22155_47	2
+B lymphocytopenia	GSE22155_47	0
+basement membrane	GSE22155_47	0
+binding	GSE22155_47	1
+biological process involved in interspecies interaction between organisms	GSE22155_47	1
+biological regulation	GSE22155_47	1
+blood circulation	GSE22155_47	0
+blood coagulation	GSE22155_47	1
+blood vessel development	GSE22155_47	1
+blood vessel morphogenesis	GSE22155_47	1
+bone marrow	GSE22155_47	1
+bone marrow; hematopoietic cells[≥Low]	GSE22155_47	1
+bone marrow; hematopoietic cells[≥Medium]	GSE22155_47	1
+bounding membrane of organelle	GSE22155_47	1
+calcium ion binding	GSE22155_47	0
+calcium ion homeostasis	GSE22155_47	1
+calcium ion transmembrane import into cytosol	GSE22155_47	0
+calcium ion transport	GSE22155_47	1
+canonical NF-kappaB signal transduction	GSE22155_47	1
+carbohydrate derivative binding	GSE22155_47	1
+catabolic process	GSE22155_47	0
+cell activation	GSE22155_47	1
+cell activation involved in immune response	GSE22155_47	1
+cell adhesion	GSE22155_47	1
+cell adhesion molecule binding	GSE22155_47	1
+cell chemotaxis	GSE22155_47	1
+cell communication	GSE22155_47	1
+cell death	GSE22155_47	1
+cell development	GSE22155_47	1
+cell differentiation	GSE22155_47	1
+cell junction	GSE22155_47	1
+cell junction assembly	GSE22155_47	1
+cell junction organization	GSE22155_47	1
+cell killing	GSE22155_47	1
+cell migration	GSE22155_47	1
+cell morphogenesis	GSE22155_47	1
+cell motility	GSE22155_47	1
+cell periphery	GSE22155_47	1
+cell population proliferation	GSE22155_47	1
+cell surface	GSE22155_47	1
+cell surface receptor signaling pathway	GSE22155_47	1
+cell-cell adhesion	GSE22155_47	1
+cell-cell junction	GSE22155_47	1
+cell-cell signaling	GSE22155_47	1
+cell-matrix adhesion	GSE22155_47	1
+cell-substrate adhesion	GSE22155_47	1
+cell-substrate junction	GSE22155_47	1
+cell-substrate junction assembly	GSE22155_47	0
+cell-substrate junction organization	GSE22155_47	1
+cellular anatomical entity	GSE22155_47	1
+cellular anatomical entity morphogenesis	GSE22155_47	0
+cellular developmental process	GSE22155_47	1
+cellular localization	GSE22155_47	1
+cellular nitrogen compound biosynthetic process	GSE22155_47	1
+cellular nitrogen compound catabolic process	GSE22155_47	0
+cellular response to biotic stimulus	GSE22155_47	1
+cellular response to chemical stimulus	GSE22155_47	1
+cellular response to chemical stress	GSE22155_47	1
+cellular response to chemokine	GSE22155_47	1
+cellular response to cytokine stimulus	GSE22155_47	1
+cellular response to endogenous stimulus	GSE22155_47	0
+cellular response to growth factor stimulus	GSE22155_47	0
+cellular response to lipid	GSE22155_47	1
+cellular response to lipopolysaccharide	GSE22155_47	1
+cellular response to molecule of bacterial origin	GSE22155_47	1
+cellular response to organic substance	GSE22155_47	1
+cellular response to oxygen-containing compound	GSE22155_47	1
+cellular response to reactive oxygen species	GSE22155_47	1
+cellular response to stimulus	GSE22155_47	1
+cellular response to type II interferon	GSE22155_47	1
+chemokine activity	GSE22155_47	0
+Chemokine signaling pathway	GSE22155_47	1
+chemokine-mediated signaling pathway	GSE22155_47	1
+chemotaxis	GSE22155_47	1
+Cigarette-paper scars	GSE22155_47	1
+circulatory system development	GSE22155_47	1
+circulatory system process	GSE22155_47	1
+Class A/1 (Rhodopsin-like receptors)	GSE22155_47	0
+clathrin-coated endocytic vesicle membrane	GSE22155_47	1
+coagulation	GSE22155_47	1
+Colitis	GSE22155_47	1
+Collagen biosynthesis and modifying enzymes	GSE22155_47	0
+Collagen chain trimerization	GSE22155_47	0
+Collagen formation	GSE22155_47	1
+collagen trimer	GSE22155_47	1
+collagen-containing extracellular matrix	GSE22155_47	1
+colon; mucosal lymphoid cells[≥Low]	GSE22155_47	1
+colon; mucosal lymphoid cells[≥Medium]	GSE22155_47	1
+complex of collagen trimers	GSE22155_47	0
+contractile actin filament bundle	GSE22155_47	0
+convergent extension involved in axis elongation	GSE22155_47	0
+CXCR chemokine receptor binding	GSE22155_47	0
+cytokine activity	GSE22155_47	1
+cytokine production	GSE22155_47	1
+cytokine receptor binding	GSE22155_47	1
+Cytokine Signaling in Immune system	GSE22155_47	1
+cytokine-mediated signaling pathway	GSE22155_47	1
+Cytokines and inflammatory response	GSE22155_47	1
+cytoplasm	GSE22155_47	1
+cytoplasmic translation	GSE22155_47	1
+cytoplasmic vesicle	GSE22155_47	1
+cytoplasmic vesicle membrane	GSE22155_47	1
+cytosol	GSE22155_47	1
+cytosolic large ribosomal subunit	GSE22155_47	1
+cytosolic ribosome	GSE22155_47	1
+Decreased circulating antibody level	GSE22155_47	1
+defense response	GSE22155_47	1
+defense response to other organism	GSE22155_47	1
+defense response to symbiont	GSE22155_47	1
+Degradation of the extracellular matrix	GSE22155_47	0
+dendritic cell antigen processing and presentation	GSE22155_47	0
+developmental process	GSE22155_47	1
+Disease	GSE22155_47	1
+disruption of anatomical structure in another organism	GSE22155_47	0
+disruption of cell in another organism	GSE22155_47	0
+Ebola virus infection in host	GSE22155_47	1
+Elevated circulating C-reactive protein concentration	GSE22155_47	1
+endocytic vesicle	GSE22155_47	1
+endocytic vesicle membrane	GSE22155_47	1
+endocytosis	GSE22155_47	1
+endoderm development	GSE22155_47	1
+endoderm formation	GSE22155_47	1
+endodermal cell differentiation	GSE22155_47	1
+endomembrane system	GSE22155_47	1
+endoplasmic reticulum	GSE22155_47	1
+endoplasmic reticulum lumen	GSE22155_47	1
+endosome	GSE22155_47	1
+endothelial cell migration	GSE22155_47	1
+enzyme-linked receptor protein signaling pathway	GSE22155_47	1
+ephrin receptor binding	GSE22155_47	1
+epithelial cell migration	GSE22155_47	1
+epithelium development	GSE22155_47	0
+epithelium migration	GSE22155_47	1
+ERK1 and ERK2 cascade	GSE22155_47	1
+establishment of localization	GSE22155_47	1
+Eukaryotic Translation Elongation	GSE22155_47	1
+Eukaryotic Translation Termination	GSE22155_47	0
+export from cell	GSE22155_47	0
+external encapsulating structure	GSE22155_47	1
+external encapsulating structure organization	GSE22155_47	1
+external side of plasma membrane	GSE22155_47	1
+extracellular exosome	GSE22155_47	1
+extracellular matrix	GSE22155_47	1
+extracellular matrix binding	GSE22155_47	1
+extracellular matrix disassembly	GSE22155_47	0
+extracellular matrix organization	GSE22155_47	1
+Extracellular matrix organization	GSE22155_47	1
+extracellular matrix structural constituent	GSE22155_47	1
+extracellular matrix structural constituent conferring tensile strength	GSE22155_47	1
+extracellular membrane-bounded organelle	GSE22155_47	1
+extracellular organelle	GSE22155_47	1
+extracellular region	GSE22155_47	1
+extracellular space	GSE22155_47	1
+extracellular structure organization	GSE22155_47	1
+extracellular vesicle	GSE22155_47	1
+Extrafollicular and follicular B cell activation by SARS CoV 2	GSE22155_47	1
+extrinsic apoptotic signaling pathway	GSE22155_47	0
+fat cell differentiation	GSE22155_47	0
+fatty acid transport	GSE22155_47	0
+Fc receptor mediated stimulatory signaling pathway	GSE22155_47	1
+Fc receptor signaling pathway	GSE22155_47	1
+Fc-gamma receptor signaling pathway	GSE22155_47	1
+Fc-gamma receptor signaling pathway involved in phagocytosis	GSE22155_47	1
+Fever	GSE22155_47	1
+ficolin-1-rich granule membrane	GSE22155_47	1
+focal adhesion	GSE22155_47	1
+Focal adhesion	GSE22155_47	1
+focal adhesion assembly	GSE22155_47	0
+Focal adhesion PI3K Akt mTOR signaling pathway	GSE22155_47	1
+G protein-coupled receptor binding	GSE22155_47	1
+Generation of second messenger molecules	GSE22155_47	1
+glycosaminoglycan binding	GSE22155_47	1
+GPCR downstream signalling	GSE22155_47	0
+GPCR ligand binding	GSE22155_47	0
+granulocyte activation	GSE22155_47	1
+granulocyte chemotaxis	GSE22155_47	1
+granulocyte migration	GSE22155_47	1
+growth factor binding	GSE22155_47	1
+growth factor receptor binding	GSE22155_47	1
+heart development	GSE22155_47	1
+heart morphogenesis	GSE22155_47	0
+Hematological neoplasm	GSE22155_47	1
+hemopoiesis	GSE22155_47	1
+hemostasis	GSE22155_47	1
+heparin binding	GSE22155_47	1
+heterocycle catabolic process	GSE22155_47	0
+Hippo signaling regulation pathways	GSE22155_47	1
+homeostasis of number of cells	GSE22155_47	1
+homeostatic process	GSE22155_47	1
+hsa-miR-124-3p	GSE22155_47	1
+humoral immune response	GSE22155_47	1
+icosanoid secretion	GSE22155_47	0
+icosanoid transport	GSE22155_47	0
+identical protein binding	GSE22155_47	1
+IL 3 signaling pathway	GSE22155_47	1
+immune effector process	GSE22155_47	1
+immune receptor activity	GSE22155_47	1
+immune response	GSE22155_47	1
+immune response-activating cell surface receptor signaling pathway	GSE22155_47	1
+immune response-activating signaling pathway	GSE22155_47	1
+immune response-regulating cell surface receptor signaling pathway	GSE22155_47	1
+immune response-regulating cell surface receptor signaling pathway involved in phagocytosis	GSE22155_47	1
+immune response-regulating signaling pathway	GSE22155_47	1
+Immune System	GSE22155_47	1
+immune system process	GSE22155_47	1
+Immunodeficiency	GSE22155_47	1
+immunological synapse	GSE22155_47	1
+import into cell	GSE22155_47	1
+Increased inflammatory response	GSE22155_47	1
+inflammatory response	GSE22155_47	1
+innate immune response	GSE22155_47	1
+Innate Immune System	GSE22155_47	1
+inorganic ion homeostasis	GSE22155_47	0
+integrin binding	GSE22155_47	1
+integrin-mediated signaling pathway	GSE22155_47	1
+Interferon alpha/beta signaling	GSE22155_47	0
+Interferon gamma signaling	GSE22155_47	0
+Interferon Signaling	GSE22155_47	0
+Interleukin-10 signaling	GSE22155_47	1
+interleukin-2 production	GSE22155_47	1
+interleukin-6 production	GSE22155_47	1
+interleukin-8 production	GSE22155_47	1
+intracellular calcium ion homeostasis	GSE22155_47	1
+intracellular chemical homeostasis	GSE22155_47	0
+intracellular monoatomic cation homeostasis	GSE22155_47	0
+intracellular monoatomic ion homeostasis	GSE22155_47	0
+intracellular organelle lumen	GSE22155_47	0
+intracellular signal transduction	GSE22155_47	1
+intracellular signaling cassette	GSE22155_47	1
+intracellular vesicle	GSE22155_47	1
+killing of cells of another organism	GSE22155_47	0
+leukocyte activation	GSE22155_47	1
+leukocyte activation involved in immune response	GSE22155_47	1
+leukocyte cell-cell adhesion	GSE22155_47	1
+leukocyte chemotaxis	GSE22155_47	1
+leukocyte differentiation	GSE22155_47	1
+leukocyte homeostasis	GSE22155_47	1
+leukocyte mediated immunity	GSE22155_47	1
+leukocyte migration	GSE22155_47	1
+leukocyte proliferation	GSE22155_47	1
+lipid export from cell	GSE22155_47	0
+lipid localization	GSE22155_47	0
+lipid transport	GSE22155_47	0
+localization	GSE22155_47	1
+locomotion	GSE22155_47	1
+lumenal side of endoplasmic reticulum membrane	GSE22155_47	1
+lumenal side of membrane	GSE22155_47	0
+lymph node	GSE22155_47	1
+lymph node; germinal center cells[≥Low]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Low]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Medium]	GSE22155_47	1
+lymph node; non-germinal center cells[High]	GSE22155_47	1
+Lymphadenopathy	GSE22155_47	0
+lymphocyte activation	GSE22155_47	1
+lymphocyte activation involved in immune response	GSE22155_47	1
+lymphocyte costimulation	GSE22155_47	1
+lymphocyte differentiation	GSE22155_47	1
+lymphocyte mediated immunity	GSE22155_47	1
+lymphocyte proliferation	GSE22155_47	1
+Lymphoma	GSE22155_47	1
+Lymphopenia	GSE22155_47	1
+lysosome	GSE22155_47	1
+lytic vacuole	GSE22155_47	1
+macromolecule catabolic process	GSE22155_47	1
+macromolecule localization	GSE22155_47	0
+macromolecule modification	GSE22155_47	1
+macrophage activation	GSE22155_47	1
+maintenance of location	GSE22155_47	1
+maintenance of location in cell	GSE22155_47	0
+MAPK cascade	GSE22155_47	1
+membrane	GSE22155_47	1
+membrane microdomain	GSE22155_47	1
+membrane raft	GSE22155_47	1
+membrane-enclosed lumen	GSE22155_47	0
+Meningitis	GSE22155_47	1
+MHC class II protein complex	GSE22155_47	1
+MHC class II protein complex assembly	GSE22155_47	1
+MHC class II protein complex binding	GSE22155_47	1
+MHC class II receptor activity	GSE22155_47	1
+MHC protein binding	GSE22155_47	1
+MHC protein complex	GSE22155_47	1
+MHC protein complex assembly	GSE22155_47	1
+MHC protein complex binding	GSE22155_47	1
+Microglia pathogen phagocytosis pathway	GSE22155_47	1
+molecular function regulator activity	GSE22155_47	1
+molecular transducer activity	GSE22155_47	1
+monoatomic cation homeostasis	GSE22155_47	0
+monoatomic ion homeostasis	GSE22155_47	0
+monocarboxylic acid transport	GSE22155_47	0
+monocyte chemotaxis	GSE22155_47	1
+mononuclear cell differentiation	GSE22155_47	1
+mononuclear cell migration	GSE22155_47	1
+mononuclear cell proliferation	GSE22155_47	1
+multicellular organism development	GSE22155_47	1
+multicellular organismal process	GSE22155_47	1
+multicellular organismal-level homeostasis	GSE22155_47	1
+muscle cell migration	GSE22155_47	1
+muscle cell proliferation	GSE22155_47	1
+myeloid cell differentiation	GSE22155_47	1
+myeloid leukocyte activation	GSE22155_47	1
+myeloid leukocyte differentiation	GSE22155_47	1
+myeloid leukocyte migration	GSE22155_47	1
+negative regulation of antigen processing and presentation	GSE22155_47	0
+negative regulation of apoptotic process	GSE22155_47	0
+negative regulation of biological process	GSE22155_47	1
+negative regulation of blood coagulation	GSE22155_47	1
+negative regulation of catabolic process	GSE22155_47	1
+negative regulation of cell activation	GSE22155_47	1
+negative regulation of cell adhesion	GSE22155_47	1
+negative regulation of cell communication	GSE22155_47	1
+negative regulation of cell population proliferation	GSE22155_47	1
+negative regulation of cellular process	GSE22155_47	1
+negative regulation of coagulation	GSE22155_47	0
+negative regulation of defense response	GSE22155_47	1
+negative regulation of developmental process	GSE22155_47	0
+negative regulation of hemostasis	GSE22155_47	1
+negative regulation of hormone secretion	GSE22155_47	0
+negative regulation of immune effector process	GSE22155_47	0
+negative regulation of immune response	GSE22155_47	1
+negative regulation of immune system process	GSE22155_47	1
+negative regulation of inflammatory response	GSE22155_47	1
+negative regulation of innate immune response	GSE22155_47	0
+negative regulation of leukocyte mediated immunity	GSE22155_47	0
+negative regulation of lymphocyte mediated immunity	GSE22155_47	0
+negative regulation of molecular function	GSE22155_47	1
+negative regulation of multicellular organismal process	GSE22155_47	1
+negative regulation of nitrogen compound metabolic process	GSE22155_47	1
+negative regulation of programmed cell death	GSE22155_47	0
+negative regulation of protein maturation	GSE22155_47	0
+negative regulation of protein metabolic process	GSE22155_47	1
+negative regulation of protein processing	GSE22155_47	0
+negative regulation of response to biotic stimulus	GSE22155_47	0
+negative regulation of response to external stimulus	GSE22155_47	1
+negative regulation of response to stimulus	GSE22155_47	1
+negative regulation of response to wounding	GSE22155_47	1
+negative regulation of sequestering of calcium ion	GSE22155_47	1
+negative regulation of signal transduction	GSE22155_47	1
+negative regulation of signaling	GSE22155_47	1
+negative regulation of wound healing	GSE22155_47	1
+negative T cell selection	GSE22155_47	1
+nervous system development	GSE22155_47	0
+Nervous system development	GSE22155_47	1
+Network map of SARS CoV 2 signaling pathway	GSE22155_47	1
+neuron projection guidance	GSE22155_47	0
+neuropeptide receptor binding	GSE22155_47	0
+Neutropenia	GSE22155_47	0
+neutrophil activation	GSE22155_47	1
+neutrophil activation involved in immune response	GSE22155_47	1
+neutrophil chemotaxis	GSE22155_47	1
+Neutrophil degranulation	GSE22155_47	1
+neutrophil migration	GSE22155_47	1
+nitric oxide biosynthetic process	GSE22155_47	1
+nitric oxide metabolic process	GSE22155_47	1
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE22155_47	0
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE22155_47	1
+Nonsense-Mediated Decay (NMD)	GSE22155_47	0
+nucleobase-containing compound catabolic process	GSE22155_47	1
+nucleoplasm	GSE22155_47	0
+organelle lumen	GSE22155_47	0
+organelle membrane	GSE22155_47	1
+organic substance catabolic process	GSE22155_47	0
+organonitrogen compound metabolic process	GSE22155_47	1
+ossification	GSE22155_47	0
+Overview of proinflammatory and profibrotic mediators	GSE22155_47	0
+Pancytopenia	GSE22155_47	0
+Pathogenesis of SARS CoV 2 mediated by nsp9 nsp10 complex	GSE22155_47	1
+PD-1 signaling	GSE22155_47	1
+peptide antigen assembly with MHC class II protein complex	GSE22155_47	1
+peptide antigen assembly with MHC protein complex	GSE22155_47	1
+peptide antigen binding	GSE22155_47	1
+peptide binding	GSE22155_47	1
+Peptide chain elongation	GSE22155_47	1
+Peptide ligand-binding receptors	GSE22155_47	0
+peptide metabolic process	GSE22155_47	0
+peptidyl-amino acid modification	GSE22155_47	1
+peptidyl-tyrosine modification	GSE22155_47	1
+peptidyl-tyrosine phosphorylation	GSE22155_47	1
+phagocytic vesicle	GSE22155_47	1
+phagocytic vesicle membrane	GSE22155_47	0
+phagocytosis	GSE22155_47	1
+phosphate-containing compound metabolic process	GSE22155_47	1
+phosphorus metabolic process	GSE22155_47	1
+phosphorylation	GSE22155_47	1
+Phosphorylation of CD3 and TCR zeta chains	GSE22155_47	1
+Photodynamic therapy induced NF kB survival signaling	GSE22155_47	0
+plasma membrane	GSE22155_47	1
+plasma membrane protein complex	GSE22155_47	1
+plasma membrane region	GSE22155_47	1
+Pleural mesothelioma	GSE22155_47	1
+positive regulation of actin filament bundle assembly	GSE22155_47	1
+positive regulation of adaptive immune response	GSE22155_47	0
+positive regulation of alpha-beta T cell activation	GSE22155_47	1
+positive regulation of angiogenesis	GSE22155_47	1
+positive regulation of biological process	GSE22155_47	1
+positive regulation of biosynthetic process	GSE22155_47	1
+positive regulation of canonical NF-kappaB signal transduction	GSE22155_47	1
+positive regulation of catabolic process	GSE22155_47	1
+positive regulation of cell activation	GSE22155_47	1
+positive regulation of cell adhesion	GSE22155_47	1
+positive regulation of cell adhesion mediated by integrin	GSE22155_47	1
+positive regulation of cell communication	GSE22155_47	1
+positive regulation of cell development	GSE22155_47	1
+positive regulation of cell differentiation	GSE22155_47	1
+positive regulation of cell migration	GSE22155_47	1
+positive regulation of cell motility	GSE22155_47	1
+positive regulation of cell population proliferation	GSE22155_47	1
+positive regulation of cell-cell adhesion	GSE22155_47	1
+positive regulation of cell-matrix adhesion	GSE22155_47	1
+positive regulation of cellular biosynthetic process	GSE22155_47	1
+positive regulation of cellular component organization	GSE22155_47	1
+positive regulation of cellular metabolic process	GSE22155_47	1
+positive regulation of cellular process	GSE22155_47	1
+positive regulation of chemotaxis	GSE22155_47	1
+positive regulation of cytokine production	GSE22155_47	1
+positive regulation of defense response	GSE22155_47	1
+positive regulation of developmental process	GSE22155_47	1
+positive regulation of DNA-templated transcription	GSE22155_47	1
+positive regulation of ERK1 and ERK2 cascade	GSE22155_47	1
+positive regulation of gene expression	GSE22155_47	1
+positive regulation of hemopoiesis	GSE22155_47	1
+positive regulation of immune effector process	GSE22155_47	0
+positive regulation of immune response	GSE22155_47	1
+positive regulation of immune system process	GSE22155_47	1
+positive regulation of inflammatory response	GSE22155_47	1
+positive regulation of innate immune response	GSE22155_47	0
+positive regulation of interleukin-2 production	GSE22155_47	1
+positive regulation of interleukin-6 production	GSE22155_47	1
+positive regulation of interleukin-8 production	GSE22155_47	1
+positive regulation of intracellular signal transduction	GSE22155_47	1
+positive regulation of leukocyte activation	GSE22155_47	1
+positive regulation of leukocyte cell-cell adhesion	GSE22155_47	1
+positive regulation of leukocyte chemotaxis	GSE22155_47	1
+positive regulation of leukocyte differentiation	GSE22155_47	1
+positive regulation of leukocyte migration	GSE22155_47	1
+positive regulation of leukocyte proliferation	GSE22155_47	1
+positive regulation of locomotion	GSE22155_47	1
+positive regulation of lymphocyte activation	GSE22155_47	1
+positive regulation of lymphocyte differentiation	GSE22155_47	1
+positive regulation of lymphocyte proliferation	GSE22155_47	1
+positive regulation of macromolecule biosynthetic process	GSE22155_47	1
+positive regulation of macromolecule metabolic process	GSE22155_47	1
+positive regulation of MAPK cascade	GSE22155_47	1
+positive regulation of metabolic process	GSE22155_47	1
+positive regulation of molecular function	GSE22155_47	1
+positive regulation of mononuclear cell migration	GSE22155_47	1
+positive regulation of mononuclear cell proliferation	GSE22155_47	1
+positive regulation of multicellular organismal process	GSE22155_47	1
+positive regulation of nitric oxide biosynthetic process	GSE22155_47	1
+positive regulation of nitric oxide metabolic process	GSE22155_47	1
+positive regulation of nitrogen compound metabolic process	GSE22155_47	1
+positive regulation of non-canonical NF-kappaB signal transduction	GSE22155_47	1
+positive regulation of nucleobase-containing compound metabolic process	GSE22155_47	1
+positive regulation of peptidyl-tyrosine phosphorylation	GSE22155_47	1
+positive regulation of phagocytosis	GSE22155_47	1
+positive regulation of phosphate metabolic process	GSE22155_47	1
+positive regulation of phospholipase C activity	GSE22155_47	1
+positive regulation of phosphorus metabolic process	GSE22155_47	1
+positive regulation of phosphorylation	GSE22155_47	1
+positive regulation of programmed cell death	GSE22155_47	0
+positive regulation of protein localization	GSE22155_47	0
+positive regulation of protein metabolic process	GSE22155_47	1
+positive regulation of protein modification process	GSE22155_47	1
+positive regulation of protein phosphorylation	GSE22155_47	1
+positive regulation of response to biotic stimulus	GSE22155_47	0
+positive regulation of response to external stimulus	GSE22155_47	1
+positive regulation of response to stimulus	GSE22155_47	1
+positive regulation of RNA biosynthetic process	GSE22155_47	1
+positive regulation of RNA metabolic process	GSE22155_47	1
+positive regulation of signal transduction	GSE22155_47	1
+positive regulation of signaling	GSE22155_47	1
+positive regulation of smooth muscle cell migration	GSE22155_47	1
+positive regulation of smooth muscle cell proliferation	GSE22155_47	1
+positive regulation of stress fiber assembly	GSE22155_47	1
+positive regulation of supramolecular fiber organization	GSE22155_47	1
+positive regulation of T cell activation	GSE22155_47	1
+positive regulation of T cell proliferation	GSE22155_47	1
+positive regulation of transcription by RNA polymerase II	GSE22155_47	0
+positive regulation of type II interferon production	GSE22155_47	1
+positive regulation of vasculature development	GSE22155_47	1
+positive T cell selection	GSE22155_47	1
+positive thymic T cell selection	GSE22155_47	1
+programmed cell death	GSE22155_47	1
+prostaglandin secretion	GSE22155_47	0
+prostaglandin transport	GSE22155_47	0
+protein binding	GSE22155_47	1
+protein complex involved in cell adhesion	GSE22155_47	1
+protein homodimerization activity	GSE22155_47	0
+protein localization to nucleus	GSE22155_47	1
+protein metabolic process	GSE22155_47	1
+protein modification process	GSE22155_47	0
+protein phosphorylation	GSE22155_47	1
+protein-containing complex binding	GSE22155_47	1
+PRRX2-UCHL1 complex	GSE22155_47	0
+reactive nitrogen species metabolic process	GSE22155_47	1
+reactive oxygen species metabolic process	GSE22155_47	1
+receptor complex	GSE22155_47	1
+receptor ligand activity	GSE22155_47	1
+rectum; mucosal lymphoid cells[≥Low]	GSE22155_47	1
+rectum; mucosal lymphoid cells[≥Medium]	GSE22155_47	1
+rectum; mucosal lymphoid cells[High]	GSE22155_47	1
+Recurrent fever	GSE22155_47	0
+Recurrent infections	GSE22155_47	1
+Reduced natural killer cell activity	GSE22155_47	1
+regulation of actin cytoskeleton organization	GSE22155_47	1
+regulation of adaptive immune response	GSE22155_47	0
+regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE22155_47	1
+regulation of alpha-beta T cell activation	GSE22155_47	1
+regulation of anatomical structure morphogenesis	GSE22155_47	1
+regulation of angiogenesis	GSE22155_47	1
+regulation of animal organ morphogenesis	GSE22155_47	0
+regulation of antigen processing and presentation	GSE22155_47	1
+regulation of apoptotic process	GSE22155_47	1
+regulation of B cell differentiation	GSE22155_47	1
+regulation of biological process	GSE22155_47	1
+regulation of biological quality	GSE22155_47	1
+regulation of biosynthetic process	GSE22155_47	1
+regulation of blood coagulation	GSE22155_47	1
+regulation of blood pressure	GSE22155_47	1
+regulation of body fluid levels	GSE22155_47	0
+regulation of calcium ion transport	GSE22155_47	0
+regulation of calcium-mediated signaling	GSE22155_47	1
+regulation of canonical NF-kappaB signal transduction	GSE22155_47	1
+regulation of catabolic process	GSE22155_47	1
+regulation of catalytic activity	GSE22155_47	1
+regulation of cell activation	GSE22155_47	1
+regulation of cell adhesion	GSE22155_47	1
+regulation of cell adhesion mediated by integrin	GSE22155_47	1
+regulation of cell communication	GSE22155_47	1
+regulation of cell development	GSE22155_47	1
+regulation of cell differentiation	GSE22155_47	1
+regulation of cell junction assembly	GSE22155_47	1
+regulation of cell migration	GSE22155_47	1
+regulation of cell motility	GSE22155_47	1
+regulation of cell population proliferation	GSE22155_47	1
+regulation of cell-cell adhesion	GSE22155_47	1
+regulation of cell-matrix adhesion	GSE22155_47	1
+regulation of cell-substrate adhesion	GSE22155_47	1
+regulation of cell-substrate junction assembly	GSE22155_47	0
+regulation of cell-substrate junction organization	GSE22155_47	0
+regulation of cellular biosynthetic process	GSE22155_47	1
+regulation of cellular component organization	GSE22155_47	1
+regulation of cellular localization	GSE22155_47	0
+regulation of cellular metabolic process	GSE22155_47	1
+regulation of cellular process	GSE22155_47	1
+regulation of chemotaxis	GSE22155_47	1
+regulation of coagulation	GSE22155_47	1
+regulation of cytokine production	GSE22155_47	1
+regulation of cytokine-mediated signaling pathway	GSE22155_47	1
+regulation of defense response	GSE22155_47	1
+regulation of dendritic cell antigen processing and presentation	GSE22155_47	0
+regulation of developmental process	GSE22155_47	1
+regulation of DNA-binding transcription factor activity	GSE22155_47	1
+regulation of endodermal cell differentiation	GSE22155_47	1
+regulation of ERK1 and ERK2 cascade	GSE22155_47	1
+regulation of focal adhesion assembly	GSE22155_47	0
+regulation of gene expression	GSE22155_47	1
+regulation of granulocyte chemotaxis	GSE22155_47	1
+regulation of hemopoiesis	GSE22155_47	1
+regulation of hemostasis	GSE22155_47	1
+regulation of hormone secretion	GSE22155_47	0
+regulation of hydrolase activity	GSE22155_47	1
+regulation of immune effector process	GSE22155_47	1
+regulation of immune response	GSE22155_47	1
+regulation of immune system process	GSE22155_47	1
+regulation of inflammatory response	GSE22155_47	1
+regulation of innate immune response	GSE22155_47	1
+regulation of interleukin-2 production	GSE22155_47	1
+regulation of interleukin-6 production	GSE22155_47	1
+regulation of interleukin-8 production	GSE22155_47	1
+regulation of intracellular signal transduction	GSE22155_47	1
+regulation of leukocyte activation	GSE22155_47	1
+regulation of leukocyte cell-cell adhesion	GSE22155_47	1
+regulation of leukocyte chemotaxis	GSE22155_47	1
+regulation of leukocyte differentiation	GSE22155_47	1
+regulation of leukocyte mediated immunity	GSE22155_47	1
+regulation of leukocyte migration	GSE22155_47	1
+regulation of leukocyte proliferation	GSE22155_47	1
+regulation of localization	GSE22155_47	1
+regulation of locomotion	GSE22155_47	1
+regulation of lymphocyte activation	GSE22155_47	1
+regulation of lymphocyte differentiation	GSE22155_47	1
+regulation of lymphocyte proliferation	GSE22155_47	1
+regulation of macromolecule biosynthetic process	GSE22155_47	1
+regulation of macromolecule metabolic process	GSE22155_47	1
+regulation of macrophage activation	GSE22155_47	1
+regulation of MAPK cascade	GSE22155_47	1
+regulation of metabolic process	GSE22155_47	1
+regulation of molecular function	GSE22155_47	1
+regulation of monocyte chemotaxis	GSE22155_47	1
+regulation of mononuclear cell migration	GSE22155_47	1
+regulation of mononuclear cell proliferation	GSE22155_47	1
+regulation of multicellular organismal development	GSE22155_47	1
+regulation of multicellular organismal process	GSE22155_47	1
+regulation of myeloid cell differentiation	GSE22155_47	0
+regulation of neutrophil degranulation	GSE22155_47	1
+regulation of nitric oxide biosynthetic process	GSE22155_47	0
+regulation of nitric oxide metabolic process	GSE22155_47	1
+regulation of nitrogen compound metabolic process	GSE22155_47	1
+regulation of non-canonical NF-kappaB signal transduction	GSE22155_47	0
+regulation of nucleobase-containing compound metabolic process	GSE22155_47	1
+regulation of peptidyl-tyrosine phosphorylation	GSE22155_47	1
+regulation of phagocytosis	GSE22155_47	1
+regulation of phosphate metabolic process	GSE22155_47	1
+regulation of phospholipase C activity	GSE22155_47	1
+regulation of phosphorus metabolic process	GSE22155_47	1
+regulation of phosphorylation	GSE22155_47	1
+regulation of primary metabolic process	GSE22155_47	1
+regulation of programmed cell death	GSE22155_47	1
+regulation of protein catabolic process	GSE22155_47	0
+regulation of protein localization	GSE22155_47	0
+regulation of protein localization to nucleus	GSE22155_47	0
+regulation of protein metabolic process	GSE22155_47	1
+regulation of protein modification by small protein conjugation or removal	GSE22155_47	0
+regulation of protein modification process	GSE22155_47	1
+regulation of protein phosphorylation	GSE22155_47	1
+regulation of response to biotic stimulus	GSE22155_47	1
+regulation of response to cytokine stimulus	GSE22155_47	1
+regulation of response to external stimulus	GSE22155_47	1
+regulation of response to stimulus	GSE22155_47	1
+regulation of response to stress	GSE22155_47	1
+regulation of response to wounding	GSE22155_47	1
+regulation of RNA metabolic process	GSE22155_47	1
+regulation of sequestering of calcium ion	GSE22155_47	1
+regulation of signal transduction	GSE22155_47	1
+regulation of signaling	GSE22155_47	1
+regulation of smooth muscle cell migration	GSE22155_47	1
+regulation of smooth muscle cell proliferation	GSE22155_47	1
+regulation of systemic arterial blood pressure	GSE22155_47	0
+regulation of T cell activation	GSE22155_47	1
+regulation of T cell proliferation	GSE22155_47	1
+regulation of tissue remodeling	GSE22155_47	1
+regulation of transport	GSE22155_47	1
+regulation of tumor necrosis factor production	GSE22155_47	0
+regulation of tumor necrosis factor superfamily cytokine production	GSE22155_47	0
+regulation of vasculature development	GSE22155_47	1
+regulation of wound healing	GSE22155_47	1
+release of sequestered calcium ion into cytosol	GSE22155_47	1
+response to bacterium	GSE22155_47	1
+response to biotic stimulus	GSE22155_47	1
+response to chemical	GSE22155_47	1
+response to chemokine	GSE22155_47	1
+response to cytokine	GSE22155_47	1
+response to decreased oxygen levels	GSE22155_47	1
+response to endogenous stimulus	GSE22155_47	1
+response to external biotic stimulus	GSE22155_47	1
+response to external stimulus	GSE22155_47	1
+response to growth factor	GSE22155_47	1
+response to hypoxia	GSE22155_47	1
+response to lipid	GSE22155_47	1
+response to lipopolysaccharide	GSE22155_47	1
+response to molecule of bacterial origin	GSE22155_47	1
+response to organic substance	GSE22155_47	1
+response to organonitrogen compound	GSE22155_47	0
+response to other organism	GSE22155_47	1
+response to oxygen levels	GSE22155_47	1
+response to oxygen-containing compound	GSE22155_47	1
+response to peptide	GSE22155_47	0
+response to reactive oxygen species	GSE22155_47	1
+response to stimulus	GSE22155_47	1
+response to stress	GSE22155_47	1
+response to tumor necrosis factor	GSE22155_47	1
+response to type II interferon	GSE22155_47	1
+response to wounding	GSE22155_47	1
+ribosomal subunit	GSE22155_47	0
+SARS CoV 2 innate immunity evasion and cell specific immune response	GSE22155_47	1
+secretion	GSE22155_47	0
+secretion by cell	GSE22155_47	0
+secretory granule	GSE22155_47	1
+secretory granule membrane	GSE22155_47	1
+secretory vesicle	GSE22155_47	1
+Selenoamino acid metabolism	GSE22155_47	1
+Selenocysteine synthesis	GSE22155_47	0
+sequestering of calcium ion	GSE22155_47	0
+serine-type endopeptidase activity	GSE22155_47	0
+Severe infection	GSE22155_47	0
+Severe viral infection	GSE22155_47	0
+side of membrane	GSE22155_47	1
+signal release	GSE22155_47	0
+signal transduction	GSE22155_47	1
+Signal Transduction	GSE22155_47	1
+signaling	GSE22155_47	1
+Signaling by GPCR	GSE22155_47	0
+Signaling by Interleukins	GSE22155_47	1
+Signaling by PDGF	GSE22155_47	0
+signaling receptor activator activity	GSE22155_47	1
+signaling receptor activity	GSE22155_47	1
+signaling receptor binding	GSE22155_47	1
+signaling receptor regulator activity	GSE22155_47	1
+Sinusitis	GSE22155_47	1
+skin 1; extracellular matrix[≥Low]	GSE22155_47	1
+skin 1; extracellular matrix[High]	GSE22155_47	1
+Skin rash	GSE22155_47	1
+smooth muscle cell migration	GSE22155_47	1
+smooth muscle cell proliferation	GSE22155_47	1
+specific granule membrane	GSE22155_47	1
+Spinal cord injury	GSE22155_47	0
+spleen	GSE22155_47	1
+spleen; cells in red pulp[≥Low]	GSE22155_47	1
+spleen; cells in red pulp[≥Medium]	GSE22155_47	1
+spleen; cells in red pulp[High]	GSE22155_47	1
+stem cell fate commitment	GSE22155_47	0
+stress fiber	GSE22155_47	0
+sulfur compound binding	GSE22155_47	1
+supramolecular fiber organization	GSE22155_47	1
+synapse	GSE22155_47	0
+system development	GSE22155_47	1
+T cell activation	GSE22155_47	1
+T cell activation involved in immune response	GSE22155_47	1
+T cell activation SARS CoV 2	GSE22155_47	1
+T cell costimulation	GSE22155_47	1
+T cell differentiation	GSE22155_47	1
+T cell mediated immunity	GSE22155_47	0
+T cell migration	GSE22155_47	1
+T cell proliferation	GSE22155_47	1
+T cell receptor binding	GSE22155_47	0
+T cell receptor signaling pathway	GSE22155_47	1
+T cell selection	GSE22155_47	1
+T lymphocytopenia	GSE22155_47	1
+TAP binding	GSE22155_47	0
+taxis	GSE22155_47	1
+tertiary granule	GSE22155_47	1
+tertiary granule membrane	GSE22155_47	1
+Thrombocytopenia	GSE22155_47	0
+tissue development	GSE22155_47	1
+tissue migration	GSE22155_47	1
+tissue remodeling	GSE22155_47	0
+tonsil	GSE22155_47	1
+tonsil; germinal center cells[≥Low]	GSE22155_47	1
+tonsil; germinal center cells[≥Medium]	GSE22155_47	1
+tonsil; non-germinal center cells[≥Low]	GSE22155_47	1
+tonsil; non-germinal center cells[≥Medium]	GSE22155_47	1
+tonsil; non-germinal center cells[High]	GSE22155_47	1
+Translocation of ZAP-70 to Immunological synapse	GSE22155_47	1
+transmembrane receptor protein tyrosine kinase signaling pathway	GSE22155_47	0
+transport	GSE22155_47	1
+tube development	GSE22155_47	1
+tube morphogenesis	GSE22155_47	1
+tumor necrosis factor production	GSE22155_47	0
+tumor necrosis factor superfamily cytokine production	GSE22155_47	0
+Type II interferon signaling	GSE22155_47	1
+type II interferon-mediated signaling pathway	GSE22155_47	0
+Unusual CNS infection	GSE22155_47	1
+Unusual infection	GSE22155_47	1
+Unusual infection by anatomical site	GSE22155_47	1
+vacuole	GSE22155_47	1
+vascular process in circulatory system	GSE22155_47	0
+vasculature development	GSE22155_47	1
+Vasculitis	GSE22155_47	1
+Vasculitis by anatomical site	GSE22155_47	1
+vesicle	GSE22155_47	1
+vesicle membrane	GSE22155_47	1
+vesicle-mediated transport	GSE22155_47	1
+Viral mRNA Translation	GSE22155_47	1
+wound healing	GSE22155_47	1
+Abnormal B cell count	GSE35640	0
+Abnormal B cell morphology	GSE35640	0
+Abnormal bone marrow cell morphology	GSE35640	0
+Abnormal cellular immune system morphology	GSE35640	0
+Abnormal circulating C-reactive protein concentration	GSE35640	0
+Abnormal erythrocyte morphology	GSE35640	0
+Abnormal granulocyte count	GSE35640	0
+Abnormal granulocyte morphology	GSE35640	0
+Abnormal immune system morphology	GSE35640	0
+Abnormal immunoglobulin level	GSE35640	0
+Abnormal inflammatory response	GSE35640	0
+Abnormal large intestine morphology	GSE35640	0
+Abnormal leukocyte count	GSE35640	0
+Abnormal leukocyte morphology	GSE35640	0
+Abnormal leukocyte physiology	GSE35640	0
+Abnormal lymph node morphology	GSE35640	0
+Abnormal lymphocyte count	GSE35640	0
+Abnormal lymphocyte morphology	GSE35640	0
+Abnormal lymphocyte physiology	GSE35640	0
+Abnormal myeloid leukocyte morphology	GSE35640	0
+Abnormal natural killer cell physiology	GSE35640	0
+Abnormal neutrophil count	GSE35640	0
+Abnormal paranasal sinus morphology	GSE35640	0
+Abnormal platelet count	GSE35640	0
+Abnormal platelet morphology	GSE35640	0
+Abnormal rectum morphology	GSE35640	0
+Abnormal respiratory system morphology	GSE35640	0
+Abnormal T cell count	GSE35640	0
+Abnormal T cell morphology	GSE35640	0
+Abnormal T cell subset distribution	GSE35640	0
+Abnormality of B cell physiology	GSE35640	0
+Abnormality of blood and blood-forming tissues	GSE35640	0
+Abnormality of humoral immunity	GSE35640	0
+Abnormality of immune system physiology	GSE35640	0
+Abnormality of multiple cell lineages in the bone marrow	GSE35640	0
+Abnormality of neutrophils	GSE35640	0
+Abnormality of the immune system	GSE35640	0
+Abnormality of the knee	GSE35640	0
+Abnormality of thrombocytes	GSE35640	0
+actin binding	GSE35640	0
+actin cytoskeleton organization	GSE35640	0
+actin filament	GSE35640	0
+actin filament bundle	GSE35640	0
+actin filament organization	GSE35640	0
+actin filament polymerization	GSE35640	0
+actin filament-based process	GSE35640	0
+actin polymerization or depolymerization	GSE35640	0
+activation of immune response	GSE35640	0
+activation of innate immune response	GSE35640	0
+actomyosin	GSE35640	0
+Acute phase response	GSE35640	0
+Acute viral myocarditis	GSE35640	0
+adaptive immune response	GSE35640	0
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE35640	0
+Adaptive Immune System	GSE35640	0
+adherens junction	GSE35640	0
+Affected pathways in Duchenne muscular dystrophy	GSE35640	0
+Allograft rejection	GSE35640	0
+alpha-beta T cell activation	GSE35640	0
+alpha-beta T cell differentiation	GSE35640	0
+alpha-beta T cell proliferation	GSE35640	0
+ameboidal-type cell migration	GSE35640	0
+amide binding	GSE35640	0
+amide metabolic process	GSE35640	0
+amyloid-beta binding	GSE35640	0
+anatomical structure development	GSE35640	1
+anatomical structure formation involved in morphogenesis	GSE35640	1
+anatomical structure morphogenesis	GSE35640	1
+anchoring junction	GSE35640	0
+Anemia	GSE35640	0
+angiogenesis	GSE35640	1
+animal organ development	GSE35640	1
+animal organ morphogenesis	GSE35640	0
+Anorectal anomaly	GSE35640	0
+antigen processing and presentation	GSE35640	0
+antigen processing and presentation of exogenous antigen	GSE35640	0
+antigen processing and presentation of exogenous peptide antigen	GSE35640	0
+antigen processing and presentation of exogenous peptide antigen via MHC class II	GSE35640	0
+antigen processing and presentation of peptide antigen	GSE35640	0
+antigen processing and presentation of peptide antigen via MHC class II	GSE35640	0
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	GSE35640	0
+antigen receptor-mediated signaling pathway	GSE35640	0
+apoptotic process	GSE35640	0
+appendix; germinal center cells[≥Medium]	GSE35640	0
+appendix; non-germinal center cells[≥Low]	GSE35640	0
+appendix; non-germinal center cells[≥Medium]	GSE35640	0
+aromatic compound catabolic process	GSE35640	0
+Arthralgia	GSE35640	0
+Assembly of collagen fibrils and other multimeric structures	GSE35640	1
+Autoimmunity	GSE35640	0
+axon development	GSE35640	0
+axon guidance	GSE35640	0
+Axon guidance	GSE35640	0
+B cell activation	GSE35640	0
+B cell differentiation	GSE35640	0
+B cell receptor signaling pathway	GSE35640	0
+B lymphocytopenia	GSE35640	0
+basement membrane	GSE35640	0
+binding	GSE35640	0
+biological process involved in interspecies interaction between organisms	GSE35640	0
+biological regulation	GSE35640	0
+blood circulation	GSE35640	0
+blood coagulation	GSE35640	0
+blood vessel development	GSE35640	1
+blood vessel morphogenesis	GSE35640	1
+bone marrow	GSE35640	0
+bone marrow; hematopoietic cells[≥Low]	GSE35640	0
+bone marrow; hematopoietic cells[≥Medium]	GSE35640	0
+bounding membrane of organelle	GSE35640	0
+calcium ion binding	GSE35640	1
+calcium ion homeostasis	GSE35640	0
+calcium ion transmembrane import into cytosol	GSE35640	0
+calcium ion transport	GSE35640	0
+canonical NF-kappaB signal transduction	GSE35640	0
+carbohydrate derivative binding	GSE35640	0
+catabolic process	GSE35640	0
+cell activation	GSE35640	0
+cell activation involved in immune response	GSE35640	0
+cell adhesion	GSE35640	1
+cell adhesion molecule binding	GSE35640	0
+cell chemotaxis	GSE35640	1
+cell communication	GSE35640	1
+cell death	GSE35640	0
+cell development	GSE35640	0
+cell differentiation	GSE35640	0
+cell junction	GSE35640	1
+cell junction assembly	GSE35640	0
+cell junction organization	GSE35640	0
+cell killing	GSE35640	0
+cell migration	GSE35640	1
+cell morphogenesis	GSE35640	0
+cell motility	GSE35640	1
+cell periphery	GSE35640	1
+cell population proliferation	GSE35640	1
+cell surface	GSE35640	1
+cell surface receptor signaling pathway	GSE35640	1
+cell-cell adhesion	GSE35640	1
+cell-cell junction	GSE35640	0
+cell-cell signaling	GSE35640	1
+cell-matrix adhesion	GSE35640	0
+cell-substrate adhesion	GSE35640	0
+cell-substrate junction	GSE35640	0
+cell-substrate junction assembly	GSE35640	0
+cell-substrate junction organization	GSE35640	0
+cellular anatomical entity	GSE35640	0
+cellular anatomical entity morphogenesis	GSE35640	0
+cellular developmental process	GSE35640	0
+cellular localization	GSE35640	0
+cellular nitrogen compound biosynthetic process	GSE35640	0
+cellular nitrogen compound catabolic process	GSE35640	0
+cellular response to biotic stimulus	GSE35640	0
+cellular response to chemical stimulus	GSE35640	0
+cellular response to chemical stress	GSE35640	0
+cellular response to chemokine	GSE35640	0
+cellular response to cytokine stimulus	GSE35640	0
+cellular response to endogenous stimulus	GSE35640	0
+cellular response to growth factor stimulus	GSE35640	0
+cellular response to lipid	GSE35640	0
+cellular response to lipopolysaccharide	GSE35640	0
+cellular response to molecule of bacterial origin	GSE35640	0
+cellular response to organic substance	GSE35640	0
+cellular response to oxygen-containing compound	GSE35640	0
+cellular response to reactive oxygen species	GSE35640	0
+cellular response to stimulus	GSE35640	0
+cellular response to type II interferon	GSE35640	0
+chemokine activity	GSE35640	1
+Chemokine signaling pathway	GSE35640	0
+chemokine-mediated signaling pathway	GSE35640	0
+chemotaxis	GSE35640	1
+Cigarette-paper scars	GSE35640	0
+circulatory system development	GSE35640	1
+circulatory system process	GSE35640	0
+Class A/1 (Rhodopsin-like receptors)	GSE35640	1
+clathrin-coated endocytic vesicle membrane	GSE35640	0
+coagulation	GSE35640	0
+Colitis	GSE35640	0
+Collagen biosynthesis and modifying enzymes	GSE35640	0
+Collagen chain trimerization	GSE35640	0
+Collagen formation	GSE35640	1
+collagen trimer	GSE35640	0
+collagen-containing extracellular matrix	GSE35640	1
+colon; mucosal lymphoid cells[≥Low]	GSE35640	0
+colon; mucosal lymphoid cells[≥Medium]	GSE35640	0
+complex of collagen trimers	GSE35640	0
+contractile actin filament bundle	GSE35640	0
+convergent extension involved in axis elongation	GSE35640	1
+CXCR chemokine receptor binding	GSE35640	0
+cytokine activity	GSE35640	1
+cytokine production	GSE35640	0
+cytokine receptor binding	GSE35640	1
+Cytokine Signaling in Immune system	GSE35640	0
+cytokine-mediated signaling pathway	GSE35640	0
+Cytokines and inflammatory response	GSE35640	0
+cytoplasm	GSE35640	0
+cytoplasmic translation	GSE35640	0
+cytoplasmic vesicle	GSE35640	0
+cytoplasmic vesicle membrane	GSE35640	0
+cytosol	GSE35640	0
+cytosolic large ribosomal subunit	GSE35640	0
+cytosolic ribosome	GSE35640	0
+Decreased circulating antibody level	GSE35640	0
+defense response	GSE35640	1
+defense response to other organism	GSE35640	0
+defense response to symbiont	GSE35640	0
+Degradation of the extracellular matrix	GSE35640	1
+dendritic cell antigen processing and presentation	GSE35640	0
+developmental process	GSE35640	1
+Disease	GSE35640	0
+disruption of anatomical structure in another organism	GSE35640	1
+disruption of cell in another organism	GSE35640	1
+Ebola virus infection in host	GSE35640	0
+Elevated circulating C-reactive protein concentration	GSE35640	0
+endocytic vesicle	GSE35640	0
+endocytic vesicle membrane	GSE35640	0
+endocytosis	GSE35640	0
+endoderm development	GSE35640	0
+endoderm formation	GSE35640	0
+endodermal cell differentiation	GSE35640	0
+endomembrane system	GSE35640	0
+endoplasmic reticulum	GSE35640	0
+endoplasmic reticulum lumen	GSE35640	0
+endosome	GSE35640	0
+endothelial cell migration	GSE35640	1
+enzyme-linked receptor protein signaling pathway	GSE35640	0
+ephrin receptor binding	GSE35640	0
+epithelial cell migration	GSE35640	1
+epithelium development	GSE35640	0
+epithelium migration	GSE35640	1
+ERK1 and ERK2 cascade	GSE35640	0
+establishment of localization	GSE35640	0
+Eukaryotic Translation Elongation	GSE35640	0
+Eukaryotic Translation Termination	GSE35640	0
+export from cell	GSE35640	0
+external encapsulating structure	GSE35640	1
+external encapsulating structure organization	GSE35640	1
+external side of plasma membrane	GSE35640	0
+extracellular exosome	GSE35640	0
+extracellular matrix	GSE35640	1
+extracellular matrix binding	GSE35640	0
+extracellular matrix disassembly	GSE35640	1
+extracellular matrix organization	GSE35640	1
+Extracellular matrix organization	GSE35640	1
+extracellular matrix structural constituent	GSE35640	0
+extracellular matrix structural constituent conferring tensile strength	GSE35640	0
+extracellular membrane-bounded organelle	GSE35640	0
+extracellular organelle	GSE35640	0
+extracellular region	GSE35640	1
+extracellular space	GSE35640	1
+extracellular structure organization	GSE35640	1
+extracellular vesicle	GSE35640	0
+Extrafollicular and follicular B cell activation by SARS CoV 2	GSE35640	0
+extrinsic apoptotic signaling pathway	GSE35640	0
+fat cell differentiation	GSE35640	1
+fatty acid transport	GSE35640	1
+Fc receptor mediated stimulatory signaling pathway	GSE35640	0
+Fc receptor signaling pathway	GSE35640	0
+Fc-gamma receptor signaling pathway	GSE35640	0
+Fc-gamma receptor signaling pathway involved in phagocytosis	GSE35640	0
+Fever	GSE35640	0
+ficolin-1-rich granule membrane	GSE35640	0
+focal adhesion	GSE35640	0
+Focal adhesion	GSE35640	0
+focal adhesion assembly	GSE35640	0
+Focal adhesion PI3K Akt mTOR signaling pathway	GSE35640	0
+G protein-coupled receptor binding	GSE35640	1
+Generation of second messenger molecules	GSE35640	0
+glycosaminoglycan binding	GSE35640	0
+GPCR downstream signalling	GSE35640	1
+GPCR ligand binding	GSE35640	1
+granulocyte activation	GSE35640	0
+granulocyte chemotaxis	GSE35640	0
+granulocyte migration	GSE35640	1
+growth factor binding	GSE35640	0
+growth factor receptor binding	GSE35640	1
+heart development	GSE35640	0
+heart morphogenesis	GSE35640	0
+Hematological neoplasm	GSE35640	0
+hemopoiesis	GSE35640	0
+hemostasis	GSE35640	0
+heparin binding	GSE35640	0
+heterocycle catabolic process	GSE35640	0
+Hippo signaling regulation pathways	GSE35640	0
+homeostasis of number of cells	GSE35640	0
+homeostatic process	GSE35640	0
+hsa-miR-124-3p	GSE35640	0
+humoral immune response	GSE35640	0
+icosanoid secretion	GSE35640	1
+icosanoid transport	GSE35640	1
+identical protein binding	GSE35640	0
+IL 3 signaling pathway	GSE35640	0
+immune effector process	GSE35640	0
+immune receptor activity	GSE35640	0
+immune response	GSE35640	0
+immune response-activating cell surface receptor signaling pathway	GSE35640	0
+immune response-activating signaling pathway	GSE35640	0
+immune response-regulating cell surface receptor signaling pathway	GSE35640	0
+immune response-regulating cell surface receptor signaling pathway involved in phagocytosis	GSE35640	0
+immune response-regulating signaling pathway	GSE35640	0
+Immune System	GSE35640	0
+immune system process	GSE35640	0
+Immunodeficiency	GSE35640	0
+immunological synapse	GSE35640	0
+import into cell	GSE35640	0
+Increased inflammatory response	GSE35640	0
+inflammatory response	GSE35640	1
+innate immune response	GSE35640	0
+Innate Immune System	GSE35640	0
+inorganic ion homeostasis	GSE35640	0
+integrin binding	GSE35640	0
+integrin-mediated signaling pathway	GSE35640	0
+Interferon alpha/beta signaling	GSE35640	0
+Interferon gamma signaling	GSE35640	0
+Interferon Signaling	GSE35640	0
+Interleukin-10 signaling	GSE35640	0
+interleukin-2 production	GSE35640	0
+interleukin-6 production	GSE35640	0
+interleukin-8 production	GSE35640	0
+intracellular calcium ion homeostasis	GSE35640	0
+intracellular chemical homeostasis	GSE35640	0
+intracellular monoatomic cation homeostasis	GSE35640	0
+intracellular monoatomic ion homeostasis	GSE35640	0
+intracellular organelle lumen	GSE35640	0
+intracellular signal transduction	GSE35640	0
+intracellular signaling cassette	GSE35640	0
+intracellular vesicle	GSE35640	0
+killing of cells of another organism	GSE35640	1
+leukocyte activation	GSE35640	0
+leukocyte activation involved in immune response	GSE35640	0
+leukocyte cell-cell adhesion	GSE35640	0
+leukocyte chemotaxis	GSE35640	1
+leukocyte differentiation	GSE35640	0
+leukocyte homeostasis	GSE35640	0
+leukocyte mediated immunity	GSE35640	0
+leukocyte migration	GSE35640	1
+leukocyte proliferation	GSE35640	0
+lipid export from cell	GSE35640	1
+lipid localization	GSE35640	1
+lipid transport	GSE35640	1
+localization	GSE35640	0
+locomotion	GSE35640	1
+lumenal side of endoplasmic reticulum membrane	GSE35640	0
+lumenal side of membrane	GSE35640	0
+lymph node	GSE35640	0
+lymph node; germinal center cells[≥Low]	GSE35640	0
+lymph node; non-germinal center cells[≥Low]	GSE35640	0
+lymph node; non-germinal center cells[≥Medium]	GSE35640	0
+lymph node; non-germinal center cells[High]	GSE35640	0
+Lymphadenopathy	GSE35640	0
+lymphocyte activation	GSE35640	0
+lymphocyte activation involved in immune response	GSE35640	0
+lymphocyte costimulation	GSE35640	0
+lymphocyte differentiation	GSE35640	0
+lymphocyte mediated immunity	GSE35640	0
+lymphocyte proliferation	GSE35640	0
+Lymphoma	GSE35640	0
+Lymphopenia	GSE35640	0
+lysosome	GSE35640	0
+lytic vacuole	GSE35640	0
+macromolecule catabolic process	GSE35640	0
+macromolecule localization	GSE35640	0
+macromolecule modification	GSE35640	0
+macrophage activation	GSE35640	0
+maintenance of location	GSE35640	0
+maintenance of location in cell	GSE35640	0
+MAPK cascade	GSE35640	0
+membrane	GSE35640	0
+membrane microdomain	GSE35640	0
+membrane raft	GSE35640	0
+membrane-enclosed lumen	GSE35640	0
+Meningitis	GSE35640	0
+MHC class II protein complex	GSE35640	0
+MHC class II protein complex assembly	GSE35640	0
+MHC class II protein complex binding	GSE35640	0
+MHC class II receptor activity	GSE35640	0
+MHC protein binding	GSE35640	0
+MHC protein complex	GSE35640	0
+MHC protein complex assembly	GSE35640	0
+MHC protein complex binding	GSE35640	0
+Microglia pathogen phagocytosis pathway	GSE35640	0
+molecular function regulator activity	GSE35640	0
+molecular transducer activity	GSE35640	0
+monoatomic cation homeostasis	GSE35640	0
+monoatomic ion homeostasis	GSE35640	0
+monocarboxylic acid transport	GSE35640	1
+monocyte chemotaxis	GSE35640	1
+mononuclear cell differentiation	GSE35640	0
+mononuclear cell migration	GSE35640	0
+mononuclear cell proliferation	GSE35640	0
+multicellular organism development	GSE35640	1
+multicellular organismal process	GSE35640	1
+multicellular organismal-level homeostasis	GSE35640	0
+muscle cell migration	GSE35640	0
+muscle cell proliferation	GSE35640	0
+myeloid cell differentiation	GSE35640	0
+myeloid leukocyte activation	GSE35640	0
+myeloid leukocyte differentiation	GSE35640	0
+myeloid leukocyte migration	GSE35640	1
+negative regulation of antigen processing and presentation	GSE35640	0
+negative regulation of apoptotic process	GSE35640	0
+negative regulation of biological process	GSE35640	0
+negative regulation of blood coagulation	GSE35640	0
+negative regulation of catabolic process	GSE35640	0
+negative regulation of cell activation	GSE35640	0
+negative regulation of cell adhesion	GSE35640	0
+negative regulation of cell communication	GSE35640	0
+negative regulation of cell population proliferation	GSE35640	0
+negative regulation of cellular process	GSE35640	0
+negative regulation of coagulation	GSE35640	0
+negative regulation of defense response	GSE35640	0
+negative regulation of developmental process	GSE35640	0
+negative regulation of hemostasis	GSE35640	0
+negative regulation of hormone secretion	GSE35640	1
+negative regulation of immune effector process	GSE35640	0
+negative regulation of immune response	GSE35640	0
+negative regulation of immune system process	GSE35640	0
+negative regulation of inflammatory response	GSE35640	0
+negative regulation of innate immune response	GSE35640	0
+negative regulation of leukocyte mediated immunity	GSE35640	0
+negative regulation of lymphocyte mediated immunity	GSE35640	0
+negative regulation of molecular function	GSE35640	0
+negative regulation of multicellular organismal process	GSE35640	0
+negative regulation of nitrogen compound metabolic process	GSE35640	0
+negative regulation of programmed cell death	GSE35640	0
+negative regulation of protein maturation	GSE35640	0
+negative regulation of protein metabolic process	GSE35640	0
+negative regulation of protein processing	GSE35640	0
+negative regulation of response to biotic stimulus	GSE35640	0
+negative regulation of response to external stimulus	GSE35640	0
+negative regulation of response to stimulus	GSE35640	0
+negative regulation of response to wounding	GSE35640	0
+negative regulation of sequestering of calcium ion	GSE35640	0
+negative regulation of signal transduction	GSE35640	0
+negative regulation of signaling	GSE35640	0
+negative regulation of wound healing	GSE35640	0
+negative T cell selection	GSE35640	0
+nervous system development	GSE35640	0
+Nervous system development	GSE35640	0
+Network map of SARS CoV 2 signaling pathway	GSE35640	0
+neuron projection guidance	GSE35640	0
+neuropeptide receptor binding	GSE35640	1
+Neutropenia	GSE35640	0
+neutrophil activation	GSE35640	0
+neutrophil activation involved in immune response	GSE35640	0
+neutrophil chemotaxis	GSE35640	1
+Neutrophil degranulation	GSE35640	0
+neutrophil migration	GSE35640	1
+nitric oxide biosynthetic process	GSE35640	0
+nitric oxide metabolic process	GSE35640	0
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE35640	0
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE35640	0
+Nonsense-Mediated Decay (NMD)	GSE35640	0
+nucleobase-containing compound catabolic process	GSE35640	0
+nucleoplasm	GSE35640	0
+organelle lumen	GSE35640	0
+organelle membrane	GSE35640	0
+organic substance catabolic process	GSE35640	0
+organonitrogen compound metabolic process	GSE35640	0
+ossification	GSE35640	0
+Overview of proinflammatory and profibrotic mediators	GSE35640	1
+Pancytopenia	GSE35640	0
+Pathogenesis of SARS CoV 2 mediated by nsp9 nsp10 complex	GSE35640	0
+PD-1 signaling	GSE35640	0
+peptide antigen assembly with MHC class II protein complex	GSE35640	0
+peptide antigen assembly with MHC protein complex	GSE35640	0
+peptide antigen binding	GSE35640	0
+peptide binding	GSE35640	0
+Peptide chain elongation	GSE35640	0
+Peptide ligand-binding receptors	GSE35640	1
+peptide metabolic process	GSE35640	0
+peptidyl-amino acid modification	GSE35640	0
+peptidyl-tyrosine modification	GSE35640	0
+peptidyl-tyrosine phosphorylation	GSE35640	0
+phagocytic vesicle	GSE35640	0
+phagocytic vesicle membrane	GSE35640	0
+phagocytosis	GSE35640	0
+phosphate-containing compound metabolic process	GSE35640	0
+phosphorus metabolic process	GSE35640	0
+phosphorylation	GSE35640	0
+Phosphorylation of CD3 and TCR zeta chains	GSE35640	0
+Photodynamic therapy induced NF kB survival signaling	GSE35640	1
+plasma membrane	GSE35640	1
+plasma membrane protein complex	GSE35640	0
+plasma membrane region	GSE35640	0
+Pleural mesothelioma	GSE35640	1
+positive regulation of actin filament bundle assembly	GSE35640	0
+positive regulation of adaptive immune response	GSE35640	0
+positive regulation of alpha-beta T cell activation	GSE35640	0
+positive regulation of angiogenesis	GSE35640	0
+positive regulation of biological process	GSE35640	1
+positive regulation of biosynthetic process	GSE35640	0
+positive regulation of canonical NF-kappaB signal transduction	GSE35640	0
+positive regulation of catabolic process	GSE35640	0
+positive regulation of cell activation	GSE35640	0
+positive regulation of cell adhesion	GSE35640	0
+positive regulation of cell adhesion mediated by integrin	GSE35640	0
+positive regulation of cell communication	GSE35640	1
+positive regulation of cell development	GSE35640	0
+positive regulation of cell differentiation	GSE35640	0
+positive regulation of cell migration	GSE35640	1
+positive regulation of cell motility	GSE35640	1
+positive regulation of cell population proliferation	GSE35640	1
+positive regulation of cell-cell adhesion	GSE35640	0
+positive regulation of cell-matrix adhesion	GSE35640	0
+positive regulation of cellular biosynthetic process	GSE35640	0
+positive regulation of cellular component organization	GSE35640	0
+positive regulation of cellular metabolic process	GSE35640	0
+positive regulation of cellular process	GSE35640	1
+positive regulation of chemotaxis	GSE35640	0
+positive regulation of cytokine production	GSE35640	0
+positive regulation of defense response	GSE35640	0
+positive regulation of developmental process	GSE35640	0
+positive regulation of DNA-templated transcription	GSE35640	0
+positive regulation of ERK1 and ERK2 cascade	GSE35640	0
+positive regulation of gene expression	GSE35640	0
+positive regulation of hemopoiesis	GSE35640	0
+positive regulation of immune effector process	GSE35640	0
+positive regulation of immune response	GSE35640	0
+positive regulation of immune system process	GSE35640	0
+positive regulation of inflammatory response	GSE35640	1
+positive regulation of innate immune response	GSE35640	0
+positive regulation of interleukin-2 production	GSE35640	0
+positive regulation of interleukin-6 production	GSE35640	0
+positive regulation of interleukin-8 production	GSE35640	0
+positive regulation of intracellular signal transduction	GSE35640	0
+positive regulation of leukocyte activation	GSE35640	0
+positive regulation of leukocyte cell-cell adhesion	GSE35640	0
+positive regulation of leukocyte chemotaxis	GSE35640	0
+positive regulation of leukocyte differentiation	GSE35640	0
+positive regulation of leukocyte migration	GSE35640	0
+positive regulation of leukocyte proliferation	GSE35640	0
+positive regulation of locomotion	GSE35640	1
+positive regulation of lymphocyte activation	GSE35640	0
+positive regulation of lymphocyte differentiation	GSE35640	0
+positive regulation of lymphocyte proliferation	GSE35640	0
+positive regulation of macromolecule biosynthetic process	GSE35640	0
+positive regulation of macromolecule metabolic process	GSE35640	0
+positive regulation of MAPK cascade	GSE35640	1
+positive regulation of metabolic process	GSE35640	0
+positive regulation of molecular function	GSE35640	0
+positive regulation of mononuclear cell migration	GSE35640	0
+positive regulation of mononuclear cell proliferation	GSE35640	0
+positive regulation of multicellular organismal process	GSE35640	0
+positive regulation of nitric oxide biosynthetic process	GSE35640	0
+positive regulation of nitric oxide metabolic process	GSE35640	0
+positive regulation of nitrogen compound metabolic process	GSE35640	0
+positive regulation of non-canonical NF-kappaB signal transduction	GSE35640	0
+positive regulation of nucleobase-containing compound metabolic process	GSE35640	0
+positive regulation of peptidyl-tyrosine phosphorylation	GSE35640	0
+positive regulation of phagocytosis	GSE35640	0
+positive regulation of phosphate metabolic process	GSE35640	0
+positive regulation of phospholipase C activity	GSE35640	0
+positive regulation of phosphorus metabolic process	GSE35640	0
+positive regulation of phosphorylation	GSE35640	0
+positive regulation of programmed cell death	GSE35640	0
+positive regulation of protein localization	GSE35640	0
+positive regulation of protein metabolic process	GSE35640	0
+positive regulation of protein modification process	GSE35640	0
+positive regulation of protein phosphorylation	GSE35640	0
+positive regulation of response to biotic stimulus	GSE35640	0
+positive regulation of response to external stimulus	GSE35640	0
+positive regulation of response to stimulus	GSE35640	0
+positive regulation of RNA biosynthetic process	GSE35640	0
+positive regulation of RNA metabolic process	GSE35640	0
+positive regulation of signal transduction	GSE35640	0
+positive regulation of signaling	GSE35640	1
+positive regulation of smooth muscle cell migration	GSE35640	0
+positive regulation of smooth muscle cell proliferation	GSE35640	0
+positive regulation of stress fiber assembly	GSE35640	0
+positive regulation of supramolecular fiber organization	GSE35640	0
+positive regulation of T cell activation	GSE35640	0
+positive regulation of T cell proliferation	GSE35640	0
+positive regulation of transcription by RNA polymerase II	GSE35640	0
+positive regulation of type II interferon production	GSE35640	0
+positive regulation of vasculature development	GSE35640	0
+positive T cell selection	GSE35640	0
+positive thymic T cell selection	GSE35640	0
+programmed cell death	GSE35640	0
+prostaglandin secretion	GSE35640	1
+prostaglandin transport	GSE35640	1
+protein binding	GSE35640	0
+protein complex involved in cell adhesion	GSE35640	0
+protein homodimerization activity	GSE35640	0
+protein localization to nucleus	GSE35640	0
+protein metabolic process	GSE35640	0
+protein modification process	GSE35640	0
+protein phosphorylation	GSE35640	0
+protein-containing complex binding	GSE35640	0
+PRRX2-UCHL1 complex	GSE35640	1
+reactive nitrogen species metabolic process	GSE35640	0
+reactive oxygen species metabolic process	GSE35640	0
+receptor complex	GSE35640	0
+receptor ligand activity	GSE35640	1
+rectum; mucosal lymphoid cells[≥Low]	GSE35640	0
+rectum; mucosal lymphoid cells[≥Medium]	GSE35640	0
+rectum; mucosal lymphoid cells[High]	GSE35640	0
+Recurrent fever	GSE35640	0
+Recurrent infections	GSE35640	0
+Reduced natural killer cell activity	GSE35640	0
+regulation of actin cytoskeleton organization	GSE35640	0
+regulation of adaptive immune response	GSE35640	0
+regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE35640	0
+regulation of alpha-beta T cell activation	GSE35640	0
+regulation of anatomical structure morphogenesis	GSE35640	1
+regulation of angiogenesis	GSE35640	0
+regulation of animal organ morphogenesis	GSE35640	1
+regulation of antigen processing and presentation	GSE35640	0
+regulation of apoptotic process	GSE35640	0
+regulation of B cell differentiation	GSE35640	0
+regulation of biological process	GSE35640	0
+regulation of biological quality	GSE35640	0
+regulation of biosynthetic process	GSE35640	0
+regulation of blood coagulation	GSE35640	0
+regulation of blood pressure	GSE35640	0
+regulation of body fluid levels	GSE35640	0
+regulation of calcium ion transport	GSE35640	0
+regulation of calcium-mediated signaling	GSE35640	0
+regulation of canonical NF-kappaB signal transduction	GSE35640	0
+regulation of catabolic process	GSE35640	0
+regulation of catalytic activity	GSE35640	0
+regulation of cell activation	GSE35640	0
+regulation of cell adhesion	GSE35640	0
+regulation of cell adhesion mediated by integrin	GSE35640	0
+regulation of cell communication	GSE35640	1
+regulation of cell development	GSE35640	0
+regulation of cell differentiation	GSE35640	0
+regulation of cell junction assembly	GSE35640	0
+regulation of cell migration	GSE35640	1
+regulation of cell motility	GSE35640	1
+regulation of cell population proliferation	GSE35640	1
+regulation of cell-cell adhesion	GSE35640	0
+regulation of cell-matrix adhesion	GSE35640	0
+regulation of cell-substrate adhesion	GSE35640	0
+regulation of cell-substrate junction assembly	GSE35640	0
+regulation of cell-substrate junction organization	GSE35640	0
+regulation of cellular biosynthetic process	GSE35640	0
+regulation of cellular component organization	GSE35640	0
+regulation of cellular localization	GSE35640	0
+regulation of cellular metabolic process	GSE35640	0
+regulation of cellular process	GSE35640	0
+regulation of chemotaxis	GSE35640	0
+regulation of coagulation	GSE35640	0
+regulation of cytokine production	GSE35640	0
+regulation of cytokine-mediated signaling pathway	GSE35640	0
+regulation of defense response	GSE35640	0
+regulation of dendritic cell antigen processing and presentation	GSE35640	0
+regulation of developmental process	GSE35640	1
+regulation of DNA-binding transcription factor activity	GSE35640	0
+regulation of endodermal cell differentiation	GSE35640	0
+regulation of ERK1 and ERK2 cascade	GSE35640	0
+regulation of focal adhesion assembly	GSE35640	0
+regulation of gene expression	GSE35640	0
+regulation of granulocyte chemotaxis	GSE35640	0
+regulation of hemopoiesis	GSE35640	0
+regulation of hemostasis	GSE35640	0
+regulation of hormone secretion	GSE35640	1
+regulation of hydrolase activity	GSE35640	0
+regulation of immune effector process	GSE35640	0
+regulation of immune response	GSE35640	0
+regulation of immune system process	GSE35640	0
+regulation of inflammatory response	GSE35640	1
+regulation of innate immune response	GSE35640	0
+regulation of interleukin-2 production	GSE35640	0
+regulation of interleukin-6 production	GSE35640	0
+regulation of interleukin-8 production	GSE35640	0
+regulation of intracellular signal transduction	GSE35640	0
+regulation of leukocyte activation	GSE35640	0
+regulation of leukocyte cell-cell adhesion	GSE35640	0
+regulation of leukocyte chemotaxis	GSE35640	0
+regulation of leukocyte differentiation	GSE35640	0
+regulation of leukocyte mediated immunity	GSE35640	0
+regulation of leukocyte migration	GSE35640	0
+regulation of leukocyte proliferation	GSE35640	0
+regulation of localization	GSE35640	0
+regulation of locomotion	GSE35640	1
+regulation of lymphocyte activation	GSE35640	0
+regulation of lymphocyte differentiation	GSE35640	0
+regulation of lymphocyte proliferation	GSE35640	0
+regulation of macromolecule biosynthetic process	GSE35640	0
+regulation of macromolecule metabolic process	GSE35640	0
+regulation of macrophage activation	GSE35640	0
+regulation of MAPK cascade	GSE35640	0
+regulation of metabolic process	GSE35640	0
+regulation of molecular function	GSE35640	0
+regulation of monocyte chemotaxis	GSE35640	0
+regulation of mononuclear cell migration	GSE35640	0
+regulation of mononuclear cell proliferation	GSE35640	0
+regulation of multicellular organismal development	GSE35640	0
+regulation of multicellular organismal process	GSE35640	0
+regulation of myeloid cell differentiation	GSE35640	0
+regulation of neutrophil degranulation	GSE35640	0
+regulation of nitric oxide biosynthetic process	GSE35640	0
+regulation of nitric oxide metabolic process	GSE35640	0
+regulation of nitrogen compound metabolic process	GSE35640	0
+regulation of non-canonical NF-kappaB signal transduction	GSE35640	0
+regulation of nucleobase-containing compound metabolic process	GSE35640	0
+regulation of peptidyl-tyrosine phosphorylation	GSE35640	0
+regulation of phagocytosis	GSE35640	0
+regulation of phosphate metabolic process	GSE35640	0
+regulation of phospholipase C activity	GSE35640	0
+regulation of phosphorus metabolic process	GSE35640	0
+regulation of phosphorylation	GSE35640	0
+regulation of primary metabolic process	GSE35640	0
+regulation of programmed cell death	GSE35640	0
+regulation of protein catabolic process	GSE35640	0
+regulation of protein localization	GSE35640	0
+regulation of protein localization to nucleus	GSE35640	0
+regulation of protein metabolic process	GSE35640	0
+regulation of protein modification by small protein conjugation or removal	GSE35640	0
+regulation of protein modification process	GSE35640	0
+regulation of protein phosphorylation	GSE35640	0
+regulation of response to biotic stimulus	GSE35640	0
+regulation of response to cytokine stimulus	GSE35640	0
+regulation of response to external stimulus	GSE35640	1
+regulation of response to stimulus	GSE35640	0
+regulation of response to stress	GSE35640	0
+regulation of response to wounding	GSE35640	1
+regulation of RNA metabolic process	GSE35640	0
+regulation of sequestering of calcium ion	GSE35640	0
+regulation of signal transduction	GSE35640	0
+regulation of signaling	GSE35640	1
+regulation of smooth muscle cell migration	GSE35640	0
+regulation of smooth muscle cell proliferation	GSE35640	0
+regulation of systemic arterial blood pressure	GSE35640	0
+regulation of T cell activation	GSE35640	0
+regulation of T cell proliferation	GSE35640	0
+regulation of tissue remodeling	GSE35640	0
+regulation of transport	GSE35640	0
+regulation of tumor necrosis factor production	GSE35640	0
+regulation of tumor necrosis factor superfamily cytokine production	GSE35640	0
+regulation of vasculature development	GSE35640	0
+regulation of wound healing	GSE35640	1
+release of sequestered calcium ion into cytosol	GSE35640	0
+response to bacterium	GSE35640	0
+response to biotic stimulus	GSE35640	0
+response to chemical	GSE35640	0
+response to chemokine	GSE35640	0
+response to cytokine	GSE35640	0
+response to decreased oxygen levels	GSE35640	0
+response to endogenous stimulus	GSE35640	0
+response to external biotic stimulus	GSE35640	0
+response to external stimulus	GSE35640	1
+response to growth factor	GSE35640	0
+response to hypoxia	GSE35640	0
+response to lipid	GSE35640	0
+response to lipopolysaccharide	GSE35640	0
+response to molecule of bacterial origin	GSE35640	0
+response to organic substance	GSE35640	0
+response to organonitrogen compound	GSE35640	0
+response to other organism	GSE35640	0
+response to oxygen levels	GSE35640	0
+response to oxygen-containing compound	GSE35640	1
+response to peptide	GSE35640	0
+response to reactive oxygen species	GSE35640	0
+response to stimulus	GSE35640	1
+response to stress	GSE35640	0
+response to tumor necrosis factor	GSE35640	0
+response to type II interferon	GSE35640	0
+response to wounding	GSE35640	0
+ribosomal subunit	GSE35640	0
+SARS CoV 2 innate immunity evasion and cell specific immune response	GSE35640	0
+secretion	GSE35640	0
+secretion by cell	GSE35640	0
+secretory granule	GSE35640	0
+secretory granule membrane	GSE35640	0
+secretory vesicle	GSE35640	0
+Selenoamino acid metabolism	GSE35640	0
+Selenocysteine synthesis	GSE35640	0
+sequestering of calcium ion	GSE35640	0
+serine-type endopeptidase activity	GSE35640	1
+Severe infection	GSE35640	0
+Severe viral infection	GSE35640	0
+side of membrane	GSE35640	0
+signal release	GSE35640	1
+signal transduction	GSE35640	1
+Signal Transduction	GSE35640	0
+signaling	GSE35640	1
+Signaling by GPCR	GSE35640	1
+Signaling by Interleukins	GSE35640	0
+Signaling by PDGF	GSE35640	0
+signaling receptor activator activity	GSE35640	1
+signaling receptor activity	GSE35640	0
+signaling receptor binding	GSE35640	1
+signaling receptor regulator activity	GSE35640	1
+Sinusitis	GSE35640	0
+skin 1; extracellular matrix[≥Low]	GSE35640	0
+skin 1; extracellular matrix[High]	GSE35640	0
+Skin rash	GSE35640	0
+smooth muscle cell migration	GSE35640	0
+smooth muscle cell proliferation	GSE35640	0
+specific granule membrane	GSE35640	0
+Spinal cord injury	GSE35640	0
+spleen	GSE35640	0
+spleen; cells in red pulp[≥Low]	GSE35640	0
+spleen; cells in red pulp[≥Medium]	GSE35640	0
+spleen; cells in red pulp[High]	GSE35640	0
+stem cell fate commitment	GSE35640	1
+stress fiber	GSE35640	0
+sulfur compound binding	GSE35640	0
+supramolecular fiber organization	GSE35640	0
+synapse	GSE35640	0
+system development	GSE35640	1
+T cell activation	GSE35640	0
+T cell activation involved in immune response	GSE35640	0
+T cell activation SARS CoV 2	GSE35640	0
+T cell costimulation	GSE35640	0
+T cell differentiation	GSE35640	0
+T cell mediated immunity	GSE35640	0
+T cell migration	GSE35640	0
+T cell proliferation	GSE35640	0
+T cell receptor binding	GSE35640	0
+T cell receptor signaling pathway	GSE35640	0
+T cell selection	GSE35640	0
+T lymphocytopenia	GSE35640	0
+TAP binding	GSE35640	0
+taxis	GSE35640	1
+tertiary granule	GSE35640	0
+tertiary granule membrane	GSE35640	0
+Thrombocytopenia	GSE35640	0
+tissue development	GSE35640	0
+tissue migration	GSE35640	0
+tissue remodeling	GSE35640	0
+tonsil	GSE35640	0
+tonsil; germinal center cells[≥Low]	GSE35640	0
+tonsil; germinal center cells[≥Medium]	GSE35640	0
+tonsil; non-germinal center cells[≥Low]	GSE35640	0
+tonsil; non-germinal center cells[≥Medium]	GSE35640	0
+tonsil; non-germinal center cells[High]	GSE35640	0
+Translocation of ZAP-70 to Immunological synapse	GSE35640	0
+transmembrane receptor protein tyrosine kinase signaling pathway	GSE35640	0
+transport	GSE35640	0
+tube development	GSE35640	0
+tube morphogenesis	GSE35640	1
+tumor necrosis factor production	GSE35640	0
+tumor necrosis factor superfamily cytokine production	GSE35640	0
+Type II interferon signaling	GSE35640	0
+type II interferon-mediated signaling pathway	GSE35640	0
+Unusual CNS infection	GSE35640	0
+Unusual infection	GSE35640	0
+Unusual infection by anatomical site	GSE35640	0
+vacuole	GSE35640	0
+vascular process in circulatory system	GSE35640	0
+vasculature development	GSE35640	1
+Vasculitis	GSE35640	0
+Vasculitis by anatomical site	GSE35640	0
+vesicle	GSE35640	0
+vesicle membrane	GSE35640	0
+vesicle-mediated transport	GSE35640	0
+Viral mRNA Translation	GSE35640	0
+wound healing	GSE35640	0
+Abnormal B cell count	GSE61992	1
+Abnormal B cell morphology	GSE61992	1
+Abnormal bone marrow cell morphology	GSE61992	1
+Abnormal cellular immune system morphology	GSE61992	1
+Abnormal circulating C-reactive protein concentration	GSE61992	0
+Abnormal erythrocyte morphology	GSE61992	1
+Abnormal granulocyte count	GSE61992	1
+Abnormal granulocyte morphology	GSE61992	1
+Abnormal immune system morphology	GSE61992	1
+Abnormal immunoglobulin level	GSE61992	1
+Abnormal inflammatory response	GSE61992	1
+Abnormal large intestine morphology	GSE61992	1
+Abnormal leukocyte count	GSE61992	1
+Abnormal leukocyte morphology	GSE61992	1
+Abnormal leukocyte physiology	GSE61992	1
+Abnormal lymph node morphology	GSE61992	1
+Abnormal lymphocyte count	GSE61992	1
+Abnormal lymphocyte morphology	GSE61992	1
+Abnormal lymphocyte physiology	GSE61992	1
+Abnormal myeloid leukocyte morphology	GSE61992	1
+Abnormal natural killer cell physiology	GSE61992	0
+Abnormal neutrophil count	GSE61992	1
+Abnormal paranasal sinus morphology	GSE61992	1
+Abnormal platelet count	GSE61992	1
+Abnormal platelet morphology	GSE61992	1
+Abnormal rectum morphology	GSE61992	1
+Abnormal respiratory system morphology	GSE61992	1
+Abnormal T cell count	GSE61992	1
+Abnormal T cell morphology	GSE61992	1
+Abnormal T cell subset distribution	GSE61992	0
+Abnormality of B cell physiology	GSE61992	1
+Abnormality of blood and blood-forming tissues	GSE61992	1
+Abnormality of humoral immunity	GSE61992	1
+Abnormality of immune system physiology	GSE61992	1
+Abnormality of multiple cell lineages in the bone marrow	GSE61992	1
+Abnormality of neutrophils	GSE61992	1
+Abnormality of the immune system	GSE61992	1
+Abnormality of the knee	GSE61992	0
+Abnormality of thrombocytes	GSE61992	1
+actin binding	GSE61992	1
+actin cytoskeleton organization	GSE61992	1
+actin filament	GSE61992	1
+actin filament bundle	GSE61992	1
+actin filament organization	GSE61992	1
+actin filament polymerization	GSE61992	1
+actin filament-based process	GSE61992	1
+actin polymerization or depolymerization	GSE61992	1
+activation of immune response	GSE61992	1
+activation of innate immune response	GSE61992	1
+actomyosin	GSE61992	1
+Acute phase response	GSE61992	1
+Acute viral myocarditis	GSE61992	1
+adaptive immune response	GSE61992	1
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE61992	1
+Adaptive Immune System	GSE61992	0
+adherens junction	GSE61992	0
+Affected pathways in Duchenne muscular dystrophy	GSE61992	0
+Allograft rejection	GSE61992	1
+alpha-beta T cell activation	GSE61992	1
+alpha-beta T cell differentiation	GSE61992	0
+alpha-beta T cell proliferation	GSE61992	1
+ameboidal-type cell migration	GSE61992	1
+amide binding	GSE61992	1
+amide metabolic process	GSE61992	0
+amyloid-beta binding	GSE61992	1
+anatomical structure development	GSE61992	1
+anatomical structure formation involved in morphogenesis	GSE61992	1
+anatomical structure morphogenesis	GSE61992	1
+anchoring junction	GSE61992	1
+Anemia	GSE61992	1
+angiogenesis	GSE61992	1
+animal organ development	GSE61992	1
+animal organ morphogenesis	GSE61992	0
+Anorectal anomaly	GSE61992	1
+antigen processing and presentation	GSE61992	1
+antigen processing and presentation of exogenous antigen	GSE61992	1
+antigen processing and presentation of exogenous peptide antigen	GSE61992	1
+antigen processing and presentation of exogenous peptide antigen via MHC class II	GSE61992	0
+antigen processing and presentation of peptide antigen	GSE61992	1
+antigen processing and presentation of peptide antigen via MHC class II	GSE61992	0
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	GSE61992	0
+antigen receptor-mediated signaling pathway	GSE61992	1
+apoptotic process	GSE61992	1
+appendix; germinal center cells[≥Medium]	GSE61992	0
+appendix; non-germinal center cells[≥Low]	GSE61992	1
+appendix; non-germinal center cells[≥Medium]	GSE61992	1
+aromatic compound catabolic process	GSE61992	1
+Arthralgia	GSE61992	1
+Assembly of collagen fibrils and other multimeric structures	GSE61992	1
+Autoimmunity	GSE61992	0
+axon development	GSE61992	0
+axon guidance	GSE61992	0
+Axon guidance	GSE61992	1
+B cell activation	GSE61992	0
+B cell differentiation	GSE61992	0
+B cell receptor signaling pathway	GSE61992	0
+B lymphocytopenia	GSE61992	1
+basement membrane	GSE61992	0
+binding	GSE61992	1
+biological process involved in interspecies interaction between organisms	GSE61992	1
+biological regulation	GSE61992	1
+blood circulation	GSE61992	1
+blood coagulation	GSE61992	0
+blood vessel development	GSE61992	1
+blood vessel morphogenesis	GSE61992	1
+bone marrow	GSE61992	1
+bone marrow; hematopoietic cells[≥Low]	GSE61992	1
+bone marrow; hematopoietic cells[≥Medium]	GSE61992	1
+bounding membrane of organelle	GSE61992	1
+calcium ion binding	GSE61992	0
+calcium ion homeostasis	GSE61992	1
+calcium ion transmembrane import into cytosol	GSE61992	1
+calcium ion transport	GSE61992	1
+canonical NF-kappaB signal transduction	GSE61992	1
+carbohydrate derivative binding	GSE61992	1
+catabolic process	GSE61992	1
+cell activation	GSE61992	1
+cell activation involved in immune response	GSE61992	1
+cell adhesion	GSE61992	1
+cell adhesion molecule binding	GSE61992	1
+cell chemotaxis	GSE61992	1
+cell communication	GSE61992	1
+cell death	GSE61992	1
+cell development	GSE61992	1
+cell differentiation	GSE61992	1
+cell junction	GSE61992	1
+cell junction assembly	GSE61992	1
+cell junction organization	GSE61992	1
+cell killing	GSE61992	1
+cell migration	GSE61992	1
+cell morphogenesis	GSE61992	1
+cell motility	GSE61992	1
+cell periphery	GSE61992	1
+cell population proliferation	GSE61992	1
+cell surface	GSE61992	1
+cell surface receptor signaling pathway	GSE61992	1
+cell-cell adhesion	GSE61992	1
+cell-cell junction	GSE61992	1
+cell-cell signaling	GSE61992	1
+cell-matrix adhesion	GSE61992	1
+cell-substrate adhesion	GSE61992	1
+cell-substrate junction	GSE61992	1
+cell-substrate junction assembly	GSE61992	1
+cell-substrate junction organization	GSE61992	1
+cellular anatomical entity	GSE61992	1
+cellular anatomical entity morphogenesis	GSE61992	0
+cellular developmental process	GSE61992	1
+cellular localization	GSE61992	1
+cellular nitrogen compound biosynthetic process	GSE61992	1
+cellular nitrogen compound catabolic process	GSE61992	1
+cellular response to biotic stimulus	GSE61992	1
+cellular response to chemical stimulus	GSE61992	1
+cellular response to chemical stress	GSE61992	0
+cellular response to chemokine	GSE61992	1
+cellular response to cytokine stimulus	GSE61992	1
+cellular response to endogenous stimulus	GSE61992	0
+cellular response to growth factor stimulus	GSE61992	0
+cellular response to lipid	GSE61992	1
+cellular response to lipopolysaccharide	GSE61992	1
+cellular response to molecule of bacterial origin	GSE61992	1
+cellular response to organic substance	GSE61992	1
+cellular response to oxygen-containing compound	GSE61992	1
+cellular response to reactive oxygen species	GSE61992	1
+cellular response to stimulus	GSE61992	1
+cellular response to type II interferon	GSE61992	1
+chemokine activity	GSE61992	0
+Chemokine signaling pathway	GSE61992	1
+chemokine-mediated signaling pathway	GSE61992	1
+chemotaxis	GSE61992	1
+Cigarette-paper scars	GSE61992	1
+circulatory system development	GSE61992	1
+circulatory system process	GSE61992	1
+Class A/1 (Rhodopsin-like receptors)	GSE61992	0
+clathrin-coated endocytic vesicle membrane	GSE61992	0
+coagulation	GSE61992	0
+Colitis	GSE61992	1
+Collagen biosynthesis and modifying enzymes	GSE61992	0
+Collagen chain trimerization	GSE61992	0
+Collagen formation	GSE61992	1
+collagen trimer	GSE61992	1
+collagen-containing extracellular matrix	GSE61992	1
+colon; mucosal lymphoid cells[≥Low]	GSE61992	1
+colon; mucosal lymphoid cells[≥Medium]	GSE61992	1
+complex of collagen trimers	GSE61992	0
+contractile actin filament bundle	GSE61992	1
+convergent extension involved in axis elongation	GSE61992	0
+CXCR chemokine receptor binding	GSE61992	1
+cytokine activity	GSE61992	1
+cytokine production	GSE61992	1
+cytokine receptor binding	GSE61992	1
+Cytokine Signaling in Immune system	GSE61992	1
+cytokine-mediated signaling pathway	GSE61992	1
+Cytokines and inflammatory response	GSE61992	1
+cytoplasm	GSE61992	1
+cytoplasmic translation	GSE61992	1
+cytoplasmic vesicle	GSE61992	1
+cytoplasmic vesicle membrane	GSE61992	1
+cytosol	GSE61992	1
+cytosolic large ribosomal subunit	GSE61992	0
+cytosolic ribosome	GSE61992	1
+Decreased circulating antibody level	GSE61992	1
+defense response	GSE61992	1
+defense response to other organism	GSE61992	1
+defense response to symbiont	GSE61992	1
+Degradation of the extracellular matrix	GSE61992	0
+dendritic cell antigen processing and presentation	GSE61992	1
+developmental process	GSE61992	1
+Disease	GSE61992	0
+disruption of anatomical structure in another organism	GSE61992	1
+disruption of cell in another organism	GSE61992	1
+Ebola virus infection in host	GSE61992	1
+Elevated circulating C-reactive protein concentration	GSE61992	0
+endocytic vesicle	GSE61992	1
+endocytic vesicle membrane	GSE61992	1
+endocytosis	GSE61992	1
+endoderm development	GSE61992	0
+endoderm formation	GSE61992	1
+endodermal cell differentiation	GSE61992	1
+endomembrane system	GSE61992	1
+endoplasmic reticulum	GSE61992	0
+endoplasmic reticulum lumen	GSE61992	1
+endosome	GSE61992	0
+endothelial cell migration	GSE61992	1
+enzyme-linked receptor protein signaling pathway	GSE61992	1
+ephrin receptor binding	GSE61992	1
+epithelial cell migration	GSE61992	1
+epithelium development	GSE61992	0
+epithelium migration	GSE61992	1
+ERK1 and ERK2 cascade	GSE61992	1
+establishment of localization	GSE61992	1
+Eukaryotic Translation Elongation	GSE61992	0
+Eukaryotic Translation Termination	GSE61992	0
+export from cell	GSE61992	0
+external encapsulating structure	GSE61992	1
+external encapsulating structure organization	GSE61992	1
+external side of plasma membrane	GSE61992	1
+extracellular exosome	GSE61992	1
+extracellular matrix	GSE61992	1
+extracellular matrix binding	GSE61992	0
+extracellular matrix disassembly	GSE61992	0
+extracellular matrix organization	GSE61992	1
+Extracellular matrix organization	GSE61992	1
+extracellular matrix structural constituent	GSE61992	1
+extracellular matrix structural constituent conferring tensile strength	GSE61992	1
+extracellular membrane-bounded organelle	GSE61992	1
+extracellular organelle	GSE61992	1
+extracellular region	GSE61992	1
+extracellular space	GSE61992	1
+extracellular structure organization	GSE61992	1
+extracellular vesicle	GSE61992	1
+Extrafollicular and follicular B cell activation by SARS CoV 2	GSE61992	0
+extrinsic apoptotic signaling pathway	GSE61992	1
+fat cell differentiation	GSE61992	0
+fatty acid transport	GSE61992	0
+Fc receptor mediated stimulatory signaling pathway	GSE61992	0
+Fc receptor signaling pathway	GSE61992	0
+Fc-gamma receptor signaling pathway	GSE61992	0
+Fc-gamma receptor signaling pathway involved in phagocytosis	GSE61992	0
+Fever	GSE61992	1
+ficolin-1-rich granule membrane	GSE61992	0
+focal adhesion	GSE61992	1
+Focal adhesion	GSE61992	1
+focal adhesion assembly	GSE61992	1
+Focal adhesion PI3K Akt mTOR signaling pathway	GSE61992	0
+G protein-coupled receptor binding	GSE61992	0
+Generation of second messenger molecules	GSE61992	0
+glycosaminoglycan binding	GSE61992	1
+GPCR downstream signalling	GSE61992	0
+GPCR ligand binding	GSE61992	0
+granulocyte activation	GSE61992	1
+granulocyte chemotaxis	GSE61992	1
+granulocyte migration	GSE61992	1
+growth factor binding	GSE61992	0
+growth factor receptor binding	GSE61992	0
+heart development	GSE61992	1
+heart morphogenesis	GSE61992	0
+Hematological neoplasm	GSE61992	1
+hemopoiesis	GSE61992	1
+hemostasis	GSE61992	0
+heparin binding	GSE61992	1
+heterocycle catabolic process	GSE61992	1
+Hippo signaling regulation pathways	GSE61992	0
+homeostasis of number of cells	GSE61992	1
+homeostatic process	GSE61992	1
+hsa-miR-124-3p	GSE61992	1
+humoral immune response	GSE61992	1
+icosanoid secretion	GSE61992	0
+icosanoid transport	GSE61992	0
+identical protein binding	GSE61992	1
+IL 3 signaling pathway	GSE61992	0
+immune effector process	GSE61992	1
+immune receptor activity	GSE61992	0
+immune response	GSE61992	1
+immune response-activating cell surface receptor signaling pathway	GSE61992	1
+immune response-activating signaling pathway	GSE61992	1
+immune response-regulating cell surface receptor signaling pathway	GSE61992	1
+immune response-regulating cell surface receptor signaling pathway involved in phagocytosis	GSE61992	0
+immune response-regulating signaling pathway	GSE61992	1
+Immune System	GSE61992	1
+immune system process	GSE61992	1
+Immunodeficiency	GSE61992	1
+immunological synapse	GSE61992	1
+import into cell	GSE61992	0
+Increased inflammatory response	GSE61992	1
+inflammatory response	GSE61992	1
+innate immune response	GSE61992	1
+Innate Immune System	GSE61992	1
+inorganic ion homeostasis	GSE61992	1
+integrin binding	GSE61992	1
+integrin-mediated signaling pathway	GSE61992	1
+Interferon alpha/beta signaling	GSE61992	1
+Interferon gamma signaling	GSE61992	1
+Interferon Signaling	GSE61992	1
+Interleukin-10 signaling	GSE61992	1
+interleukin-2 production	GSE61992	1
+interleukin-6 production	GSE61992	1
+interleukin-8 production	GSE61992	1
+intracellular calcium ion homeostasis	GSE61992	1
+intracellular chemical homeostasis	GSE61992	1
+intracellular monoatomic cation homeostasis	GSE61992	1
+intracellular monoatomic ion homeostasis	GSE61992	1
+intracellular organelle lumen	GSE61992	0
+intracellular signal transduction	GSE61992	1
+intracellular signaling cassette	GSE61992	1
+intracellular vesicle	GSE61992	1
+killing of cells of another organism	GSE61992	1
+leukocyte activation	GSE61992	1
+leukocyte activation involved in immune response	GSE61992	1
+leukocyte cell-cell adhesion	GSE61992	1
+leukocyte chemotaxis	GSE61992	1
+leukocyte differentiation	GSE61992	1
+leukocyte homeostasis	GSE61992	1
+leukocyte mediated immunity	GSE61992	1
+leukocyte migration	GSE61992	1
+leukocyte proliferation	GSE61992	1
+lipid export from cell	GSE61992	0
+lipid localization	GSE61992	0
+lipid transport	GSE61992	0
+localization	GSE61992	1
+locomotion	GSE61992	1
+lumenal side of endoplasmic reticulum membrane	GSE61992	1
+lumenal side of membrane	GSE61992	1
+lymph node	GSE61992	1
+lymph node; germinal center cells[≥Low]	GSE61992	1
+lymph node; non-germinal center cells[≥Low]	GSE61992	1
+lymph node; non-germinal center cells[≥Medium]	GSE61992	1
+lymph node; non-germinal center cells[High]	GSE61992	0
+Lymphadenopathy	GSE61992	1
+lymphocyte activation	GSE61992	1
+lymphocyte activation involved in immune response	GSE61992	0
+lymphocyte costimulation	GSE61992	1
+lymphocyte differentiation	GSE61992	1
+lymphocyte mediated immunity	GSE61992	1
+lymphocyte proliferation	GSE61992	1
+Lymphoma	GSE61992	0
+Lymphopenia	GSE61992	1
+lysosome	GSE61992	0
+lytic vacuole	GSE61992	0
+macromolecule catabolic process	GSE61992	1
+macromolecule localization	GSE61992	0
+macromolecule modification	GSE61992	1
+macrophage activation	GSE61992	1
+maintenance of location	GSE61992	1
+maintenance of location in cell	GSE61992	1
+MAPK cascade	GSE61992	1
+membrane	GSE61992	1
+membrane microdomain	GSE61992	0
+membrane raft	GSE61992	0
+membrane-enclosed lumen	GSE61992	0
+Meningitis	GSE61992	0
+MHC class II protein complex	GSE61992	1
+MHC class II protein complex assembly	GSE61992	0
+MHC class II protein complex binding	GSE61992	1
+MHC class II receptor activity	GSE61992	0
+MHC protein binding	GSE61992	1
+MHC protein complex	GSE61992	1
+MHC protein complex assembly	GSE61992	0
+MHC protein complex binding	GSE61992	1
+Microglia pathogen phagocytosis pathway	GSE61992	1
+molecular function regulator activity	GSE61992	1
+molecular transducer activity	GSE61992	0
+monoatomic cation homeostasis	GSE61992	1
+monoatomic ion homeostasis	GSE61992	1
+monocarboxylic acid transport	GSE61992	0
+monocyte chemotaxis	GSE61992	1
+mononuclear cell differentiation	GSE61992	1
+mononuclear cell migration	GSE61992	1
+mononuclear cell proliferation	GSE61992	1
+multicellular organism development	GSE61992	1
+multicellular organismal process	GSE61992	1
+multicellular organismal-level homeostasis	GSE61992	1
+muscle cell migration	GSE61992	0
+muscle cell proliferation	GSE61992	1
+myeloid cell differentiation	GSE61992	1
+myeloid leukocyte activation	GSE61992	1
+myeloid leukocyte differentiation	GSE61992	0
+myeloid leukocyte migration	GSE61992	1
+negative regulation of antigen processing and presentation	GSE61992	1
+negative regulation of apoptotic process	GSE61992	0
+negative regulation of biological process	GSE61992	1
+negative regulation of blood coagulation	GSE61992	0
+negative regulation of catabolic process	GSE61992	0
+negative regulation of cell activation	GSE61992	1
+negative regulation of cell adhesion	GSE61992	1
+negative regulation of cell communication	GSE61992	1
+negative regulation of cell population proliferation	GSE61992	1
+negative regulation of cellular process	GSE61992	1
+negative regulation of coagulation	GSE61992	0
+negative regulation of defense response	GSE61992	1
+negative regulation of developmental process	GSE61992	1
+negative regulation of hemostasis	GSE61992	0
+negative regulation of hormone secretion	GSE61992	0
+negative regulation of immune effector process	GSE61992	1
+negative regulation of immune response	GSE61992	1
+negative regulation of immune system process	GSE61992	1
+negative regulation of inflammatory response	GSE61992	1
+negative regulation of innate immune response	GSE61992	1
+negative regulation of leukocyte mediated immunity	GSE61992	1
+negative regulation of lymphocyte mediated immunity	GSE61992	1
+negative regulation of molecular function	GSE61992	1
+negative regulation of multicellular organismal process	GSE61992	1
+negative regulation of nitrogen compound metabolic process	GSE61992	1
+negative regulation of programmed cell death	GSE61992	0
+negative regulation of protein maturation	GSE61992	0
+negative regulation of protein metabolic process	GSE61992	1
+negative regulation of protein processing	GSE61992	0
+negative regulation of response to biotic stimulus	GSE61992	1
+negative regulation of response to external stimulus	GSE61992	1
+negative regulation of response to stimulus	GSE61992	1
+negative regulation of response to wounding	GSE61992	1
+negative regulation of sequestering of calcium ion	GSE61992	1
+negative regulation of signal transduction	GSE61992	1
+negative regulation of signaling	GSE61992	1
+negative regulation of wound healing	GSE61992	0
+negative T cell selection	GSE61992	1
+nervous system development	GSE61992	0
+Nervous system development	GSE61992	1
+Network map of SARS CoV 2 signaling pathway	GSE61992	1
+neuron projection guidance	GSE61992	0
+neuropeptide receptor binding	GSE61992	0
+Neutropenia	GSE61992	1
+neutrophil activation	GSE61992	1
+neutrophil activation involved in immune response	GSE61992	0
+neutrophil chemotaxis	GSE61992	1
+Neutrophil degranulation	GSE61992	1
+neutrophil migration	GSE61992	1
+nitric oxide biosynthetic process	GSE61992	1
+nitric oxide metabolic process	GSE61992	1
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE61992	0
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE61992	0
+Nonsense-Mediated Decay (NMD)	GSE61992	0
+nucleobase-containing compound catabolic process	GSE61992	1
+nucleoplasm	GSE61992	1
+organelle lumen	GSE61992	0
+organelle membrane	GSE61992	0
+organic substance catabolic process	GSE61992	1
+organonitrogen compound metabolic process	GSE61992	1
+ossification	GSE61992	0
+Overview of proinflammatory and profibrotic mediators	GSE61992	0
+Pancytopenia	GSE61992	1
+Pathogenesis of SARS CoV 2 mediated by nsp9 nsp10 complex	GSE61992	0
+PD-1 signaling	GSE61992	0
+peptide antigen assembly with MHC class II protein complex	GSE61992	0
+peptide antigen assembly with MHC protein complex	GSE61992	0
+peptide antigen binding	GSE61992	1
+peptide binding	GSE61992	1
+Peptide chain elongation	GSE61992	0
+Peptide ligand-binding receptors	GSE61992	0
+peptide metabolic process	GSE61992	0
+peptidyl-amino acid modification	GSE61992	1
+peptidyl-tyrosine modification	GSE61992	1
+peptidyl-tyrosine phosphorylation	GSE61992	1
+phagocytic vesicle	GSE61992	1
+phagocytic vesicle membrane	GSE61992	1
+phagocytosis	GSE61992	1
+phosphate-containing compound metabolic process	GSE61992	1
+phosphorus metabolic process	GSE61992	1
+phosphorylation	GSE61992	1
+Phosphorylation of CD3 and TCR zeta chains	GSE61992	0
+Photodynamic therapy induced NF kB survival signaling	GSE61992	0
+plasma membrane	GSE61992	1
+plasma membrane protein complex	GSE61992	0
+plasma membrane region	GSE61992	0
+Pleural mesothelioma	GSE61992	1
+positive regulation of actin filament bundle assembly	GSE61992	1
+positive regulation of adaptive immune response	GSE61992	1
+positive regulation of alpha-beta T cell activation	GSE61992	1
+positive regulation of angiogenesis	GSE61992	1
+positive regulation of biological process	GSE61992	1
+positive regulation of biosynthetic process	GSE61992	1
+positive regulation of canonical NF-kappaB signal transduction	GSE61992	1
+positive regulation of catabolic process	GSE61992	1
+positive regulation of cell activation	GSE61992	1
+positive regulation of cell adhesion	GSE61992	1
+positive regulation of cell adhesion mediated by integrin	GSE61992	0
+positive regulation of cell communication	GSE61992	1
+positive regulation of cell development	GSE61992	1
+positive regulation of cell differentiation	GSE61992	1
+positive regulation of cell migration	GSE61992	1
+positive regulation of cell motility	GSE61992	1
+positive regulation of cell population proliferation	GSE61992	1
+positive regulation of cell-cell adhesion	GSE61992	1
+positive regulation of cell-matrix adhesion	GSE61992	1
+positive regulation of cellular biosynthetic process	GSE61992	1
+positive regulation of cellular component organization	GSE61992	1
+positive regulation of cellular metabolic process	GSE61992	1
+positive regulation of cellular process	GSE61992	1
+positive regulation of chemotaxis	GSE61992	1
+positive regulation of cytokine production	GSE61992	1
+positive regulation of defense response	GSE61992	1
+positive regulation of developmental process	GSE61992	1
+positive regulation of DNA-templated transcription	GSE61992	1
+positive regulation of ERK1 and ERK2 cascade	GSE61992	0
+positive regulation of gene expression	GSE61992	1
+positive regulation of hemopoiesis	GSE61992	1
+positive regulation of immune effector process	GSE61992	1
+positive regulation of immune response	GSE61992	1
+positive regulation of immune system process	GSE61992	1
+positive regulation of inflammatory response	GSE61992	1
+positive regulation of innate immune response	GSE61992	1
+positive regulation of interleukin-2 production	GSE61992	1
+positive regulation of interleukin-6 production	GSE61992	1
+positive regulation of interleukin-8 production	GSE61992	1
+positive regulation of intracellular signal transduction	GSE61992	1
+positive regulation of leukocyte activation	GSE61992	1
+positive regulation of leukocyte cell-cell adhesion	GSE61992	1
+positive regulation of leukocyte chemotaxis	GSE61992	1
+positive regulation of leukocyte differentiation	GSE61992	1
+positive regulation of leukocyte migration	GSE61992	1
+positive regulation of leukocyte proliferation	GSE61992	1
+positive regulation of locomotion	GSE61992	1
+positive regulation of lymphocyte activation	GSE61992	1
+positive regulation of lymphocyte differentiation	GSE61992	0
+positive regulation of lymphocyte proliferation	GSE61992	1
+positive regulation of macromolecule biosynthetic process	GSE61992	1
+positive regulation of macromolecule metabolic process	GSE61992	1
+positive regulation of MAPK cascade	GSE61992	1
+positive regulation of metabolic process	GSE61992	1
+positive regulation of molecular function	GSE61992	1
+positive regulation of mononuclear cell migration	GSE61992	0
+positive regulation of mononuclear cell proliferation	GSE61992	1
+positive regulation of multicellular organismal process	GSE61992	1
+positive regulation of nitric oxide biosynthetic process	GSE61992	1
+positive regulation of nitric oxide metabolic process	GSE61992	1
+positive regulation of nitrogen compound metabolic process	GSE61992	1
+positive regulation of non-canonical NF-kappaB signal transduction	GSE61992	1
+positive regulation of nucleobase-containing compound metabolic process	GSE61992	1
+positive regulation of peptidyl-tyrosine phosphorylation	GSE61992	1
+positive regulation of phagocytosis	GSE61992	0
+positive regulation of phosphate metabolic process	GSE61992	1
+positive regulation of phospholipase C activity	GSE61992	0
+positive regulation of phosphorus metabolic process	GSE61992	1
+positive regulation of phosphorylation	GSE61992	1
+positive regulation of programmed cell death	GSE61992	1
+positive regulation of protein localization	GSE61992	0
+positive regulation of protein metabolic process	GSE61992	1
+positive regulation of protein modification process	GSE61992	1
+positive regulation of protein phosphorylation	GSE61992	1
+positive regulation of response to biotic stimulus	GSE61992	1
+positive regulation of response to external stimulus	GSE61992	1
+positive regulation of response to stimulus	GSE61992	1
+positive regulation of RNA biosynthetic process	GSE61992	1
+positive regulation of RNA metabolic process	GSE61992	1
+positive regulation of signal transduction	GSE61992	1
+positive regulation of signaling	GSE61992	1
+positive regulation of smooth muscle cell migration	GSE61992	0
+positive regulation of smooth muscle cell proliferation	GSE61992	1
+positive regulation of stress fiber assembly	GSE61992	1
+positive regulation of supramolecular fiber organization	GSE61992	0
+positive regulation of T cell activation	GSE61992	1
+positive regulation of T cell proliferation	GSE61992	1
+positive regulation of transcription by RNA polymerase II	GSE61992	1
+positive regulation of type II interferon production	GSE61992	1
+positive regulation of vasculature development	GSE61992	1
+positive T cell selection	GSE61992	1
+positive thymic T cell selection	GSE61992	0
+programmed cell death	GSE61992	1
+prostaglandin secretion	GSE61992	0
+prostaglandin transport	GSE61992	0
+protein binding	GSE61992	1
+protein complex involved in cell adhesion	GSE61992	0
+protein homodimerization activity	GSE61992	1
+protein localization to nucleus	GSE61992	1
+protein metabolic process	GSE61992	1
+protein modification process	GSE61992	1
+protein phosphorylation	GSE61992	1
+protein-containing complex binding	GSE61992	1
+PRRX2-UCHL1 complex	GSE61992	0
+reactive nitrogen species metabolic process	GSE61992	1
+reactive oxygen species metabolic process	GSE61992	0
+receptor complex	GSE61992	0
+receptor ligand activity	GSE61992	1
+rectum; mucosal lymphoid cells[≥Low]	GSE61992	1
+rectum; mucosal lymphoid cells[≥Medium]	GSE61992	1
+rectum; mucosal lymphoid cells[High]	GSE61992	0
+Recurrent fever	GSE61992	1
+Recurrent infections	GSE61992	1
+Reduced natural killer cell activity	GSE61992	0
+regulation of actin cytoskeleton organization	GSE61992	0
+regulation of adaptive immune response	GSE61992	1
+regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE61992	0
+regulation of alpha-beta T cell activation	GSE61992	0
+regulation of anatomical structure morphogenesis	GSE61992	1
+regulation of angiogenesis	GSE61992	1
+regulation of animal organ morphogenesis	GSE61992	0
+regulation of antigen processing and presentation	GSE61992	1
+regulation of apoptotic process	GSE61992	1
+regulation of B cell differentiation	GSE61992	0
+regulation of biological process	GSE61992	1
+regulation of biological quality	GSE61992	1
+regulation of biosynthetic process	GSE61992	1
+regulation of blood coagulation	GSE61992	0
+regulation of blood pressure	GSE61992	1
+regulation of body fluid levels	GSE61992	0
+regulation of calcium ion transport	GSE61992	0
+regulation of calcium-mediated signaling	GSE61992	0
+regulation of canonical NF-kappaB signal transduction	GSE61992	1
+regulation of catabolic process	GSE61992	1
+regulation of catalytic activity	GSE61992	0
+regulation of cell activation	GSE61992	1
+regulation of cell adhesion	GSE61992	1
+regulation of cell adhesion mediated by integrin	GSE61992	0
+regulation of cell communication	GSE61992	1
+regulation of cell development	GSE61992	1
+regulation of cell differentiation	GSE61992	1
+regulation of cell junction assembly	GSE61992	0
+regulation of cell migration	GSE61992	1
+regulation of cell motility	GSE61992	1
+regulation of cell population proliferation	GSE61992	1
+regulation of cell-cell adhesion	GSE61992	1
+regulation of cell-matrix adhesion	GSE61992	1
+regulation of cell-substrate adhesion	GSE61992	1
+regulation of cell-substrate junction assembly	GSE61992	1
+regulation of cell-substrate junction organization	GSE61992	1
+regulation of cellular biosynthetic process	GSE61992	1
+regulation of cellular component organization	GSE61992	1
+regulation of cellular localization	GSE61992	0
+regulation of cellular metabolic process	GSE61992	1
+regulation of cellular process	GSE61992	1
+regulation of chemotaxis	GSE61992	1
+regulation of coagulation	GSE61992	0
+regulation of cytokine production	GSE61992	1
+regulation of cytokine-mediated signaling pathway	GSE61992	1
+regulation of defense response	GSE61992	1
+regulation of dendritic cell antigen processing and presentation	GSE61992	1
+regulation of developmental process	GSE61992	1
+regulation of DNA-binding transcription factor activity	GSE61992	1
+regulation of endodermal cell differentiation	GSE61992	1
+regulation of ERK1 and ERK2 cascade	GSE61992	1
+regulation of focal adhesion assembly	GSE61992	1
+regulation of gene expression	GSE61992	1
+regulation of granulocyte chemotaxis	GSE61992	1
+regulation of hemopoiesis	GSE61992	1
+regulation of hemostasis	GSE61992	0
+regulation of hormone secretion	GSE61992	0
+regulation of hydrolase activity	GSE61992	1
+regulation of immune effector process	GSE61992	1
+regulation of immune response	GSE61992	1
+regulation of immune system process	GSE61992	1
+regulation of inflammatory response	GSE61992	1
+regulation of innate immune response	GSE61992	1
+regulation of interleukin-2 production	GSE61992	1
+regulation of interleukin-6 production	GSE61992	1
+regulation of interleukin-8 production	GSE61992	1
+regulation of intracellular signal transduction	GSE61992	1
+regulation of leukocyte activation	GSE61992	1
+regulation of leukocyte cell-cell adhesion	GSE61992	1
+regulation of leukocyte chemotaxis	GSE61992	1
+regulation of leukocyte differentiation	GSE61992	1
+regulation of leukocyte mediated immunity	GSE61992	1
+regulation of leukocyte migration	GSE61992	1
+regulation of leukocyte proliferation	GSE61992	1
+regulation of localization	GSE61992	1
+regulation of locomotion	GSE61992	1
+regulation of lymphocyte activation	GSE61992	1
+regulation of lymphocyte differentiation	GSE61992	1
+regulation of lymphocyte proliferation	GSE61992	1
+regulation of macromolecule biosynthetic process	GSE61992	1
+regulation of macromolecule metabolic process	GSE61992	1
+regulation of macrophage activation	GSE61992	0
+regulation of MAPK cascade	GSE61992	1
+regulation of metabolic process	GSE61992	1
+regulation of molecular function	GSE61992	1
+regulation of monocyte chemotaxis	GSE61992	1
+regulation of mononuclear cell migration	GSE61992	1
+regulation of mononuclear cell proliferation	GSE61992	1
+regulation of multicellular organismal development	GSE61992	1
+regulation of multicellular organismal process	GSE61992	1
+regulation of myeloid cell differentiation	GSE61992	1
+regulation of neutrophil degranulation	GSE61992	0
+regulation of nitric oxide biosynthetic process	GSE61992	1
+regulation of nitric oxide metabolic process	GSE61992	1
+regulation of nitrogen compound metabolic process	GSE61992	1
+regulation of non-canonical NF-kappaB signal transduction	GSE61992	1
+regulation of nucleobase-containing compound metabolic process	GSE61992	1
+regulation of peptidyl-tyrosine phosphorylation	GSE61992	1
+regulation of phagocytosis	GSE61992	0
+regulation of phosphate metabolic process	GSE61992	1
+regulation of phospholipase C activity	GSE61992	0
+regulation of phosphorus metabolic process	GSE61992	1
+regulation of phosphorylation	GSE61992	1
+regulation of primary metabolic process	GSE61992	1
+regulation of programmed cell death	GSE61992	1
+regulation of protein catabolic process	GSE61992	1
+regulation of protein localization	GSE61992	0
+regulation of protein localization to nucleus	GSE61992	1
+regulation of protein metabolic process	GSE61992	1
+regulation of protein modification by small protein conjugation or removal	GSE61992	0
+regulation of protein modification process	GSE61992	1
+regulation of protein phosphorylation	GSE61992	1
+regulation of response to biotic stimulus	GSE61992	1
+regulation of response to cytokine stimulus	GSE61992	1
+regulation of response to external stimulus	GSE61992	1
+regulation of response to stimulus	GSE61992	1
+regulation of response to stress	GSE61992	1
+regulation of response to wounding	GSE61992	1
+regulation of RNA metabolic process	GSE61992	1
+regulation of sequestering of calcium ion	GSE61992	1
+regulation of signal transduction	GSE61992	1
+regulation of signaling	GSE61992	1
+regulation of smooth muscle cell migration	GSE61992	0
+regulation of smooth muscle cell proliferation	GSE61992	1
+regulation of systemic arterial blood pressure	GSE61992	0
+regulation of T cell activation	GSE61992	1
+regulation of T cell proliferation	GSE61992	1
+regulation of tissue remodeling	GSE61992	0
+regulation of transport	GSE61992	1
+regulation of tumor necrosis factor production	GSE61992	1
+regulation of tumor necrosis factor superfamily cytokine production	GSE61992	1
+regulation of vasculature development	GSE61992	1
+regulation of wound healing	GSE61992	1
+release of sequestered calcium ion into cytosol	GSE61992	1
+response to bacterium	GSE61992	1
+response to biotic stimulus	GSE61992	1
+response to chemical	GSE61992	1
+response to chemokine	GSE61992	1
+response to cytokine	GSE61992	1
+response to decreased oxygen levels	GSE61992	0
+response to endogenous stimulus	GSE61992	1
+response to external biotic stimulus	GSE61992	1
+response to external stimulus	GSE61992	1
+response to growth factor	GSE61992	1
+response to hypoxia	GSE61992	0
+response to lipid	GSE61992	1
+response to lipopolysaccharide	GSE61992	1
+response to molecule of bacterial origin	GSE61992	1
+response to organic substance	GSE61992	1
+response to organonitrogen compound	GSE61992	1
+response to other organism	GSE61992	1
+response to oxygen levels	GSE61992	0
+response to oxygen-containing compound	GSE61992	1
+response to peptide	GSE61992	1
+response to reactive oxygen species	GSE61992	1
+response to stimulus	GSE61992	1
+response to stress	GSE61992	1
+response to tumor necrosis factor	GSE61992	1
+response to type II interferon	GSE61992	1
+response to wounding	GSE61992	1
+ribosomal subunit	GSE61992	0
+SARS CoV 2 innate immunity evasion and cell specific immune response	GSE61992	1
+secretion	GSE61992	0
+secretion by cell	GSE61992	0
+secretory granule	GSE61992	1
+secretory granule membrane	GSE61992	1
+secretory vesicle	GSE61992	1
+Selenoamino acid metabolism	GSE61992	0
+Selenocysteine synthesis	GSE61992	0
+sequestering of calcium ion	GSE61992	1
+serine-type endopeptidase activity	GSE61992	0
+Severe infection	GSE61992	1
+Severe viral infection	GSE61992	1
+side of membrane	GSE61992	1
+signal release	GSE61992	0
+signal transduction	GSE61992	1
+Signal Transduction	GSE61992	1
+signaling	GSE61992	1
+Signaling by GPCR	GSE61992	0
+Signaling by Interleukins	GSE61992	1
+Signaling by PDGF	GSE61992	0
+signaling receptor activator activity	GSE61992	1
+signaling receptor activity	GSE61992	0
+signaling receptor binding	GSE61992	1
+signaling receptor regulator activity	GSE61992	1
+Sinusitis	GSE61992	1
+skin 1; extracellular matrix[≥Low]	GSE61992	1
+skin 1; extracellular matrix[High]	GSE61992	1
+Skin rash	GSE61992	1
+smooth muscle cell migration	GSE61992	0
+smooth muscle cell proliferation	GSE61992	1
+specific granule membrane	GSE61992	0
+Spinal cord injury	GSE61992	1
+spleen	GSE61992	1
+spleen; cells in red pulp[≥Low]	GSE61992	1
+spleen; cells in red pulp[≥Medium]	GSE61992	1
+spleen; cells in red pulp[High]	GSE61992	1
+stem cell fate commitment	GSE61992	0
+stress fiber	GSE61992	1
+sulfur compound binding	GSE61992	1
+supramolecular fiber organization	GSE61992	1
+synapse	GSE61992	0
+system development	GSE61992	1
+T cell activation	GSE61992	1
+T cell activation involved in immune response	GSE61992	0
+T cell activation SARS CoV 2	GSE61992	1
+T cell costimulation	GSE61992	1
+T cell differentiation	GSE61992	1
+T cell mediated immunity	GSE61992	1
+T cell migration	GSE61992	0
+T cell proliferation	GSE61992	1
+T cell receptor binding	GSE61992	1
+T cell receptor signaling pathway	GSE61992	1
+T cell selection	GSE61992	1
+T lymphocytopenia	GSE61992	0
+TAP binding	GSE61992	1
+taxis	GSE61992	1
+tertiary granule	GSE61992	1
+tertiary granule membrane	GSE61992	0
+Thrombocytopenia	GSE61992	1
+tissue development	GSE61992	1
+tissue migration	GSE61992	1
+tissue remodeling	GSE61992	0
+tonsil	GSE61992	1
+tonsil; germinal center cells[≥Low]	GSE61992	1
+tonsil; germinal center cells[≥Medium]	GSE61992	0
+tonsil; non-germinal center cells[≥Low]	GSE61992	1
+tonsil; non-germinal center cells[≥Medium]	GSE61992	1
+tonsil; non-germinal center cells[High]	GSE61992	0
+Translocation of ZAP-70 to Immunological synapse	GSE61992	0
+transmembrane receptor protein tyrosine kinase signaling pathway	GSE61992	0
+transport	GSE61992	1
+tube development	GSE61992	1
+tube morphogenesis	GSE61992	1
+tumor necrosis factor production	GSE61992	1
+tumor necrosis factor superfamily cytokine production	GSE61992	1
+Type II interferon signaling	GSE61992	1
+type II interferon-mediated signaling pathway	GSE61992	1
+Unusual CNS infection	GSE61992	0
+Unusual infection	GSE61992	1
+Unusual infection by anatomical site	GSE61992	0
+vacuole	GSE61992	0
+vascular process in circulatory system	GSE61992	0
+vasculature development	GSE61992	1
+Vasculitis	GSE61992	1
+Vasculitis by anatomical site	GSE61992	0
+vesicle	GSE61992	1
+vesicle membrane	GSE61992	1
+vesicle-mediated transport	GSE61992	1
+Viral mRNA Translation	GSE61992	0
+wound healing	GSE61992	1
+Abnormal B cell count	GSE91061	0
+Abnormal B cell morphology	GSE91061	0
+Abnormal bone marrow cell morphology	GSE91061	0
+Abnormal cellular immune system morphology	GSE91061	0
+Abnormal circulating C-reactive protein concentration	GSE91061	0
+Abnormal erythrocyte morphology	GSE91061	0
+Abnormal granulocyte count	GSE91061	0
+Abnormal granulocyte morphology	GSE91061	0
+Abnormal immune system morphology	GSE91061	0
+Abnormal immunoglobulin level	GSE91061	0
+Abnormal inflammatory response	GSE91061	0
+Abnormal large intestine morphology	GSE91061	0
+Abnormal leukocyte count	GSE91061	0
+Abnormal leukocyte morphology	GSE91061	0
+Abnormal leukocyte physiology	GSE91061	0
+Abnormal lymph node morphology	GSE91061	0
+Abnormal lymphocyte count	GSE91061	0
+Abnormal lymphocyte morphology	GSE91061	0
+Abnormal lymphocyte physiology	GSE91061	0
+Abnormal myeloid leukocyte morphology	GSE91061	0
+Abnormal natural killer cell physiology	GSE91061	0
+Abnormal neutrophil count	GSE91061	0
+Abnormal paranasal sinus morphology	GSE91061	0
+Abnormal platelet count	GSE91061	0
+Abnormal platelet morphology	GSE91061	0
+Abnormal rectum morphology	GSE91061	0
+Abnormal respiratory system morphology	GSE91061	0
+Abnormal T cell count	GSE91061	0
+Abnormal T cell morphology	GSE91061	0
+Abnormal T cell subset distribution	GSE91061	0
+Abnormality of B cell physiology	GSE91061	0
+Abnormality of blood and blood-forming tissues	GSE91061	0
+Abnormality of humoral immunity	GSE91061	0
+Abnormality of immune system physiology	GSE91061	0
+Abnormality of multiple cell lineages in the bone marrow	GSE91061	0
+Abnormality of neutrophils	GSE91061	0
+Abnormality of the immune system	GSE91061	0
+Abnormality of the knee	GSE91061	1
+Abnormality of thrombocytes	GSE91061	0
+actin binding	GSE91061	0
+actin cytoskeleton organization	GSE91061	1
+actin filament	GSE91061	0
+actin filament bundle	GSE91061	0
+actin filament organization	GSE91061	1
+actin filament polymerization	GSE91061	0
+actin filament-based process	GSE91061	1
+actin polymerization or depolymerization	GSE91061	0
+activation of immune response	GSE91061	0
+activation of innate immune response	GSE91061	0
+actomyosin	GSE91061	0
+Acute phase response	GSE91061	0
+Acute viral myocarditis	GSE91061	0
+adaptive immune response	GSE91061	0
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE91061	0
+Adaptive Immune System	GSE91061	0
+adherens junction	GSE91061	1
+Affected pathways in Duchenne muscular dystrophy	GSE91061	1
+Allograft rejection	GSE91061	0
+alpha-beta T cell activation	GSE91061	0
+alpha-beta T cell differentiation	GSE91061	0
+alpha-beta T cell proliferation	GSE91061	0
+ameboidal-type cell migration	GSE91061	0
+amide binding	GSE91061	0
+amide metabolic process	GSE91061	0
+amyloid-beta binding	GSE91061	0
+anatomical structure development	GSE91061	1
+anatomical structure formation involved in morphogenesis	GSE91061	1
+anatomical structure morphogenesis	GSE91061	1
+anchoring junction	GSE91061	1
+Anemia	GSE91061	0
+angiogenesis	GSE91061	1
+animal organ development	GSE91061	1
+animal organ morphogenesis	GSE91061	1
+Anorectal anomaly	GSE91061	0
+antigen processing and presentation	GSE91061	0
+antigen processing and presentation of exogenous antigen	GSE91061	0
+antigen processing and presentation of exogenous peptide antigen	GSE91061	0
+antigen processing and presentation of exogenous peptide antigen via MHC class II	GSE91061	0
+antigen processing and presentation of peptide antigen	GSE91061	0
+antigen processing and presentation of peptide antigen via MHC class II	GSE91061	0
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	GSE91061	0
+antigen receptor-mediated signaling pathway	GSE91061	0
+apoptotic process	GSE91061	1
+appendix; germinal center cells[≥Medium]	GSE91061	0
+appendix; non-germinal center cells[≥Low]	GSE91061	0
+appendix; non-germinal center cells[≥Medium]	GSE91061	0
+aromatic compound catabolic process	GSE91061	0
+Arthralgia	GSE91061	0
+Assembly of collagen fibrils and other multimeric structures	GSE91061	1
+Autoimmunity	GSE91061	0
+axon development	GSE91061	1
+axon guidance	GSE91061	1
+Axon guidance	GSE91061	1
+B cell activation	GSE91061	0
+B cell differentiation	GSE91061	0
+B cell receptor signaling pathway	GSE91061	0
+B lymphocytopenia	GSE91061	0
+basement membrane	GSE91061	1
+binding	GSE91061	1
+biological process involved in interspecies interaction between organisms	GSE91061	1
+biological regulation	GSE91061	1
+blood circulation	GSE91061	1
+blood coagulation	GSE91061	1
+blood vessel development	GSE91061	1
+blood vessel morphogenesis	GSE91061	1
+bone marrow	GSE91061	0
+bone marrow; hematopoietic cells[≥Low]	GSE91061	0
+bone marrow; hematopoietic cells[≥Medium]	GSE91061	0
+bounding membrane of organelle	GSE91061	0
+calcium ion binding	GSE91061	0
+calcium ion homeostasis	GSE91061	0
+calcium ion transmembrane import into cytosol	GSE91061	0
+calcium ion transport	GSE91061	0
+canonical NF-kappaB signal transduction	GSE91061	0
+carbohydrate derivative binding	GSE91061	0
+catabolic process	GSE91061	1
+cell activation	GSE91061	1
+cell activation involved in immune response	GSE91061	0
+cell adhesion	GSE91061	1
+cell adhesion molecule binding	GSE91061	1
+cell chemotaxis	GSE91061	1
+cell communication	GSE91061	1
+cell death	GSE91061	1
+cell development	GSE91061	1
+cell differentiation	GSE91061	1
+cell junction	GSE91061	1
+cell junction assembly	GSE91061	1
+cell junction organization	GSE91061	1
+cell killing	GSE91061	0
+cell migration	GSE91061	1
+cell morphogenesis	GSE91061	1
+cell motility	GSE91061	1
+cell periphery	GSE91061	1
+cell population proliferation	GSE91061	1
+cell surface	GSE91061	1
+cell surface receptor signaling pathway	GSE91061	1
+cell-cell adhesion	GSE91061	1
+cell-cell junction	GSE91061	1
+cell-cell signaling	GSE91061	1
+cell-matrix adhesion	GSE91061	1
+cell-substrate adhesion	GSE91061	1
+cell-substrate junction	GSE91061	1
+cell-substrate junction assembly	GSE91061	1
+cell-substrate junction organization	GSE91061	1
+cellular anatomical entity	GSE91061	1
+cellular anatomical entity morphogenesis	GSE91061	1
+cellular developmental process	GSE91061	1
+cellular localization	GSE91061	1
+cellular nitrogen compound biosynthetic process	GSE91061	1
+cellular nitrogen compound catabolic process	GSE91061	0
+cellular response to biotic stimulus	GSE91061	0
+cellular response to chemical stimulus	GSE91061	1
+cellular response to chemical stress	GSE91061	0
+cellular response to chemokine	GSE91061	0
+cellular response to cytokine stimulus	GSE91061	1
+cellular response to endogenous stimulus	GSE91061	1
+cellular response to growth factor stimulus	GSE91061	1
+cellular response to lipid	GSE91061	1
+cellular response to lipopolysaccharide	GSE91061	0
+cellular response to molecule of bacterial origin	GSE91061	0
+cellular response to organic substance	GSE91061	1
+cellular response to oxygen-containing compound	GSE91061	1
+cellular response to reactive oxygen species	GSE91061	0
+cellular response to stimulus	GSE91061	1
+cellular response to type II interferon	GSE91061	0
+chemokine activity	GSE91061	0
+Chemokine signaling pathway	GSE91061	0
+chemokine-mediated signaling pathway	GSE91061	0
+chemotaxis	GSE91061	1
+Cigarette-paper scars	GSE91061	0
+circulatory system development	GSE91061	1
+circulatory system process	GSE91061	1
+Class A/1 (Rhodopsin-like receptors)	GSE91061	0
+clathrin-coated endocytic vesicle membrane	GSE91061	0
+coagulation	GSE91061	1
+Colitis	GSE91061	0
+Collagen biosynthesis and modifying enzymes	GSE91061	1
+Collagen chain trimerization	GSE91061	1
+Collagen formation	GSE91061	1
+collagen trimer	GSE91061	1
+collagen-containing extracellular matrix	GSE91061	1
+colon; mucosal lymphoid cells[≥Low]	GSE91061	0
+colon; mucosal lymphoid cells[≥Medium]	GSE91061	0
+complex of collagen trimers	GSE91061	1
+contractile actin filament bundle	GSE91061	1
+convergent extension involved in axis elongation	GSE91061	0
+CXCR chemokine receptor binding	GSE91061	0
+cytokine activity	GSE91061	0
+cytokine production	GSE91061	0
+cytokine receptor binding	GSE91061	0
+Cytokine Signaling in Immune system	GSE91061	0
+cytokine-mediated signaling pathway	GSE91061	1
+Cytokines and inflammatory response	GSE91061	0
+cytoplasm	GSE91061	1
+cytoplasmic translation	GSE91061	0
+cytoplasmic vesicle	GSE91061	1
+cytoplasmic vesicle membrane	GSE91061	0
+cytosol	GSE91061	1
+cytosolic large ribosomal subunit	GSE91061	1
+cytosolic ribosome	GSE91061	1
+Decreased circulating antibody level	GSE91061	0
+defense response	GSE91061	1
+defense response to other organism	GSE91061	1
+defense response to symbiont	GSE91061	1
+Degradation of the extracellular matrix	GSE91061	0
+dendritic cell antigen processing and presentation	GSE91061	0
+developmental process	GSE91061	1
+Disease	GSE91061	0
+disruption of anatomical structure in another organism	GSE91061	0
+disruption of cell in another organism	GSE91061	0
+Ebola virus infection in host	GSE91061	0
+Elevated circulating C-reactive protein concentration	GSE91061	0
+endocytic vesicle	GSE91061	1
+endocytic vesicle membrane	GSE91061	1
+endocytosis	GSE91061	0
+endoderm development	GSE91061	0
+endoderm formation	GSE91061	1
+endodermal cell differentiation	GSE91061	1
+endomembrane system	GSE91061	1
+endoplasmic reticulum	GSE91061	0
+endoplasmic reticulum lumen	GSE91061	1
+endosome	GSE91061	0
+endothelial cell migration	GSE91061	0
+enzyme-linked receptor protein signaling pathway	GSE91061	1
+ephrin receptor binding	GSE91061	0
+epithelial cell migration	GSE91061	1
+epithelium development	GSE91061	1
+epithelium migration	GSE91061	0
+ERK1 and ERK2 cascade	GSE91061	0
+establishment of localization	GSE91061	1
+Eukaryotic Translation Elongation	GSE91061	0
+Eukaryotic Translation Termination	GSE91061	0
+export from cell	GSE91061	1
+external encapsulating structure	GSE91061	1
+external encapsulating structure organization	GSE91061	1
+external side of plasma membrane	GSE91061	0
+extracellular exosome	GSE91061	1
+extracellular matrix	GSE91061	1
+extracellular matrix binding	GSE91061	0
+extracellular matrix disassembly	GSE91061	0
+extracellular matrix organization	GSE91061	1
+Extracellular matrix organization	GSE91061	1
+extracellular matrix structural constituent	GSE91061	1
+extracellular matrix structural constituent conferring tensile strength	GSE91061	1
+extracellular membrane-bounded organelle	GSE91061	1
+extracellular organelle	GSE91061	1
+extracellular region	GSE91061	1
+extracellular space	GSE91061	1
+extracellular structure organization	GSE91061	1
+extracellular vesicle	GSE91061	1
+Extrafollicular and follicular B cell activation by SARS CoV 2	GSE91061	0
+extrinsic apoptotic signaling pathway	GSE91061	0
+fat cell differentiation	GSE91061	0
+fatty acid transport	GSE91061	1
+Fc receptor mediated stimulatory signaling pathway	GSE91061	1
+Fc receptor signaling pathway	GSE91061	1
+Fc-gamma receptor signaling pathway	GSE91061	1
+Fc-gamma receptor signaling pathway involved in phagocytosis	GSE91061	1
+Fever	GSE91061	0
+ficolin-1-rich granule membrane	GSE91061	0
+focal adhesion	GSE91061	1
+Focal adhesion	GSE91061	1
+focal adhesion assembly	GSE91061	1
+Focal adhesion PI3K Akt mTOR signaling pathway	GSE91061	1
+G protein-coupled receptor binding	GSE91061	1
+Generation of second messenger molecules	GSE91061	0
+glycosaminoglycan binding	GSE91061	1
+GPCR downstream signalling	GSE91061	0
+GPCR ligand binding	GSE91061	0
+granulocyte activation	GSE91061	0
+granulocyte chemotaxis	GSE91061	1
+granulocyte migration	GSE91061	1
+growth factor binding	GSE91061	0
+growth factor receptor binding	GSE91061	1
+heart development	GSE91061	1
+heart morphogenesis	GSE91061	1
+Hematological neoplasm	GSE91061	0
+hemopoiesis	GSE91061	1
+hemostasis	GSE91061	1
+heparin binding	GSE91061	1
+heterocycle catabolic process	GSE91061	0
+Hippo signaling regulation pathways	GSE91061	1
+homeostasis of number of cells	GSE91061	0
+homeostatic process	GSE91061	1
+hsa-miR-124-3p	GSE91061	1
+humoral immune response	GSE91061	0
+icosanoid secretion	GSE91061	0
+icosanoid transport	GSE91061	0
+identical protein binding	GSE91061	0
+IL 3 signaling pathway	GSE91061	0
+immune effector process	GSE91061	0
+immune receptor activity	GSE91061	0
+immune response	GSE91061	1
+immune response-activating cell surface receptor signaling pathway	GSE91061	0
+immune response-activating signaling pathway	GSE91061	0
+immune response-regulating cell surface receptor signaling pathway	GSE91061	0
+immune response-regulating cell surface receptor signaling pathway involved in phagocytosis	GSE91061	1
+immune response-regulating signaling pathway	GSE91061	0
+Immune System	GSE91061	0
+immune system process	GSE91061	1
+Immunodeficiency	GSE91061	0
+immunological synapse	GSE91061	0
+import into cell	GSE91061	0
+Increased inflammatory response	GSE91061	0
+inflammatory response	GSE91061	1
+innate immune response	GSE91061	1
+Innate Immune System	GSE91061	0
+inorganic ion homeostasis	GSE91061	0
+integrin binding	GSE91061	1
+integrin-mediated signaling pathway	GSE91061	1
+Interferon alpha/beta signaling	GSE91061	0
+Interferon gamma signaling	GSE91061	0
+Interferon Signaling	GSE91061	0
+Interleukin-10 signaling	GSE91061	0
+interleukin-2 production	GSE91061	0
+interleukin-6 production	GSE91061	0
+interleukin-8 production	GSE91061	1
+intracellular calcium ion homeostasis	GSE91061	0
+intracellular chemical homeostasis	GSE91061	0
+intracellular monoatomic cation homeostasis	GSE91061	0
+intracellular monoatomic ion homeostasis	GSE91061	0
+intracellular organelle lumen	GSE91061	1
+intracellular signal transduction	GSE91061	1
+intracellular signaling cassette	GSE91061	1
+intracellular vesicle	GSE91061	1
+killing of cells of another organism	GSE91061	0
+leukocyte activation	GSE91061	1
+leukocyte activation involved in immune response	GSE91061	0
+leukocyte cell-cell adhesion	GSE91061	1
+leukocyte chemotaxis	GSE91061	1
+leukocyte differentiation	GSE91061	0
+leukocyte homeostasis	GSE91061	0
+leukocyte mediated immunity	GSE91061	0
+leukocyte migration	GSE91061	1
+leukocyte proliferation	GSE91061	0
+lipid export from cell	GSE91061	0
+lipid localization	GSE91061	0
+lipid transport	GSE91061	0
+localization	GSE91061	1
+locomotion	GSE91061	1
+lumenal side of endoplasmic reticulum membrane	GSE91061	0
+lumenal side of membrane	GSE91061	0
+lymph node	GSE91061	0
+lymph node; germinal center cells[≥Low]	GSE91061	0
+lymph node; non-germinal center cells[≥Low]	GSE91061	0
+lymph node; non-germinal center cells[≥Medium]	GSE91061	0
+lymph node; non-germinal center cells[High]	GSE91061	0
+Lymphadenopathy	GSE91061	0
+lymphocyte activation	GSE91061	0
+lymphocyte activation involved in immune response	GSE91061	0
+lymphocyte costimulation	GSE91061	0
+lymphocyte differentiation	GSE91061	0
+lymphocyte mediated immunity	GSE91061	0
+lymphocyte proliferation	GSE91061	0
+Lymphoma	GSE91061	0
+Lymphopenia	GSE91061	0
+lysosome	GSE91061	0
+lytic vacuole	GSE91061	0
+macromolecule catabolic process	GSE91061	1
+macromolecule localization	GSE91061	1
+macromolecule modification	GSE91061	1
+macrophage activation	GSE91061	0
+maintenance of location	GSE91061	0
+maintenance of location in cell	GSE91061	0
+MAPK cascade	GSE91061	1
+membrane	GSE91061	1
+membrane microdomain	GSE91061	0
+membrane raft	GSE91061	0
+membrane-enclosed lumen	GSE91061	1
+Meningitis	GSE91061	0
+MHC class II protein complex	GSE91061	0
+MHC class II protein complex assembly	GSE91061	0
+MHC class II protein complex binding	GSE91061	0
+MHC class II receptor activity	GSE91061	0
+MHC protein binding	GSE91061	0
+MHC protein complex	GSE91061	0
+MHC protein complex assembly	GSE91061	0
+MHC protein complex binding	GSE91061	0
+Microglia pathogen phagocytosis pathway	GSE91061	0
+molecular function regulator activity	GSE91061	0
+molecular transducer activity	GSE91061	0
+monoatomic cation homeostasis	GSE91061	0
+monoatomic ion homeostasis	GSE91061	0
+monocarboxylic acid transport	GSE91061	1
+monocyte chemotaxis	GSE91061	0
+mononuclear cell differentiation	GSE91061	0
+mononuclear cell migration	GSE91061	1
+mononuclear cell proliferation	GSE91061	0
+multicellular organism development	GSE91061	1
+multicellular organismal process	GSE91061	1
+multicellular organismal-level homeostasis	GSE91061	1
+muscle cell migration	GSE91061	0
+muscle cell proliferation	GSE91061	0
+myeloid cell differentiation	GSE91061	1
+myeloid leukocyte activation	GSE91061	1
+myeloid leukocyte differentiation	GSE91061	0
+myeloid leukocyte migration	GSE91061	1
+negative regulation of antigen processing and presentation	GSE91061	0
+negative regulation of apoptotic process	GSE91061	1
+negative regulation of biological process	GSE91061	1
+negative regulation of blood coagulation	GSE91061	1
+negative regulation of catabolic process	GSE91061	0
+negative regulation of cell activation	GSE91061	0
+negative regulation of cell adhesion	GSE91061	0
+negative regulation of cell communication	GSE91061	1
+negative regulation of cell population proliferation	GSE91061	0
+negative regulation of cellular process	GSE91061	1
+negative regulation of coagulation	GSE91061	1
+negative regulation of defense response	GSE91061	0
+negative regulation of developmental process	GSE91061	1
+negative regulation of hemostasis	GSE91061	1
+negative regulation of hormone secretion	GSE91061	0
+negative regulation of immune effector process	GSE91061	0
+negative regulation of immune response	GSE91061	0
+negative regulation of immune system process	GSE91061	0
+negative regulation of inflammatory response	GSE91061	1
+negative regulation of innate immune response	GSE91061	0
+negative regulation of leukocyte mediated immunity	GSE91061	0
+negative regulation of lymphocyte mediated immunity	GSE91061	0
+negative regulation of molecular function	GSE91061	1
+negative regulation of multicellular organismal process	GSE91061	1
+negative regulation of nitrogen compound metabolic process	GSE91061	1
+negative regulation of programmed cell death	GSE91061	1
+negative regulation of protein maturation	GSE91061	1
+negative regulation of protein metabolic process	GSE91061	1
+negative regulation of protein processing	GSE91061	1
+negative regulation of response to biotic stimulus	GSE91061	0
+negative regulation of response to external stimulus	GSE91061	1
+negative regulation of response to stimulus	GSE91061	1
+negative regulation of response to wounding	GSE91061	1
+negative regulation of sequestering of calcium ion	GSE91061	0
+negative regulation of signal transduction	GSE91061	1
+negative regulation of signaling	GSE91061	1
+negative regulation of wound healing	GSE91061	1
+negative T cell selection	GSE91061	0
+nervous system development	GSE91061	1
+Nervous system development	GSE91061	1
+Network map of SARS CoV 2 signaling pathway	GSE91061	1
+neuron projection guidance	GSE91061	1
+neuropeptide receptor binding	GSE91061	0
+Neutropenia	GSE91061	0
+neutrophil activation	GSE91061	0
+neutrophil activation involved in immune response	GSE91061	0
+neutrophil chemotaxis	GSE91061	1
+Neutrophil degranulation	GSE91061	0
+neutrophil migration	GSE91061	1
+nitric oxide biosynthetic process	GSE91061	0
+nitric oxide metabolic process	GSE91061	0
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	GSE91061	0
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	GSE91061	0
+Nonsense-Mediated Decay (NMD)	GSE91061	0
+nucleobase-containing compound catabolic process	GSE91061	1
+nucleoplasm	GSE91061	1
+organelle lumen	GSE91061	1
+organelle membrane	GSE91061	0
+organic substance catabolic process	GSE91061	1
+organonitrogen compound metabolic process	GSE91061	1
+ossification	GSE91061	1
+Overview of proinflammatory and profibrotic mediators	GSE91061	0
+Pancytopenia	GSE91061	0
+Pathogenesis of SARS CoV 2 mediated by nsp9 nsp10 complex	GSE91061	0
+PD-1 signaling	GSE91061	0
+peptide antigen assembly with MHC class II protein complex	GSE91061	0
+peptide antigen assembly with MHC protein complex	GSE91061	0
+peptide antigen binding	GSE91061	0
+peptide binding	GSE91061	0
+Peptide chain elongation	GSE91061	0
+Peptide ligand-binding receptors	GSE91061	0
+peptide metabolic process	GSE91061	0
+peptidyl-amino acid modification	GSE91061	1
+peptidyl-tyrosine modification	GSE91061	1
+peptidyl-tyrosine phosphorylation	GSE91061	1
+phagocytic vesicle	GSE91061	0
+phagocytic vesicle membrane	GSE91061	0
+phagocytosis	GSE91061	0
+phosphate-containing compound metabolic process	GSE91061	0
+phosphorus metabolic process	GSE91061	0
+phosphorylation	GSE91061	1
+Phosphorylation of CD3 and TCR zeta chains	GSE91061	0
+Photodynamic therapy induced NF kB survival signaling	GSE91061	0
+plasma membrane	GSE91061	1
+plasma membrane protein complex	GSE91061	0
+plasma membrane region	GSE91061	0
+Pleural mesothelioma	GSE91061	1
+positive regulation of actin filament bundle assembly	GSE91061	0
+positive regulation of adaptive immune response	GSE91061	0
+positive regulation of alpha-beta T cell activation	GSE91061	0
+positive regulation of angiogenesis	GSE91061	1
+positive regulation of biological process	GSE91061	1
+positive regulation of biosynthetic process	GSE91061	1
+positive regulation of canonical NF-kappaB signal transduction	GSE91061	0
+positive regulation of catabolic process	GSE91061	0
+positive regulation of cell activation	GSE91061	0
+positive regulation of cell adhesion	GSE91061	1
+positive regulation of cell adhesion mediated by integrin	GSE91061	0
+positive regulation of cell communication	GSE91061	1
+positive regulation of cell development	GSE91061	1
+positive regulation of cell differentiation	GSE91061	1
+positive regulation of cell migration	GSE91061	1
+positive regulation of cell motility	GSE91061	1
+positive regulation of cell population proliferation	GSE91061	1
+positive regulation of cell-cell adhesion	GSE91061	1
+positive regulation of cell-matrix adhesion	GSE91061	0
+positive regulation of cellular biosynthetic process	GSE91061	1
+positive regulation of cellular component organization	GSE91061	1
+positive regulation of cellular metabolic process	GSE91061	1
+positive regulation of cellular process	GSE91061	1
+positive regulation of chemotaxis	GSE91061	1
+positive regulation of cytokine production	GSE91061	1
+positive regulation of defense response	GSE91061	1
+positive regulation of developmental process	GSE91061	1
+positive regulation of DNA-templated transcription	GSE91061	1
+positive regulation of ERK1 and ERK2 cascade	GSE91061	0
+positive regulation of gene expression	GSE91061	1
+positive regulation of hemopoiesis	GSE91061	0
+positive regulation of immune effector process	GSE91061	0
+positive regulation of immune response	GSE91061	1
+positive regulation of immune system process	GSE91061	1
+positive regulation of inflammatory response	GSE91061	0
+positive regulation of innate immune response	GSE91061	0
+positive regulation of interleukin-2 production	GSE91061	0
+positive regulation of interleukin-6 production	GSE91061	0
+positive regulation of interleukin-8 production	GSE91061	1
+positive regulation of intracellular signal transduction	GSE91061	1
+positive regulation of leukocyte activation	GSE91061	0
+positive regulation of leukocyte cell-cell adhesion	GSE91061	0
+positive regulation of leukocyte chemotaxis	GSE91061	0
+positive regulation of leukocyte differentiation	GSE91061	0
+positive regulation of leukocyte migration	GSE91061	0
+positive regulation of leukocyte proliferation	GSE91061	0
+positive regulation of locomotion	GSE91061	1
+positive regulation of lymphocyte activation	GSE91061	0
+positive regulation of lymphocyte differentiation	GSE91061	0
+positive regulation of lymphocyte proliferation	GSE91061	0
+positive regulation of macromolecule biosynthetic process	GSE91061	1
+positive regulation of macromolecule metabolic process	GSE91061	1
+positive regulation of MAPK cascade	GSE91061	1
+positive regulation of metabolic process	GSE91061	1
+positive regulation of molecular function	GSE91061	0
+positive regulation of mononuclear cell migration	GSE91061	0
+positive regulation of mononuclear cell proliferation	GSE91061	0
+positive regulation of multicellular organismal process	GSE91061	1
+positive regulation of nitric oxide biosynthetic process	GSE91061	1
+positive regulation of nitric oxide metabolic process	GSE91061	1
+positive regulation of nitrogen compound metabolic process	GSE91061	1
+positive regulation of non-canonical NF-kappaB signal transduction	GSE91061	0
+positive regulation of nucleobase-containing compound metabolic process	GSE91061	1
+positive regulation of peptidyl-tyrosine phosphorylation	GSE91061	1
+positive regulation of phagocytosis	GSE91061	0
+positive regulation of phosphate metabolic process	GSE91061	1
+positive regulation of phospholipase C activity	GSE91061	0
+positive regulation of phosphorus metabolic process	GSE91061	1
+positive regulation of phosphorylation	GSE91061	1
+positive regulation of programmed cell death	GSE91061	0
+positive regulation of protein localization	GSE91061	1
+positive regulation of protein metabolic process	GSE91061	1
+positive regulation of protein modification process	GSE91061	1
+positive regulation of protein phosphorylation	GSE91061	1
+positive regulation of response to biotic stimulus	GSE91061	0
+positive regulation of response to external stimulus	GSE91061	1
+positive regulation of response to stimulus	GSE91061	1
+positive regulation of RNA biosynthetic process	GSE91061	1
+positive regulation of RNA metabolic process	GSE91061	1
+positive regulation of signal transduction	GSE91061	1
+positive regulation of signaling	GSE91061	1
+positive regulation of smooth muscle cell migration	GSE91061	0
+positive regulation of smooth muscle cell proliferation	GSE91061	0
+positive regulation of stress fiber assembly	GSE91061	0
+positive regulation of supramolecular fiber organization	GSE91061	0
+positive regulation of T cell activation	GSE91061	0
+positive regulation of T cell proliferation	GSE91061	0
+positive regulation of transcription by RNA polymerase II	GSE91061	0
+positive regulation of type II interferon production	GSE91061	0
+positive regulation of vasculature development	GSE91061	1
+positive T cell selection	GSE91061	0
+positive thymic T cell selection	GSE91061	0
+programmed cell death	GSE91061	1
+prostaglandin secretion	GSE91061	0
+prostaglandin transport	GSE91061	0
+protein binding	GSE91061	1
+protein complex involved in cell adhesion	GSE91061	0
+protein homodimerization activity	GSE91061	0
+protein localization to nucleus	GSE91061	0
+protein metabolic process	GSE91061	1
+protein modification process	GSE91061	0
+protein phosphorylation	GSE91061	0
+protein-containing complex binding	GSE91061	1
+PRRX2-UCHL1 complex	GSE91061	0
+reactive nitrogen species metabolic process	GSE91061	0
+reactive oxygen species metabolic process	GSE91061	1
+receptor complex	GSE91061	0
+receptor ligand activity	GSE91061	0
+rectum; mucosal lymphoid cells[≥Low]	GSE91061	0
+rectum; mucosal lymphoid cells[≥Medium]	GSE91061	0
+rectum; mucosal lymphoid cells[High]	GSE91061	0
+Recurrent fever	GSE91061	0
+Recurrent infections	GSE91061	0
+Reduced natural killer cell activity	GSE91061	0
+regulation of actin cytoskeleton organization	GSE91061	1
+regulation of adaptive immune response	GSE91061	0
+regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	GSE91061	0
+regulation of alpha-beta T cell activation	GSE91061	0
+regulation of anatomical structure morphogenesis	GSE91061	1
+regulation of angiogenesis	GSE91061	1
+regulation of animal organ morphogenesis	GSE91061	0
+regulation of antigen processing and presentation	GSE91061	0
+regulation of apoptotic process	GSE91061	1
+regulation of B cell differentiation	GSE91061	0
+regulation of biological process	GSE91061	1
+regulation of biological quality	GSE91061	1
+regulation of biosynthetic process	GSE91061	0
+regulation of blood coagulation	GSE91061	1
+regulation of blood pressure	GSE91061	1
+regulation of body fluid levels	GSE91061	1
+regulation of calcium ion transport	GSE91061	0
+regulation of calcium-mediated signaling	GSE91061	0
+regulation of canonical NF-kappaB signal transduction	GSE91061	0
+regulation of catabolic process	GSE91061	1
+regulation of catalytic activity	GSE91061	0
+regulation of cell activation	GSE91061	1
+regulation of cell adhesion	GSE91061	1
+regulation of cell adhesion mediated by integrin	GSE91061	0
+regulation of cell communication	GSE91061	1
+regulation of cell development	GSE91061	1
+regulation of cell differentiation	GSE91061	1
+regulation of cell junction assembly	GSE91061	1
+regulation of cell migration	GSE91061	1
+regulation of cell motility	GSE91061	1
+regulation of cell population proliferation	GSE91061	1
+regulation of cell-cell adhesion	GSE91061	0
+regulation of cell-matrix adhesion	GSE91061	1
+regulation of cell-substrate adhesion	GSE91061	1
+regulation of cell-substrate junction assembly	GSE91061	1
+regulation of cell-substrate junction organization	GSE91061	1
+regulation of cellular biosynthetic process	GSE91061	0
+regulation of cellular component organization	GSE91061	1
+regulation of cellular localization	GSE91061	1
+regulation of cellular metabolic process	GSE91061	1
+regulation of cellular process	GSE91061	1
+regulation of chemotaxis	GSE91061	1
+regulation of coagulation	GSE91061	1
+regulation of cytokine production	GSE91061	0
+regulation of cytokine-mediated signaling pathway	GSE91061	0
+regulation of defense response	GSE91061	1
+regulation of dendritic cell antigen processing and presentation	GSE91061	0
+regulation of developmental process	GSE91061	1
+regulation of DNA-binding transcription factor activity	GSE91061	0
+regulation of endodermal cell differentiation	GSE91061	1
+regulation of ERK1 and ERK2 cascade	GSE91061	0
+regulation of focal adhesion assembly	GSE91061	1
+regulation of gene expression	GSE91061	0
+regulation of granulocyte chemotaxis	GSE91061	0
+regulation of hemopoiesis	GSE91061	0
+regulation of hemostasis	GSE91061	1
+regulation of hormone secretion	GSE91061	0
+regulation of hydrolase activity	GSE91061	0
+regulation of immune effector process	GSE91061	0
+regulation of immune response	GSE91061	1
+regulation of immune system process	GSE91061	1
+regulation of inflammatory response	GSE91061	1
+regulation of innate immune response	GSE91061	0
+regulation of interleukin-2 production	GSE91061	0
+regulation of interleukin-6 production	GSE91061	0
+regulation of interleukin-8 production	GSE91061	1
+regulation of intracellular signal transduction	GSE91061	1
+regulation of leukocyte activation	GSE91061	0
+regulation of leukocyte cell-cell adhesion	GSE91061	0
+regulation of leukocyte chemotaxis	GSE91061	1
+regulation of leukocyte differentiation	GSE91061	0
+regulation of leukocyte mediated immunity	GSE91061	0
+regulation of leukocyte migration	GSE91061	0
+regulation of leukocyte proliferation	GSE91061	0
+regulation of localization	GSE91061	1
+regulation of locomotion	GSE91061	1
+regulation of lymphocyte activation	GSE91061	0
+regulation of lymphocyte differentiation	GSE91061	0
+regulation of lymphocyte proliferation	GSE91061	0
+regulation of macromolecule biosynthetic process	GSE91061	0
+regulation of macromolecule metabolic process	GSE91061	1
+regulation of macrophage activation	GSE91061	0
+regulation of MAPK cascade	GSE91061	1
+regulation of metabolic process	GSE91061	1
+regulation of molecular function	GSE91061	1
+regulation of monocyte chemotaxis	GSE91061	0
+regulation of mononuclear cell migration	GSE91061	0
+regulation of mononuclear cell proliferation	GSE91061	0
+regulation of multicellular organismal development	GSE91061	1
+regulation of multicellular organismal process	GSE91061	1
+regulation of myeloid cell differentiation	GSE91061	0
+regulation of neutrophil degranulation	GSE91061	0
+regulation of nitric oxide biosynthetic process	GSE91061	0
+regulation of nitric oxide metabolic process	GSE91061	1
+regulation of nitrogen compound metabolic process	GSE91061	1
+regulation of non-canonical NF-kappaB signal transduction	GSE91061	0
+regulation of nucleobase-containing compound metabolic process	GSE91061	1
+regulation of peptidyl-tyrosine phosphorylation	GSE91061	1
+regulation of phagocytosis	GSE91061	0
+regulation of phosphate metabolic process	GSE91061	1
+regulation of phospholipase C activity	GSE91061	0
+regulation of phosphorus metabolic process	GSE91061	1
+regulation of phosphorylation	GSE91061	1
+regulation of primary metabolic process	GSE91061	1
+regulation of programmed cell death	GSE91061	1
+regulation of protein catabolic process	GSE91061	0
+regulation of protein localization	GSE91061	1
+regulation of protein localization to nucleus	GSE91061	0
+regulation of protein metabolic process	GSE91061	1
+regulation of protein modification by small protein conjugation or removal	GSE91061	0
+regulation of protein modification process	GSE91061	1
+regulation of protein phosphorylation	GSE91061	1
+regulation of response to biotic stimulus	GSE91061	0
+regulation of response to cytokine stimulus	GSE91061	0
+regulation of response to external stimulus	GSE91061	1
+regulation of response to stimulus	GSE91061	1
+regulation of response to stress	GSE91061	1
+regulation of response to wounding	GSE91061	1
+regulation of RNA metabolic process	GSE91061	1
+regulation of sequestering of calcium ion	GSE91061	0
+regulation of signal transduction	GSE91061	1
+regulation of signaling	GSE91061	1
+regulation of smooth muscle cell migration	GSE91061	1
+regulation of smooth muscle cell proliferation	GSE91061	0
+regulation of systemic arterial blood pressure	GSE91061	1
+regulation of T cell activation	GSE91061	0
+regulation of T cell proliferation	GSE91061	0
+regulation of tissue remodeling	GSE91061	0
+regulation of transport	GSE91061	1
+regulation of tumor necrosis factor production	GSE91061	0
+regulation of tumor necrosis factor superfamily cytokine production	GSE91061	0
+regulation of vasculature development	GSE91061	1
+regulation of wound healing	GSE91061	1
+release of sequestered calcium ion into cytosol	GSE91061	0
+response to bacterium	GSE91061	0
+response to biotic stimulus	GSE91061	1
+response to chemical	GSE91061	1
+response to chemokine	GSE91061	0
+response to cytokine	GSE91061	1
+response to decreased oxygen levels	GSE91061	1
+response to endogenous stimulus	GSE91061	1
+response to external biotic stimulus	GSE91061	1
+response to external stimulus	GSE91061	1
+response to growth factor	GSE91061	1
+response to hypoxia	GSE91061	1
+response to lipid	GSE91061	1
+response to lipopolysaccharide	GSE91061	0
+response to molecule of bacterial origin	GSE91061	0
+response to organic substance	GSE91061	1
+response to organonitrogen compound	GSE91061	1
+response to other organism	GSE91061	1
+response to oxygen levels	GSE91061	1
+response to oxygen-containing compound	GSE91061	1
+response to peptide	GSE91061	1
+response to reactive oxygen species	GSE91061	0
+response to stimulus	GSE91061	1
+response to stress	GSE91061	1
+response to tumor necrosis factor	GSE91061	0
+response to type II interferon	GSE91061	0
+response to wounding	GSE91061	1
+ribosomal subunit	GSE91061	0
+SARS CoV 2 innate immunity evasion and cell specific immune response	GSE91061	0
+secretion	GSE91061	1
+secretion by cell	GSE91061	1
+secretory granule	GSE91061	1
+secretory granule membrane	GSE91061	0
+secretory vesicle	GSE91061	1
+Selenoamino acid metabolism	GSE91061	0
+Selenocysteine synthesis	GSE91061	0
+sequestering of calcium ion	GSE91061	0
+serine-type endopeptidase activity	GSE91061	0
+Severe infection	GSE91061	0
+Severe viral infection	GSE91061	0
+side of membrane	GSE91061	1
+signal release	GSE91061	0
+signal transduction	GSE91061	1
+Signal Transduction	GSE91061	0
+signaling	GSE91061	1
+Signaling by GPCR	GSE91061	0
+Signaling by Interleukins	GSE91061	0
+Signaling by PDGF	GSE91061	1
+signaling receptor activator activity	GSE91061	0
+signaling receptor activity	GSE91061	0
+signaling receptor binding	GSE91061	1
+signaling receptor regulator activity	GSE91061	0
+Sinusitis	GSE91061	0
+skin 1; extracellular matrix[≥Low]	GSE91061	0
+skin 1; extracellular matrix[High]	GSE91061	1
+Skin rash	GSE91061	0
+smooth muscle cell migration	GSE91061	1
+smooth muscle cell proliferation	GSE91061	0
+specific granule membrane	GSE91061	0
+Spinal cord injury	GSE91061	0
+spleen	GSE91061	0
+spleen; cells in red pulp[≥Low]	GSE91061	0
+spleen; cells in red pulp[≥Medium]	GSE91061	0
+spleen; cells in red pulp[High]	GSE91061	0
+stem cell fate commitment	GSE91061	1
+stress fiber	GSE91061	1
+sulfur compound binding	GSE91061	0
+supramolecular fiber organization	GSE91061	1
+synapse	GSE91061	1
+system development	GSE91061	1
+T cell activation	GSE91061	0
+T cell activation involved in immune response	GSE91061	0
+T cell activation SARS CoV 2	GSE91061	0
+T cell costimulation	GSE91061	0
+T cell differentiation	GSE91061	0
+T cell mediated immunity	GSE91061	0
+T cell migration	GSE91061	0
+T cell proliferation	GSE91061	0
+T cell receptor binding	GSE91061	0
+T cell receptor signaling pathway	GSE91061	0
+T cell selection	GSE91061	0
+T lymphocytopenia	GSE91061	0
+TAP binding	GSE91061	0
+taxis	GSE91061	1
+tertiary granule	GSE91061	0
+tertiary granule membrane	GSE91061	0
+Thrombocytopenia	GSE91061	0
+tissue development	GSE91061	1
+tissue migration	GSE91061	1
+tissue remodeling	GSE91061	1
+tonsil	GSE91061	0
+tonsil; germinal center cells[≥Low]	GSE91061	0
+tonsil; germinal center cells[≥Medium]	GSE91061	0
+tonsil; non-germinal center cells[≥Low]	GSE91061	0
+tonsil; non-germinal center cells[≥Medium]	GSE91061	0
+tonsil; non-germinal center cells[High]	GSE91061	0
+Translocation of ZAP-70 to Immunological synapse	GSE91061	0
+transmembrane receptor protein tyrosine kinase signaling pathway	GSE91061	1
+transport	GSE91061	1
+tube development	GSE91061	1
+tube morphogenesis	GSE91061	1
+tumor necrosis factor production	GSE91061	0
+tumor necrosis factor superfamily cytokine production	GSE91061	0
+Type II interferon signaling	GSE91061	0
+type II interferon-mediated signaling pathway	GSE91061	0
+Unusual CNS infection	GSE91061	0
+Unusual infection	GSE91061	0
+Unusual infection by anatomical site	GSE91061	0
+vacuole	GSE91061	0
+vascular process in circulatory system	GSE91061	1
+vasculature development	GSE91061	1
+Vasculitis	GSE91061	0
+Vasculitis by anatomical site	GSE91061	0
+vesicle	GSE91061	1
+vesicle membrane	GSE91061	0
+vesicle-mediated transport	GSE91061	0
+Viral mRNA Translation	GSE91061	0
+wound healing	GSE91061	1

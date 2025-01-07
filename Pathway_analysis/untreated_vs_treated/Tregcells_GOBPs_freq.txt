@@ -1,0 +1,1041 @@
+Var1	Var2	Freq
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	GSE22155_02	1
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	GSE22155_02	1
+Activation of HOX genes during differentiation	GSE22155_02	1
+activation of immune response	GSE22155_02	1
+Amyloid fiber formation	GSE22155_02	1
+antigen receptor-mediated signaling pathway	GSE22155_02	1
+aromatic compound biosynthetic process	GSE22155_02	1
+Assembly of the ORC complex at the origin of replication	GSE22155_02	1
+B-WICH complex positively regulates rRNA expression	GSE22155_02	1
+biological process involved in interspecies interaction between organisms	GSE22155_02	0
+biological regulation	GSE22155_02	1
+bone marrow	GSE22155_02	1
+bone marrow; hematopoietic cells[≥Low]	GSE22155_02	1
+bone marrow; hematopoietic cells[≥Medium]	GSE22155_02	1
+cell activation	GSE22155_02	1
+cell activation involved in immune response	GSE22155_02	1
+cell adhesion	GSE22155_02	1
+cell communication	GSE22155_02	1
+cell periphery	GSE22155_02	1
+cell population proliferation	GSE22155_02	1
+cell-cell adhesion	GSE22155_02	1
+cellular nitrogen compound biosynthetic process	GSE22155_02	0
+cellular response to chemical stimulus	GSE22155_02	1
+cellular response to cytokine stimulus	GSE22155_02	1
+cellular response to organic substance	GSE22155_02	1
+cellular response to oxygen-containing compound	GSE22155_02	0
+cellular response to stimulus	GSE22155_02	1
+chromatin	GSE22155_02	1
+Chromatin modifying enzymes	GSE22155_02	1
+Chromatin organization	GSE22155_02	1
+Cleavage of the damaged purine	GSE22155_02	0
+Condensation of Prophase Chromosomes	GSE22155_02	1
+cytokine production	GSE22155_02	1
+Defective pyroptosis	GSE22155_02	1
+defense response	GSE22155_02	1
+defense response to other organism	GSE22155_02	0
+defense response to symbiont	GSE22155_02	1
+Deposition of new CENPA-containing nucleosomes at the centromere	GSE22155_02	1
+Depurination	GSE22155_02	0
+Diseases of programmed cell death	GSE22155_02	1
+DNA methylation	GSE22155_02	1
+DNA-templated transcription	GSE22155_02	1
+endometrium; lymphocytes[≥Low]	GSE22155_02	1
+endometrium; lymphocytes[≥Medium]	GSE22155_02	1
+Epigenetic regulation of gene expression	GSE22155_02	0
+ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	GSE22155_02	1
+Estrogen-dependent gene expression	GSE22155_02	1
+Formation of the beta-catenin:TCF transactivating complex	GSE22155_02	1
+Gene Silencing by RNA	GSE22155_02	1
+GTPase activity	GSE22155_02	0
+HATs acetylate histones	GSE22155_02	1
+HCMV Early Events	GSE22155_02	1
+HCMV Infection	GSE22155_02	1
+HCMV Late Events	GSE22155_02	1
+HDACs deacetylate histones	GSE22155_02	1
+heterocycle biosynthetic process	GSE22155_02	1
+immune response	GSE22155_02	1
+immune response-activating cell surface receptor signaling pathway	GSE22155_02	1
+immune response-activating signaling pathway	GSE22155_02	1
+immune response-regulating cell surface receptor signaling pathway	GSE22155_02	1
+immune response-regulating signaling pathway	GSE22155_02	1
+immune system process	GSE22155_02	1
+immunological synapse	GSE22155_02	0
+inflammatory response	GSE22155_02	1
+innate immune response	GSE22155_02	1
+interleukin-2 production	GSE22155_02	0
+intracellular signal transduction	GSE22155_02	1
+intracellular signaling cassette	GSE22155_02	1
+leukocyte activation	GSE22155_02	1
+leukocyte activation involved in immune response	GSE22155_02	1
+leukocyte cell-cell adhesion	GSE22155_02	1
+leukocyte proliferation	GSE22155_02	0
+lung; alveolar cells[≥Medium]	GSE22155_02	0
+lymph node	GSE22155_02	1
+lymph node; germinal center cells[≥Medium]	GSE22155_02	0
+lymph node; non-germinal center cells[≥Low]	GSE22155_02	1
+lymph node; non-germinal center cells[≥Medium]	GSE22155_02	1
+lymphocyte activation	GSE22155_02	1
+Meiosis	GSE22155_02	1
+Meiotic recombination	GSE22155_02	1
+Meiotic synapsis	GSE22155_02	1
+membrane	GSE22155_02	0
+Mitotic Prophase	GSE22155_02	1
+multicellular organismal process	GSE22155_02	1
+negative regulation of response to stimulus	GSE22155_02	0
+NoRC negatively regulates rRNA expression	GSE22155_02	0
+nucleobase-containing compound biosynthetic process	GSE22155_02	1
+nucleosome	GSE22155_02	1
+Nucleosome assembly	GSE22155_02	1
+organic cyclic compound biosynthetic process	GSE22155_02	1
+Packaging Of Telomere Ends	GSE22155_02	1
+peptidyl-tyrosine modification	GSE22155_02	1
+peptidyl-tyrosine phosphorylation	GSE22155_02	1
+phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE22155_02	1
+plasma membrane	GSE22155_02	0
+Positive epigenetic regulation of rRNA expression	GSE22155_02	1
+positive regulation of alpha-beta T cell activation	GSE22155_02	0
+positive regulation of biological process	GSE22155_02	1
+positive regulation of biosynthetic process	GSE22155_02	1
+positive regulation of cell activation	GSE22155_02	1
+positive regulation of cell adhesion	GSE22155_02	1
+positive regulation of cell communication	GSE22155_02	0
+positive regulation of cell-cell adhesion	GSE22155_02	1
+positive regulation of cellular biosynthetic process	GSE22155_02	1
+positive regulation of cellular metabolic process	GSE22155_02	1
+positive regulation of cellular process	GSE22155_02	1
+positive regulation of cytokine production	GSE22155_02	1
+positive regulation of gene expression	GSE22155_02	1
+positive regulation of immune effector process	GSE22155_02	1
+positive regulation of immune response	GSE22155_02	1
+positive regulation of immune system process	GSE22155_02	1
+positive regulation of interleukin-2 production	GSE22155_02	0
+positive regulation of intracellular signal transduction	GSE22155_02	0
+positive regulation of leukocyte activation	GSE22155_02	0
+positive regulation of leukocyte cell-cell adhesion	GSE22155_02	1
+positive regulation of lymphocyte activation	GSE22155_02	0
+positive regulation of macromolecule biosynthetic process	GSE22155_02	1
+positive regulation of macromolecule metabolic process	GSE22155_02	0
+positive regulation of metabolic process	GSE22155_02	1
+positive regulation of multicellular organismal process	GSE22155_02	1
+positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE22155_02	1
+positive regulation of protein localization to nucleus	GSE22155_02	0
+positive regulation of response to external stimulus	GSE22155_02	0
+positive regulation of response to stimulus	GSE22155_02	1
+positive regulation of signal transduction	GSE22155_02	0
+positive regulation of signaling	GSE22155_02	0
+positive regulation of T cell activation	GSE22155_02	1
+PRC2 methylates histones and DNA	GSE22155_02	1
+Pre-NOTCH Expression and Processing	GSE22155_02	1
+Pre-NOTCH Transcription and Translation	GSE22155_02	1
+protein binding	GSE22155_02	1
+protein dimerization activity	GSE22155_02	0
+protein-DNA complex	GSE22155_02	1
+Recognition and association of DNA glycosylase with site containing an affected purine	GSE22155_02	0
+regulation of alpha-beta T cell activation	GSE22155_02	0
+regulation of biological process	GSE22155_02	1
+regulation of biosynthetic process	GSE22155_02	1
+regulation of cell activation	GSE22155_02	1
+regulation of cell adhesion	GSE22155_02	1
+regulation of cell communication	GSE22155_02	1
+regulation of cell population proliferation	GSE22155_02	1
+regulation of cell-cell adhesion	GSE22155_02	0
+regulation of cellular biosynthetic process	GSE22155_02	1
+regulation of cellular metabolic process	GSE22155_02	1
+regulation of cellular process	GSE22155_02	1
+regulation of cytokine production	GSE22155_02	1
+regulation of defense response	GSE22155_02	1
+regulation of DNA-templated transcription	GSE22155_02	1
+regulation of gene expression	GSE22155_02	1
+regulation of immune effector process	GSE22155_02	1
+regulation of immune response	GSE22155_02	1
+regulation of immune system process	GSE22155_02	1
+regulation of innate immune response	GSE22155_02	1
+regulation of interleukin-2 production	GSE22155_02	0
+regulation of intracellular signal transduction	GSE22155_02	0
+regulation of leukocyte activation	GSE22155_02	1
+regulation of leukocyte cell-cell adhesion	GSE22155_02	0
+regulation of leukocyte mediated immunity	GSE22155_02	1
+regulation of lymphocyte activation	GSE22155_02	1
+regulation of macromolecule biosynthetic process	GSE22155_02	1
+regulation of macromolecule metabolic process	GSE22155_02	1
+regulation of metabolic process	GSE22155_02	1
+regulation of multicellular organismal process	GSE22155_02	1
+regulation of nitrogen compound metabolic process	GSE22155_02	1
+regulation of nucleobase-containing compound metabolic process	GSE22155_02	1
+regulation of peptidyl-tyrosine phosphorylation	GSE22155_02	1
+regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE22155_02	1
+regulation of primary metabolic process	GSE22155_02	1
+regulation of programmed cell death	GSE22155_02	0
+regulation of response to biotic stimulus	GSE22155_02	1
+regulation of response to external stimulus	GSE22155_02	1
+regulation of response to stimulus	GSE22155_02	1
+regulation of RNA biosynthetic process	GSE22155_02	1
+regulation of RNA metabolic process	GSE22155_02	1
+regulation of signal transduction	GSE22155_02	1
+regulation of signaling	GSE22155_02	1
+regulation of T cell activation	GSE22155_02	1
+Reproduction	GSE22155_02	0
+response to biotic stimulus	GSE22155_02	1
+response to chemical	GSE22155_02	1
+response to cytokine	GSE22155_02	1
+response to external biotic stimulus	GSE22155_02	1
+response to external stimulus	GSE22155_02	1
+response to organic substance	GSE22155_02	1
+response to other organism	GSE22155_02	1
+response to stimulus	GSE22155_02	1
+response to stress	GSE22155_02	0
+RHO GTPases activate PKNs	GSE22155_02	1
+RMTs methylate histone arginines	GSE22155_02	1
+RNA biosynthetic process	GSE22155_02	1
+RNA Polymerase I Promoter Clearance	GSE22155_02	1
+RNA Polymerase I Promoter Escape	GSE22155_02	1
+RNA Polymerase I Promoter Opening	GSE22155_02	1
+RNA Polymerase I Transcription	GSE22155_02	1
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	GSE22155_02	1
+Senescence-Associated Secretory Phenotype (SASP)	GSE22155_02	1
+signal transduction	GSE22155_02	1
+signaling	GSE22155_02	1
+SIRT1 negatively regulates rRNA expression	GSE22155_02	1
+spleen	GSE22155_02	1
+spleen; cells in red pulp[≥Low]	GSE22155_02	1
+spleen; cells in red pulp[≥Medium]	GSE22155_02	1
+structural constituent of chromatin	GSE22155_02	1
+T cell activation	GSE22155_02	1
+T cell activation SARS CoV 2	GSE22155_02	0
+tonsil; non-germinal center cells[≥Medium]	GSE22155_02	1
+Transcriptional regulation by small RNAs	GSE22155_02	1
+Transcriptional regulation of granulopoiesis	GSE22155_02	1
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	GSE22155_47	1
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	GSE22155_47	1
+Activation of HOX genes during differentiation	GSE22155_47	1
+activation of immune response	GSE22155_47	0
+Amyloid fiber formation	GSE22155_47	0
+antigen receptor-mediated signaling pathway	GSE22155_47	1
+aromatic compound biosynthetic process	GSE22155_47	1
+Assembly of the ORC complex at the origin of replication	GSE22155_47	1
+B-WICH complex positively regulates rRNA expression	GSE22155_47	1
+biological process involved in interspecies interaction between organisms	GSE22155_47	1
+biological regulation	GSE22155_47	1
+bone marrow	GSE22155_47	1
+bone marrow; hematopoietic cells[≥Low]	GSE22155_47	1
+bone marrow; hematopoietic cells[≥Medium]	GSE22155_47	1
+cell activation	GSE22155_47	1
+cell activation involved in immune response	GSE22155_47	1
+cell adhesion	GSE22155_47	1
+cell communication	GSE22155_47	1
+cell periphery	GSE22155_47	1
+cell population proliferation	GSE22155_47	1
+cell-cell adhesion	GSE22155_47	1
+cellular nitrogen compound biosynthetic process	GSE22155_47	1
+cellular response to chemical stimulus	GSE22155_47	1
+cellular response to cytokine stimulus	GSE22155_47	0
+cellular response to organic substance	GSE22155_47	1
+cellular response to oxygen-containing compound	GSE22155_47	1
+cellular response to stimulus	GSE22155_47	1
+chromatin	GSE22155_47	1
+Chromatin modifying enzymes	GSE22155_47	1
+Chromatin organization	GSE22155_47	1
+Cleavage of the damaged purine	GSE22155_47	0
+Condensation of Prophase Chromosomes	GSE22155_47	1
+cytokine production	GSE22155_47	1
+Defective pyroptosis	GSE22155_47	1
+defense response	GSE22155_47	1
+defense response to other organism	GSE22155_47	1
+defense response to symbiont	GSE22155_47	1
+Deposition of new CENPA-containing nucleosomes at the centromere	GSE22155_47	1
+Depurination	GSE22155_47	0
+Diseases of programmed cell death	GSE22155_47	1
+DNA methylation	GSE22155_47	1
+DNA-templated transcription	GSE22155_47	1
+endometrium; lymphocytes[≥Low]	GSE22155_47	0
+endometrium; lymphocytes[≥Medium]	GSE22155_47	0
+Epigenetic regulation of gene expression	GSE22155_47	0
+ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	GSE22155_47	1
+Estrogen-dependent gene expression	GSE22155_47	0
+Formation of the beta-catenin:TCF transactivating complex	GSE22155_47	1
+Gene Silencing by RNA	GSE22155_47	1
+GTPase activity	GSE22155_47	1
+HATs acetylate histones	GSE22155_47	1
+HCMV Early Events	GSE22155_47	1
+HCMV Infection	GSE22155_47	1
+HCMV Late Events	GSE22155_47	1
+HDACs deacetylate histones	GSE22155_47	1
+heterocycle biosynthetic process	GSE22155_47	1
+immune response	GSE22155_47	1
+immune response-activating cell surface receptor signaling pathway	GSE22155_47	1
+immune response-activating signaling pathway	GSE22155_47	1
+immune response-regulating cell surface receptor signaling pathway	GSE22155_47	1
+immune response-regulating signaling pathway	GSE22155_47	1
+immune system process	GSE22155_47	1
+immunological synapse	GSE22155_47	1
+inflammatory response	GSE22155_47	1
+innate immune response	GSE22155_47	1
+interleukin-2 production	GSE22155_47	0
+intracellular signal transduction	GSE22155_47	1
+intracellular signaling cassette	GSE22155_47	1
+leukocyte activation	GSE22155_47	1
+leukocyte activation involved in immune response	GSE22155_47	1
+leukocyte cell-cell adhesion	GSE22155_47	1
+leukocyte proliferation	GSE22155_47	0
+lung; alveolar cells[≥Medium]	GSE22155_47	1
+lymph node	GSE22155_47	1
+lymph node; germinal center cells[≥Medium]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Low]	GSE22155_47	1
+lymph node; non-germinal center cells[≥Medium]	GSE22155_47	1
+lymphocyte activation	GSE22155_47	1
+Meiosis	GSE22155_47	1
+Meiotic recombination	GSE22155_47	1
+Meiotic synapsis	GSE22155_47	1
+membrane	GSE22155_47	1
+Mitotic Prophase	GSE22155_47	0
+multicellular organismal process	GSE22155_47	1
+negative regulation of response to stimulus	GSE22155_47	1
+NoRC negatively regulates rRNA expression	GSE22155_47	0
+nucleobase-containing compound biosynthetic process	GSE22155_47	1
+nucleosome	GSE22155_47	1
+Nucleosome assembly	GSE22155_47	1
+organic cyclic compound biosynthetic process	GSE22155_47	1
+Packaging Of Telomere Ends	GSE22155_47	0
+peptidyl-tyrosine modification	GSE22155_47	1
+peptidyl-tyrosine phosphorylation	GSE22155_47	1
+phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE22155_47	1
+plasma membrane	GSE22155_47	1
+Positive epigenetic regulation of rRNA expression	GSE22155_47	1
+positive regulation of alpha-beta T cell activation	GSE22155_47	1
+positive regulation of biological process	GSE22155_47	1
+positive regulation of biosynthetic process	GSE22155_47	1
+positive regulation of cell activation	GSE22155_47	1
+positive regulation of cell adhesion	GSE22155_47	1
+positive regulation of cell communication	GSE22155_47	1
+positive regulation of cell-cell adhesion	GSE22155_47	1
+positive regulation of cellular biosynthetic process	GSE22155_47	1
+positive regulation of cellular metabolic process	GSE22155_47	1
+positive regulation of cellular process	GSE22155_47	1
+positive regulation of cytokine production	GSE22155_47	1
+positive regulation of gene expression	GSE22155_47	1
+positive regulation of immune effector process	GSE22155_47	1
+positive regulation of immune response	GSE22155_47	1
+positive regulation of immune system process	GSE22155_47	1
+positive regulation of interleukin-2 production	GSE22155_47	1
+positive regulation of intracellular signal transduction	GSE22155_47	0
+positive regulation of leukocyte activation	GSE22155_47	0
+positive regulation of leukocyte cell-cell adhesion	GSE22155_47	1
+positive regulation of lymphocyte activation	GSE22155_47	1
+positive regulation of macromolecule biosynthetic process	GSE22155_47	1
+positive regulation of macromolecule metabolic process	GSE22155_47	1
+positive regulation of metabolic process	GSE22155_47	1
+positive regulation of multicellular organismal process	GSE22155_47	1
+positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE22155_47	1
+positive regulation of protein localization to nucleus	GSE22155_47	1
+positive regulation of response to external stimulus	GSE22155_47	0
+positive regulation of response to stimulus	GSE22155_47	1
+positive regulation of signal transduction	GSE22155_47	1
+positive regulation of signaling	GSE22155_47	1
+positive regulation of T cell activation	GSE22155_47	1
+PRC2 methylates histones and DNA	GSE22155_47	1
+Pre-NOTCH Expression and Processing	GSE22155_47	1
+Pre-NOTCH Transcription and Translation	GSE22155_47	1
+protein binding	GSE22155_47	1
+protein dimerization activity	GSE22155_47	0
+protein-DNA complex	GSE22155_47	1
+Recognition and association of DNA glycosylase with site containing an affected purine	GSE22155_47	0
+regulation of alpha-beta T cell activation	GSE22155_47	0
+regulation of biological process	GSE22155_47	1
+regulation of biosynthetic process	GSE22155_47	1
+regulation of cell activation	GSE22155_47	1
+regulation of cell adhesion	GSE22155_47	1
+regulation of cell communication	GSE22155_47	1
+regulation of cell population proliferation	GSE22155_47	1
+regulation of cell-cell adhesion	GSE22155_47	0
+regulation of cellular biosynthetic process	GSE22155_47	1
+regulation of cellular metabolic process	GSE22155_47	1
+regulation of cellular process	GSE22155_47	1
+regulation of cytokine production	GSE22155_47	1
+regulation of defense response	GSE22155_47	1
+regulation of DNA-templated transcription	GSE22155_47	1
+regulation of gene expression	GSE22155_47	1
+regulation of immune effector process	GSE22155_47	1
+regulation of immune response	GSE22155_47	1
+regulation of immune system process	GSE22155_47	1
+regulation of innate immune response	GSE22155_47	1
+regulation of interleukin-2 production	GSE22155_47	0
+regulation of intracellular signal transduction	GSE22155_47	1
+regulation of leukocyte activation	GSE22155_47	1
+regulation of leukocyte cell-cell adhesion	GSE22155_47	1
+regulation of leukocyte mediated immunity	GSE22155_47	1
+regulation of lymphocyte activation	GSE22155_47	1
+regulation of macromolecule biosynthetic process	GSE22155_47	1
+regulation of macromolecule metabolic process	GSE22155_47	1
+regulation of metabolic process	GSE22155_47	1
+regulation of multicellular organismal process	GSE22155_47	1
+regulation of nitrogen compound metabolic process	GSE22155_47	1
+regulation of nucleobase-containing compound metabolic process	GSE22155_47	1
+regulation of peptidyl-tyrosine phosphorylation	GSE22155_47	0
+regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE22155_47	1
+regulation of primary metabolic process	GSE22155_47	1
+regulation of programmed cell death	GSE22155_47	0
+regulation of response to biotic stimulus	GSE22155_47	0
+regulation of response to external stimulus	GSE22155_47	1
+regulation of response to stimulus	GSE22155_47	1
+regulation of RNA biosynthetic process	GSE22155_47	1
+regulation of RNA metabolic process	GSE22155_47	1
+regulation of signal transduction	GSE22155_47	1
+regulation of signaling	GSE22155_47	1
+regulation of T cell activation	GSE22155_47	1
+Reproduction	GSE22155_47	0
+response to biotic stimulus	GSE22155_47	1
+response to chemical	GSE22155_47	1
+response to cytokine	GSE22155_47	1
+response to external biotic stimulus	GSE22155_47	1
+response to external stimulus	GSE22155_47	1
+response to organic substance	GSE22155_47	1
+response to other organism	GSE22155_47	1
+response to stimulus	GSE22155_47	1
+response to stress	GSE22155_47	1
+RHO GTPases activate PKNs	GSE22155_47	0
+RMTs methylate histone arginines	GSE22155_47	0
+RNA biosynthetic process	GSE22155_47	1
+RNA Polymerase I Promoter Clearance	GSE22155_47	1
+RNA Polymerase I Promoter Escape	GSE22155_47	1
+RNA Polymerase I Promoter Opening	GSE22155_47	1
+RNA Polymerase I Transcription	GSE22155_47	1
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	GSE22155_47	1
+Senescence-Associated Secretory Phenotype (SASP)	GSE22155_47	0
+signal transduction	GSE22155_47	1
+signaling	GSE22155_47	1
+SIRT1 negatively regulates rRNA expression	GSE22155_47	1
+spleen	GSE22155_47	1
+spleen; cells in red pulp[≥Low]	GSE22155_47	1
+spleen; cells in red pulp[≥Medium]	GSE22155_47	1
+structural constituent of chromatin	GSE22155_47	1
+T cell activation	GSE22155_47	1
+T cell activation SARS CoV 2	GSE22155_47	0
+tonsil; non-germinal center cells[≥Medium]	GSE22155_47	1
+Transcriptional regulation by small RNAs	GSE22155_47	1
+Transcriptional regulation of granulopoiesis	GSE22155_47	1
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	GSE35640	1
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	GSE35640	1
+Activation of HOX genes during differentiation	GSE35640	1
+activation of immune response	GSE35640	1
+Amyloid fiber formation	GSE35640	0
+antigen receptor-mediated signaling pathway	GSE35640	1
+aromatic compound biosynthetic process	GSE35640	1
+Assembly of the ORC complex at the origin of replication	GSE35640	1
+B-WICH complex positively regulates rRNA expression	GSE35640	0
+biological process involved in interspecies interaction between organisms	GSE35640	1
+biological regulation	GSE35640	1
+bone marrow	GSE35640	1
+bone marrow; hematopoietic cells[≥Low]	GSE35640	1
+bone marrow; hematopoietic cells[≥Medium]	GSE35640	1
+cell activation	GSE35640	1
+cell activation involved in immune response	GSE35640	1
+cell adhesion	GSE35640	1
+cell communication	GSE35640	1
+cell periphery	GSE35640	1
+cell population proliferation	GSE35640	1
+cell-cell adhesion	GSE35640	1
+cellular nitrogen compound biosynthetic process	GSE35640	1
+cellular response to chemical stimulus	GSE35640	1
+cellular response to cytokine stimulus	GSE35640	0
+cellular response to organic substance	GSE35640	1
+cellular response to oxygen-containing compound	GSE35640	0
+cellular response to stimulus	GSE35640	1
+chromatin	GSE35640	0
+Chromatin modifying enzymes	GSE35640	1
+Chromatin organization	GSE35640	1
+Cleavage of the damaged purine	GSE35640	0
+Condensation of Prophase Chromosomes	GSE35640	1
+cytokine production	GSE35640	1
+Defective pyroptosis	GSE35640	1
+defense response	GSE35640	1
+defense response to other organism	GSE35640	1
+defense response to symbiont	GSE35640	1
+Deposition of new CENPA-containing nucleosomes at the centromere	GSE35640	1
+Depurination	GSE35640	0
+Diseases of programmed cell death	GSE35640	0
+DNA methylation	GSE35640	1
+DNA-templated transcription	GSE35640	1
+endometrium; lymphocytes[≥Low]	GSE35640	1
+endometrium; lymphocytes[≥Medium]	GSE35640	1
+Epigenetic regulation of gene expression	GSE35640	0
+ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	GSE35640	1
+Estrogen-dependent gene expression	GSE35640	0
+Formation of the beta-catenin:TCF transactivating complex	GSE35640	1
+Gene Silencing by RNA	GSE35640	1
+GTPase activity	GSE35640	0
+HATs acetylate histones	GSE35640	1
+HCMV Early Events	GSE35640	1
+HCMV Infection	GSE35640	0
+HCMV Late Events	GSE35640	0
+HDACs deacetylate histones	GSE35640	1
+heterocycle biosynthetic process	GSE35640	1
+immune response	GSE35640	1
+immune response-activating cell surface receptor signaling pathway	GSE35640	1
+immune response-activating signaling pathway	GSE35640	1
+immune response-regulating cell surface receptor signaling pathway	GSE35640	1
+immune response-regulating signaling pathway	GSE35640	1
+immune system process	GSE35640	1
+immunological synapse	GSE35640	1
+inflammatory response	GSE35640	1
+innate immune response	GSE35640	1
+interleukin-2 production	GSE35640	1
+intracellular signal transduction	GSE35640	1
+intracellular signaling cassette	GSE35640	1
+leukocyte activation	GSE35640	1
+leukocyte activation involved in immune response	GSE35640	1
+leukocyte cell-cell adhesion	GSE35640	1
+leukocyte proliferation	GSE35640	1
+lung; alveolar cells[≥Medium]	GSE35640	1
+lymph node	GSE35640	1
+lymph node; germinal center cells[≥Medium]	GSE35640	1
+lymph node; non-germinal center cells[≥Low]	GSE35640	1
+lymph node; non-germinal center cells[≥Medium]	GSE35640	1
+lymphocyte activation	GSE35640	1
+Meiosis	GSE35640	0
+Meiotic recombination	GSE35640	0
+Meiotic synapsis	GSE35640	1
+membrane	GSE35640	1
+Mitotic Prophase	GSE35640	0
+multicellular organismal process	GSE35640	1
+negative regulation of response to stimulus	GSE35640	0
+NoRC negatively regulates rRNA expression	GSE35640	0
+nucleobase-containing compound biosynthetic process	GSE35640	1
+nucleosome	GSE35640	1
+Nucleosome assembly	GSE35640	1
+organic cyclic compound biosynthetic process	GSE35640	1
+Packaging Of Telomere Ends	GSE35640	0
+peptidyl-tyrosine modification	GSE35640	1
+peptidyl-tyrosine phosphorylation	GSE35640	1
+phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE35640	1
+plasma membrane	GSE35640	1
+Positive epigenetic regulation of rRNA expression	GSE35640	0
+positive regulation of alpha-beta T cell activation	GSE35640	1
+positive regulation of biological process	GSE35640	1
+positive regulation of biosynthetic process	GSE35640	1
+positive regulation of cell activation	GSE35640	1
+positive regulation of cell adhesion	GSE35640	1
+positive regulation of cell communication	GSE35640	1
+positive regulation of cell-cell adhesion	GSE35640	1
+positive regulation of cellular biosynthetic process	GSE35640	1
+positive regulation of cellular metabolic process	GSE35640	1
+positive regulation of cellular process	GSE35640	1
+positive regulation of cytokine production	GSE35640	1
+positive regulation of gene expression	GSE35640	1
+positive regulation of immune effector process	GSE35640	1
+positive regulation of immune response	GSE35640	1
+positive regulation of immune system process	GSE35640	1
+positive regulation of interleukin-2 production	GSE35640	1
+positive regulation of intracellular signal transduction	GSE35640	0
+positive regulation of leukocyte activation	GSE35640	1
+positive regulation of leukocyte cell-cell adhesion	GSE35640	1
+positive regulation of lymphocyte activation	GSE35640	1
+positive regulation of macromolecule biosynthetic process	GSE35640	1
+positive regulation of macromolecule metabolic process	GSE35640	1
+positive regulation of metabolic process	GSE35640	1
+positive regulation of multicellular organismal process	GSE35640	1
+positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE35640	1
+positive regulation of protein localization to nucleus	GSE35640	1
+positive regulation of response to external stimulus	GSE35640	1
+positive regulation of response to stimulus	GSE35640	1
+positive regulation of signal transduction	GSE35640	1
+positive regulation of signaling	GSE35640	1
+positive regulation of T cell activation	GSE35640	1
+PRC2 methylates histones and DNA	GSE35640	1
+Pre-NOTCH Expression and Processing	GSE35640	0
+Pre-NOTCH Transcription and Translation	GSE35640	0
+protein binding	GSE35640	1
+protein dimerization activity	GSE35640	0
+protein-DNA complex	GSE35640	0
+Recognition and association of DNA glycosylase with site containing an affected purine	GSE35640	0
+regulation of alpha-beta T cell activation	GSE35640	1
+regulation of biological process	GSE35640	1
+regulation of biosynthetic process	GSE35640	1
+regulation of cell activation	GSE35640	1
+regulation of cell adhesion	GSE35640	1
+regulation of cell communication	GSE35640	1
+regulation of cell population proliferation	GSE35640	1
+regulation of cell-cell adhesion	GSE35640	1
+regulation of cellular biosynthetic process	GSE35640	1
+regulation of cellular metabolic process	GSE35640	1
+regulation of cellular process	GSE35640	1
+regulation of cytokine production	GSE35640	1
+regulation of defense response	GSE35640	1
+regulation of DNA-templated transcription	GSE35640	1
+regulation of gene expression	GSE35640	1
+regulation of immune effector process	GSE35640	1
+regulation of immune response	GSE35640	1
+regulation of immune system process	GSE35640	1
+regulation of innate immune response	GSE35640	0
+regulation of interleukin-2 production	GSE35640	1
+regulation of intracellular signal transduction	GSE35640	0
+regulation of leukocyte activation	GSE35640	1
+regulation of leukocyte cell-cell adhesion	GSE35640	1
+regulation of leukocyte mediated immunity	GSE35640	1
+regulation of lymphocyte activation	GSE35640	1
+regulation of macromolecule biosynthetic process	GSE35640	1
+regulation of macromolecule metabolic process	GSE35640	1
+regulation of metabolic process	GSE35640	1
+regulation of multicellular organismal process	GSE35640	1
+regulation of nitrogen compound metabolic process	GSE35640	1
+regulation of nucleobase-containing compound metabolic process	GSE35640	1
+regulation of peptidyl-tyrosine phosphorylation	GSE35640	1
+regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE35640	1
+regulation of primary metabolic process	GSE35640	1
+regulation of programmed cell death	GSE35640	0
+regulation of response to biotic stimulus	GSE35640	0
+regulation of response to external stimulus	GSE35640	1
+regulation of response to stimulus	GSE35640	1
+regulation of RNA biosynthetic process	GSE35640	1
+regulation of RNA metabolic process	GSE35640	1
+regulation of signal transduction	GSE35640	1
+regulation of signaling	GSE35640	1
+regulation of T cell activation	GSE35640	1
+Reproduction	GSE35640	0
+response to biotic stimulus	GSE35640	1
+response to chemical	GSE35640	1
+response to cytokine	GSE35640	1
+response to external biotic stimulus	GSE35640	1
+response to external stimulus	GSE35640	1
+response to organic substance	GSE35640	1
+response to other organism	GSE35640	1
+response to stimulus	GSE35640	1
+response to stress	GSE35640	1
+RHO GTPases activate PKNs	GSE35640	0
+RMTs methylate histone arginines	GSE35640	0
+RNA biosynthetic process	GSE35640	1
+RNA Polymerase I Promoter Clearance	GSE35640	0
+RNA Polymerase I Promoter Escape	GSE35640	0
+RNA Polymerase I Promoter Opening	GSE35640	1
+RNA Polymerase I Transcription	GSE35640	1
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	GSE35640	0
+Senescence-Associated Secretory Phenotype (SASP)	GSE35640	0
+signal transduction	GSE35640	1
+signaling	GSE35640	1
+SIRT1 negatively regulates rRNA expression	GSE35640	1
+spleen	GSE35640	1
+spleen; cells in red pulp[≥Low]	GSE35640	1
+spleen; cells in red pulp[≥Medium]	GSE35640	1
+structural constituent of chromatin	GSE35640	1
+T cell activation	GSE35640	1
+T cell activation SARS CoV 2	GSE35640	1
+tonsil; non-germinal center cells[≥Medium]	GSE35640	1
+Transcriptional regulation by small RNAs	GSE35640	0
+Transcriptional regulation of granulopoiesis	GSE35640	0
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	GSE61992	1
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	GSE61992	1
+Activation of HOX genes during differentiation	GSE61992	1
+activation of immune response	GSE61992	0
+Amyloid fiber formation	GSE61992	1
+antigen receptor-mediated signaling pathway	GSE61992	1
+aromatic compound biosynthetic process	GSE61992	1
+Assembly of the ORC complex at the origin of replication	GSE61992	1
+B-WICH complex positively regulates rRNA expression	GSE61992	1
+biological process involved in interspecies interaction between organisms	GSE61992	1
+biological regulation	GSE61992	1
+bone marrow	GSE61992	1
+bone marrow; hematopoietic cells[≥Low]	GSE61992	1
+bone marrow; hematopoietic cells[≥Medium]	GSE61992	1
+cell activation	GSE61992	1
+cell activation involved in immune response	GSE61992	1
+cell adhesion	GSE61992	1
+cell communication	GSE61992	1
+cell periphery	GSE61992	1
+cell population proliferation	GSE61992	1
+cell-cell adhesion	GSE61992	1
+cellular nitrogen compound biosynthetic process	GSE61992	1
+cellular response to chemical stimulus	GSE61992	1
+cellular response to cytokine stimulus	GSE61992	1
+cellular response to organic substance	GSE61992	1
+cellular response to oxygen-containing compound	GSE61992	1
+cellular response to stimulus	GSE61992	1
+chromatin	GSE61992	0
+Chromatin modifying enzymes	GSE61992	1
+Chromatin organization	GSE61992	1
+Cleavage of the damaged purine	GSE61992	0
+Condensation of Prophase Chromosomes	GSE61992	1
+cytokine production	GSE61992	1
+Defective pyroptosis	GSE61992	1
+defense response	GSE61992	1
+defense response to other organism	GSE61992	1
+defense response to symbiont	GSE61992	1
+Deposition of new CENPA-containing nucleosomes at the centromere	GSE61992	1
+Depurination	GSE61992	0
+Diseases of programmed cell death	GSE61992	1
+DNA methylation	GSE61992	1
+DNA-templated transcription	GSE61992	1
+endometrium; lymphocytes[≥Low]	GSE61992	1
+endometrium; lymphocytes[≥Medium]	GSE61992	1
+Epigenetic regulation of gene expression	GSE61992	0
+ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	GSE61992	1
+Estrogen-dependent gene expression	GSE61992	1
+Formation of the beta-catenin:TCF transactivating complex	GSE61992	1
+Gene Silencing by RNA	GSE61992	1
+GTPase activity	GSE61992	0
+HATs acetylate histones	GSE61992	1
+HCMV Early Events	GSE61992	1
+HCMV Infection	GSE61992	0
+HCMV Late Events	GSE61992	1
+HDACs deacetylate histones	GSE61992	1
+heterocycle biosynthetic process	GSE61992	1
+immune response	GSE61992	1
+immune response-activating cell surface receptor signaling pathway	GSE61992	0
+immune response-activating signaling pathway	GSE61992	1
+immune response-regulating cell surface receptor signaling pathway	GSE61992	1
+immune response-regulating signaling pathway	GSE61992	1
+immune system process	GSE61992	1
+immunological synapse	GSE61992	1
+inflammatory response	GSE61992	1
+innate immune response	GSE61992	1
+interleukin-2 production	GSE61992	0
+intracellular signal transduction	GSE61992	1
+intracellular signaling cassette	GSE61992	1
+leukocyte activation	GSE61992	1
+leukocyte activation involved in immune response	GSE61992	1
+leukocyte cell-cell adhesion	GSE61992	1
+leukocyte proliferation	GSE61992	0
+lung; alveolar cells[≥Medium]	GSE61992	1
+lymph node	GSE61992	1
+lymph node; germinal center cells[≥Medium]	GSE61992	1
+lymph node; non-germinal center cells[≥Low]	GSE61992	1
+lymph node; non-germinal center cells[≥Medium]	GSE61992	1
+lymphocyte activation	GSE61992	1
+Meiosis	GSE61992	1
+Meiotic recombination	GSE61992	1
+Meiotic synapsis	GSE61992	1
+membrane	GSE61992	1
+Mitotic Prophase	GSE61992	0
+multicellular organismal process	GSE61992	1
+negative regulation of response to stimulus	GSE61992	0
+NoRC negatively regulates rRNA expression	GSE61992	0
+nucleobase-containing compound biosynthetic process	GSE61992	1
+nucleosome	GSE61992	1
+Nucleosome assembly	GSE61992	1
+organic cyclic compound biosynthetic process	GSE61992	1
+Packaging Of Telomere Ends	GSE61992	1
+peptidyl-tyrosine modification	GSE61992	1
+peptidyl-tyrosine phosphorylation	GSE61992	1
+phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE61992	1
+plasma membrane	GSE61992	0
+Positive epigenetic regulation of rRNA expression	GSE61992	1
+positive regulation of alpha-beta T cell activation	GSE61992	0
+positive regulation of biological process	GSE61992	1
+positive regulation of biosynthetic process	GSE61992	1
+positive regulation of cell activation	GSE61992	1
+positive regulation of cell adhesion	GSE61992	1
+positive regulation of cell communication	GSE61992	1
+positive regulation of cell-cell adhesion	GSE61992	1
+positive regulation of cellular biosynthetic process	GSE61992	1
+positive regulation of cellular metabolic process	GSE61992	1
+positive regulation of cellular process	GSE61992	1
+positive regulation of cytokine production	GSE61992	1
+positive regulation of gene expression	GSE61992	1
+positive regulation of immune effector process	GSE61992	1
+positive regulation of immune response	GSE61992	1
+positive regulation of immune system process	GSE61992	1
+positive regulation of interleukin-2 production	GSE61992	0
+positive regulation of intracellular signal transduction	GSE61992	1
+positive regulation of leukocyte activation	GSE61992	0
+positive regulation of leukocyte cell-cell adhesion	GSE61992	1
+positive regulation of lymphocyte activation	GSE61992	0
+positive regulation of macromolecule biosynthetic process	GSE61992	1
+positive regulation of macromolecule metabolic process	GSE61992	1
+positive regulation of metabolic process	GSE61992	1
+positive regulation of multicellular organismal process	GSE61992	1
+positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE61992	1
+positive regulation of protein localization to nucleus	GSE61992	1
+positive regulation of response to external stimulus	GSE61992	1
+positive regulation of response to stimulus	GSE61992	1
+positive regulation of signal transduction	GSE61992	1
+positive regulation of signaling	GSE61992	1
+positive regulation of T cell activation	GSE61992	1
+PRC2 methylates histones and DNA	GSE61992	1
+Pre-NOTCH Expression and Processing	GSE61992	1
+Pre-NOTCH Transcription and Translation	GSE61992	1
+protein binding	GSE61992	1
+protein dimerization activity	GSE61992	1
+protein-DNA complex	GSE61992	0
+Recognition and association of DNA glycosylase with site containing an affected purine	GSE61992	0
+regulation of alpha-beta T cell activation	GSE61992	0
+regulation of biological process	GSE61992	1
+regulation of biosynthetic process	GSE61992	1
+regulation of cell activation	GSE61992	1
+regulation of cell adhesion	GSE61992	1
+regulation of cell communication	GSE61992	1
+regulation of cell population proliferation	GSE61992	1
+regulation of cell-cell adhesion	GSE61992	0
+regulation of cellular biosynthetic process	GSE61992	1
+regulation of cellular metabolic process	GSE61992	1
+regulation of cellular process	GSE61992	1
+regulation of cytokine production	GSE61992	1
+regulation of defense response	GSE61992	1
+regulation of DNA-templated transcription	GSE61992	1
+regulation of gene expression	GSE61992	1
+regulation of immune effector process	GSE61992	1
+regulation of immune response	GSE61992	1
+regulation of immune system process	GSE61992	1
+regulation of innate immune response	GSE61992	1
+regulation of interleukin-2 production	GSE61992	0
+regulation of intracellular signal transduction	GSE61992	1
+regulation of leukocyte activation	GSE61992	1
+regulation of leukocyte cell-cell adhesion	GSE61992	1
+regulation of leukocyte mediated immunity	GSE61992	1
+regulation of lymphocyte activation	GSE61992	1
+regulation of macromolecule biosynthetic process	GSE61992	1
+regulation of macromolecule metabolic process	GSE61992	1
+regulation of metabolic process	GSE61992	1
+regulation of multicellular organismal process	GSE61992	1
+regulation of nitrogen compound metabolic process	GSE61992	1
+regulation of nucleobase-containing compound metabolic process	GSE61992	1
+regulation of peptidyl-tyrosine phosphorylation	GSE61992	1
+regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE61992	1
+regulation of primary metabolic process	GSE61992	1
+regulation of programmed cell death	GSE61992	1
+regulation of response to biotic stimulus	GSE61992	0
+regulation of response to external stimulus	GSE61992	1
+regulation of response to stimulus	GSE61992	1
+regulation of RNA biosynthetic process	GSE61992	1
+regulation of RNA metabolic process	GSE61992	1
+regulation of signal transduction	GSE61992	1
+regulation of signaling	GSE61992	1
+regulation of T cell activation	GSE61992	1
+Reproduction	GSE61992	0
+response to biotic stimulus	GSE61992	1
+response to chemical	GSE61992	1
+response to cytokine	GSE61992	1
+response to external biotic stimulus	GSE61992	1
+response to external stimulus	GSE61992	1
+response to organic substance	GSE61992	1
+response to other organism	GSE61992	1
+response to stimulus	GSE61992	1
+response to stress	GSE61992	1
+RHO GTPases activate PKNs	GSE61992	1
+RMTs methylate histone arginines	GSE61992	1
+RNA biosynthetic process	GSE61992	1
+RNA Polymerase I Promoter Clearance	GSE61992	1
+RNA Polymerase I Promoter Escape	GSE61992	1
+RNA Polymerase I Promoter Opening	GSE61992	1
+RNA Polymerase I Transcription	GSE61992	1
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	GSE61992	1
+Senescence-Associated Secretory Phenotype (SASP)	GSE61992	1
+signal transduction	GSE61992	1
+signaling	GSE61992	1
+SIRT1 negatively regulates rRNA expression	GSE61992	1
+spleen	GSE61992	1
+spleen; cells in red pulp[≥Low]	GSE61992	1
+spleen; cells in red pulp[≥Medium]	GSE61992	1
+structural constituent of chromatin	GSE61992	1
+T cell activation	GSE61992	1
+T cell activation SARS CoV 2	GSE61992	0
+tonsil; non-germinal center cells[≥Medium]	GSE61992	1
+Transcriptional regulation by small RNAs	GSE61992	0
+Transcriptional regulation of granulopoiesis	GSE61992	1
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	GSE91061	1
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	GSE91061	1
+Activation of HOX genes during differentiation	GSE91061	1
+activation of immune response	GSE91061	0
+Amyloid fiber formation	GSE91061	1
+antigen receptor-mediated signaling pathway	GSE91061	1
+aromatic compound biosynthetic process	GSE91061	1
+Assembly of the ORC complex at the origin of replication	GSE91061	1
+B-WICH complex positively regulates rRNA expression	GSE91061	1
+biological process involved in interspecies interaction between organisms	GSE91061	0
+biological regulation	GSE91061	1
+bone marrow	GSE91061	1
+bone marrow; hematopoietic cells[≥Low]	GSE91061	1
+bone marrow; hematopoietic cells[≥Medium]	GSE91061	1
+cell activation	GSE91061	1
+cell activation involved in immune response	GSE91061	0
+cell adhesion	GSE91061	1
+cell communication	GSE91061	1
+cell periphery	GSE91061	1
+cell population proliferation	GSE91061	1
+cell-cell adhesion	GSE91061	0
+cellular nitrogen compound biosynthetic process	GSE91061	1
+cellular response to chemical stimulus	GSE91061	1
+cellular response to cytokine stimulus	GSE91061	0
+cellular response to organic substance	GSE91061	1
+cellular response to oxygen-containing compound	GSE91061	0
+cellular response to stimulus	GSE91061	0
+chromatin	GSE91061	0
+Chromatin modifying enzymes	GSE91061	1
+Chromatin organization	GSE91061	1
+Cleavage of the damaged purine	GSE91061	1
+Condensation of Prophase Chromosomes	GSE91061	1
+cytokine production	GSE91061	0
+Defective pyroptosis	GSE91061	1
+defense response	GSE91061	1
+defense response to other organism	GSE91061	0
+defense response to symbiont	GSE91061	0
+Deposition of new CENPA-containing nucleosomes at the centromere	GSE91061	0
+Depurination	GSE91061	1
+Diseases of programmed cell death	GSE91061	1
+DNA methylation	GSE91061	1
+DNA-templated transcription	GSE91061	1
+endometrium; lymphocytes[≥Low]	GSE91061	1
+endometrium; lymphocytes[≥Medium]	GSE91061	0
+Epigenetic regulation of gene expression	GSE91061	1
+ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	GSE91061	1
+Estrogen-dependent gene expression	GSE91061	1
+Formation of the beta-catenin:TCF transactivating complex	GSE91061	1
+Gene Silencing by RNA	GSE91061	1
+GTPase activity	GSE91061	0
+HATs acetylate histones	GSE91061	1
+HCMV Early Events	GSE91061	1
+HCMV Infection	GSE91061	0
+HCMV Late Events	GSE91061	1
+HDACs deacetylate histones	GSE91061	1
+heterocycle biosynthetic process	GSE91061	1
+immune response	GSE91061	1
+immune response-activating cell surface receptor signaling pathway	GSE91061	0
+immune response-activating signaling pathway	GSE91061	0
+immune response-regulating cell surface receptor signaling pathway	GSE91061	1
+immune response-regulating signaling pathway	GSE91061	1
+immune system process	GSE91061	1
+immunological synapse	GSE91061	1
+inflammatory response	GSE91061	1
+innate immune response	GSE91061	1
+interleukin-2 production	GSE91061	0
+intracellular signal transduction	GSE91061	1
+intracellular signaling cassette	GSE91061	0
+leukocyte activation	GSE91061	1
+leukocyte activation involved in immune response	GSE91061	0
+leukocyte cell-cell adhesion	GSE91061	0
+leukocyte proliferation	GSE91061	0
+lung; alveolar cells[≥Medium]	GSE91061	0
+lymph node	GSE91061	1
+lymph node; germinal center cells[≥Medium]	GSE91061	0
+lymph node; non-germinal center cells[≥Low]	GSE91061	1
+lymph node; non-germinal center cells[≥Medium]	GSE91061	1
+lymphocyte activation	GSE91061	1
+Meiosis	GSE91061	1
+Meiotic recombination	GSE91061	1
+Meiotic synapsis	GSE91061	1
+membrane	GSE91061	1
+Mitotic Prophase	GSE91061	0
+multicellular organismal process	GSE91061	1
+negative regulation of response to stimulus	GSE91061	0
+NoRC negatively regulates rRNA expression	GSE91061	1
+nucleobase-containing compound biosynthetic process	GSE91061	1
+nucleosome	GSE91061	1
+Nucleosome assembly	GSE91061	0
+organic cyclic compound biosynthetic process	GSE91061	1
+Packaging Of Telomere Ends	GSE91061	1
+peptidyl-tyrosine modification	GSE91061	1
+peptidyl-tyrosine phosphorylation	GSE91061	1
+phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE91061	0
+plasma membrane	GSE91061	0
+Positive epigenetic regulation of rRNA expression	GSE91061	1
+positive regulation of alpha-beta T cell activation	GSE91061	0
+positive regulation of biological process	GSE91061	1
+positive regulation of biosynthetic process	GSE91061	1
+positive regulation of cell activation	GSE91061	0
+positive regulation of cell adhesion	GSE91061	0
+positive regulation of cell communication	GSE91061	1
+positive regulation of cell-cell adhesion	GSE91061	0
+positive regulation of cellular biosynthetic process	GSE91061	1
+positive regulation of cellular metabolic process	GSE91061	0
+positive regulation of cellular process	GSE91061	1
+positive regulation of cytokine production	GSE91061	1
+positive regulation of gene expression	GSE91061	0
+positive regulation of immune effector process	GSE91061	1
+positive regulation of immune response	GSE91061	1
+positive regulation of immune system process	GSE91061	1
+positive regulation of interleukin-2 production	GSE91061	0
+positive regulation of intracellular signal transduction	GSE91061	0
+positive regulation of leukocyte activation	GSE91061	0
+positive regulation of leukocyte cell-cell adhesion	GSE91061	0
+positive regulation of lymphocyte activation	GSE91061	0
+positive regulation of macromolecule biosynthetic process	GSE91061	0
+positive regulation of macromolecule metabolic process	GSE91061	0
+positive regulation of metabolic process	GSE91061	0
+positive regulation of multicellular organismal process	GSE91061	1
+positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE91061	1
+positive regulation of protein localization to nucleus	GSE91061	1
+positive regulation of response to external stimulus	GSE91061	0
+positive regulation of response to stimulus	GSE91061	1
+positive regulation of signal transduction	GSE91061	0
+positive regulation of signaling	GSE91061	1
+positive regulation of T cell activation	GSE91061	0
+PRC2 methylates histones and DNA	GSE91061	1
+Pre-NOTCH Expression and Processing	GSE91061	1
+Pre-NOTCH Transcription and Translation	GSE91061	1
+protein binding	GSE91061	1
+protein dimerization activity	GSE91061	0
+protein-DNA complex	GSE91061	1
+Recognition and association of DNA glycosylase with site containing an affected purine	GSE91061	1
+regulation of alpha-beta T cell activation	GSE91061	0
+regulation of biological process	GSE91061	1
+regulation of biosynthetic process	GSE91061	1
+regulation of cell activation	GSE91061	0
+regulation of cell adhesion	GSE91061	0
+regulation of cell communication	GSE91061	1
+regulation of cell population proliferation	GSE91061	1
+regulation of cell-cell adhesion	GSE91061	0
+regulation of cellular biosynthetic process	GSE91061	1
+regulation of cellular metabolic process	GSE91061	1
+regulation of cellular process	GSE91061	1
+regulation of cytokine production	GSE91061	0
+regulation of defense response	GSE91061	0
+regulation of DNA-templated transcription	GSE91061	1
+regulation of gene expression	GSE91061	0
+regulation of immune effector process	GSE91061	0
+regulation of immune response	GSE91061	1
+regulation of immune system process	GSE91061	1
+regulation of innate immune response	GSE91061	0
+regulation of interleukin-2 production	GSE91061	0
+regulation of intracellular signal transduction	GSE91061	0
+regulation of leukocyte activation	GSE91061	0
+regulation of leukocyte cell-cell adhesion	GSE91061	0
+regulation of leukocyte mediated immunity	GSE91061	0
+regulation of lymphocyte activation	GSE91061	1
+regulation of macromolecule biosynthetic process	GSE91061	1
+regulation of macromolecule metabolic process	GSE91061	1
+regulation of metabolic process	GSE91061	1
+regulation of multicellular organismal process	GSE91061	1
+regulation of nitrogen compound metabolic process	GSE91061	1
+regulation of nucleobase-containing compound metabolic process	GSE91061	1
+regulation of peptidyl-tyrosine phosphorylation	GSE91061	0
+regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction	GSE91061	0
+regulation of primary metabolic process	GSE91061	1
+regulation of programmed cell death	GSE91061	0
+regulation of response to biotic stimulus	GSE91061	0
+regulation of response to external stimulus	GSE91061	0
+regulation of response to stimulus	GSE91061	1
+regulation of RNA biosynthetic process	GSE91061	1
+regulation of RNA metabolic process	GSE91061	1
+regulation of signal transduction	GSE91061	0
+regulation of signaling	GSE91061	1
+regulation of T cell activation	GSE91061	0
+Reproduction	GSE91061	1
+response to biotic stimulus	GSE91061	0
+response to chemical	GSE91061	1
+response to cytokine	GSE91061	1
+response to external biotic stimulus	GSE91061	0
+response to external stimulus	GSE91061	1
+response to organic substance	GSE91061	1
+response to other organism	GSE91061	0
+response to stimulus	GSE91061	1
+response to stress	GSE91061	0
+RHO GTPases activate PKNs	GSE91061	1
+RMTs methylate histone arginines	GSE91061	0
+RNA biosynthetic process	GSE91061	1
+RNA Polymerase I Promoter Clearance	GSE91061	0
+RNA Polymerase I Promoter Escape	GSE91061	1
+RNA Polymerase I Promoter Opening	GSE91061	1
+RNA Polymerase I Transcription	GSE91061	1
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	GSE91061	1
+Senescence-Associated Secretory Phenotype (SASP)	GSE91061	1
+signal transduction	GSE91061	0
+signaling	GSE91061	1
+SIRT1 negatively regulates rRNA expression	GSE91061	1
+spleen	GSE91061	1
+spleen; cells in red pulp[≥Low]	GSE91061	1
+spleen; cells in red pulp[≥Medium]	GSE91061	1
+structural constituent of chromatin	GSE91061	1
+T cell activation	GSE91061	0
+T cell activation SARS CoV 2	GSE91061	0
+tonsil; non-germinal center cells[≥Medium]	GSE91061	1
+Transcriptional regulation by small RNAs	GSE91061	1
+Transcriptional regulation of granulopoiesis	GSE91061	1

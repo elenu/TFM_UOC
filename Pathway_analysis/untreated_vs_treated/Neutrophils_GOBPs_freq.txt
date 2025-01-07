@@ -1,0 +1,751 @@
+Var1	Var2	Freq
+anatomical structure development	GSE22155_02	1
+anatomical structure formation involved in morphogenesis	GSE22155_02	1
+anatomical structure morphogenesis	GSE22155_02	1
+angiogenesis	GSE22155_02	1
+animal organ development	GSE22155_02	1
+apoptotic process	GSE22155_02	1
+appendage development	GSE22155_02	1
+appendage morphogenesis	GSE22155_02	1
+Arachidonic acid AA ARA oxylipin metabolism	GSE22155_02	1
+asymmetric synapse	GSE22155_02	1
+biological regulation	GSE22155_02	1
+blood vessel development	GSE22155_02	1
+blood vessel morphogenesis	GSE22155_02	1
+cell activation	GSE22155_02	1
+cell adhesion	GSE22155_02	1
+cell communication	GSE22155_02	1
+cell death	GSE22155_02	1
+cell development	GSE22155_02	1
+cell differentiation	GSE22155_02	1
+cell junction	GSE22155_02	1
+cell junction organization	GSE22155_02	1
+cell migration	GSE22155_02	1
+cell morphogenesis	GSE22155_02	1
+cell motility	GSE22155_02	1
+cell periphery	GSE22155_02	1
+cell population proliferation	GSE22155_02	1
+cell projection morphogenesis	GSE22155_02	0
+cell surface receptor signaling pathway	GSE22155_02	1
+cell-cell adhesion	GSE22155_02	1
+cellular anatomical entity morphogenesis	GSE22155_02	1
+cellular developmental process	GSE22155_02	1
+cellular response to stimulus	GSE22155_02	1
+cellular response to type II interferon	GSE22155_02	0
+central nervous system development	GSE22155_02	0
+CIN85-SH3GL3 complex	GSE22155_02	1
+circulatory system development	GSE22155_02	1
+collagen-containing extracellular matrix	GSE22155_02	1
+cytokine binding	GSE22155_02	1
+cytoplasm	GSE22155_02	0
+cytoplasmic vesicle	GSE22155_02	1
+developmental process	GSE22155_02	1
+embryonic appendage morphogenesis	GSE22155_02	1
+embryonic limb morphogenesis	GSE22155_02	1
+endocytosis	GSE22155_02	1
+endomembrane system	GSE22155_02	0
+endometrium	GSE22155_02	0
+endoplasmic reticulum	GSE22155_02	0
+external encapsulating structure	GSE22155_02	1
+extracellular matrix	GSE22155_02	1
+extracellular region	GSE22155_02	1
+extracellular space	GSE22155_02	0
+Familial partial lipodystrophy	GSE22155_02	0
+fatty acid binding	GSE22155_02	0
+generation of neurons	GSE22155_02	1
+glutamatergic synapse	GSE22155_02	1
+glycosaminoglycan binding	GSE22155_02	1
+heparin binding	GSE22155_02	1
+intracellular vesicle	GSE22155_02	1
+limb development	GSE22155_02	1
+limb morphogenesis	GSE22155_02	1
+locomotion	GSE22155_02	1
+modulation of chemical synaptic transmission	GSE22155_02	0
+monocarboxylic acid binding	GSE22155_02	0
+multicellular organism development	GSE22155_02	1
+multicellular organismal process	GSE22155_02	1
+muscle cell proliferation	GSE22155_02	0
+negative regulation of biological process	GSE22155_02	1
+negative regulation of cell migration	GSE22155_02	1
+negative regulation of cell motility	GSE22155_02	1
+negative regulation of cell population proliferation	GSE22155_02	1
+negative regulation of cellular component organization	GSE22155_02	0
+negative regulation of cellular process	GSE22155_02	1
+negative regulation of developmental process	GSE22155_02	0
+negative regulation of hemostasis	GSE22155_02	0
+negative regulation of locomotion	GSE22155_02	0
+negative regulation of response to stimulus	GSE22155_02	0
+negative regulation of smooth muscle cell proliferation	GSE22155_02	1
+nervous system development	GSE22155_02	1
+neurogenesis	GSE22155_02	1
+neuron development	GSE22155_02	0
+neuron differentiation	GSE22155_02	1
+neuron projection development	GSE22155_02	1
+olefinic compound metabolic process	GSE22155_02	0
+ossification	GSE22155_02	1
+plasma membrane	GSE22155_02	1
+plasma membrane region	GSE22155_02	0
+positive regulation of biological process	GSE22155_02	1
+positive regulation of cell communication	GSE22155_02	0
+positive regulation of cellular component organization	GSE22155_02	1
+positive regulation of cellular process	GSE22155_02	1
+positive regulation of developmental process	GSE22155_02	1
+positive regulation of inflammatory response	GSE22155_02	1
+positive regulation of multicellular organismal process	GSE22155_02	1
+positive regulation of response to external stimulus	GSE22155_02	1
+positive regulation of response to stimulus	GSE22155_02	1
+positive regulation of signal transduction	GSE22155_02	1
+positive regulation of signaling	GSE22155_02	0
+postsynapse	GSE22155_02	1
+postsynaptic density	GSE22155_02	1
+postsynaptic specialization	GSE22155_02	1
+programmed cell death	GSE22155_02	1
+Prostaglandin synthesis and regulation	GSE22155_02	0
+protein binding	GSE22155_02	1
+regulation of anatomical structure morphogenesis	GSE22155_02	1
+regulation of angiogenesis	GSE22155_02	0
+regulation of apoptotic process	GSE22155_02	1
+regulation of biological process	GSE22155_02	1
+regulation of biological quality	GSE22155_02	1
+regulation of cell communication	GSE22155_02	1
+regulation of cell migration	GSE22155_02	1
+regulation of cell motility	GSE22155_02	1
+regulation of cell population proliferation	GSE22155_02	1
+regulation of cell-substrate adhesion	GSE22155_02	1
+regulation of cellular component biogenesis	GSE22155_02	1
+regulation of cellular component organization	GSE22155_02	1
+regulation of cellular process	GSE22155_02	1
+regulation of developmental process	GSE22155_02	1
+regulation of epithelial cell migration	GSE22155_02	0
+regulation of hemostasis	GSE22155_02	0
+regulation of inflammatory response	GSE22155_02	0
+regulation of locomotion	GSE22155_02	1
+regulation of multicellular organismal development	GSE22155_02	1
+regulation of multicellular organismal process	GSE22155_02	1
+regulation of neuron projection development	GSE22155_02	0
+regulation of plasma membrane bounded cell projection organization	GSE22155_02	0
+regulation of programmed cell death	GSE22155_02	1
+regulation of response to external stimulus	GSE22155_02	1
+regulation of response to stimulus	GSE22155_02	1
+regulation of signal transduction	GSE22155_02	1
+regulation of signaling	GSE22155_02	1
+regulation of smooth muscle cell proliferation	GSE22155_02	0
+regulation of trans-synaptic signaling	GSE22155_02	0
+regulation of vasculature development	GSE22155_02	0
+response to external stimulus	GSE22155_02	0
+response to stimulus	GSE22155_02	1
+signal transduction	GSE22155_02	1
+signaling	GSE22155_02	1
+signaling receptor binding	GSE22155_02	1
+smooth muscle cell proliferation	GSE22155_02	0
+sulfur compound binding	GSE22155_02	1
+synapse	GSE22155_02	1
+synapse organization	GSE22155_02	0
+system development	GSE22155_02	1
+tissue migration	GSE22155_02	0
+transforming growth factor beta receptor superfamily signaling pathway	GSE22155_02	0
+tube development	GSE22155_02	1
+tube morphogenesis	GSE22155_02	1
+vasculature development	GSE22155_02	1
+vesicle	GSE22155_02	1
+Vitamin A and carotenoid metabolism	GSE22155_02	0
+anatomical structure development	GSE22155_47	1
+anatomical structure formation involved in morphogenesis	GSE22155_47	1
+anatomical structure morphogenesis	GSE22155_47	1
+angiogenesis	GSE22155_47	1
+animal organ development	GSE22155_47	1
+apoptotic process	GSE22155_47	1
+appendage development	GSE22155_47	1
+appendage morphogenesis	GSE22155_47	1
+Arachidonic acid AA ARA oxylipin metabolism	GSE22155_47	1
+asymmetric synapse	GSE22155_47	0
+biological regulation	GSE22155_47	1
+blood vessel development	GSE22155_47	1
+blood vessel morphogenesis	GSE22155_47	1
+cell activation	GSE22155_47	0
+cell adhesion	GSE22155_47	1
+cell communication	GSE22155_47	1
+cell death	GSE22155_47	1
+cell development	GSE22155_47	1
+cell differentiation	GSE22155_47	1
+cell junction	GSE22155_47	1
+cell junction organization	GSE22155_47	1
+cell migration	GSE22155_47	1
+cell morphogenesis	GSE22155_47	1
+cell motility	GSE22155_47	1
+cell periphery	GSE22155_47	1
+cell population proliferation	GSE22155_47	1
+cell projection morphogenesis	GSE22155_47	1
+cell surface receptor signaling pathway	GSE22155_47	1
+cell-cell adhesion	GSE22155_47	1
+cellular anatomical entity morphogenesis	GSE22155_47	1
+cellular developmental process	GSE22155_47	1
+cellular response to stimulus	GSE22155_47	1
+cellular response to type II interferon	GSE22155_47	1
+central nervous system development	GSE22155_47	0
+CIN85-SH3GL3 complex	GSE22155_47	1
+circulatory system development	GSE22155_47	1
+collagen-containing extracellular matrix	GSE22155_47	0
+cytokine binding	GSE22155_47	1
+cytoplasm	GSE22155_47	1
+cytoplasmic vesicle	GSE22155_47	0
+developmental process	GSE22155_47	1
+embryonic appendage morphogenesis	GSE22155_47	1
+embryonic limb morphogenesis	GSE22155_47	1
+endocytosis	GSE22155_47	0
+endomembrane system	GSE22155_47	1
+endometrium	GSE22155_47	0
+endoplasmic reticulum	GSE22155_47	0
+external encapsulating structure	GSE22155_47	1
+extracellular matrix	GSE22155_47	1
+extracellular region	GSE22155_47	1
+extracellular space	GSE22155_47	1
+Familial partial lipodystrophy	GSE22155_47	0
+fatty acid binding	GSE22155_47	1
+generation of neurons	GSE22155_47	1
+glutamatergic synapse	GSE22155_47	1
+glycosaminoglycan binding	GSE22155_47	1
+heparin binding	GSE22155_47	1
+intracellular vesicle	GSE22155_47	0
+limb development	GSE22155_47	1
+limb morphogenesis	GSE22155_47	1
+locomotion	GSE22155_47	1
+modulation of chemical synaptic transmission	GSE22155_47	0
+monocarboxylic acid binding	GSE22155_47	0
+multicellular organism development	GSE22155_47	1
+multicellular organismal process	GSE22155_47	1
+muscle cell proliferation	GSE22155_47	0
+negative regulation of biological process	GSE22155_47	1
+negative regulation of cell migration	GSE22155_47	1
+negative regulation of cell motility	GSE22155_47	1
+negative regulation of cell population proliferation	GSE22155_47	1
+negative regulation of cellular component organization	GSE22155_47	0
+negative regulation of cellular process	GSE22155_47	1
+negative regulation of developmental process	GSE22155_47	1
+negative regulation of hemostasis	GSE22155_47	0
+negative regulation of locomotion	GSE22155_47	1
+negative regulation of response to stimulus	GSE22155_47	1
+negative regulation of smooth muscle cell proliferation	GSE22155_47	1
+nervous system development	GSE22155_47	1
+neurogenesis	GSE22155_47	1
+neuron development	GSE22155_47	1
+neuron differentiation	GSE22155_47	1
+neuron projection development	GSE22155_47	1
+olefinic compound metabolic process	GSE22155_47	0
+ossification	GSE22155_47	1
+plasma membrane	GSE22155_47	1
+plasma membrane region	GSE22155_47	0
+positive regulation of biological process	GSE22155_47	1
+positive regulation of cell communication	GSE22155_47	1
+positive regulation of cellular component organization	GSE22155_47	1
+positive regulation of cellular process	GSE22155_47	1
+positive regulation of developmental process	GSE22155_47	1
+positive regulation of inflammatory response	GSE22155_47	1
+positive regulation of multicellular organismal process	GSE22155_47	1
+positive regulation of response to external stimulus	GSE22155_47	0
+positive regulation of response to stimulus	GSE22155_47	1
+positive regulation of signal transduction	GSE22155_47	1
+positive regulation of signaling	GSE22155_47	1
+postsynapse	GSE22155_47	0
+postsynaptic density	GSE22155_47	0
+postsynaptic specialization	GSE22155_47	1
+programmed cell death	GSE22155_47	1
+Prostaglandin synthesis and regulation	GSE22155_47	1
+protein binding	GSE22155_47	1
+regulation of anatomical structure morphogenesis	GSE22155_47	1
+regulation of angiogenesis	GSE22155_47	1
+regulation of apoptotic process	GSE22155_47	1
+regulation of biological process	GSE22155_47	1
+regulation of biological quality	GSE22155_47	1
+regulation of cell communication	GSE22155_47	1
+regulation of cell migration	GSE22155_47	1
+regulation of cell motility	GSE22155_47	1
+regulation of cell population proliferation	GSE22155_47	1
+regulation of cell-substrate adhesion	GSE22155_47	1
+regulation of cellular component biogenesis	GSE22155_47	1
+regulation of cellular component organization	GSE22155_47	1
+regulation of cellular process	GSE22155_47	1
+regulation of developmental process	GSE22155_47	1
+regulation of epithelial cell migration	GSE22155_47	1
+regulation of hemostasis	GSE22155_47	0
+regulation of inflammatory response	GSE22155_47	0
+regulation of locomotion	GSE22155_47	1
+regulation of multicellular organismal development	GSE22155_47	1
+regulation of multicellular organismal process	GSE22155_47	1
+regulation of neuron projection development	GSE22155_47	1
+regulation of plasma membrane bounded cell projection organization	GSE22155_47	0
+regulation of programmed cell death	GSE22155_47	1
+regulation of response to external stimulus	GSE22155_47	1
+regulation of response to stimulus	GSE22155_47	1
+regulation of signal transduction	GSE22155_47	1
+regulation of signaling	GSE22155_47	1
+regulation of smooth muscle cell proliferation	GSE22155_47	1
+regulation of trans-synaptic signaling	GSE22155_47	0
+regulation of vasculature development	GSE22155_47	1
+response to external stimulus	GSE22155_47	1
+response to stimulus	GSE22155_47	1
+signal transduction	GSE22155_47	1
+signaling	GSE22155_47	1
+signaling receptor binding	GSE22155_47	1
+smooth muscle cell proliferation	GSE22155_47	1
+sulfur compound binding	GSE22155_47	1
+synapse	GSE22155_47	1
+synapse organization	GSE22155_47	0
+system development	GSE22155_47	1
+tissue migration	GSE22155_47	1
+transforming growth factor beta receptor superfamily signaling pathway	GSE22155_47	0
+tube development	GSE22155_47	1
+tube morphogenesis	GSE22155_47	1
+vasculature development	GSE22155_47	1
+vesicle	GSE22155_47	1
+Vitamin A and carotenoid metabolism	GSE22155_47	1
+anatomical structure development	GSE35640	1
+anatomical structure formation involved in morphogenesis	GSE35640	1
+anatomical structure morphogenesis	GSE35640	1
+angiogenesis	GSE35640	1
+animal organ development	GSE35640	0
+apoptotic process	GSE35640	1
+appendage development	GSE35640	1
+appendage morphogenesis	GSE35640	1
+Arachidonic acid AA ARA oxylipin metabolism	GSE35640	1
+asymmetric synapse	GSE35640	0
+biological regulation	GSE35640	1
+blood vessel development	GSE35640	1
+blood vessel morphogenesis	GSE35640	1
+cell activation	GSE35640	1
+cell adhesion	GSE35640	1
+cell communication	GSE35640	1
+cell death	GSE35640	1
+cell development	GSE35640	1
+cell differentiation	GSE35640	1
+cell junction	GSE35640	0
+cell junction organization	GSE35640	1
+cell migration	GSE35640	1
+cell morphogenesis	GSE35640	0
+cell motility	GSE35640	1
+cell periphery	GSE35640	1
+cell population proliferation	GSE35640	1
+cell projection morphogenesis	GSE35640	0
+cell surface receptor signaling pathway	GSE35640	1
+cell-cell adhesion	GSE35640	1
+cellular anatomical entity morphogenesis	GSE35640	1
+cellular developmental process	GSE35640	1
+cellular response to stimulus	GSE35640	1
+cellular response to type II interferon	GSE35640	0
+central nervous system development	GSE35640	0
+CIN85-SH3GL3 complex	GSE35640	0
+circulatory system development	GSE35640	1
+collagen-containing extracellular matrix	GSE35640	0
+cytokine binding	GSE35640	1
+cytoplasm	GSE35640	0
+cytoplasmic vesicle	GSE35640	0
+developmental process	GSE35640	1
+embryonic appendage morphogenesis	GSE35640	1
+embryonic limb morphogenesis	GSE35640	1
+endocytosis	GSE35640	1
+endomembrane system	GSE35640	0
+endometrium	GSE35640	1
+endoplasmic reticulum	GSE35640	0
+external encapsulating structure	GSE35640	1
+extracellular matrix	GSE35640	1
+extracellular region	GSE35640	1
+extracellular space	GSE35640	0
+Familial partial lipodystrophy	GSE35640	1
+fatty acid binding	GSE35640	0
+generation of neurons	GSE35640	1
+glutamatergic synapse	GSE35640	1
+glycosaminoglycan binding	GSE35640	1
+heparin binding	GSE35640	1
+intracellular vesicle	GSE35640	0
+limb development	GSE35640	1
+limb morphogenesis	GSE35640	1
+locomotion	GSE35640	1
+modulation of chemical synaptic transmission	GSE35640	1
+monocarboxylic acid binding	GSE35640	0
+multicellular organism development	GSE35640	1
+multicellular organismal process	GSE35640	1
+muscle cell proliferation	GSE35640	0
+negative regulation of biological process	GSE35640	1
+negative regulation of cell migration	GSE35640	0
+negative regulation of cell motility	GSE35640	0
+negative regulation of cell population proliferation	GSE35640	1
+negative regulation of cellular component organization	GSE35640	0
+negative regulation of cellular process	GSE35640	1
+negative regulation of developmental process	GSE35640	1
+negative regulation of hemostasis	GSE35640	1
+negative regulation of locomotion	GSE35640	0
+negative regulation of response to stimulus	GSE35640	0
+negative regulation of smooth muscle cell proliferation	GSE35640	1
+nervous system development	GSE35640	1
+neurogenesis	GSE35640	1
+neuron development	GSE35640	1
+neuron differentiation	GSE35640	1
+neuron projection development	GSE35640	1
+olefinic compound metabolic process	GSE35640	0
+ossification	GSE35640	0
+plasma membrane	GSE35640	1
+plasma membrane region	GSE35640	1
+positive regulation of biological process	GSE35640	1
+positive regulation of cell communication	GSE35640	0
+positive regulation of cellular component organization	GSE35640	1
+positive regulation of cellular process	GSE35640	1
+positive regulation of developmental process	GSE35640	1
+positive regulation of inflammatory response	GSE35640	1
+positive regulation of multicellular organismal process	GSE35640	1
+positive regulation of response to external stimulus	GSE35640	1
+positive regulation of response to stimulus	GSE35640	1
+positive regulation of signal transduction	GSE35640	1
+positive regulation of signaling	GSE35640	0
+postsynapse	GSE35640	0
+postsynaptic density	GSE35640	0
+postsynaptic specialization	GSE35640	0
+programmed cell death	GSE35640	1
+Prostaglandin synthesis and regulation	GSE35640	1
+protein binding	GSE35640	1
+regulation of anatomical structure morphogenesis	GSE35640	1
+regulation of angiogenesis	GSE35640	0
+regulation of apoptotic process	GSE35640	1
+regulation of biological process	GSE35640	1
+regulation of biological quality	GSE35640	1
+regulation of cell communication	GSE35640	1
+regulation of cell migration	GSE35640	1
+regulation of cell motility	GSE35640	1
+regulation of cell population proliferation	GSE35640	1
+regulation of cell-substrate adhesion	GSE35640	0
+regulation of cellular component biogenesis	GSE35640	1
+regulation of cellular component organization	GSE35640	1
+regulation of cellular process	GSE35640	1
+regulation of developmental process	GSE35640	1
+regulation of epithelial cell migration	GSE35640	0
+regulation of hemostasis	GSE35640	1
+regulation of inflammatory response	GSE35640	1
+regulation of locomotion	GSE35640	1
+regulation of multicellular organismal development	GSE35640	1
+regulation of multicellular organismal process	GSE35640	1
+regulation of neuron projection development	GSE35640	1
+regulation of plasma membrane bounded cell projection organization	GSE35640	1
+regulation of programmed cell death	GSE35640	1
+regulation of response to external stimulus	GSE35640	1
+regulation of response to stimulus	GSE35640	1
+regulation of signal transduction	GSE35640	1
+regulation of signaling	GSE35640	1
+regulation of smooth muscle cell proliferation	GSE35640	1
+regulation of trans-synaptic signaling	GSE35640	1
+regulation of vasculature development	GSE35640	0
+response to external stimulus	GSE35640	1
+response to stimulus	GSE35640	1
+signal transduction	GSE35640	1
+signaling	GSE35640	1
+signaling receptor binding	GSE35640	1
+smooth muscle cell proliferation	GSE35640	1
+sulfur compound binding	GSE35640	0
+synapse	GSE35640	0
+synapse organization	GSE35640	1
+system development	GSE35640	1
+tissue migration	GSE35640	1
+transforming growth factor beta receptor superfamily signaling pathway	GSE35640	0
+tube development	GSE35640	1
+tube morphogenesis	GSE35640	1
+vasculature development	GSE35640	1
+vesicle	GSE35640	1
+Vitamin A and carotenoid metabolism	GSE35640	0
+anatomical structure development	GSE61992	1
+anatomical structure formation involved in morphogenesis	GSE61992	1
+anatomical structure morphogenesis	GSE61992	1
+angiogenesis	GSE61992	1
+animal organ development	GSE61992	1
+apoptotic process	GSE61992	1
+appendage development	GSE61992	1
+appendage morphogenesis	GSE61992	1
+Arachidonic acid AA ARA oxylipin metabolism	GSE61992	1
+asymmetric synapse	GSE61992	1
+biological regulation	GSE61992	1
+blood vessel development	GSE61992	1
+blood vessel morphogenesis	GSE61992	1
+cell activation	GSE61992	0
+cell adhesion	GSE61992	1
+cell communication	GSE61992	1
+cell death	GSE61992	1
+cell development	GSE61992	1
+cell differentiation	GSE61992	1
+cell junction	GSE61992	1
+cell junction organization	GSE61992	1
+cell migration	GSE61992	1
+cell morphogenesis	GSE61992	1
+cell motility	GSE61992	1
+cell periphery	GSE61992	1
+cell population proliferation	GSE61992	1
+cell projection morphogenesis	GSE61992	0
+cell surface receptor signaling pathway	GSE61992	1
+cell-cell adhesion	GSE61992	1
+cellular anatomical entity morphogenesis	GSE61992	1
+cellular developmental process	GSE61992	1
+cellular response to stimulus	GSE61992	1
+cellular response to type II interferon	GSE61992	1
+central nervous system development	GSE61992	1
+CIN85-SH3GL3 complex	GSE61992	1
+circulatory system development	GSE61992	1
+collagen-containing extracellular matrix	GSE61992	0
+cytokine binding	GSE61992	1
+cytoplasm	GSE61992	1
+cytoplasmic vesicle	GSE61992	0
+developmental process	GSE61992	1
+embryonic appendage morphogenesis	GSE61992	1
+embryonic limb morphogenesis	GSE61992	1
+endocytosis	GSE61992	0
+endomembrane system	GSE61992	1
+endometrium	GSE61992	1
+endoplasmic reticulum	GSE61992	1
+external encapsulating structure	GSE61992	1
+extracellular matrix	GSE61992	1
+extracellular region	GSE61992	1
+extracellular space	GSE61992	0
+Familial partial lipodystrophy	GSE61992	1
+fatty acid binding	GSE61992	1
+generation of neurons	GSE61992	1
+glutamatergic synapse	GSE61992	1
+glycosaminoglycan binding	GSE61992	1
+heparin binding	GSE61992	1
+intracellular vesicle	GSE61992	0
+limb development	GSE61992	1
+limb morphogenesis	GSE61992	1
+locomotion	GSE61992	1
+modulation of chemical synaptic transmission	GSE61992	0
+monocarboxylic acid binding	GSE61992	0
+multicellular organism development	GSE61992	1
+multicellular organismal process	GSE61992	1
+muscle cell proliferation	GSE61992	1
+negative regulation of biological process	GSE61992	1
+negative regulation of cell migration	GSE61992	1
+negative regulation of cell motility	GSE61992	1
+negative regulation of cell population proliferation	GSE61992	1
+negative regulation of cellular component organization	GSE61992	1
+negative regulation of cellular process	GSE61992	1
+negative regulation of developmental process	GSE61992	1
+negative regulation of hemostasis	GSE61992	0
+negative regulation of locomotion	GSE61992	1
+negative regulation of response to stimulus	GSE61992	0
+negative regulation of smooth muscle cell proliferation	GSE61992	1
+nervous system development	GSE61992	1
+neurogenesis	GSE61992	1
+neuron development	GSE61992	1
+neuron differentiation	GSE61992	1
+neuron projection development	GSE61992	1
+olefinic compound metabolic process	GSE61992	1
+ossification	GSE61992	1
+plasma membrane	GSE61992	1
+plasma membrane region	GSE61992	0
+positive regulation of biological process	GSE61992	1
+positive regulation of cell communication	GSE61992	1
+positive regulation of cellular component organization	GSE61992	1
+positive regulation of cellular process	GSE61992	1
+positive regulation of developmental process	GSE61992	1
+positive regulation of inflammatory response	GSE61992	0
+positive regulation of multicellular organismal process	GSE61992	1
+positive regulation of response to external stimulus	GSE61992	0
+positive regulation of response to stimulus	GSE61992	1
+positive regulation of signal transduction	GSE61992	0
+positive regulation of signaling	GSE61992	1
+postsynapse	GSE61992	0
+postsynaptic density	GSE61992	1
+postsynaptic specialization	GSE61992	1
+programmed cell death	GSE61992	1
+Prostaglandin synthesis and regulation	GSE61992	1
+protein binding	GSE61992	1
+regulation of anatomical structure morphogenesis	GSE61992	0
+regulation of angiogenesis	GSE61992	0
+regulation of apoptotic process	GSE61992	1
+regulation of biological process	GSE61992	1
+regulation of biological quality	GSE61992	1
+regulation of cell communication	GSE61992	1
+regulation of cell migration	GSE61992	1
+regulation of cell motility	GSE61992	1
+regulation of cell population proliferation	GSE61992	1
+regulation of cell-substrate adhesion	GSE61992	1
+regulation of cellular component biogenesis	GSE61992	1
+regulation of cellular component organization	GSE61992	1
+regulation of cellular process	GSE61992	1
+regulation of developmental process	GSE61992	1
+regulation of epithelial cell migration	GSE61992	0
+regulation of hemostasis	GSE61992	0
+regulation of inflammatory response	GSE61992	0
+regulation of locomotion	GSE61992	1
+regulation of multicellular organismal development	GSE61992	1
+regulation of multicellular organismal process	GSE61992	1
+regulation of neuron projection development	GSE61992	1
+regulation of plasma membrane bounded cell projection organization	GSE61992	0
+regulation of programmed cell death	GSE61992	1
+regulation of response to external stimulus	GSE61992	1
+regulation of response to stimulus	GSE61992	1
+regulation of signal transduction	GSE61992	1
+regulation of signaling	GSE61992	1
+regulation of smooth muscle cell proliferation	GSE61992	1
+regulation of trans-synaptic signaling	GSE61992	0
+regulation of vasculature development	GSE61992	0
+response to external stimulus	GSE61992	1
+response to stimulus	GSE61992	1
+signal transduction	GSE61992	1
+signaling	GSE61992	1
+signaling receptor binding	GSE61992	1
+smooth muscle cell proliferation	GSE61992	1
+sulfur compound binding	GSE61992	1
+synapse	GSE61992	1
+synapse organization	GSE61992	0
+system development	GSE61992	1
+tissue migration	GSE61992	0
+transforming growth factor beta receptor superfamily signaling pathway	GSE61992	0
+tube development	GSE61992	1
+tube morphogenesis	GSE61992	1
+vasculature development	GSE61992	1
+vesicle	GSE61992	1
+Vitamin A and carotenoid metabolism	GSE61992	1
+anatomical structure development	GSE91061	1
+anatomical structure formation involved in morphogenesis	GSE91061	1
+anatomical structure morphogenesis	GSE91061	1
+angiogenesis	GSE91061	1
+animal organ development	GSE91061	1
+apoptotic process	GSE91061	0
+appendage development	GSE91061	1
+appendage morphogenesis	GSE91061	1
+Arachidonic acid AA ARA oxylipin metabolism	GSE91061	0
+asymmetric synapse	GSE91061	1
+biological regulation	GSE91061	1
+blood vessel development	GSE91061	1
+blood vessel morphogenesis	GSE91061	1
+cell activation	GSE91061	0
+cell adhesion	GSE91061	1
+cell communication	GSE91061	1
+cell death	GSE91061	0
+cell development	GSE91061	1
+cell differentiation	GSE91061	1
+cell junction	GSE91061	1
+cell junction organization	GSE91061	1
+cell migration	GSE91061	1
+cell morphogenesis	GSE91061	1
+cell motility	GSE91061	1
+cell periphery	GSE91061	1
+cell population proliferation	GSE91061	0
+cell projection morphogenesis	GSE91061	1
+cell surface receptor signaling pathway	GSE91061	1
+cell-cell adhesion	GSE91061	0
+cellular anatomical entity morphogenesis	GSE91061	1
+cellular developmental process	GSE91061	1
+cellular response to stimulus	GSE91061	1
+cellular response to type II interferon	GSE91061	0
+central nervous system development	GSE91061	0
+CIN85-SH3GL3 complex	GSE91061	0
+circulatory system development	GSE91061	1
+collagen-containing extracellular matrix	GSE91061	1
+cytokine binding	GSE91061	1
+cytoplasm	GSE91061	0
+cytoplasmic vesicle	GSE91061	0
+developmental process	GSE91061	1
+embryonic appendage morphogenesis	GSE91061	1
+embryonic limb morphogenesis	GSE91061	1
+endocytosis	GSE91061	0
+endomembrane system	GSE91061	0
+endometrium	GSE91061	1
+endoplasmic reticulum	GSE91061	0
+external encapsulating structure	GSE91061	1
+extracellular matrix	GSE91061	1
+extracellular region	GSE91061	1
+extracellular space	GSE91061	1
+Familial partial lipodystrophy	GSE91061	0
+fatty acid binding	GSE91061	1
+generation of neurons	GSE91061	1
+glutamatergic synapse	GSE91061	1
+glycosaminoglycan binding	GSE91061	1
+heparin binding	GSE91061	1
+intracellular vesicle	GSE91061	0
+limb development	GSE91061	1
+limb morphogenesis	GSE91061	1
+locomotion	GSE91061	1
+modulation of chemical synaptic transmission	GSE91061	0
+monocarboxylic acid binding	GSE91061	1
+multicellular organism development	GSE91061	1
+multicellular organismal process	GSE91061	1
+muscle cell proliferation	GSE91061	0
+negative regulation of biological process	GSE91061	1
+negative regulation of cell migration	GSE91061	1
+negative regulation of cell motility	GSE91061	0
+negative regulation of cell population proliferation	GSE91061	0
+negative regulation of cellular component organization	GSE91061	1
+negative regulation of cellular process	GSE91061	1
+negative regulation of developmental process	GSE91061	1
+negative regulation of hemostasis	GSE91061	0
+negative regulation of locomotion	GSE91061	0
+negative regulation of response to stimulus	GSE91061	0
+negative regulation of smooth muscle cell proliferation	GSE91061	1
+nervous system development	GSE91061	1
+neurogenesis	GSE91061	1
+neuron development	GSE91061	1
+neuron differentiation	GSE91061	1
+neuron projection development	GSE91061	1
+olefinic compound metabolic process	GSE91061	0
+ossification	GSE91061	1
+plasma membrane	GSE91061	1
+plasma membrane region	GSE91061	0
+positive regulation of biological process	GSE91061	1
+positive regulation of cell communication	GSE91061	0
+positive regulation of cellular component organization	GSE91061	0
+positive regulation of cellular process	GSE91061	1
+positive regulation of developmental process	GSE91061	1
+positive regulation of inflammatory response	GSE91061	0
+positive regulation of multicellular organismal process	GSE91061	1
+positive regulation of response to external stimulus	GSE91061	0
+positive regulation of response to stimulus	GSE91061	0
+positive regulation of signal transduction	GSE91061	0
+positive regulation of signaling	GSE91061	0
+postsynapse	GSE91061	1
+postsynaptic density	GSE91061	1
+postsynaptic specialization	GSE91061	1
+programmed cell death	GSE91061	0
+Prostaglandin synthesis and regulation	GSE91061	0
+protein binding	GSE91061	1
+regulation of anatomical structure morphogenesis	GSE91061	0
+regulation of angiogenesis	GSE91061	0
+regulation of apoptotic process	GSE91061	0
+regulation of biological process	GSE91061	1
+regulation of biological quality	GSE91061	1
+regulation of cell communication	GSE91061	1
+regulation of cell migration	GSE91061	1
+regulation of cell motility	GSE91061	1
+regulation of cell population proliferation	GSE91061	0
+regulation of cell-substrate adhesion	GSE91061	1
+regulation of cellular component biogenesis	GSE91061	1
+regulation of cellular component organization	GSE91061	1
+regulation of cellular process	GSE91061	1
+regulation of developmental process	GSE91061	1
+regulation of epithelial cell migration	GSE91061	0
+regulation of hemostasis	GSE91061	0
+regulation of inflammatory response	GSE91061	0
+regulation of locomotion	GSE91061	1
+regulation of multicellular organismal development	GSE91061	1
+regulation of multicellular organismal process	GSE91061	1
+regulation of neuron projection development	GSE91061	1
+regulation of plasma membrane bounded cell projection organization	GSE91061	1
+regulation of programmed cell death	GSE91061	0
+regulation of response to external stimulus	GSE91061	0
+regulation of response to stimulus	GSE91061	1
+regulation of signal transduction	GSE91061	0
+regulation of signaling	GSE91061	1
+regulation of smooth muscle cell proliferation	GSE91061	0
+regulation of trans-synaptic signaling	GSE91061	0
+regulation of vasculature development	GSE91061	0
+response to external stimulus	GSE91061	0
+response to stimulus	GSE91061	1
+signal transduction	GSE91061	1
+signaling	GSE91061	1
+signaling receptor binding	GSE91061	1
+smooth muscle cell proliferation	GSE91061	0
+sulfur compound binding	GSE91061	0
+synapse	GSE91061	1
+synapse organization	GSE91061	0
+system development	GSE91061	1
+tissue migration	GSE91061	0
+transforming growth factor beta receptor superfamily signaling pathway	GSE91061	1
+tube development	GSE91061	1
+tube morphogenesis	GSE91061	1
+vasculature development	GSE91061	1
+vesicle	GSE91061	1
+Vitamin A and carotenoid metabolism	GSE91061	1
