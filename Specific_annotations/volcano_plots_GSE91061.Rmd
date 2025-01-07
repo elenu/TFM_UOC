@@ -1,0 +1,714 @@
+---
+title: |
+  | Volcano plots customizados
+  | GSE91061
+subtitle: " "
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+  word_document:
+    toc: true
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "##",
+  highlight = TRUE,
+  prompt = FALSE,
+  results = "markup"
+)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+```{r, cache = TRUE, echo = FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+#if (!requireNamespace("BiocManager", quietly = TRUE)) {
+#  install.packages("BiocManager")
+#}
+#BiocManager::install("quantiseqr")
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "Biobase","quantiseqr", "gplots", "tidyverse")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak",
+                   "reshape2","ggfortify","cowplot","GEOquery","Seurat","data.table",
+                   "limma","illuminaHumanv4.db","SummarizedExperiment","tibble",
+                   "gprofiler2")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+En este análisis utilizo los datos del estudio GSE91061 descargados mediante la función ```getGEO``` des de la base de datos GEO, del NCBI: <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061>. 
+
+Las muestras consisten en 109 muestras analizadas con la plataformas GPL9052, y con varios tratamientos: anti-CTLA4 y anti-PD1.
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+
+GSE91061_BMS038109Sample_hg19KnownGene_fpkm_csv <- read_csv("Deconvolution_analysis/GSE91061_BMS038109Sample.hg19KnownGene.fpkm.csv.gz") # Cargo los niveles de expresión normalizados FPKM
+gex <- as.data.frame(GSE91061_BMS038109Sample_hg19KnownGene_fpkm_csv[,-1])
+rownames(gex)  <- GSE91061_BMS038109Sample_hg19KnownGene_fpkm_csv$...1
+gex$ENTREZID <- rownames(gex)
+
+anno.result <- select(org.Hs.eg.db, keys=as.character(rownames(gex)),columns="SYMBOL", keytype="ENTREZID")
+anno.result <- anno.result[!is.na(anno.result$ENTREZID),]
+
+gex <- inner_join(gex, anno.result, by = "ENTREZID")
+
+gset <- getGEO("GSE91061", GSEMatrix =TRUE, getGPL=FALSE)
+if (length(gset) > 1) idx <- grep("GPL9052", attr(gset, "names")) else idx <- 1
+gset <- gset[[idx]]
+#table(gset$characteristics_ch1.1) # response
+#table(gset$`visit (pre or on treatment):ch1`) # Visit: Pre / On
+bulk_metadata <- as.data.frame(gset@phenoData@data) # Paso la metadata disponible a una tabla
+
+# Para usar los símbolos en lugar de nombres de ilumina, extraigo los datos de expresión:
+bulk.mtx <- as.data.frame(gex[,1:109]) # Los datos de expresión
+bulk.mtx$symbols <- gex$SYMBOL # La columna que usaré para integrar
+
+# Agrego los posibles duplicados calculando la media:
+bulk.mtx <- aggregate(bulk.mtx, by = list(c(bulk.mtx$symbols)), mean) # Agregar
+rownames(bulk.mtx) <- bulk.mtx$Group.1 # Los nombres de genes únicos sin duplicados sirven para dar nombre a las líneas
+Probes <- bulk.mtx$Group.1 
+bulk.mtx$Group.1 <- NULL # Elimino las columnas usadas para conseguir los nombres
+bulk.mtx$symbols <- NULL # Elimino las columnas usadas para conseguir los nombres
+
+# Convertir los datos de expresión del bulk RNA-seq a objeto ExpressionSet:
+bulk.eset <- Biobase::ExpressionSet(assayData = as.matrix(as.data.frame(bulk.mtx)))
+bulk.eset
+```
+
+Para poder ejecutar las proporciones celulares en el modelo lineal, cargo los datos guardados de la deconvolución. Con estos datos, genero una tabla con las fracciones y los confounders que estén disponibles (me serviá como atributo "y" del modelo lineal): supervivencia de los pacientes, género, tipo de tumor, o estadio del tumor.
+
+```{r, cache = TRUE, echo = FALSE}
+#setwd("~/Desktop/ELENA_UOC/TFM/Deconvolution_analysis/")
+setwd("~/Desktop/ELENA_UOC/TFM")
+#GSE91061 <- read_delim("quantiseqr_GSE91061.csv", 
+GSE91061 <- read_delim("./Deconvolution_analysis/quantiseq_analyses/quantiseqr_GSE91061.csv", 
+    delim = ",", escape_double = FALSE, na = "null", 
+    trim_ws = TRUE)
+rownames(GSE91061) <- GSE91061$Sample
+setwd("~/Desktop/ELENA_UOC/TFM")
+design <- as.data.frame(GSE91061[,2:12])
+rownames(design) <- rownames(GSE91061)
+Samples <- rownames(design)
+design <- apply(design, 2, function(x) gsub(",",".",x))
+#str(design)
+#sum(is.na(design)) # 0
+#design <- data.frame(type.convert(design, as.is = TRUE)) # Primero, las fracciones celulares
+#design <- as.data.frame(apply(design, 2, as.character))
+design <- as.data.frame(apply(design, 2, function(x) as.numeric(x)))
+#str(design)
+
+# Seguido de confounders como los eventos de supervivencia: 
+# En este caso no hay información sobre la supervivencia de los pacientes, su género, ni el tipo ni estadio del tumor.
+
+# Respuesta al tratamiento: 
+design$resp <- ifelse(GSE91061$`response:ch1` == "PD", 1, 
+                                ifelse(GSE91061$`response:ch1` == "SD", 2,
+                                        ifelse(GSE91061$`response:ch1` == "PRCR", 3,4)))# Columna de respuesta al tratamiento
+
+# Momento de análisit durante el tratamiento: 
+design$visit <- ifelse(GSE91061$`visit (pre or on treatment):ch1` == "Pre", 1,2)# Columna de momento de toma de la biopsia
+
+design <- as.data.frame(design) # Unión de la tabla con los eventos definidos
+#design <- apply(design, 2, as.numeric)
+design$Samples <- GSE91061$Sample
+rownames(design) <- design$Samples # Etiqueto las filas con las muestras
+design$Samples <- NULL # Elimino la columna para tener sólo valores numéricos
+#design <- as.matrix(type.convert(design, as.is = TRUE))
+```
+
+## Annotations
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+adaptive_immune_response <- read_delim("./Specific_annotations/Reference_annotations/adaptive immune response.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+T_cell_proliferation <- read_delim("./Specific_annotations/Reference_annotations/T cell proliferation.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+myeloid_leukocyte_migration <- read_delim("./Specific_annotations/Reference_annotations/myeloid leukocyte migration.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+myeloid_leukocyte_activation <- read_delim("./Specific_annotations/Reference_annotations/myeloid leukocyte activation.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+chemotaxis <- read_delim("./Specific_annotations/Reference_annotations/chemotaxis.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+immune_response_regulating_signaling_pathway <- read_delim("./Specific_annotations/Reference_annotations/immune response-regulating signaling pathway.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+leukocyte_cell_cell_adhesion <- read_delim("./Specific_annotations/Reference_annotations/leukocyte cell-cell adhesion.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+innate_immune_response <- read_delim("./Specific_annotations/Reference_annotations/innate immune response.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Immune_response <- read_delim("./Specific_annotations/Reference_annotations/Immune response.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Positive_regulation_of_immune_system_process <- read_delim("./Specific_annotations/Reference_annotations/Positive regulation of immune system process.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Regulation_of_immune_system_process <- read_delim("./Specific_annotations/Reference_annotations/Regulation of immune system process.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Regulation_of_immune_response <- read_delim("./Specific_annotations/Reference_annotations/Regulation of immune response.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+immune_response_regulating_cell_surface_receptor_signaling_pathway <- read_delim("./Specific_annotations/Reference_annotations/immune response-regulating cell surface receptor signaling pathway.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+positive_regulation_of_immune_response <- read_delim("./Specific_annotations/Reference_annotations/positive regulation of immune response.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+lymphocyte_activation <- read_delim("./Specific_annotations/Reference_annotations/lymphocyte activation.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+angiogenesis <- read_delim("./Specific_annotations/Reference_annotations/angiogenesis.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+apoptotic_process <- read_delim("./Specific_annotations/Reference_annotations/apoptotic process.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Inflammatory_response <- read_delim("./Specific_annotations/Reference_annotations/Inflammatory response.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Defense_response <- read_delim("./Specific_annotations/Reference_annotations/Defense response.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Leukocyte_activation <- read_delim("./Specific_annotations/Reference_annotations/Leukocyte activation.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Autophagy <- read_delim("./Specific_annotations/Reference_annotations/Autophagy.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+Immune_system_process <- read_delim("./Specific_annotations/Reference_annotations/Immune system process.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+process_utilizing_autophagic_mechanism <- read_delim("./Specific_annotations/Reference_annotations/process utilizing autophagic mechanism.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+cytokine_production <- read_delim("./Specific_annotations/Reference_annotations/cytokine production.txt", 
+    delim = "\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
+```
+
+Pre-process annotations:
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+adaptive_immune_response <- unique(adaptive_immune_response$X1)
+T_cell_proliferation<- unique(T_cell_proliferation$X1)
+myeloid_leukocyte_migration <- unique(myeloid_leukocyte_migration$X1)
+myeloid_leukocyte_activation <- unique(myeloid_leukocyte_activation$X1)
+chemotaxis <- unique(chemotaxis$X1)
+immune_response_regulating_signaling_pathway <- unique(immune_response_regulating_signaling_pathway$X1)
+leukocyte_cell_cell_adhesion <- unique(leukocyte_cell_cell_adhesion$X1)
+innate_immune_response <- unique(innate_immune_response$X1)
+Immune_response <- unique(Immune_response$X1)
+Positive_regulation_of_immune_system_process <- unique(Positive_regulation_of_immune_system_process$X1)
+Regulation_of_immune_system_process <- unique(Regulation_of_immune_system_process$X1)
+Regulation_of_immune_response <- unique(Regulation_of_immune_response$X1)
+immune_response_regulating_cell_surface_receptor_signaling_pathway <-unique(immune_response_regulating_cell_surface_receptor_signaling_pathway$X1)
+positive_regulation_of_immune_response <- unique(positive_regulation_of_immune_response$X1)
+lymphocyte_activation <- unique(lymphocyte_activation$X1)
+angiogenesis <- unique(angiogenesis$X1)
+apoptotic_process <- unique(apoptotic_process$X1)
+Inflammatory_response <- unique(Inflammatory_response$X1)
+Defense_response <- unique(Defense_response$X1)
+Leukocyte_activation <- unique(Leukocyte_activation$X1)
+Autophagy <- unique(Autophagy$X1)
+Immune_system_process <- unique(Immune_system_process$X1)
+process_utilizing_autophagic_mechanism <- unique(process_utilizing_autophagic_mechanism$X1)
+cytokine_production <- unique(cytokine_production$X1)
+```
+
+# Modelo lineal 
+
+Utilizando las fracciones celulares como confounders, en principio el modelo lineal buscaría los coeficientes correspondientes a éstas. 
+
+Con eBayes se podría calcular la diferenciación de las expresiones (fold change, etc).
+
+```{r, cache = TRUE, echo = FALSE}
+library(limma) # cargo limma aquí para evitar un mensaje de error
+fit <- lmFit(bulk.eset, as.matrix(design)) # el modelo lineal
+fit <- eBayes(fit) # para calcular la expressión diferencial
+```
+
+## DEGs
+
+Con topTable se puede extraer la información para cada tipo celular. Indicando la columna de tipo celular extraigo el cálculo estadístico específico. Cone esta información se puede definir los grupos expresados diferencialmente, y generar un volcano plot.
+
+Esta función, topTable, permite también extraer un número determinado de resultados, cosa que me permite extraer los DEGs que utilizo para realizar los volcano plots.
+
+### Células B
+
+```{r, cache = TRUE, echo = FALSE}
+bcell <- topTable(fit, coef="B.cells", number = length(fit$coefficients)) # Extracción de los resultados
+# Definición de los grupos expresados diferencialmente
+bcell$signif <- "No"
+bcell$signif[bcell$P.Value <= 0.01 & bcell$logFC >= 2.5] <- "Up"
+bcell$signif[bcell$P.Value <= 0.01 & bcell$logFC <= -2.5] <- "Down"
+head(bcell)
+print(paste0("Número de genes: ",length(bcell$signif[bcell$signif == "Up"])," up-regulated, ", length(bcell$signif[bcell$signif == "Down"]), " down-regulated"))
+library(ggplot2)
+# Volcano plot
+ggplot(bcell, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = bcell[(abs(bcell$logFC)>=2.5 & bcell$P.Value <= 0.01) | -log10(bcell$adj.P.Val) >=30,], aes(label = rownames(bcell)[(abs(bcell$logFC)>=2.5 & bcell$P.Value <= 0.01) | -log10(bcell$adj.P.Val) >=30]), colour = "black",box.padding = 0.5) +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nB cells")
+```
+
+```{r, cache = TRUE, echo = FALSE}
+# Función que servirá para todos los volcano plots que destaquen los genes de un GO-BP:
+cell_type <- "B cells: "
+volcano_gobps <- function(df,gobps_annotation, title) { 
+df2 <- df
+df2$gobp <- if_else(rownames(bcell) %in% gobps_annotation, "in", "out")
+ggplot(df2, aes(logFC, -log10(P.Value), color = gobp)) +
+  geom_point(aes(logFC, -log10(P.Value), color = gobp ), alpha = 0.2) +
+  ggrepel::geom_text_repel(data = df2[df2$gobp == "in",], aes(label = rownames(df2)[df2$gobp == "in"]), colour = "black",box.padding = 0.5) +
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "In GO-BP")+
+  ggtitle(paste0("GSE91061 dataset\n",cell_type,title))+ 
+  annotate("point",df2$logFC[df2$gobp=="in" & ((abs(df2$logFC)>=2.5 & df2$P.Value <= 0.01) | -log10(df2$adj.P.Val) >=3)],-log10(df2$P.Value[df2$gobp=="in"& ((abs(df2$logFC)>=2.5 & df2$P.Value <= 0.01) | -log10(df2$adj.P.Val) >=3)]),color = "red")+
+  geom_hline(aes(yintercept = 2), color="black")+
+  geom_vline(aes(xintercept = -2.5), color="black")+
+  geom_vline(aes(xintercept = 2.5), color="black")
+}
+```
+
+```{r, cache = TRUE, echo = FALSE}
+volcano_gobps(bcell,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(bcell,angiogenesis, "angiogenesis")
+volcano_gobps(bcell,apoptotic_process, "apoptotic process")
+volcano_gobps(bcell,Autophagy, "autophagy")
+volcano_gobps(bcell,chemotaxis, "chemotaxis")
+volcano_gobps(bcell,cytokine_production, "cytokine production")
+volcano_gobps(bcell,Immune_response, "immune response")
+volcano_gobps(bcell,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(bcell,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(bcell,Immune_system_process, "immune system process")
+volcano_gobps(bcell,Inflammatory_response, "inflammatory response")
+volcano_gobps(bcell,innate_immune_response, "innate immune response")
+volcano_gobps(bcell,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(bcell,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(bcell,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(bcell,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(bcell,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(bcell,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(bcell,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(bcell,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(bcell,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(bcell,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(bcell,T_cell_proliferation, "T cell proliferation")
+```
+
+### Macrófagos M1
+
+```{r, cache = TRUE, echo = FALSE}
+mac_m1 <- topTable(fit, coef="Macrophages.M1", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+mac_m1$signif <- "No"
+mac_m1$signif[mac_m1$P.Value <= 0.01 & mac_m1$logFC >= 2.5] <- "Up"
+mac_m1$signif[mac_m1$P.Value <= 0.01 & mac_m1$logFC <= -2.5] <- "Down"
+head(mac_m1)
+print(paste0("Número de genes: ",length(mac_m1$signif[mac_m1$signif == "Up"])," up-regulated, ", length(mac_m1$signif[mac_m1$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(mac_m1, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = mac_m1[(abs(mac_m1$logFC)>=2.5 & mac_m1$P.Value <= 0.01) | -log10(mac_m1$adj.P.Val) >=6,], aes(label = rownames(mac_m1)[(abs(mac_m1$logFC)>=2.5 & mac_m1$P.Value <= 0.01) | -log10(mac_m1$adj.P.Val) >=6]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nMacrophages M1")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "Macrophages M1: "
+volcano_gobps(mac_m1,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(mac_m1,angiogenesis, "angiogenesis")
+volcano_gobps(mac_m1,apoptotic_process, "apoptotic process")
+volcano_gobps(mac_m1,Autophagy, "autophagy")
+volcano_gobps(mac_m1,chemotaxis, "chemotaxis")
+volcano_gobps(mac_m1,cytokine_production, "cytokine production")
+volcano_gobps(mac_m1,Immune_response, "immune response")
+volcano_gobps(mac_m1,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(mac_m1,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(mac_m1,Immune_system_process, "immune system process")
+volcano_gobps(mac_m1,Inflammatory_response, "inflammatory response")
+volcano_gobps(mac_m1,innate_immune_response, "innate immune response")
+volcano_gobps(mac_m1,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(mac_m1,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(mac_m1,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(mac_m1,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(mac_m1,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(mac_m1,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(mac_m1,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(mac_m1,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(mac_m1,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(mac_m1,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(mac_m1,T_cell_proliferation, "T cell proliferation")
+```
+
+- Macrófagos M2:
+
+```{r, cache = TRUE, echo = FALSE}
+mac_m2 <- topTable(fit, coef="Macrophages.M2", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+mac_m2$signif <- "No"
+mac_m2$signif[mac_m2$P.Value <= 0.01 & mac_m2$logFC >= 2.5] <- "Up"
+mac_m2$signif[mac_m2$P.Value <= 0.01 & mac_m2$logFC <= -2.5] <- "Down"
+head(mac_m2)
+print(paste0("Número de genes: ",length(mac_m2$signif[mac_m2$signif == "Up"])," up-regulated, ", length(mac_m2$signif[mac_m2$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(mac_m2, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = mac_m2[abs(mac_m2$logFC)>=2.5 | mac_m2$P.Value <= 0.01,], aes(label = rownames(mac_m2)[abs(mac_m2$logFC)>=2.5 | mac_m2$P.Value <= 0.01]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nMacrophages M2")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "Macrophages M2: "
+volcano_gobps(mac_m2,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(mac_m2,angiogenesis, "angiogenesis")
+volcano_gobps(mac_m2,apoptotic_process, "apoptotic process")
+volcano_gobps(mac_m2,Autophagy, "autophagy")
+volcano_gobps(mac_m2,chemotaxis, "chemotaxis")
+volcano_gobps(mac_m2,cytokine_production, "cytokine production")
+volcano_gobps(mac_m2,Immune_response, "immune response")
+volcano_gobps(mac_m2,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(mac_m2,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(mac_m2,Immune_system_process, "immune system process")
+volcano_gobps(mac_m2,Inflammatory_response, "inflammatory response")
+volcano_gobps(mac_m2,innate_immune_response, "innate immune response")
+volcano_gobps(mac_m2,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(mac_m2,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(mac_m2,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(mac_m2,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(mac_m2,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(mac_m2,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(mac_m2,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(mac_m2,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(mac_m2,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(mac_m2,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(mac_m2,T_cell_proliferation, "T cell proliferation")
+```
+- Monocitos:
+
+```{r, cache = TRUE, echo = FALSE}
+monoc <- topTable(fit, coef="Monocytes", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+monoc$signif <- "No"
+monoc$signif[monoc$P.Value <= 0.01 & monoc$logFC >= 2.5] <- "Up"
+monoc$signif[monoc$P.Value <= 0.01 & monoc$logFC <= -2.5] <- "Down"
+head(monoc)
+print(paste0("Número de genes: ",length(monoc$signif[monoc$signif == "Up"])," up-regulated, ", length(monoc$signif[monoc$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(monoc, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = monoc[(abs(monoc$logFC)>=2.5 & monoc$P.Value <= 0.01) | -log10(monoc$adj.P.Val) >=3,], aes(label = rownames(monoc)[(abs(monoc$logFC)>=2.5 & monoc$P.Value <= 0.01) | -log10(monoc$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nMonocytes")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "Monocytes: "
+volcano_gobps(monoc,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(monoc,angiogenesis, "angiogenesis")
+volcano_gobps(monoc,apoptotic_process, "apoptotic process")
+volcano_gobps(monoc,Autophagy, "autophagy")
+volcano_gobps(monoc,chemotaxis, "chemotaxis")
+volcano_gobps(monoc,cytokine_production, "cytokine production")
+volcano_gobps(monoc,Immune_response, "immune response")
+volcano_gobps(monoc,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(monoc,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(monoc,Immune_system_process, "immune system process")
+volcano_gobps(monoc,Inflammatory_response, "inflammatory response")
+volcano_gobps(monoc,innate_immune_response, "innate immune response")
+volcano_gobps(monoc,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(monoc,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(monoc,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(monoc,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(monoc,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(monoc,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(monoc,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(monoc,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(monoc,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(monoc,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(monoc,T_cell_proliferation, "T cell proliferation")
+```
+- Neutrófilos:
+
+```{r, cache = TRUE, echo = FALSE}
+neutr <- topTable(fit, coef="Neutrophils", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+neutr$signif <- "No"
+neutr$signif[neutr$P.Value <= 0.01 & neutr$logFC >= 2.5] <- "Up"
+neutr$signif[neutr$P.Value <= 0.01 & neutr$logFC <= -2.5] <- "Down"
+head(neutr)
+print(paste0("Número de genes: ",length(neutr$signif[neutr$signif == "Up"])," up-regulated, ", length(neutr$signif[neutr$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(neutr, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = neutr[(abs(neutr$logFC)>=2.5 & neutr$P.Value <= 0.01) | -log10(neutr$adj.P.Val) >=3,], aes(label = rownames(neutr)[(abs(neutr$logFC)>=2.5 & neutr$P.Value <= 0.01) | -log10(neutr$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nNeutrophils")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "Neutrophils: "
+volcano_gobps(neutr,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(neutr,angiogenesis, "angiogenesis")
+volcano_gobps(neutr,apoptotic_process, "apoptotic process")
+volcano_gobps(neutr,Autophagy, "autophagy")
+volcano_gobps(neutr,chemotaxis, "chemotaxis")
+volcano_gobps(neutr,cytokine_production, "cytokine production")
+volcano_gobps(neutr,Immune_response, "immune response")
+volcano_gobps(neutr,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(neutr,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(neutr,Immune_system_process, "immune system process")
+volcano_gobps(neutr,Inflammatory_response, "inflammatory response")
+volcano_gobps(neutr,innate_immune_response, "innate immune response")
+volcano_gobps(neutr,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(neutr,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(neutr,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(neutr,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(neutr,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(neutr,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(neutr,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(neutr,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(neutr,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(neutr,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(neutr,T_cell_proliferation, "T cell proliferation")
+```
+- Células NK:
+
+```{r, cache = TRUE, echo = FALSE}
+nk <- topTable(fit, coef="NK.cells", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+nk$signif <- "No"
+nk$signif[nk$P.Value <= 0.01 & nk$logFC >= 2.5] <- "Up"
+nk$signif[nk$P.Value <= 0.01 & nk$logFC <= -2.5] <- "Down"
+head(nk)
+print(paste0("Número de genes: ",length(nk$signif[nk$signif == "Up"])," up-regulated, ", length(nk$signif[nk$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(nk, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = nk[(abs(nk$logFC)>=2.5 & nk$P.Value <= 0.01) | -log10(nk$adj.P.Val) >=3,], aes(label = rownames(nk)[(abs(nk$logFC)>=2.5 & nk$P.Value <= 0.01) | -log10(nk$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nNK Cells")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "NK cells: "
+volcano_gobps(nk,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(nk,angiogenesis, "angiogenesis")
+volcano_gobps(nk,apoptotic_process, "apoptotic process")
+volcano_gobps(nk,Autophagy, "autophagy")
+volcano_gobps(nk,chemotaxis, "chemotaxis")
+volcano_gobps(nk,cytokine_production, "cytokine production")
+volcano_gobps(nk,Immune_response, "immune response")
+volcano_gobps(nk,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(nk,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(nk,Immune_system_process, "immune system process")
+volcano_gobps(nk,Inflammatory_response, "inflammatory response")
+volcano_gobps(nk,innate_immune_response, "innate immune response")
+volcano_gobps(nk,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(nk,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(nk,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(nk,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(nk,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(nk,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(nk,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(nk,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(nk,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(nk,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(nk,T_cell_proliferation, "T cell proliferation")
+```
+
+- Células T CD4:
+
+```{r, cache = TRUE, echo = FALSE}
+cd4 <- topTable(fit, coef="T.cells.CD4", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+cd4$signif <- "No"
+cd4$signif[cd4$P.Value <= 0.01 & cd4$logFC >= 2.5] <- "Up"
+cd4$signif[cd4$P.Value <= 0.01 & cd4$logFC <= -2.5] <- "Down"
+head(cd4)
+print(paste0("Número de genes: ",length(cd4$signif[cd4$signif == "Up"])," up-regulated, ", length(cd4$signif[cd4$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(cd4, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = cd4[(abs(cd4$logFC)>=2.5 & cd4$P.Value <= 0.01) | -log10(cd4$adj.P.Val) >=3,], aes(label = rownames(cd4)[(abs(cd4$logFC)>=2.5 & cd4$P.Value <= 0.01) | -log10(cd4$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nT cells CD4")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "TCD4 cells: "
+volcano_gobps(cd4,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(cd4,angiogenesis, "angiogenesis")
+volcano_gobps(cd4,apoptotic_process, "apoptotic process")
+volcano_gobps(cd4,Autophagy, "autophagy")
+volcano_gobps(cd4,chemotaxis, "chemotaxis")
+volcano_gobps(cd4,cytokine_production, "cytokine production")
+volcano_gobps(cd4,Immune_response, "immune response")
+volcano_gobps(cd4,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(cd4,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(cd4,Immune_system_process, "immune system process")
+volcano_gobps(cd4,Inflammatory_response, "inflammatory response")
+volcano_gobps(cd4,innate_immune_response, "innate immune response")
+volcano_gobps(cd4,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(cd4,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(cd4,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(cd4,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(cd4,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(cd4,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(cd4,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(cd4,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(cd4,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(cd4,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(cd4,T_cell_proliferation, "T cell proliferation")
+```
+- Células T CD8:
+
+```{r, cache = TRUE, echo = FALSE}
+cd8 <- topTable(fit, coef="T.cells.CD8", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+cd8$signif <- "No"
+cd8$signif[cd8$P.Value <= 0.01 & cd8$logFC >= 2.5] <- "Up"
+cd8$signif[cd8$P.Value <= 0.01 & cd8$logFC <= -2.5] <- "Down"
+head(cd8)
+print(paste0("Número de genes: ",length(cd8$signif[cd8$signif == "Up"])," up-regulated, ", length(cd8$signif[cd8$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(cd8, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = cd8[(abs(cd8$logFC)>=2.5 & cd8$P.Value <= 0.01) | -log10(cd8$adj.P.Val) >=3,], aes(label = rownames(cd8)[(abs(cd8$logFC)>=2.5 & cd8$P.Value <= 0.01) | -log10(cd8$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nT cells CD8")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "TCD8 cells: "
+volcano_gobps(cd8,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(cd8,angiogenesis, "angiogenesis")
+volcano_gobps(cd8,apoptotic_process, "apoptotic process")
+volcano_gobps(cd8,Autophagy, "autophagy")
+volcano_gobps(cd8,chemotaxis, "chemotaxis")
+volcano_gobps(cd8,cytokine_production, "cytokine production")
+volcano_gobps(cd8,Immune_response, "immune response")
+volcano_gobps(cd8,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(cd8,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(cd8,Immune_system_process, "immune system process")
+volcano_gobps(cd8,Inflammatory_response, "inflammatory response")
+volcano_gobps(cd8,innate_immune_response, "innate immune response")
+volcano_gobps(cd8,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(cd8,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(cd8,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(cd8,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(cd8,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(cd8,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(cd8,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(cd8,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(cd8,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(cd8,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(cd8,T_cell_proliferation, "T cell proliferation")
+```
+
+- Células T reg:
+
+```{r, cache = TRUE, echo = FALSE}
+treg <- topTable(fit, coef="Tregs", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+treg$signif <- "No"
+treg$signif[treg$P.Value <= 0.01 & treg$logFC >= 2.5] <- "Up"
+treg$signif[treg$P.Value <= 0.01 & treg$logFC <= -2.5] <- "Down"
+head(treg)
+print(paste0("Número de genes: ",length(treg$signif[treg$signif == "Up"])," up-regulated, ", length(treg$signif[treg$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(treg, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = treg[(abs(treg$logFC)>=2.5 & treg$P.Value <= 0.01) | -log10(treg$adj.P.Val) >=3,], aes(label = rownames(treg)[(abs(treg$logFC)>=2.5 & treg$P.Value <= 0.01) | -log10(treg$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nT reg cells")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "Treg cells: "
+volcano_gobps(treg,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(treg,angiogenesis, "angiogenesis")
+volcano_gobps(treg,apoptotic_process, "apoptotic process")
+volcano_gobps(treg,Autophagy, "autophagy")
+volcano_gobps(treg,chemotaxis, "chemotaxis")
+volcano_gobps(treg,cytokine_production, "cytokine production")
+volcano_gobps(treg,Immune_response, "immune response")
+volcano_gobps(treg,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(treg,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(treg,Immune_system_process, "immune system process")
+volcano_gobps(treg,innate_immune_response, "innate immune response")
+volcano_gobps(treg,Inflammatory_response, "inflammatory response")
+volcano_gobps(treg,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(treg,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(treg,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(treg,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(treg,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(treg,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(treg,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(treg,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(treg,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(treg,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(treg,T_cell_proliferation, "T cell proliferation")
+```
+
+- Células dendríticas:
+
+```{r, cache = TRUE, echo = FALSE}
+dendr <- topTable(fit, coef="Dendritic.cells", number = length(fit$coefficients))
+# Definición de los grupos expresados diferencialmente
+dendr$signif <- "No"
+dendr$signif[dendr$P.Value <= 0.01 & dendr$logFC >= 2.5] <- "Up"
+dendr$signif[dendr$P.Value <= 0.01 & dendr$logFC <= -2.5] <- "Down"
+head(dendr)
+print(paste0("Número de genes: ",length(dendr$signif[dendr$signif == "Up"])," up-regulated, ", length(dendr$signif[dendr$signif == "Down"]), " down-regulated"))
+# Volcano plot
+ggplot(dendr, aes(logFC, -log10(P.Value), color = signif)) +
+  geom_point(aes(logFC, -log10(P.Value), color = signif)) +
+  ggrepel::geom_text_repel(data = dendr[(abs(dendr$logFC)>=2.5 & dendr$P.Value <= 0.01) | -log10(dendr$adj.P.Val) >=3,], aes(label = rownames(dendr)[(abs(dendr$logFC)>=2.5 & dendr$P.Value <= 0.01) | -log10(dendr$adj.P.Val) >=3]), colour = "black") +
+  scale_colour_manual(values = c("Up" = "red", "No" = "gray3", "Down" = "blue"))+
+  theme_classic() + labs(x="log2(Fold Change)", y = "-log10(p-value)", colour= "Regulation")+
+  ggtitle("GSE91061 dataset\nDendritic cells")
+```
+```{r, cache = TRUE, echo = FALSE}
+cell_type <- "Dendritic cells: "
+volcano_gobps(dendr,adaptive_immune_response, "adaptive immune response")
+volcano_gobps(dendr,angiogenesis, "angiogenesis")
+volcano_gobps(dendr,apoptotic_process, "apoptotic process")
+volcano_gobps(dendr,Autophagy, "autophagy")
+volcano_gobps(dendr,chemotaxis, "chemotaxis")
+volcano_gobps(dendr,cytokine_production, "cytokine production")
+volcano_gobps(dendr,Immune_response, "immune response")
+volcano_gobps(dendr,immune_response_regulating_cell_surface_receptor_signaling_pathway, "immune response regulating cell surface receptor signaling pathway")
+volcano_gobps(dendr,immune_response_regulating_signaling_pathway, "immune response regulating signaling pathway")
+volcano_gobps(dendr,Immune_system_process, "immune system process")
+volcano_gobps(dendr,innate_immune_response, "innate immune response")
+volcano_gobps(dendr,Inflammatory_response, "inflammatory response")
+volcano_gobps(dendr,Leukocyte_activation, "leukocyte activation")
+volcano_gobps(dendr,leukocyte_cell_cell_adhesion, "leukocyte cell cell adhesion")
+volcano_gobps(dendr,lymphocyte_activation, "lymphocyte activation")
+volcano_gobps(dendr,myeloid_leukocyte_activation, "myeloid leukocyte activation")
+volcano_gobps(dendr,myeloid_leukocyte_migration, "myeloid leukocyte migration")
+volcano_gobps(dendr,positive_regulation_of_immune_response, "positive regulation of immune response")
+volcano_gobps(dendr,Positive_regulation_of_immune_system_process, "positive regulation of immune system process")
+volcano_gobps(dendr,process_utilizing_autophagic_mechanism, "process utilizing autophagic mechanism")
+volcano_gobps(dendr,Regulation_of_immune_response, "regulation of immune response")
+volcano_gobps(dendr,Regulation_of_immune_system_process, "regulation of immune system process")
+volcano_gobps(dendr,T_cell_proliferation, "T cell proliferation")
+```
