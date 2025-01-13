@@ -2,9 +2,9 @@
 
 Los diferentes materiales se han distribuido en carpetas relacionadas con el manuscrito enviado en la plataforma de la universidad.
 
-## Análisis de Supervivencia
+## Análisis de supervivencia
 
-El material se encuentra en la carpeta *OS_curves*, en el que se encuentran los archivos del código (.Rmd) y su pdf correspondiente. En el mismo script se han realizado todos los análisis de esta sección.
+El material se encuentra en la carpeta *OS_curves*, en el que se encuentran los archivos del código (.Rmd) y su pdf correspondiente. En el mismo script se han realizado todos los análisis de esta sección. También se ha incluído el archivo del dataset scRNA-seq utilizado como input data, y el código usado para harmonizarlo.
 
 ## Análisis de deconvolución
 
