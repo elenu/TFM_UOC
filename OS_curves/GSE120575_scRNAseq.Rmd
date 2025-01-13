@@ -1,0 +1,137 @@
+---
+title: |
+  | Deconvolución de datos de mealoma con Bisque:
+  | Datos bulk RNA-seq: GSE120575
+author: "Elena Eyre Sánchez, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    fig_caption: true
+    number_sections: true
+  word_document:
+    toc: true
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    self-contained: true
+    theme: journal
+    urlcolor: tomato
+linkcolor: steelblue2
+fontsize: 8 pt
+#nocite: |
+#bibliography: scholar1.bib
+params:
+  #path_dir: "/Users/elenaeyre/Desktop/ELENA_UOC/TMF"
+  #data: benthic_macroinv.csv
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "##",
+  highlight = TRUE,
+  prompt = FALSE,
+  results = "markup"
+)
+```
+
+# Introducción y Objetivo
+
+# Paquetes y datos
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning=FALSE)
+package_to_load <- c("readr", "dplyr", "ggplot2", "tidyr", "dplyr","RColorBrewer", 
+                     "Biobase", "gplots")
+for (package in package_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+extra_to_load <- c("knitr","stringr", "stringi", "ggrepel","ggpubr", "ggbreak","reshape2","ggfortify","cowplot","GEOquery","Seurat","data.table","limma","illuminaHumanv4.db")
+for (package in extra_to_load) {
+  require(package, character.only = T); packageVersion(package)
+}
+rm(package_to_load, extra_to_load)
+```
+
+## Datos
+
+GSE120575 study authors provided with a matrix of TPM values and a metadata data frame.
+
+```{r, cache = TRUE, warning=FALSE, message=FALSE}
+setwd("~/Desktop/ELENA_UOC/TFM")
+# Very slow step!
+GSE120575_Sade_Feldman_melanoma_single_cells_TPM_GEO <- read_delim("Datasets/GSE120575_Sade_Feldman_melanoma_single_cells_TPM_GEO.txt", 
+                                                                        delim = "\t", escape_double = FALSE, 
+                                                                        trim_ws = TRUE)
+gex <- as.data.frame(GSE120575_Sade_Feldman_melanoma_single_cells_TPM_GEO[-1,])
+gex <- gex[,-1]
+rownames(gex) <- GSE120575_Sade_Feldman_melanoma_single_cells_TPM_GEO$...1[-1]
+  
+library(readr)
+GSE120575_patient_ID_single_cells <- read_delim("Datasets/GSE120575_patient_ID_single_cells.txt", 
+                                                delim = "\t", escape_double = FALSE, 
+                                                trim_ws = TRUE, skip = 19)
+metadata <- as.data.frame(GSE120575_patient_ID_single_cells[GSE120575_patient_ID_single_cells$title %in% colnames(gex),])
+library(stringr)
+metadata2 <- as.data.frame(str_split_fixed(metadata$title, "_", 3))
+colnames(metadata2) <- c("As", "Patient", "Ms")
+metadata2$title <- metadata$title
+rownames(metadata) <- metadata$title
+metadata <- inner_join(metadata, metadata2, by = "title")
+
+library(readxl)
+GSE120575_TableS1 <- read_excel("Datasets/GSE120575_TableS1.xlsx", sheet = "Cluster annotation-Fig1B-C")
+GSE120575_TableS1$title <- GSE120575_TableS1$`Cell Name`
+
+metadata <- left_join(metadata, GSE120575_TableS1, by = "title")
+
+GSE120575_TableS1 <- read_excel("Datasets/GSE120575_TableS1.xlsx", sheet = "Patient-scRNA data", skip = 1)
+GSE120575_TableS1$Patient <- GSE120575_TableS1$`Patient ID`
+
+metadata <- left_join(metadata, GSE120575_TableS1, by = "Patient")
+
+metadata <- mutate(metadata,
+                   Cell_type = if_else(metadata$`Cluster number` == 1, "B_cell",
+                                       if_else(metadata$`Cluster number` == 2, "Plasma_cell",
+                                               if_else(metadata$`Cluster number` == 3, "Monocyte_Macrophage",
+                                                       if_else(metadata$`Cluster number` == 4, "Dendritic_cell",
+                                                               if_else(metadata$`Cluster number` == 5, "Lymphocyte",
+                                                                       if_else(metadata$`Cluster number` == 6, "Exhausted_CD8_T_cell",
+                                                                               if_else(metadata$`Cluster number` == 7, "Treg_cell",
+                                                                                       if_else(metadata$`Cluster number` == 8, "Citotox_Lymphocyte_cell",
+                                                                                               if_else(metadata$`Cluster number` == 9, "Exhausted_HS_CD8_T_cell",
+                                                                                                       if_else(metadata$`Cluster number` == 10, "Memory_T_cell",
+                                                                                                               if_else(metadata$`Cluster number` == 11, "Exhausted_Lymphocyte_cell_Cell_cyle","Other_cell_type"))))))))))))
+
+metadata2 <- as.data.frame(str_split_fixed(metadata$`characteristics: patinet ID (Pre=baseline; Post= on treatment)`, "_", 2))
+colnames(metadata2) <- c("Pre_Post", "Pats")
+metadata2$title <- metadata$title
+metadata <- inner_join(metadata, metadata2, by = "title")
+```
+
+```{r}
+#table(metadata$Cell_type)
+table(metadata$Cell_type,metadata$Patient)
+```
+
+```{r}
+#proportions(table(metadata$Cell_type))
+#proportions(table(metadata$Cell_type,metadata$Patient))
+df <- as.data.frame(apply(table(metadata$Cell_type,c(metadata$Patient),2,proportions)))
+apply(table(metadata$Cell_type,paste(metadata$Patient,metadata$`characteristics: patinet ID (Pre=baseline; Post= on treatment)`)),2,proportions)
+apply(table(metadata$Cell_type,metadata$Pre_Post),2,proportions)
+```
+
+```{r}
+df$Cell_type <- rownames(df)
+write_csv(df, "Proportions_per_patient_of_cell_type_GSE120575.csv")
+metadata2 <- metadata[,-c(8:35)]
+write.table(metadata2, "Final_metadata_GSE120575.txt", sep = "\t")
+```
+
